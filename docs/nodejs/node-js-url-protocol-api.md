@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const url.protocol
 ```
 
@@ -18,7 +18,7 @@ const url.protocol
 
 ## java 描述语言
 
-```
+```js
 // Node program to demonstrate the 
 // url.protocol API as Setter 
 
@@ -44,7 +44,7 @@ console.log(myURL.href);
 
 **输出**:
 
-```
+```js
 Before Change
 https://geeksforgeeks.org:80/foo#ram
 
@@ -56,7 +56,7 @@ http://geeksforgeeks.org/foo#ram
 
 ## java 描述语言
 
-```
+```js
 // Node program to demonstrate the 
 // url.protocol API as Setter 
 
@@ -83,7 +83,7 @@ console.log(myURL.href);
 
 **输出**:
 
-```
+```js
 Before Change
 https://geeksforgeeks.org:80/foo#ram
 
@@ -95,7 +95,7 @@ https://geeksforgeeks.org:80/foo#ram
 
 ## java 描述语言
 
-```
+```js
 // Node program to demonstrate the 
 // url.protocol API as Getter 
 
@@ -115,7 +115,7 @@ console.log("Protocol of current url is : " + protocol);
 
 **输出:**
 
-```
+```js
 Protocol of current url is : https:
 ```
 

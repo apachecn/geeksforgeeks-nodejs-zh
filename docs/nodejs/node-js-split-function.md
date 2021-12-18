@@ -5,7 +5,7 @@
 **split()函数**是 [Node.js](https://www.geeksforgeeks.org/introduction-to-nodejs/) 的一个字符串函数，用于将字符串拆分为子字符串。该函数以数组形式返回输出。
 **语法:**
 
-```
+```js
 *string*.split( *separator* )
 ```
 
@@ -16,7 +16,7 @@
 
 ## java 描述语言
 
-```
+```js
 function splitStr(str) {
 
     // Function to split string
@@ -34,7 +34,7 @@ splitStr(str);    
 
 **输出:**
 
-```
+```js
 [ 'Welcome', 'to', 'GeeksforGeeks' ]
 ```
 
@@ -42,7 +42,7 @@ splitStr(str);    
 
 ## java 描述语言
 
-```
+```js
 function splitStr(str, separator) {
 
     // Function to split string
@@ -62,6 +62,6 @@ splitStr(str, separator);
 
 **输出:**
 
-```
+```js
 [ 'GeeksforGeeks', 'A', 'computer', 'science', 'portal' ]
 ```

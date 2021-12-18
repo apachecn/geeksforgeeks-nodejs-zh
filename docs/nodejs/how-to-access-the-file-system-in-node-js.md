@@ -36,7 +36,7 @@ NodeJS 是运行在 JavaScript V8 引擎上的最流行的服务器端编程框�
 
 **语法:**
 
-```
+```js
 const fs = require('fs');
 ```
 
@@ -46,7 +46,7 @@ const fs = require('fs');
 
 **语法:**
 
-```
+```js
 const fs = require('fs');
 fs.writeFileSync('./{file_name}', 'Content_For_Writing');
 ```
@@ -59,7 +59,7 @@ fs.writeFileSync('./{file_name}', 'Content_For_Writing');
 
 **语法:**
 
-```
+```js
 const fs = require('fs');
 const file_content = fs.readFileSync('./{file_name}', 
     '{content_formate}').toString();
@@ -76,7 +76,7 @@ fs.readFileSync 方法用于从文件中读取数据，readFileSync 的第一个
 
 **语法:**
 
-```
+```js
 const fs = require('fs');
 fs.appendFileSync('./{file_name}', " {Updated_Data}");
 
@@ -92,7 +92,7 @@ fs.appendFileSync 方法用于更新文件的数据。
 
 **操作 4:** 删除文件
 
-```
+```js
 const fs = require('fs');
 fs.unlinkSync('./{file_name}');
 ```
@@ -108,7 +108,7 @@ fs.unlinkSync()方法用于通过传递文件名来删除文件。
 
 ## java 描述语言
 
-```
+```js
 const fs = require('fs');
 
 /* The fs.writeFileSync method is used
@@ -135,7 +135,7 @@ fs.unlinkSync('./testfile');
 
 通过使用以下命令，使用 node.js 测试代码并运行它:
 
-```
+```js
 node index.js
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fsPromises.lchown( path, uid, gid )
 ```
 
@@ -22,7 +22,7 @@ fsPromises.lchown( path, uid, gid )
 
 **文件名:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // fsPromises.lchown() method 
 
@@ -52,13 +52,13 @@ fs.lchown(symlinkpath, 1200, 1201)
 
 **运行该程序的步骤:**使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **运行代码前:**
 
-```
+```js
 xubuntu@xubuntu: ~/Desktop/fs-lchown$ ls -l
 total 4
 -rw-rw--w- 1 xubuntu xubuntu 4 Apr 26 05:10 example_file.txt
@@ -68,13 +68,13 @@ total 4
 
 **代码输出:**
 
-```
+```js
 Given uid and gid set successfully
 ```
 
 **运行代码后:**
 
-```
+```js
 xubuntu@xubuntu: ~/Desktop/fs-lchown$ ls -l
 total 4
 -rw-rw--w- 1 xubuntu xubuntu 4 Apr 26 05:10 example_file.txt

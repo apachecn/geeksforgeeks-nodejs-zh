@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.closeSync( fd )
 ```
 
@@ -18,7 +18,7 @@ fs.closeSync( fd )
 
 **示例 1:** 此示例显示了文件描述符的关闭。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.closeSync() method
 
@@ -40,7 +40,7 @@ try {
 
 **输出:**
 
-```
+```js
 The file descriptor is: 3
 
 > File Closed successfully
@@ -48,7 +48,7 @@ The file descriptor is: 3
 
 **示例 2:** 此示例显示了关闭文件描述符并尝试再次访问关闭的文件描述符。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.closeSync() method
 
@@ -88,7 +88,7 @@ try {
 
 **输出:**
 
-```
+```js
 The file descriptor is: 3
 
 > Finding the stats of the file

@@ -25,7 +25,7 @@ Node.js 中使用了各种方法，比如 readFile()和 writeFile()方法。read
 
 ## java 描述语言
 
-```
+```js
 var fs=require('fs'); // Import the filesystem module
 
 console.log('File Reading from file.txt ..........');

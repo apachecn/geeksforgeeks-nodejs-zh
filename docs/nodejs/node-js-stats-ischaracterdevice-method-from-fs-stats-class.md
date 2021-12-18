@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.isCharacterDevice();
 ```
 
@@ -18,7 +18,7 @@ stats.isCharacterDevice();
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.isCharacterDevice() Method
 
@@ -36,14 +36,14 @@ fs.stat('./filename.txt', (err, stats) => {
 
 **输出:**
 
-```
+```js
 false
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.isCharacterDevice() Method
 
@@ -67,7 +67,7 @@ fs.stat('./filename.txt', (err, stats) => {
 
 **输出:**
 
-```
+```js
 fs.Stats does not describe a character device
 
 ```

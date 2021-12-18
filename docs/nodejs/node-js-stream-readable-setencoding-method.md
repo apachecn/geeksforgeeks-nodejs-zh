@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 readable.setEncoding( encoding )
 ```
 
@@ -18,7 +18,7 @@ readable.setEncoding( encoding )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.setEncoding() method  
 
@@ -43,7 +43,7 @@ console.log("Program ends!!");
 
 **输出:**
 
-```
+```js
 Program ends!!
 48656c6c6f
 
@@ -51,7 +51,7 @@ Program ends!!
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.setEncoding() method  
 
@@ -76,7 +76,7 @@ console.log("Program ends!!");
 
 **输出:**
 
-```
+```js
 Program ends!!
 SGVs
 bG8=

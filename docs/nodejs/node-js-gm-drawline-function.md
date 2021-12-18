@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 drawLine( x0, y0, x1, y1 )
 ```
 
@@ -24,7 +24,7 @@ drawLine( x0, y0, x1, y1 )
 
 **例 1:**
 
-```
+```js
 // Include gm library
 var gm = require('gm').subClass({imageMagick: true});
 
@@ -50,7 +50,7 @@ gm('1.png')
 
 **例 2:**
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
  Event: 'finish'
 ```
 
@@ -16,7 +16,7 @@
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // finish event  
 
@@ -56,7 +56,7 @@ console.log("program is ended.");
 
 **输出:**
 
-```
+```js
 hi
 program is ended.
 Write is completed.
@@ -67,7 +67,7 @@ Write is completed.
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // finish event  
 
@@ -104,7 +104,7 @@ console.log("program is ended.");
 
 **输出:**
 
-```
+```js
 hi
 program is ended.
 

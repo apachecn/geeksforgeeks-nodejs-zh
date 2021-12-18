@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const dirent.isFile()
 ```
 
@@ -18,7 +18,7 @@ const dirent.isFile()
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // dirent.isFile() method
 const fs = require('fs');
@@ -51,13 +51,13 @@ stop('./').catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Dirent { name: 'cert.cer', [Symbol(type)]: 1 }
 true
 Dirent { name: 'certificate1.cer', [Symbol(type)]: 1 }
@@ -73,7 +73,7 @@ true
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // dirent.isFile() method
 const fs = require('fs');
@@ -124,13 +124,13 @@ stop('./').catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Dirent { name: 'cert.cer', [Symbol(type)]: 1 }
 true
 Dirent { name: 'certificate1.cer', [Symbol(type)]: 1 }

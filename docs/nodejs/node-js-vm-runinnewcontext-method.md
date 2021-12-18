@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 vm.runInNewContext( code, contextObject, options )
 ```
 
@@ -41,7 +41,7 @@ vm.runInNewContext( code, contextObject, options )
 
     **例 1:**
 
-    ```
+    ```js
     // Node.js program to demonstrate the     
     // vm.runInNewContext() method
 
@@ -65,7 +65,7 @@ vm.runInNewContext( code, contextObject, options )
 
     **输出:**
 
-    ```
+    ```js
     { portal: 'GeeksforGeeks', authors: 90 }
 
     ```
@@ -74,7 +74,7 @@ vm.runInNewContext( code, contextObject, options )
 
     **例 2:**
 
-    ```
+    ```js
     // Node.js program to demonstrate the     
     // vm.runInNewContext() method
 
@@ -97,7 +97,7 @@ vm.runInNewContext( code, contextObject, options )
 
     **输出:**
 
-    ```
+    ```js
     { localVar: 29 }
     29
 

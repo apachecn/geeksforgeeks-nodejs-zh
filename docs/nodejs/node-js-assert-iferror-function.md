@@ -5,7 +5,7 @@
 assert 模块提供了一组用于验证不变量的断言函数。如果值未定义或为空， **assert.ifError()** 函数将抛出值。在回调中测试错误参数时，这个函数非常有用。
 **语法:**
 
-```
+```js
 assert.ifError(value)
 ```
 
@@ -19,7 +19,7 @@ assert.ifError(value)
 
 1.  您可以访问[安装断言模块](https://www.npmjs.com/package/assert)的链接。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install assert
     ```
 
@@ -27,7 +27,7 @@ assert.ifError(value)
 
 3.  安装断言模块后，您可以使用命令在命令提示符下检查您的**断言**版本。
 
-    ```
+    ```js
     npm version assert
     ```
 
@@ -37,7 +37,7 @@ assert.ifError(value)
 
 ## java 描述语言
 
-```
+```js
 // Requiring the module
 const assert = require('assert').strict;
 
@@ -70,7 +70,7 @@ try {
 
 ## java 描述语言
 
-```
+```js
 // Requiring the module
 const assert = require('assert').strict;
 
@@ -88,13 +88,13 @@ try {
 1.  项目结构会是这样的:![](img/3209d9b4369c180282a34be8070d7d6e.png)
 2.  使用以下命令运行 **index.js** 文件:
 
-    ```
+    ```js
     node index.js
     ```
 
 3.  **输出:**
 
-    ```
+    ```js
     No Error Occured
     ```
 

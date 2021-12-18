@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.writeIntLE( value, offset, byteLength )
 ```
 
@@ -22,7 +22,7 @@ Buffer.writeIntLE( value, offset, byteLength )
 
 **例 1:**
 
-```
+```js
 // Node program to demonstrate the  
 // Buffer.readInt16LE() Method
 
@@ -39,7 +39,7 @@ console.log(buf.toString());
 
 **输出:**
 
-```
+```js
 <Buffer 00 00 00 00 00 46 6f 72 47 65 65 6b 73>
      ForGeeks
 
@@ -47,7 +47,7 @@ console.log(buf.toString());
 
 **例 2:**
 
-```
+```js
 // Node program to demonstrate the  
 // Buffer.readInt16LE() Method
 
@@ -62,7 +62,7 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 <Buffer ef cd ab 00>
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Event: 'pipe'
 ```
 
@@ -15,7 +15,7 @@ Event: 'pipe'
 以下示例说明了**“管道”事件**在 Node.js:
 **示例 1:** 中的使用
 
-```
+```js
 // Node.js program to demonstrate the     
 // pipe event
 
@@ -41,7 +41,7 @@ console.log("Program Ended.");
 
 **输出:**
 
-```
+```js
 Piped!
 Program Ended.
 
@@ -49,7 +49,7 @@ Program Ended.
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // pipe event
 
@@ -72,7 +72,7 @@ console.log("Program Ended");
 
 **输出:**
 
-```
+```js
 Program Ended
 
 ```

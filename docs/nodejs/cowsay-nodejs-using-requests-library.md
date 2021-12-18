@@ -21,7 +21,7 @@
 
 **项目设置:**要实现上面的应用程序演示，创建一个演示文件夹，并在其中创建一个. js 文件。您可以使用下面的方法创建一个文件夹。js 文件
 
-```
+```js
 // inside your terminal or command-line
 mkdir gfg_folder  //make a folder called 'gfg_folder'
 cd gfg_folder     //navigate your terminal into the folder
@@ -31,7 +31,7 @@ Note :I have used different folder name in this article's images.
 
 **npm 安装所需的模块:**在您的终端中，运行以下命令:
 
-```
+```js
 npm install cowsay request --save
 ```
 
@@ -53,7 +53,7 @@ gfg.js snip 组织
 
 *   **第 1 步**:我们‘需要’请求并测试我们之前使用安装的模块
 
-```
+```js
 npm install request cowsay --save
 ```
 
@@ -70,7 +70,7 @@ npm install request cowsay --save
 
 *   **第六步**:我们已经写好了整个代码。现在，去终端写下下面的命令，瞧！您的应用程序正在运行。指挥:
 
-```
+```js
 node gfg.js
 ```
 

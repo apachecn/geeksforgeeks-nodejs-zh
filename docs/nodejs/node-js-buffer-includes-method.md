@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 buffer.includes( value, byteOffset, encoding );
 ```
 
@@ -24,7 +24,7 @@ buffer.includes( value, byteOffset, encoding );
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.includes() Method 
 
@@ -36,13 +36,13 @@ console.log(buffer.includes('Geek'));
 
 **输出:**
 
-```
+```js
 true
 ```
 
 **例 2:**
 
-```
+```js
 // Node program to demonstrate the  
 // Buffer.includes() Method 
 
@@ -57,7 +57,7 @@ console.log(output);
 
 **输出:**
 
-```
+```js
 false
 ```
 

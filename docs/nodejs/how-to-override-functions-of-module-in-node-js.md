@@ -6,19 +6,19 @@
 
 *   首先，*要求*我们要覆盖的模块。
 
-```
+```js
 const url = require('url')
 ```
 
 *   然后删除我们想要覆盖的模块功能。这里我们将覆盖*模块的*格式()*功能*
 
-```
+```js
 delete url['format']
 ```
 
 *   现在添加同名函数“*格式*，为模块的*格式()*函数提供新的定义
 
-```
+```js
 url.format = function(params...) {
     // statement(s)
 }
@@ -27,7 +27,7 @@ url.format = function(params...) {
 
 *   现在重新导出“ *url* ”模块，以使更改生效
 
-```
+```js
 module.exports = url
 ```
 
@@ -35,7 +35,7 @@ module.exports = url
 
 **步骤 1:** 创建一个“ **app.js** 文件，并使用 *npm* 初始化您的项目。
 
-```
+```js
 npm init
 ```
 
@@ -49,7 +49,7 @@ npm init
 
 ## app.js
 
-```
+```js
 // Requiring the in-built url module
 // to override
 const url = require("url");
@@ -78,7 +78,7 @@ console.log(url.format("http://localhost:3000/"));
 
 **步骤 3:** 使用以下命令运行您的节点应用程序。
 
-```
+```js
 node app.js
 ```
 

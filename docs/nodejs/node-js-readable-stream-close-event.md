@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Event: 'close '
 ```
 
@@ -14,7 +14,7 @@ Event: 'close '
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable close event
 
@@ -37,7 +37,7 @@ console.log("Done...");
 
 **输出:**
 
-```
+```js
 Done...
 Stream ended
 
@@ -45,7 +45,7 @@ Stream ended
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable close event
 
@@ -65,7 +65,7 @@ console.log("Done...");
 
 **输出:**
 
-```
+```js
 Done...
 
 ```

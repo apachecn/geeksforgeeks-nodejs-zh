@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 console.table(data, properties);
 ```
 
@@ -21,7 +21,7 @@ console.table(data, properties);
 
 **示例 1:** **文件名:app.js**
 
-```
+```js
 // Node.js program to demonstrate the   
 // console.table() method
 
@@ -45,13 +45,13 @@ console.table([
 
 使用以下命令运行 app.js 文件:
 
-```
+```js
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 ┌─────────┬───┬───┬─────┐
 │ (index) │ a │ b │ c   │
 ├─────────┼───┼───┼─────┤
@@ -70,7 +70,7 @@ node app.js
 
 **示例 2:** **文件名:app.js**
 
-```
+```js
 // Node.js program to demonstrate the   
 // console.table() method
 
@@ -88,13 +88,13 @@ console.table([]);
 
 使用以下命令运行 app.js 文件:
 
-```
+```js
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 arg
 ┌─────────┐
 │ (index) │

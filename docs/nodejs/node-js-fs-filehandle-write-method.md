@@ -5,7 +5,7 @@
 **fs.filehandle.write()** 方法是**文件系统**模块中类 **fs.filehandle** 的内置应用程序编程接口，用于将缓冲区中的数据写入该特定文件。
 **语法:**
 
-```
+```js
 const filehandle.write(buffer[, offset[, length[, position]]])
 ```
 
@@ -22,7 +22,7 @@ const filehandle.write(buffer[, offset[, length[, position]]])
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // filehandle.write() method
 const fs = require('fs');
@@ -80,13 +80,13 @@ funct().catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 file before write operation :- Geeks for Geeks
 file after write operation :- Geeks
 ```
@@ -95,7 +95,7 @@ file after write operation :- Geeks
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // filehandle.sync() method
 const fs = require('fs');
@@ -175,13 +175,13 @@ funct().catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 content of file before operation :- 
   This is a file containing a collection of books.
 file after write operation :- ABCD

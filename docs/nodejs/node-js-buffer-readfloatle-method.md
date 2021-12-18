@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 buffer.readFloatLE( integer )
 ```
 
@@ -18,7 +18,7 @@ buffer.readFloatLE( integer )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // buffer.readFloatLE() Method
 
@@ -33,14 +33,14 @@ console.log(buf); 
 
 **输出:**
 
-```
+```js
 4.063216068939723e-34
 <Buffer 05 06 07 08>
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // buffer.readFloatLE() Method
 
@@ -55,7 +55,7 @@ console.log(buf); 
 
 **输出:**
 
-```
+```js
 internal/buffer.js:72
   throw new ERR_OUT_OF_RANGE(type || 'offset',
   ^

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 url.toString()
 ```
 
@@ -16,7 +16,7 @@ url.toString()
 
 **例 1:**
 
-```
+```js
 // Creating an URL object with URL constructor. 
 const url = new URL("https://www.geeksforgeeks.org"); 
 
@@ -26,14 +26,14 @@ console.log(url.toString()); 
 
 **输出:**
 
-```
+```js
 https://www.geeksforgeeks.org
 
 ```
 
 **例 2:**
 
-```
+```js
 // Creating an URL object with URL constructor. 
 const url = new URL("https://www.google.com?foo=bar"); 
 
@@ -43,7 +43,7 @@ console.log(url.toString()); 
 
 **输出:**
 
-```
+```js
 https://www.google.com/?foo=bar
 
 ```

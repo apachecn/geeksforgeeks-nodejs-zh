@@ -18,31 +18,31 @@
 
 1.  您可以访问[安装 nexmo 模块](https://www.npmjs.com/package/nexmo)的链接。您可以使用以下命令安装此软件包。
 
-    ```
+    ```js
     npm install nexmo
     ```
 
 2.  安装 nexmo 后，您可以使用命令在命令提示符下检查您的 nexmo 版本。
 
-    ```
+    ```js
     npm version nexmo
     ```
 
 3.  之后，您可以创建一个文件夹并添加一个文件。例如 *index.js* 。要运行此文件，您需要运行以下命令。
 
-    ```
+    ```js
     node index.js
     ```
 
 4.  **Requiring module:** You need to include nexmo module in your file by using these lines.
 
-    ```
+    ```js
     const Nexmo = require('nexmo');
     ```
 
     **文件名:index.js**
 
-    ```
+    ```js
     // Include nexmo module
     const Nexmo = require('nexmo');
 
@@ -79,7 +79,7 @@
     2.  确保您已经使用以下命令安装了 nexmo】
     3.  Run *index.js* file using below command:
 
-        ```
+        ```js
         node index.js
         ```
 

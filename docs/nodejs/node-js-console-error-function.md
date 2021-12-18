@@ -5,7 +5,7 @@
 [Node.js](https://www.geeksforgeeks.org/introduction-to-nodejs/) 的控制台类中的**控制台. error()功能**用于在控制台上显示错误信息。它用换行符打印到 stderr。
 **语法:**
 
-```
+```js
 console.error([data][, ...args])
 ```
 
@@ -16,7 +16,7 @@ console.error([data][, ...args])
 
 ## java 描述语言
 
-```
+```js
 // Store number to variable
 num = 20
 
@@ -31,7 +31,7 @@ else {
 
 **输出:**
 
-```
+```js
 Enter number greater then 100
 ```
 
@@ -39,7 +39,7 @@ Enter number greater then 100
 
 ## java 描述语言
 
-```
+```js
 // Store number to variable
 x = 20;
 y = 50;
@@ -55,6 +55,6 @@ else {
 
 **输出:**
 
-```
+```js
 20 is less then or equal to 50
 ```

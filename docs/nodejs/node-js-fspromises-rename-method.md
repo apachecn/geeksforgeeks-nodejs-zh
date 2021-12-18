@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fsPromises.rename( oldPath, newPath )
 ```
 
@@ -21,7 +21,7 @@ fsPromises.rename( oldPath, newPath )
 
 ## Node.js
 
-```
+```js
 // Node.js program to demonstrate the     
 // fsPromises.rename() method  
 
@@ -59,7 +59,7 @@ function getCurrentFilenames() {
 
 **输出:**
 
-```
+```js
 Current filenames:
 GFG.txt
 GeeksforGeeks.js
@@ -75,7 +75,7 @@ GFG.txt
 
 ## node . js
 
-```
+```js
 // Node.js program to demonstrate the     
 // fsPromises.rename() method  
 
@@ -115,7 +115,7 @@ function getCurrentFilenames() {
 
 **输出:**
 
-```
+```js
 Current filenames:
 index.js
 package.json

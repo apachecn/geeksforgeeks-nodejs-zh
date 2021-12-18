@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.entries()
 ```
 
@@ -18,7 +18,7 @@ Buffer.entries()
 
 **例 1:**
 
-```
+```js
 // Node program to demonstrate the
 // Buffer.entries() method
 
@@ -32,7 +32,7 @@ for (const pair of buf.entries()) {
 
 **输出:**
 
-```
+```js
 [ 0, 71 ]
 [ 1, 101 ]
 [ 2, 101 ]
@@ -51,7 +51,7 @@ for (const pair of buf.entries()) {
 
 **例 2:**
 
-```
+```js
 // Node program to demonstrate the
 // Buffer.entries() method
 
@@ -71,13 +71,13 @@ for( const pair of b.entries())
 
 **输出:**
 
-```
+```js
 {"name":"GeeksforGeeks"}
 ```
 
 **例 3:**
 
-```
+```js
 // Node program to demonstrate the
 // Buffer.entries() method
 
@@ -93,7 +93,7 @@ for(const pair of buf.entries()) {
 
 **输出:**
 
-```
+```js
 index 0, value 1
 index 1, value 1
 index 2, value 0

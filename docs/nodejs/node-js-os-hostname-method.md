@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 os.hostname()
 ```
 
@@ -18,7 +18,7 @@ os.hostname()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // os.hostname() method 
 
@@ -31,14 +31,14 @@ console.log(os.hostname());
 
 **输出:**
 
-```
+```js
 gekchos_lappy
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // os.hostname() method 
 
@@ -55,7 +55,7 @@ if(os.hostname()) {
 
 **输出:**
 
-```
+```js
 Hostname for the operating system is gekchos_lappy
 ```
 

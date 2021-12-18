@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 path.extname( path )
 ```
 
@@ -18,7 +18,7 @@ path.extname( path )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // path.extname() method
 
@@ -51,7 +51,7 @@ console.log(path6)
 
 **输出:**
 
-```
+```js
 .txt
 .md
 
@@ -62,7 +62,7 @@ console.log(path6)
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // path.extname() method
 
@@ -88,7 +88,7 @@ paths_array.forEach(filePath => {
 
 **输出:**
 
-```
+```js
 /home/user/website/index.html
 /home/user/website/contact_us.html
 /home/user/website/services.html

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.subarray( starting_index, ending_index )
 ```
 
@@ -23,7 +23,7 @@ Buffer.subarray( starting_index, ending_index )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // Buffer.subarray() method
 
@@ -54,7 +54,7 @@ console.log("Original buffer after modification is: " + buf);
 
 **输出:**
 
-```
+```js
 Original buffer is: GeeksforGeeks
 Cropped buffer is: forGe
 Cropped buffer after modification is: FORGe
@@ -64,7 +64,7 @@ Original buffer after modification is: GeeksFORGeeks
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // Buffer.subarray() method
 
@@ -97,7 +97,7 @@ console.log("Cropped buffer is: " + cropped_buf);
 
 **输出:**
 
-```
+```js
 Original buffer is: GeeksforGeeks
 Cropped buffer is:eeksforGeek
 Cropped buffer is: ksfor

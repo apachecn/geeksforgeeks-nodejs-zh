@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.createUnzip( options )
 ```
 
@@ -18,7 +18,7 @@ zlib.createUnzip( options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // createUnzip() method
 
@@ -46,14 +46,14 @@ zlib.gzip('Nidhi Singh', function(err, data)
 
 **输出:**
 
-```
+```js
 Nidhi Singh
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // createUnzip() method
 
@@ -81,7 +81,7 @@ zlib.gzip('Nidhi Singh', function(err, data)
 
 **输出:**
 
-```
+```js
 4e696468692053696e6768
 
 ```

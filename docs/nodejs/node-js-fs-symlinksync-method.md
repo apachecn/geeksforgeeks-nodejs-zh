@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.symlinkSync( target, path, type )
 ```
 
@@ -20,7 +20,7 @@ fs.symlinkSync( target, path, type )
 
 **示例 1:** 本示例创建一个指向文件的符号链接。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.symlinkSync() method
 
@@ -44,7 +44,7 @@ console.log(
 
 **输出:**
 
-```
+```js
 Contents of the text file:
 Hello Geeks
 
@@ -56,7 +56,7 @@ Hello Geeks
 
 **示例 2:** 本示例创建一个指向目录的符号链接。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.symlinkSync() method
 
@@ -74,7 +74,7 @@ console.log("Symlink is a directory:", 
 
 **输出:**
 
-```
+```js
 Symlink created
 Symlink is a directory: true
 ```

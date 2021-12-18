@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const request.writableEnded
 ```
 
@@ -18,7 +18,7 @@ const request.writableEnded
 
 ## index.js
 
-```
+```js
 // Node.js program to demonstrate the  
 // request.writableEnded APi
 

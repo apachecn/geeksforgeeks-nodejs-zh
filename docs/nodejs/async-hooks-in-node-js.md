@@ -24,7 +24,7 @@
     *   执行注册用户回调后立即调用后的**。**
 3.  **销毁(asyncId):** 销毁 asyncId 对应的资源后调用。
 
-```
+```js
 function destroy(id) {
     print({ stage: 'destroy', id })
 }
@@ -35,7 +35,7 @@ const hook = asyncHooks.createHook(
 
 **输出:**
 
-```
+```js
 {id:2, type:'Timeout', triggerAsyncId:3 }
 {id:3, type:'TIMEWRAP', triggerAsyncId:3 }
 {stage: 'before', id: 4}

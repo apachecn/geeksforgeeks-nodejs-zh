@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 util.types.isUint8ClampedArray( value )
 ```
 
@@ -22,7 +22,7 @@ util.types.isUint8ClampedArray( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // util.types.isUint8ClampedArray() method
 
@@ -55,7 +55,7 @@ console.log("Object is Unsigned 8-bit clamped "
 
 **输出:**
 
-```
+```js
 Object is Unsigned 8-bit clamped array object: true
 Object is Unsigned 8-bit clamped array object: false
 Object is Unsigned 8-bit clamped array object: false
@@ -63,7 +63,7 @@ Object is Unsigned 8-bit clamped array object: false
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // util.types.isUint8ClampedArray() method
 
@@ -104,7 +104,7 @@ console.log("Object is Unsigned 8-bit clamped"
 
 **输出:**
 
-```
+```js
 Uint8ClampedArray [ 0, 128, 255, 255 ]
 Object is Unsigned 8-bit clamped array object: true
 Uint32Array [ 4, 25, 128 ]

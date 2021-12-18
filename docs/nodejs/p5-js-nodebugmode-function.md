@@ -6,7 +6,7 @@ p5.js 中的 **noDebugMode()函数**用于禁用 3D 草图中 DebugMode()函数�
 
 **语法:**
 
-```
+```js
 noDebugMode()
 ```
 
@@ -16,7 +16,7 @@ noDebugMode()
 
 **示例:**
 
-```
+```js
 let newFont;
 let debugModeDisabled = false;
 

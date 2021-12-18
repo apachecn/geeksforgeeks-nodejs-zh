@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const server.address()
 
 ```
@@ -19,7 +19,7 @@ const server.address()
 
 1.  **Private key:** Open notepad and copy paste the following key:
 
-    ```
+    ```js
     -----BEGIN RSA PRIVATE KEY-----
     MIICXQIBAAKBgQC38R9wXcUbhOd44FavgmE5R3K4JeYOHLnI7dUq1B8/Gv7l3SOg
     JKef/m9gM1KvUx951mapXGtcWgwB08J3vUE2YOZ4tWJArrVZES0BI/RmFAyhQFP5
@@ -41,7 +41,7 @@ const server.address()
 
 2.  **公钥证书:**打开记事本复制粘贴如下密钥:
 
-    ```
+    ```js
     -----BEGIN CERTIFICATE-----
     MIICfzCCAegCCQDxxeXw914Y2DANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMC
     SU4xEzARBgNVBAgMCldlc3RiZW5nYWwxEDAOBgNVBAcMB0tvbGthdGExFDASBgNV
@@ -66,7 +66,7 @@ const server.address()
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // server.address() method
 
@@ -155,7 +155,7 @@ client.on("error", function(error) {
 
 **输出:**
 
-```
+```js
 I'm listening at 127.0.0.1, on port 1337
 Connection not authorized: DEPTH_ZERO_SELF_SIGNED_CERT
 
@@ -168,7 +168,7 @@ Connection closed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // server.address() method
 
@@ -217,14 +217,14 @@ var client = tls.connect(PORT,
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 
 ```
 
 **输出:**
 
-```
+```js
 I'm listening at 127.0.0.1, on port 1337
 
 Received: Bound address : [object Object] 

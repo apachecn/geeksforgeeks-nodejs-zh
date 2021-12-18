@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 const util = require('util');
 util.isDeepStrictEqual(val1, val2);
 ```
@@ -23,7 +23,7 @@ util.isDeepStrictEqual(val1, val2);
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 
 // Node.js syntax to demonstrate the 
 // util.isDeepStrictEqual() method
@@ -83,13 +83,13 @@ console.log("6.>", util.isDeepStrictEqual(
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 1.> false
 2.> true
 3.> true
@@ -101,7 +101,7 @@ node index.js
 
 **示例 2:** **文件名:index.js**
 
-```
+```js
 // Node.js syntax to demonstrate the
 // util.isDeepStrictEqual() method
 
@@ -142,14 +142,14 @@ console.log("6.>", isDeepStrictEqual(0, -0));
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```
 
 **输出:**
 
-```
+```js
 1.> false
 2.> true
 3.> false

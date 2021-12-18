@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const response.response.setTimeout(msecs[, callback])
 ```
 
@@ -20,7 +20,7 @@ const response.response.setTimeout(msecs[, callback])
 
 **第一步**:打开记事本复制粘贴以下密钥，将文件保存为*私钥. pem*
 
-```
+```js
 -----BEGIN RSA PRIVATE KEY-----
 MIICXQIBAAKBgQC38R9wXcUbhOd44FavgmE5R3K4JeYOHLnI7dUq1B8/Gv7l3SOg
 JKef/m9gM1KvUx951mapXGtcWgwB08J3vUE2YOZ4tWJArrVZES0BI/RmFAyhQFP5
@@ -46,7 +46,7 @@ nUG9lYvH7DztWDTioXMrruPF7bdXfZOVJD8t0I4OUzvC
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse.setTimeout() API
 const http2 = require('http2');
@@ -116,13 +116,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 status : 200
 Received: surprise!!!
 client destroyed
@@ -133,7 +133,7 @@ server destroyed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse.setTimeout() method
 const http2 = require('http2');
@@ -205,13 +205,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 client destroyed
 server destroyed
 ```

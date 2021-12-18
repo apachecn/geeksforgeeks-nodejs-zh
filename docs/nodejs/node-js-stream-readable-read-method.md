@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 readable.read( size )
 ```
 
@@ -18,7 +18,7 @@ readable.read( size )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.read() method  
 
@@ -45,7 +45,7 @@ console.log("done");
 
 **输出:**
 
-```
+```js
 done
 read: hello
 ```
@@ -54,7 +54,7 @@ read: hello
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.read() method  
 
@@ -81,7 +81,7 @@ console.log("done");
 
 **输出:**
 
-```
+```js
 done
 read: h
 read: e

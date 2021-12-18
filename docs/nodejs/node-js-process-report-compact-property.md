@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.report.compact
 ```
 
@@ -18,7 +18,7 @@ process.report.compact
 
 ## index.js
 
-```
+```js
 // Node.js program to demonstrate the 
 // process.report.compact Property 
 
@@ -31,7 +31,7 @@ console.log(`Reports are compact? ${process.report.compact}`);
 
 **运行命令:**
 
-```
+```js
 node index.js
 ```
 

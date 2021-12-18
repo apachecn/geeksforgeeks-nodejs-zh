@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 util.types.isNativeError( value )
 ```
 
@@ -20,7 +20,7 @@ util.types.isNativeError( value )
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the    
 // util.types.isNativeError() Method
 
@@ -49,13 +49,13 @@ console.log("6.>", types.isNativeError(new ReferenceError()));  
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 1.> false
 2.> true
 3.> true
@@ -67,7 +67,7 @@ node index.js
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // util.types.isNativeError() Method
 
@@ -124,13 +124,13 @@ console.log("11.>", util.types.isNativeError(
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 1.> true
 2.> false
 3.> false

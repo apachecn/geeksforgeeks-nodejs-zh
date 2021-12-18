@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 diffieHellman.getPublicKey([encoding])
 ```
 
@@ -18,7 +18,7 @@ diffieHellman.getPublicKey([encoding])
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the
 // diffieHellman.getPublicKey() Method
 
@@ -41,13 +41,13 @@ console.log('Public Key ( without encoding ): ', publicKey, '\n')
 
 使用以下命令运行**文件:**
 
-```
+```js
 **node index.js**
 ```
 
 ****输出:****
 
-```
+```js
 **Public Key ( with encoding ):  m/tuBRWr1mHOT4VzjRvcgZ+9Vtp925GS78Mdu
 E7DfTxAm5750700EbWzVgLZWZ8N0AQoN1xQLlgDtBsdDo1wnQ== 
 
@@ -60,7 +60,7 @@ Public Key ( without encoding ):  <Buffer 9b fb 6e 05 15 ab d6 61 ce
 
 ## **index . js**
 
-```
+```js
 **// Node.js program to demonstrate the
 // diffieHellman.getPublicKey() Method
 
@@ -91,13 +91,13 @@ if( aliceSecret === bobSecret )
 
 **使用以下命令运行**文件:****
 
-```
+```js
 ***node index.js***
 ```
 
 *****输出:*****
 
-```
+```js
 ***Symmetric key : VyeZOZm+hZQtZVp6HQdhWTkrHfZb8tR/yRiD99ljFWsnVHJNULdjnc
 5oN5/mMSNqEWFqiJ0U14JYngJwXL008A==***
 ```

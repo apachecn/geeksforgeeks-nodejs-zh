@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 filehandle.stat(options);
 ```
 
@@ -29,7 +29,7 @@ filehandle.stat(options);
 
 **示例 1:** 该示例使用每个子目录的统计信息来区分目录的文件和文件夹。
 
-```
+```js
 // Node.js program to demonstrate the
 // filehandle.stat() Method
 
@@ -74,7 +74,7 @@ allDir.forEach(dir => {
 
 **示例 2:** 本示例使用每个子目录的统计信息来统计其大小。
 
-```
+```js
 // Node.js program to demonstrate the
 // filehandle.stat() Method
 

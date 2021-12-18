@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const cipher.final([outputEncoding])
 ```
 
@@ -18,7 +18,7 @@ const cipher.final([outputEncoding])
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // cipher.final() method
 
@@ -48,7 +48,7 @@ console.log("buffer :- " + value);
 
 **输出:**
 
-```
+```js
 buffer :- b9be42878310d599e4e49e040d1badb9
 ```
 
@@ -56,7 +56,7 @@ buffer :- b9be42878310d599e4e49e040d1badb9
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // cipher.final() method
 
@@ -91,13 +91,13 @@ crypto.scrypt(password, 'salt', 24,
 
 **输出:**
 
-```
+```js
 buffer :- 726cccfc7d80ca473d8d4de1a0a42675
 ```
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 

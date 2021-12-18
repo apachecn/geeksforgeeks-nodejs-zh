@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const crypto.setFips(bool)
 ```
 
@@ -18,7 +18,7 @@ const crypto.setFips(bool)
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // crypto.setFips() method
 
@@ -46,13 +46,13 @@ try {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 FIPS mode is not available.
 ```
 
@@ -60,7 +60,7 @@ FIPS mode is not available.
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // crypto.setFips() method
 
@@ -85,7 +85,7 @@ try {
 
 **输出:**
 
-```
+```js
 ERR_CRYPTO_FIPS_UNAVAILABLE
 ```
 

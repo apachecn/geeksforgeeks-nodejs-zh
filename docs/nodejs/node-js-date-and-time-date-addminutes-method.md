@@ -8,19 +8,19 @@
 
 *   **By using NPM: 【T1]**
 
-```
+```js
 npm install date-and-time --save
 ```
 
 *   **By using CDN link:**
 
-```
+```js
 <script src="/path/to/date-and-time.min.js"></script>
 ```
 
 **语法:**
 
-```
+```js
 const addMinutes(dateObj, minutes)
 ```
 
@@ -35,7 +35,7 @@ const addMinutes(dateObj, minutes)
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.addMinutes() method
 
@@ -57,7 +57,7 @@ console.log("updated date and time :- " + value)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -69,7 +69,7 @@ node index.js
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.addMinutes() method
 
@@ -92,7 +92,7 @@ console.log("updated date and time :- " + value)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

@@ -10,7 +10,7 @@ Node.js 是一个开源的跨平台运行时环境，用于在浏览器之外执
 
 ## java 描述语言
 
-```
+```js
 var http = require('http');
 
 // Create a server object:
@@ -28,7 +28,7 @@ http.createServer(function (request, response) {
 
 **运行文件的步骤:**打开 CMD，转到保存上述文件的文件夹目录，然后运行以下命令。
 
-```
+```js
 node geeksforgeeks.js
 ```
 

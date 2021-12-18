@@ -8,7 +8,7 @@ Node.js 是对现有 javaScript 的增强。它用于服务器端脚本。它主
 
 下面的例子演示了如何使用这些模块递归复制文件夹。
 
-```
+```js
 Create a folder structure as follows 
 in the working directory:
 mkdir f1\f2\f3\f4\f5
@@ -18,7 +18,7 @@ notepad f1\f2\f3\f4\f5\new.txt
 
 **语法:**
 
-```
+```js
 ncp(source, destination, options, callback)
 ```
 
@@ -36,13 +36,13 @@ ncp(source, destination, options, callback)
 **示例 1:** 使用 ncp 模块
 使用以下命令安装 **ncp** 模块:
 
-```
+```js
 npm install ncp
 ```
 
 **文件名:recursiveCopy.js 文件**
 
-```
+```js
 var ncp = require('ncp').ncp;
 
 // Represents the number of pending
@@ -65,7 +65,7 @@ ncp('D:\\HTML\\f1', 'D:\\HTML\\recursive', 
 
 **语法:**
 
-```
+```js
 fs.copy(source, destination, callback)
 ```
 
@@ -78,13 +78,13 @@ fs.copy(source, destination, callback)
 **示例 2:** 使用 fs-extra 模块
 使用以下命令安装 **fs-extra** 模块:
 
-```
+```js
 npm install fs-extra
 ```
 
 **档案名称:fsrecur . js】t1**
 
-```
+```js
 const fs = require('fs-extra');
 
 // Async with promises:

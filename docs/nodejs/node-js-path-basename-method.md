@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 path.basename( path, extension )
 ```
 
@@ -21,7 +21,7 @@ path.basename( path, extension )
 
 **示例 1:** 使用 UNIX 文件路径
 
-```
+```js
 // Node.js program to demonstrate the   
 // path.basename() method
 
@@ -38,14 +38,14 @@ console.log(path2)
 
 **输出:**
 
-```
+```js
 index.txt
 index
 ```
 
 **示例 2:** 使用 Windows 文件路径
 
-```
+```js
 // Node.js program to demonstrate the   
 // path.basename() method
 
@@ -62,7 +62,7 @@ console.log(path2)
 
 **输出:**
 
-```
+```js
 index.html
 index
 ```

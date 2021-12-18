@@ -16,7 +16,7 @@
 
     ## index.html
 
-    ```
+    ```js
     <!DOCTYPE html>
     <html>
         <head>
@@ -36,7 +36,7 @@
 
     ## java 描述语言
 
-    ```
+    ```js
     let encode = () => {
         let input = document.getElementById('inp');
         let url = input.value;
@@ -55,13 +55,13 @@
 
 *   **步骤 1:** 初始化 node.js 项目
 
-    ```
+    ```js
     npm init
     ```
 
 *   **步骤 2:** 安装所需模块
 
-    ```
+    ```js
     npm install express
     ```
 
@@ -69,7 +69,7 @@
 
     ## index.js
 
-    ```
+    ```js
     const express = require("express");
 
     const app = express();

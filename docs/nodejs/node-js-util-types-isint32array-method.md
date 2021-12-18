@@ -6,7 +6,7 @@ util 模块的**util . types . Isit32 array()方法**主要是为了支持 Node.
 
 **语法:**
 
-```
+```js
 util.types.isInt32Array( value )
 ```
 
@@ -18,7 +18,7 @@ util.types.isInt32Array( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // util.types.isInt32Array() method
 
@@ -34,14 +34,14 @@ console.log(util.types.isInt32Array(new Int32Array()));
 
 **输出:**
 
-```
+```js
 false
 true
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // util.types.isInt32Array() method
 
@@ -86,7 +86,7 @@ console.log(util.types.isInt32Array(array5));
 
 **输出:**
 
-```
+```js
 true
 true
 true

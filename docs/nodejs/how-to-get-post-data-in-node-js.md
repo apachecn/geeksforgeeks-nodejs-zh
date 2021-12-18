@@ -8,13 +8,13 @@
 
 post 数据是在 app.post()方法的回调函数内部的 **req** 对象上提供给我们的。我们可以使用下面提到的语法访问作为正文发送的数据。
 
-```
+```js
 const bodyContent = req.body;
 ```
 
 类似地，如果我们想访问标题内容，那么我们可以使用下面提到的语法。
 
-```
+```js
 const headerContent = req.headers;
 ```
 
@@ -26,13 +26,13 @@ const headerContent = req.headers;
 
 **步骤 3:** 现在，使用命令行中的以下命令，用默认配置初始化一个新的 Node.js 项目。
 
-```
+```js
 npm init -y
 ```
 
 **步骤 4:** 现在使用命令行中的以下命令在项目内部安装 express。
 
-```
+```js
 npm install express
 ```
 
@@ -44,7 +44,7 @@ npm install express
 
 ## java 描述语言
 
-```
+```js
 // Importing express module
 const express = require('express');
 const app = express();
@@ -74,7 +74,7 @@ app.listen(3000, () => {
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
 
@@ -132,7 +132,7 @@ app.listen(3000, () => {
 
 使用以下命令运行 **app.js** 文件:
 
-```
+```js
 node app.js
 ```
 

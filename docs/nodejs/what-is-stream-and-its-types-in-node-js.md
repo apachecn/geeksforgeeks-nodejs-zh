@@ -27,7 +27,7 @@
 
     **文件名:main.js**
 
-    ```
+    ```js
     var fs = require("fs"); 
     var data = ''; 
 
@@ -54,13 +54,13 @@
 
     使用以下命令运行 **main.js** 文件:
 
-    ```
+    ```js
     $ node main.js
     ```
 
     上述命令的输出如下所示:
 
-    ```
+    ```js
     This is a code to learn about the reading from a stream.
     ```
 
@@ -68,7 +68,7 @@
 
     **文件名:main.js**
 
-    ```
+    ```js
 
     var fs = require('fs');
     var data = 'This is a code to learn"
@@ -97,13 +97,13 @@
 
     使用以下命令运行 **main.js** 文件:
 
-    ```
+    ```js
     $ node main.js
     ```
 
     执行上述命令后，将在当前目录中创建一个名为 **output.txt** 的文件，其文本如下:
 
-    ```
+    ```js
     This is a code to learn about writing in a stream.
     ```
 
@@ -111,13 +111,13 @@
 
     用以下文本创建一个名为 **input.txt** 的文件:
 
-    ```
+    ```js
     This is a code to learn about piping the stream.
     ```
 
     **文件名:main.js**
 
-    ```
+    ```js
     var fs = require('fs'); 
 
     // Create a readable stream 
@@ -133,13 +133,13 @@
 
     使用以下命令运行 **main.js** 文件:
 
-    ```
+    ```js
     $ node main.js
     ```
 
     执行上述命令后，将在当前目录下创建一个名为 **output.txt** 的文件，其文本如下:
 
-    ```
+    ```js
     This is a code to learn about piping the stream.
     ```
 
@@ -147,7 +147,7 @@
 
     **文件名:main.js**
 
-    ```
+    ```js
     var fs = require('fs'); 
     var zlib = require('zlib'); 
 
@@ -161,13 +161,13 @@
 
     使用以下命令运行 **main.js** 文件:
 
-    ```
+    ```js
     $ node main.js
     ```
 
     上述命令的输出如下所示:
 
-    ```
+    ```js
     File Compressed.
     ```
 
@@ -176,7 +176,7 @@
     现在解压上面创建的文件的代码如下所示:
     **文件名:main.js**
 
-    ```
+    ```js
     var fs = require('fs'); 
     var zlib = require('zlib'); 
 
@@ -190,13 +190,13 @@
 
     使用以下命令运行 **main.js** 文件:
 
-    ```
+    ```js
     $ node main.js
     ```
 
     上述命令的输出如下所示:
 
-    ```
+    ```js
     File Decompressed.
     ```
 

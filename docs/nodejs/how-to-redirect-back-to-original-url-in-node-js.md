@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```js
 return res.redirect([status], path)
 ```
 
@@ -18,7 +18,7 @@ return res.redirect([status], path)
 
 ## <u>java 描述语言</u>
 
-```
+```js
 const express= require('express');
 
 var app= express();
@@ -44,13 +44,13 @@ app.listen(3000,function(req,res){
 
 <u>**域相对重定向:**我们可以用这个方法重定向到同一个域下的不同页面。例如，如果用户在[<u>http://example.com/gfg/post1</u>](http://example.com/gfg/post1)，那么我们可以使用下面一行代码重定向到[<u>http://example.com/article</u>](http://example.com/gfg/post1)</u>
 
-```
+```js
 res.redirect('/article');
 ```
 
 <u>**路径名相对重定向:**我们可以用这个方法重定向到网站上的上一个路径。例如，如果用户在[<u>http://example.com/gfg/post1</u>](http://example.com/gfg/post1)，那么我们可以使用下面一行代码重定向到[<u>http://example.com/gfg</u>](http://example.com/gfg/post1)</u>
 
-```
+```js
 res.redirect('..');
 ```
 
@@ -62,7 +62,7 @@ res.redirect('..');
 
 <u>我们可以使用这种方法将请求重定向回 [<u>引用者</u>](https://en.wikipedia.org/wiki/HTTP_referer) 。如果没有*推荐人*出现，默认情况下，请求被重定向到“/”路由。</u>
 
-```
+```js
 res.redirect('back');
 ```
 
@@ -72,7 +72,7 @@ res.redirect('back');
 
 ## <u>java 描述语言</u>
 
-```
+```js
 const express= require('express');
 
 var app= express();

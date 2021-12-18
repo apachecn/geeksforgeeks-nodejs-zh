@@ -8,7 +8,7 @@ fs.appendFile()方法基于回调。使用回调方法导致回调嵌套或回�
 
 **语法:**
 
-```
+```js
 fs.appendFile(path, data, options)
 ```
 
@@ -25,7 +25,7 @@ fs.appendFile(path, data, options)
 
 **例 1:**
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 const util = require('util')
@@ -71,7 +71,7 @@ readFileContent('./testFile.txt')
 
 使用异步等待实现相同的功能。
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 const util = require('util')
@@ -117,7 +117,7 @@ appendDataToFile('./testFile.txt', 
 
 **示例 2:** 当给定的文件名路径不存在时。
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 const util = require('util')
@@ -154,7 +154,7 @@ appendContent('./testFile.txt', 
 
 实现与异步等待相同的功能。
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 const util = require('util')

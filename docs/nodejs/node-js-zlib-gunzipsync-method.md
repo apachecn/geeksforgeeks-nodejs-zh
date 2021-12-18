@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.gunzipSync( buffer, options )
 ```
 
@@ -21,7 +21,7 @@ zlib.gunzipSync( buffer, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // zlib.gunzipSync() method  
 
@@ -44,13 +44,13 @@ console.log(decom);
 
 **输出:**
 
-```
+```js
 Nidhi
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // zlib.gunzipSync() method  
 
@@ -73,7 +73,7 @@ console.log(decom);
 
 **输出:**
 
-```
+```js
 TmlkaGk=
 
 ```

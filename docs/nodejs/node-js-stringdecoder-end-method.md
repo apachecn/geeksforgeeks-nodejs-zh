@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 stringDecoder.end( [buffer] )
 ```
 
@@ -23,7 +23,7 @@ stringDecoder.end( [buffer] )
 
 ## java 描述语言
 
-```
+```js
 // Import the string_decoder module
 // and get the StringDecoder class 
 // using object destructuring
@@ -55,7 +55,7 @@ console.log(decoder.end(Buffer.from([0xAC])));
 
 **输出:**
 
-```
+```js
 Decoded Text: GeeksforGeeks
 Decoding the Euro Symbol:
 
@@ -66,7 +66,7 @@ Decoding the Euro Symbol:
 
 ## java 描述语言
 
-```
+```js
 // Import the string_decoder module
 // and get the StringDecoder class 
 // using object destructuring
@@ -97,7 +97,7 @@ console.log("Cent Symbol using end():",
 
 **输出:**
 
-```
+```js
 Complete Cent Symbol: ¢
 Cent Symbol using write():
 Cent Symbol using end(): ??

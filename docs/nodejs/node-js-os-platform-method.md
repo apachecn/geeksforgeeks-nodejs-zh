@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 os.platform()
 ```
 
@@ -17,7 +17,7 @@ os.platform()
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the    
 // os.platform() method 
 
@@ -30,7 +30,7 @@ console.log(os.platform());
 
 **输出:**
 
-```
+```js
 linux
 ```
 
@@ -38,7 +38,7 @@ linux
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the    
 // os.platform() method
 console.log(process.platform);
@@ -46,7 +46,7 @@ console.log(process.platform);
 
 **输出:**
 
-```
+```js
 linux
 ```
 
@@ -54,7 +54,7 @@ linux
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the    
 // os.platform() method 
 
@@ -87,7 +87,7 @@ switch(platform) {
 
 **输出:**
 
-```
+```js
 Linux Platform
 ```
 

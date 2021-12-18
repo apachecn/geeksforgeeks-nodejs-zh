@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```js
 path.parse( path )
 ```
 
@@ -26,7 +26,7 @@ path.parse( path )
 
 **例 1:** 在 POSIX
 
-```
+```js
 // Node.js program to demonstrate the   
 // path.parse() method
 
@@ -44,7 +44,7 @@ console.log(path2);
 
 **输出:**
 
-```
+```js
 {
   root: '/',
   dir: '/users/admin/website',
@@ -63,7 +63,7 @@ console.log(path2);
 
 **示例 2:** 在 Windows 上
 
-```
+```js
 // Node.js program to demonstrate the   
 // path.parse() method
 
@@ -79,7 +79,7 @@ console.log(path2);
 
 **输出:**
 
-```
+```js
 {
   root: 'C:\\',
   dir: 'C:\\users\\admin\\website',

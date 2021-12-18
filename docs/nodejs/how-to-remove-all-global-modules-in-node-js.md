@@ -8,14 +8,14 @@ Node.js 是一个开源的跨平台运行时环境，用于在浏览器之外执
 
 **对于 Linux (Ubuntu)用户:**为了卸载全局安装的 package_name package，可以使用以下命令(必要时使用 sudo，具体取决于您的设置和权限)。
 
-```
+```js
 sudo npm rm --global package_name
 
 ```
 
 要检查软件包是否已全局安装，请使用以下命令:
 
-```
+```js
 npm ls --global packae_name
 
 ```
@@ -26,7 +26,7 @@ npm ls --global packae_name
 
 **对于窗口用户:**窗口用户只需删除以下目录的内容，即可全局删除所有 Node.js 模块:
 
-```
+```js
 C:\Users\username\AppData\Roaming\npm
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.getgid()
 ```
 
@@ -20,7 +20,7 @@ process.getgid()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // process.getgid() method  
 
@@ -34,14 +34,14 @@ console.log(process.getgid());
 
 **输出:**
 
-```
+```js
 1000
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // process.getgid() method  
 
@@ -61,7 +61,7 @@ if (process.getgid) {
 
 **输出:**
 
-```
+```js
 The numerical group identity of the Node.js process: 1000
 
 ```

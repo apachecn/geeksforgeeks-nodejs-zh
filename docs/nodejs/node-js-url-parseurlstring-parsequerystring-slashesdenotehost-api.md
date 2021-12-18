@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 url.parse( urlString, parseQueryString, slashesDenoteHost)
 ```
 
@@ -28,7 +28,7 @@ url.parse( urlString, parseQueryString, slashesDenoteHost)
 
 ## java 描述语言
 
-```
+```js
 // Node program to demonstrate the  
 // url.parse() method  
 
@@ -55,7 +55,7 @@ console.log(urlObject)
 
 ## java 描述语言
 
-```
+```js
 // Node program to demonstrate the  
 // url object properties  
 

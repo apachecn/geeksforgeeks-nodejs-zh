@@ -30,7 +30,7 @@
 
 ## java 描述语言
 
-```
+```js
 // Import the 'events' module
 const events = require('events');
 
@@ -64,13 +64,13 @@ console.log("Finish");
 
 使用以下命令运行 *app.js* 文件:
 
-```
+```js
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 Connection established.
 Data Transfer Successful.
 Finish

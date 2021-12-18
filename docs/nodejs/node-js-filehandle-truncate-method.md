@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 filehandle.truncate( len );
 ```
 
@@ -18,7 +18,7 @@ filehandle.truncate( len );
 
 **示例 1:** 这个示例说明了当文件将被截断后的长度没有给出时，如何截断作品。
 
-```
+```js
 // Importing File System and 
 // Utilities module
 const fs = require('fs')
@@ -57,13 +57,13 @@ truncateFile('./testFile.txt')
 
 **输出:**
 
-```
+```js
 Truncate done, File contents are deleted!
 ```
 
 **例 2:** 这个例子说明了如何截断作品，当长度后的文件将被截断时，给出了。
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 

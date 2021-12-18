@@ -6,7 +6,7 @@
 **色调**修改器是 Nodejs | Jimp 中的一个内置颜色修改器，它将黑色混合到图像中。
 **语法:**
 
-```
+```js
 image.color([
   { apply: 'shade', params: value }
 ]);
@@ -24,7 +24,7 @@ image.color([
 
 **例 1:**
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');
@@ -46,7 +46,7 @@ main();
 ![](img/30693799c627ff9b3349aaaa84f0e772.png)
 **例 2: cb(可选参数)**
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');

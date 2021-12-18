@@ -4,7 +4,7 @@
 
 POST 是万维网使用的 HTTP 支持的一种请求方法。HTTP POST 方法向服务器发送数据。请求正文的类型由内容类型头指示。我们使用 Express.js 来创建一个服务器并发出请求(GET、POST 等)。
 
-```
+```js
 npm i express
 ```
 
@@ -12,7 +12,7 @@ npm i express
 
 所以为了使用 Express 来处理我们服务器上的 POST 请求，我们使用 app.post 方法，然后我们指定路由，我们有一个回调。
 
-```
+```js
 app.post(route, function(req, res){
     //this is a callback function
 })
@@ -26,7 +26,7 @@ app.post(route, function(req, res){
 
 ## java 描述语言
 
-```
+```js
 const express = require("express");
 const app = express();
 
@@ -45,7 +45,7 @@ app.listen(3000, function(){
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -80,7 +80,7 @@ app.listen(3000, function(){
 
 ## java 描述语言
 
-```
+```js
 const express = require("express");
 const bodyParser = require("body-parser")
 

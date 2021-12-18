@@ -8,7 +8,7 @@
 *   **Exception handling in synchronous code:**If an error occurs in a synchronous code, return the error.
     **Example:**
 
-    ```
+    ```js
     // Write Javascript code here
     // Define divider as a syncrhonous function
     var divideSync = function(x, y) {
@@ -54,7 +54,7 @@
 *   **Exception handling in callback-based( asynchronous) code:** In callback-based code, the one of the argument of the callback is err. If an error happens err is the error, if an error doesn’t happen then err is null. The err argument can be followed any number of other arguments.
     **Example:**
 
-    ```
+    ```js
     // Write Javascript code here
     var divide = function(x, y, next) {
         // if error condition?
@@ -100,7 +100,7 @@
 *   **多事代码中的异常处理:**在多事代码中，错误可能发生在任何地方。因此，与其抛出错误，不如激发错误事件。
     **例:**
 
-    ```
+    ```js
     // Write Javascript code here
     // Definite our Divider Event Emitter
     var events = require("events")

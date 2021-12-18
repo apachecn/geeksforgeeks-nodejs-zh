@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```js
 util.types.isGeneratorObject( value )
 ```
 
@@ -19,7 +19,7 @@ util.types.isGeneratorObject( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // util.types.isGeneratorObject() method
 
@@ -49,7 +49,7 @@ console.log("Object is a generator object:", isGenObj);
 
 **输出:**
 
-```
+```js
 Object [Generator] {}
 Object is a generator object: true
 { a: '1', b: '2' }
@@ -58,7 +58,7 @@ Object is a generator object: false
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // util.types.isGeneratorObject() method
 
@@ -90,7 +90,7 @@ console.log("Object is a generator object:", isGenObj);
 
 **输出:**
 
-```
+```js
 Object [Generator] {}
 Object is a generator object: true
 { arg1: '1', arg2: '2' }

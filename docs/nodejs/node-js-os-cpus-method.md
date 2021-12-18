@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 os.cpus()
 ```
 
@@ -29,7 +29,7 @@ os.cpus()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // os.cpus() method
 
@@ -42,7 +42,7 @@ console.log(os.cpus());
 
 **输出:**
 
-```
+```js
 [ { model: 'Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz',
     speed: 2712,
     times:
@@ -64,7 +64,7 @@ console.log(os.cpus());
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // os.cpus() method
 
@@ -87,7 +87,7 @@ console.log("total number of logical core is "
 
 **输出:**
 
-```
+```js
 Logical core 1 :
 { model: 'Intel(R) Core(TM) i5-7200U CPU @ 2.50GHz',
   speed: 2712,

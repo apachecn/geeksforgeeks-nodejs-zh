@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 writable.destroy()
 ```
 
@@ -18,7 +18,7 @@ writable.destroy()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.uncork() method  
 const stream = require('stream');
@@ -50,7 +50,7 @@ writable.destroy();
 
 **输出:**
 
-```
+```js
 hi
 hello
 Writable {  _writableState:
@@ -97,7 +97,7 @@ Writable {  _writableState:
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.uncork() method  
 const stream = require('stream');
@@ -131,7 +131,7 @@ writable.write('');
 
 **输出:**
 
-```
+```js
 hi
 hello
 Error [ERR_STREAM_DESTROYED]: Cannot call write after a stream was destro

@@ -8,13 +8,13 @@
 
 **模块安装:**使用以下命令安装所需模块:
 
-```
+```js
 npm install crypto
 ```
 
 **语法:**
 
-```
+```js
 hash.update(data [,Encoding])
 ```
 
@@ -29,7 +29,7 @@ hash.update(data [,Encoding])
 
 ## Javascript
 
-```
+```js
 // Import crypto module
 const crypto = require('crypto');
 
@@ -47,7 +47,7 @@ console.log("Hash Value : " + hash);
 
 **输出:**
 
-```
+```js
 Hash Value : 5a302d3c930d9e938c5326d7bb863afdc024b9ce77e30e99c4b82983350f8196
 ```
 
@@ -55,7 +55,7 @@ Hash Value : 5a302d3c930d9e938c5326d7bb863afdc024b9ce77e30e99c4b82983350f8196
 
 ## Javascript
 
-```
+```js
 // Import crypto module
 const crypto = require('crypto');
 
@@ -76,7 +76,7 @@ console.log("Hash Value : " + hash);
 
 **输出:**
 
-```
+```js
 Hash Value : e0789790d7da870830a679828c722f74f3840d4a6483f5babfb62c4d19884c9e
 ```
 

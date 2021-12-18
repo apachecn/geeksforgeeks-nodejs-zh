@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 var Bool = URLSearchParams.has(*name*)
 ```
 
@@ -17,7 +17,7 @@ var Bool = URLSearchParams.has(*name*)
 
 **示例 1:**
 
-```
+```js
 let url = new URL('https://example.com?par=5&bar=4');
 let param = new URLSearchParams(url.search.slice(1));
 
@@ -26,13 +26,13 @@ param.has('bar') === true; 
 
 **输出:**
 
-```
+```js
 true
 ```
 
 **示例 2:** 当输入参数不存在时
 
-```
+```js
 let url = new URL('https://example.com?par=5&bar=4');
 let param = new URLSearchParams(url.search.slice(1));
 
@@ -41,7 +41,7 @@ param.has('foo') === true; 
 
 **输出:**
 
-```
+```js
 false
 ```
 

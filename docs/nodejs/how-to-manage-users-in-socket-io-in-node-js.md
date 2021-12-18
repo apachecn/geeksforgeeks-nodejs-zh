@@ -10,7 +10,7 @@
 
 **步骤 1:** 为后端安装依赖项
 
-```
+```js
 npm init
 npm install cors
 npm install express
@@ -35,7 +35,7 @@ index.js 内部使用了三种方法:
 
 ## java 描述语言
 
-```
+```js
 const express = require('express');
 const socketio = require('socket.io');
 const http = require('http');
@@ -118,7 +118,7 @@ server.listen(process.env.PORT || 5000,
 
 ## java 描述语言
 
-```
+```js
 const users = [];
 
 const addUser = ({id, name, room}) => {
@@ -163,13 +163,13 @@ module.exports = {addUser, removeUser,
 
 **步骤 1:** 安装前端反应。
 
-```
+```js
 npx create react-app "client" 
 ```
 
 **步骤 2:** 反应安装后，在客户端文件夹中安装项目的依赖项。
 
-```
+```js
   npm install query-string;
   npm install react-emoji;
   npm install react-router;
@@ -186,7 +186,7 @@ npx create react-app "client"
 
 ## java 描述语言
 
-```
+```js
 import React from 'react';
 
 import Chat from './components/Chat/Chat';
@@ -213,7 +213,7 @@ export default App;
 
 ## java 描述语言
 
-```
+```js
 import React, {useState, useEffect} from "react";
 import queryString from "query-string";
 import io from 'socket.io-client';
@@ -304,7 +304,7 @@ export default Chat;
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```js
 .outerContainer {
     display: flex;
     justify-content: center;
@@ -347,7 +347,7 @@ export default Chat;
 
 ## java 描述语言
 
-```
+```js
 import React from 'react';
 
 import './InfoBar.css';
@@ -372,7 +372,7 @@ export default InfoBar;
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```js
 .infoBar {
     display: flex;
     align-items: center;
@@ -409,7 +409,7 @@ export default InfoBar;
 
 ## java 描述语言
 
-```
+```js
 import React from 'react';
 
 import './Input.css';
@@ -439,7 +439,7 @@ export default Input;
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```js
 .form {
     display: flex;
     border-top: 2px solid #D3D3D3;
@@ -475,7 +475,7 @@ export default Input;
 
 ## java 描述语言
 
-```
+```js
 import React, {useState} from "react";
 import {Link} from 'react-router-dom';
 
@@ -527,7 +527,7 @@ export default Join;
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```js
 html, body {
     font-family: 'Roboto', sans-serif;
     padding: 0;
@@ -605,7 +605,7 @@ button:focus {
 
 ## java 描述语言
 
-```
+```js
 import React from 'react';
 
 import './Message.css';
@@ -657,7 +657,7 @@ export default Message;
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```js
 .messageBox {
     background: #F3F3F3;
     border-radius: 20px;
@@ -733,7 +733,7 @@ export default Message;
 
 ## java 描述语言
 
-```
+```js
 import React from 'react';
 
 import Message from './Message/Message';

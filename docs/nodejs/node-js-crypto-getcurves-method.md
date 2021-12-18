@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crypto.getCurves()
 ```
 
@@ -18,7 +18,7 @@ crypto.getCurves()
 
 **例:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.getCurves() method
 
@@ -34,7 +34,7 @@ console.log("The list of all the elliptic curves are : ", curve);
 
 **输出:**
 
-```
+```js
 The list of all the elliptic curves are :  [ 'Oakley-EC2N-3',
   'Oakley-EC2N-4',
   'SM2',

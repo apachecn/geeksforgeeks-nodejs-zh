@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 readable.readableObjectMode
 ```
 
@@ -16,7 +16,7 @@ readable.readableObjectMode
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.readableObjectMode Property
 
@@ -51,14 +51,14 @@ console.log("objectMode is true!!");
 
 **输出:**
 
-```
+```js
 objectMode is true!!
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.readableObjectMode Property
 
@@ -93,7 +93,7 @@ console.log("objectMode is false!!");
 
 **输出:**
 
-```
+```js
 objectMode is false!!
 ```
 

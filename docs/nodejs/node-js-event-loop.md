@@ -15,7 +15,7 @@ Node.js 是一个单线程事件驱动平台，能够运行非阻塞异步编程
 
 **示例:**
 
-```
+```js
 console.log("This is the first statement");
 
 setTimeout(function(){
@@ -27,7 +27,7 @@ console.log("This is the third statement"); 
 
 **输出:**
 
-```
+```js
 This is the first statement
 This is the third statement
 This is the second statement

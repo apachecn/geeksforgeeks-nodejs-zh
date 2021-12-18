@@ -10,7 +10,7 @@ Node.js 中的异步操作是非阻塞操作，这意味着如果我们在代码
 
 **语法:**
 
-```
+```js
 const calcTime = async () => {
   const start = Date.now();
   await someAsyncOperation();
@@ -33,7 +33,7 @@ const calcTime = async () => {
 
 ## app.js
 
-```
+```js
 const asyncAdd = async (a, b) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -57,7 +57,7 @@ const asyncAdd = async (a, b) => {
 
 **运行应用程序的步骤:**我们可以在命令行上使用以下命令执行我们的 app.js 文件。
 
-```
+```js
 node app.js
 ```
 

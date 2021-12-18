@@ -6,7 +6,7 @@ Node.js 电报机器人应用编程接口中使用了**机器人发送照片()**
 
 **语法:**
 
-```
+```js
 TelegramBot.sendPhoto(chatId, location)
 
 ```
@@ -20,7 +20,7 @@ TelegramBot.sendPhoto(chatId, location)
 
 **安装模块:**使用以下命令安装模块:
 
-```
+```js
 npm i telegram-bot-api
 
 ```
@@ -40,7 +40,7 @@ npm i telegram-bot-api
 
 **文件名:bot.js**
 
-```
+```js
 var token = 'Enter the token';
 
 const TelegramBot = require('node-telegram-bot-api');
@@ -69,7 +69,7 @@ bot.onText(/\/echo(.+)/, (msg, match) => {
 
 使用以下命令运行 bot.js 文件:
 
-```
+```js
 node bot.js
 
 ```

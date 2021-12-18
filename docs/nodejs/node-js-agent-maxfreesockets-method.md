@@ -10,14 +10,14 @@ Node.js *HTTP* *API* 是低级的，因此它可以支持 *HTTP* 应用程序。
 
 **进口:**
 
-```
+```js
 const http = require('http');
 
 ```
 
 **语法:**
 
-```
+```js
 agent.maxFreeSockets;
 
 ```
@@ -30,7 +30,7 @@ agent.maxFreeSockets;
 
 **示例 1:Filename:index . js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // agent.maxFreeSockets method 
 
@@ -65,7 +65,7 @@ req.end(); 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.fchownSync( fd, uid, gid )
 ```
 
@@ -20,7 +20,7 @@ fs.fchownSync( fd, uid, gid )
 
 **示例 1:** 本示例显示了所有者的设置。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.fchownSync() method
 
@@ -39,7 +39,7 @@ console.log("uid and gid set successfully");
 
 **运行代码前:**
 
-```
+```js
 xubuntu@xubuntu: ~/Desktop/fs-fchownSync$ ls -l
 total 8
 -rw-rw--w- 1 xubuntu xubuntu 4 Apr 22 09:10 example_file.txt
@@ -49,14 +49,14 @@ total 8
 
 **代码输出:**
 
-```
+```js
 Given uid and gid set successfully
 
 ```
 
 **运行代码后:**
 
-```
+```js
 xubuntu@xubuntu: ~/Desktop/fs-fchownSync$ ls -l
 total 8
 -rw-rw--w- 1 geeksforgeeks xubuntu 4 Apr 22 09:10 example_file.txt
@@ -66,7 +66,7 @@ total 8
 
 **示例 2:** 此示例显示了组的设置。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.fchownSync() method
 
@@ -85,7 +85,7 @@ console.log("uid and gid set successfully");
 
 **运行代码前:**
 
-```
+```js
 xubuntu@xubuntu: ~/Desktop/fs-fchownSync$ ls -l
 total 8
 -rw-rw--w- 1 xubuntu xubuntu 4 Apr 22 09:10 example_file.txt
@@ -95,14 +95,14 @@ total 8
 
 **代码输出:**
 
-```
+```js
 Given uid and gid set successfully
 
 ```
 
 **运行代码后:**
 
-```
+```js
 xubuntu@xubuntu: ~/Desktop/fs-fchownSync$ ls -l
 total 8
 -rw-rw--w- 1 xubuntu author 4 Apr 22 09:10 example_file.txt

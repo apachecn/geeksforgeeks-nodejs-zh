@@ -8,13 +8,13 @@
 
 *   这将删除用户表。但是，如果用户表不在那里，这将引发错误。
 
-    ```
+    ```js
     DROP TABLE users
     ```
 
     *   仅当用户表存在时，此操作才会将其删除。
 
-    ```
+    ```js
     DROP TABLE IF EXISTS users
     ```
 
@@ -22,7 +22,7 @@
 
     *   mysql:处理 MySQL 连接和查询
 
-        ```
+        ```js
         npm install mysql
         ```
 
@@ -35,7 +35,7 @@
 
     ## java 描述语言
 
-    ```
+    ```js
     const mysql = require("mysql");
 
     let db_con  = mysql.createConnection({
@@ -72,7 +72,7 @@
 
     ## java 描述语言
 
-    ```
+    ```js
     const mysql = require("mysql");
 
     let db_con  = mysql.createConnection({

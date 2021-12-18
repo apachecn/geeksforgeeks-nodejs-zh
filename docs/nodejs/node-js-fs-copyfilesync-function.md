@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.copyFileSync(src, dest, mode)
 ```
 
@@ -24,7 +24,7 @@ fs.copyFileSync(src, dest, mode)
 
 ## java 描述语言
 
-```
+```js
 
 // Node.js program to demonstrate the
 // fs.copyFileSync() method

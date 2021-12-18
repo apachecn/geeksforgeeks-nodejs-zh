@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const crypto.webcrypto
 ```
 
@@ -18,7 +18,7 @@ const crypto.webcrypto
 
 ## index.js
 
-```
+```js
 // Node.js program to demonstrate the  
 // crypto.webcrypto function
 
@@ -37,13 +37,13 @@ console.log(val.getRandomValues(Int16Array.of(buffer)))
 
 使用以下命令运行 index.js 文件。
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Int16Array(1) [ 31796 ]
 ```
 
@@ -51,7 +51,7 @@ Int16Array(1) [ 31796 ]
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // crypto.webcrypto function
 
@@ -62,13 +62,13 @@ console.log((require('crypto').webcrypto)
 
 使用以下命令运行 index.js 文件。
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Int16Array(1) [ -6968 ]
 ```
 

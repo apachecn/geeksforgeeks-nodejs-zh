@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crypto.sign(algorithm, data, key)
 ```
 
@@ -18,7 +18,7 @@ crypto.sign(algorithm, data, key)
 
 **模块安装:**使用以下命令安装所需的模块:
 
-```
+```js
 npm install crypto
 ```
 
@@ -28,7 +28,7 @@ npm install crypto
 
 ## signature.js
 
-```
+```js
 const crypto = require('crypto');
 const buffer = require('buffer');
 
@@ -52,7 +52,7 @@ console.log(`Signature:\n\n ${signature}`);
 
 使用以下命令运行**签名. js** 文件:
 
-```
+```js
 node signature.js
 ```
 
@@ -64,7 +64,7 @@ node signature.js
 
 ## signature.js
 
-```
+```js
 const crypto = require('crypto');
 const buffer = require('buffer');
 const fs = require('fs');
@@ -94,7 +94,7 @@ console.log(`Signature:\n\n ${signature}`);
 
 使用以下命令运行**签名. js** 文件:
 
-```
+```js
 node signature.js
 ```
 
@@ -106,7 +106,7 @@ node signature.js
 
 ## signature.js
 
-```
+```js
 const crypto = require('crypto');
 const buffer = require('buffer');
 
@@ -137,7 +137,7 @@ console.log(`Signature:\n\n ${signature}`);
 
 使用以下命令运行**签名. js** 文件:
 
-```
+```js
 node signature.js
 ```
 

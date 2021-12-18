@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const request.setHeader(name, value)
 ```
 
@@ -18,7 +18,7 @@ const request.setHeader(name, value)
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the  
 // request.setHeader() method
 
@@ -53,13 +53,13 @@ http.createServer((req, res) => { })
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 before operation :- text/html
 after operation :- undefined
 ```
@@ -68,7 +68,7 @@ after operation :- undefined
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the  
 // request.setHeader() method
 
@@ -116,13 +116,13 @@ server.listen(3000, '127.0.0.1', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 before operation :- type=ninja,language=javascript
 after operation :- undefined
 ```

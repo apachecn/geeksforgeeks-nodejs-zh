@@ -8,7 +8,7 @@ util.inspect()(在 v0.3.0 中添加)方法是 util 模块的内置应用程序�
 
 **语法:**
 
-```
+```js
 const util = require('util');
 util.inspect(object[, options])
 ```
@@ -34,7 +34,7 @@ util.inspect(object[, options])
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js syntax to demonstrate
 // the util.inspect() method 
 
@@ -91,14 +91,14 @@ console.log("8.>", inspect(nestedObject), { depth: 0 });
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```
 
 **输出:**
 
-```
+```js
 1.> <ref *1> {
   a: [ [Circular *1] ],
   b: <ref *2> { inner: [Circular *2], obj: [Circular *1] }
@@ -125,7 +125,7 @@ node index.js
 
 **示例 2:** **文件名:index.js**
 
-```
+```js
 // Node.js syntax to demonstrate the 
 // util.inspect() method 
 
@@ -200,7 +200,7 @@ console.log("8.>", util.inspect(object2));
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```

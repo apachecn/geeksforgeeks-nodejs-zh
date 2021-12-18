@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.execArgv
 ```
 
@@ -16,7 +16,7 @@ process.execArgv
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // process.execPath property
 
@@ -29,14 +29,14 @@ console.log(process.execPath);
 
 **输出:**
 
-```
+```js
 C:\Program Files\nodejs\node.exe
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // process.execPath property
 
@@ -56,7 +56,7 @@ console.log(execpath.split(path.sep));
 
 **输出:**
 
-```
+```js
 C:\Program Files\nodejs\node.exe
 [ 'C:', 'Program Files', 'nodejs', 'node.exe' ]
 

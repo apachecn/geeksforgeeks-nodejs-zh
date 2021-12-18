@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.swap16()
 ```
 
@@ -20,7 +20,7 @@ Buffer.swap16()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // Buffer.swap16() method 
 
@@ -42,7 +42,7 @@ console.log(buf); 
 
 **输出:**
 
-```
+```js
 <Buffer 01 02 03 04 05 06 07 08>
 <Buffer 02 01 04 03 06 05 08 07>
 
@@ -50,7 +50,7 @@ console.log(buf); 
 
 **示例 2:** 此示例显示此方法引发的错误。
 
-```
+```js
 // Node.js program to demonstrate the 
 // Buffer.swap16() method 
 
@@ -81,7 +81,7 @@ catch(e) {
 
 **输出:**
 
-```
+```js
 <Buffer 07 05 02>
 Entering catch block
 RangeError [ERR_INVALID_BUFFER_SIZE]: Buffer size

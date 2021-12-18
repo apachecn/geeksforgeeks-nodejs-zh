@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 console.timeEnd( label )
 ```
 
@@ -18,7 +18,7 @@ console.timeEnd( label )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // console.timeEnd() method
 
@@ -43,13 +43,13 @@ console.timeEnd();
 
 **输出:**
 
-```
+```js
 default: 7.517ms
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // console.timeEnd() method
 
@@ -76,7 +76,7 @@ console.timeEnd(timetaken);
 
 **输出:**
 
-```
+```js
 Time taken by addCount function: 8.972ms
 ```
 

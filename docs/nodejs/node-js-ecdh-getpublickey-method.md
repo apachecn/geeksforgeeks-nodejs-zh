@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 ecdh.getPublicKey( encoding, format )
 ```
 
@@ -23,7 +23,7 @@ ecdh.getPublicKey( encoding, format )
 
 ## java 描述语言
 
-```
+```js
 const crypto = require('crypto');
 
 // Generate an ECDH object for geekA
@@ -55,7 +55,7 @@ console.log("Public Key of Geek B is:", geekBPublicKey);
 
 ## java 描述语言
 
-```
+```js
 const crypto = require('crypto');
 
 // Generate an ECDH object for geekA

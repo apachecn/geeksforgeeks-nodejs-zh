@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dns.lookupService( address, port, callback )
 ```
 
@@ -25,7 +25,7 @@ dns.lookupService( address, port, callback )
 
 **示例 1:** 本地主机的 IP
 
-```
+```js
 // Accessing dns module
 const dns = require('dns');
 
@@ -41,13 +41,13 @@ dns.lookupService('127.0.0.1', 22,
 
 **输出:**这里我电脑的名字是 my-lappy
 
-```
+```js
 my-lappy ssh
 ```
 
 **例 2:**
 
-```
+```js
 // Accessing dns module
 const dns = require('dns');
 
@@ -84,7 +84,7 @@ dns.lookup('www.geeksforgeeks.org', 
 
 **输出:**
 
-```
+```js
 address: 42.106.162.241
 42-106-162-241.live.vodafone.in http
 

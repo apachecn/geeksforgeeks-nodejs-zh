@@ -6,7 +6,7 @@
 
 **安装模块:**使用以下命令安装猫鼬模块:
 
-```
+```js
 npm install mongoose
 ```
 
@@ -16,7 +16,7 @@ npm install mongoose
 
 **在本地 IP 上运行服务器:**数据是 MongoDB 服务器所在的目录。
 
-```
+```js
 mongod --dbpath=data --bind_ip 127.0.0.1
 ```
 
@@ -28,7 +28,7 @@ mongod --dbpath=data --bind_ip 127.0.0.1
 
 ## index.js
 
-```
+```js
 // Importing mongoose module
 const mongoose = require("mongoose");
 
@@ -82,7 +82,7 @@ collections
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

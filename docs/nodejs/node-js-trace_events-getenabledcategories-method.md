@@ -6,14 +6,14 @@
 
 **语法:**
 
-```
+```js
 trace_events.getEnabledCategories()
 
 ```
 
 为了使用这个方法，我们需要使用(*trace _ events . createtracing()*)方法创建跟踪事件，并且我们需要导入‘trace _ events’模块。
 
-```
+```js
 const trace_events = require('trace_events');  
 
 ```
@@ -24,7 +24,7 @@ const trace_events = require('trace_events');
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // trace_events.getEnabledCategories() method 
 
@@ -62,14 +62,14 @@ trace_event2.disable();
 
 **输出:**
 
-```
+```js
 Enabled categories node,node.promises.rejections
 
 ```
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // trace_events.getEnabledCategories() method 
 
@@ -114,7 +114,7 @@ if (trace_events.getEnabledCategories()) {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```

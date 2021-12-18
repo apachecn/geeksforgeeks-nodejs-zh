@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crypto.publicEncrypt( key, buffer )
 ```
 
@@ -26,7 +26,7 @@ crypto.publicEncrypt( key, buffer )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.publicEncrypt() method
 
@@ -83,7 +83,7 @@ console.log("Encrypted: ", encrypted);
 
 **输出:**
 
-```
+```js
 Plaintext: GfG
 Encrypted:  l0touwFaNv1DIgPE365VQD0G4rg+IbRD5G6IBQ1arLgWtFOStKO7duYJ6/JzlOJl3eBG7obqzAEJ0V2WrxtYRTg=
 
@@ -91,7 +91,7 @@ Encrypted:  l0touwFaNv1DIgPE365VQD0G4rg+IbRD5G6IBQ1arLgWtFOStKO7duYJ6/JzlOJl3eBG
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.publicEncrypt() method
 
@@ -148,7 +148,7 @@ console.log("Buffer: ", encrypted);
 
 **输出:**
 
-```
+```js
 Plaintext: Hello!
 Buffer: <Buffer 1b 2a c7 4d 10 44 45 8e 9d e6
 53 9d 8a 5e 39 0f ea e2 96 00 d7 d3 b3 eb 54 7e

@@ -4,7 +4,7 @@
 
 **‘快递’模块:**为了使用快递模块，我们需要在 cmd 上安装 **NPM** ( *节点包管理器*)和以下模块(*)。*
 
-```
+```js
 // Creates package.json file
 >> npm init 
 
@@ -17,7 +17,7 @@
 
 **语法:**
 
-```
+```js
 var express = require("express");
 ```
 
@@ -25,7 +25,7 @@ var express = require("express");
 
 **语法:**
 
-```
+```js
 const app = express();    
 
 // OR Importing and creating express application
@@ -34,7 +34,7 @@ var express = require("express")();
 
 **发送和侦听响应:**它与客户端和服务器通信请求和响应。它需要 PORT < *号* >和 IP < *号* >进行通信。
 
-```
+```js
 app.listen(PORT, IP, Callback);
 ```
 
@@ -50,7 +50,7 @@ app.listen(PORT, IP, Callback);
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to create server 
 // with help of Express module
 
@@ -85,7 +85,7 @@ app.listen(PORT, IP, () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -97,7 +97,7 @@ node index.js
 
 **‘哈比神’模块:**为了使用 hapiJS 模块，我们需要在 cmd 上安装 **NPM** ( *节点包管理器*)和以下模块(*)。*
 
-```
+```js
 // Creates package.json file
 >> npm init 
 
@@ -109,7 +109,7 @@ node index.js
 
 **语法:**
 
-```
+```js
 var Hapi = require("@hapi/hapi");
 ```
 
@@ -117,7 +117,7 @@ var Hapi = require("@hapi/hapi");
 
 **语法:**
 
-```
+```js
 const server = Hapi.server({port: 2020, host: 'localhost'});
 ```
 
@@ -133,7 +133,7 @@ const server = Hapi.server({port: 2020, host: 'localhost'});
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to create server
 // using hapi module
 
@@ -170,7 +170,7 @@ start();
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

@@ -19,13 +19,13 @@
 
 在空目录中初始化 npm，以下面的命令开始:
 
-```
+```js
 npm init -y
 ```
 
 使用以下命令安装所需的模块:
 
-```
+```js
 npm install express --save
 npm install body-parser --save
 npm install sharp --save
@@ -38,7 +38,7 @@ npm install multer --save
 
 **注意:**如需了解更多关于上传和 multer 的用法，您可以参考 [Multer](https://www.npmjs.com/package/multer) 的官方文档
 
-```
+```js
 // Importing the module
 const multer = require('multer');  
 
@@ -51,7 +51,7 @@ const upload = multer({dest : './images'})   
 
 **文件名:app.js**
 
-```
+```js
 // Importing the required modules
 var express = require('express');
 var bodyparser = require('body-parser');
@@ -90,13 +90,13 @@ app.listen(3000, ()=>{
 
 1.  Run app.js file using the following command:
 
-    ```
+    ```js
     node app.js
     ```
 
     执行上述命令后，您将看到以下输出:
 
-    ```
+    ```js
     Server Running!
     ```
 
@@ -105,7 +105,7 @@ app.listen(3000, ()=>{
 
 **使用夏普处理图像:**我们将通过夏普包处理图像。要创建具有不同属性的多个实例，我们使用以下代码:
 
-```
+```js
 // Configuring thumbnail image
 sharp(__dirname + '/images/avatar.jpg').resize(200,200)
 .jpeg({quality : 50}).toFile(__dirname 
@@ -120,7 +120,7 @@ sharp(__dirname + '/images/avatar.jpg').resize(640,480)
 所以一切都准备好了，最终 **app.js** 如下:
 **文件名:app.js**
 
-```
+```js
 var express = require('express');
 var bodyparser = require('body-parser');
 var fs = require('fs');

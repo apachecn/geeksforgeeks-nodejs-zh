@@ -8,7 +8,7 @@
 
 **代码片段:**
 
-```
+```js
 if ((typeof process !== 'undefined') && 
 (process.release.name.search(/node|io.js/) !== -1)) {
     console.log('this script is running in Node.js');
@@ -23,7 +23,7 @@ if ((typeof process !== 'undefined') && 
 
 **代码片段:**
 
-```
+```js
 if (typeof module !== 'undefined' && module.exports) {
     console.log('this script is running in Node.js');
 } else {
@@ -38,7 +38,7 @@ if (typeof module !== 'undefined' && module.exports) {
 1.  用上面的代码创建一个文件 **index.js** 。
 2.  Run the file on Terminal with the following command:
 
-    ```
+    ```js
     node index.js
     ```
 
@@ -53,7 +53,7 @@ if (typeof module !== 'undefined' && module.exports) {
 1.  用上面的代码创建一个文件 **index.js** 。
 2.  在同一目录下创建另一个文件**index.html**，代码如下:
 
-    ```
+    ```js
     <!DOCTYPE html>
     <html>
     <head>

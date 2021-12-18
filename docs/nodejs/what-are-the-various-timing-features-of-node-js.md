@@ -8,7 +8,7 @@ Node.js 中的计时器模块由帮助控制代码执行时间的函数组成。
 
 **语法:**
 
-```
+```js
 setTimeout(callback, delay, args )
 ```
 
@@ -20,7 +20,7 @@ setTimeout(callback, delay, args )
 
 **示例:**
 
-```
+```js
 let str = 'GeeksforGeeks!';
 
 setTimeout(function () {
@@ -33,7 +33,7 @@ console.log('Executing setTimeout() method');
 
 **输出:**
 
-```
+```js
 Executing setTimeout() method
 GeeksforGeeks!
 ```
@@ -44,7 +44,7 @@ GeeksforGeeks!
 
 **语法:**
 
-```
+```js
 setImmediate(callback, args)
 ```
 
@@ -55,7 +55,7 @@ setImmediate(callback, args)
 
 **示例:**
 
-```
+```js
 setTimeout(function () {
     console.log('setTimeout() function running');
 }, 5000);
@@ -78,7 +78,7 @@ console.log('Simple statement in the event loop');
 
 **输出:**
 
-```
+```js
 Simple statement in the event loop
 setImmediate() function running
 setTimeout() function running
@@ -96,7 +96,7 @@ setInterval() function running
 
 **语法:**
 
-```
+```js
 setInterval(callback, delay, args)
 ```
 
@@ -108,7 +108,7 @@ setInterval(callback, delay, args)
 
 **示例:**
 
-```
+```js
 setInterval(function() {
     console.log('Welcome to GeeksforGeeks');
 }, 5000);
@@ -116,7 +116,7 @@ setInterval(function() {
 
 **输出:**
 
-```
+```js
 Welcome to GeeksforGeeks
 Welcome to GeeksforGeeks
 .....

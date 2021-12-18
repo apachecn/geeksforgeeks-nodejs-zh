@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 app.all('*', (req, res) => {
     // code logic
 })
@@ -22,13 +22,13 @@ app.all('*', (req, res) => {
 
 **第二步:**为你的项目创建一个文件夹，并将 cd(变更目录)放入其中。在该文件夹中创建一个名为 app.js 的新文件。现在，使用以下命令用默认配置初始化一个新的 Node.js 项目。
 
-```
+```js
 npm init -y
 ```
 
 **步骤 3:** 现在使用命令行中的以下命令在项目内部安装 express。
 
-```
+```js
 npm install express
 ```
 
@@ -38,7 +38,7 @@ npm install express
 
 ## app.js
 
-```
+```js
 const express = require('express');
 const app = express();
 
@@ -66,7 +66,7 @@ app.listen(3000, () => {
 
 **运行** **应用程序的步骤:**您可以使用命令行上的以下命令运行您的快递服务器。
 
-```
+```js
 node app.js
 ```
 

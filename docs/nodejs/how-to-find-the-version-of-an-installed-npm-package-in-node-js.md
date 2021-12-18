@@ -6,7 +6,7 @@
 
 **使用下面的** **命令在本地安装 npm 包:**该命令将在我们的本地目录中安装上述包。
 
-```
+```js
 npm install <package-name> 
 ```
 
@@ -14,7 +14,7 @@ npm install <package-name>
 
 **使用下面的** **命令全局安装 npm 包****:**该命令将全局安装上述包。全局软件包都安装在我们机器上的一个位置，这就是为什么全局安装的软件包可以在我们机器上的任何目录下访问。
 
-```
+```js
 npm install -g <package-name>
 ```
 
@@ -22,7 +22,7 @@ npm install -g <package-name>
 
 1.  使用下面的命令检查特定目录中本地安装的 Node.js 包。
 
-    ```
+    ```js
     npm ls
     ```
 
@@ -32,7 +32,7 @@ npm install -g <package-name>
 
 2.  使用下面的命令检查我们机器上全局安装的软件包。
 
-    ```
+    ```js
     npm list -g
     ```
 
@@ -42,7 +42,7 @@ npm install -g <package-name>
 
 3.  使用以下命令检查全局安装的 node.js 包中的特定包。
 
-    ```
+    ```js
     npm ls -g <package_name>
     ```
 
@@ -52,7 +52,7 @@ npm install -g <package-name>
 
 4.  使用下面的命令只检查包的本地顶级域，而不检查所有的子包。
 
-    ```
+    ```js
     npm list --depth=0
     ```
 
@@ -62,7 +62,7 @@ npm install -g <package-name>
 
 5.  使用以下命令检查全局顶级域节点. js 包。
 
-    ```
+    ```js
     npm list --depth=0 -g
     ```
 

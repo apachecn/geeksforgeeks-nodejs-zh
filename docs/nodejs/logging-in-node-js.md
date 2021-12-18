@@ -10,7 +10,7 @@
 
 语法:
 
-```
+```js
 console.log(level, message)
 ```
 
@@ -22,7 +22,7 @@ console.log(level, message)
 
     ## 爪哇描述语言
 
-    ```
+    ```js
     const app = express()
     const loggingMiddleware = require('my-logging-middleware')
     app.use(loggingMiddleware)
@@ -32,7 +32,7 @@ console.log(level, message)
 
     ## java 描述语言
 
-    ```
+    ```js
     const router = express.Router()
     const routeLoggingMiddleware = require('my-route-logging-middleware')
     router.use(routeLoggingMiddleware)
@@ -42,7 +42,7 @@ console.log(level, message)
 
 ## java 描述语言
 
-```
+```js
 const app = express()
 const winston = require('winston')
 const consoleTransport = new winston.transports.Console()

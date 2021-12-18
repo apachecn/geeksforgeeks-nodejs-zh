@@ -5,7 +5,7 @@
 **Buffer.readBigUInt64LE()方法**用于从给定偏移量的缓冲区对象中读取无符号 64 位整数，并以小端字节顺序返回结果。
 **语法:**
 
-```
+```js
 buffer.readBigInt64LE( offset )
 ```
 
@@ -16,7 +16,7 @@ buffer.readBigInt64LE( offset )
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // buffer.readBigUInt64LE() method
 const buff = Buffer.from([0x00, 0x00,
@@ -32,13 +32,13 @@ console.log("Big Integer :- " + value);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Big Integer :- 18446744069415501824
 ```
 
@@ -47,7 +47,7 @@ Big Integer :- 18446744069415501824
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // buffer.readBigUInt64LE() method
 const buff = Buffer.from([0x00, 0x00,
@@ -63,13 +63,13 @@ console.log("Big Integer :- " + value);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 internal/buffer.js:77
   throw new ERR_OUT_OF_RANGE(type || 'offset',
   ^

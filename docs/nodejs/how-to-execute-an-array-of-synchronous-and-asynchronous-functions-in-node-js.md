@@ -6,7 +6,7 @@
 
 **输入:**
 
-```
+```js
 listOfFunctions = [
     () => {
         console.log("Synchronous Function);
@@ -29,7 +29,7 @@ listOfFunctions = [
 
 ## index . js
 
-```
+```js
 // this is our list of functions
 let listOfFunctions = [
   () => {

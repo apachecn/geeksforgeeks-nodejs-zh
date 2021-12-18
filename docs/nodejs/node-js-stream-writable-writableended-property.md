@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 writable.writableEnded 
 ```
 
@@ -16,7 +16,7 @@ writable.writableEnded
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.writableEnded Property
 
@@ -58,7 +58,7 @@ writable.destroy();
 
 **输出:**
 
-```
+```js
 hi
 GFG
 Writable {
@@ -106,7 +106,7 @@ Writable {
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.writableEnded Property
 
@@ -145,7 +145,7 @@ writable.destroy();
 
 **输出:**
 
-```
+```js
 hi
 GFG
 Writable {

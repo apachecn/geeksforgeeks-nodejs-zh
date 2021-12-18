@@ -6,7 +6,7 @@
 **fspromise . opendir()**方法返回已解决或已拒绝的承诺，从而避免了在 fs.opendir()中可能出现的回调嵌套或回调地狱问题。承诺通过' fs '解决。对象，该对象本身包含用于访问和关闭目录的其他功能。如果承诺被拒绝，它将被拒绝，并带有一个错误对象。
 **语法:**
 
-```
+```js
 fs.promises.opendir(path, options)
 ```
 
@@ -29,7 +29,7 @@ fs.promises.opendir(path, options)
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the  
 // fsPromises.opendir() Method
 

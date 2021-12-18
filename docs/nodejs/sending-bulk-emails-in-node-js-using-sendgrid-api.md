@@ -25,7 +25,7 @@
 2.  **设置节点. js app:**
     *   使用命令创建一个空的 **NPM** 包。(通过的–**y**标志用于使用生成器中的默认值，而不是提问)
 
-        ```
+        ```js
         npm init -y
         ```
 
@@ -33,7 +33,7 @@
 
         ## 
 
-        ```
+        ```js
         // Importing http library
         const http = require("http");
 
@@ -57,7 +57,7 @@
         ![](img/559f3b65e1bb00364ec82a2d314109e3.png)
 3.  **安装发送网格库:**通过运行以下命令
 
-    ```
+    ```js
     npm i @sendgrid/mail
     ```
 
@@ -66,7 +66,7 @@
 
     ## java 描述语言
 
-    ```
+    ```js
     const http = require("http");
 
     const PORT = 3000;

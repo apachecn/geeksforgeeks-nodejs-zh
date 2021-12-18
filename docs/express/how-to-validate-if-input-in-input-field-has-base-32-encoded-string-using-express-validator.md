@@ -6,7 +6,7 @@
 
 **安装快递验证器的命令:**
 
-```
+```js
 npm install express-validator
 ```
 
@@ -28,7 +28,7 @@ npm install express-validator
 
 ## 【JavaScript】
 
-```
+```js
 const express = require('express')
 const bodyParser = require('body-parser')
 const {validationResult} = require('express-validator')
@@ -75,7 +75,7 @@ app.listen(port, () => {
 
 ## JavaScript
 
-```
+```js
 // Importing node.js file system module
 const fs = require('fs')
 const base32Decode = require('base32-decode')
@@ -147,7 +147,7 @@ module.exports = new Repository('datastore.json')
 
 ## JavaScript
 
-```
+```js
 const getError = (errors, prop) => {
   try {
     return errors.mapped()[prop].msg
@@ -218,7 +218,7 @@ href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css'>
 
 ## JavaScript
 
-```
+```js
 const {check} = require('express-validator')
 const repo = require('./repository')
 module.exports = {

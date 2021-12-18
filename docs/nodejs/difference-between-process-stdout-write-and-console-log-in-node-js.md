@@ -36,7 +36,7 @@ NodeJS 中的 **process.stdout.write** 和 **console.log** 都具有在控制台
 
 ## java 描述语言
 
-```
+```js
 <script>
     // For process.std.out 
     process.stdout.write("Hello");
@@ -47,7 +47,7 @@ NodeJS 中的 **process.stdout.write** 和 **console.log** 都具有在控制台
 
 **输出:**
 
-```
+```js
 HelloWorld!!!
 ```
 
@@ -55,7 +55,7 @@ HelloWorld!!!
 
 ## java 描述语言
 
-```
+```js
 <script>
     // For console.log 
     console.log("Hello");
@@ -66,7 +66,7 @@ HelloWorld!!!
 
 **输出:**
 
-```
+```js
 Hello
 World
 !!!

@@ -14,25 +14,25 @@
 
 1.  您可以访问[安装 gtts 模块](https://www.npmjs.com/package/gtts)的链接。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install gtts
     ```
 
 2.  安装 gtts 模块后，您可以使用命令在命令提示符下检查您的 gtts 版本。
 
-    ```
+    ```js
     npm version gtts
     ```
 
 3.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-    ```
+    ```js
     node index.js
     ```
 
 **文件名:index.js**
 
-```
+```js
 const gTTS = require('gtts');
 
 var speech = 'Welcome to GeeksforGeeks';
@@ -50,13 +50,13 @@ gtts.save('Voice.mp3', function (err, result){
     ![project structure](img/8490acedb7f8f99505a08169225ac2ca.png)
 2.  确保您已经使用以下命令安装了 gtts 模块:
 
-    ```
+    ```js
     npm install gtts
     ```
 
 3.  Run index.js file using below command:
 
-    ```
+    ```js
     node index.js
     ```
 

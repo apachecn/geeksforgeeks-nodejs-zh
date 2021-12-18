@@ -14,7 +14,7 @@
 
 示例:
 
-```
+```js
 var fs = require('fs')
 var writeFileStub = sinon.stub(fs, 
     'writeFile', function (path, data, cb) {  
@@ -34,7 +34,7 @@ writeFileStub.restore()  
 
 **创建引发异常的异步存根的示例:**
 
-```
+```js
 require("@fatso83/mini-mocha").install();
 
 const sinon = require("sinon");
@@ -72,13 +72,13 @@ describe("PubSub", function() {
 
 **输出:**
 
-```
+```js
 Calling all the subscribers, irrespective of exceptions.
 ```
 
 **Stubs 的例子:**让我们考虑一个购买商品的电子商务网站的例子。如果我们成功了，我们将向客户发送一封邮件。
 
-```
+```js
 const purchaseItems(cartItems, user)=>{
    let payStatus = user.paymentMethod(cartItems)
    if (payStatus === "successful") {
@@ -107,7 +107,7 @@ function() {
 
 **示例 1:** 执行存根的简单示例。
 
-```
+```js
 <!DOCTYPE html>
 <html>
 
@@ -122,7 +122,7 @@ function() {
 </html>
 ```
 
-```
+```js
 <!DOCTYPE html>
 <html>
 
@@ -170,7 +170,7 @@ function() {
 
 **例 2:**
 
-```
+```js
 <!DOCTYPE html>
 <html>
 
@@ -186,7 +186,7 @@ function() {
 </html>
 ```
 
-```
+```js
 <!DOCTYPE html>
 <html>
 

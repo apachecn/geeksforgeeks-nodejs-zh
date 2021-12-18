@@ -5,7 +5,7 @@
 **Buffer.readBigInt64BE()方法**用于在给定偏移量处从缓冲区对象中读取 64 位大整数，并以大端顺序返回结果。
 **语法:**
 
-```
+```js
 buffer.readBigInt64BE( offset )
 ```
 
@@ -15,7 +15,7 @@ buffer.readBigInt64BE( offset )
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // buffer.readInt32BE() method
 const buff = Buffer.from([0x00, 0x00,
@@ -31,13 +31,13 @@ console.log("Big Integer :- " + value);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Big Integer :- 4294967295
 ```
 
@@ -46,7 +46,7 @@ Big Integer :- 4294967295
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // buffer.readInt32BE() method
 const buff = Buffer.from([0x00, 0x00
@@ -62,13 +62,13 @@ console.log("Big Integer :- " + value);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 internal/buffer.js:77
   throw new ERR_OUT_OF_RANGE(type || 'offset',
   ^

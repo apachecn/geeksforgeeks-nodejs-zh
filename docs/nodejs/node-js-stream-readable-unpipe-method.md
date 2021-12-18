@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 readable.unpipe( destination )
 ```
 
@@ -18,7 +18,7 @@ readable.unpipe( destination )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.unpipe() method
 
@@ -41,14 +41,14 @@ console.log("done");
 
 **输出:**
 
-```
+```js
 done
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.unpipe() method
 
@@ -79,7 +79,7 @@ console.log("done");
 
 **输出:**
 
-```
+```js
 done
 Stop writing to output.text.
 close the file stream.

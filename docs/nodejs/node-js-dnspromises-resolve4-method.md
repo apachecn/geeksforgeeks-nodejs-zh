@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dnsPromises.resolve4( hostname, options )
 ```
 
@@ -22,7 +22,7 @@ dnsPromises.resolve4( hostname, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.resolve4() method
 
@@ -50,7 +50,7 @@ dnsPromises.resolve4('geeksforgeeks.org').then((res) => {
 
 **输出:**
 
-```
+```js
 [ '34.218.62.116' ]
 from async:
 [ '34.218.62.116' ]
@@ -59,7 +59,7 @@ from async:
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.resolve4() method
 
@@ -88,7 +88,7 @@ const options = {
 
 **输出:**
 
-```
+```js
 from async:
 [ { address: '34.218.62.116', ttl: 30 } ]
 

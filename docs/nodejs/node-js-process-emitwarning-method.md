@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.emitWarning(warning[, options])
 ```
 
@@ -25,7 +25,7 @@ process.emitWarning(warning[, options])
 
 ## index.js
 
-```
+```js
 console.log("Start ...");
 
 // Use setInterval to keep the process running
@@ -54,7 +54,7 @@ process.on('warning', (warning) => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -78,7 +78,7 @@ node index.js
 
 ## index.js
 
-```
+```js
 console.log("Start ...");
 
 // Use setInterval to keep the process running
@@ -116,7 +116,7 @@ process.on('warning', (warning) => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -139,7 +139,7 @@ node index.js
 
 ## index.js
 
-```
+```js
 console.log("Start ...");
 
 // Use setInterval to keep the process running
@@ -168,7 +168,7 @@ process.on('warning', (warning) => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

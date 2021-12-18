@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```js
 crypto.generateKeyPair( type, options, callback )
 ```
 
@@ -36,7 +36,7 @@ crypto.generateKeyPair( type, options, callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // crypto.generateKeyPair() method
 
@@ -77,7 +77,7 @@ generateKeyPair('rsa', {
 
 **输出:**
 
-```
+```js
 Public Key is : <Buffer 30 4a 02 43 03 12 b9
 4c 1a 3f 96 07 51 c6 31 02d7 11 e2 e3 a5 2b 0c
 7c 18 55 88 39 04 4c 86 e2 77 c4 29 47 82 2c 5b
@@ -92,7 +92,7 @@ a0 38 82 e1 db 02 02 08 00 30 0c ... >
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // crypto.generateKeyPair() method
 
@@ -134,7 +134,7 @@ generateKeyPair('ec', {
 
 **输出:**
 
-```
+```js
 Public Key is:  3056301006072a8648ce3d020106052b8104000a0342000499c5f442c3264bcdfb093b0bc820e3f0f6546972856ebec2f8ccc03f49abdb47ffcfcaf4f37e0ec53050760e74014767e30a8a3e891f4db8c83fa27627898f15
 
 Private Key is:  308184020100301006072a8648ce3d020106052b8104000a046d306b0201010420326b340a964512bfc3e010850ff05e077b2f016fce9eded11f40643e4231efc4a1440342000499c5f442c3264bcdfb093b0bc820e3f0f6546972856ebec2f8ccc03f49abdb47ffcfcaf4f37e0ec53050760e74014767e30a8a3e891f4db8c83fa27627898f15

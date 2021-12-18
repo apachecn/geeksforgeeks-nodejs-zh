@@ -10,7 +10,7 @@ HTTP 和 Express 都在 NodeJS 中用于开发。在本文中，我们将分别�
 
 ## index.js
 
-```
+```js
 // Importing http module 
 var http = require('http');
 
@@ -26,7 +26,7 @@ http.createServer(function (req, res) {
 
 使用以下命令运行 **index.js** 文件。
 
-```
+```js
 node index.js
 ```
 
@@ -38,7 +38,7 @@ node index.js
 
 **模块安装:**您可以使用以下命令安装快速模块。
 
-```
+```js
 npm i express
 ```
 
@@ -46,7 +46,7 @@ npm i express
 
 ## index.js
 
-```
+```js
 // Importing express
 const express = require('express');
 
@@ -66,7 +66,7 @@ app.listen(3000, function () {
 
 使用以下命令运行 **index.js** 文件。
 
-```
+```js
 node index.js
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 vm.isContext( object )
 ```
 
@@ -18,7 +18,7 @@ vm.isContext( object )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // vm.isContext() method
 
@@ -51,7 +51,7 @@ vm.isContext(object);
 
 **输出:**
 
-```
+```js
 { globalVar: 18 }
 7
 true
@@ -62,7 +62,7 @@ true
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // vm.isContext() method
 
@@ -88,7 +88,7 @@ vm.isContext(object);
 
 **输出:**
 
-```
+```js
 { globalVar: 3 }
 7
 false

@@ -8,7 +8,7 @@ Mongoose 模块是 node.js . mongose 最强大的外部模块之一，是一个 
 
 **安装模块:**
 
-```
+```js
 npm install mongoose
 ```
 
@@ -18,7 +18,7 @@ npm install mongoose
 
 **在本地 IP 上运行服务器:**数据是 MongoDB 服务器所在的目录。
 
-```
+```js
 mongod --dbpath=data --bind_ip 127.0.0.1
 ```
 
@@ -28,7 +28,7 @@ mongod --dbpath=data --bind_ip 127.0.0.1
 
 ## java 描述语言
 
-```
+```js
 // Importing mongoose module
 const mongoose = require("mongoose");
 
@@ -102,7 +102,7 @@ collections
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

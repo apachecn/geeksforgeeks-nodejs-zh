@@ -8,13 +8,13 @@
 
 **创建节点应用程序:**使用以下命令初始化节点应用程序:
 
-```
+```js
 npm init
 ```
 
 **模块安装:**使用以下命令安装 *express* 模块，该模块是 NodeJS 的 web 框架。
 
-```
+```js
 npm install express
 ```
 
@@ -22,7 +22,7 @@ npm install express
 
 ## app.js
 
-```
+```js
 // Require would make available the
 // express package to be used in
 // our code
@@ -56,7 +56,7 @@ app.listen(3000, () => {
 
 **运行应用程序的步骤:**使用以下命令运行 *app.js* 文件。
 
-```
+```js
 node app.js
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stroke( color, width )
 ```
 
@@ -22,7 +22,7 @@ stroke( color, width )
 
 **例 1:**
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 
@@ -52,7 +52,7 @@ gm('1.png')
 ![](img/3a7f2a0c7a1b7410f45c9428c4fda2ad.png)
 **程序:**
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 

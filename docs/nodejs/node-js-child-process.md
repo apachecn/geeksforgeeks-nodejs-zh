@@ -16,7 +16,7 @@ Node.js 是一个 web 开发框架，它提供了各种各样的模块。通常�
 **产卵()方法:**这个方法使用给定的命令和 args 中的命令行参数来产生一个新的进程。ChildProcess 实例实现了 EventEmitterAPI，它使我们能够直接在子对象上注册事件的处理程序。可以注册用于处理子进程的一些事件是退出、断开、错误、关闭和消息。
 **语法:**
 
-```
+```js
 child_process.spawn(command[, args][, options])
 ```
 
@@ -33,7 +33,7 @@ child_process.spawn(command[, args][, options])
 
 **示例:**
 
-```
+```js
 const { spawn } = require('child_process');
 const child = spawn('dir', ['D:\Test'], {shell: true});
 child.stdout.on('data', (data) => {
@@ -56,7 +56,7 @@ child.on('close', (code) => {
 
 **语法:**
 
-```
+```js
 child_process.fork(modulePath[, args][, options])
 ```
 
@@ -70,7 +70,7 @@ child_process.fork(modulePath[, args][, options])
 
 **示例:** **文件名:fork.js**
 
-```
+```js
 // Write Javascript code here
 var cp = require('child_process');
 
@@ -89,7 +89,7 @@ child.on('close', (code) => {
 
 **文件名:sub js**
 
-```
+```js
 process.on('message', function(m) {
   console.log('Child process received:', m);
 });
@@ -104,7 +104,7 @@ process.send({ hello: 'from child process' });
 
 **语法:**
 
-```
+```js
 child_process.exec(command[, options][, callback])
 ```
 
@@ -118,7 +118,7 @@ child_process.exec(command[, options][, callback])
 
 **示例:**
 
-```
+```js
 const { exec } = require('child_process');
 
 // Counts the number of directory in 
@@ -141,7 +141,7 @@ exec('dir | find /c /v ""', (error, stdout, stderr) => {
 
 **语法:**
 
-```
+```js
 child_process.execFile(file[, args][, options][, callback])
 ```
 
@@ -156,7 +156,7 @@ child_process.execFile(file[, args][, options][, callback])
 
 **示例:**
 
-```
+```js
 const { execFile } = require('child_process');
 
 // Executes the exec.js file

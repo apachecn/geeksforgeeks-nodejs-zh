@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 *array_name*.push(*element*)
 
 ```
@@ -19,7 +19,7 @@
 
 **程序 1:**
 
-```
+```js
 function PUSH()
 {
   arr.push(2);
@@ -31,13 +31,13 @@ PUSH();
 
 **输出:**
 
-```
+```js
 [ 12,  3, 4, 6, 7, 11, 2]
 ```
 
 **程序 2:**
 
-```
+```js
 function addLang()
 {
 arr.push('DS','Algo','JavaScript');
@@ -49,13 +49,13 @@ addLang();    
 
 **输出:**
 
-```
+```js
 [ 'NodeJs', 'DS', 'Algo', 'JavaScript' ]
 ```
 
 **程序 3:**
 
-```
+```js
 var Lang = ['java', 'c', 'python'];
 
 console.log(Lang);
@@ -69,7 +69,7 @@ console.log(Lang);
 
 **输出:**
 
-```
+```js
 [ 'java', 'c', 'python' ]
 [ 'java', 'c', 'python', 'node' ]
 ```

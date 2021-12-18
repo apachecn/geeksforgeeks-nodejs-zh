@@ -8,19 +8,19 @@
 
 *   By using npm.
 
-```
+```js
 npm install date-and-time --save
 ```
 
 *   Use CDN link.
 
-```
+```js
 <script src="/path/to/date-and-time.min.js"></script>
 ```
 
 **语法:**
 
-```
+```js
 parse(dateString, arg)
 ```
 
@@ -35,7 +35,7 @@ parse(dateString, arg)
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.parse() method
 
@@ -56,13 +56,13 @@ console.log("parsed date and time : " + value)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 parsed date and time :
 Thu Jan 01 1970 00:00:00 GMT+0530 (India Standard Time)
 ```
@@ -71,7 +71,7 @@ Thu Jan 01 1970 00:00:00 GMT+0530 (India Standard Time)
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.parse() method
 
@@ -88,13 +88,13 @@ console.log("Parsed date and time : " + value)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Parsed date and time :
 Thu Jan 01 1970 19:44:05 GMT+0530 (India Standard Time)
 ```

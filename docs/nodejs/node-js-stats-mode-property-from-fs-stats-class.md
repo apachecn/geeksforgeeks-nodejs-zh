@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.mode;
 ```
 
@@ -16,7 +16,7 @@ stats.mode;
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.mode property
 
@@ -60,7 +60,7 @@ fs.lstat('./', (err, stats) => {
 
 **输出:**
 
-```
+```js
 using stat: the type and mode bit-field of the file is  33206
 using lstat: the type and mode bit-field of the file is  33206
 using stat: the type and mode bit-field of the file is  16822
@@ -70,7 +70,7 @@ using lstat: the type and mode bit-field of the file is  16822
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.mode property
 
@@ -88,7 +88,7 @@ const fs = require('fs').promises;
 
 **输出:**
 
-```
+```js
 (node:9448) ExperimentalWarning: The fs.promises API
 is experimental 
 using stat synchronous: the type and mode bit-field 

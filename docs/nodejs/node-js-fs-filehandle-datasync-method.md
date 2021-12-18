@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const filehandle.datasync()
 ```
 
@@ -19,7 +19,7 @@ const filehandle.datasync()
 
 ## java 描述语言
 
-```
+```js
 // Node program to demonstrate the
 // filehandle.datasync() method
 const fs = require('fs');
@@ -67,13 +67,13 @@ funct().catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 File content before operation: Content of the example.txt file
 data synced successfully
 Content after operation: Content of the example.txt file
@@ -83,7 +83,7 @@ Content after operation: Content of the example.txt file
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // filehandle.datasync() method
 const fs = require('fs');
@@ -150,13 +150,13 @@ funct().catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 content of file before operation: This is a file containing a collection of books.
 data synced successfully
 content of file after operation: This is a file containing a collection of books.

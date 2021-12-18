@@ -18,25 +18,25 @@
 
 1.  您可以访问链接[安装多模块](https://www.npmjs.com/package/multer)。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install multer
     ```
 
 2.  安装 multer 后，您可以使用命令在命令提示符下检查 multer 版本。
 
-    ```
+    ```js
     npm version multer
     ```
 
 3.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-    ```
+    ```js
     node index.js
     ```
 
 4.  **要求模块:**您需要使用这些行在您的文件中包含多个模块。
 
-    ```
+    ```js
     var multer = require('multer');
     ```
 
@@ -44,7 +44,7 @@
 
     **文件名:签名，例如**
 
-    ```
+    ```js
     <!DOCTYPE html>
     <html>
 
@@ -69,7 +69,7 @@
 
     **文件名:index.js**
 
-    ```
+    ```js
     const express = require("express")
     const path = require("path")
     const multer = require("multer")
@@ -160,21 +160,21 @@
         这里的“上传”是我们的文件将要上传的文件夹，目前是空的。“Singup.ejs”保存在视图文件夹中。
     2.  确保你有“查看引擎”，就像我使用“ejs”一样，并使用以下命令安装 express 和 multer:
 
-        ```
+        ```js
         npm install ejs
         ```
 
-        ```
+        ```js
         npm install express
         ```
 
-        ```
+        ```js
         npm install multer
         ```
 
     3.  Run index.js file using below command:
 
-        ```
+        ```js
         node index.js
         ```
 
@@ -182,7 +182,7 @@
 
     4.  打开浏览器，输入该网址:
 
-        ```
+        ```js
         http://localhost:8080/
         ```
 

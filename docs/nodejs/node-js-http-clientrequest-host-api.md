@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const request.host
 ```
 
@@ -18,7 +18,7 @@ const request.host
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // request.host APi
 

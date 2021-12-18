@@ -44,7 +44,7 @@ timeout.unref()
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // Timeout Class methods
 
@@ -85,7 +85,7 @@ console.log("6 => Printing after clearing Timeout");
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

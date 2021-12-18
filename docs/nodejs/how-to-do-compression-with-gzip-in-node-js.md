@@ -12,7 +12,7 @@
 
 **步骤 1:** 使用以下命令创建一个空的 NodeJS 应用程序:
 
-```
+```js
 mkdir Project 
 cd Project
 npm init -y
@@ -20,7 +20,7 @@ npm init -y
 
 **步骤 2:** 使用以下命令安装 ExpressJS 模块:
 
-```
+```js
 npm i express --save
 ```
 
@@ -28,7 +28,7 @@ npm i express --save
 
 ## index.js
 
-```
+```js
 const express = require('express');
 const app = express();
 
@@ -48,7 +48,7 @@ app.listen(8080, function () {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -62,7 +62,7 @@ node index.js
 
 **步骤 1:** 使用以下命令创建一个空的 NodeJS 应用程序:
 
-```
+```js
 mkdir Project
 cd Project
 npm init -y
@@ -70,7 +70,7 @@ npm init -y
 
 **步骤 2:** 使用以下命令安装压缩和 ExpressJS 模块:
 
-```
+```js
 npm install compression --save
 npm install express --save
 ```
@@ -79,7 +79,7 @@ npm install express --save
 
 ## index.js
 
-```
+```js
 // Initialize compression module
 const compression = require('compression');
 const express = require('express');
@@ -104,7 +104,7 @@ app.listen(8080, function () {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

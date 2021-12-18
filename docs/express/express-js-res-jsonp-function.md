@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 res.jsonp( [body] )
 ```
 
@@ -17,19 +17,19 @@ res.jsonp( [body] )
 
 1.您可以访问[安装快速模块](https://www.npmjs.com/package/express)的链接。您可以使用此命令安装此软件包。
 
-```
+```js
 npm install express
 ```
 
 2.安装快速模块后，您可以使用命令在命令提示符下检查您的快速版本。
 
-```
+```js
 npm version express
 ```
 
 3.之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-```
+```js
 node index.js
 ```
 
@@ -37,7 +37,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 var express = require('express');
 var app = express();
 var PORT = 3000;
@@ -61,25 +61,25 @@ app.listen(PORT, function(err){
 
 2.使用以下命令确保您已经安装了 **express** 模块:
 
-```
+```js
 npm install express
 ```
 
 3.使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Server listening on PORT 3000
 ```
 
 4.现在打开浏览器，进入 *http://localhost:3000/* ，现在在你的屏幕上你会看到如下输出:
 
-```
+```js
 {"title":"GeeksforGeeks"}
 ```
 
@@ -87,7 +87,7 @@ Server listening on PORT 3000
 
 ## java 描述语言
 
-```
+```js
 var express = require('express');
 var app = express();
 var PORT = 3000;
@@ -110,13 +110,13 @@ app.listen(PORT, function(err) {
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 现在打开浏览器，转到 *http://localhost:3000/* ，现在检查你的浏览器屏幕，你会看到如下输出:
 
-```
+```js
 {"name":"Legend"}
 ```
 

@@ -14,25 +14,25 @@
 
 1.  您可以访问链接[安装验证器模块](https://www.npmjs.com/package/validator)。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install validator
     ```
 
 2.  安装验证器模块后，您可以使用命令在命令提示符下检查您的验证器版本。
 
-    ```
+    ```js
     npm version validator
     ```
 
 3.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-    ```
+    ```js
     node index.js
     ```
 
 **文件名:index.js**
 
-```
+```js
 const validator = require('validator')
 
 // Check whether given email is valid or not
@@ -65,14 +65,14 @@ console.log(validator.isEmpty(name))  // false
     ![project structure](img/0ad3edab347c6bba71a66e09ed2e2b52.png)
 2.  确保您已经使用以下命令安装了 express 和 validator 模块:
 
-    ```
+    ```js
     npm install validator
     npm install express
     ```
 
 3.  Run index.js file using below command:
 
-    ```
+    ```js
     node index.js
     ```
 

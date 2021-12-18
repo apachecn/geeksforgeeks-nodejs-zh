@@ -8,7 +8,7 @@ NodeJS 中的分页被定义为添加数字来标识页面的顺序号。在分�
 
 **安装模块:**您可以使用以下命令安装所需的模块。
 
-```
+```js
 npm install mongoose 
 npm install express 
 npm install bcryptjs 
@@ -27,7 +27,7 @@ npm install body-parser
 
 ## user.js
 
-```
+```js
 var mongoose = require("mongoose");
 
 var userSchema = new mongoose.Schema({
@@ -40,7 +40,7 @@ module.exports = mongoose.model("User",userSchema);
 
 ## app.js
 
-```
+```js
 var express = require('express'),
     Mongoose = require('mongoose'),
     Bcrypt = require('bcryptjs'),
@@ -121,7 +121,7 @@ app.listen(3000, function () {
 
 运行 **app** **。js** 文件使用以下命令:
 
-```
+```js
 node app.js
 ```
 
@@ -133,7 +133,7 @@ node app.js
 
 ## user.js
 
-```
+```js
 var mongoose = require("mongoose");
 
 var userSchema = new mongoose.Schema({
@@ -146,7 +146,7 @@ module.exports = mongoose.model("User", userSchema);
 
 ## app.js
 
-```
+```js
 var express = require('express'),
     Mongoose = require('mongoose'),
     Bcrypt = require('bcryptjs'),
@@ -230,7 +230,7 @@ app.listen(3000, function () {
 
 运行 **app** **。js** 文件使用以下命令:
 
-```
+```js
 node app.js
 ```
 

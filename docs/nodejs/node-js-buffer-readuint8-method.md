@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 buffer.readUInt8( offset )
 ```
 
@@ -16,7 +16,7 @@ buffer.readUInt8( offset )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // buffer.readUInt8() method 
 const ob=Buffer.from([1, 2, 3]);
@@ -33,7 +33,7 @@ console.log(ob.readUInt8(4));
 
 **输出:**
 
-```
+```js
 1
 2
 RangeError [ERR_OUT_OF_RANGE]: The value of "offset" is out of range.
@@ -45,7 +45,7 @@ It must be >= 0 and <= 2\. Received 3
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // buffer.readUInt8() method 
 const ob1 = Buffer.from([0X32, 0X44, 0X48]);
@@ -63,7 +63,7 @@ console.log(t.readUInt8(0));
 
 **输出:**
 
-```
+```js
 68
 72
 97

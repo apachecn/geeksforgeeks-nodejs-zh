@@ -6,14 +6,14 @@
 
 **例 1:**node . js 中同步读取文件的代码(阻塞代码)创建一个文本文件 **inputfile1.txt** ，内容如下:
 
-```
+```js
 Hello Programmer!!!
 Learn NodeJS with GeeksforGeeks
 ```
 
 使用以下代码创建一个 sync.js 文件:
 
-```
+```js
 // Write JavaScript code
 var fs = require("fs");
 var filedata = fs.readFileSync('inputfile1.txt');
@@ -27,14 +27,14 @@ console.log("End of Program execution");
 
 **例 2:**node . js 中异步读取文件的代码(非阻塞代码)创建一个文本文件 **inputfile1.txt** ，内容如下。
 
-```
+```js
 Hello Programmer!!!
 Learn NodeJS with GeeksforGeeks
 ```
 
 使用以下代码创建一个 async.js 文件:
 
-```
+```js
 // Write a JavaScript code
 var fs = require("fs");  
 

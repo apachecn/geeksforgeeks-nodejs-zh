@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fstatSync( fd, options )
 ```
 
@@ -20,7 +20,7 @@ fstatSync( fd, options )
 
 **示例 1:** 本示例使用 fs.fstatSync()方法获取文件和目录的详细信息。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.fstatSync() method
 
@@ -54,7 +54,7 @@ console.log("Path is directory:", dirStat.isDirectory());
 
 **输出:**
 
-```
+```js
 Stats object for: example_file.txt
 Stats {
   dev: 3229478529,
@@ -105,7 +105,7 @@ Path is directory: true
 
 **示例 2:** 本示例使用 fs.fstatSync()方法获取带有或不带有 bigint 选项的文件的详细信息。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.fstatSync() method
 
@@ -125,7 +125,7 @@ console.log(fileBigIntStat);
 
 **输出:**
 
-```
+```js
 Stats {
   dev: 3229478529,
   mode: 33206,

@@ -6,13 +6,13 @@ Node.js 中的**模块. export**用于将任何文字、函数或对象作为一
 
 **语法:**
 
-*   ```
+*   ```js
     module.exports = literal | function | object
     ```
 
     **说明:**这里赋值(字面|函数|对象)直接作为模块公开，可以直接使用。
 
-*   ```
+*   ```js
     module.exports.variable = literal | function | object
     ```
 
@@ -22,20 +22,20 @@ Node.js 中的**模块. export**用于将任何文字、函数或对象作为一
 
 *   Create a file named **app.js** and use `module.exports` to export the text.
 
-    ```
+    ```js
     module.exports = "GeeksforGeeks";
     ```
 
 *   Create a file named **index.js** , and import the file app.js to print the exported text to the console.
 
-    ```
+    ```js
     const company = require("./app");
     console.log(company);
     ```
 
 *   **Output:**
 
-    ```
+    ```js
     GeeksforGeeks
     ```
 
@@ -43,7 +43,7 @@ Node.js 中的**模块. export**用于将任何文字、函数或对象作为一
 
 *   Create a file named **app.js** and use `module.exports` to export the object.
 
-    ```
+    ```js
     module.exports = {
       name: 'GeeksforGeeks',
       website: 'https://geeksforgeeks.org'
@@ -52,7 +52,7 @@ Node.js 中的**模块. export**用于将任何文字、函数或对象作为一
 
 *   Create a file named **index.js** , and import the file app.js to print the exported object data to the console.
 
-    ```
+    ```js
     const company = require('./app');
 
     console.log(company.name);
@@ -61,7 +61,7 @@ Node.js 中的**模块. export**用于将任何文字、函数或对象作为一
 
 *   **Output:**
 
-    ```
+    ```js
     GeeksforGeeks
     https://geeksforgeeks.org
 
@@ -71,7 +71,7 @@ Node.js 中的**模块. export**用于将任何文字、函数或对象作为一
 
 *   创建一个名为 **app.js** 的文件，并使用`module.exports`导出该函数。
 
-    ```
+    ```js
     module.exports = function (a, b) {
       console.log(a + b);
     }
@@ -79,7 +79,7 @@ Node.js 中的**模块. export**用于将任何文字、函数或对象作为一
 
 *   创建一个名为 **index.js** 的文件，导入文件 app.js 使用导出的功能。
 
-    ```
+    ```js
     const sum = require('./app');
 
     sum(2, 5);
@@ -87,7 +87,7 @@ Node.js 中的**模块. export**用于将任何文字、函数或对象作为一
 
 *   **输出:**
 
-    ```
+    ```js
     7
     ```
 
@@ -95,7 +95,7 @@ Node.js 中的**模块. export**用于将任何文字、函数或对象作为一
 
 *   Create a file named **app.js** . Use this keyword to define the function, and use `module.exports` to export the function.
 
-    ```
+    ```js
     module.exports = function () {
       this.name = 'GeeksforGeeks';
       this.website = 'https://geeksforgeeks.org';
@@ -108,7 +108,7 @@ Node.js 中的**模块. export**用于将任何文字、函数或对象作为一
 
 *   Create a file named **index.js** , import the file app.js and use the exported function as a class.
 
-    ```
+    ```js
     const Company = require('./app');
 
     const firstCompany = new Company();
@@ -118,7 +118,7 @@ Node.js 中的**模块. export**用于将任何文字、函数或对象作为一
 
 *   **Output:**
 
-    ```
+    ```js
     Company name - GeeksforGeeks
     Website - https://geeksforgeeks.org
 
@@ -126,7 +126,7 @@ Node.js 中的**模块. export**用于将任何文字、函数或对象作为一
 
 **示例 5:** 从单独的文件夹
 
-```
+```js
 const index = require('./models/lang/index.js');
 ```
 

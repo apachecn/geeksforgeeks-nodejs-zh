@@ -10,7 +10,7 @@
 
 **创建目录:**
 
-```
+```js
 npm init -y
 mkdir src
 cd src
@@ -21,7 +21,7 @@ nano app.js
 
 **安装包:**我们需要安装一个 [npm](https://www.geeksforgeeks.org/node-js-npm-node-package-manager/) 包才能继续工作。
 
-```
+```js
 npm install qrcode
 ```
 
@@ -31,7 +31,7 @@ npm install qrcode
 
 *   让我们创建要隐藏在二维码中的数据:
 
-```
+```js
 let data = {
     name:"Employee Name",
     age:27,
@@ -42,7 +42,7 @@ let data = {
 
 *   我们需要使用 [JSON.stringify()](https://www.geeksforgeeks.org/javascript-json-stringify-method/#:~:text=The%20JSON.,the%20form%20of%20the%20strings.) 方法将数据转换为字符串格式，以便可以轻松执行进一步的操作。
 
-```
+```js
 // Converting into String data
 let stringdata = JSON.stringify(data)
 ```
@@ -51,7 +51,7 @@ let stringdata = JSON.stringify(data)
 
 1.toString(文本，[选项]，[cb(错误，字符串)]
 
-```
+```js
 // Print the QR code to terminal
 QRCode.toString(stringdata,{type:'terminal'}, function (err, url) {
    if(err) return console.log("error occured")
@@ -61,7 +61,7 @@ QRCode.toString(stringdata,{type:'terminal'}, function (err, url) {
 
 2.toDataURL(文本、[选项]、[cb(错误，url)])
 
-```
+```js
 // Get the base64 url
 QRCode.toDataURL(stringdata, function (err, url) {
     if(err) return console.log("error occured")
@@ -75,7 +75,7 @@ QRCode.toDataURL(stringdata, function (err, url) {
 
 ## java 描述语言
 
-```
+```js
 // Require the package
 const QRCode = require('qrcode')
 
@@ -111,7 +111,7 @@ QRCode.toDataURL(stringdata, function (err, code) {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

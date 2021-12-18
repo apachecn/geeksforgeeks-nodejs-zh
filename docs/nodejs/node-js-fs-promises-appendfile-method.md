@@ -6,7 +6,7 @@ Node.js 中文件系统模块的 **fs.promises.appendFile()** 方法用于与用
 
 **语法:**
 
-```
+```js
 fs.promises.appendFile( path, data, options )
 ```
 
@@ -23,7 +23,7 @@ fs.promises.appendFile( path, data, options )
 
 **例 1:**
 
-```
+```js
 // Importing File System module
 const fs = require('fs')
 
@@ -61,7 +61,7 @@ fs.promises.readFile('./test.txt')
 
 我们可以使用 async-wait 关键字实现相同的功能。
 
-```
+```js
 // Importing File System module
 const fs = require('fs')
 const appendDataToFile = async (path, data) => {
@@ -97,7 +97,7 @@ appendDataToFile('./test.txt', 
 
 **示例 2:** 当给定的文件名路径不存在时。
 
-```
+```js
 // Importing File System module
 const fs = require('fs')
 
@@ -128,7 +128,7 @@ fs.promises.appendFile('./test.txt', 
 
 用异步等待关键字实现相同的功能。
 
-```
+```js
 // Importing File System module
 const fs = require('fs')
 

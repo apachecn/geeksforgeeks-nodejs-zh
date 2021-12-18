@@ -13,13 +13,13 @@ Punycode 是一种特殊的编码语法，专门用于将 Unicode 字符(UTF-8)�
 
 **npm 安装:**
 
-```
+```js
  npm install punycode --save 
 ```
 
 **包含 punycode 模块:**
 
-```
+```js
 const punycode = require('punycode');
 ```
 
@@ -27,7 +27,7 @@ const punycode = require('punycode');
 
 **示例:**
 
-```
+```js
 // Include punycode module
 const punycode = require('punycode');
 
@@ -44,7 +44,7 @@ console.log(punycode.decode('--dqo34k'));
 
 **示例:**
 
-```
+```js
 // Include punycode module
 const punycode = require('punycode');
 
@@ -56,7 +56,7 @@ console.log(punycode.encode('?-?'));
 
 **输出:**
 
-```
+```js
 manama-pta
 --dqo34k
 ```
@@ -65,7 +65,7 @@ manama-pta
 
 **示例:**
 
-```
+```js
 // Include punycode module
 const punycode = require('punycode');
 
@@ -80,7 +80,7 @@ console.log(punycode.toUnicode('xn----dqo34k.com'));
 
 **示例:**
 
-```
+```js
 // Include punycode module
 const punycode = require('punycode');
 
@@ -90,7 +90,7 @@ console.log(punycode.toASCII('?-?.com'));
 
 **输出:**
 
-```
+```js
 xn--maana-pta.com
 xn----dqo34k.com
 ```
@@ -99,7 +99,7 @@ xn----dqo34k.com
 
 **示例:**
 
-```
+```js
 // Include punycode module
 const punycode = require('punycode');
 
@@ -110,7 +110,7 @@ console.log(punycode.ucs2.decode('\uD834\uDF06'));
 
 **输出:**
 
-```
+```js
 [ 97, 98, 99 ]
 [ 119558 ]
 ```
@@ -123,7 +123,7 @@ console.log(punycode.ucs2.decode('\uD834\uDF06'));
 
 **示例:**
 
-```
+```js
 // Include punycode module
 const punycode = require('punycode');
 

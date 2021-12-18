@@ -10,19 +10,19 @@
 
 *   **安装项目目录中的模块:**
 
-```
+```js
 npm install pm2 -g
 ```
 
 *   **通过 pm2** 启动您的 Node.js 应用程序。
 
-```
+```js
 pm2 start [Your fileName]
 ```
 
 *   **列出所有在 pm2** 注册的流程。
 
-```
+```js
 pm2 list
 ```
 
@@ -32,7 +32,7 @@ pm2 list
 
 *   **我们也可以通过 pm2 停止命令**停止任何进程运行
 
-```
+```js
  pm2 stop all                  
  pm2 stop [id number]       
 ```
@@ -43,19 +43,19 @@ pm2 list
 
 *   **在您的项目目录中安装模块:**
 
-```
+```js
 npm install forever -g
 ```
 
 *   **通过永久模块启动您的 Node.js 应用程序。**
 
-```
+```js
 forever start [Your FileName]
 ```
 
 *   **列出的所有流程，这些流程将永久注册**
 
-```
+```js
 forever list
 ```
 
@@ -65,7 +65,7 @@ forever list
 
 *   我们还可以删除或停止任何使用 index 注册的进程(例如本例中的 0)
 
-```
+```js
 forever stopall
 forever stop [index]
 ```

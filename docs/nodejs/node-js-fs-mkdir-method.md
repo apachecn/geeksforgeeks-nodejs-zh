@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```js
 fs.mkdir(path, mode, callback)
 ```
 
@@ -20,7 +20,7 @@ fs.mkdir(path, mode, callback)
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // fs.mkdir() Method
 
@@ -38,7 +38,7 @@ fs.mkdir(path.join(__dirname, 'test'), (err) => {
 
 **输出:**
 
-```
+```js
 Directory created successfully!
 ```
 
@@ -51,7 +51,7 @@ Directory created successfully!
 
 **示例 2:** 该示例说明了如何使用递归选项。
 
-```
+```js
 // Node.js program to demonstrate the   
 // fs.mkdir() Method
 
@@ -70,7 +70,7 @@ fs.mkdir(path.join(__dirname, 'test'),
 
 **输出:**
 
-```
+```js
 Directory created successfully!
 ```
 

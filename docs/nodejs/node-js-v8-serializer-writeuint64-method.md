@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v8.Serializer.writeUint64(Value_high, Value_low);
 ```
 
@@ -23,7 +23,7 @@ v8.Serializer.writeUint64(Value_high, Value_low);
 
 **文件名:**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 const serializer = new v8.Serializer();
@@ -37,13 +37,13 @@ console.log(serializer.releaseBuffer());
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 undefined
 <Buffer a6 e4 84 80 f0 d2 05>
 
@@ -53,7 +53,7 @@ undefined
 
 **文件名:**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 const serializer = new v8.Serializer();
@@ -81,13 +81,13 @@ console.log(deserializer.readUint64());
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 <Buffer >
 <Buffer 87 9e 80 80 a0 80 1d>
 <Buffer 87 9e 80 80 a0 80 1d 87 9e 80 80 a0 80 1d>

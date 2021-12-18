@@ -6,7 +6,7 @@ console.dir()方法用于获取指定对象的对象属性列表。这些对象�
 
 **语法:**
 
-```
+```js
 console.dir( *object* )
 ```
 
@@ -14,7 +14,7 @@ console.dir( *object* )
 
 **例 1:**
 
-```
+```js
 <!DOCTYPE html>
 <html>
 
@@ -57,7 +57,7 @@ console.dir( *object* )
 
 **例 2:**
 
-```
+```js
 <!DOCTYPE html>
 <html>
 <head>

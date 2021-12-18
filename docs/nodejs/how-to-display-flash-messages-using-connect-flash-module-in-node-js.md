@@ -11,7 +11,7 @@ Node.js 的 Connect-flash 模块允许开发人员在用户重定向到指定网
 
 **安装和设置:**首先，用 **package.json** 文件初始化我们的应用程序。然后通过以下命令安装我们的应用程序所需的依赖项:
 
-```
+```js
 npm install express express-session connect-flash --save 
 ```
 
@@ -21,7 +21,7 @@ npm install express express-session connect-flash --save
 
 ## java 描述语言
 
-```
+```js
 const express = require('express');
 const session = require('express-session');
 const flash = require('connect-flash');

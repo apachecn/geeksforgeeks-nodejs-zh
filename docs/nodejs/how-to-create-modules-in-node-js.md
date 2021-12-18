@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 exports.function_name = function(arg1, arg2, ....argN) {
     // function body
 };  
@@ -19,7 +19,7 @@ exports.function_name = function(arg1, arg2, ....argN) {
 
 *   **创建要导出的文件**
 
-    ```
+    ```js
     // File name: calc.js
 
     exports.add = function (x, y) {
@@ -41,7 +41,7 @@ exports.function_name = function(arg1, arg2, ....argN) {
 
 *   **使用‘要求’关键字导入文件**
 
-    ```
+    ```js
     // File name: App.js
     var calculator = require('./calc');
 
@@ -62,7 +62,7 @@ exports.function_name = function(arg1, arg2, ....argN) {
 
 *   **输出:**
 
-    ```
+    ```js
     Addition of 50 and 20 is 70
     Subtraction of 50 and 20 is 30
     Multiplication of 50 and 20 is 1000

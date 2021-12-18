@@ -8,19 +8,19 @@
 
 *   **By using NPM: 【T1]**
 
-```
+```js
 npm install date-and-time --save
 ```
 
 *   **By using CDN link:**
 
-```
+```js
 <script src="/path/to/date-and-time.min.js"></script>
 ```
 
 **语法:**
 
-```
+```js
 const transform(dateString, arg1, arg2[, utc])
 ```
 
@@ -36,7 +36,7 @@ const transform(dateString, arg1, arg2[, utc])
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.transform() method
 
@@ -60,7 +60,7 @@ console.log("transformed date and time :- "
 
 **输出:**
 
-```
+```js
 transformed date and time :- 1970/1/1
 ```
 
@@ -68,7 +68,7 @@ transformed date and time :- 1970/1/1
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.transform() method
 
@@ -88,7 +88,7 @@ console.log("transformed date and time :- "
 
 **输出:**
 
-```
+```js
 transformed date and time :- 1970/1/1
 ```
 

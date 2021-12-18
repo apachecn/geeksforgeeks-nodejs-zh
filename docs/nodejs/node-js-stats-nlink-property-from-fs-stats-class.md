@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.nlink;
 ```
 
@@ -16,7 +16,7 @@ stats.nlink;
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.nlink property
 
@@ -60,7 +60,7 @@ fs.lstat('./', (err, stats) => {
 
 **输出:**
 
-```
+```js
 using stat: number of hard-links for the file is  1
 using lstat: number of hard-links for the file is  1
 using stat: number of hard-links for the file is  1
@@ -70,7 +70,7 @@ using lstat: number of hard-links for the file is  1
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.nlink property
 
@@ -88,7 +88,7 @@ const fs = require('fs').promises;
 
 **输出:**
 
-```
+```js
 (node:13780) ExperimentalWarning: The fs.promises API 
 is experimental 
 using stat synchronous: number of hard-links for the file is 1

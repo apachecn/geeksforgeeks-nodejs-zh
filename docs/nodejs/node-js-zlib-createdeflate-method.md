@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.createDeflate( options )
 ```
 
@@ -18,7 +18,7 @@ zlib.createDeflate( options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // createDeflate() method
 
@@ -42,14 +42,14 @@ console.log("Program Completed!");
 
 **输出:**
 
-```
+```js
 Program Completed!
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // createDeflate() method
 
@@ -73,7 +73,7 @@ console.log("Program Completed!");
 
 **输出:**
 
-```
+```js
 Error [ERR_STREAM_CANNOT_PIPE]: Cannot pipe, not readable
     at WriteStream.Writable.pipe (_stream_writable.js:243:24)
     at /home/runner/CorruptFlawedSoftwaresuite/index.js:19:15

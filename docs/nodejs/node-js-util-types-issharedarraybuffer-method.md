@@ -6,7 +6,7 @@ util 模块的**util . types . IssharedrayBuffer()方法**主要是为了支持 
 
 **语法:**
 
-```
+```js
 util.types.isSharedArrayBuffer( *value* )
 ```
 
@@ -18,7 +18,7 @@ util.types.isSharedArrayBuffer( *value* )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // util.types.isSharedArrayBuffer() method 
 
@@ -43,7 +43,7 @@ console.log(util.types.isSharedArrayBuffer(
 
 **输出:**
 
-```
+```js
 true
 false
 false
@@ -51,7 +51,7 @@ false
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // util.types.isSharedArrayBuffer() method 
 
@@ -74,7 +74,7 @@ console.log(util.types.isSharedArrayBuffer(
 
 **输出:**
 
-```
+```js
 true
 true
 ```

@@ -10,13 +10,13 @@
 
 *   集合的特定键按升序排列
 
-```
+```js
 {Collection's key:-1}
 ```
 
 **安装模块:**
 
-```
+```js
 npm install mongodb
 ```
 
@@ -26,7 +26,7 @@ npm install mongodb
 
 **在本地 IP 上运行服务器:数据是 MongoDB 服务器所在的目录。**
 
-```
+```js
 mongod --dbpath=data --bind_ip 127.0.0.1
 ```
 
@@ -34,7 +34,7 @@ mongod --dbpath=data --bind_ip 127.0.0.1
 
 **MongoDB 数据库:**
 
-```
+```js
 Database name:GFG
 Collection name:aayush
 ```
@@ -45,7 +45,7 @@ Collection name:aayush
 
 ## java 描述语言
 
-```
+```js
 const mongoclient = require("mongodb");
 const url = "mongodb://localhost:27017/"
 
@@ -78,7 +78,7 @@ mongoclient.connect(url).then((db) => {
 
 **执行命令:**
 
-```
+```js
 node index.js
 ```
 

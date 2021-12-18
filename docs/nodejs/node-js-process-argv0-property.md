@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.argv0
 ```
 
@@ -16,7 +16,7 @@ process.argv0
 
 **示例:**
 
-```
+```js
 // Node.js program to demonstrate the
 // process.argv0 Property
 
@@ -29,7 +29,7 @@ console.log(process.argv0);
 
 **输出:**
 
-```
+```js
 node.exe
 ```
 

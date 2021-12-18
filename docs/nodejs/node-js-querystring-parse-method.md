@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 querystring.parse( str[, sep[, eq[, options]]]) )
 
 ```
@@ -28,7 +28,7 @@ querystring.parse( str[, sep[, eq[, options]]]) )
 
 ## Node.js
 
-```
+```js
 // Import the querystring module
 const querystring = require("querystring");
 
@@ -53,7 +53,7 @@ console.log("\nParsed Query:", parsedObject);
 
 **输出:**
 
-```
+```js
 Parsed Query: [Object: null prototype] {
   username: 'user1',
   units: [ 'kgs', 'pounds' ],
@@ -72,7 +72,7 @@ Parsed Query: [Object: null prototype] {
 
 ## Node.js
 
-```
+```js
 // Import the querystring module
 const querystring = require("querystring");
 
@@ -111,7 +111,7 @@ console.log("\nParsed Query:", parsedObject);
 
 **输出:**
 
-```
+```js
 Parsed Query: [Object: null prototype] {
   user: 'admin',
   articles: [ '1', '2', '3' ],

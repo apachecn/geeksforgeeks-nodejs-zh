@@ -10,7 +10,7 @@
 
 ## main.js
 
-```
+```js
 import path from 'path';
 const __dirname = path.resolve();
 console.log(__dirname)
@@ -24,7 +24,7 @@ console.log(__dirname)
 
 ## java 描述语言
 
-```
+```js
 import path from 'path';
 const __dirname = path.resolve();
 const __filename = path.resolve();

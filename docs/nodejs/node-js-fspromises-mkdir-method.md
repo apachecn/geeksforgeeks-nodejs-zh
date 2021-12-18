@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fsPromises.mkdir(path, options)
 ```
 
@@ -23,7 +23,7 @@ fsPromises.mkdir(path, options)
 
 **例:**
 
-```
+```js
 // Node.js program to demonstrate 
 // the fsPromises.mkdir() Method 
 
@@ -40,6 +40,6 @@ fsPromises.mkdir('fs_test2').then(function() {
 
 **输出:**
 
-```
+```js
 Directory created successfully!
 ```

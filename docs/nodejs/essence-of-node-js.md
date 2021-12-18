@@ -24,7 +24,7 @@ Node.js 或 Node 有一个小的核心模块组，通常称为 Node Core，通�
 
 *   ****Traditional server’s synchronous version:**
 
-    ```
+    ```js
     // Tell node we need to work with filesystem
     const fs = require("fs");
 
@@ -41,7 +41,7 @@ Node.js 或 Node 有一个小的核心模块组，通常称为 Node Core，通�
 
     **输出:**
 
-    ```
+    ```js
     Hello, GeeksforGeeks
     0
     1
@@ -52,7 +52,7 @@ Node.js 或 Node 有一个小的核心模块组，通常称为 Node Core，通�
     ```** 
 *   ****The Node asynchronous version:** Open up your terminal in the directory where your files are saved. Run the code using **node learn-callback.js** and observe the output. you will get to the point but first, see the Node version.
 
-    ```
+    ```js
     // Tell node we need to work with filesystem
     const fs = require("fs");
 
@@ -72,7 +72,7 @@ Node.js 或 Node 有一个小的核心模块组，通常称为 Node Core，通�
 
     **输出:**
 
-    ```
+    ```js
     0
     1
     2
@@ -93,7 +93,7 @@ Node.js 或 Node 有一个小的核心模块组，通常称为 Node Core，通�
 
 *   ****Example:** This example illustrate the Events. Run this code and see if you get the correct output.
 
-    ```
+    ```js
     // Require "events"; give us access to EventEmitter class
     // EventEmitter class has all the event related methods in it
     const EventEmitter = require("events");
@@ -118,7 +118,7 @@ Node.js 或 Node 有一个小的核心模块组，通常称为 Node Core，通�
 
     **输出:**
 
-    ```
+    ```js
     Let's learn computer science concepts.
 
     ```
@@ -126,7 +126,7 @@ Node.js 或 Node 有一个小的核心模块组，通常称为 Node Core，通�
     **解释:**当你发出“GfG opened”事件时，我们有一个事件监听器，它执行回调函数，回调函数向控制台打印一条消息。现在让我们看看当我们把**放入我们的发射器时会发生什么。**事件监听器前。** 
 *   ****Program where put **ourEmitter.emit(“GfG opened”);** before the event listener:**
 
-    ```
+    ```js
     ...
     // Emit "GfG opened"
     ourEmitter.emit("GfG opened");
@@ -142,7 +142,7 @@ Node.js 或 Node 有一个小的核心模块组，通常称为 Node Core，通�
 
     **输出:**节点事件 API 表示:
 
-    ```
+    ```js
     "When the EventEmitter object emits an event, all of the functions attached to 
     that specific event are called synchronously"
     ```

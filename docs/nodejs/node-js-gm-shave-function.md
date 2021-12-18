@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 shave(width, height, percentage)
 ```
 
@@ -23,7 +23,7 @@ shave(width, height, percentage)
 
 **程序:**
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 

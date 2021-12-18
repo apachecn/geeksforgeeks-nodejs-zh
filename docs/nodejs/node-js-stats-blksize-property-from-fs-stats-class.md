@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.blksize;
 ```
 
@@ -16,7 +16,7 @@ stats.blksize;
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.blksize property
 
@@ -45,7 +45,7 @@ fs.lstat('./', (err, stats) => {
 
 **输出:**
 
-```
+```js
 using stat: the block size for I/O operations 
 in the file in bytes is  4096
 using lstat: the block size for I/O operations 
@@ -55,7 +55,7 @@ in the file in bytes is  4096
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.blksize property
 
@@ -74,7 +74,7 @@ const fs = require('fs').promises;
 
 **输出:**
 
-```
+```js
 (node:6376) ExperimentalWarning: The fs.promises
 API is experimental
 using stat synchronous: the block size for I/O 

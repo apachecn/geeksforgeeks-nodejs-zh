@@ -6,7 +6,7 @@ assert 模块提供了一组用于验证不变量的断言函数。**assert . no
 
 **语法:**
 
-```
+```js
 assert.notEqual(actual, expected[, message])
 ```
 
@@ -21,14 +21,14 @@ assert.notEqual(actual, expected[, message])
 
 1.  您可以访问[安装断言模块](https://www.npmjs.com/package/assert)的链接。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install assert
     ```
 
 2.  **注意:**安装是可选步骤，因为它内置了 Node.js 模块。
 3.  安装断言模块后，您可以使用命令在命令提示符下检查您的**断言**版本。
 
-    ```
+    ```js
     npm version assert
 
     ```
@@ -39,7 +39,7 @@ assert.notEqual(actual, expected[, message])
 
 ## java 描述语言
 
-```
+```js
 // Requiring the module
 const assert = require('assert').strict;
 
@@ -60,13 +60,13 @@ try {
 1.  项目结构会是这样的:![](img/3209d9b4369c180282a34be8070d7d6e.png)
 2.  使用以下命令运行 **index.js** 文件:
 
-    ```
+    ```js
     node index.js
     ```
 
 3.  **输出:**
 
-    ```
+    ```js
     No Error Occured
     ```
 
@@ -74,7 +74,7 @@ try {
 
 ## java 描述语言
 
-```
+```js
 // Requiring the module
 const assert = require('assert').strict;
 
@@ -105,7 +105,7 @@ try {
 1.  项目结构会是这样的:![](img/3209d9b4369c180282a34be8070d7d6e.png)
 2.  使用以下命令运行 **index.js** 文件:
 
-    ```
+    ```js
     node index.js
     ```
 

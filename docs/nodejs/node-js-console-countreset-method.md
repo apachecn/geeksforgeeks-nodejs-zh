@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 console.countReset( label );
 ```
 
@@ -20,7 +20,7 @@ console.countReset( label );
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // console.countReset() method
 
@@ -45,7 +45,7 @@ console.count("b");
 
 **输出:**
 
-```
+```js
 a: 1
 b: 1
 a: 2
@@ -59,7 +59,7 @@ b: 1
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // console.countReset() method
 
@@ -89,7 +89,7 @@ console.count("b");
 
 **输出:**
 
-```
+```js
 default: 1
 a: 1
 b: 1

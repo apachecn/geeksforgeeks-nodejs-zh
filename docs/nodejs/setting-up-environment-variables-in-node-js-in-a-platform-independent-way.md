@@ -6,14 +6,14 @@
 
 **第一步:安装**[**dotenv**](https://www.npmjs.com/package/dotenv)**NPM 包:**打开命令外壳，导航到项目的根文件夹，通过以下命令安装 [dotenv](https://www.npmjs.com/package/dotenv) npm 包:
 
-```
+```js
 npm install dotenv
 
 ```
 
 如果你喜欢纱线，你可以做:
 
-```
+```js
 yarn add dotenv
 
 ```
@@ -24,7 +24,7 @@ yarn add dotenv
 
 **仅在本地设置上要求 dotenv 包:** 在项目的 starter JS 文件中，一般是 index.js，尽早导入包，使用如下语句:
 
-```
+```js
 if(process.env.NODE_ENV !== "production") {
     require('dotenv').config();
 }
@@ -36,14 +36,14 @@ if(process.env.NODE_ENV !== "production") {
 
 **第 4 步:在中设置环境变量。env 文件，并像普通环境变量一样使用它们:**将环境变量的键值对存储在。 ***env*** 文件格式如下(没有任何键或值的引号):
 
-```
+```js
 KEY = VALUE
 
 ```
 
 比如你的。env 文件可能如下所示:
 
-```
+```js
 DB_KEY = YOUR_ACTUAL_DATABASE_ACCESS_KEY
 SECRET_TOKEN = VALUE_OF_YOUR_SECRET_TOKEN
 ADMIN_EMAIL = xyz@abc.com
@@ -52,7 +52,7 @@ ADMIN_EMAIL = xyz@abc.com
 
 在代码文件中，可以通过引用它们各自的键来使用这些值，例如，
 
-```
+```js
 const my_db_key = process.env.DB_KEY
 const adminContactMail = process.env.ADMIN_EMAIL
 

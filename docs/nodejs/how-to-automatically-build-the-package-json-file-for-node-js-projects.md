@@ -12,7 +12,7 @@ package.json 文件是一个 json 文件，它包含项目中所需的所有依�
 
 首先，我们将学习如何在 NodeJS 中手动构建 ur package.json 文件。现在，只要我们在 Visual Studio 代码编辑器中打开一个文件夹，当我们键入以下代码时，就可以打开终端:
 
-```
+```js
 npm init
 ```
 
@@ -22,7 +22,7 @@ npm init
 
 *结果会创建一个 package.json 文件，可以从文件结构打开，打开文件会是这样的:*
 
-```
+```js
 {
   "name": "geeksforgeeks",
   "version": "1.0.0",
@@ -40,7 +40,7 @@ npm init
 
 我们可以用一行代码直接插入默认值的所有数据，而不是手动将所有数据放入终端:
 
-```
+```js
 npm init -y
 ```
 
@@ -50,7 +50,7 @@ npm init -y
 
 将创建 Package.json 文件，现在将使用默认元数据设置所有内容。
 
-```
+```js
 {
   "name": "geeksforgeeks",
   "version": "1.0.0",

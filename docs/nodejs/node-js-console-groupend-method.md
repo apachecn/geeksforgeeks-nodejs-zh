@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 console.groupEnd();
 ```
 
@@ -20,7 +20,7 @@ console.groupEnd();
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the 
 // console.groupEnd() method 
 
@@ -52,13 +52,13 @@ console.log();
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 GeeksforGeeks
 
   1st print from the first Collapsed group
@@ -71,7 +71,7 @@ GeeksforGeeks after the Ending of the group
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the 
 // console.group() method 
 
@@ -147,7 +147,7 @@ console.log("===================================");
 
 **控制台输出:**
 
-```
+```js
 GeeksforGeeks 
 ================================
 

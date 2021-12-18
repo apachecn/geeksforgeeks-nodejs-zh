@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const http2stream.rstCode
 
 ```
@@ -19,7 +19,7 @@ const http2stream.rstCode
 
 1.  **Private key:** Open notepad and copy paste the following key as shown below:
 
-    ```
+    ```js
     -----BEGIN RSA PRIVATE KEY-----
     MIICXQIBAAKBgQC38R9wXcUbhOd44FavgmE5R3K4JeYOHLnI7dUq1B8/Gv7l3SOg
     JKef/m9gM1KvUx951mapXGtcWgwB08J3vUE2YOZ4tWJArrVZES0BI/RmFAyhQFP5
@@ -42,7 +42,7 @@ const http2stream.rstCode
 
 2.  **公钥证书:**打开记事本复制粘贴以下密钥:
 
-    ```
+    ```js
     -----BEGIN CERTIFICATE-----
     MIICfzCCAegCCQDxxeXw914Y2DANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMC
     SU4xEzARBgNVBAgMCldlc3RiZW5nYWwxEDAOBgNVBAcMB0tvbGthdGExFDASBgNV
@@ -66,7 +66,7 @@ const http2stream.rstCode
 
 **示例 1:Filename:index . js**
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2Stream.rstCode method
 
@@ -130,14 +130,14 @@ req.on('end', () => {
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 
 ```
 
 **输出:**
 
-```
+```js
 status : 200
 Received: hello
 Received: RST_STREAM error code : 0
@@ -148,7 +148,7 @@ server destroyed
 
 **示例 2:文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2Stream.rstCode method
 
@@ -202,14 +202,14 @@ req.on('end', () => {
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 
 ```
 
 **输出:**
 
-```
+```js
 Received: stream has been assigned
 client destroyed
 server destroyed

@@ -14,7 +14,7 @@
 
 **模块安装:**使用以下命令安装 **mysql** 模块:
 
-```
+```js
 npm install mysql
 ```
 
@@ -26,7 +26,7 @@ npm install mysql
 
 ## index.js
 
-```
+```js
 const mysql = require("mysql");
 
 let db_con  = mysql.createConnection({
@@ -57,7 +57,7 @@ db_con.connect((err) => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -69,7 +69,7 @@ node index.js
 
 ## index.js
 
-```
+```js
 const mysql = require("mysql");
 
 let db_con  = mysql.createConnection({
@@ -100,7 +100,7 @@ db_con.connect((err) => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

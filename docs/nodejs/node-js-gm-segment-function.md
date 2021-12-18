@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 threshold( cluster threshold, smoothing threshold )
 ```
 
@@ -21,7 +21,7 @@ threshold( cluster threshold, smoothing threshold )
 
 ## java 描述语言
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 
@@ -54,7 +54,7 @@ gm(600, 300, 'white')
 
 ## java 描述语言
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 

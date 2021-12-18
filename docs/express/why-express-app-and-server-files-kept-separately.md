@@ -11,7 +11,7 @@ Express 是 Node.js 中用于 web 应用程序的一个简单而简约的框架�
 **服务器:**服务器单独负责中间件的初始化，设置引擎，以及请求通过的路由。这些路由由主要应用程序或功能逻辑组成。
 下面是进入 server.js 文件的代码片段。
 
-```
+```js
 // A function to initialize the server
 // configuration, middleware and routes
 const server = express();
@@ -38,7 +38,7 @@ create = function (config) {
 
 *   **路线:**路线，顾名思义，负责在应用程序中定义路线。在`routes/index.js`中定义路线的代码片段。
 
-    ```
+    ```js
     // routes/index.js
     server.get('/', function (req, res) {
 
@@ -53,7 +53,7 @@ create = function (config) {
 
 *   **控制器:**控制器包含要执行的逻辑。它们还控制渲染的视图。定义控制器的代码片段。
 
-    ```
+    ```js
     // controllers/home.js
     function index (req, res) {
         console.log("On the home page");

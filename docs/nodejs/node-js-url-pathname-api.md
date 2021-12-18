@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const url.pathname
 ```
 
@@ -18,7 +18,7 @@ const url.pathname
 
 ## java 描述语言
 
-```
+```js
 // node program to demonstrate the 
 // url.pathname API as Setter 
 
@@ -52,7 +52,7 @@ console.log(myURL.href);
 
 ## java 描述语言
 
-```
+```js
 // node program to demonstrate the 
 // url.pathname API as Getter 
 

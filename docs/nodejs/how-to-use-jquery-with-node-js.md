@@ -12,7 +12,7 @@
 
 *   **第一步:**制作 package.json 文件。使用以下命令创建 package.json 文件，该文件跟踪模块和依赖关系。
 
-    ```
+    ```js
     npm init -y
     ```
 
@@ -20,31 +20,31 @@
 
 *   **步骤 2:** 安装 jquery 模块。使用以下命令安装 jquery 模块。
 
-    ```
+    ```js
     npm install jquery
     ```
 
 *   **步骤 3 :** 安装 jsdom 模块。由于 jQuery 是一个前端 JavaScript 库，它需要一个包含文档的窗口才能在后端工作。“jsdom”是一个用来解析 HTML 并与之交互的库。它不完全是一个网络浏览器，而是模仿一个。使用以下命令安装 jsdom 模块。
 
-    ```
+    ```js
     npm install jsdom
     ```
 
 *   **第 4 步:**导入 jsdom 模块。使用 require 方法导入 jsdom 模块。
 
-    ```
+    ```js
     const jsdom = require('jsdom')
     ```
 
 *   **步骤 5:** 创建新窗口。我们通过创建一个 JSDOM 对象，用 HTML 代码作为参数，创建一个带有文档的窗口。以下代码用于创建带有文档的窗口:-
 
-    ```
+    ```js
     const dom = new jsdom.JSDOM("")
     ```
 
 *   **第六步:**导入 jQuery 并提供窗口。一旦创建了包含文档的窗口，我们就可以通过向 jquery 模块提供我们创建的窗口来使用它。下面的代码用于导入 jquery 模块。
 
-    ```
+    ```js
     const jquery = require('jquery')(dom.window)
     ```
 
@@ -54,7 +54,7 @@
 
 ## java 描述语言
 
-```
+```js
 // Importing the jsdom module
 const jsdom = require("jsdom");
 
@@ -83,7 +83,7 @@ console.log(content.textContent);
 
 **输出:**
 
-```
+```js
 GeeksforGeeks
 Is a cool website
 ```

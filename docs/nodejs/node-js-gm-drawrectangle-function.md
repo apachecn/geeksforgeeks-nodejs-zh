@@ -5,7 +5,7 @@
 **绘制矩形()函数**是 GraphicsMagick 库中的一个内置函数，用于绘制具有指定坐标的矩形。该函数在成功时返回真值。
 **语法:**
 
-```
+```js
 drawRectangle( x0, y0, x1, y1, wc, hc )
 ```
 
@@ -23,7 +23,7 @@ drawRectangle( x0, y0, x1, y1, wc, hc )
 
 ## java 描述语言
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 
@@ -69,7 +69,7 @@ gm(600, 300, 'white')
 
 ## java 描述语言
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 

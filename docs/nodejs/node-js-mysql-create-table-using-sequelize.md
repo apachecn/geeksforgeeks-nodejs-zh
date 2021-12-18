@@ -26,7 +26,7 @@
 
 ## java 描述语言
 
-```
+```js
 // Include Sequelize module.
 const Sequelize = require('sequelize')
 
@@ -91,7 +91,7 @@ module.exports = User
 
 ## java 描述语言
 
-```
+```js
 // Import the sequelize object on which 
 // we have defined model. 
 const sequelize = require('./utils/database') 
@@ -122,14 +122,14 @@ sequelize.sync({force:true})
 
 *   安装此项目所需的模块:
 
-```
+```js
 npm install mysql2
 npm install sequelize
 ```
 
 *   使用以下命令执行 app.js(根文件):
 
-```
+```js
 node app.js
 ```
 
@@ -137,7 +137,7 @@ node app.js
 
 *   在 MySql 数据库中，现在我们可以描述我们使用 Sequelize 创建的用户模型。使用以下命令
 
-```
+```js
 use database geeksforgeeks
 desc users;
 ```

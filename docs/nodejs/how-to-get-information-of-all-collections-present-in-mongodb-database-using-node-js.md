@@ -6,7 +6,7 @@
 
 **安装模块:**可以使用以下命令安装 **mongodb** 模块。
 
-```
+```js
 npm install mongodb
 ```
 
@@ -18,7 +18,7 @@ npm install mongodb
 
 **在本地 IP 上运行服务器:**数据是 MongoDB 服务器所在的目录。
 
-```
+```js
 mongod --dbpath=data --bind_ip 127.0.0.1
 ```
 
@@ -32,7 +32,7 @@ mongod --dbpath=data --bind_ip 127.0.0.1
 
 ## java 描述语言
 
-```
+```js
 // Requiring module
 const MongoClient = require("mongodb");
 const url = 'mongodb://localhost:27017/';
@@ -56,7 +56,7 @@ MongoClient.connect(url).then((client) => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

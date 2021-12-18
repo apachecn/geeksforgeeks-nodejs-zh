@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```js
 <student>
     <details>
         <name> sravan</name>
@@ -25,7 +25,7 @@
 
 **示例:**
 
-```
+```js
 {"student":[
  { "Name":"sravan", "id":1 },
   { "Name":"sudheer", "id":2}
@@ -55,19 +55,19 @@
 
     **语法:**
 
-    ```
+    ```js
     JSON.stringify(results)
     ```
 
 *   **安装模块:**
 
-    ```
+    ```js
     npm install fs xml2js
     ```
 
 ## code1.js
 
-```
+```js
 // import File System Module
 import fs from "fs"; 
 
@@ -100,7 +100,7 @@ console.log("results",data);
 });
 ```
 
-```
+```js
 node code1.js
 ```
 

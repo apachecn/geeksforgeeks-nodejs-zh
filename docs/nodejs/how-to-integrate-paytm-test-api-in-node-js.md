@@ -10,19 +10,19 @@
 
 **初始化 NPM 包:**
 
-```
+```js
 npm init -y
 ```
 
 **安装依赖项:**
 
-```
+```js
 npm install express ejs
 ```
 
 ## app.js
 
-```
+```js
 const express= require('express');
 var app= express();
 var bodyParser= require('body-parser');
@@ -48,7 +48,7 @@ app.listen(port,()=>{
 *   在/view 文件夹中创建视图
 *   连接 app.js 文件中的视图
 
-```
+```js
 app.use('/', require('./routes/server'));
 ```
 
@@ -93,7 +93,7 @@ app.use('/', require('./routes/server'));
 
 ## java 描述语言
 
-```
+```js
 var PaytmConfig = {
     mid: "YOUR MERCHANT ID",
     key: "YOUR MERCHANT KEY",

@@ -5,7 +5,7 @@
 Node.js 的“fs”模块实现了文件的输入输出操作。fs 模块中的方法可以是同步的，也可以是异步的。异步函数有一个回调函数作为指示异步函数完成的最后一个参数。与同步方法相比，Node.js 开发人员更喜欢异步方法，因为异步方法在程序执行过程中从不阻塞程序，而后者会阻塞程序。阻塞主线程是 Node.js 中的弊端，因此同步函数应该只用于调试或者在没有其他选项可用的时候。fs.writeFileSync()是一种同步方法。如果指定的文件不存在，fs.writeFileSync()将创建一个新文件。“readline-sync”模块也用于在运行时启用用户输入。
 **语法:**
 
-```
+```js
 fs.writeFileSync( file, data, options )
 ```
 
@@ -22,7 +22,7 @@ fs.writeFileSync( file, data, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.writeFileSync() method
 
@@ -41,7 +41,7 @@ console.log(fs.readFileSync("programming.txt", "utf8"));
 
 **输出:**
 
-```
+```js
 File written successfully
 
 The written has the following contents:
@@ -53,7 +53,7 @@ This is a file containing a collection of programming languages.
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.writeFileSync() method
 
@@ -79,7 +79,7 @@ console.log(fs.readFileSync("movies.txt", "utf8"));
 
 **输出:**
 
-```
+```js
 File written successfully 5 times
 
 The written file has the following contents:
@@ -94,7 +94,7 @@ Movie 4
 
 **示例 3:** 使用 readline 模块从用户处获取文件名和文件数据的运行时输入
 
-```
+```js
 // Write Javascript code here
 var readline = require('readline-sync'); 
 var fs = require("fs"); 
@@ -129,7 +129,7 @@ console.log(err);
 
 **示例 4:** 使用缓冲区从用户处获取使用 readline 模块的文件数据的运行时输入
 
-```
+```js
 // Write Javascript code here
 var fs = require("fs");
 var readline = require('readline-sync'); 

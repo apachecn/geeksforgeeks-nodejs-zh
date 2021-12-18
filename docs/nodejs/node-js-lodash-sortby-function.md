@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 sortBy(collection, [iteratees=[_.identity]])
 ```
 
@@ -18,7 +18,7 @@ sortBy(collection, [iteratees=[_.identity]])
 
 **例 1:**
 
-```
+```js
 let lodash = require("lodash");
 let arr = [2, 1, 8, 4, 5, 8];
 
@@ -31,7 +31,7 @@ console.log("After sorting: ", lodash.sortBy(arr));
 
 **例 2:**
 
-```
+```js
 let lodash = require("lodash");
 let arr = [2, 1, 5, 8, "a", "b", "10"];
 
@@ -45,7 +45,7 @@ console.log("After sorting: \n" 
 
 **例 3:**
 
-```
+```js
 let lodash = require("lodash");
 let arr = [
   {val:10, weight:100},

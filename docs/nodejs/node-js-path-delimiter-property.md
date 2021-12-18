@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 path.delimiter;
 ```
 
@@ -16,7 +16,7 @@ path.delimiter;
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // path.delimiter property
 
@@ -29,13 +29,13 @@ console.log(path.delimiter);
 
 **输出:**
 
-```
+```js
 ;
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // path.delimiter property
 
@@ -54,7 +54,7 @@ console.log(process.env.PATH.split(path.delimiter));
 
 **输出:**
 
-```
+```js
 C:\wamp64\bin\php\php7.3.1\ext\ImageMagick;C:\Program Files (x86)\Common 
 Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;
 C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;

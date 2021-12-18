@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 filehandle.appendFile(data, options);
 ```
 
@@ -22,7 +22,7 @@ filehandle.appendFile(data, options);
 
 **示例 1:** 此示例说明了新数据如何追加到先前存在的文件中。
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 
@@ -71,7 +71,7 @@ appendDataToFile('./testFile.txt', 
 
 **示例 2:** 此示例说明了数据如何在运行时追加到新创建的文件中。
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 

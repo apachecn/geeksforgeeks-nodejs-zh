@@ -19,7 +19,7 @@
 
 ## java 描述语言
 
-```
+```js
 const { spawn } = require('child_process');
 const child = spawn('dir', ['D:\\empty'], { shell: true });
 

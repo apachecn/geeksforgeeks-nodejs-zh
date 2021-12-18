@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.writeFloatBE( value, offset )
 ```
 
@@ -21,7 +21,7 @@ Buffer.writeFloatBE( value, offset )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // Buffer.writeFloatBE() method 
 
@@ -42,7 +42,7 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 4
 8
 12
@@ -53,7 +53,7 @@ console.log(buf);
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // Buffer.writeFloatBE() method 
 
@@ -77,7 +77,7 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 Before writing into buffer:
 <Buffer 00 00 00 00 00 00 00 00>
 4

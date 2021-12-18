@@ -11,14 +11,14 @@
 
 **需要模块:**
 
-```
+```js
 npm install express
 npm install express-session
 ```
 
 **调用 API:**
 
-```
+```js
 var session = require('express-session')
 ```
 
@@ -36,7 +36,7 @@ var session = require('express-session')
 
 ## java 描述语言
 
-```
+```js
 // Call Express Api.
 var express = require('express'),
 
@@ -97,7 +97,7 @@ app.listen(3000, function () {
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node app.js
 ```
 
@@ -105,7 +105,7 @@ node app.js
 
 现在要设置您的会话，只需打开浏览器并键入以下网址:
 
-```
+```js
 http://localhost:3000/session
 
 ```

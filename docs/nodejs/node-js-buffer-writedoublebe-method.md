@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.writeDoubleBE( value, offset )
 ```
 
@@ -21,7 +21,7 @@ Buffer.writeDoubleBE( value, offset )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // Buffer.writeDoubleBE() method 
 
@@ -42,7 +42,7 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 8
 16
 24
@@ -54,7 +54,7 @@ console.log(buf);
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // Buffer.writeDoubleBE() method 
 
@@ -78,7 +78,7 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 Before writing into buffer:
 <Buffer f8 02 ff bc f8 01 00 00 f8 02 ff bc f8 01 00 00>
 8

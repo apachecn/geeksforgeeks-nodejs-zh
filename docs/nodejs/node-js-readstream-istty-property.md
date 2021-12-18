@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const readStream.isTTY
 ```
 
@@ -16,7 +16,7 @@ const readStream.isTTY
 
 ## JavaScript
 
-```
+```js
 // Node.js program to demonstrate the
 // readStream.isTTY property
 

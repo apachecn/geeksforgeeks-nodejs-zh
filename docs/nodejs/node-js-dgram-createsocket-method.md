@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const dgram.createSocket(options[, callback])
 ```
 
@@ -27,7 +27,7 @@ const dgram.createSocket(options[, callback])
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // dgram.createSocket() method
 
@@ -71,7 +71,7 @@ client.send("Hello", 0, 7, 1234, "localhost");
 
 **输出:**
 
-```
+```js
 12345
 UDP String: Hello
 ```
@@ -80,7 +80,7 @@ UDP String: Hello
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // dgram.createSocket() method
 
@@ -143,7 +143,7 @@ client.send("Hello", 0, 7, 1234, "localhost");
 
 **输出:**
 
-```
+```js
 server listening 0.0.0.0:1234
 1234567
 server is created
@@ -152,7 +152,7 @@ UDP String: Hello
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 

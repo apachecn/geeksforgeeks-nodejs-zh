@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 buffer.readIntBE( offset, byteLen )
 ```
 
@@ -17,7 +17,7 @@ buffer.readIntBE( offset, byteLen )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // buffer.readIntBE(offset, bytelen) method 
 const buff = Buffer.from([0x11, 0x12, 0x34, 0x56, 0x89, 0xcd]);
@@ -29,7 +29,7 @@ console.log(buff.readIntBE(0, 4).toString(16));
 
 **输出:**
 
-```
+```js
 1112345689
 11123456
 
@@ -37,7 +37,7 @@ console.log(buff.readIntBE(0, 4).toString(16));
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // buffer.readIntBE(offset, bytelen) method 
 const buff = Buffer.from([0x11, 0x12, 0x34, 0x56, 0x89, 0xcd]);
@@ -49,7 +49,7 @@ console.log(buff.readIntBE(3, 0).toString(16));
 
 **输出:**
 
-```
+```js
 buffer.js:831
     throw new RangeError('Index out of range');
     ^

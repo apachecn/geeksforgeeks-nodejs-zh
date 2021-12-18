@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fsPromises.readFile( path, options )
 ```
 
@@ -27,13 +27,13 @@ fsPromises.readFile( path, options )
 
 创建一个演示文本文件，就像，我们已经创建了 **GFG.txt** 与以下文本:
 
-```
+```js
 Greetings from GeeksforGeeks
 ```
 
 **文件名:**
 
-```
+```js
 // Node.js program to demonstrate 
 // the fsPromises.readFile() method 
 
@@ -54,13 +54,13 @@ fs.promises.readFile("./GFG_Test.txt")
 
 **运行该程序的步骤:**从根目录运行以下命令，如下所示:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Greetings from GeeksforGeeks
 ```
 

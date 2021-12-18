@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 writable.writableHighWaterMark
 ```
 
@@ -16,7 +16,7 @@ writable.writableHighWaterMark
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.writableHighWaterMark Property
 
@@ -51,7 +51,7 @@ writable.writableHighWaterMark;
 
 **输出:**
 
-```
+```js
 hi
 GFG
 16384
@@ -62,7 +62,7 @@ GFG
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.writableHighWaterMark Property
 
@@ -82,7 +82,7 @@ writable.writableHighWaterMark;
 
 **输出:**
 
-```
+```js
 1234
 ```
 

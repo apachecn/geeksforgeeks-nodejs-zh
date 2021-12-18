@@ -13,7 +13,7 @@ NodeJS 自带一个简单的 HTTP 服务器内置。这个 HTTP 服务器允许�
 
 #### 一旦你安装了节点，让我们尝试建立我们的第一个网络服务器。例如，让我们编写一个 server.js 文件-
 
-```
+```js
 const http = require('http');
 
 const hostname = '127.0.0.1';
@@ -32,7 +32,7 @@ server.listen(port, hostname, () => {
 
 现在要从终端执行这个文件，只需写:-
 
-```
+```js
 node server.js
 ```
 
@@ -64,14 +64,14 @@ node server.js
 
 创建包含任意内容的文本文件。例如–node . txt，内容如下-
 
-```
+```js
 Welcome to Nodejs streams usage. Read this file.
 
 ```
 
 创建一个 js 文件，例如- read.js，包含以下内容-
 
-```
+```js
 var fs = require("fs"); //using the Node fs module you can read a file
 var data = '';
 
@@ -106,7 +106,7 @@ console.log("Reading complete");
 
 创建一个 js 文件，例如- write.js，内容如下-
 
-```
+```js
 var fs = require("fs");
 
 //data variable containing the data to be written to the file
@@ -155,7 +155,7 @@ net 模块为创建基于流的 TCP 或 IPC 服务器(net.createServer())和客�
 
 例如要在 Node.js 中创建一个测试套接字，创建一个文件，例如- test.js，内容如下-
 
-```
+```js
 // server
 require('net').createServer(function (socket) {
     console.log("connected");

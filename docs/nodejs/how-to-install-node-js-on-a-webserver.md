@@ -12,7 +12,7 @@
 
 打开命令提示符/命令行，输入以下命令:
 
-```
+```js
 npm install -g http-server
 ```
 
@@ -20,13 +20,13 @@ npm install -g http-server
 
 在命令提示符/命令行中，输入以下命令:
 
-```
+```js
 cd projects\node
 ```
 
 现在，使用以下命令启动服务器:
 
-```
+```js
 http-server
 ```
 

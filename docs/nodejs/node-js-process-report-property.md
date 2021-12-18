@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const process.report
 ```
 
@@ -16,7 +16,7 @@ const process.report
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Process.report Property
 
@@ -32,13 +32,13 @@ console.log(reports)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 {
   writeReport: [Function: writeReport],
   getReport: [Function: getReport],    
@@ -56,7 +56,7 @@ node index.js
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Process.report Property
 
@@ -74,13 +74,13 @@ if (process.report) {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 false
 ```
 

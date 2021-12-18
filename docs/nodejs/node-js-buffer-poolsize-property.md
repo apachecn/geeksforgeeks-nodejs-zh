@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.poolSize = value
 ```
 
@@ -14,7 +14,7 @@ Buffer.poolSize = value
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // Buffer.poolSize property
 
@@ -27,13 +27,13 @@ console.log(Buffer.poolSize);
 
 **输出:**
 
-```
+```js
 1024
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // Buffer.poolSize property
 
@@ -43,7 +43,7 @@ console.log(Buffer.poolSize);
 
 **输出:**
 
-```
+```js
 8192
 ```
 

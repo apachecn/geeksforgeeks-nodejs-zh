@@ -6,19 +6,19 @@ NPM(节点包管理器)是 Node.js 包的包管理器。有一个名为**‘shor
 
 **安装命令:**
 
-```
+```js
 npm install shortid
 ```
 
 **在本地文件中导入包的语法-**
 
-```
+```js
 const shortid = require('shortid')
 ```
 
 **创建唯一 id 的语法-**
 
-```
+```js
 const newId = shortid.generate()
 ```
 
@@ -28,7 +28,7 @@ shortid 模块上定义了一些方法来创建唯一的 id 和自定义 id。�
 
 **示例:**
 
-```
+```js
 users.insert({
   _id: shortid.generate(),
   name: '...',
@@ -40,7 +40,7 @@ users.insert({
 
 **示例:**
 
-```
+```js
 shortid.isValid('41GHDbE');
 // true
 shortid.isValid('i have spaces');
@@ -51,7 +51,7 @@ shortid.isValid('i have spaces');
 
 **示例:**
 
-```
+```js
 shortid.characters('ⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓅⓆⓇⓈⓉ'
 + 'ⓊⓋⓌⓍⓎⓏⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥ'
 + 'ⓦⓧⓨⓩ①②③④⑤⑥⑦⑧⑨⑩⑪⑫');
@@ -61,7 +61,7 @@ shortid.characters('ⒶⒷⒸⒹⒺⒻⒼⒽⒾⒿⓀⓁⓂⓃⓄⓅⓆⓇⓈⓉ
 
 **filename-index.js :** 这个文件包含创建短 id 的所有逻辑，并将其与用户信息一起附加并保存到数据库中。
 
-```
+```js
 const express = require('express')
 const bodyParser = require('body-parser')
 const shortid = require('shortid')
@@ -106,7 +106,7 @@ app.listen(port, () => {
 
 **filename–repository . js:**该文件包含创建数据库和与之交互的所有逻辑。
 
-```
+```js
 // Importing node.js file system module 
 const fs = require('fs')
 
@@ -168,7 +168,7 @@ module.exports = 
 
 **filename–form . js:**这个文件包含了渲染表单的所有逻辑。
 
-```
+```js
 module.exports = ({errors}) => {
   return `
 <!DOCTYPE html>
@@ -253,7 +253,7 @@ module.exports = ({errors}) => {
 
 **filename-index.js:** 这个文件包含创建短 id 的所有逻辑，并将其与用户信息一起附加并保存到数据库中。
 
-```
+```js
 const express = require('express')
 const bodyParser = require('body-parser')
 const shortid = require('shortid')
@@ -305,7 +305,7 @@ app.listen(port, () => {
 
 **filename–repository . js:**该文件包含创建数据库和与之交互的所有逻辑。
 
-```
+```js
 // Importing node.js file system module 
 const fs = require('fs')
 
@@ -363,7 +363,7 @@ module.exports = 
 
 **文件名–form . js:**这个文件包含了渲染表单的所有逻辑
 
-```
+```js
 const getError = (errors, prop) => {
   try {
     return errors.mapped()[prop].msg

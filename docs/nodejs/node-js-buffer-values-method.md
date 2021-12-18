@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.values()
 ```
 
@@ -18,7 +18,7 @@ Buffer.values()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.values() Method
 const buffer = Buffer.from('geek');
@@ -31,7 +31,7 @@ for (const value of buffer.values()) {
 
 **输出:**
 
-```
+```js
 103
 101
 101
@@ -40,7 +40,7 @@ for (const value of buffer.values()) {
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.values() Method
 const buffer = Buffer.from('geek');
@@ -76,7 +76,7 @@ console.log(op); 
 
 **输出:**
 
-```
+```js
 103
 101
 101

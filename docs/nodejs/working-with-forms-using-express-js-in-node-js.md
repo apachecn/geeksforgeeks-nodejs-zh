@@ -16,7 +16,7 @@
 
 下载 MongoDB 后，在进行上述实现之前，我们必须遵循一些步骤:
 
-```
+```js
 Run "mongod" command at first.
 Press 'ctrl+c' and write 'echo "mongod --nojournal" > mongod'
 Write 'chmod a+x mongod'
@@ -24,7 +24,7 @@ Write 'chmod a+x mongod'
 
 **现在，设置 npm 包:**
 
-```
+```js
 npm init -y
 ```
 
@@ -32,7 +32,7 @@ npm init -y
 
 在终端中使用以下命令立即安装软件包:
 
-```
+```js
 npm install express body-parser mongoose ejs --save
 ```
 
@@ -44,7 +44,7 @@ npm install express body-parser mongoose ejs --save
 
 ## App.js
 
-```
+```js
 //importing dependencies
 const express = require("express")
 const app=express();
@@ -97,7 +97,7 @@ app.listen(3000, function() { 
 
 ## Form.js
 
-```
+```js
 //Requiring mongoose package
 var mongoose=require("mongoose");
 
@@ -112,7 +112,7 @@ module.exports=mongoose.model("Form",formSchema);
 
 ## 头儿
 
-```
+```js
 <!DOCTYPE html>
 <!-- Opening HTML Tags-->
 <html>
@@ -127,7 +127,7 @@ module.exports=mongoose.model("Form",formSchema);
 
 ## 我的天啊
 
-```
+```js
 <!--Opening the ejs tags for including header file-->
 <%- include("./partials/header") %>
 <!-- Creating a form where action will 

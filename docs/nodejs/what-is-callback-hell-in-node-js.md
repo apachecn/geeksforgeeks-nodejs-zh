@@ -25,7 +25,7 @@
 
 **例:**这是典型回调地狱的例子。
 
-```
+```js
 app.get("/details", function (req, res) {
     var name = req.query.name;
     console.log(name);

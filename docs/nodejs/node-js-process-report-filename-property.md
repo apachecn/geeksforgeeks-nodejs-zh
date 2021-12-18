@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const process.report.filename
 ```
 
@@ -18,7 +18,7 @@ const process.report.filename
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Process.report.filename Property
 
@@ -34,13 +34,13 @@ console.log(process.report.filename)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 GFG
 ```
 
@@ -48,7 +48,7 @@ GFG
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Process.report.filename Property
 
@@ -66,13 +66,13 @@ else
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 No file name is assigned
 ```
 

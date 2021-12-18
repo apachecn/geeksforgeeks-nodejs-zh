@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 url.hash
 ```
 
@@ -18,7 +18,7 @@ url.hash
 
 ## java 描述语言
 
-```
+```js
 // node program to demonstrate the 
 // url.hash API as Setter 
 
@@ -41,7 +41,7 @@ console.log(myURL.href);
 
 **输出**:
 
-```
+```js
 Before Change
 https://example.org/foo#ram
 
@@ -53,7 +53,7 @@ https://example.org/foo#rahim
 
 ## java 描述语言
 
-```
+```js
 // node program to demonstrate the 
 // url.hash API as Getter 
 
@@ -70,7 +70,7 @@ console.log(hash);
 
 **输出:**
 
-```
+```js
 #ram
 ```
 

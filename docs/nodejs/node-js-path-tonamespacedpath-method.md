@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 path.toNamespacedPath( path )
 ```
 
@@ -20,7 +20,7 @@ path.toNamespacedPath( path )
 
 **例 1:**
 
-```
+```js
 // Import the path module
 const path = require('path');
 
@@ -33,14 +33,14 @@ console.log("Namespaced Path:", nameSpacedPath);
 
 **输出:**
 
-```
+```js
 Original Path: C:\Windows\users
 Namespaced Path: \\?\C:\Windows\users
 ```
 
 **例 2:**
 
-```
+```js
 // Import the path module
 const path = require('path');
 
@@ -53,7 +53,7 @@ console.log("Namespaced Path:", nameSpacedPath);
 
 **输出:**
 
-```
+```js
 Original Path: C:\Windows\users\..\admin
 Namespaced Path: \\?\C:\Windows\admin
 ```

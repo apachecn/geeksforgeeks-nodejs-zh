@@ -10,13 +10,13 @@
 
 为了得到响应和恰当的结果，我们需要导入“ *http* ”模块。
 
-```
+```js
 const http = require('http');
 ```
 
 **语法:**
 
-```
+```js
 http.validateHeaderName(name);
 ```
 
@@ -32,7 +32,7 @@ http.validateHeaderName(name);
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // http.validateHeaderName() Method
 
@@ -56,7 +56,7 @@ try {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -70,7 +70,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // http.validateHeaderName() Method
 
@@ -130,7 +130,7 @@ httpServer.listen(PORT, () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -151,7 +151,7 @@ node index.js
 
 **输出:**在浏览器中
 
-```
+```js
 ok
 ```
 

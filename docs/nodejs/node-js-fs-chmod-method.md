@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 fs.chmod( path, mode, callback )
 ```
 
@@ -23,7 +23,7 @@ fs.chmod( path, mode, callback )
 
 **示例 1:** 该示例显示了使用八进制整数常量来授予文件权限。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.chmod() method
 
@@ -59,7 +59,7 @@ fs.chmod("example.txt", 0o400, () => {
 
 **输出:**
 
-```
+```js
 Granting only read access to user
 
 Reading the file contents
@@ -78,7 +78,7 @@ This file has now been edited.
 
 **示例 2:** 该示例显示了使用字符串常量和或运算符来授予文件权限。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.chmod() method
 
@@ -118,7 +118,7 @@ fs.chmod("example.txt", fs.constants.S_IRUSR, () => {
 
 **输出:**
 
-```
+```js
 Granting only read access to user
 File Contents: This file now has been edited.
 

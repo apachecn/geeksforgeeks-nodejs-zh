@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.futimes( fd, atime, mtime, callback )
 ```
 
@@ -22,7 +22,7 @@ fs.futimes( fd, atime, mtime, callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.futimes() method
 
@@ -62,7 +62,7 @@ fs.futimes(fd, changedAccessTime, changedModifiedTime, () => {
 
 **输出:**
 
-```
+```js
 Details before changing time:
 Modification Time: 2020-05-25T15:59:10.807Z
 Access Time: 2020-05-25T15:59:10.807Z
@@ -75,7 +75,7 @@ Changed Access Time: 2020-05-25T16:01:34.915Z
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.futimes() method
 
@@ -115,7 +115,7 @@ fs.futimes(fd, changedAccessTime, changedModifiedTime, () => {
 
 **输出:**
 
-```
+```js
 Details before changing time:
 Modification Time: 2020-05-25T16:06:28.977Z
 Access Time: 2020-05-25T16:06:28.977Z

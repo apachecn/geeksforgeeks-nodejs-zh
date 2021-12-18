@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.accessSync( path, mode )
 ```
 
@@ -19,7 +19,7 @@ fs.accessSync( path, mode )
 
 **示例 1:** 此示例显示了文件读写权限的测试。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.accessSync() method
 
@@ -51,7 +51,7 @@ try {
 
 **输出:**
 
-```
+```js
 Giving only read permission to user
 
 > Checking Permission for reading the file
@@ -63,7 +63,7 @@ No Read and Write access
 
 **示例 2:** 此示例显示了文件存在时的测试。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.accessSync() method
 
@@ -94,7 +94,7 @@ try {
 
 **输出:**
 
-```
+```js
 > Checking if the file exists
 File does not exist
 

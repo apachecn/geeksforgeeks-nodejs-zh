@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crypto.publicDecrypt( key, buffer )
 ```
 
@@ -23,7 +23,7 @@ crypto.publicDecrypt( key, buffer )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.publicDecrypt() method
 
@@ -100,7 +100,7 @@ privENC_pubDEC(myMSG);
 
 **输出:**
 
-```
+```js
 Original msg is : GeeksforGeeks!
 
 Encrypted with private key:
@@ -113,7 +113,7 @@ Decrypted with public key: GeeksforGeeks!
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.publicDecrypt() method
 
@@ -146,7 +146,7 @@ console.log(origData);
 
 **输出:**
 
-```
+```js
 // Buffer 27 62 a1 2a 53 8d 0d 52 c7 3f e8 cc 89 42 c6
 3e 8e 60 cd d3 57 06 d4 c9 1e 31 ba e6 23 8b 2c 10 be 
 c1 fc ed 53 a4 9f f9 e0 5b da 74 d7 c2ca d0 98 f4 ... 

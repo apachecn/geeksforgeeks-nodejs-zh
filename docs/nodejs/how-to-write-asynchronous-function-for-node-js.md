@@ -6,7 +6,7 @@
 
 使用以下命令从 Node.js 中的 npm 安装异步:
 
-```
+```js
 npm i async
 ```
 
@@ -17,20 +17,20 @@ npm i async
 *   创建项目文件夹。
 *   使用以下命令初始化项目文件夹中的 package.json 文件。
 
-    ```
+    ```js
     npm init -y
     ```
 
 *   使用以下命令安装异步:
 
-    ```
+    ```js
     npm i async
     ```
 
 *   创建一个 server.js 文件，并在其中编写以下代码。
 *   使用`npm start`运行代码
 
-```
+```js
 var async = require("async");
 
 function square(x) {
@@ -70,7 +70,7 @@ output(10);
 
 **示例 2:** 创建一个异步函数，使用 await 计算 Node.js 中两个数的和。执行上面的过程来创建一个 Node.js 项目。
 
-```
+```js
 var async = require("async");
 
 function square(a, b) {

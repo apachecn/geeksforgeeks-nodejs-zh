@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fsPromises.opendir( path[, options])
 ```
 
@@ -21,7 +21,7 @@ fsPromises.opendir( path[, options])
 
 **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // fsPromises.opendir() method 
 
@@ -41,13 +41,13 @@ fsPromises.opendir(__dirname)
 **运行该程序的步骤:**
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Dir {
   [Symbol(kDirHandle)]: DirHandle {},
   [Symbol(kDirBufferedEntries)]: [],

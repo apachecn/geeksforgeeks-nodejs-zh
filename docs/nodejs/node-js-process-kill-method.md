@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.kill(pid[, signal])
 ```
 
@@ -34,7 +34,7 @@ process.kill(pid[, signal])
 
 ## index.js
 
-```
+```js
 // Node.js program to demonstrate the 
 // process.kill(pid[, signal]) method 
 
@@ -57,7 +57,7 @@ process.kill(process.pid, 'SIGINT');
 
 **运行命令:**
 
-```
+```js
 node index.js
 ```
 
@@ -69,7 +69,7 @@ node index.js
 
 ## index.js
 
-```
+```js
 // Node.js program to demonstrate the 
 // process.kill(pid[, signal]) method 
 // Printing process signal acknowledged
@@ -91,7 +91,7 @@ process.kill(process.pid, 'SIGHUP');
 
 **运行命令:**
 
-```
+```js
 node index.js
 ```
 

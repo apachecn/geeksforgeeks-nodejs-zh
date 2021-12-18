@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 console.log( [data][, ...] )
 
 ```
@@ -19,7 +19,7 @@ console.log( [data][, ...] )
 
 **程序 1:**
 
-```
+```js
 function GFG(name) {
      console.log("hello " + name);
 }
@@ -33,7 +33,7 @@ GFG("Geeksforgeeks");
 
 **程序 2:**
 
-```
+```js
 function GFG(name) {
      console.log("hello " + name);
 }

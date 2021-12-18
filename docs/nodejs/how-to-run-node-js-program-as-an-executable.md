@@ -13,7 +13,7 @@
 
 **在 package.json 文件中添加 bin 段:**
 
-```
+```js
 "bin" : {
     "execute" : "index.js"
 } 
@@ -25,19 +25,19 @@
 
 **更改文件权限**
 
-```
+```js
 chmod +x index.js
 ```
 
 **给 index.js 添加注释**
 
-```
+```js
 #!/usr/bin/env node
 ```
 
 **链接项目的命令**
 
-```
+```js
 npm link
 ```
 
@@ -45,7 +45,7 @@ npm link
 
 ## java 描述语言
 
-```
+```js
 // Adding comment to to index.js
 #!/usr/bin / env node
 // Code to count length of word
@@ -63,7 +63,7 @@ console.log(`Words Length : ${length}`);
 
 **输入**
 
-```
+```js
 execute Countlengthofmine!
 ```
 
@@ -75,7 +75,7 @@ execute Countlengthofmine!
 
 ## java 描述语言
 
-```
+```js
 // Adding comment to to index.js
 #!/usr/bin / env node
 
@@ -89,7 +89,7 @@ console.log(`Hi there, ${name}`)
 
 **输入**
 
-```
+```js
 execute Aasia
 ```
 

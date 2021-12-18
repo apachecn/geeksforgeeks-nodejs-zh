@@ -6,7 +6,7 @@ fs.rm()方法用于删除给定路径下的文件。它也可以递归地用来�
 
 **语法:**
 
-```
+```js
 fs.rm( path, options, callback );
 ```
 
@@ -27,7 +27,7 @@ fs.rm( path, options, callback );
 
 ## 【JavaScript】
 
-```
+```js
 // Import necessary modules
 let fs = require('fs');
 
@@ -58,13 +58,13 @@ function getCurrentFilenames() { 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Current filenames:
 dummy.txt        
 index.js
@@ -87,7 +87,7 @@ package.json
 
 ## 【JavaScript】
 
-```
+```js
 // Import the filesystem module 
 const fs = require('fs'); 
 
@@ -129,13 +129,13 @@ function getCurrentFilenames() { 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Current filenames:
 build
 

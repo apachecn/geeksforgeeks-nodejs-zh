@@ -5,7 +5,7 @@
 **fs.statSync()方法**用于同步返回给定文件路径的信息。fs。返回的 Stat 对象有几个字段和方法来获取文件的更多细节。
 **语法:**
 
-```
+```js
 fs.statSync( path, options )
 ```
 
@@ -21,7 +21,7 @@ fs.statSync( path, options )
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.statSync() method
 
@@ -45,7 +45,7 @@ console.log("Path is directory:", statsObj.isDirectory());
 
 **输出:**
 
-```
+```js
 Stats {
   dev: 3229478529,
   mode: 33206,
@@ -96,7 +96,7 @@ Path is directory: true
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.stat() method
 
@@ -114,7 +114,7 @@ console.log(statsObj);
 
 **输出:**
 
-```
+```js
 Stats {
   dev: 3229478529,
   mode: 33206,

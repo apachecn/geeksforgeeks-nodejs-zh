@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.title
 ```
 
@@ -18,7 +18,7 @@ process.title
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // process.title property
 
@@ -32,14 +32,14 @@ console.log("PID: " + process.pid + 
 
 **输出:**
 
-```
+```js
 PID: 8852 process title is Command Prompt - node  title_1
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // process.title property
 
@@ -60,7 +60,7 @@ console.log("After modification: PID: " + process.pid
 
 **输出:**
 
-```
+```js
 Before modification: PID: 14012 process title is Command Prompt - node  title_2
 After modification: PID: 14012 process title is gekchosCustomProcess
 

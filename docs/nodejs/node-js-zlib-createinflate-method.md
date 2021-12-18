@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.createInflate( options )
 ```
 
@@ -18,7 +18,7 @@ zlib.createInflate( options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // createInflate() method
 
@@ -46,14 +46,14 @@ zlib.deflate('Hello World!', function(err, data)
 
 **输出:**
 
-```
+```js
 Hello World!
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // createInflate() method
 
@@ -81,7 +81,7 @@ zlib.deflate('Decompressed..', function(err, data)
 
 **输出:**
 
-```
+```js
 4465636f6d707265737365642e2e
 
 ```

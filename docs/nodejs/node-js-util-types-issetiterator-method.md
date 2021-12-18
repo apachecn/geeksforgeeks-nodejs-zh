@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 util.types.isSetIterator( value )
 ```
 
@@ -20,7 +20,7 @@ util.types.isSetIterator( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.types.isSetIterator() method 
 
@@ -39,7 +39,7 @@ console.log(util.types.isSetIterator(new Set().keys()));
 
 **输出:**
 
-```
+```js
 false
 true
 true
@@ -48,7 +48,7 @@ true
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.types.isSetIterator() method 
 
@@ -69,7 +69,7 @@ console.log(util.types.isSetIterator(set[Symbol.iterator]()));
 
 **输出:**
 
-```
+```js
 true
 true
 true

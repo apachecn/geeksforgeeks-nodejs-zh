@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fsPromises.stat( path, options )
 ```
 
@@ -20,7 +20,7 @@ fsPromises.stat( path, options )
 
 **示例 1:** 本示例使用 fsPromises.stat()方法获取路径的详细信息。
 
-```
+```js
 // Node.js program to demonstrate the 
 // fsPromises.stat() method 
 
@@ -44,7 +44,7 @@ const fsPromises = require("fs").promises;
 
 **输出:**
 
-```
+```js
 Stats {
   dev: 654202934,
   mode: 85416,
@@ -69,7 +69,7 @@ Stats {
 
 **示例 2:** 本示例使用 **fsPromises.stat()** 方法，使用 bigint 选项获取文件的详细信息:
 
-```
+```js
 // Node.js program to demonstrate the 
 // fsPromises.stat() method 
 
@@ -93,7 +93,7 @@ const fsPromises = require("fs").promises;
 
 **输出:**
 
-```
+```js
 Stats {
  dev: 2269,
  mode: 33188,

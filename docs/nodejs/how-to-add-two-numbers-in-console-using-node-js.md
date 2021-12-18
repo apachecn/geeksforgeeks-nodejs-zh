@@ -6,13 +6,13 @@
 
 **创建节点应用程序:**使用以下命令初始化节点应用程序:
 
-```
+```js
 npm init
 ```
 
 **模块安装:**使用以下命令安装*提示*模块。
 
-```
+```js
 npm install prompt
 ```
 
@@ -20,7 +20,7 @@ npm install prompt
 
 ## app.js
 
-```
+```js
 // Require would make the prompt
 // package available to use
 const prompt = require("prompt");
@@ -59,7 +59,7 @@ add();
 
 **运行应用程序的步骤:**使用以下命令运行 *app.js* 文件。
 
-```
+```js
 node app.js
 ```
 

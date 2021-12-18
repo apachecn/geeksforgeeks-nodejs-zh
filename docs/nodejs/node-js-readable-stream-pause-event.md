@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Event: 'pause'
 ```
 
@@ -16,7 +16,7 @@ Event: 'pause'
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable pause event
 
@@ -41,7 +41,7 @@ console.log("Program ends....");
 
 **输出:**
 
-```
+```js
 pause emitted!
 Program ends....
 
@@ -49,7 +49,7 @@ Program ends....
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable pause event
 
@@ -72,7 +72,7 @@ console.log("Program ends....");
 
 **输出:**
 
-```
+```js
 Program ends....
 GeeksforGeeks
 

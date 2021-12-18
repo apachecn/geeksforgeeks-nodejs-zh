@@ -14,7 +14,7 @@ CSV(逗号分隔值)是一种简单的文件格式，用于存储表格数据，
 
 **语法:**
 
-```
+```js
 csv-writer(path,header);
 ```
 
@@ -32,7 +32,7 @@ csv-writer(path,header);
 
 *   **安装依赖项:**
 
-    ```
+    ```js
     npm install csv-writer
     ```
 
@@ -40,7 +40,7 @@ csv-writer(path,header);
 
     ## code1.js
 
-    ```
+    ```js
     // Import csv-writer
     import csvwriter from 'csv-writer'
 
@@ -89,7 +89,7 @@ csv-writer(path,header);
 
 *   要开始转换，请运行以下命令。
 
-    ```
+    ```js
     node code1.js
     ```
 
@@ -107,7 +107,7 @@ csv-writer(path,header);
 
 **语法:**
 
-```
+```js
 fs_object.createReadStream('file_name.csv'),pipe(csv_parser_object())
 ```
 
@@ -115,7 +115,7 @@ fs_object.createReadStream('file_name.csv'),pipe(csv_parser_object())
 
     ## Code1.js
 
-    ```
+    ```js
     // Importing csv-parser into csvdata
     import csvdata from 'csv-parser'
 
@@ -137,7 +137,7 @@ fs_object.createReadStream('file_name.csv'),pipe(csv_parser_object())
 
 *   要显示 JSON 数据，请运行以下命令。
 
-    ```
+    ```js
     node code1.js
     ```
 
@@ -155,7 +155,7 @@ fs_object.createReadStream('file_name.csv'),pipe(csv_parser_object())
 
 **语法:**
 
-```
+```js
 csvjson_object.toCSV(fileContent);
 ```
 
@@ -170,7 +170,7 @@ csvjson_object.toCSV(fileContent);
 
 *   **安装依赖项:**
 
-    ```
+    ```js
     npm install csvjson fs
     ```
 
@@ -178,7 +178,7 @@ csvjson_object.toCSV(fileContent);
 
     ## code1.js
 
-    ```
+    ```js
     // Import package csvjson
     import csvjson from 'csvjson'
 
@@ -215,7 +215,7 @@ csvjson_object.toCSV(fileContent);
 
 *   要开始转换，请运行以下命令。
 
-    ```
+    ```js
     node code1.js
     ```
 

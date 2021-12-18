@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.env
 ```
 
@@ -16,7 +16,7 @@ process.env
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // process.env Property
 
@@ -29,7 +29,7 @@ console.log(process.env);
 
 **输出:**
 
-```
+```js
 { ALLUSERSPROFILE: 'C:\\ProgramData',
   APPDATA: 'C:\\Users\\gekcho\\AppData\\Roaming',
   cmake: 'D:\\programfiles\\Cmake\\bin\\cmake.exe',
@@ -98,7 +98,7 @@ console.log(process.env);
 
 **范例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // process.env Property
 
@@ -131,7 +131,7 @@ console.log("public directory: " + env['PUBLIC']);
 
 **输出:**
 
-```
+```js
 ALLUSERSPROFILE:        C:\ProgramData
 APPDATA:                C:\Users\gekcho\AppData\Roaming
 cmake:                  D:\programfiles\Cmake\bin\cmake.exe
@@ -200,7 +200,7 @@ public directory: C:\Users\Public
 
 **例 3:**
 
-```
+```js
 // Node.js program to demonstrate the
 // process.env Property
 
@@ -225,7 +225,7 @@ console.log("stored in env.gekcho: " + env.gekcho);
 
 **输出:**
 
-```
+```js
 operating system: Windows_NT
 alluserprofile: C:\ProgramData
 public directory: C:\Users\Public

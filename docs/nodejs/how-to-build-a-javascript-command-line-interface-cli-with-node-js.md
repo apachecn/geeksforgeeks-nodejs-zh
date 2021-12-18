@@ -16,7 +16,7 @@ JavaScript 作为一种解释语言，它是一种非常动态的语言，由于
 
 *   运行下面的命令并启动 node.js 项目
 
-```
+```js
 npm init -y
 ```
 
@@ -34,7 +34,7 @@ npm init -y
 
 **语法:**
 
-```
+```js
 readline.question(query, callback);
 ```
 
@@ -42,7 +42,7 @@ readline.question(query, callback);
 
 **语法:**
 
-```
+```js
 readline.createInterface();
 ```
 
@@ -50,7 +50,7 @@ readline.createInterface();
 
 ## index.js
 
-```
+```js
 // import the readline module for work with stdin, or stdout.
 const readline = require('readline');
 
@@ -76,7 +76,7 @@ prompts.question('Enter Learning Resources Name : ', (response) => {
 
 **运行应用程序的步骤:**
 
-```
+```js
 node index.js
 ```
 

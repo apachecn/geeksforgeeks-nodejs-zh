@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.writeInt32LE( value, offset )
 ```
 
@@ -19,7 +19,7 @@ Buffer.writeInt32LE( value, offset )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.writeInt32LE() Method
 
@@ -41,7 +41,7 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 <Buffer 08 07 06 05 00 00 00 00>
 <Buffer 08 07 06 05 08 07 06 05>
 
@@ -49,7 +49,7 @@ console.log(buf);
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.writeInt32LE() Method
 
@@ -71,7 +71,7 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 <Buffer 78 56 34 12 63 65 73 73>
 <Buffer 78 56 34 12 56 34 12 00>
 

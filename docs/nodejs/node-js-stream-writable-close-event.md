@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Event: 'close'
 ```
 
@@ -16,7 +16,7 @@ Event: 'close'
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // close event  
 
@@ -55,7 +55,7 @@ console.log("program is ended.");
 
 **输出:**
 
-```
+```js
 GeeksforGeeks
 program is ended.
 No further operations will be performed!
@@ -66,7 +66,7 @@ No further operations will be performed!
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // close event  
 
@@ -102,7 +102,7 @@ console.log("program is ended.");
 
 **输出:**
 
-```
+```js
 GeeksforGeeks
 program is ended.
 

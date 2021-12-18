@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 os.endianness()
 ```
 
@@ -23,7 +23,7 @@ os.endianness()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // os.endianness() method
 
@@ -36,13 +36,13 @@ console.log(os.endianness());
 
 **输出:**
 
-```
+```js
 LE
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // os.endianness() method
 
@@ -66,7 +66,7 @@ switch(os.endianness()) {
 
 **输出:**
 
-```
+```js
 CPU is little endian format
 ```
 

@@ -8,7 +8,7 @@ process.hrtime()的优点是它测量时间非常精确，执行时间不到一�
 
 **语法:**
 
-```
+```js
 process.hrtime([time])
 ```
 
@@ -22,7 +22,7 @@ process.hrtime([time])
 
 ## java 描述语言
 
-```
+```js
 // Implement the function..
 
 var hrTime = process.hrtime()
@@ -33,7 +33,7 @@ console.log("Time in millisecond is: ", hrTime[0] * 1000 + hrTime[1] / 1000000)
 
 **输出:**
 
-```
+```js
 Time in millisecond is:  218394926745.5
 ```
 
@@ -41,7 +41,7 @@ Time in millisecond is:  218394926745.5
 
 ## java 描述语言
 
-```
+```js
 // Create a variable and call the process.hrtime() function.
 var start_time = process.hrtime();
 
@@ -69,7 +69,7 @@ console.log("Add of two number is :",(a - 0) + (b - 0));
 
 **输出:**表示 1 秒，从开始到结束耗时 8779100 纳秒。
 
-```
+```js
 Start Time: [ 682340, 452477300 ]
 Add of two number is : 90
 End Time: [ 1, 8779100 ]
@@ -79,7 +79,7 @@ End Time: [ 1, 8779100 ]
 
 ## java 描述语言
 
-```
+```js
 // Create a variable and call the process.hrtime() function.
 var start_time = process.hrtime();
 
@@ -103,7 +103,7 @@ setTimeout(function(){
 
 **输出:**表示 1 秒，从开始到结束时间取 10987200 纳秒。
 
-```
+```js
 Start Time: [ 682865, 516565300 ]
 Execution time will be calculated for printing this message....
 End Time: [ 1, 10987200 ]

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 response.end([data[, encoding]][, callback])
 
 ```
@@ -33,7 +33,7 @@ response.end([data[, encoding]][, callback])
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse.end() method
 
@@ -101,13 +101,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 status : 200
 Received: Greetings
 Received: hello world
@@ -120,7 +120,7 @@ server destroyed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse.end() method
 
@@ -183,13 +183,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Received: Geeks For Geeks
 client destroyed
 server destroyed

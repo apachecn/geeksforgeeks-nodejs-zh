@@ -8,7 +8,7 @@
 
 **创建目录:**
 
-```
+```js
 npm init -y
 mkdir src
 cd src
@@ -23,7 +23,7 @@ nano app.js
 
 为了使用二维码阅读器，我们还需要一个图像解析器。 [Jimp](https://www.geeksforgeeks.org/nodejs-jimp/) 模块用于图像解析。
 
-```
+```js
 npm install qrcode-reader jimp
 ```
 
@@ -33,7 +33,7 @@ npm install qrcode-reader jimp
 
 *   首先导入 app.js 中的所有包
 
-```
+```js
 var Jimp = require("jimp");
 var fs = require('fs')
 var QrCode = require('qrcode-reader');
@@ -41,7 +41,7 @@ var QrCode = require('qrcode-reader');
 
 *   现在我们需要加载我们的二维码:
 
-```
+```js
 // Read the image and create a buffer  
 // (Here image.png is our QR code)
 var buffer = fs.readFileSync(__dirname + '/image.png');
@@ -49,7 +49,7 @@ var buffer = fs.readFileSync(__dirname + '/image.png');
 
 *   使用 Jimp 模块解析图像，并使用二维码阅读器包的 decode()方法:
 
-```
+```js
 // Parse the image  
 Jimp.read(buffer, function(err, image) {
    if (err) {
@@ -72,7 +72,7 @@ Jimp.read(buffer, function(err, image) {
 
 ## java 描述语言
 
-```
+```js
 //Importing jimp module
 var Jimp = require("jimp");
 // Importing filesystem module
@@ -105,7 +105,7 @@ Jimp.read(buffer, function(err, image) {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

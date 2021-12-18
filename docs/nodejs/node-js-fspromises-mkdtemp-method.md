@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.Promises.mkdtemp( prefix, options )
 ```
 
@@ -20,7 +20,7 @@ fs.Promises.mkdtemp( prefix, options )
 
 **示例:**可以使用以下代码创建临时目录:
 
-```
+```js
 // Node.js program to demonstrate the 
 // fsPromises.mkdtemp() method 
 const fs = require("fs");
@@ -40,7 +40,7 @@ fsPromises.mkdtemp(prefix,{ encoding: "utf8"})
 
 **输出:**
 
-```
+```js
 Temp folder created  tempoe5zc9
 ```
 
@@ -48,7 +48,7 @@ Temp folder created  tempoe5zc9
 
 可选选项参数可以是指定编码的字符串，也可以是具有指定要使用的字符编码的编码属性的对象。
 
-```
+```js
 fsPromises.mkdtemp(path.join(os.tmpdir(), 'foo-'))
  .catch(console.error);
 

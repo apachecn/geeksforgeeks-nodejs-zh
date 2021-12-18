@@ -5,7 +5,7 @@
 在 Node.js 现代远程移植机器人框架中使用了 **Bot.on()** 方法。该框架提供了各种功能来与官方电报机器人应用编程接口进行交互。这个方法是在与机器人对话过程中发生特定事件时执行的，例如:发送文本、发送照片等事件。这些操作由上下文功能处理。
 **语法:**
 
-```
+```js
 TelegrafBot.on(event, Context function)
 ```
 
@@ -17,7 +17,7 @@ TelegrafBot.on(event, Context function)
 
 **安装模块:**使用以下命令安装模块:
 
-```
+```js
 npm install telegraf
 ```
 
@@ -44,7 +44,7 @@ npm install telegraf
 
 ## java 描述语言
 
-```
+```js
 var token = 'Enter the token';
 
 const telegraf =require("telegraf");
@@ -68,7 +68,7 @@ bot.on("photo",ctx=>{
 
 使用以下命令运行 **bot.js** 文件:
 
-```
+```js
 node bot.js
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 res.download(path [, filename] [, options] [, fn])
 ```
 
@@ -18,25 +18,25 @@ res.download(path [, filename] [, options] [, fn])
 
 1.  您可以访问[安装快速模块](https://www.npmjs.com/package/express)的链接。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install express
     ```
 
 2.  安装快速模块后，您可以使用命令在命令提示符下检查您的快速版本。
 
-    ```
+    ```js
     npm version express
     ```
 
 3.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-    ```
+    ```js
     node index.js
     ```
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 var express = require('express');
 var app = express();
 var PORT = 3000;
@@ -57,19 +57,19 @@ app.listen(PORT, function(err){
 
 1.  Use the following command to make sure that you have installed the **express** module:
 
-    ```
+    ```js
     npm install express
     ```
 
 2.  使用以下命令运行 index.js 文件:
 
-    ```
+    ```js
     node index.js
     ```
 
     **输出:**
 
-    ```
+    ```js
     Server listening on PORT 3000
 
     ```
@@ -78,7 +78,7 @@ app.listen(PORT, function(err){
 
 **示例 2:** **文件名:**
 
-```
+```js
 var express = require('express');
 var app = express();
 var PORT = 3000;
@@ -97,13 +97,13 @@ app.listen(PORT, function(err){
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 打开浏览器，转到 *http://localhost:3000/* ，在控制台上会看到如下输出:
 
-```
+```js
 Error :  [Error: ENOENT: no such file or directory, 
   stat 'C:\\Users\\Unknown_file.txt'] {
   errno: -4058,

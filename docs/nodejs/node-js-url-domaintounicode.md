@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 const url.domainToASCII
 ```
 
@@ -18,7 +18,7 @@ const url.domainToASCII
 
 **例:**
 
-```
+```js
 const url = require('url');
 console.log(url.domainToUnicode('xn--espaol-zwa.com'));
 
@@ -29,7 +29,7 @@ console.log(url.domainToUnicode('xn--iñvalid.com'));
 
 **输出:**
 
-```
+```js
 español.com
 ??.com
 //Empty String will be printed for third case

@@ -5,7 +5,7 @@
 **简介**
 **xor**修改器是 Nodejs | Jimp 中的内置颜色修改器，它将两种颜色视为位域，并对给定图像的红色、绿色和蓝色分量进行 XOR 运算。
 
-```
+```js
 image.color([
   { apply: 'xor', params: value }
 ]);
@@ -23,7 +23,7 @@ image.color([
 
 **例 1:**
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');
@@ -45,7 +45,7 @@ main();
 ![](img/fdccf9d13cb9c83707a6327c50708f2f.png)
 **例 2: cb(可选参数)**
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');

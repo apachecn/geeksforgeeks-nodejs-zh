@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 response.removeHeader(name)
 ```
 
@@ -28,7 +28,7 @@ response.removeHeader(name)
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse.removeHeader() method
 const http2 = require('http2');
@@ -106,13 +106,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Before operation
 { 'content-type': 'hello world; charset=utf-8' }
 
@@ -129,7 +129,7 @@ server destroyed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse.removeHeader() method
 const http2 = require('http2');
@@ -202,13 +202,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Before operation
 { foo: 'bar', 'set-cookie': [ 'foo=bar', 'bar=baz' ] }
 

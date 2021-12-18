@@ -4,7 +4,7 @@
 
 我们知道 JS **static** 关键字定义了一个类的静态属性和方法。不能从类的实例中调用静态方法或属性。相反，他们从类本身调用。
 
-```
+```js
 class Car {
     static run() { console.log('Car running...') }
 }
@@ -21,7 +21,7 @@ Car.run()
 
 ***require()*****功能的任务是导入*模块的值，从调用该模块的地方导出模块中的*。*模块*中 *require()* 函数返回的值等于*模块，导出*模块*中的*对象。因此，关系如下所示。**
 
-```
+```js
 require() == module.exports
 ```
 
@@ -29,7 +29,7 @@ require() == module.exports
 
 ****步骤 1:** 使用以下命令创建一个 NodeJS 项目。**
 
-```
+```js
 mkdir Project&& cd Project
 npm init -y
 ```
@@ -44,7 +44,7 @@ npm init -y
 
 ## **my module . js-我的模组. js**
 
-```
+```js
 // myModule module
 class Car{
     static run() { console.log('Car running...') }
@@ -60,7 +60,7 @@ module.exports = Car
 
 ## **App.js**
 
-```
+```js
 // Import myModule
 const mercedes = require('./myModule')
 

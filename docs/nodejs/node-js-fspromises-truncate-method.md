@@ -8,7 +8,7 @@ node.js 中的 **fsPromises.truncate()** 方法用于更改文件的大小，即
 
 **语法:**
 
-```
+```js
 fsPromises.truncate( path, len )
 ```
 
@@ -23,7 +23,7 @@ fsPromises.truncate( path, len )
 
 在当前根目录下创建一个 **Hello.txt** 文件，包含如下示例文本:
 
-```
+```js
 Greetings from GeeksforGeeks
 ```
 
@@ -31,7 +31,7 @@ Greetings from GeeksforGeeks
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // fsPromises.truncate() method 
 
@@ -50,13 +50,13 @@ fsPromises.truncate('Hello.txt', 0) 
 
 **运行该程序的步骤:**使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 File Content Deleted
 ```
 

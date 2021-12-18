@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 setInterval(timerFunction, millisecondsTime);
 ```
 
@@ -19,7 +19,7 @@ setInterval(timerFunction, millisecondsTime);
 
 **语法:**
 
-```
+```js
 setTimeout(timerFunction, millisecondsTime);
 ```
 
@@ -31,7 +31,7 @@ setTimeout(timerFunction, millisecondsTime);
 
 **例:**
 
-```
+```js
 Input: Array = [ 46, 55, 2, 100, 0, 500 ]
 Output: [0, 2, 46, 55, 100, 500]
 
@@ -48,7 +48,7 @@ Output: [ 2, 5, 7, 8, 9, 18, 25 ]
 
 **文件名:Index.js**
 
-```
+```js
 const arr = [46, 55, 2, 100, 0, 500];
 const l = arr.length;
 var arr1 = [];
@@ -73,13 +73,13 @@ function myTimer1() {
 
 在在线编译器上运行 **Index.js** 文件，或者按照以下步骤操作:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 [0, 2, 46, 55, 100, 500]
 
 ```

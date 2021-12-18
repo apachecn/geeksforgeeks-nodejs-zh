@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 transform.destroy( error )
 ```
 
@@ -18,7 +18,7 @@ transform.destroy( error )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // transform.destroy() method
 
@@ -35,13 +35,13 @@ transform.destroyed;
 
 **输出:**
 
-```
+```js
 true
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // transform.destroy() method
 
@@ -70,7 +70,7 @@ console.log("done...");
 
 **输出:**
 
-```
+```js
 done...
 ```
 

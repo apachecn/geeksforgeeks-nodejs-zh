@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 writeStream.getWindowSize()
 ```
 
@@ -16,7 +16,7 @@ writeStream.getWindowSize()
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the
 // writeStream..getWindowSize()  API
 
@@ -55,14 +55,14 @@ client.send("number columns of writestream :-  ", 0,
 
 **输出:**
 
-```
+```js
 number columns of writestream :-  182
 
 ```
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Node.js program to demonstrate the
 // writeStream..getWindowSize()  API
 
@@ -79,14 +79,14 @@ console.log("number rows of writestream :-  " + col[1]);
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 
 ```
 
 **输出:**
 
-```
+```js
 number rows of writestream :-  14
 
 ```

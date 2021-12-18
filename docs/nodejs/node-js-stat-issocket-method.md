@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.isSocket();
 ```
 
@@ -18,7 +18,7 @@ stats.isSocket();
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stat.isSocket() Method
 
@@ -55,7 +55,7 @@ fs.stat('./', (err, stats) => {
 
 **输出:**
 
-```
+```js
 false
 fs.lstats does not describe a socket.
 false
@@ -65,7 +65,7 @@ fs.stats does not describe a socket.
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stat.isSocket() Method
 
@@ -82,7 +82,7 @@ const fs = require('fs').promises;
 
 **输出:**
 
-```
+```js
 false
 
 ```

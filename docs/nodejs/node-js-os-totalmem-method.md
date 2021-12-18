@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 os.totalmem()
 ```
 
@@ -18,7 +18,7 @@ os.totalmem()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // os.totalmem() method 
 
@@ -31,13 +31,13 @@ console.log(os.totalmem());
 
 **输出:**
 
-```
+```js
 8502722560
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // os.totalmem() method 
 
@@ -66,14 +66,14 @@ console.log("Total memory: " + total_mem_in_gb + "GB "
 
 **输出:**
 
-```
+```js
 Total memory: 7GB 940MB 848KB and 0Bytes
 
 ```
 
 **例 3:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // os.totalmem() method 
 
@@ -87,7 +87,7 @@ console.log("Free Memory " + String(os.freemem())
 
 **输出:**
 
-```
+```js
 Free Memory 4161896448 Bytes out of 8502722560 Bytes
 
 ```

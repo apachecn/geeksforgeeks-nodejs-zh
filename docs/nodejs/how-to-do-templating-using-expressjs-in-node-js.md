@@ -14,13 +14,13 @@
 
 *   **设置 NPM 套餐:**
 
-    ```
+    ```js
     npm init -y
     ```
 
 *   **安装依赖项**
 
-    ```
+    ```js
     npm install ejs express --save
     ```
 
@@ -28,7 +28,7 @@
 
 ## java 描述语言
 
-```
+```js
 const express = require('express');
 const app = express();
 
@@ -49,7 +49,7 @@ app.listen(4000 , ()=>{
 
 ## java 描述语言
 
-```
+```js
 const express = require('express');
 const app = express();
 
@@ -66,7 +66,7 @@ app.listen(4000 , ()=>{
 
 ## 索引. ejs
 
-```
+```js
 <!--Ejs File-->
 <!DOCTYPE html>
 <html lang="en">
@@ -92,7 +92,7 @@ app.listen(4000 , ()=>{
 
 ## java 描述语言
 
-```
+```js
 const express = require('express');
 const app = express();
 
@@ -113,7 +113,7 @@ app.listen(4000 , ()=>{
 
 ## java 描述语言
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
 <head>

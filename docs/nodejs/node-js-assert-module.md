@@ -6,7 +6,7 @@ Node.js 中的 **Assert** 模块提供了一堆对函数断言有用的工具。
 
 **使用以下命令安装 assert 模块:**
 
-```
+```js
 npm install assert
 ```
 
@@ -14,13 +14,13 @@ npm install assert
 
 **导入模块:**
 
-```
+```js
 const assert = require("assert");
 ```
 
 **例 1:**
 
-```
+```js
 console.clear()
 const assert = require('assert');
 
@@ -46,7 +46,7 @@ catch {
 
 **例 2:**
 
-```
+```js
 console.clear()
 const assert = require('assert');
 

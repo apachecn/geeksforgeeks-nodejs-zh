@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.isFIFO();
 ```
 
@@ -18,7 +18,7 @@ stats.isFIFO();
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.isFIFO() Method
 
@@ -58,7 +58,7 @@ fs.stat('./', (err, stats) => {
 
  <course-video>**输出:**</course-video>
 
-```
+```js
 false
 fs.Stats does not describe a a first-in-first-out (FIFO) pipe.
 false
@@ -68,7 +68,7 @@ fs.Stats does not describe a a first-in-first-out (FIFO) pipe.
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.isFIFO() Method
 
@@ -85,7 +85,7 @@ const fs = require('fs').promises;
 
 **输出:**
 
-```
+```js
 false
 
 ```

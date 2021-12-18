@@ -20,7 +20,7 @@
 
 ## java 描述语言
 
-```
+```js
 // Simple JavaScript Code to show Event
 // loop demonstration for Node
 console.log("Geeks");
@@ -34,7 +34,7 @@ console.log("For");
 
 **输出:**
 
-```
+```js
 Geeks
 For
 Geeks

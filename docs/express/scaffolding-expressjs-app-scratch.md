@@ -6,13 +6,13 @@
 [Express](https://en.wikipedia.org/wiki/Express.js) 是 Node.js 的开源 web 开发框架，用于构建 web 应用程序和 API。要在 Node.js 环境中安装 **express** ，请使用 [NPM(节点包管理器)](https://www.geeksforgeeks.org/node-js-npm-node-package-manager/)。
 **语法:**
 
-```
+```js
 npm install express --save
 ```
 
 要在节点中使用 express，请使用以下语法:
 
-```
+```js
 var express = require('express');
 
 ```
@@ -29,7 +29,7 @@ var express = require('express');
 1。使用终端导航到要构建应用程序的文件夹。
 2。现在在终端中，使用以下命令安装**快速发电机**。
 
-```
+```js
 npm install express-generator -g 
 ```
 
@@ -64,7 +64,7 @@ npm install express-generator -g
 
 **注:**撰写本文时文件的扩展名为**。翡翠**。将这些文件扩展名更改为**。帕格**作为翡翠项目已经改成了帕格。
 
-```
+```js
 In the app.js file, change the following code:
 app.set('view engine', 'jade'); (most probably in line 15)
 to :
@@ -81,12 +81,12 @@ This will change the view engine to pug.
 **运行脚手架应用程序:**
 使用以下命令安装运行该应用程序所需的[包. json](https://www.geeksforgeeks.org/node-js-package-json/) 文件中提到的所有依赖项:
 
-```
+```js
 npm install
 ```
 
 安装依赖项后，运行以下命令启动 ExpressJs 应用程序:
 
-```
+```js
 npm start
 ```

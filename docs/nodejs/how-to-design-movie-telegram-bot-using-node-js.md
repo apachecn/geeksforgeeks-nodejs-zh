@@ -12,7 +12,7 @@ Telegram bot API 可用于创建一个聊天机器人，通过发送电影或系
 
 用于检查系统中是否存在节点和 npm 的命令:
 
-```
+```js
 $ npm --v
 6.14.5
 
@@ -38,20 +38,20 @@ v10.15.0
 
 **请求:**要安装该模块，请在终端中键入以下命令。
 
-```
+```js
 $ npm install --save requests
 ```
 
 **node-Telegram-Bot-API**:node . js 模块与官方 Telegram Bot API 进行交互。
 
-```
+```js
 $ npm install node-telegram-bot-api
 
 ```
 
 **文件名:bot.js**
 
-```
+```js
 // Requiring module
 var reques = require('requests')
 var TelegramBot = require('node-telegram-bot-api')
@@ -105,7 +105,7 @@ bot.onText(/\/movie (.+)/, function (msg, match) {
 
 **运行程序的步骤:**使用以下命令运行 **bot.js** 文件:
 
-```
+```js
 $ node bot.js
 ```
 

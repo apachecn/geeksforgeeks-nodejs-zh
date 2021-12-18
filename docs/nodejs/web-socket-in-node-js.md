@@ -6,7 +6,7 @@
 网络套接字是一种提供全双工(多路)通信的协议，即允许同时双向通信。这是一种现代网络技术，在这种技术中，用户的浏览器(客户端)和服务器之间有一个连续的连接。在这种类型的通信中，在 web 服务器和 web 浏览器之间，两者可以在任何时间点互相发送消息。传统上，在网络上，我们有一种请求/响应格式，其中用户发送一个 HTTP 请求，服务器对此做出响应。这在大多数情况下仍然适用，尤其是那些使用 RESTful API 的情况。但是感觉到服务器也需要与客户端通信，而不需要被客户端轮询(或请求)。服务器本身应该能够向客户端或浏览器发送信息。这就是网络套接字出现的地方。
 为了利用 NodeJS 中的 Socket，我们首先需要安装一个依赖项，那就是 **socket.io** 。我们可以简单地通过在 cmd 中运行下面的命令来安装它，然后将这个依赖项添加到您的服务器端 javascript 文件中，还可以安装一个服务器端应用程序基本上需要的 express 模块
 
-```
+```js
  npm install socket.io --save
  npm install express --save
 ```
@@ -16,7 +16,7 @@
 
 ## java 描述语言
 
-```
+```js
 const express = require('express'); // using express
 const socketIO = require('socket.io');
 const http = require('http') 
@@ -30,7 +30,7 @@ server.listen(port);
 
 现在我们需要建立一个从服务器端到客户端的连接，通过这个连接，服务器将能够向客户端发送数据。
 
-```
+```js
 // make a connection with the user from server side
 io.on('connection', (socket)=>{
   console.log('New user connected');
@@ -41,7 +41,7 @@ io.on('connection', (socket)=>{
 
 ## java 描述语言
 
-```
+```js
 <script src="/socket.io/socket.io.js"></script>
 <script>
 var socket=io()
@@ -57,7 +57,7 @@ socket.on('connect', function(){
 
 ## java 描述语言
 
-```
+```js
 // listener when server emit any message
 socket.on('createMessage', (newMessage)=>{
     console.log('newMessage', newMessage);
@@ -69,7 +69,7 @@ socket.on('createMessage', (newMessage)=>{
 
 ## java 描述语言
 
-```
+```js
 const express=require('express');
 const socketIO=require('socket.io');
 const http=require('http')
@@ -109,7 +109,7 @@ server.listen(port);
 
 ## java 描述语言
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>

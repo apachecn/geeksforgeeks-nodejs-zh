@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.openSync( path, flags, mode )
 ```
 
@@ -22,7 +22,7 @@ fs.openSync( path, flags, mode )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // fs.openSync() method  
 
@@ -42,7 +42,7 @@ console.log(res);
 
 **输出:**
 
-```
+```js
 23
 
 ```
@@ -51,7 +51,7 @@ console.log(res);
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // fs.openSync() method  
 
@@ -84,7 +84,7 @@ console.log("Program done!");
 
 **输出:**
 
-```
+```js
 Program done!
 closing file now
 

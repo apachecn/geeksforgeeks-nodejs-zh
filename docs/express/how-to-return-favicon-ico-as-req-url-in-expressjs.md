@@ -10,26 +10,26 @@
 
 **安装模块:**
 
-```
+```js
 npm install http
 ```
 
 *   **导入模块:**
 
-    ```
+    ```js
     var http = require('http');
     ```
 
 *   **createServer():** 在 main.js 中运行 Node.js:在终端中运行 node main.js。刚开始就结束了；我们做了一个服务器，但没有激活它。
 
-    ```
+    ```js
     let http = require('http');
     let server = http.createServer();
     ```
 
 *   **侦听():**侦听 8000 端口。联系上了；但是，服务器一直在等待响应。
 
-    ```
+    ```js
     let http = require('http');
     let server = http.createServer();
     server.listen(8000);
@@ -37,7 +37,7 @@ npm install http
 
 *   **response():**response . write()只能取一个字符串。
 
-    ```
+    ```js
     http.createServer(function (q, r) {
        r.writeHead('hi' );
        r.end();
@@ -46,7 +46,7 @@ npm install http
 
 *   **理解网址:**HTTP 200，表示请求已经完成，并导致新的资源被创建
 
-    ```
+    ```js
     http.createServer(function (q, r) {  
        if (q.url === '/favicon.ico') {
          r.writeHead(200, {'Content-Type': 'image/x-icon'} );
@@ -58,7 +58,7 @@ npm install http
 
 *   **更改查询字符串**
 
-    ```
+    ```js
     //  if not favicon
      console.log('hello');
      r.writeHead(200, {'Content-Type': 'text/plain'} );
@@ -71,7 +71,7 @@ npm install http
 
 ## index.js
 
-```
+```js
 var http = require('http');
 
 http.createServer(function (q, r) {  
@@ -96,7 +96,7 @@ http.createServer(function (q, r) {  
 console.log('Server running at http://127.0.0.1:8000/');
 ```
 
-```
+```js
 node index
 ```
 

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.isBuffer( obj )
 ```
 
@@ -20,7 +20,7 @@ Buffer.isBuffer( obj )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.isBuffer() Method
 
@@ -31,13 +31,13 @@ console.log(Buffer.isBuffer(buffer));
 
 **输出**
 
-```
+```js
 true
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.isBuffer()) Method
 
@@ -63,7 +63,7 @@ console.log(Buffer.isBuffer(buf2));
 
 **输出:**
 
-```
+```js
 false
 abcd
 true

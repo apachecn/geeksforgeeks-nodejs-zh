@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```js
 paint( radius )
 ```
 
@@ -19,7 +19,7 @@ paint( radius )
 
 **例 1:**
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 
@@ -41,7 +41,7 @@ gm('1.png')
 
 **例 2:**
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 

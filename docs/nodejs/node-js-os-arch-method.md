@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 os.arch()
 ```
 
@@ -18,7 +18,7 @@ os.arch()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // os.arch() method
 
@@ -31,13 +31,13 @@ console.log(os.arch());
 
 **输出:**
 
-```
+```js
 x64
 ```
 
 **例 2:**
 
-```
+```js
 <script>
 // Node.js program to demonstrate the   
 // os.arch() method
@@ -106,7 +106,7 @@ switch(os.arch()){
 
 **输出:**
 
-```
+```js
 64-bit extended system
 
 ```

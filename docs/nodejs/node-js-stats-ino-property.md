@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.ino;
 ```
 
@@ -18,7 +18,7 @@ stats.ino;
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.ino Property
 
@@ -58,7 +58,7 @@ fs.lstat('./', (err, stats) => {
 
 **输出:**
 
-```
+```js
 using stat: the "Inode" number of the file is  1125899907737972
 using lstat: the "Inode" number of the file is  1125899907737972
 using stat: the "Inode" number of the file is  14918173765820528
@@ -68,7 +68,7 @@ using lstat: the "Inode" number of the file is  14918173765820528
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.ino Property
 
@@ -88,7 +88,7 @@ const fs = require('fs').promises;
 
 **输出:**
 
-```
+```js
 The "Inode" number of the file is  1125899907737972
 
 ```

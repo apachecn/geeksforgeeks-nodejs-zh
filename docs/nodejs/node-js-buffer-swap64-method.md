@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.swap64()
 ```
 
@@ -20,7 +20,7 @@ Buffer.swap64()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // Buffer.swap64() method 
 
@@ -42,7 +42,7 @@ console.log(buf); 
 
 **输出:**
 
-```
+```js
 <Buffer 07 00 01 01 04 05 04 06>
 <Buffer 06 04 05 04 01 01 00 07>
 
@@ -50,7 +50,7 @@ console.log(buf); 
 
 **例 2:** 我们来看看这个方法抛出的错误
 
-```
+```js
 // Node.js program to demonstrate the 
 // Buffer.swap64() method 
 
@@ -81,7 +81,7 @@ catch(e) {
 
 **输出:**
 
-```
+```js
 <Buffer 00 01 02 03 04 05>
 Entering catch block
 RangeError [ERR_INVALID_BUFFER_SIZE]: Buffer size must be a multiple of 64-bits

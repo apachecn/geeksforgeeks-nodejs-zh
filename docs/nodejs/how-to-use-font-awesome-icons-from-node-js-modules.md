@@ -6,7 +6,7 @@ Font-awesome 是一个网络图标库，它为你提供了可缩放的矢量图�
 
 **安装库的语法:**
 
-```
+```js
 npm install font-awesome --save
 ```
 
@@ -18,13 +18,13 @@ npm install font-awesome --save
 
     在 style.css 文件中，使用以下语法导入 font-awesome。
 
-    ```
+    ```js
     @import url('../node_modules/font-awesome/css/font-awesome.min.css');
     ```
 
     **app.component.html:**
 
-    ```
+    ```js
     <h1>Font-awesome</h1>
     Notification :
     <i class='fas fa-bell' style='font-size:24px'></i>

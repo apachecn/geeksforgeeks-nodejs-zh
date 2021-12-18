@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crypto.pbkdf2Sync( password, salt, iterations, keylen, digest )
 ```
 
@@ -24,7 +24,7 @@ crypto.pbkdf2Sync( password, salt, iterations, keylen, digest )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.pbkdf2Sync() method
 
@@ -41,7 +41,7 @@ console.log(key);
 
 **输出:**
 
-```
+```js
 <Buffer 3c f1 85 49 62 52 38 64 2a 4e b1 4c f6 25 2e 1e fc
 d7 8e 01 c9 40 d7 84 63 5e 24 ef 71 0f 91 83 bb 6d 03 bd
 73 43 33 ec 78 a9 78 c8 1f ea7a dc 8c a6 ...>
@@ -50,7 +50,7 @@ d7 8e 01 c9 40 d7 84 63 5e 24 ef 71 0f 91 83 bb 6d 03 bd
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.pbkdf2Sync() method
 
@@ -68,7 +68,7 @@ console.log(key.toString('hex'));
 
 **输出:**
 
-```
+```js
 3745e482c6e0ade35da10139e797157f4a5da669dad7d5da88ef87e4
 7471cc47ed941c7ad618e827304f083f8707f12b7cfdd5f489b782f10cc269
 e3c08d59ae04919ee902c99dba309cde75569fbe8e6d5c341d6f2576f6618c

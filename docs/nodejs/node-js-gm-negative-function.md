@@ -5,7 +5,7 @@
 **negative()** 函数是 GraphicsMagick 库中的一个内置函数，用于将每个像素替换为其补色。该函数在成功时返回真值。
 **语法:**
 
-```
+```js
 negative()
 ```
 
@@ -15,7 +15,7 @@ negative()
 
 ## java 描述语言
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 
@@ -39,7 +39,7 @@ gm('1.png')
 
 ## java 描述语言
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 
@@ -79,7 +79,7 @@ gm(600, 300, 'white')
 
 ## java 描述语言
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 gm('1.png')

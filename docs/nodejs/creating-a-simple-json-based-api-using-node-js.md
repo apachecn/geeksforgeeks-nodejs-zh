@@ -14,7 +14,7 @@ API(Application Programming Interface，应用程序编程接口)结果通常被
 
 为了构建化学应用编程接口，我们需要创建一个空的 JSON 文件，并粘贴来自链接[化学数据](https://drive.google.com/open?id=14qpjtDGa5hrPfVApTt9DU3CrREJloSyD)的数据。现在我们必须包含一些 NodeJS 库，并为 API 设置端口。
 
-```
+```js
 var fs = require('fs');
 
 // json file with the data
@@ -36,7 +36,7 @@ app.use(cors());
 
 **设计原料药的终点:**
 
-```
+```js
 // when get request is made, alldata() is called
 app.get('/elements', alldata);
 
@@ -49,7 +49,7 @@ function alldata(request, response) {
 
 这里，“/elements”是端点，当向 API 发出 *get* 请求时，在/elements 端点，调用 alldata()函数。现在 alldata()函数有两个参数(请求和响应)。使用 response.send()，将响应返回给用户。
 
-```
+```js
 app.get('/elements/:element/', searchElement);
 
 function searchElement(request, response) {
@@ -76,7 +76,7 @@ function searchElement(request, response) {
 
 **文件名:index.js**
 
-```
+```js
 var fs = require('fs');
 
 // json file with the data

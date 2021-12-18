@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dns.resolveNaptr( hostname, callback )
 ```
 
@@ -23,7 +23,7 @@ dns.resolveNaptr( hostname, callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dns.resolveNaptr() method
 
@@ -39,7 +39,7 @@ dns.resolveNaptr('geeksforgeeks.org', (err, 
 
 **输出:**
 
-```
+```js
 QueryReqWrap {
   bindingName: 'queryNaptr',
   callback: [Function],

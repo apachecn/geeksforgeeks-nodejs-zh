@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v8.getHeapSpaceStatistics();
 ```
 
@@ -24,7 +24,7 @@ v8.getHeapSpaceStatistics();
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 
@@ -34,13 +34,13 @@ console.log(v8.getHeapSpaceStatistics());
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 [ { space_name: 'read_only_space',
     space_size: 524288,
     space_used_size: 35208,
@@ -76,7 +76,7 @@ node index.js
 
 **示例 2:** **文件名:index.js**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 
@@ -101,7 +101,7 @@ console.table(myList)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

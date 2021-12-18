@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 fs.promises.truncate(path, len)
 ```
 
@@ -21,7 +21,7 @@ fs.promises.truncate(path, len)
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // fsPromises.truncate() Method
 
@@ -45,7 +45,7 @@ fs.promises.truncate('./test.txt')
 
 使用异步等待实现相同的功能。
 
-```
+```js
 // Node.js program to demonstrate the   
 // fsPromises.truncate() Method
 
@@ -76,13 +76,13 @@ truncate('./test.txt')
 
 **输出:**
 
-```
+```js
 File contents are deleted!
 ```
 
 **例 2:** 部分截断
 
-```
+```js
 // Node.js program to demonstrate the   
 // fsPromises.truncate() Method
 
@@ -123,7 +123,7 @@ fs.promises.readFile('./test.txt')
 
 使用异步等待实现相同的功能
 
-```
+```js
 // Node.js program to demonstrate the   
 // fsPromises.truncate() Method
 

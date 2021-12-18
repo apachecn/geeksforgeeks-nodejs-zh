@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 Create Database Query: CREATE DATABASE gfg_db;
 
 Use Database Query: USE gfg_db
@@ -24,13 +24,13 @@ Use Database Query: USE gfg_db
 
 4.  **创建项目**
 
-    ```
+    ```js
     npm init
     ```
 
 5.  **安装模块**
 
-    ```
+    ```js
     npm install express
     npm install mysql
     ```
@@ -39,7 +39,7 @@ Use Database Query: USE gfg_db
 
     ## sqlconnection . js
 
-    ```
+    ```js
     const mysql = require("mysql");
 
     let db_con  = mysql.createConnection({
@@ -63,7 +63,7 @@ Use Database Query: USE gfg_db
 
     ## index . js
 
-    ```
+    ```js
     const express = require("express");
     const database = require('./sqlConnection');
 
@@ -78,7 +78,7 @@ Use Database Query: USE gfg_db
 
     ## 爪哇描述语言
 
-    ```
+    ```js
     app.get("/createDatabase", (req, res) => {
 
         let databaseName = "gfg_db";
@@ -106,7 +106,7 @@ Use Database Query: USE gfg_db
 
 9.  **输出:**将此链接放入浏览器*http://localhost:5000/create database*
 
-    ```
+    ```js
     Created and Using gfg_db Database
     ```
 

@@ -21,13 +21,13 @@
 
 **步骤 2** :现在在您的终端中，从项目文件夹的根目录运行以下命令:
 
-```
+```js
  $ npm init
 ```
 
 **第 3 步**:使用以下命令安装 express:
 
-```
+```js
  $ npm install express
 ```
 
@@ -35,7 +35,7 @@
 
 **第五步**:在所有路线下面，如下图设置你的默认路线:
 
-```
+```js
 app.get(**"*"**, function (req, res) {
  res.render("Error_page"); 
 });
@@ -47,7 +47,7 @@ app.get(**"*"**, function (req, res) {
 
 ## java 描述语言
 
-```
+```js
 // Requiring modules
 const express = require("express");
 const app = express();
@@ -82,24 +82,24 @@ app.listen(3001, () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Server listening on http://localhost:3001
 ```
 
 现在打开你的浏览器，导航到 **http://localhost:3001，**你会在屏幕上看到如下消息:
 
-```
+```js
 Hello Geeks
 ```
 
 现在点击除了我们定义的网址之外的任何不同的网址，就像这里我们点击了 **http://localhost:3001/xyz。**以下是您屏幕上的输出:
 
-```
+```js
 PAGE NOT FOUND
 ```

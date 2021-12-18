@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.writeUInt16LE( value, offset )
 ```
 
@@ -19,7 +19,7 @@ Buffer.writeUInt16LE( value, offset )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 //Buffer.writeUInt16LE() Method
 const buff = Buffer.allocUnsafe(4);
@@ -33,7 +33,7 @@ console.log(buff);
 
 **输出:**
 
-```
+```js
 <Buffer ad de 00 00>
 <Buffer ad de ef be>
 
@@ -41,7 +41,7 @@ console.log(buff);
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 //Buffer.writeUInt16LE() Method
 const buff = Buffer.allocUnsafe(4);
@@ -55,7 +55,7 @@ console.log(buff);
 
 **输出:**
 
-```
+```js
 <Buffer ed fe 00 00>
 <Buffer ed fe cd ab>
 

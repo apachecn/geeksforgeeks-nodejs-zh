@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const MessagePort.postMessage(value[, transferList])
 ```
 
@@ -18,7 +18,7 @@ const MessagePort.postMessage(value[, transferList])
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // MessageChannel.postMessage() method
 
@@ -51,7 +51,7 @@ port2.close();
 
 **输出:**
 
-```
+```js
 received data in port1 :
 { message: { hello: 'world2' } }
 received data in port2 :
@@ -62,7 +62,7 @@ received data in port2 :
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // MessageChannel.postMessage() method
 
@@ -91,14 +91,14 @@ port1.close();
 
 **输出:**
 
-```
+```js
 GFG
 closed!
 ```
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 

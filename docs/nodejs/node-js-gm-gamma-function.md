@@ -5,7 +5,7 @@
 **伽马()**函数是 GraphicsMagick 库中的一个内置函数，用于伽马校正级别。该函数在成功时返回真值。
 **语法:**
 
-```
+```js
 gamma(red, green, blue)
 ```
 
@@ -15,7 +15,7 @@ gamma(red, green, blue)
 
 **例 1:**
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 
@@ -36,7 +36,7 @@ gm('1.png')
 
 **例 2:**
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 

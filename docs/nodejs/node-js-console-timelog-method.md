@@ -6,7 +6,7 @@ console.timeLog()方法是 Nodejs 中的一个内置函数，用于显示每次�
 
 **语法:**
 
-```
+```js
 console.log([label][, ...data])
 ```
 
@@ -18,7 +18,7 @@ console.log([label][, ...data])
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // console.timeLog() method
 
@@ -36,7 +36,7 @@ for (let i = 0; i < 10; i++) {
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // console.timeLog() method
 

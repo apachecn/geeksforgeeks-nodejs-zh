@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 express.static(root, [options])
 ```
 
@@ -18,25 +18,25 @@ express.static(root, [options])
 
 1.  您可以访问[安装快速模块](https://www.npmjs.com/package/express)的链接。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install express
     ```
 
 2.  安装快速模块后，您可以使用命令在命令提示符下检查您的快速版本。
 
-    ```
+    ```js
     npm version express
     ```
 
 3.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-    ```
+    ```js
     node index.js
     ```
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 var express = require('express');
 var app = express();
 var path = require('path');
@@ -58,7 +58,7 @@ app.listen(PORT, function(err){
 现在，在视图文件夹中创建 **home.ejs** 文件，代码如下:
 **文件名:home.ejs**
 
-```
+```js
 <!DOCTYPE html> 
 <html> 
 <head> 
@@ -78,7 +78,7 @@ app.listen(PORT, function(err){
     **注:****Demo.jpg**被放置在公共文件夹中，因为公共文件夹现在被作为静态的提供给服务器。
 2.  使用以下命令确保您已经安装了 **express** 和 **ejs** 模块:
 
-    ```
+    ```js
     npm install express
     npm install ejs
 
@@ -86,13 +86,13 @@ app.listen(PORT, function(err){
 
 3.  Run index.js file using below command:
 
-    ```
+    ```js
     node index.js
     ```
 
     **输出:**
 
-    ```
+    ```js
     Server listening on PORT 3000
 
     ```
@@ -103,7 +103,7 @@ app.listen(PORT, function(err){
 **示例 2:**
 **文件名:index.js**
 
-```
+```js
 var express = require('express');
 var app = express();
 var path = require('path');
@@ -115,13 +115,13 @@ console.log(app.use(express.static(
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 [Function: app] EventEmitter {
   _events: [Object: null prototype] { mount: [Function: onmount] },
   _eventsCount: 1,

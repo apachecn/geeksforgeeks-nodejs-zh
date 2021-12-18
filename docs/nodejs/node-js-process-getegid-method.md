@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.getegid()
 ```
 
@@ -20,7 +20,7 @@ process.getegid()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // process.getegid() Method
 
@@ -34,13 +34,13 @@ console.log(process.getegid());
 
 **输出:**
 
-```
+```js
 0
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // process.getegid() Method
 
@@ -59,7 +59,7 @@ if (process.getegid) {
 
 **输出:**
 
-```
+```js
 The numerical effective group identity of the Node.js process: 0
 
 ```

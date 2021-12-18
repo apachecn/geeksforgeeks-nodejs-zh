@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 util.types.isWebAssemblyCompiledModule(module);
 ```
 
@@ -23,7 +23,7 @@ util.types.isWebAssemblyCompiledModule(module);
 
 **示例 1:Filename index . js**
 
-```
+```js
 const util = require('util')
 const morgan = require('morgan');
 const mongoose = require('mongoose')
@@ -36,14 +36,14 @@ console.log(util.types
 
 **输出:**
 
-```
+```js
 false
 false
 ```
 
 **示例 2:Filename index . js**
 
-```
+```js
 const util = require('util')
 const a = require('./a.js'); 
 
@@ -56,13 +56,13 @@ if(util.types.isWebAssemblyCompiledModule(a)) {
 
 要运行文件，请使用以下命令:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 It is not an web assembly module instance
 ```
 

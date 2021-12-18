@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.isSymbolicLink();
 ```
 
@@ -18,7 +18,7 @@ stats.isSymbolicLink();
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.isSymbolicLink() Method
 
@@ -43,14 +43,14 @@ fs.lstat('./filename.lnk', (err, stats) => {
 
 **输出:**
 
-```
+```js
 fs.Stats does not describe a symbolic link
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.isSymbolicLink() Method
 
@@ -67,7 +67,7 @@ fs.lstat('./filename.lnk', (err, stats) => {
 
 **输出:**
 
-```
+```js
 false
 
 ```

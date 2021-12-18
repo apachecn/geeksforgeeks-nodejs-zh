@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.close( callback )
 ```
 
@@ -16,7 +16,7 @@ zlib.close( callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // zlib.close() method
 
@@ -49,14 +49,14 @@ console.log("Closed!");
 
 **输出:**
 
-```
+```js
 Closed!
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // zlib.close() method
 
@@ -83,7 +83,7 @@ console.log("Program Completed!");
 
 **输出:**
 
-```
+```js
 Program Completed!
 
 ```

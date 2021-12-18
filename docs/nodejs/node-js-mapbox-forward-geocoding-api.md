@@ -13,26 +13,26 @@
 
 1.  您可以访问[安装请求模块](https://www.npmjs.com/package/request)的链接。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install request
     ```
 
 2.  安装请求模块后，您可以使用命令在命令提示符下检查您的请求版本。
 
-    ```
+    ```js
     npm version request
     ```
 
 3.  现在去 [Mapbox 官方网站](https://www.mapbox.com/)创建一个账号，获取你的 API KEY。
 4.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-    ```
+    ```js
     node index.js
     ```
 
 **文件名:index.js**
 
-```
+```js
 const request = require('request');
 var ACCESS_TOKEN = 'YOUR_API_KEY';
 
@@ -73,13 +73,13 @@ forwardGeocoding(address);
     ![project structure](img/677c7f234d79008d5627ee5a162964b6.png)
 2.  确保您已经使用以下命令安装了请求模块:
 
-    ```
+    ```js
     npm install request
     ```
 
 3.  Run index.js file using below command:
 
-    ```
+    ```js
     node index.js
     ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.report.writeReport([filename][, err])
 ```
 
@@ -23,7 +23,7 @@ process.report.writeReport([filename][, err])
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // process.report.writeReport Property 
 
@@ -36,7 +36,7 @@ process.report.writeReport();
 
 **运行命令:**
 
-```
+```js
 node filename
 ```
 

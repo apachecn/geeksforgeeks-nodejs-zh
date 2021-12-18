@@ -6,13 +6,13 @@ NPM(节点包管理器)是 Node.js 包的包管理器。有一个名为**‘shor
 
 **安装命令:**
 
-```
+```js
 npm install string-to-arraybuffer
 ```
 
 **在本地文件**中导入包的语法
 
-```
+```js
 const str2ab = require('string-to-arraybuffer')
 ```
 
@@ -20,7 +20,7 @@ const str2ab = require('string-to-arraybuffer')
 
 **将字符串转换为** **数组缓冲区**的语法
 
-```
+```js
 const arrBuff = str2Ab(string)
 ```
 
@@ -32,7 +32,7 @@ const arrBuff = str2Ab(string)
 
 ## java 描述语言
 
-```
+```js
 const express = require('express')
 const bodyParser = require('body-parser')
 const str2Ab =require('string-to-arraybuffer')
@@ -74,7 +74,7 @@ app.listen(port, () => {
 
 ## java 描述语言
 
-```
+```js
 module.exports = ({errors}) => {
   return `
 <!DOCTYPE html>
@@ -152,7 +152,7 @@ module.exports = ({errors}) => {
 
 ## java 描述语言
 
-```
+```js
 const express = require('express')
 const bodyParser = require('body-parser')
 const str2Ab = require('string-to-arraybuffer')
@@ -199,7 +199,7 @@ app.listen(port, () => {
 
 ## java 描述语言
 
-```
+```js
 module.exports = ({errors}) => {
   return `
 <!DOCTYPE html>
@@ -266,7 +266,7 @@ module.exports = ({errors}) => {
 
 ## java 描述语言
 
-```
+```js
 const express = require('express')
 const bodyParser = require('body-parser')
 const str2Ab = require('string-to-arraybuffer')
@@ -314,7 +314,7 @@ app.listen(port, () => {
 
 ## java 描述语言
 
-```
+```js
 module.exports = ({errors}) => {
   return `
 <!DOCTYPE html>

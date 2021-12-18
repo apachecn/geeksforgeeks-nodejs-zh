@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.writeUInt16BE( value, offset )
 ```
 
@@ -19,7 +19,7 @@ Buffer.writeUInt16BE( value, offset )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.writeUInt16BE() Method
 
@@ -41,7 +41,7 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 <Buffer ab cd f4 09>
 <Buffer ab cd fe de>
 
@@ -49,7 +49,7 @@ console.log(buf);
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.writeUInt16BE() Method
 
@@ -71,7 +71,7 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 <Buffer ab ab ad 09>
 <Buffer ab ab ef de>
 

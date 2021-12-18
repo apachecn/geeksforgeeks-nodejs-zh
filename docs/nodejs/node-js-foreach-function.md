@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 *array_name*.forEach(*function*)
 ```
 
@@ -18,7 +18,7 @@
 
 **节目 1:**
 
-```
+```js
 const arr = ['cat', 'dog', 'fish'];
 arr.forEach(element => {
   console.log(element);
@@ -27,7 +27,7 @@ arr.forEach(element => {
 
 **输出:**
 
-```
+```js
 cat
 dog
 fish
@@ -35,7 +35,7 @@ fish
 
 **节目 2:**
 
-```
+```js
 const arr = [1, 2, 3, 8, 7];
 arr.forEach(element => {
   console.log(element);
@@ -44,7 +44,7 @@ arr.forEach(element => {
 
 **输出:**
 
-```
+```js
 1
 2
 3

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const decipher.final([outputEncoding])
 ```
 
@@ -18,7 +18,7 @@ const decipher.final([outputEncoding])
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // decipher.final() method
 
@@ -55,7 +55,7 @@ console.log(decrypted);
 
 **输出:**
 
-```
+```js
 some clear text data
 ```
 
@@ -63,7 +63,7 @@ some clear text data
 
 ## JavaScript
 
-```
+```js
 // Node.js program to demonstrate the
 // decipher.final() method
 
@@ -105,13 +105,13 @@ console.log(buf.join(' '));
 
 **输出:**
 
-```
+```js
 some clear text  data
 ```
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 

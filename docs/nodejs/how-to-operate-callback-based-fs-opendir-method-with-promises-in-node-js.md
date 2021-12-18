@@ -6,7 +6,7 @@
 fs . opendir()方法是基于回调的。使用回调方法导致回调嵌套或回调地狱问题的可能性很大。因此，为了避免这种情况，我们几乎总是喜欢使用基于承诺的方法。使用一些额外的 node.js 方法，我们可以用 promise 方式操作一个基于回调的方法。承诺通过' fs '解决。对象，该对象本身包含用于访问和关闭目录的其他功能。如果承诺被拒绝，它将被拒绝，并带有一个错误对象。
 **语法:**
 
-```
+```js
 fs.opendir(path, options)
 ```
 
@@ -31,7 +31,7 @@ T3】示例 1:文件名:index.js
 
 ## java 描述语言
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 const util = require('util')

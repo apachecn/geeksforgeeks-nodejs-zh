@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const cipher.update(data[, inputEncoding][, outputEncoding])
 ```
 
@@ -22,7 +22,7 @@ const cipher.update(data[, inputEncoding][, outputEncoding])
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // cipher.update() method
 
@@ -56,7 +56,7 @@ console.log(encrypted);
 
 **输出:**
 
-```
+```js
 e5f79c5915c02171eec6b212d5520d44480993d7d622a7c4c2da32f6efda0ffa
 ```
 
@@ -64,7 +64,7 @@ e5f79c5915c02171eec6b212d5520d44480993d7d622a7c4c2da32f6efda0ffa
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // cipher.update() method
 
@@ -102,13 +102,13 @@ crypto.scrypt(password, 'salt', 24,
 
 **输出:**
 
-```
+```js
 5850288b1848440f0c410400403f7b456293229b5231c17d2b83b602f252714b
 ```
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 

@@ -6,7 +6,7 @@
 **混合**修改器是 Nodejs | Jimp 中的一个内置颜色修改器，它通过颜色的 RGB 分量值和叠加颜色的不透明度来混合颜色。
 **语法:**
 
-```
+```js
 image.color([
   { apply: 'mix', params: [color : value] }
 ]);
@@ -25,7 +25,7 @@ image.color([
 
 **例 1:**
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');
@@ -47,7 +47,7 @@ main();
 ![](img/36878a00f6b8a042182218f5388c5c19.png)
 **例 2: cb(可选参数)**
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');

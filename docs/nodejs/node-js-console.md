@@ -9,7 +9,7 @@ Node.js 控制台模块是一个全局对象，它提供了一个类似于 JavaS
 
 **Console 类示例:**制作一个文件，保存为*示例 _console_class.js* ，文件中有以下代码。
 
-```
+```js
 // It requires the fs module 
 const fs = require('fs');
 
@@ -45,7 +45,7 @@ myobject.warn(`This is the ${num} example`);
 
 **全局控制台对象示例:**创建一个文件，保存为 example_console_object.js，文件中有以下代码。
 
-```
+```js
 // It will display 'This is the first object example' to stdout
 console.log('This is the first object example');
 

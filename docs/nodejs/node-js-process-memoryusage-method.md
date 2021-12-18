@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.memoryUsage()   
 ```
 
@@ -20,7 +20,7 @@ process.memoryUsage()
 
 ## index . js
 
-```
+```js
 // Requiring module
 var process = require('process')
 
@@ -30,13 +30,13 @@ console.log(process.memoryUsage())
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 {
   rss: 23851008,     
   heapTotal: 4907008,
@@ -50,7 +50,7 @@ node index.js
 
 ## index . js
 
-```
+```js
 // Requiring module
 var process = require('process')
 
@@ -63,13 +63,13 @@ for (const [key,value] of Object.entries(process.memoryUsage())){
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Memory usage by rss, 23.87968MB 
 Memory usage by heapTotal, 4.907008MB
 Memory usage by heapUsed, 2.907088MB

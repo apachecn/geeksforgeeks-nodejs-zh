@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 setInterval(timerFunction, millisecondsTime);
 
 ```
@@ -20,7 +20,7 @@ setInterval(timerFunction, millisecondsTime);
 
 **语法:**
 
-```
+```js
 clearInterval(intervalVar);
 
 ```
@@ -31,7 +31,7 @@ clearInterval(intervalVar);
 
 **示例:**
 
-```
+```js
 Input: Array = [ 46, 55, 2, 100, 0, 500 ]
 Search Element = 0
 
@@ -52,7 +52,7 @@ Output: Element 500 not found in Array.
 
 **例 1:** **文件名:Index.js**
 
-```
+```js
 // Node.js program to search an element 
 // without using any loops provided Array
 
@@ -94,19 +94,19 @@ function myTimer1() {
 
 在在线编译器上运行 **index.js** 文件，或者按照以下步骤操作:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 在索引 4 处找到元素 0
 ```
 
 **例 2:** **文件名:index.js**
 
-```
+```js
 // Node.js program to search an element 
 // without using any loops provided Array
 
@@ -150,13 +150,13 @@ function myTimer1() {
 
 在在线编译器上运行 **index.js** 文件，或者按照以下步骤操作:
 
-```
+```js
 node index.js
 
 ```
 
 **输出:**
 
-```
+```js
 数组中找不到元素 50。
 ```

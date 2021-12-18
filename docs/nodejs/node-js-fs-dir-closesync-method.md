@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const dir.closeSync()
 ```
 
@@ -21,7 +21,7 @@ const dir.closeSync()
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // dir.closeSync() method
 const fs = require('fs');
@@ -52,13 +52,13 @@ stop('./').catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 All the dirent before operation :-
 abcd.cer
 books.txt
@@ -76,7 +76,7 @@ dir is closed successfully
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // dir.closeSync() method
 const fs = require('fs');
@@ -133,13 +133,13 @@ funct('./').catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 All the dirent before operation :- [object Object]
 Path :- F:
 All the dirent before operation :- [object Object]

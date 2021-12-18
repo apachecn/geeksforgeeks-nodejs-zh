@@ -10,25 +10,25 @@
 
 *   您可以访问安装加密模块的链接。您可以使用此命令安装此软件包。
 
-```
+```js
 npm install bcryptjs
 ```
 
 *   安装 bcryptjs 模块后，您可以使用命令在命令提示符下检查您的请求版本。
 
-```
+```js
 npm version bcryptjs
 ```
 
 *   之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-```
+```js
 node index.js
 ```
 
 ## index.js
 
-```
+```js
 // Requiring module
 const bcrypt = require('bcryptjs');
 
@@ -72,7 +72,7 @@ bcrypt.genSalt(10, function (err, Salt) {
 
 **运行应用程序的步骤:**使用以下命令运行应用程序:
 
-```
+```js
 node index.js
 ```
 

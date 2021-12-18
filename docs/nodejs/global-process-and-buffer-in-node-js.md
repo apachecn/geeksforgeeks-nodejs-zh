@@ -24,7 +24,7 @@
 
 ## java 描述语言
 
-```
+```js
 const process = require('process');
 
 process.on('beforeExit', (data) => {
@@ -40,7 +40,7 @@ console.log('This code is rendered first.');
 
 **输出:**
 
-```
+```js
 This code is rendered first.
 Process beforeExit event with code.
 Process exit event with code.
@@ -55,7 +55,7 @@ Process exit event with code.
 
 ## java 描述语言
 
-```
+```js
 process.on('exit', (data) => {
   console.log(`code execution is goint to end `);
 });
@@ -63,7 +63,7 @@ process.on('exit', (data) => {
 
 **输出:**
 
-```
+```js
 code execution is goint to end
 ```
 
@@ -73,35 +73,35 @@ code execution is goint to end
 
 **创建缓冲区:**
 
-```
+```js
 var buffer = Buffer.alloc(6); 
 ```
 
 *   **输出:**
 
-```
+```js
 This will print out 6 bytes of zero
 ```
 
-```
+```js
 var buffer = Buffer.from("Welcome to GeeksforGeeks!", "utf-8");
 ```
 
 *   **输出:**
 
-```
+```js
 This will print out a chain of values in utf-8
 ```
 
 **写入缓冲区:**如果包含两个参数，第一个参数是数据，第二个参数是编码类型。
 
-```
+```js
 buffer.write("GeeksForGeeks", "utf-8")
 ```
 
 **输出:**
 
-```
+```js
 This will print out 13 as size of buffer
 ```
 
@@ -109,13 +109,13 @@ This will print out 13 as size of buffer
 
 ## java 描述语言
 
-```
+```js
 var buf = Buffer.from('GeeksForGeeks');
 console.log(buf.toString());
 ```
 
 **输出:**
 
-```
+```js
 GeeksForGeeks
 ```

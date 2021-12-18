@@ -6,7 +6,7 @@ Node.js 中[回调地狱](https://www.geeksforgeeks.org/what-is-callback-hell-in
 
 借助[承诺](https://www.geeksforgeeks.org/javascript-promises/)，我们可以避免回调地狱。javascript 中的承诺是在 Node.js 中处理异步操作的一种方式，它允许我们像同步函数一样从异步函数中返回值。当我们从异步方法中返回一些东西时，它会返回一个承诺，当将来在异步函数内部的[然后()](https://www.geeksforgeeks.org/why-we-use-then-method-in-javascript/)方法或[等待](https://www.geeksforgeeks.org/async-await-function-in-javascript/)的帮助下，这个承诺可以用来消费最终值。下面提到了创建承诺的语法。
 
-```
+```js
 const promise = new Promise(function(resolve, reject){
      // code logic
 });
@@ -19,7 +19,7 @@ const promise = new Promise(function(resolve, reject){
 
 ## java 描述语言
 
-```
+```js
 // The callback function for function
 // is executed after two seconds with
 // the result of addition

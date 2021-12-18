@@ -31,7 +31,7 @@
 
 ## java 描述语言
 
-```
+```js
 // Requiring module
 const fs = require('fs');
 
@@ -51,7 +51,7 @@ const currentWorkingDirectory = args[1].slice(0, -8);
 
 ## java 描述语言
 
-```
+```js
 if (fs.existsSync(currentWorkingDirectory + 'todo.txt') === false) {
   let createStream = fs.createWriteStream('todo.txt');
   createStream.end();
@@ -68,7 +68,7 @@ if (fs.existsSync(currentWorkingDirectory + 'done.txt') === false) {
 
 ## java 描述语言
 
-```
+```js
 const InfoFunction = () => {
   const UsageText = `
 Usage :-
@@ -87,7 +87,7 @@ $ node index.js report           # Statistics`;
 
 ## java 描述语言
 
-```
+```js
 const listFunction = () => {
 
   // Create a empty array
@@ -124,7 +124,7 @@ const listFunction = () => {
 
 ## java 描述语言
 
-```
+```js
 const addFunction = () => {
 
   // New todo string argument is stored

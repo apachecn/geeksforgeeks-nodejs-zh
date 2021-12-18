@@ -5,7 +5,7 @@
 **process.setgid()方法**是流程模块的内置应用编程接口，用于设置 Node.js 流程的组标识。
 **语法:**
 
-```
+```js
 process.setgid(id)
 ```
 
@@ -20,7 +20,7 @@ process.setgid(id)
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the    
 // process.setgid() Method
 
@@ -43,7 +43,7 @@ if (process.getgid && process.setgid ) {
 
 **输出:**
 
-```
+```js
 The group identity of the Node.js process: 400
 ```
 
@@ -51,7 +51,7 @@ The group identity of the Node.js process: 400
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the    
 // process.setgid() Method
 
@@ -82,7 +82,7 @@ if (process.getgid) {
 
 **输出:**
 
-```
+```js
 gid has successfully been set
 The group identity of the Node.js process: 696
 ```

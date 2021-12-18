@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.appendFile( path, data[, options], callback )
 ```
 
@@ -25,7 +25,7 @@ fs.appendFile( path, data[, options], callback )
 
 **示例 1:** 该示例显示了给定文本到文件的追加。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.appendFile() method
 
@@ -50,7 +50,7 @@ fs.appendFile("example_file.txt", "World", (err) => {
 
 **输出:**
 
-```
+```js
 File Contents of file before append: Hello
 
 File Contents of file after append: HelloWorld
@@ -59,7 +59,7 @@ File Contents of file after append: HelloWorld
 
 **示例 2:** 该示例显示了可选参数的用法，用于更改操作的文件编码、模式和标志。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.appendFile() method
 
@@ -86,7 +86,7 @@ fs.appendFile("example_file.txt", " - GeeksForGeeks",
 
 **输出:**
 
-```
+```js
 File Contents of file before append: This is a test file
 
 File Contents of file after append: This is a test file - GeeksForGeeks

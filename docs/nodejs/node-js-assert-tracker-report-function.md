@@ -8,7 +8,7 @@
 
 **语法**:
 
-```
+```js
 tracker.report()
 ```
 
@@ -20,7 +20,7 @@ tracker.report()
 
 ## java 描述语言
 
-```
+```js
 const assert = require('assert');
 
 // Creates call tracker.
@@ -43,7 +43,7 @@ console.log(tracker.report());
 
 ## java 描述语言
 
-```
+```js
 const assert = require('assert');
 
 // Creates call tracker.

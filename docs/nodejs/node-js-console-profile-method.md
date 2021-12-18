@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```js
 console.profile([label])
 
 ```
@@ -28,7 +28,7 @@ console.profile([label])
 
 **示例 1:文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // console.profile() Method
 
@@ -48,14 +48,14 @@ console.profileEnd('MyLabel');
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```
 
 **控制台输出:**
 
-```
+```js
 Doing task no: 0
 Doing task no: 1
 Doing task no: 2
@@ -71,7 +71,7 @@ Doing task no: 3
 
 **示例 2:文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // console.profile() Method
 
@@ -103,14 +103,14 @@ newProfile(function alfa() {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```
 
 **控制台输出:**
 
-```
+```js
 Working on task: 1
 Working on task: 2
 Working on task: 3

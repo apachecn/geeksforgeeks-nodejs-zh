@@ -12,20 +12,20 @@
 
 1.  您可以访问[安装请求模块](https://www.npmjs.com/package/request)的链接。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install request
     ```
 
 2.  安装请求模块后，您可以使用命令在命令提示符下检查您的请求版本。
 
-    ```
+    ```js
     npm version request
     ```
 
 3.  现在去[打开天气图](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiAxf2ngKvuAhWRX3wKHTFyA-MQFjAAegQIARAD&url=https%3A%2F%2Fopenweathermap.org%2F&usg=AOvVaw018H_9U9cLmoQlvNn8NPy-)网站，创建一个账户，获取你的 API KEY。
 4.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-```
+```js
 node index.js
 ```
 
@@ -33,7 +33,7 @@ node index.js
 
 ## index.js
 
-```
+```js
 const request = require('request'); 
 var API_KEY = 'your_api_key'; 
 
@@ -81,13 +81,13 @@ forecast(latitude, longitude); 
 
 2.  使用以下命令确保您已经安装了请求模块:
 
-    ```
+    ```js
     npm install request
     ```
 
 3.  使用以下命令运行 index.js 文件:
 
-    ```
+    ```js
     node index.js
     ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dns.resolveSoa( hostname, callback )
 ```
 
@@ -23,7 +23,7 @@ dns.resolveSoa( hostname, callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dns.resolveSoa() method
 
@@ -39,7 +39,7 @@ dns.resolveSoa('geeksforgeeks.org', (err, 
 
 **输出:**
 
-```
+```js
 SOA records: {
     "nsname":"ns-869.awsdns-44.net",
     "hostmaster":"awsdns-hostmaster.amazon.com",
@@ -54,7 +54,7 @@ SOA records: {
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dns.resolveSoa() method
 
@@ -69,7 +69,7 @@ dns.resolveSoa('google.com', (err, 
 
 **输出:**
 
-```
+```js
 SOA records: {
     "nsname":"ns1.google.com",
     "hostmaster":"dns-admin.google.com",

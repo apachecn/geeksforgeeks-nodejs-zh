@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 response.statusMessage
 ```
 
@@ -18,7 +18,7 @@ response.statusMessage
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the  
 // response.statusMessage APi
 
@@ -61,13 +61,13 @@ httpServer.listen(PORT, () => { 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 Server is running at port 3000...
 status message : OK
 displaying the result...
@@ -78,7 +78,7 @@ server is closed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the  
 // response.statusMessage APi
 
@@ -114,13 +114,13 @@ var httpServer = http.createServer(
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 Server is running at port 3000...
 status message : OK
 displaying the result...
@@ -129,7 +129,7 @@ server is closed
 
 **浏览器输出:**
 
-```
+```js
 hello world
 ```
 

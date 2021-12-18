@@ -6,7 +6,7 @@ fs.rmSync()方法用于同步删除给定路径上的文件。它也可以通过
 
 **语法:**
 
-```
+```js
 fs.rmSync( path, options );
 ```
 
@@ -25,7 +25,7 @@ fs.rmSync( path, options );
 
 ## 【JavaScript】
 
-```
+```js
 // Import necessary modules
 let fs = require('fs');
 
@@ -49,13 +49,13 @@ function getCurrentFilenames() { 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Current filenames:
 dummy.txt
 index.js
@@ -76,7 +76,7 @@ package.json
 
 ## 【JavaScript】
 
-```
+```js
 // Import the filesystem module 
 const fs = require('fs'); 
 
@@ -101,13 +101,13 @@ function getCurrentFilenames() { 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Current filenames:
 build
 index.js

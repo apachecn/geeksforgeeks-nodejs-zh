@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 response.writableEnded
 ```
 
@@ -18,7 +18,7 @@ response.writableEnded
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the  
 // response.writableEnded APi
 
@@ -58,13 +58,13 @@ httpServer.listen(PORT, () => { 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 Server is running at port 3000...
 displaying the result...
 displaying the result...
@@ -76,7 +76,7 @@ server is closed
 
 **输出:**
 
-```
+```js
 response.end() has been called : false
 ```
 
@@ -84,7 +84,7 @@ response.end() has been called : false
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the  
 // response.writableEnded APi
 
@@ -119,13 +119,13 @@ var httpServer = http.createServer(
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 Server is running at port 3000...
 ```
 
@@ -133,7 +133,7 @@ Server is running at port 3000...
 
 **输出:**
 
-```
+```js
 Response.end() has been not called
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.isEncoding( encoding )
 ```
 
@@ -14,7 +14,7 @@ Buffer.isEncoding( encoding )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // Buffer.isEncoding() method 
 
@@ -30,7 +30,7 @@ console.log(Buffer.isEncoding('basename'));
 
 **输出:**
 
-```
+```js
 true
 true
 true
@@ -42,7 +42,7 @@ false
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // Buffer.isEncoding() method 
 
@@ -57,7 +57,7 @@ console.log(Buffer.isEncoding('base64'));
 
 **输出:**
 
-```
+```js
 true
 false
 true

@@ -20,7 +20,7 @@ NPM 可以通过 [package.json](https://www.geeksforgeeks.org/node-js-package-js
 安装在系统上的 **npm** 版本可以使用以下语法进行检查:
 **语法:**
 
-```
+```js
 npm -v
 
 ```
@@ -32,7 +32,7 @@ npm -v
 如果安装的版本不是最新的，可以使用给定的语法更新它:
 **语法:**
 
-```
+```js
 npm npm@latest -g.
 
 ```
@@ -50,21 +50,21 @@ npm 初始化**
 创建项目后，下一步是合并要在节点项目中使用的包和模块。要在项目中安装软件包和模块，请使用以下语法:
 **语法:****
 
-```
+```js
 **npm install package_name** 
 ```
 
 ****示例:**将快递包裹安装到项目中。Express 是节点使用的网络开发框架。
 **语法:****
 
-```
+```js
 **npm install express**
 ```
 
 **要在节点中使用 express，请遵循以下语法:
 **语法:****
 
-```
+```js
 var express = require('express'); 
 ```
 
@@ -75,7 +75,7 @@ var express = require('express');
 ****示例:**要全局安装一个包(系统中的所有项目都可以访问)，请在用于安装该包的语法中添加一个额外的 **-g** 标记。
 全球安装 **nodemon** 套装。**
 
-```
+```js
 **npm install nodemon -g**
 ```
 
@@ -87,7 +87,7 @@ var express = require('express');
 要安装包并同时将其保存在 [package.json](https://www.geeksforgeeks.org/node-js-package-json/) 文件中(如果使用 Node.js)，请添加**–save**标志。**–保存**标志在 npm 安装命令中是默认的，因此它等于 **npm 安装包名称**命令。
 **示例:****
 
-```
+```js
 **npm install express --save**
 ```
 
@@ -108,7 +108,7 @@ var express = require('express');
 要使用 npm 卸载软件包，请遵循以下语法:
 **语法:****
 
-```
+```js
 **npm uninstall** 
 ```
 
@@ -121,7 +121,7 @@ var express = require('express');
 **要卸载全局软件包，请遵循以下语法:
 **语法:****
 
-```
+```js
 **npm uninstall package_name -g**
 ```
 

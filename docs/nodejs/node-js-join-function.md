@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 *array_name*.join(*parameter*)
 ```
 
@@ -17,7 +17,7 @@
 下面的程序演示了功能的工作:
 **程序 1:**
 
-```
+```js
 function joinDemo()
 {
   var str= arr.join("*");
@@ -29,13 +29,13 @@ joinDemo();
 
 **输出:**
 
-```
+```js
 17*55*87*49*78
 ```
 
 **程序 2:**
 
-```
+```js
 function joinDemo()
 {
   var str= arr.join("");
@@ -49,7 +49,7 @@ joinDemo();
 
 **输出:**
 
-```
+```js
 CJavaPython
 C$Java$Python
 ```

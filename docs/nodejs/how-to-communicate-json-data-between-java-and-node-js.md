@@ -10,7 +10,7 @@
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```js
 import org.json.simple.JSONObject;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -36,7 +36,7 @@ public class MyClass {
 
 **输出:**
 
-```
+```js
 JSON file created:{
 "name":"Inshal Khan",
 "Roll no":"42",
@@ -47,7 +47,7 @@ JSON file created:{
 
 ## java 描述语言
 
-```
+```js
 'use strict';
 
 const fs = require('fs');
@@ -63,7 +63,7 @@ console.log('File Reading completed');
 
 **输出:**
 
-```
+```js
 JSON file created:{
 "name":"Inshal Khan",
 "Roll no":"42",

@@ -8,7 +8,7 @@ fs.readdir()方法基于回调。使用回调方法导致回调嵌套或回调�
 
 **语法:**
 
-```
+```js
 fs.readdir(path, options)
 ```
 
@@ -23,7 +23,7 @@ fs.readdir(path, options)
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Program to read file and folders of 
 // the current working directory
 
@@ -54,7 +54,7 @@ readDir(process.cwd())
 
 使用异步等待实现相同的功能:
 
-```
+```js
 // Program to read file and folders of the
 // current working directory
 
@@ -84,7 +84,7 @@ readDirectory(process.cwd())
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -93,7 +93,7 @@ node index.js
 
 **示例 2:** **文件名:index.js**
 
-```
+```js
 // Program to read file and folders of the
 // current working directory or as the path
 // given by command line argument
@@ -126,7 +126,7 @@ readDir(targetDir)
 
 使用异步等待实现相同的功能:
 
-```
+```js
 // Program to read file and folders of the 
 // current working directory or as the path
 // given by command line argument
@@ -160,7 +160,7 @@ readDirectory(targetDir)
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 

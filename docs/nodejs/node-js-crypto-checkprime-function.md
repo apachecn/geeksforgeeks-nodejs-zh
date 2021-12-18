@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const crypto.checkPrime(candidate[, options, [callback]])
 ```
 
@@ -22,7 +22,7 @@ const crypto.checkPrime(candidate[, options, [callback]])
 
 ## index.js
 
-```
+```js
 // Node.js program to demonstrate the  
 // crypto.checkPrime() api
 
@@ -51,13 +51,13 @@ crypto.checkPrime(buffer, (err, val) => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 candidate is not a prime
 ```
 
@@ -65,7 +65,7 @@ candidate is not a prime
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // crypto.checkPrime() api
 
@@ -93,13 +93,13 @@ crypto.checkPrime(buffer, (err, val) => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 candidate is not a prime
 ```
 

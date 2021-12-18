@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const urlSearchParams.keys()
 ```
 
@@ -18,7 +18,7 @@ const urlSearchParams.keys()
 
 **示例 1:** **文件名:app.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // URLSearchParams.keys() method
 
@@ -47,13 +47,13 @@ for (const [name] of iterator) {
 
 使用以下命令运行 **app.js** 文件:
 
-```
+```js
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 list of all the keys
 A
 B
@@ -64,7 +64,7 @@ C
 **示例 2:**
 **文件名:app.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // URLSearchParams.keys() method
 
@@ -93,13 +93,13 @@ for (const [name] of iterator) {
 
 使用以下命令运行 **app.js** 文件:
 
-```
+```js
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 list of all the keys
 G
 F

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const http2.getUnpackedSettings(buf)
 ```
 
@@ -20,7 +20,7 @@ const http2.getUnpackedSettings(buf)
 
 **2。文件名:公共证书**打开记事本复制粘贴以下密钥，将文件保存为 ***公共证书 pem***
 
-```
+```js
 -----BEGIN CERTIFICATE-----
 MIICfzCCAegCCQDxxeXw914Y2DANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMC
 SU4xEzARBgNVBAgMCldlc3RiZW5nYWwxEDAOBgNVBAcMB0tvbGthdGExFDASBgNV
@@ -43,7 +43,7 @@ hWF6W2H9+MAlU7yvtmCQQuZmfQ==
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // http2.getPackedSettings() method
 
@@ -115,13 +115,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 max frame size :- 163955
 status : 200
 Received: hello
@@ -134,7 +134,7 @@ server closed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // http2.getUnpackedSettings() method
 
@@ -196,13 +196,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 max Header list Size :- 655353
 Received: world
 client closed

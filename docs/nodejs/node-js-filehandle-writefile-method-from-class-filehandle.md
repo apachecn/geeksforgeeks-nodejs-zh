@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 filehandle.writeFile(data, options)
 ```
 
@@ -18,7 +18,7 @@ filehandle.writeFile(data, options)
 
 **示例 1:** 本示例说明如何对已经存在的文件进行写操作。
 
-```
+```js
 // Node.js program to demonstrate the
 // filehandle.writeFile() Method
 
@@ -63,7 +63,7 @@ writeToFile('./testFile.txt', "Hey, I am newly added!")
 
 **示例 2:** 这个示例解释了如何对先前不存在但在运行时创建的文件执行写操作。
 
-```
+```js
 // Node.js program to demonstrate the
 // filehandle.writeFile() Method
 

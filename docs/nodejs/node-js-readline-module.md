@@ -4,7 +4,7 @@
 
 Node.js 中的 **Readline 模块**允许逐行读取输入流。该模块包装过程标准输出和过程标准输入对象。Readline 模块使输入和读取用户给出的输出变得更加容易。要使用该模块，请创建一个新的 JavaScript 文件，并在应用程序启动时编写以下代码–
 
-```
+```js
 var readline = require('readline');
 ```
 
@@ -13,7 +13,7 @@ Readline 模块提供了与用户交互的不同方法。
 
 ## java 描述语言
 
-```
+```js
 var readline = require('readline');
 
 var rl = readline.createInterface(
@@ -24,7 +24,7 @@ var rl = readline.createInterface(
 
 ## java 描述语言
 
-```
+```js
 rl.question('What is your age? ', (age) => {
     console.log('Your age is: ' + age);
 });

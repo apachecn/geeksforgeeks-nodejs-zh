@@ -7,7 +7,7 @@ Node.js 使用事件模块来创建和处理自定义事件。事件发射器类
 
 **语法:**
 
-```
+```js
 const EventEmitter = require('events');
 ```
 
@@ -15,7 +15,7 @@ const EventEmitter = require('events');
 
 **布尔捕获拒绝**
 
-```
+```js
 Default Value: false
 It automatically captures rejections.
 ```
@@ -24,7 +24,7 @@ It automatically captures rejections.
 
 **语法:**
 
-```
+```js
 eventEmitter.addListener(event, listener)
 eventEmitter.on(event, listener)
 ```
@@ -35,14 +35,14 @@ eventEmitter.on(event, listener)
 
 **语法:**
 
-```
+```js
 eventEmitter.emit(event, [arg1], [arg2], [...])
 
 ```
 
 **示例:**
 
-```
+```js
 // Importing events
 const EventEmitter = require('events');
 
@@ -60,7 +60,7 @@ eventEmitter.emit('myEvent', "First event");
 
 **输出:**
 
-```
+```js
 First event
 ```
 
@@ -68,14 +68,14 @@ First event
 
 **语法:**
 
-```
+```js
 eventEmitter.removeListener(event, listener)
 eventEmitter.removeAllListeners([event])
 ```
 
 **示例:**
 
-```
+```js
 // Importing events
 const EventEmitter = require('events');
 
@@ -111,7 +111,7 @@ eventEmitter.emit('myEvent', "Event occurred");
 
 **输出:**
 
-```
+```js
 Message from geek1: Event occurred
 Message from geek2: Event occurred
 
@@ -123,28 +123,28 @@ Message from geek2: Event occurred
 
 *   **事件:“newListener”**事件发射器实例将在侦听器添加到其内部侦听器数组之前发出自己的“newListener”事件。为“newListener”事件注册的侦听器将被传递给正在添加的侦听器的事件名称和引用。在将侦听器添加到数组之前，会触发事件“newListener”。
 
-    ```
+    ```js
     eventEmitter.once( 'newListener', listener)
     eventEmitter.on( 'newListener', listener)
     ```
 
 *   **事件:“移除监听器”****“移除监听器”**事件在监听器被移除后发出。
 
-    ```
+    ```js
     eventEmitter.once( ‘removeListener’, listener)
     eventEmitter.on( 'removeListener’, listener)
     ```
 
 *   **事件:“错误”**当事件发射器实例中发生错误时，典型的操作是发出**“错误”**事件。如果事件发射器没有为“错误”事件注册至少一个侦听器，并且发出了“错误”事件，则会引发错误，打印堆栈跟踪，并退出 Node.js 进程。
 
-    ```
+    ```js
     eventEmitter.on('error', listener)
 
     ```
 
 **示例:**
 
-```
+```js
 // Importing events
 const EventEmitter = require('events');
 
@@ -192,7 +192,7 @@ eventEmitter.emit('error', new Error('Attention!'));
 
 **输出:**
 
-```
+```js
 The listener is added to removeListener
 The listener is added to myEvent
 The listener is added to myEvent

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 process.hrtime.bigint();
 ```
 
@@ -20,7 +20,7 @@ process.hrtime.bigint();
 
 ## index . js
 
-```
+```js
 // Create a variable and call the 
 // process.hrtime() function
 var start_time = process.hrtime.bigint();
@@ -45,13 +45,13 @@ setTimeout(function () {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Start Time: 507990695929600n
 Execution time will be calculated....
 End Time: 1005191900n
@@ -63,7 +63,7 @@ End Time: 1005191900n
 
 ## 【JavaScript】
 
-```
+```js
 // Create a variable and call the 
 // process.hrtime() function
 var start_time = process.hrtime.bigint();
@@ -94,7 +94,7 @@ setTimeout(function () {
 
 **输出:**
 
-```
+```js
 Start Time: 507818309465700n
 Subtraction of two number is : 5
 End Time: 1008706600n

@@ -18,7 +18,7 @@ Node.js 的单个实例在一个线程中运行。如果你有一个多核系统
 
 **步骤 1:** 创建一个 NodeJS 应用程序，安装所需的 **Express.js** 模块。
 
-```
+```js
 mkdir Project && cd Project
 npm init -y 
 npm i express
@@ -28,7 +28,7 @@ npm i express
 
 ## java 描述语言
 
-```
+```js
 const express = require('express');
 const cluster = require('cluster');
 
@@ -72,7 +72,7 @@ else{
 
 **第 3 步:**使用以下命令运行 ***index.js*** 文件。
 
-```
+```js
 node index.js
 ```
 
@@ -104,7 +104,7 @@ openprocess
 
 ## java 描述语言
 
-```
+```js
 const {Worker} = require('worker_threads');
 
 const worker = new Worker(__filename);
@@ -116,7 +116,7 @@ worker.emit(true)
 
 使用以下命令运行服务器:
 
-```
+```js
 node --experimental-worker index.js
 ```
 
@@ -124,7 +124,7 @@ node --experimental-worker index.js
 
 **输出:**
 
-```
+```js
 { name: ‘GeeksforGeeks’ }
 ```
 

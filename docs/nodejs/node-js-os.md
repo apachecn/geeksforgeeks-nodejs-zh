@@ -9,7 +9,7 @@
 
 ## java 描述语言
 
-```
+```js
 // Include os module and create its object
 var os = require('os');
 
@@ -37,7 +37,7 @@ console.log('OS default directory for temp files : ' + os.tmpdir ());
 
 ## java 描述语言
 
-```
+```js
 // Include os module and create its object
 var os = require('os');
 

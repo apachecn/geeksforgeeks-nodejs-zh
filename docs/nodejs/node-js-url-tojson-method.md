@@ -6,7 +6,7 @@ node.js url 模块中的 **url.toJSON()方法**用于返回 URL 对象的序列�
 
 **语法:**
 
-```
+```js
 url.toJSON()
 ```
 
@@ -18,7 +18,7 @@ url.toJSON()
 
 **例 1:**
 
-```
+```js
 // node program to demonstrate the
 // url.toJSON() method in node.js
 
@@ -38,7 +38,7 @@ console.log(JSON.stringify(urls));
 
 **输出:**
 
-```
+```js
 [
     "https://www.geeksforgeeks.org/",
     "https://www.google.com/",
@@ -49,7 +49,7 @@ console.log(JSON.stringify(urls));
 
 **例 2:**
 
-```
+```js
 // node program to demonstrate the
 // url.toJSON() method in node.js
 
@@ -71,7 +71,7 @@ console.log(JSON.stringify(myurl));
 
 **输出:**
 
-```
+```js
 [
     "https://www.geeksforgeeks.org/",
     "https://write.geeksforgeeks.org/",

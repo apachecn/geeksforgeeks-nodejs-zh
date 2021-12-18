@@ -6,11 +6,11 @@ urlObject.href API 用于返回完整的 URL 字符串以及协议(HTTP)和路�
 
 **语法**
 
-```
+```js
 urlObject.href
 ```
 
-```
+```js
 For example: 'http://www.geeksforgeeks.com/login/password.html'
 
 Here, Protocol = http
@@ -24,7 +24,7 @@ Here, Protocol = http
 
 **例 1:**
 
-```
+```js
 // Node program to demonstrate the 
 // urlObject.href API as Setter
 
@@ -37,13 +37,13 @@ console.log(gfg.href); 
 
 **输出:**
 
-```
+```js
  https://www.geeksforgeeks.com/login.html
 ```
 
 **例 2:**
 
-```
+```js
 // Node program to demonstrate the  
 // url.href API as Setter
 
@@ -60,7 +60,7 @@ console.log(url.href);
 
 **输出:**
 
-```
+```js
  https://www.example.com:777/a/b?c=d&e=f#g 
 ```
 

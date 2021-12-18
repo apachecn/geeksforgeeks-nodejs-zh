@@ -27,7 +27,7 @@
 
 ## 【JavaScript】
 
-```
+```js
 // Different Method to create Buffer
 var buffer1 = Buffer.alloc(100);
 var buffer2 = new Buffer('GFG');

@@ -11,7 +11,7 @@
 
 ## java 描述语言
 
-```
+```js
 // importing the module 'url' 
 const url = require('url');
 
@@ -34,7 +34,7 @@ console.log(q.auth);
 
 ## java 描述语言
 
-```
+```js
 // importing the module 'url' 
 const url = require('url');
 

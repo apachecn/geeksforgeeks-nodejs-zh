@@ -5,7 +5,7 @@
 **Faker** 模块用于生成伪造数据，不仅伪造数据，感染组织良好的伪造数据。Faker 模块是一个广泛使用的 NPM 模块，它可以生成假的名称、地址、产品名称、价格。使用这个 faker 包，您还可以生成假的 IP 地址、图像等等。
 **命令安装 faker 模块:**
 
-```
+```js
 npm install faker
 ```
 
@@ -23,7 +23,7 @@ npm install faker
 
 **获取虚假数据的语法**
 
-```
+```js
 faker.context.aspect()
 ```
 
@@ -31,7 +31,7 @@ faker.context.aspect()
 
 ## java 描述语言
 
-```
+```js
 // Program to generate some fake
 // names with their job titles
 
@@ -65,7 +65,7 @@ for(let i=0; i<8; i++){
 
 ## java 描述语言
 
-```
+```js
 // Program to generate some fake
 // products with their details
 
@@ -97,7 +97,7 @@ for (let i = 0; i < 8; i++) {
 
 ## java 描述语言
 
-```
+```js
 // Program to generate some fake
 // bank transaction details
 
@@ -131,7 +131,7 @@ for (let i = 0; i < 8; i++) {
 
 ## java 描述语言
 
-```
+```js
 // Program to generate some fake
 // domain name and ip addresses
 

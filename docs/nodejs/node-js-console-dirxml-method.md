@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 console.dirxml(object_or_element)
 ```
 
@@ -22,7 +22,7 @@ console.dirxml(object_or_element)
 
 ## index . js
 
-```
+```js
 // Importing console module
 const console = require('console'); 
 
@@ -34,13 +34,13 @@ console.dirxml(a)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 GeeksforGeeks
 ```
 
@@ -48,7 +48,7 @@ GeeksforGeeks
 
 ## 
 
-```
+```js
 // Importing console module
 const console = require('console'); 
 
@@ -58,13 +58,13 @@ console.dirxml("Hi there, Geeks")
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Hi there, Geeks
 ```
 

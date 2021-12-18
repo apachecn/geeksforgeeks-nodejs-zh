@@ -14,13 +14,13 @@ Node.js 是一个开源的服务器端平台，建立在谷歌 Chrome 的 JavaSc
 
 **模块安装:**您可以使用此[链接](https://www.npmjs.com/package/chalk)下载粉笔模块，或者使用以下命令安装此模块:
 
-```
+```js
 npm install chalk
 ```
 
 安装完粉笔模块后，您可以使用以下代码在文件中要求它:
 
-```
+```js
 const chalk = require('chalk');
 ```
 
@@ -28,7 +28,7 @@ const chalk = require('chalk');
 
 ## java 描述语言
 
-```
+```js
 // Requiring the module
 const chalk = require('chalk');
 
@@ -51,7 +51,7 @@ console.log(chalk.red('Geeks', 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -65,19 +65,19 @@ node index.js
 
 **模块安装:**您可以使用[链接](https://www.npmjs.com/package/morgan)下载该模块，或者使用以下命令安装该模块:
 
-```
+```js
 npm install chalk
 ```
 
 安装完粉笔模块后，您可以使用以下代码在文件中要求它:
 
-```
+```js
 const morgan = require('morgan');
 ```
 
 因为我们知道 morgan 是一个中间件，所以我们将它与一个 express 服务器一起使用，这将使过程更容易，而不是使用 Nodejs 中的内置 http 模块。
 
-```
+```js
 const express = require('express');
 const morgan = require('morgan');
 const app = express();
@@ -91,20 +91,20 @@ app.listen(5000, () => {
 
 为了将 morgan 与 express 一起使用，我们需要一个预定义的格式化字符串，通过使用以下代码，我们可以完成以下任务:
 
-```
+```js
 const app = express();
 app.use(morgan(/* This is the  format string */));
 ```
 
 morgan 使用的模板字符串称为格式字符串，如下所示:
 
-```
+```js
 ':method :url :status :res[content-length] - :response-time ms'
 ```
 
 **使用 morgan 创建自定义令牌:**可以使用 *morgan.token(名称，功能)*功能来实现。我们传递的第一个参数是令牌的名称，第二个参数是回调函数。每次使用令牌记录一些东西时，Morgan 都会运行。摩根将向函数传递两个参数，即*请求*和 *res* 。我们可以创建一个令牌，它显示请求通过的域。
 
-```
+```js
 morgan.token('host', function(req, res) {
   return req.hostname;
 });
@@ -114,13 +114,13 @@ morgan.token('host', function(req, res) {
 
 **模块安装:**您可以使用此[链接](https://www.npmjs.com/package/express)下载粉笔模块，或者使用以下命令安装此模块:
 
-```
+```js
 npm install express
 ```
 
 安装 express 模块后，您可以使用以下代码在文件中要求它:
 
-```
+```js
 const express = require('express');
 ```
 
@@ -128,7 +128,7 @@ const express = require('express');
 
 ## java 描述语言
 
-```
+```js
 // Requiring the module
 var express = require('express'); 
 
@@ -148,12 +148,12 @@ app.listen(3000, function() { 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Server Listening to port 3000
 ```

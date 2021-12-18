@@ -7,13 +7,13 @@ node.js 中的验证可以通过使用 express-validator 模块轻松完成。�
 
 1.  您可以使用此命令安装此软件包。
 
-```
+```js
 npm install express-validator
 ```
 
 1.  安装后，您可以使用命令在命令提示符下检查您的快速验证器模块版本。
 
-```
+```js
 npm version express-validator
 ```
 
@@ -22,7 +22,7 @@ npm version express-validator
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html>
     <head>
@@ -50,7 +50,7 @@ npm version express-validator
 
 ## java 描述语言
 
-```
+```js
 const { check, validationResult }
     = require('express-validator');
 
@@ -117,25 +117,25 @@ app.listen(PORT, function (error) {
 
 1.  确保你有一个“视图引擎”。我们使用了“ejs”，还使用以下命令安装了 express 和 express-validator、body-parser:
 
-```
+```js
 npm install ejs
 ```
 
-```
+```js
 npm install express
 ```
 
-```
+```js
 npm install body-parser
 ```
 
-```
+```js
 npm install express-validator
 ```
 
 1.  使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 

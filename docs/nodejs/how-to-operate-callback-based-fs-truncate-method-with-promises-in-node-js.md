@@ -8,7 +8,7 @@ fs.truncate()方法基于回调。使用回调方法导致回调嵌套或回调�
 
 **语法:**
 
-```
+```js
 fs.truncate(path, len)
 ```
 
@@ -26,7 +26,7 @@ fs.truncate(path, len)
 **示例 1:**
 **文件名:index.js**
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 const util = require('util')
@@ -52,7 +52,7 @@ trunct('./testFile.txt')
 
 使用异步等待实现相同的功能。
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 const util = require('util')
@@ -85,20 +85,20 @@ truncateFile('./testFile.txt')
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 File contents are deleted!
 ```
 
 **示例 2:**
 **文件名:index.js**
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 const util = require('util')
@@ -143,7 +143,7 @@ readFileContent('./testFile.txt')
 
 使用异步等待实现相同的功能。
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 const util = require('util')
@@ -189,7 +189,7 @@ truncateFile('./testFile.txt', 18)
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 

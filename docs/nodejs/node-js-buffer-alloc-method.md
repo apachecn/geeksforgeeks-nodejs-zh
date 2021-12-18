@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```js
 Buffer.alloc(size, fill, encoding)
 ```
 
@@ -20,7 +20,7 @@ Buffer.alloc(size, fill, encoding)
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // Buffer.alloc() Method
 
@@ -34,13 +34,13 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 <Buffer 00 00 00 00 00 00>
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // Buffer.alloc() Method
 

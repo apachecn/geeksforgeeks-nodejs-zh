@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const url.protocol
 ```
 
@@ -16,7 +16,7 @@ const url.protocol
 
 ## Javascript
 
-```
+```js
 // Node program to demonstrate the  
 // url.protocol API as Setter  
 // Changing of protocols to special

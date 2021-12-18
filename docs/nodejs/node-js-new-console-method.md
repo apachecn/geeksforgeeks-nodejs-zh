@@ -13,13 +13,13 @@
 
 **语法:**
 
-```
+```js
 new Console(options);
 ```
 
 **论据:**
 
-```
+```js
 const options = { 
    stdout: writableStream, 
    stderr: writableStream, 
@@ -30,7 +30,7 @@ const options = {
 
 为了使用这个方法，我们需要使用( *new Console()* )方法创建一个控制台，我们需要导入“*控制台*”和“ *fs* ”模块。
 
-```
+```js
 const console = require('console');
 const fs = require('fs');  
 ```
@@ -54,7 +54,7 @@ const fs = require('fs');
 
 ## *java 描述语言*
 
-```
+```js
 *// Node.js program to demonstrate the
 // new Console() method
 
@@ -82,7 +82,7 @@ console.log("Successfully created and logged via console...", )*
 
 *使用以下命令运行 **index.js** 文件:*
 
-```
+```js
 *node index.js*
 ```
 
@@ -96,7 +96,7 @@ console.log("Successfully created and logged via console...", )*
 
 ## *java 描述语言*
 
-```
+```js
 *// Node.js program to demonstrate the
 // new Console() method
 
@@ -157,7 +157,7 @@ catch {
 
 *使用以下命令运行 **index.js** 文件:*
 
-```
+```js
 *node index.js*
 ```
 

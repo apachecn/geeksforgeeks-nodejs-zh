@@ -8,19 +8,19 @@
 
 *   **By using NPM: 【T1]**
 
-```
+```js
 npm install date-and-time --save
 ```
 
 *   **By using CDN link:**
 
-```
+```js
 <script src="/path/to/date-and-time.min.js"></script>
 ```
 
 **语法:**
 
-```
+```js
 isSameDay(date1, date2)
 ```
 
@@ -35,7 +35,7 @@ isSameDay(date1, date2)
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.isSameDay() APi
 
@@ -63,13 +63,13 @@ else
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Both dates are same
 ```
 
@@ -77,7 +77,7 @@ Both dates are same
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.isSameDay() APi
 
@@ -107,13 +107,13 @@ else
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Both dates are not same
 ```
 

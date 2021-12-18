@@ -19,7 +19,7 @@
 
 ## 蟒 3
 
-```
+```js
 #Variable store integer value
 a = 35
 print(type(a))
@@ -39,7 +39,7 @@ print(type(a))
 
 **输出:**
 
-```
+```js
 <class 'int'>
 <class 'str'>
 <class 'bool'>
@@ -61,7 +61,7 @@ print(type(a))
 
 ## Javascript
 
-```
+```js
 // Variable store number data type
 var a = 35;
 console.log(typeof a);

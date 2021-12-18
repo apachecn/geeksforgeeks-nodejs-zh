@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const urlSearchParams.toString()
 ```
 
@@ -17,7 +17,7 @@ const urlSearchParams.toString()
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // URLSearchParams.toString() method
 
@@ -44,13 +44,13 @@ console.log("String representation"
 
 使用以下命令运行 **app.js** 文件:
 
-```
+```js
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 String representation of object : A=Book&B=Pen&A=Pencil
 ```
 
@@ -59,7 +59,7 @@ String representation of object : A=Book&B=Pen&A=Pencil
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // URLSearchParams.toString() method
 
@@ -86,13 +86,13 @@ console.log("String representation"
 
 使用以下命令运行 **app.js** 文件:
 
-```
+```js
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 String representation of object : geeks=code&for=eat&geeks=sleep
 ```
 

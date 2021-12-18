@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.cpuUsage( previous_value )
 ```
 
@@ -25,7 +25,7 @@ process.cpuUsage( previous_value )
 
 ## java 描述语言
 
-```
+```js
 // Allocating process module
 const process = require('process');
 
@@ -38,7 +38,7 @@ console.log(usage);
 
 **输出:**
 
-```
+```js
 { user: 78000, system: 15000 }
 ```
 
@@ -46,7 +46,7 @@ console.log(usage);
 
 ## java 描述语言
 
-```
+```js
 // Allocating process module
 const process = require('process');
 
@@ -72,7 +72,7 @@ console.log("Cpu usage by this process: ", usage);
 
 **输出:**
 
-```
+```js
 cpu usage before:  { user: 62000, system: 15000 }
 Cpu usage by this process:  { user: 109000, system: 0 }
 ```

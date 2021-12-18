@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.byteLength( string, encoding )
 ```
 
@@ -19,7 +19,7 @@ Buffer.byteLength( string, encoding )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // Buffer.bytelength() method
 
@@ -34,13 +34,13 @@ console.log(lenobj);
 
 **输出:**
 
-```
+```js
 20
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // Buffer.bytelength() method
 
@@ -52,7 +52,7 @@ console.log(len);
 
 **输出:**
 
-```
+```js
 13
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 drawPolygon( [x0, y0], ... ,[xn, yn] )
 ```
 
@@ -16,7 +16,7 @@ drawPolygon( [x0, y0], ... ,[xn, yn] )
 
 **例 1:**
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 
@@ -48,7 +48,7 @@ gm(500, 200, 'white')
 
 **例 2:**
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 

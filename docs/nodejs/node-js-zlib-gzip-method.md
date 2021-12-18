@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.gzip( buffer, options, callback )
 ```
 
@@ -21,7 +21,7 @@ zlib.gzip( buffer, options, callback )
 
 ****例 1:****
 
- **```
+ **```js
 // Node.js program to demonstrate the     
 // gzip() method
 
@@ -48,14 +48,14 @@ console.log("Data Compressed...");
 
 ****输出:****
 
-```
+```js
 Data Compressed...
 H4sIAAAAAAAAA3NPTc0GAGGRcasEAAAA 
 ```
 
 ****例 2:****
 
- **```
+ **```js
 // Node.js program to demonstrate the     
 // gzip() method
 
@@ -82,7 +82,7 @@ console.log("Data Compressed...");
 
 ****输出:****
 
-```
+```js
 Hint: hit control+c anytime to enter REPL.
 Data Compressed...
 1f8b0800000000000003734f4dcd0600619171ab04000000 

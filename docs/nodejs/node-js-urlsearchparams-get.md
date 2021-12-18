@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 URLSearchParams.get(*name*)
 ```
 
@@ -17,7 +17,7 @@ URLSearchParams.get(*name*)
 
 **示例 1:** 当输入参数存在时
 
-```
+```js
 var URL = require('url').URL;
 let url = new URL('https://example.com/?name=Deepak&age=20');
 let params = new URLSearchParams(url.search.substring(1));
@@ -29,14 +29,14 @@ console.log(age)
 
 **输出:**
 
-```
+```js
 Deepak
 20
 ```
 
 **示例 2:** 当输入参数不存在时
 
-```
+```js
 var URL = require('url').URL;
 let url = new URL('https://example.com/?name=Deepak&age=20');
 let params = new URLSearchParams(url.search.substring(1));
@@ -46,7 +46,7 @@ console.log(address)
 
 **输出:**
 
-```
+```js
 null
 ```
 

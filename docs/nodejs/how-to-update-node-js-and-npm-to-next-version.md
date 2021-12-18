@@ -13,20 +13,20 @@ Node.js 是一个跨平台的 JavaScript 环境，可以用于服务器端脚本
 
 安装 nvm 后，可以执行以下操作来将 Node.js 更新到最新版本:
 
-```html
+```jshtml
 nvm install <version>
 ```
 
 ![](img/1ca51a56b81efd3251a241fd21458091.png)
 使用以下命令检查系统中可用的 Node.js 版本列表:
 
-```html
+```jshtml
 nvm list 
 ```
 
 要使用所需版本，请使用以下命令:
 
-```html
+```jshtml
 nvm use <version>
 ```
 
@@ -34,7 +34,7 @@ nvm use <version>
 
 **更新 npm:** 要更新 npm，请使用以下命令:
 
-```html
+```jshtml
 npm install -g npm
 ```
 
@@ -50,7 +50,7 @@ npm install -g npm
 
 **检查 nvm 是否安装成功**
 
-```html
+```jshtml
 Open a new terminal
 nvm -v
 
@@ -58,7 +58,7 @@ nvm -v
 
 **要安装最新版本的节点，请使用以下命令。**
 
-```html
+```jshtml
 # nvm install node
 or
 # nvm install -lts
@@ -72,7 +72,7 @@ or
 
 **检查系统上所有可用的节点版本:**
 
-```html
+```jshtml
 # nvm ls
 ```
 
@@ -80,14 +80,14 @@ or
 
 **使用特定版本**
 
-```html
+```jshtml
 # nvm use 
 ```
 
 ![](img/5a574ed04c0eb087b9e4a564bb5f31ed.png)
 **将 npm 更新至最新版本:**
 
-```html
+```jshtml
 # npm install -g npm 
 ```
 

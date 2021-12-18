@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.brotliDecompressSync( buffer, options )
 ```
 
@@ -21,7 +21,7 @@ zlib.brotliDecompressSync( buffer, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // zlib.brotliDecompressSync() method  
 
@@ -42,13 +42,13 @@ console.log(brotliDec);
 
 **输出:**
 
-```
+```js
 4e69646869
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // zlib.brotliDecompressSync() method  
 
@@ -69,7 +69,7 @@ console.log(brotliDec);
 
 **输出:**
 
-```
+```js
 TmlkaGk=
 ```
 

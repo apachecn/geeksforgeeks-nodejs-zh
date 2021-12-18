@@ -10,7 +10,7 @@
 
 ## java 描述语言
 
-```
+```js
 const http = require('http');
 const server = http.createServer(function (req, res) {
 
@@ -30,7 +30,7 @@ server.listen(8000);
 
     ## 爪哇描述语言
 
-    ```
+    ```js
     let str = 'GeeksforGeeks!'; 
 
     setTimeout(function () { 
@@ -45,7 +45,7 @@ server.listen(8000);
 
     ## 爪哇描述语言
 
-    ```
+    ```js
     let str = 'GeeksforGeeks!'; 
 
     setImmediate(function () { 
@@ -61,7 +61,7 @@ server.listen(8000);
 
     ## java 描述语言
 
-    ```
+    ```js
     let str = 'GeeksforGeeks!'; 
 
     setInterval(function() { 

@@ -16,7 +16,7 @@ Node.js 是一个跨平台的 JavaScript 运行时环境。它允许创建可扩
 
 **示例:**
 
-```
+```js
 // Variable store number data type
 var a = 35;
 console.log(typeof a);
@@ -36,7 +36,7 @@ console.log(typeof a);
 
 **输出:**
 
-```
+```js
 number
 string
 boolean
@@ -47,7 +47,7 @@ undefined
 
 **示例:**
 
-```
+```js
 var company = {
     Name: "GeeksforGeeks", 
     Address: "Noida", 
@@ -64,7 +64,7 @@ console.log("Type of variable company:", typeof company);
 
 **输出:**
 
-```
+```js
 Information of variable company: {
   Name: 'GeeksforGeeks',
   Address: 'Noida',
@@ -78,7 +78,7 @@ Type of variable company: object
 
 **示例:**
 
-```
+```js
 function multiply(num1, num2) {
 
     // It returns the multiplication
@@ -98,7 +98,7 @@ console.log("Multiplication of", x, 
 
 **输出:**
 
-```
+```js
 Multiplication of 2 and 3 is 6
 ```
 
@@ -109,7 +109,7 @@ Multiplication of 2 and 3 is 6
 
 **示例:**
 
-```
+```js
 var x = "Welcome to GeeksforGeeks ";
 
 var y = 'Node.js Tutorials';
@@ -133,7 +133,7 @@ console.log("Char At Index 5: ", x.charAt(5) );
 
 **输出:**
 
-```
+```js
 Welcome to GeeksforGeeks
 Node.js Tutorials
 Concat Using (+) : Welcome to GeeksforGeeks Node.js Tutorials
@@ -147,7 +147,7 @@ Char At Index 5:  m
 
 **Node.js 基于控制台的应用:**用下面的代码制作一个名为 console.js 的文件。
 
-```
+```js
 console.log('Hello this is the console-based application');
 
 console.log('This all will be printed in console');
@@ -163,7 +163,7 @@ console 类的 console.log()方法在控制台中打印在方法中传递的消�
 **Node.js 基于 web 的应用程序:** Node.js web 应用程序包含不同类型的模块，这些模块是使用 **require()** 指令导入的，我们必须创建一个服务器并为读取请求和返回响应编写代码。
 用下面的代码制作一个文件 web.js。
 
-```
+```js
 // Require http module
 var http = require("http");  
 

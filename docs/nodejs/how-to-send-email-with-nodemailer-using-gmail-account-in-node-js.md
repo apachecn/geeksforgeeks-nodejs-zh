@@ -8,14 +8,14 @@ Nodemailer 是 Node.js npm 模块，允许轻松发送电子邮件。在本文�
 
 *   创建 package.json 文件。
 
-    ```
+    ```js
     npm init -y
     ```
 
 *   安装 nodemailer〔t0〕
 *   直接创建 server.js 文件或使用命令
 
-    ```
+    ```js
     touch server.js
     ```
 
@@ -28,7 +28,7 @@ Nodemailer 是 Node.js npm 模块，允许轻松发送电子邮件。在本文�
 
 **示例:**
 
-```
+```js
 const nodemailer = require('nodemailer');
 
 let mailTransporter = nodemailer.createTransport({
@@ -65,7 +65,7 @@ mailTransporter.sendMail(mailDetails, function(err, data) {
 
 **注 1:** 要在任何文件中使用该代码，我们只需导入该文件并调用 send()函数。
 
-```
+```js
 var mail = require('./config/mailer')();
 mail.send();
 
@@ -73,7 +73,7 @@ mail.send();
 
 **注意 2:** 要在电子邮件中发送 html 格式的文本，请使用“HTML”属性，而不是 sendMail 函数中的“text”属性。
 
-```
+```js
 { from:'"admin" ',
   to: "user@gmail.com",
   subject:'GeeksforGeeks Promotion',

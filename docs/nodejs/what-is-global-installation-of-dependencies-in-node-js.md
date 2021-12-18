@@ -16,7 +16,7 @@ Node.js 中依赖项的全局安装是将全局包放在系统中的一个单独
 
 **语法:**
 
-```
+```js
 run npm install -g <package-name>
 ```
 
@@ -28,13 +28,13 @@ run npm install -g <package-name>
 
 命令打印系统上安装所有全局模块的位置。
 
-```
+```js
 npm root -g
 ```
 
 **输出:**
 
-```
+```js
 C:\Users\Pallavi\AppData\Roaming\npm\node_modules
 ```
 
@@ -42,7 +42,7 @@ C:\Users\Pallavi\AppData\Roaming\npm\node_modules
 
 将此命令写入控制台。
 
-```
+```js
 npm install -g mit-license-generator
 ```
 
@@ -52,7 +52,7 @@ npm install -g mit-license-generator
 
 **如何检查系统中全局安装了哪些包。**
 
-```
+```js
 npm list -g
 ```
 

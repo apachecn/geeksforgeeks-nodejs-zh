@@ -6,7 +6,7 @@ Node.js 用于服务器端脚本。读取和写入文件是任何应用程序中
 
 **语法**
 
-```
+```js
 fs.read(fd, buffer, offset, length, position, callback)
 ```
 
@@ -23,7 +23,7 @@ fs.read(fd, buffer, offset, length, position, callback)
 
 **例 1:**
 
-```
+```js
 var fs = require("fs");
 var buffer = new Buffer.alloc(1024);
 
@@ -61,7 +61,7 @@ fs.open('gfg.txt', 'r+', function (err, fd) {
 
 **输出:**
 
-```
+```js
 Open existing file
 Reading the file
 0 bytes read
@@ -71,7 +71,7 @@ File closed successfully
 
 **例 2:** 对文件名/路径进行动态输入。
 
-```
+```js
 // Module required to accept user
 // input from console
 var readline = require('readline-sync');
@@ -98,7 +98,7 @@ fs.stat(path, function (error, stats) {
 
 **输出:**
 
-```
+```js
 C:\Users\User\Desktop>node read3.js
 Enter file path: new.txt
 Entered path : new.txt

@@ -16,7 +16,7 @@
 
 **app.js** 文件:
 
-```
+```js
 // Node.js program to demonstrates how to
 // get the current path of script
 
@@ -29,7 +29,7 @@ console.log(`Directory name is ${__dirname}`);
 
 **输出:**
 
-```
+```js
 Filename is D:\DemoProject\app.js
 Directory name is D:\DemoProject
 
@@ -39,7 +39,7 @@ Directory name is D:\DemoProject
 
 **user.js** 文件:
 
-```
+```js
 // Node.js program to demonstrates how to
 // get the current path of script
 
@@ -52,7 +52,7 @@ console.log(`Directory name is ${__dirname}`);
 
 **输出:**
 
-```
+```js
 Filename is D:\DemoProject\routes\app.js
 Directory name is D:\DemoProject\routes
 

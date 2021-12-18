@@ -10,7 +10,7 @@
 
 在您的终端中编写这个命令，它将创建一个节点应用程序。这个命令还会要求为这个应用程序提供很少的配置，这很容易提供。作为另一个选项，您可以使用 **npm init** 后的 **-y** 标志进行默认配置。
 
-```
+```js
 npm init
 ```
 
@@ -31,7 +31,7 @@ npm init
 
 ## app.js
 
-```
+```js
 const http = require('http');
 
 const server = http.createServer();
@@ -58,7 +58,7 @@ server.listen(3000,'localhost', function(error){
 
 ## **app.js**
 
-```
+```js
 const requestListener = (req, res)=>{
   console.log("Request is Incoming");
 
@@ -87,7 +87,7 @@ const requestListener = (req, res)=>{
 
 ## **app.js**
 
-```
+```js
 const http = require('http');
 
 const requestListener = (req, res)=>{
@@ -116,7 +116,7 @@ server.listen(3000,'localhost', function(){
 
 ****运行应用程序的步骤:**打开终端，键入以下命令。**
 
-```
+```js
 node app.js
 ```
 

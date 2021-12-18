@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 script.runInContext( contextifiedObject, options )
 ```
 
@@ -24,7 +24,7 @@ script.runInContext( contextifiedObject, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // script.runInContext() method
 
@@ -53,7 +53,7 @@ console.log(contextobj);
 
 **输出:**
 
-```
+```js
 { name: 'Nidhi', articles: 600 }
 
 ```
@@ -62,7 +62,7 @@ console.log(contextobj);
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // script.runInContext() method
 
@@ -92,7 +92,7 @@ console.log("The output is: ", contextobj);
 
 **输出:**
 
-```
+```js
 The output is:  { globalVar: 42 }
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crypto.createDecipheriv( algorithm, key, iv, options )
 ```
 
@@ -23,7 +23,7 @@ crypto.createDecipheriv( algorithm, key, iv, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // crypto.createDecipheriv() method
 
@@ -74,7 +74,7 @@ console.log("done");
 
 **输出:**
 
-```
+```js
 done
 CS-Portal
 
@@ -82,7 +82,7 @@ CS-Portal
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // crypto.createDecipheriv() method
 
@@ -145,7 +145,7 @@ console.log(decrypt(output));
 
 **输出:**
 
-```
+```js
 { iv: '6bbc47a2756d6d6bf315cfd3cc0b711a',  encryptedData: 'fae9a6fb31c0b0668da8c3be1b1da81a' }
 GeeksforGeeks
 

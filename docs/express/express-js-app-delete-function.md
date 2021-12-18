@@ -5,7 +5,7 @@
 **app.delete()** 函数用于将 HTTP DELETE 请求路由到指定为参数的路径，回调函数作为参数传递。
 **语法:**
 
-```
+```js
 app.delete(path, callback)
 ```
 
@@ -18,19 +18,19 @@ app.delete(path, callback)
 
 1.  您可以访问[安装快速模块](https://www.npmjs.com/package/express)的链接。您可以使用此命令安装此软件包。
 
-```
+```js
 npm install express
 ```
 
 1.  安装 express 模块后，您可以使用命令在命令提示符下检查您的 express 版本。
 
-```
+```js
 npm version express
 ```
 
 1.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-```
+```js
 node index.js
 ```
 
@@ -38,7 +38,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 var express = require('express');
 var app = express();
 var PORT = 3000;

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.realpath( path, options, callback )
 ```
 
@@ -23,7 +23,7 @@ fs.realpath( path, options, callback )
 
 **示例 1:** 本示例使用 fs.realPath()方法获取给定路径的规范路径。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.realPath() method
 
@@ -63,7 +63,7 @@ fs.realpath(path2, (error, resolvedPath) => {
 
 **输出:**
 
-```
+```js
 Current Directory Path: G:\tutorials\nodejs-fs-realPath
 Two directories up resolved path is: G:\
 One directory up resolved path is: G:\tutorials
@@ -71,7 +71,7 @@ One directory up resolved path is: G:\tutorials
 
 **示例 2:** 本示例使用 fs.realPath()方法演示不同的编码类型。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.realPath() method
 
@@ -113,7 +113,7 @@ fs.realpath(path, {encoding: "base64"}, (error, resolvedPath) => {
 
 **输出:**
 
-```
+```js
 The resolved path is: G:\tutorials
 The resolved path is: 473a5c7475746f7269616c73
 The resolved path is: RzpcdHV0b3JpYWxz

@@ -5,7 +5,7 @@
 **res.set()** 函数用于将响应 HTTP 头字段设置为值。要同时设置多个字段，请传递一个对象作为参数。
 **语法:**
 
-```
+```js
 res.set(field [, value])
 ```
 
@@ -15,19 +15,19 @@ res.set(field [, value])
 
 1.  您可以访问[安装快速模块](https://www.npmjs.com/package/express)的链接。您可以使用此命令安装此软件包。
 
-```
+```js
 npm install express
 ```
 
 1.  安装快速模块后，您可以使用命令在命令提示符下检查您的快速版本。
 
-```
+```js
 npm version express
 ```
 
 1.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-```
+```js
 node index.js
 ```
 
@@ -35,7 +35,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 var express = require('express');
 var app = express();
 var PORT = 3000;
@@ -67,25 +67,25 @@ app.listen(PORT, function(err){
 
 1.  使用以下命令确保您已经安装了 **express** 模块:
 
-```
+```js
 npm install express
 ```
 
 1.  使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 1.  **输出:**
 
-```
+```js
 Server listening on PORT 3000
 ```
 
 2.  现在打开浏览器，转到 *http://localhost:3000/* ，现在检查你的控制台，你会看到如下输出:
 
-```
+```js
 Server listening on PORT 3000
 application/json; charset=utf-8
 ```
@@ -94,7 +94,7 @@ application/json; charset=utf-8
 
 ## java 描述语言
 
-```
+```js
 var express = require('express');
 var app = express();
 var PORT = 3000;
@@ -123,13 +123,13 @@ app.listen(PORT, function(err){
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 现在打开浏览器，转到 *http://localhost:3000/* ，现在检查你的控制台，你会看到如下输出:
 
-```
+```js
 Server listening on PORT 3000
 application/xml; charset=utf-8
 ```

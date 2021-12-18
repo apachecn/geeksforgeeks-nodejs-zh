@@ -5,7 +5,7 @@
 **solarize()** 函数是 GraphicsMagick 库中的一个内置函数，用于否定阈值以上的所有像素。该函数在成功时返回真值。
 **语法:**
 
-```
+```js
 solarize(thresholdLevel)
 ```
 
@@ -15,7 +15,7 @@ solarize(thresholdLevel)
 
 ## java 描述语言
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 
@@ -39,7 +39,7 @@ gm('1.png')
 
 ## java 描述语言
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 

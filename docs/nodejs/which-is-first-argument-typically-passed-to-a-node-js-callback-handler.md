@@ -11,7 +11,7 @@ Node.js 中的[回调](https://www.geeksforgeeks.org/javascript-callbacks/)处�
 
 **语法:**
 
-```
+```js
 const func = (arg1, agr2, ..., argN, callback) => {
     // code logic
 }
@@ -27,7 +27,7 @@ func(a, b, ..., n, (err, result) => {
 
 **第二步:**为你的项目创建一个文件夹，并将 [**cd**](https://www.geeksforgeeks.org/cd-command-in-linux-with-examples/) (更改目录)放入其中。在该文件夹中创建一个名为 app.js 的新文件。现在，使用以下命令用默认配置初始化一个新的 Node.js 项目。
 
-```
+```js
 npm init -y
 ```
 
@@ -39,7 +39,7 @@ npm init -y
 
 ## app.js
 
-```
+```js
 const divide = (a, b, callback) => {
   setTimeout(() => {
     if (b === 0) {
@@ -78,7 +78,7 @@ divide(5, 0, (err, result) => {
 
 **运行应用程序的步骤:**您可以在命令行上使用以下命令执行您的 app.js 文件。
 
-```
+```js
 node app.js
 ```
 

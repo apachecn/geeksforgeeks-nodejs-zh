@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dnsPromises.resolveAny( hostname )
 ```
 
@@ -33,7 +33,7 @@ dnsPromises.resolveAny( hostname )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.resolveAny() method
 
@@ -56,7 +56,7 @@ dnsPromises.resolveAny('localhost').then((res) => {
 
 **输出:**
 
-```
+```js
 for localhost :
 [ { address: '127.0.0.1', ttl: 0, type: 'A' } ]
 for geeksforgeeks :
@@ -86,7 +86,7 @@ for geeksforgeeks :
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.resolveAny() method
 
@@ -109,7 +109,7 @@ const dnsPromises = dns.promises;
 
 **输出:**
 
-```
+```js
 from async:
 [ { exchange: 'alt4.aspmx.l.google.com', priority: 10, type: 'MX' },
   { exchange: 'alt1.aspmx.l.google.com', priority: 5, type: 'MX' },

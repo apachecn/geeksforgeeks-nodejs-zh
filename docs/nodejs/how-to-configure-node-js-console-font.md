@@ -14,31 +14,31 @@
 
 *   您可以访问链接[安装粉笔模块](https://www.npmjs.com/package/chalk)使用命令安装该软件包。
 
-    ```
+    ```js
     $ npm install --save chalk
     ```
 
 *   安装粉笔模块后，您可以使用以下命令在命令提示符下检查您的粉笔版本。
 
-    ```
+    ```js
     npm version chalk
     ```
 
 *   之后，您可以创建一个文件夹并添加一个文件，例如 app.js。
 
-    ```
+    ```js
     $ node app.js
     ```
 
 *   **要求模块:**你需要在你的文件中包含粉笔模块使用这些线。
 
-    ```
+    ```js
     var chalk = require('chalk');
     ```
 
 *   **文件名:app.js**
 
-    ```
+    ```js
     // Include chalk module
     var chalk = require('chalk')
 
@@ -58,7 +58,7 @@
     ![project structure](img/afab208072c00ddff1ed02402a2a644e.png)
 *   Run app.js file using following commands:
 
-    ```
+    ```js
     node app.js
     ```
 

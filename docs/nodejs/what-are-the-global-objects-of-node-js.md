@@ -16,7 +16,7 @@ Node.js 是一个基于开源项目的 JavaScript 框架，用于服务器端脚
 
 4.  **global:** 它是一个命名空间，在这个命名空间内定义一个变量就成为了一个全局变量。
 
-    ```
+    ```js
     var myvar;
     ```
 
@@ -24,7 +24,7 @@ Node.js 是一个基于开源项目的 JavaScript 框架，用于服务器端脚
 
     ## java 描述语言
 
-    ```
+    ```js
     <script>
     function myFunction(website){
         console.log("Hi, Welcome to " + website);
@@ -47,7 +47,7 @@ Node.js 是一个基于开源项目的 JavaScript 框架，用于服务器端脚
 
     ## java 描述语言
 
-    ```
+    ```js
     <script>
     function myFunction(website){
         console.log("Hi, Welcome to " + website);
@@ -71,7 +71,7 @@ Node.js 是一个基于开源项目的 JavaScript 框架，用于服务器端脚
 
     ## java 描述语言
 
-    ```
+    ```js
     <script>
     function myFunction(website){
         console.log("Hi, Welcome to " + website);
@@ -91,7 +91,7 @@ Node.js 是一个基于开源项目的 JavaScript 框架，用于服务器端脚
 
     ## java 描述语言
 
-    ```
+    ```js
     <script>
     function myFunction(website){
         console.log("Hi, Welcome to " + website);
@@ -113,7 +113,7 @@ Node.js 是一个基于开源项目的 JavaScript 框架，用于服务器端脚
 
     ## java 描述语言
 
-    ```
+    ```js
     <script>
     function greet(msg, name) {  
        console.log(msg + name);
@@ -124,7 +124,7 @@ Node.js 是一个基于开源项目的 JavaScript 框架，用于服务器端脚
 
     **输出:**
 
-    ```
+    ```js
     Hi Geek
     ```
 
@@ -132,7 +132,7 @@ Node.js 是一个基于开源项目的 JavaScript 框架，用于服务器端脚
 
     ## java 描述语言
 
-    ```
+    ```js
     <script>
     console.log("setTimeout msg will not be printed")
     function greet(msg, name) {  
@@ -146,7 +146,7 @@ Node.js 是一个基于开源项目的 JavaScript 框架，用于服务器端脚
 
     **输出:**
 
-    ```
+    ```js
     setTimeout msg will not be printed
     ```
 
@@ -158,7 +158,7 @@ Node.js 是一个基于开源项目的 JavaScript 框架，用于服务器端脚
 
     **语法:**
 
-    ```
+    ```js
      const myURL = new URL('https://www.register.com/?name=nodejs');
 
     //It prints nodejs
@@ -176,7 +176,7 @@ Node.js 是一个基于开源项目的 JavaScript 框架，用于服务器端脚
 
     *   **require(id)方法:**可以返回非特定数据类型的对象，用于将模块导入脚本。
 
-    ```
+    ```js
     var express = require('express')
     ```
 
@@ -184,7 +184,7 @@ Node.js 是一个基于开源项目的 JavaScript 框架，用于服务器端脚
     *   **模块:**它用于包含使用 require()方法的特定模块，这不是本地的，而是每个模块的本地的。
     *   **__dirname:** __dirname 不是全局对象，这可以通过运行以下命令而不添加任何脚本来证明，因为这将引发一个错误。已验证 __dirname 不是全局对象。
 
-    ```
+    ```js
     Create a test.js file
     Write the following condole.log statement:  
     console.log("__dirname : "+ __dirname);
@@ -195,7 +195,7 @@ Node.js 是一个基于开源项目的 JavaScript 框架，用于服务器端脚
 
     *   **__filename:** __filename 不是全局对象，这可以通过运行以下命令而不添加任何脚本来证明，因为这将引发一个错误。已验证 __filename 不是全局对象。
 
-    ```
+    ```js
     *Create a test.js file*
     Write the following condole.log statement:  
     console.log("__filename : "+ __filename);

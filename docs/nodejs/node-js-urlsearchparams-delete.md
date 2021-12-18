@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 URLSearchParams.delete(*name*)
 ```
 
@@ -15,7 +15,7 @@ URLSearchParams.delete(*name*)
 
 **例 1:**
 
-```
+```js
 let url = new URL('https://example.com?par=1&bar=2&par=3');
 let params = new URLSearchParams(url.search.slice(1));
 
@@ -26,13 +26,13 @@ console.log(url)
 
 **输出:**
 
-```
+```js
 https://example.com?bar=2
 ```
 
 **例 2:**
 
-```
+```js
 let url = new URL('https://example.com?foo=1&par=3');
 let params = new URLSearchParams(url.search.slice(1));
 
@@ -43,7 +43,7 @@ console.log(url)
 
 **输出:**
 
-```
+```js
 https://example.com?par=3
 ```
 

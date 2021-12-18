@@ -5,7 +5,7 @@
 Cookies 是存储在客户端的小数据，与服务器请求一起发送给客户端。Cookies 有各种各样的功能，它们可以用于维护会话和在你的 web 应用程序中添加用户特定的功能。为此，我们将使用 npm 的 **cookie 解析器**模块，该模块为 cookie 解析提供中间件。
 首先将命令提示符下的目录设置为项目的根文件夹，并运行以下命令:
 
-```
+```js
 npm init
 
 ```
@@ -13,7 +13,7 @@ npm init
 这会询问你关于你的应用的细节，最后会创建一个 **package.json** 文件。
 之后运行以下命令，它将安装所需的模块，并将它们添加到您的 package.json 文件中
 
-```
+```js
 npm install express cookie-parser --save
 
 ```
@@ -23,7 +23,7 @@ package.json 文件看起来是这样的:
 
 之后，我们将通过在根目录下的 app.js 文件中编写以下代码来设置基本的 express app。
 
-```
+```js
 let express = require('express');
 //setup express app
 let app = express()
@@ -43,14 +43,14 @@ console.log('listening on port 3000');
 
 之后如果我们运行命令
 
-```
+```js
 node app.js
 
 ```
 
 它将在端口 3000 启动我们的服务器，如果转到 url: localhost:3000，我们将获得一个显示消息的页面:
 
-```
+```js
 welcome to express app
 
 ```
@@ -62,7 +62,7 @@ welcome to express app
 
 首先对于 cookies，我们需要导入 app.js 文件中的模块，并像其他中间件一样使用它。
 
-```
+```js
 
 var cookieParser = require('cookie-parser');
 app.use(cookieParser());
@@ -71,14 +71,14 @@ app.use(cookieParser());
 
 假设我们有一个用户，我们想要将该用户数据添加到 cookie 中，那么我们必须使用以下代码将该 cookie 添加到响应中:
 
-```
+```js
 res.cookie(name_of_cookie, value_of_cookie);
 
 ```
 
 这可以通过下面的例子来解释:
 
-```
+```js
 let express = require('express');
 let cookieParser = require('cookie-parser');
 //setup express app
@@ -131,14 +131,14 @@ console.log('listening on port 3000');
 我们可以添加一个有一定过期时间的饼干，也就是说过了这个时间饼干就会自动销毁。为此，我们需要在设置 cookie 时向 res.cookie 对象传递一个额外的属性。
 可以使用以下两种方式中的任何一种:
 
-```
+```js
 
 //Expires after 400000 ms from the time it is set.
 res.cookie(cookie_name, 'value', {expire: 400000 + Date.now()});
 
 ```
 
-```
+```js
 
 //It also expires after 400000 ms from the time it is set.
 res.cookie(cookie_name, 'value', {maxAge: 360000});
@@ -148,14 +148,14 @@ res.cookie(cookie_name, 'value', {maxAge: 360000});
 **销毁饼干:**
 我们可以使用以下代码销毁饼干:
 
-```
+```js
 res.clearCookie(cookieName);
 
 ```
 
 现在让我们创建一个注销路由，它将破坏 cookie 中的用户数据。现在我们的 app.js 看起来像:
 
-```
+```js
 let express = require('express');
 let cookieParser = require('cookie-parser');
 //setup express app

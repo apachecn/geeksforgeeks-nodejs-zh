@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 util.types.isWeakSet( value )
 ```
 
@@ -20,7 +20,7 @@ util.types.isWeakSet( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.types.isWeakSet() method 
 
@@ -39,7 +39,7 @@ console.log(util.types.isWeakSet(new WeakSet()));
 
 **输出:**
 
-```
+```js
 false
 false
 true
@@ -48,7 +48,7 @@ true
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.types.isWeakSet() method 
 
@@ -73,7 +73,7 @@ console.log(util.types.isWeakSet(b));
 
 **输出:**
 
-```
+```js
 true
 true
 

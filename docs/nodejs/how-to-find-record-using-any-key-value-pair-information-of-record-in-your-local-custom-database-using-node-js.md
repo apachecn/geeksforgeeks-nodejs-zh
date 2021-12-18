@@ -7,13 +7,13 @@
 
 1.  使用以下命令在项目目录的根目录下创建 package.json 文件:
 
-```
+```js
 npm init -y
 ```
 
 1.  使用以下命令安装 express 和 body-parser 包:
 
-```
+```js
 npm install express
 npm install body-parser
 ```
@@ -31,7 +31,7 @@ npm install body-parser
 
 ## java 描述语言
 
-```
+```js
 const express = require('express')
 const repo = require('./repository')
 const {userInfo} = require('./fetchUser')
@@ -88,7 +88,7 @@ app.listen(port, () => {
 
 ## java 描述语言
 
-```
+```js
 const displayInfo = (users) => {
     const info = users.map(user => {
         return `
@@ -165,7 +165,7 @@ href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css'> 
 
 ## java 描述语言
 
-```
+```js
 // Importing node.js file system,
 // crypto module
 const fs = require('fs')
@@ -256,7 +256,7 @@ package.json 文件
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

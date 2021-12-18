@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 buffer.writeIntBE( value, offset, byteLength )
 ```
 
@@ -20,7 +20,7 @@ buffer.writeIntBE( value, offset, byteLength )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.writeIntBE() method 
 
@@ -45,7 +45,7 @@ console.log(buffer2);
 
 **输出:**
 
-```
+```js
 <Buffer 00 00 00 00 00 10>
 <Buffer 00 00 00 20 69 74>
 
@@ -53,7 +53,7 @@ console.log(buffer2);
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.writeIntBE() method 
 
@@ -78,7 +78,7 @@ console.log(buffer2);
 
 **输出:**
 
-```
+```js
 <Buffer 00 00 00 00 00 13>
 <Buffer 00 00 00 00 03 f2>
 

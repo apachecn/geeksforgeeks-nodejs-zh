@@ -5,7 +5,7 @@
 **对比度()**功能是 GraphicsMagick 库中的一个内置功能，用于增强或降低图像的对比度。该函数在成功时返回真值。
 **语法:**
 
-```
+```js
 contrast(multiplier)
 ```
 
@@ -15,7 +15,7 @@ contrast(multiplier)
 
 ## java 描述语言
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 
@@ -39,7 +39,7 @@ gm('1.png')
 
 ## java 描述语言
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 

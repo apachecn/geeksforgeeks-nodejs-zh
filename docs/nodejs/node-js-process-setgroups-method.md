@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.setgroups( groups )
 ```
 
@@ -22,7 +22,7 @@ process.setgroups( groups )
 
 **例 1:**
 
-```
+```js
 // Allocating process module
 const process = require('process');
 
@@ -42,14 +42,14 @@ console.log(process.getgroups());
 
 **输出:**
 
-```
+```js
 [ 0 ]
 [ 300, 400, 2000, 0 ]
 ```
 
 **例 2:**
 
-```
+```js
 // Allocating process module
 const process = require('process');
 
@@ -71,7 +71,7 @@ if (process.getgroups) {
 
 **输出:**
 
-```
+```js
 The supplementary group IDs : [ 300, 400, 2000, 0 ]
 ```
 

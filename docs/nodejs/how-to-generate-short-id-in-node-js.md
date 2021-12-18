@@ -8,13 +8,13 @@
 
 *   项目 NPM 包的建立:
 
-    ```
+    ```js
     npm init -y
     ```
 
 *   安装依赖项:
 
-    ```
+    ```js
     npm install express shortid
     ```
 
@@ -22,7 +22,7 @@
 
 ## index.js
 
-```
+```js
 const express = require('express');
 const app = express();
 
@@ -42,13 +42,13 @@ app.listen(4000 , ()=>{
 
 **语法:**
 
-```
+```js
 const short = require('shortid');
 ```
 
 ## server.js
 
-```
+```js
 const express = require('express');
 const app = express();
 const short = require('shortid');

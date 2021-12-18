@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.readUIntLE( offset, byteLength )
 ```
 
@@ -21,7 +21,7 @@ Buffer.readUIntLE( offset, byteLength )
 
 **例 1:**
 
-```
+```js
 // Node program to demonstrate the  
 // Buffer.readUIntLE() Method
 
@@ -40,7 +40,7 @@ console.log(buf.readUIntLE(2, 2).toString(16));
 
 **输出:**
 
-```
+```js
 <Buffer 21 09 19 98>
 190921
 981909
@@ -50,7 +50,7 @@ console.log(buf.readUIntLE(2, 2).toString(16));
 
 **例 2:**
 
-```
+```js
 // Node program to demonstrate the  
 // Buffer.readUIntLE() Method
 
@@ -72,7 +72,7 @@ console.log(buf.readUIntBE(2, 1).toString(16));
 
 **输出:**
 
-```
+```js
 <Buffer 21 09 19 98>
 190921
 210919
@@ -85,7 +85,7 @@ console.log(buf.readUIntBE(2, 1).toString(16));
 
 **例 3:**
 
-```
+```js
 // Node program to demonstrate the  
 // Buffer.readUIntLE() Method
 
@@ -107,7 +107,7 @@ console.log(buf.readUIntLE(3, 6).toString(16));
 
 **输出:**
 
-```
+```js
 <Buffer 21 09 19 98>
 98190921
 1909

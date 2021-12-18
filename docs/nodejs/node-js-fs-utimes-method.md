@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.utimes( path, atime, mtime, callback )
 ```
 
@@ -22,7 +22,7 @@ fs.utimes( path, atime, mtime, callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.utimes() method
 
@@ -68,7 +68,7 @@ fs.utimes(
 
 **输出:**
 
-```
+```js
 Details before changing time:
 Modification Time: 2017-01-24T23:41:00.000Z
 Access Time: 2018-02-26T00:05:00.000Z
@@ -81,7 +81,7 @@ Changed Access Time: 2020-05-25T15:31:08.257Z
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.utimes() method
 
@@ -123,7 +123,7 @@ fs.utimes("example_file.txt", newAccessTime,
 
 **输出:**
 
-```
+```js
 Details before changing time:
 Modification Time: 2015-12-20T19:42:00.000Z
 Access Time: 2020-05-25T15:19:24.250Z

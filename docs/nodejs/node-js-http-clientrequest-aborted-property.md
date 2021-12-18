@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 request.aborted
 ```
 
@@ -18,7 +18,7 @@ request.aborted
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the  
 // request.aborted APi
 
@@ -64,13 +64,13 @@ console.log("Server is Started")
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 client request has been aborted
 ```
 
@@ -78,7 +78,7 @@ client request has been aborted
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the  
 // request.aborted APi
 
@@ -109,13 +109,13 @@ http.createServer((req, res) => {})
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 client request has not been aborted
 ```
 

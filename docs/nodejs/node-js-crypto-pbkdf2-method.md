@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crypto.pbkdf2( password, salt, iterations, keylen, digest, callback )
 ```
 
@@ -25,7 +25,7 @@ crypto.pbkdf2( password, salt, iterations, keylen, digest, callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.pbkdf2() method
 
@@ -45,7 +45,7 @@ crypto.pbkdf2('secret', 'salt', 100000, 64,
 
 **输出:**
 
-```
+```js
 3745e482c6e0ade35da10139e797157f4a5da669dad7d5da88ef87e
 47471cc47ed941c7ad618e827304f083f8707f12b7cfdd5f489b782
 f10cc269e3c08d59ae
@@ -54,7 +54,7 @@ f10cc269e3c08d59ae
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.pbkdf2() method
 
@@ -82,7 +82,7 @@ crypto.pbkdf2('secret', 'salt', 677, 6,
 
 **输出:**这里，返回一个缓冲区，因为派生键没有被更改为字符串。
 
-```
+```js
 Buffer 71 1e 7b 7b 9b 53
 ```
 

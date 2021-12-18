@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
  express.urlencoded( [options] )
 ```
 
@@ -20,13 +20,13 @@
 
 **步骤 1:** 创建一个“ ***app.js*** ”文件，并使用 *npm 初始化您的项目。*
 
-```
+```js
 npm init
 ```
 
 **步骤 2:** 创建一个“**index.html**文件，并使用 *npm* 安装 ***express*** 包。
 
-```
+```js
 npm install express
 ```
 

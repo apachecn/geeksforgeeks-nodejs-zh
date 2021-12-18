@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.writeInt32BE( value, offset )
 ```
 
@@ -20,7 +20,7 @@ Buffer.writeInt32BE( value, offset )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.writeInt32BE() Method
 
@@ -36,13 +36,13 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 <Buffer 7b ca f8 92>
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.writeInt32BE() Method
 
@@ -61,13 +61,13 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 <Buffer 7b ca f9 83 7f ff ff ff>
 ```
 
 **示例 3:** 此示例将显示一条错误消息，因为偏移量大于限制，即偏移量值不在 0 到 buf . length–4 范围内。
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.writeInt32BE() Method
 
@@ -86,7 +86,7 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 internal/buffer.js:72
   throw new ERR_OUT_OF_RANGE(type || 'offset',
   ^

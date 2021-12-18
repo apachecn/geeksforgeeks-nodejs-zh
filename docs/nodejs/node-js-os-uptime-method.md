@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 os.uptime()
 ```
 
@@ -20,7 +20,7 @@ os.uptime()
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the    
 // os.uptime() method 
 
@@ -33,7 +33,7 @@ console.log(String(os.uptime()) + " Seconds");
 
 **输出:**
 
-```
+```js
 4507 Seconds
 ```
 
@@ -41,7 +41,7 @@ console.log(String(os.uptime()) + " Seconds");
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the    
 // os.uptime() method 
 
@@ -69,7 +69,7 @@ console.log("Up time: " 
 
 **Output:**
 
-```
+```js
 Up time: 1 Hour(s) 18 minute(s) and 8 second(s)
 ```
 

@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```js
 // Class expression
 let class_name  = class {
  constructor(method1, method2) {
@@ -32,7 +32,7 @@ class class_name {
 
 **例 1:类声明**
 
-```
+```js
 class Polygon {
   constructor(height, width) {
     this.area = height * width;
@@ -47,7 +47,7 @@ console.log(new Polygon(5, 15).area);
 
 **例 2:类表达式**
 
-```
+```js
 const Rectangle = class {
   constructor(height, width) {
     this.height = height;

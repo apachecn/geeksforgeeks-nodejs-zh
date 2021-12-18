@@ -6,7 +6,7 @@
 resize()函数是 Nodejs | Jimp 中的一个内置函数，它使用 2 遍双线性算法将图像的大小调整为设定的宽度和高度。
 **语法:**
 
-```
+```js
 resize(w, h, mode, cb)
 ```
 
@@ -25,13 +25,13 @@ resize(w, h, mode, cb)
 
 ### 步骤 1:设置环境
 
-```
+```js
 npm init -y
 ```
 
 ### 第二步:安装*跳*
 
-```
+```js
 npm install jimp --save
 ```
 
@@ -39,7 +39,7 @@ npm install jimp --save
 
 ## java 描述语言
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');
@@ -65,7 +65,7 @@ main();
 
 ## java 描述语言
 
-```
+```js
 //npm install --save jimp
 //import jimp library to the environment
 var Jimp = require('jimp');

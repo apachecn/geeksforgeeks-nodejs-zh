@@ -8,25 +8,25 @@
 
 *   **步骤 1:** 创建 package.json 文件。通过运行以下命令创建一个 package.json 文件。
 
-```
+```js
 npm init
 ```
 
 *   **步骤 2:** 安装异步模块。可以使用以下命令安装异步模块。
 
-```
+```js
 npm i async
 ```
 
 *   **步骤 3:** 导入异步模块。可以使用以下命令导入异步模块。
 
-```
+```js
 const async = require('async')
 ```
 
 *   **步骤 4:** 使用异步队列模块。异步队列的语法。
 
-```
+```js
 const queue = async.queue('function', 'concurrency value')
 ```
 
@@ -36,7 +36,7 @@ const queue = async.queue('function', 'concurrency value')
 
 ## java 描述语言
 
-```
+```js
 // Defining The queue
 const queue = async.queue((task, completed) => {
     // Here task is the current element being

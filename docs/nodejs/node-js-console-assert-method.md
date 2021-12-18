@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 console.assert(value, messages)
 ```
 
@@ -21,7 +21,7 @@ console.assert(value, messages)
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // console.assert() Method
 
@@ -35,13 +35,13 @@ console.assert(false, "error message 2");
 
 **输出:**
 
-```
+```js
 Assertion failed: error message 2
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // console.assert() Method
 
@@ -64,7 +64,7 @@ console.assert(b > a, "error at b>a");
 
 **输出:**
 
-```
+```js
 Assertion failed: error at 1==1
 Assertion failed: error at 1&6
 Assertion failed: error at 0&&9

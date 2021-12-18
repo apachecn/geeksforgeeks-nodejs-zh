@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.isDirectory();
 ```
 
@@ -18,7 +18,7 @@ stats.isDirectory();
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.isDirectory() Method
 
@@ -48,7 +48,7 @@ fs.stat('./filename.txt', (err, stats) => {
 
 **输出:**
 
-```
+```js
 false
 fs.Stats does not describe a file system directory
 
@@ -56,7 +56,7 @@ fs.Stats does not describe a file system directory
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.isDirectory() Method
 
@@ -85,7 +85,7 @@ fs.stat('./', (err, stats) => {
 
 **输出:**
 
-```
+```js
 true
 fs.Stats describes a file system directory
 

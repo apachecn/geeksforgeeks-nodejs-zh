@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.inflate( buffer, options, callback )
 ```
 
@@ -21,7 +21,7 @@ zlib.inflate( buffer, options, callback )
 
 ****例 1:****
 
- **```
+ **```js
 // Node.js program to demonstrate the     
 // inflate() method
 
@@ -44,13 +44,13 @@ zlib.deflate(input, (err, buffer) => {
 
 ****输出:****
 
-```
+```js
 Geeks 
 ```
 
 ****例 2:****
 
- **```
+ **```js
 // Node.js program to demonstrate the     
 // inflate() method
 
@@ -73,7 +73,7 @@ zlib.deflate(input, (err, buffer) => {
 
 ****输出:****
 
-```
+```js
 4e696468692053696e6768 
 ```
 

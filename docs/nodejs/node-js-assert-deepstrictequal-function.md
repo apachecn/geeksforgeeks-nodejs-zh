@@ -6,7 +6,7 @@ assert 模块提供了一组用于验证不变量的断言函数。**assert . De
 
 **语法:**
 
-```
+```js
 assert.deepStrictEqual(actual, expected[, message])
 ```
 
@@ -22,14 +22,14 @@ assert.deepStrictEqual(actual, expected[, message])
 
 1.  您可以访问[安装断言模块](https://www.npmjs.com/package/assert)的链接。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install assert
     ```
 
 2.  **注意:**安装是可选步骤，因为它内置了 Node.js 模块。
 3.  安装断言模块后，您可以使用命令在命令提示符下检查您的**断言**版本。
 
-    ```
+    ```js
     npm version assert
     ```
 
@@ -39,7 +39,7 @@ assert.deepStrictEqual(actual, expected[, message])
 
     ## java 描述语言
 
-    ```
+    ```js
     // Requiring the module
     const assert = require('assert').strict;
 
@@ -78,7 +78,7 @@ assert.deepStrictEqual(actual, expected[, message])
 
     ## java 描述语言
 
-    ```
+    ```js
     // Requiring the module
     const assert = require('assert').strict;
 
@@ -99,7 +99,7 @@ assert.deepStrictEqual(actual, expected[, message])
         T0】
     3.  **输出:**
 
-        ```
+        ```js
         No Error Occured
         ```
 

@@ -8,7 +8,7 @@
 
 ****语法:****
 
-```
+```js
 process.on("unhandledRejection", callbackfunction)
 ```
 
@@ -23,7 +23,7 @@ process.on("unhandledRejection", callbackfunction)
 
 ## **index . js**
 
-```
+```js
 // The unhandledRejection listener
 process.on('unhandledRejection', error => {
     console.error('unhandledRejection', error);
@@ -35,13 +35,13 @@ Promise.reject('Invalid password');
 
 **使用以下命令运行 **index.js** 文件:**
 
-```
+```js
 node index.js
 ```
 
 ****输出:****
 
-```
+```js
 unhandledRejection Invalid password
 ```
 
@@ -49,7 +49,7 @@ unhandledRejection Invalid password
 
 ## ****index . js****
 
-```
+```js
 **// The unhandledRejection listener
 process.on('unhandledRejection', error => {
     // Won't execute
@@ -63,13 +63,13 @@ Promise.reject('Invalid password')
 
 ****使用以下命令运行 **index.js** 文件:****
 
-```
+```js
 **node index.js**
 ```
 
 ******输出:******
 
-```
+```js
 **Invalid password**
 ```
 

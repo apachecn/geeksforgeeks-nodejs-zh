@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 writable.writable 
 ```
 
@@ -16,7 +16,7 @@ writable.writable
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.writable Property
 
@@ -51,7 +51,7 @@ writable.writable;
 
 **输出:**
 
-```
+```js
 hi
 GFG
 true
@@ -60,7 +60,7 @@ true
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.writable Property
 
@@ -98,7 +98,7 @@ writable.writable;
 
 **输出:**
 
-```
+```js
 hi
 GFG
 false

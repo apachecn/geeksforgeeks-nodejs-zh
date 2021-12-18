@@ -8,13 +8,13 @@
 
 **安装** [快递](https://www.geeksforgeeks.org/introduction-to-express/) **模块:**
 
-```
+```js
 npm install express
 ```
 
 **安装** [节点](https://www.geeksforgeeks.org/node-js-nodemon-module/#:~:text=The%20nodemon%20Module%20is%20a,code%20and%20method%20of%20development.) **模块:**
 
-```
+```js
 npm install nodemon
 ```
 
@@ -22,7 +22,7 @@ npm install nodemon
 
 这两个命令对于分别在 Node.js 应用程序中进行更改后运行和动态运行代码非常重要。
 
-```
+```js
 "start": "node app.js",
 "dev": "nodemon app.js"
 ```
@@ -30,7 +30,7 @@ npm install nodemon
 package.json 文件
 的配置
 
-```
+```js
 {
     "name": "demoapp",
     "version": "1.0.0",
@@ -57,7 +57,7 @@ package.json 文件
 
 ## java 描述语言
 
-```
+```js
 // Importing express module
 const express = require('express');
 const app = express();
@@ -82,7 +82,7 @@ app.listen(PORT, console.log(
 
 **执行命令:**
 
-```
+```js
 nodemon app.js
 ```
 
@@ -104,7 +104,7 @@ nodemon app.js
 
 在命令提示符下，运行以下命令将您的项目推送到新的存储库。
 
-```
+```js
 git init
 git add . 
 git commit -m “first commit”

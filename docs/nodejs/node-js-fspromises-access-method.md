@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 fsPromises.access( path, mode )
 ```
 
@@ -21,7 +21,7 @@ fsPromises.access( path, mode )
 
 **示例 1:** 此示例显示了文件写权限的测试。
 
-```
+```js
 // Node.js program to demonstrate the 
 // fsPromises.access() method 
 
@@ -40,13 +40,13 @@ fsPromises.access('example_file.txt', fs.constants.W_OK)
 
 **输出:**
 
-```
+```js
 Can not be accessed
 ```
 
 **示例 2:** 此示例显示了文件读写权限的测试。
 
-```
+```js
 // Node.js program to demonstrate the 
 // fsPromises.access() method 
 
@@ -72,7 +72,7 @@ fsPromises.access('example_file.txt', 
 
 **输出:**
 
-```
+```js
 Giving only read permission to the user
 Can be accessed
 Can not be accessed

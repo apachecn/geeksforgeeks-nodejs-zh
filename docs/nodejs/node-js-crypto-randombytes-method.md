@@ -5,7 +5,7 @@
 **crypto.randomBytes()方法**用于以密码方式生成一个**构建良好的人工随机数据和要在书面代码中生成的字节数。
 **语法:**** 
 
-```
+```js
 crypto.randomBytes( size, callback )
 ```
 
@@ -18,7 +18,7 @@ crypto.randomBytes( size, callback )
 以下示例说明了在 Node.js:
 **中使用 **crypto.randomBytes()方法**示例 1:**** 
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.randomBytes() method
 
@@ -47,7 +47,7 @@ crypto.randomBytes(127, (err, buf) => {
 
 ****例 2:**** 
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.randomBytes() method
 
@@ -64,7 +64,7 @@ console.log("The random bytes of data generated is: "
 
 ****输出:**这里不提供回调函数，所以同步生成字节** 
 
-```
+```js
 The random bytes of data generated is: _??i???Z?Z?o?i?W??bEC
 ?F????#?-??T??jDqmm?v??7?Q?c_G?%?
 ```

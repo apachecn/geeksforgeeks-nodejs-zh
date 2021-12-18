@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 process.resourceUsage()
 ```
 
@@ -22,7 +22,7 @@ process.resourceUsage()
 
 ## index.js
 
-```
+```js
 // Node.js program to demonstrate the  
 // process.resourceUsage() Property  
 
@@ -35,7 +35,7 @@ console.log(process.resourceUsage());
 
 **运行命令:**
 
-```
+```js
 node index.js
 ```
 

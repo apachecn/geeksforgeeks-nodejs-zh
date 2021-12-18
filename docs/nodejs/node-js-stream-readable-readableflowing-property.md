@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 readable.readableFlowing 
 ```
 
@@ -16,7 +16,7 @@ readable.readableFlowing
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.readableFlowing Property  
 
@@ -38,13 +38,13 @@ readerStream.readableFlowing;
 
 **输出:**
 
-```
+```js
 true
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.readableFlowing Property  
 
@@ -74,7 +74,7 @@ readable.readableFlowing;
 
 **输出:**
 
-```
+```js
 false
 ```
 

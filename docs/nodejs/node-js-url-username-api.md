@@ -5,7 +5,7 @@
 **URL.username** 是**节点内 **URL 类**的内置应用编程接口(API)。JS** 。
 **URL.username** API 用于获取和设置 URL 的用户名。
 
-```
+```js
 Syntax: url.username
 url : It is an object created by URL constructor.
 ```
@@ -14,7 +14,7 @@ url : It is an object created by URL constructor.
 
 ## java 描述语言
 
-```
+```js
 //Creating an URL_1 object with URL constructor.
 const URL_1 = new URL("https://ashish:ashish123@www.geeksforgeeks.org");
 
@@ -30,7 +30,7 @@ console.log(URL_1.username);
 
 ## java 描述语言
 
-```
+```js
 //Creating an URL_1 object with URL constructor.
 const URL_1 = new URL("https://ashish:ashish123@www.geeksforgeeks.org/geeks");
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 response.statusMessage
 ```
 
@@ -28,7 +28,7 @@ response.statusMessage
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse.statusMessage method
 const http2 = require('http2');
@@ -94,13 +94,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 status message :
 (node:656) UnsupportedWarning: Status message is 
 not supported by HTTP/2 (RFC7540 8.1.2.4)
@@ -114,7 +114,7 @@ server destroyed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse.statusMessage method
 const http2 = require('http2');
@@ -181,13 +181,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 (node:8360) UnsupportedWarning: Status message is not supported 
 by HTTP/2 (RFC7540 8.1.2.4)
 Received: status message :

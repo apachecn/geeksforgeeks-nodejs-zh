@@ -12,13 +12,13 @@
 
 *   **Step 1:** Install the configuration module by running the following code:
 
-    ```
+    ```js
     npm i config — save
     ```
 
 *   **Step 2:** The configuration module processes the configuration files in the configuration directory under the root directory. You can change it to another directory by executing the following code:
 
-    ```
+    ```js
     app.js.
     process.env['NODE_CONFIG_DIR'] = __dirname + '/configDir/';
 
@@ -26,7 +26,7 @@
 
 *   **步骤 3:** 配置文件按照以下顺序加载:
 
-    ```
+    ```js
     default.json
     {deployment}.json
     local.json
@@ -38,7 +38,7 @@
 
 *   **Step 4:** We have two configuration files, one for local development and the other for production.
 
-    ```
+    ```js
     local.json
     {
      'dbUrl': 'mongodb://localhost:27017/mydb'

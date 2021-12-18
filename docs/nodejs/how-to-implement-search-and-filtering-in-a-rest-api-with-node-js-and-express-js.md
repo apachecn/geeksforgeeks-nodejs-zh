@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 http://test.com?name=John&age=21
 ```
 
@@ -18,13 +18,13 @@ http://test.com?name=John&age=21
 
 *   首先，我们必须使用[节点包管理器](https://nodejs.org/en/download/)初始化一个新项目。我们可以通过选择所有默认选项来完成设置。
 
-    ```
+    ```js
     npm init
     ```
 
 *   接下来，我们要安装快递包裹。
 
-    ```
+    ```js
     npm install express --save
     ```
 
@@ -34,7 +34,7 @@ http://test.com?name=John&age=21
 
 ## app . js
 
-```
+```js
 const express = require('express');
 const data = require('./data');
 
@@ -54,7 +54,7 @@ app.listen(5000, () => {
 
 **添加模拟数据:**为了进行搜索和过滤，我们需要一些模拟数据，即我们可以对其进行这些操作的用户列表。为此，我们可以单独创建一个文件
 
-```
+```js
 const data = [
   { id: 1, name: 'Alan Wake', age: 21, city: 'New York' },
   { id: 2, name: 'Steve Rogers', age: 106, city: 'Chicago' },

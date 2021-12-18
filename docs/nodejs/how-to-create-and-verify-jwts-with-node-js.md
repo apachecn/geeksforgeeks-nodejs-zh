@@ -19,7 +19,7 @@
 
 **第一步:**首先设置 NodeJs 项目。如果您没有[节点](https://www.geeksforgeeks.org/installation-of-node-js-on-windows/)或 [NPM](https://www.geeksforgeeks.org/node-js-npm-node-package-manager/) 请参考本文。用 npm 启动 NodeJs 项目。
 
-```
+```js
 npm init -y
 ```
 
@@ -31,7 +31,7 @@ npm init -y
 
 **步骤 2:** 启动项目后安装一些依赖项。通过 npm 安装 express 和 jsonwebtoken
 
-```
+```js
 npm install express jsonwebtoken
 ```
 
@@ -39,7 +39,7 @@ npm install express jsonwebtoken
 
 **步骤 3:** 将 nodemon 作为开发依赖项安装。
 
-```
+```js
 npm install -d nodemon
 ```
 
@@ -57,7 +57,7 @@ npm install -d nodemon
 
 ## index.js
 
-```
+```js
 // Import express for creating API's endpoints
 const express = require('express');
 
@@ -89,7 +89,7 @@ app.listen(port, () => {
 
 ## index.js
 
-```
+```js
 // A faek database object.
 let databse = [
     {
@@ -109,7 +109,7 @@ let databse = [
 
 ## index.js
 
-```
+```js
 // Allow json data
 app.use(express.json());
 ```
@@ -118,7 +118,7 @@ app.use(express.json());
 
 ## index.js
 
-```
+```js
 // Login route.
 app.post('/login', (req, res) => {
 
@@ -186,7 +186,7 @@ app.post('/login', (req, res) => {
 
 ## index.js
 
-```
+```js
 jwt.sign(
     {data_obeject},
     "secret_key",
@@ -200,7 +200,7 @@ jwt.sign(
 
 ## index.js
 
-```
+```js
 // Verify route
 app.get('/auth', (req, res) => {
 
@@ -233,7 +233,7 @@ app.get('/auth', (req, res) => {
 
 ## index.js
 
-```
+```js
 jwt.verify(token_value, 'secret_key');
 ```
 
@@ -243,7 +243,7 @@ jwt.verify(token_value, 'secret_key');
 
 ## index.js
 
-```
+```js
 // Import express for creating API's endpoints
 const express = require("express");
 

@@ -32,7 +32,7 @@ express 中的 [next()](https://www.geeksforgeeks.org/what-is-the-use-of-next-fu
 
 **中间件语法:**中间件功能的基本语法如下–
 
-```
+```js
 app.get(path, (req, res, next) => {}, (req, res) => {})
 ```
 
@@ -42,7 +42,7 @@ app.get(path, (req, res, next) => {}, (req, res) => {})
 
 **步骤 1:** 转到您的项目目录，输入以下命令创建 NodeJs 项目。确保 NodeJs 安装在您的机器上。
 
-```
+```js
 npm init -y
 ```
 
@@ -50,13 +50,13 @@ npm init -y
 
 **步骤 2:** 使用以下命令安装两个依赖项。
 
-```
+```js
 npm install express nodemon
 ```
 
 **步骤 3:** 在 package.json 文件的 scripts 部分，添加以下代码行。
 
-```
+```js
 "start": "nodemon index.js", 
 ```
 
@@ -74,7 +74,7 @@ npm install express nodemon
 
 ## java 描述语言
 
-```
+```js
 const express = require("express");
 const app = express();
 
@@ -92,7 +92,7 @@ app.listen(port, () => {
 
 **运行应用程序的步骤:**通过在终端上输入以下命令来运行代码。
 
-```
+```js
 npm start
 ```
 
@@ -106,7 +106,7 @@ npm start
 
 ## java 描述语言
 
-```
+```js
 app.get(
   "/",
   (req, res, next) => {

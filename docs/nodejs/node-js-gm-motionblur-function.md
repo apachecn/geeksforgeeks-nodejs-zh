@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 motionBlur(radius, sigma, angle)
 ```
 
@@ -22,7 +22,7 @@ motionBlur(radius, sigma, angle)
 
 ## java 描述语言
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 
@@ -53,7 +53,7 @@ gm('1.png')
 
 ## java 描述语言
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 

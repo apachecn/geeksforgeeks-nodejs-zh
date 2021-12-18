@@ -16,7 +16,7 @@
 
 **导入模块:**
 
-```
+```js
 var assert = require("assert");
 ```
 
@@ -24,7 +24,7 @@ var assert = require("assert");
 
 ## index.js
 
-```
+```js
 // Importing  assert module
 var assert = require('assert');  
 
@@ -38,7 +38,7 @@ assert( output === 2, '(1 + 2) - 1 = 2');
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -50,7 +50,7 @@ node index.js
 
 ## index.js
 
-```
+```js
 // Importing the assert module
 var assert = require('assert');  
 
@@ -64,7 +64,7 @@ assert( output === 3, '(1 + 2) - 1 = 2');
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

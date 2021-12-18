@@ -6,7 +6,7 @@
 **灰度**修改器是 Nodejs | Jimp 中的内置颜色修改器，它根据给定的数量(从 0 到 100)将图像颜色去饱和为灰度。
 **语法:**
 
-```
+```js
 image.color([
  { apply: 'grayscale', params: [value] }
 ]);
@@ -26,7 +26,7 @@ image.color([
 
 ## java 描述语言
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');
@@ -52,7 +52,7 @@ main();
 
 ## java 描述语言
 
-```
+```js
 //npm install --save jimp
 //import jimp library to the environment
 var Jimp = require('jimp');

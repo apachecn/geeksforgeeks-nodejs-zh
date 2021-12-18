@@ -8,7 +8,7 @@
 
 **步骤 1:** 使用以下命令初始化节点项目。
 
-```
+```js
 npm init
 ```
 
@@ -18,7 +18,7 @@ npm init
 
 **步骤 3:** 创建 NodeJS 应用程序后，使用以下命令安装 **mysql** 模块。
 
-```
+```js
 npm install mysql
 ```
 
@@ -30,7 +30,7 @@ npm install mysql
 
 ## index.js
 
-```
+```js
 const mysql = require("mysql");
 
 var db_con = mysql.createConnection({
@@ -70,7 +70,7 @@ db_con.connect(async(err) => {
 
 **步骤 5:** 使用以下命令运行 **index.js** 文件。
 
-```
+```js
 node index.js
 ```
 

@@ -16,25 +16,25 @@
 
 1.  您可以访问[安装 twilio 模块](https://www.npmjs.com/package/twilio)的链接。您可以使用以下命令安装此软件包。
 
-    ```
+    ```js
     npm install twilio
     ```
 
 2.  安装 twilio 后，您可以使用命令在命令提示符下检查您的 twilio 版本。
 
-    ```
+    ```js
     npm version twilio
     ```
 
 3.  之后，您可以创建一个文件夹并添加一个文件。比如`index.js`。要运行此文件，您需要运行以下命令。
 
-    ```
+    ```js
     node index.js
     ```
 
 4.  **Requiring module:** You need to include twilio module in your file by using these lines.
 
-    ```
+    ```js
     const client = require('twilio')(YOUR_ACCOUNT_SID, YOUR_AUTH_TOKEN);
     ```
 
@@ -50,7 +50,7 @@
 
     **文件名:index.js**
 
-    ```
+    ```js
     ACCOUNT_SID = 'Your_Account_Sid'
     AUTH_TOKEN = 'Your_Auth_Token'
     SERVICE_SID = 'Your_Service_Sid'
@@ -91,13 +91,13 @@
         ![Project-Structure](img/d3d4d97aac5eb2cddac825bc01bf1c7c.png)
     2.  确保使用以下命令安装了 twilio:
 
-        ```
+        ```js
         npm install twilio
         ```
 
     3.  Run *index.js* file using following command:
 
-        ```
+        ```js
         node index.js
         ```
 

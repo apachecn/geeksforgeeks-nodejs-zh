@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 response.sendDate
 ```
 
@@ -28,7 +28,7 @@ response.sendDate
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse.sendDate method
 const http2 = require('http2');
@@ -98,13 +98,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 data header is sent
 status : 200
 Received: hello
@@ -117,7 +117,7 @@ server destroyed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse.sendDate method
 const http2 = require('http2');
@@ -184,13 +184,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Received: data header is sent
 client destroyed
 server destroyed

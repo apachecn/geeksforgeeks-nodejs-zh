@@ -12,7 +12,7 @@
 
 **安装命令:**以下命令在 app 中安装**永远**工具。
 
-```
+```js
 $ npm install forever -g
 ```
 
@@ -22,7 +22,7 @@ $ npm install forever -g
 
 **命令永远启动:**要启动永远工具，运行以下命令，将 **< app_name >** 替换为 **node.js app** 的名称。
 
-```
+```js
 $ forever start /<app_name>/index.js
 ```
 
@@ -34,7 +34,7 @@ $ forever start /<app_name>/index.js
 
 *   **第一步:**新建文件 **< app_name >。服务**文件将< app_name >替换为 node.js app 的名称。在文件中，输入以下**值**:
 
-    ```
+    ```js
     ExecStart=/var/www/<app_name>/app.js
     Restart=always
     User=nobody
@@ -50,7 +50,7 @@ $ forever start /<app_name>/index.js
 
 *   **步骤 3:** 使用以下命令启动应用程序，使其使用服务文件运行:
 
-    ```
+    ```js
     systemctl start <app_name>
     ```
 
@@ -58,7 +58,7 @@ $ forever start /<app_name>/index.js
 
 运行以下命令启动 **nohup** ，用 node.js app 的名称替换 **< app_name >** :
 
-```
+```js
 $ nohup node /<app_name>/index.js &
 ```
 

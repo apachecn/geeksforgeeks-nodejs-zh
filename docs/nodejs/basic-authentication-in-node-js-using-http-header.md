@@ -12,7 +12,7 @@
 
 **模块安装:**使用以下命令安装快速模块。
 
-```
+```js
 npm install express
 ```
 
@@ -28,7 +28,7 @@ npm install express
 
 ## java 描述语言
 
-```
+```js
 // Requiring module
 const express = require("express");
 const fs = require("fs");
@@ -77,7 +77,7 @@ app.listen((3000), () => {
 
 使用以下命令运行 **index.js** :
 
-```
+```js
 node index.js
 ```
 

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 util.types.isWeakMap( value )
 ```
 
@@ -20,7 +20,7 @@ util.types.isWeakMap( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.types.isWeakMap() method 
 
@@ -39,7 +39,7 @@ console.log(util.types.isWeakMap(new WeakMap()));
 
 **输出:**
 
-```
+```js
 false
 false
 true
@@ -48,7 +48,7 @@ true
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.types.isWeakMap() method 
 
@@ -76,7 +76,7 @@ console.log(util.types.isWeakMap(c));
 
 **输出:**
 
-```
+```js
 false
 false
 true

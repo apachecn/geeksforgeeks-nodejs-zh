@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```js
 querystring.stringify( obj[, sep[, eq[, options]]] )
 ```
 
@@ -28,7 +28,7 @@ querystring.stringify( obj[, sep[, eq[, options]]] )
 
 **例 1:**
 
-```
+```js
 // Import the querystring module
 const querystring = require("querystring");
 
@@ -48,13 +48,13 @@ console.log("Parsed Query:", parsedQuery);
 
 **输出:**
 
-```
+```js
 Parsed Query: user=sam&access=true&role=admin&role=editor&role=manager
 ```
 
 **例 2:**
 
-```
+```js
 // Import the querystring module
 const querystring = require("querystring");
 
@@ -81,7 +81,7 @@ console.log("\nParsed Query 2:", parsedQuery);
 
 **输出:**
 
-```
+```js
 Parsed Query 1: user:max, access:false, role:editor, role:manager
 
 Parsed Query 2: user==max&&&access==false&&&role==editor&&&role==manager

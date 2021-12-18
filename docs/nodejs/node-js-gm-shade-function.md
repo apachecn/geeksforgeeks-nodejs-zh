@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 shade( azimuthal angle, elevation angle )
 ```
 
@@ -22,7 +22,7 @@ shade( azimuthal angle, elevation angle )
 
 **示例:**
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 

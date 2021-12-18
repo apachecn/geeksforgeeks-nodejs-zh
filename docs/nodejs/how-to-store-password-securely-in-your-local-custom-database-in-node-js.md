@@ -8,13 +8,13 @@
 
 *   使用以下命令在项目目录的根目录下创建 package.json 文件:
 
-    ```
+    ```js
     npm init -y
     ```
 
 *   使用以下命令
 
-    ```
+    ```js
     npm install express body-parser
     ```
 
@@ -30,7 +30,7 @@
 
 **文件名:index.js**
 
-```
+```js
 const express = require('express')
 const bodyParser = require('body-parser')
 const repo = require('./repository')
@@ -91,7 +91,7 @@ app.listen(port, () => {
 
 **文件名:repository.js** 这个文件包含了用安全密码向数据库添加新记录的所有逻辑。
 
-```
+```js
 // Importing node.js file system, 
 // util, crypto module 
 const fs = require('fs')
@@ -189,7 +189,7 @@ package.json
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

@@ -16,7 +16,7 @@ index.js
 
 ## java 描述语言
 
-```
+```js
 const fs = require("fs");
 
 const path = "./new-Directory";

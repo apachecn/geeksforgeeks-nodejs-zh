@@ -10,7 +10,7 @@ JavaScript 是一种异步单线程编程语言。异步意味着同时处理多
 
 ## 第一个模块. js
 
-```
+```js
 function check(number) {
   return new Promise((Resolve, reject) => {
     if (number % 2 == 0) {
@@ -30,7 +30,7 @@ module.exports = {
 
 ## 第二个模块. js
 
-```
+```js
 // Importing check function
 const promise = require("./FirstModule.js")
 
@@ -44,12 +44,12 @@ promise.check(8).then((msg) => {
 
 使用以下命令运行 **SecondModule.js** 文件:
 
-```
+```js
 node SecondModule.js
 ```
 
 **输出:**
 
-```
+```js
 The number is even
 ```

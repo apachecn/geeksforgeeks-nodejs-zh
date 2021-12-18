@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const filehandle.chown(uid, gid)
 ```
 
@@ -22,7 +22,7 @@ const filehandle.chown(uid, gid)
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // filehandle.chown() method
 const fs = require('fs');
@@ -77,13 +77,13 @@ funct().catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 content of file before operation :- Content of example.txt file
 ownership is changed successfully
 content of file after operation :- Content of example.txt file
@@ -93,7 +93,7 @@ content of file after operation :- Content of example.txt file
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // filehandle.chown() method
 const fs = require('fs');
@@ -170,13 +170,13 @@ funct().catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 content of file before operation :- This is a file containing a collection of books.
 ownership is changed
 content of file after operation :- This is a file containing a collection of books.

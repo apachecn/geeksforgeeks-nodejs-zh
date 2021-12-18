@@ -26,7 +26,7 @@ Firebase 身份验证提供易于使用的 SDK 和现成的用户界面库后端
 
 使用控制台中的以下命令，将控制台目录更改为项目类型的根目录
 
-```
+```js
 $npm init
 $npm install express firebase-admin cookie-parser https fs
 
@@ -34,7 +34,7 @@ $npm install express firebase-admin cookie-parser https fs
 
 **注意:**只有当你想在本地主机中保存 cookies 时，才需要最后两个包，但是，如果你将在 https 上运行后端，那么就没有必要了。
 
-```
+```js
 const express = require("express");
 const admin = require("firebase-admin");
 const cookieParser = require("cookie-parser");
@@ -130,7 +130,7 @@ function checkCookie(req, res, next) {
 
 将以下代码添加到 app.js 文件-
 
-```
+```js
 https.createServer({
     key: fs.readFileSync('server.key'),
     cert: fs.readFileSync('server.cert')
@@ -143,7 +143,7 @@ https.createServer({
 
 在登录页面的正文标记之前加载此脚本
 
-```
+```js
 
 <!-- Firebase Package-->
 <script src=
@@ -160,7 +160,7 @@ https.createServer({
 
 在登录页面的 body 标签后加载这个脚本(填充从 firebase 控制台获得的配置数据)。
 
-```
+```js
 var config = {
     apiKey: "YOUR_KEY",
     authDomain: "YOUR_DOMAIN",

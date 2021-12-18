@@ -6,7 +6,7 @@
 
 让我们考虑一个'http://user:pass@sub.example.com:8080/p/a/t/h?的网址查询=字符串#hash '
 
-```
+```js
 Syntax: urlObject.path
 Return: '/p/a/t/h?query=string'
 ```
@@ -17,7 +17,7 @@ Return: '/p/a/t/h?query=string'
 
 ## java 描述语言
 
-```
+```js
 //Importing url module
 const http = require('url'); 
 
@@ -34,13 +34,13 @@ console.log(q.path);    
 
 **执行命令:**
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 /p/a/t/h?query=string
 ```
 
@@ -48,7 +48,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 //Importing the url module
 const http = require('url'); 
 
@@ -73,13 +73,13 @@ console.log(q.path);
 
 **执行命令:**
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 Before Change
 /p/a/t/h?query=string
 

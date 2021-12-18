@@ -6,7 +6,7 @@ Yhe **remove()** 函数删除给定的文件或目录。目录中的所有文件
 
 **语法:**
 
-```
+```js
 fs.remove(path,callback)
 ```
 
@@ -21,13 +21,13 @@ fs.remove(path,callback)
 
 *   可以使用以下命令安装该模块:
 
-    ```
+    ```js
     npm install fs-extra
     ```
 
 *   安装模块后，您可以使用以下命令检查已安装模块的版本:
 
-    ```
+    ```js
     npm ls fs-extra
     ```
 
@@ -35,13 +35,13 @@ fs.remove(path,callback)
 
 *   使用以下命令创建一个名为 index.js 的文件，并在文件中要求 fs-extra 模块:
 
-    ```
+    ```js
     const fs = require('fs-extra');
     ```
 
 *   要运行文件，请在终端中写入以下命令:
 
-    ```
+    ```js
     node index.js
     ```
 
@@ -53,7 +53,7 @@ fs.remove(path,callback)
 
     ## index.js
 
-    ```
+    ```js
     // Requiring module
     import { remove } from "fs-extra";
 
@@ -78,7 +78,7 @@ fs.remove(path,callback)
 
     ## index.js
 
-    ```
+    ```js
     // Requiring module
     import { remove } from "fs-extra";
 

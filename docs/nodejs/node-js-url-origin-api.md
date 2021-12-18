@@ -5,7 +5,7 @@
 **url.origin** 是 **url 模块**内 **URL 类**的内置应用编程接口(API)。
 **url.origin** API 用于获取 url 来源的只读序列化。
 
-```
+```js
 Syntax: url.origin
 url : It is an object created by URL constructor.
 ```
@@ -14,7 +14,7 @@ url : It is an object created by URL constructor.
 
 ## java 描述语言
 
-```
+```js
 //Importing the url module
 const url = require('url');
 
@@ -34,7 +34,7 @@ console.log(URL_1.origin);
 
 ## java 描述语言
 
-```
+```js
 //Importing the url module
 const url = require('url');
 

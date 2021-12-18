@@ -20,7 +20,7 @@
 
 **模块安装:** 使用以下命令安装快速模块。
 
-```
+```js
 npm install express
 ```
 
@@ -32,7 +32,7 @@ npm install express
 
 ## index.js
 
-```
+```js
 // Importing required modules
 const { response } = require("express");
 const express = require("express");
@@ -79,7 +79,7 @@ app.listen(3000,()=>{
 
 使用以下命令运行 **index.js** :
 
-```
+```js
 node index.js
 ```
 

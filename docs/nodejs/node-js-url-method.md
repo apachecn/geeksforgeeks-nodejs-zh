@@ -8,13 +8,13 @@
 
 **语法:**
 
-```
+```js
 new URL(input[, base])
 ```
 
 可以使用以下方式访问“url”模块:
 
-```
+```js
 const url = require('url');
 ```
 
@@ -30,7 +30,7 @@ const url = require('url');
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // new URL() method 
 
@@ -89,7 +89,7 @@ console.log(myURL1.href)
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // new URL() method 
 
@@ -152,7 +152,7 @@ console.log("10 =>", newUrl8.href)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

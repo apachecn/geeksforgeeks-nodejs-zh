@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const response.setTimeout(msecs[, callback])
 ```
 
@@ -18,7 +18,7 @@ const response.setTimeout(msecs[, callback])
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the  
 // response.setTimeout() method
 
@@ -47,20 +47,20 @@ httpServer.listen(PORT, () => { 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Server is running at port 3000...
 socket is destroyed due to timeout
 ```
 
 现在打开浏览器，转到***http://localhost:3000/***，会看到如下输出:
 
-```
+```js
 ERR_CONNECTION_REFUSED
 ```
 
@@ -68,7 +68,7 @@ ERR_CONNECTION_REFUSED
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the  
 // response.setTimeout() Method
 
@@ -94,20 +94,20 @@ var httpServer = http.createServer(
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Server is running at port 3000...
 socket is destroyed due to timeout
 ```
 
 现在打开浏览器，转到***http://localhost:3000/***，会看到如下输出:
 
-```
+```js
 ERR_CONNECTION_REFUSED
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const server.listening
 ```
 
@@ -18,7 +18,7 @@ const server.listening
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the  
 // server.listening APi
 
@@ -68,7 +68,7 @@ console.log("server is not listening")
 
 **输出:控制台内**
 
-```
+```js
 server is listening
 Server is running at port 3000...
 displaying the result...
@@ -81,7 +81,7 @@ server is closed
 
 **输出:浏览器内**
 
-```
+```js
 socket buffersize : 0
 ```
 
@@ -89,7 +89,7 @@ socket buffersize : 0
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the  
 // server.listening APi
 
@@ -136,7 +136,7 @@ console.log("server is not listening")
 
 **输出:控制台内**
 
-```
+```js
 server is listening
 Server is running at port 3000...
 displaying the result...
@@ -149,7 +149,7 @@ server is closed
 
 **输出:浏览器内**
 
-```
+```js
 socket local address : ::1
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.ctimeMs;
 ```
 
@@ -16,7 +16,7 @@ stats.ctimeMs;
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // stats.ctimeMs property
 
@@ -45,7 +45,7 @@ fs.lstat('./filename.txt', (err, stats) => {
 
 **输出:**
 
-```
+```js
 using stat: 1592665604516.1057
 using lstat: 1592665807796.265
 
@@ -53,7 +53,7 @@ using lstat: 1592665807796.265
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // stats.ctimeMs property
 
@@ -73,7 +73,7 @@ const fs = require('fs').promises;
 
 **输出:**
 
-```
+```js
 using stat synchronous: 1592665807796.265
 
 ```

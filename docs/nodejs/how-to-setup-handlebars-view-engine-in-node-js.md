@@ -8,25 +8,25 @@
 
 1.  您可以访问链接[安装 hbs 模块](https://www.npmjs.com/package/hbs)。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install hbs
     ```
 
 2.  安装 hbs 模块后，您可以使用命令在命令提示符下检查您的 hbs 版本。
 
-    ```
+    ```js
     npm version hbs
     ```
 
 3.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-    ```
+    ```js
     node index.js
     ```
 
 4.  要设置 hbs 视图引擎，您需要在您的 index.js 中编写这个中间件，如下所示:
 
-    ```
+    ```js
     app.set('views', path.join(__dirname))
     app.set('view engine', 'hbs')
     ```
@@ -35,7 +35,7 @@
 
 **文件名:Home.hbs**
 
-```
+```js
 <!DOCTYPE html>
 <html>
 <head>
@@ -54,7 +54,7 @@
 
 **文件名:index.js**
 
-```
+```js
 const express = require('express')
 const path = require('path')
 const hbs = require('hbs')
@@ -83,14 +83,14 @@ app.listen(8080, function(error){
     ![](img/57ce41df82612d54bc4b73170decba88.png)
 2.  使用以下命令确保您已经安装了 hbs 和 express 模块:
 
-    ```
+    ```js
     npm install hbs
     npm install express
     ```
 
 3.  Run index.js file using the following command:
 
-    ```
+    ```js
     node index.js
     ```
 

@@ -12,13 +12,13 @@ Node.js 是一个使用 chrome javascript 引擎构建的开源跨平台环境�
 
 **第 1 步:**输入 cmd 并键入下面的命令，该命令将创建 package.json 文件
 
-```
+```js
 npm init
 ```
 
 **第二步:**创建完包、JSON 文件后你需要安装 cheerio、request 和粉笔来自下面的命令:
 
-```
+```js
 npm install request cheerio chalk
 ```
 
@@ -32,7 +32,7 @@ npm install request cheerio chalk
 
 ## index.js
 
-```
+```js
 const { Cheerio } = require("cheerio");
 const request = require("request");
 const cheerio = require("cheerio");
@@ -63,7 +63,7 @@ function handleItem(html) {
 
 **输出:**打开命令提示符，输入以下命令
 
-```
+```js
 node index.js
 ```
 

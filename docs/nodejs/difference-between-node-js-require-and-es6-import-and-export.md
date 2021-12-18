@@ -10,13 +10,13 @@ Node.js 遵循 commonJS 模块系统，它要求包含存在于单独文件中�
 
 *   The built-in modules are as follows:
 
-    ```
+    ```js
     const express = require('express');
     ```
 
 *   Include local modules as follows. For example, you need the "abc" module, but do not specify the path.
 
-    ```
+    ```js
     require('abc');
     ```
 
@@ -24,14 +24,14 @@ Node.js 遵循 commonJS 模块系统，它要求包含存在于单独文件中�
 
 *   **输入:**
 
-    ```
+    ```js
     require('abc');
     ```
 
 *   **输出:**
     *   **如果节点找不到:**
 
-        ```
+        ```js
         Error: Cannot find module 'abc'
             at Function.Module._resolveFilename (module.js:470:15)
             at Function.Module._load (module.js:418:25)
@@ -47,7 +47,7 @@ Node.js 遵循 commonJS 模块系统，它要求包含存在于单独文件中�
 
     *   **如果节点找到它:**
 
-        ```
+        ```js
         // It is the content of the file
         Geeksforgeeks example for require
         ```
@@ -60,7 +60,7 @@ Node.js 遵循 commonJS 模块系统，它要求包含存在于单独文件中�
 
 *   Used to import files.
 
-    ```
+    ```js
     // Importing submodule from 
     // 'es-module-package/private-module.js';
     import './private-module.js';
@@ -68,7 +68,7 @@ Node.js 遵循 commonJS 模块系统，它要求包含存在于单独文件中�
 
 *   Used to export files.
 
-    ```
+    ```js
     module.exports = 'A Computer Science Portal';
     ```
 
@@ -76,14 +76,14 @@ Node.js 遵循 commonJS 模块系统，它要求包含存在于单独文件中�
 
 *   **导出**文件名`Message.js`
 
-    ```
+    ```js
     // Exporting module
     module.exports = 'Hello Geek';
     ```
 
     **导入**文件名`Display.js`
 
-    ```
+    ```js
     // Importing module
     var msg = import('./Message.js');
     console.log(msg);</li>

@@ -6,7 +6,7 @@
 
 **步骤 1:** 创建一个空文件夹，并从 VS 代码编辑器中将其移动到该文件夹中，使用以下命令。
 
-```
+```js
 mkdir demo
 cd demo
 code .
@@ -20,21 +20,21 @@ code .
 
 **步骤 3:安装模块:**使用以下命令安装模块。
 
-```
+```js
 npm install express
 npm install nodemon
 ```
 
 **第四步:**在*包文件中分别添加这两个在 Node.js app 中进行更改后，对运行和动态运行代码很重要的命令。*
 
-```
+```js
 "start": "node app.js",
 "dev": "nodemon app.js"
 ```
 
 **package . JSON 文件的配置:**
 
-```
+```js
 {
   "name": "demo",
   "version": "1.0.0",
@@ -62,7 +62,7 @@ npm install nodemon
 
 ## java 描述语言
 
-```
+```js
 // Requiring module
 const express = require('express');
 
@@ -86,7 +86,7 @@ app.listen(PORT,console.log(
 
 **步骤 7:** 使用以下命令运行应用程序:
 
-```
+```js
 npm run dev
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.inflateRaw( buffer, options, callback )
 ```
 
@@ -21,7 +21,7 @@ zlib.inflateRaw( buffer, options, callback )
 
 ****例 1:****
 
- **```
+ **```js
 // Node.js program to demonstrate the     
 // inflateRaw() method
 
@@ -44,13 +44,13 @@ zlib.deflateRaw(input, (err, buffer) => {
 
 ****输出:****
 
-```
+```js
 GeeksforGeeks 
 ```
 
 ****例 2:****
 
- **```
+ **```js
 // Node.js program to demonstrate the     
 // inflateRaw() method
 
@@ -73,7 +73,7 @@ zlib.deflateRaw(input, (err, buffer) => {
 
 ****输出:****
 
-```
+```js
 R2Vla3Nmb3JHZWVrcw== 
 ```
 

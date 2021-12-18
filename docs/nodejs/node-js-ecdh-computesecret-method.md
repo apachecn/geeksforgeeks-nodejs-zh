@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 ecdh.computeSecret( otherPublicKey, inputEncoding, outputEncoding )
 ```
 
@@ -26,7 +26,7 @@ ecdh.computeSecret( otherPublicKey, inputEncoding, outputEncoding )
 
 ## java 描述语言
 
-```
+```js
 const crypto = require('crypto');
 
 const geekA = crypto.createECDH('secp521r1');
@@ -62,7 +62,7 @@ console.log(secretA == secretB ?
 
 ## java 描述语言
 
-```
+```js
 const crypto = require('crypto');
 
 const geekOne = crypto.createECDH('secp521r1');

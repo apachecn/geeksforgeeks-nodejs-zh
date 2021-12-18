@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 buffer.indexOf( value, start, encoding )
 ```
 
@@ -24,7 +24,7 @@ buffer.indexOf( value, start, encoding )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.indexOf() method 
 
@@ -39,13 +39,13 @@ console.log(output);
 
 **输出:**
 
-```
+```js
 17
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.indexOf() method 
 
@@ -71,7 +71,7 @@ console.log(output2);
 
 **输出:**
 
-```
+```js
 1
 0
 -1

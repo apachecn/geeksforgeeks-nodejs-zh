@@ -6,7 +6,7 @@ util 模块的 **util.types.isSet()方法**主要是为了支持 Node.js 自带�
 
 **语法:**
 
-```
+```js
 util.types.isSet( value )
 ```
 
@@ -18,7 +18,7 @@ util.types.isSet( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // util.types.isSet() method 
 
@@ -34,14 +34,14 @@ console.log(util.types.isSet(new Map())); 
 
 **输出:**
 
-```
+```js
 true
 false
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // util.types.isSet() method 
 
@@ -69,7 +69,7 @@ console.log(util.types.isSet(new Map())); 
 
 **输出:**
 
-```
+```js
 true
 true
 false

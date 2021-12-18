@@ -7,7 +7,7 @@ util 模块的 **util.types.isDataView()方法**方法主要是为了支持 Node
 
 **语法:**
 
-```
+```js
 util.types.isDataView(value)
 
 ```
@@ -25,7 +25,7 @@ util.types.isDataView(value)
 
 ## Node.js
 
-```
+```js
 // Node.js program to demonstrate the    
 // util.types.isDataView() method 
 
@@ -50,7 +50,7 @@ console.log("Value is a DataView:", isDataView);
 
 **输出:**
 
-```
+```js
 Value: DataView {
   byteLength: 5,
   byteOffset: 0,
@@ -67,7 +67,7 @@ Value is a DataView: false
 
 ## Node.js
 
-```
+```js
 // Node.js program to demonstrate the    
 // util.types.isDataView() method 
 
@@ -104,7 +104,7 @@ console.log("Value is a DataView:", isDataView);
 
 **输出:**
 
-```
+```js
 Value: Uint8Array [ 10, 20, 30 ]
 Value is a View: true
 Value is a DataView: false

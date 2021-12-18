@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const x509.checkIssued(otherCert)
 ```
 
@@ -18,7 +18,7 @@ const x509.checkIssued(otherCert)
 
 **公共证书**打开记事本，复制粘贴以下密钥，将文件保存为 ***公共证书***
 
-```
+```js
 -----BEGIN CERTIFICATE-----
 MIICfzCCAegCCQDxxeXw914Y2DANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMC
 SU4xEzARBgNVBAgMCldlc3RiZW5nYWwxEDAOBgNVBAcMB0tvbGthdGExFDASBgNV
@@ -43,7 +43,7 @@ hWF6W2H9+MAlU7yvtmCQQuZmfQ==
 
 ## 【JavaScript】
 
-```
+```js
 // Node.js program to demonstrate the 
 // x509.checkIP() APi
 
@@ -71,13 +71,13 @@ else
 
 使用以下命令运行 index.js 文件。
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 certificate is issued from other certificate
 ```
 
@@ -87,7 +87,7 @@ certificate is issued from other certificate
 
 ## 【JavaScript】
 
-```
+```js
 // Node.js program to demonstrate the 
 // x509.checkIP() APi
 
@@ -107,13 +107,13 @@ else
 
 使用以下命令运行 index.js 文件。
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 certificate is issued from other certificate
 ```
 

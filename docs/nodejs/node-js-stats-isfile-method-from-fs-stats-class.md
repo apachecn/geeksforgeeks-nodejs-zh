@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.isFile();
 ```
 
@@ -18,7 +18,7 @@ stats.isFile();
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.isFile() method
 
@@ -47,14 +47,14 @@ fs.stat('./filename.txt', (err, stats) => {
 
 **输出:**
 
-```
+```js
 true
 fs.Stats describes a file
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.isFile() method
 
@@ -83,7 +83,7 @@ fs.stat('./', (err, stats) => {
 
 **输出:**
 
-```
+```js
 false
 fs.Stats does not describe a file
 

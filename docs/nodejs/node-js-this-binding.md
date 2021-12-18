@@ -10,13 +10,13 @@
 
 创建一个文件夹并添加一个文件，例如`index.js`。要运行此文件，您需要运行以下命令。
 
-```
+```js
 node index.js
 ```
 
 **文件名:index.js**
 
-```
+```js
 // 'This' in Arrow function
 const eventOne = {
     name: 'Birthday Party',
@@ -50,7 +50,7 @@ eventTwo.printGuestList();
 
 *   Run index.js file using the following command:
 
-    ```
+    ```js
     node index.js
     ```
 

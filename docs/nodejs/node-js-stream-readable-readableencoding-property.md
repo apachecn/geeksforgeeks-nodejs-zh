@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 readable.readableEncoding
 ```
 
@@ -16,7 +16,7 @@ readable.readableEncoding
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.readableEncoding Property  
 
@@ -48,7 +48,7 @@ readable.readableEncoding;
 
 **输出:**
 
-```
+```js
 read: aGVs
 read: bG8=
 
@@ -56,7 +56,7 @@ read: bG8=
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.readableEncoding Property  
 
@@ -88,7 +88,7 @@ readable.readableEncoding;
 
 **输出:**
 
-```
+```js
 read: 68656c6c6f
 ```
 

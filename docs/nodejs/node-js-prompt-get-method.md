@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 prompt.get([object]/[properties name], callbackfunction)
 
 ```
@@ -20,21 +20,21 @@ prompt.get([object]/[properties name], callbackfunction)
 
 1.  可以访问[安装](https://www.npmjs.com/package/prompt)这个模块的链接。您可以使用此命令安装此软件包。
 
-```
+```js
 npm install prompt
 
 ```
 
 *   After that, you can just create a folder and add a file for example, index.js. To run this file you need to run the following command.
 
-    ```
+    ```js
     node index.js
 
     ```
 
     **文件名:Index.js**
 
-    ```
+    ```js
     var prompt = require('prompt');
 
     // Function call
@@ -56,13 +56,13 @@ npm install prompt
 
     使用以下命令运行 **index.js** 文件:
 
-    ```
+    ```js
     node index.js
     ```
 
     **输出:**
 
-    ```
+    ```js
     prompt: name: some-user
     prompt: class: 12th
     Command-line input received:

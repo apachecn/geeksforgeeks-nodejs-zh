@@ -6,7 +6,7 @@
 
 但是很多时候，这种情况会发生，最常见的情况是，如果您是初学者，命令提示符会打印如下输出:
 
-```
+```js
 'node' is not recognized as an internal or external command,
 operable program or batch file.
 

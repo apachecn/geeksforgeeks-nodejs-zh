@@ -6,7 +6,7 @@
 
 节点支持内置模块系统。Node.js 可以导入由其他 Node.js 文件公开的功能。要导入某些内容，您需要使用当前文件夹中存在的 **library.js** 文件公开的导入功能。
 
-```
+```js
 const library = require('./library')                // Path
 ```
 
@@ -23,7 +23,7 @@ const library = require('./library')                // Path
 
 **示例:**
 
-```
+```js
 const person = {
     firstName: 'John',
     lastName: 'Smith'
@@ -38,7 +38,7 @@ const person= require(‘./person)
 
 第二种方法是将导出的对象添加为导出的属性。您可以使用导出来导出多个对象、函数或数据:
 
-```
+```js
 const Person = {
     firstName: 'John',
     lastName: 'Smith'
@@ -49,7 +49,7 @@ exports.person = person
 
 或者直接
 
-```
+```js
 exports.person = {
     firstName: 'John',
     lastName: 'Smith'
@@ -58,14 +58,14 @@ exports.person = {
 
 您将通过在另一个文件中引用导入的属性来使用它:
 
-```
+```js
 Const items = require('items')
 items.person
 ```
 
 或者
 
-```
+```js
 const person= require('./items').person
 ```
 

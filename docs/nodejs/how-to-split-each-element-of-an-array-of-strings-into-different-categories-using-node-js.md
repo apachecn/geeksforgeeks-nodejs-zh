@@ -32,7 +32,7 @@
 
 ## java 描述语言
 
-```
+```js
 function split_array (array, categories, split_size) {
     // Initialize empty array
     var chunks = [];
@@ -69,7 +69,7 @@ console.log(output) //printing the array
 
 **输出:**
 
-```
+```js
 [
     a: ["abc", "def", "ghi"]
     b: ["jkl", "mno", "pqr"]

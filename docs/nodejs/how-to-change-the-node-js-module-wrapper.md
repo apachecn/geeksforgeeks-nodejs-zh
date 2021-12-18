@@ -6,7 +6,7 @@
 
 在执行模块代码之前，NodeJS 用具有以下结构的函数包装器包装它:
 
-```
+```js
 (function (exports, require, module, __filename, __dirname) {
   //module code
 });
@@ -26,7 +26,7 @@
 
     ## 
 
-    ```
+    ```js
     var Module = require("module");
 
     (function (moduleWrapCopy) {
@@ -44,13 +44,13 @@
 
     ## 
 
-    ```
+    ```js
     console.log("Hello Geeks from module.js!");
     ```
 
 **输出:**运行 **main.js，**我们得到以下输出，确认我们在**模块包装函数中的成功修改。**
 
-```
+```js
 node main.js
 ```
 

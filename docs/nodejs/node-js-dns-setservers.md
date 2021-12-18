@@ -6,13 +6,13 @@ setServers()函数是 node.js Resolver 类中的一个内置函数，用于设�
 
 **语法:**
 
-```
+```js
 dns.setServers(array );
 ```
 
 **示例:**
 
-```
+```js
 dns.setServers([
   '4.4.4.4',
   '[2001:4860:4860::8888]'
@@ -24,7 +24,7 @@ dns.setServers([
 
 **例 1:带回拨功能**
 
-```
+```js
 // Include 'dns' module and create its object 
 const { Resolver } = require('dns');
 const resolver = new Resolver();
@@ -48,7 +48,7 @@ resolver.resolve4('geeksforgeeks.org', function(err){
 
 **例 2:无回拨功能**
 
-```
+```js
 // Include 'dns' module and create its object 
 const { Resolver } = require('dns');
 const resolver = new Resolver();

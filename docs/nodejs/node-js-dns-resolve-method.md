@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dns.resolve( hostname, rrtype, callback )
 ```
 
@@ -35,7 +35,7 @@ dns.resolve( hostname, rrtype, callback )
 
     **例 1:**
 
-    ```
+    ```js
     // Node.js program to demonstrate the   
     // dns.resolve() method
 
@@ -54,13 +54,13 @@ dns.resolve( hostname, rrtype, callback )
 
     **输出:**
 
-    ```
+    ```js
     records: ["34.218.62.116"]
     ```
 
     **例 2:**
 
-    ```
+    ```js
     // Node.js program to demonstrate the   
     // dns.resolve() method
 
@@ -79,7 +79,7 @@ dns.resolve( hostname, rrtype, callback )
 
     **输出:**
 
-    ```
+    ```js
     records: [
         {"exchange":"alt1.aspmx.l.google.com", "priority":5},
         {"exchange":"alt2.aspmx.l.google.com", "priority":5},
@@ -92,7 +92,7 @@ dns.resolve( hostname, rrtype, callback )
 
     **例 3:**
 
-    ```
+    ```js
     // Node.js program to demonstrate the   
     // dns.resolve() method
 
@@ -111,7 +111,7 @@ dns.resolve( hostname, rrtype, callback )
 
     **输出:**
 
-    ```
+    ```js
     records: [
         ["v=spf1 include:amazonses.com include:_spf.google.com -all"],
         ["fob1m1abcdp777bf2ncvnjm08n"]
@@ -121,7 +121,7 @@ dns.resolve( hostname, rrtype, callback )
 
     **例 4:**
 
-    ```
+    ```js
     // Node.js program to demonstrate the   
     // dns.resolve() method
 
@@ -140,7 +140,7 @@ dns.resolve( hostname, rrtype, callback )
 
     **输出:**
 
-    ```
+    ```js
     records: [
         "ns-1520.awsdns-62.org", 
         "ns-1569.awsdns-04.co.uk",

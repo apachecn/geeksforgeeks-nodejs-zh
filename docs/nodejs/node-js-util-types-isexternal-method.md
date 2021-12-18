@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 util.types.isExternal( value )
 ```
 
@@ -22,7 +22,7 @@ util.types.isExternal( value )
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // util.types.isExternal() Method
 
@@ -46,7 +46,7 @@ console.log(util.types.isExternal(new String('foo')));
 
 **输出:**
 
-```
+```js
 false
 true
 false
@@ -57,7 +57,7 @@ false
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // util.types.isExternal() Method
 
@@ -96,7 +96,7 @@ else
 
 **输出:**
 
-```
+```js
 It is not a native External value.
 It is a native External value.
 It is not a native External value.

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const response.statusCode
 ```
 
@@ -18,7 +18,7 @@ const response.statusCode
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the  
 // response.statusCode method
 
@@ -54,13 +54,13 @@ httpServer.listen(PORT, () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Server is running at port 3000...
 displaying the result...
 server is closed
@@ -68,7 +68,7 @@ server is closed
 
 现在打开浏览器，转到***http://localhost:3000/***，会看到如下输出:
 
-```
+```js
 statusCode : 200
 ```
 
@@ -76,7 +76,7 @@ statusCode : 200
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the  
 // response.statusCode method
 
@@ -109,13 +109,13 @@ var httpServer = http.createServer(
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Server is running at port 3000...
 displaying the result...
 server is closed
@@ -123,7 +123,7 @@ server is closed
 
 现在打开浏览器，转到***http://localhost:3000/***，会看到如下输出:
 
-```
+```js
 statusCode : 200
 ```
 

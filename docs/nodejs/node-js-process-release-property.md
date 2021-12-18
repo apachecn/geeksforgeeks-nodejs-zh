@@ -5,7 +5,7 @@
 **process.release 属性**是流程模块的内置应用编程接口，用于获取 node.js.
 当前发布的相关元数据**语法:**
 
-```
+```js
 process.release
 ```
 
@@ -26,7 +26,7 @@ process.release
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the     
 // process.release Property
 
@@ -39,7 +39,7 @@ console.log(process.release);
 
 **输出:**
 
-```
+```js
 { name: 'node',
   lts: 'Dubnium',
   sourceUrl:
@@ -54,7 +54,7 @@ console.log(process.release);
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the     
 // process.release Property
 
@@ -82,7 +82,7 @@ console.log("Total no of attribute "
 
 **输出:**
 
-```
+```js
 name:          node
 lts:           Dubnium
 sourceUrl:     https://nodejs.org/download/release/v10.16.0/node-v10.16.0.tar.gz
@@ -95,7 +95,7 @@ Total no of attribute available = 5
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the     
 // process.release Property
 
@@ -113,7 +113,7 @@ console.log("header url: " + release.headersUrl);
 
 **输出:**
 
-```
+```js
 lts: Dubnium
 source url: https://nodejs.org/download/release/v10.16.0/node-v10.16.0.tar.gz
 header url: https://nodejs.org/download/release/v10.16.0/node-v10.16.0-headers.tar.gz

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.ftruncate(fd, len, callback)
 ```
 
@@ -21,7 +21,7 @@ fs.ftruncate(fd, len, callback)
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.ftruncate() method
 
@@ -46,7 +46,7 @@ fs.ftruncate(fd, 24, (err) => {
 
 **输出:**
 
-```
+```js
 Contents of file before truncate:
 This is an example file for the ftruncate() method.
 Contents of file after truncate:
@@ -55,7 +55,7 @@ This is an example file
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.ftruncate() method
 
@@ -81,7 +81,7 @@ fs.ftruncate(fd, (err) => {
 
 **输出:**
 
-```
+```js
 Contents of file before truncate:
 This is an example file for the ftruncate() method.
 Contents of file after truncate:

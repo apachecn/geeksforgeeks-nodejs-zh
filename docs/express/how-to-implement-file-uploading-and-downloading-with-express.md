@@ -6,20 +6,20 @@
 
 **做法:**首先安装 express-fileupload 模块，然后进行需求，作为中间件传递给 app，如下图:
 
-```
+```js
 const fileUpload = require('express-fileupload')
 app.use(fileUpload())
 ```
 
 然后使用以下命令访问 POST 请求中上传的文件:
 
-```
+```js
 req.files.<uploaded_file_name>
 ```
 
 它提供了一些函数和值，如文件名、mime 类型、数据和大小。它提供了一个重要的 **mv()** 功能，用于保存上传的文件。它以上传路径和错误处理函数为参数。
 
-```
+```js
 req.files.<uploaded_file_name>.mv(<upload_path>, function(err) {
   // statement(s)
 })
@@ -27,7 +27,7 @@ req.files.<uploaded_file_name>.mv(<upload_path>, function(err) {
 
 使用 **res.download()** 函数处理下载，该函数采用两个参数:文件路径和错误处理函数。
 
-```
+```js
 res.download( <file_path>, function(err) {
   // statement(s)
 })
@@ -37,13 +37,13 @@ res.download( <file_path>, function(err) {
 
 **步骤 1:** 创建一个 **app.js** 文件、**index.html**文件，并使用以下命令初始化项目:
 
-```
+```js
 npm init
 ```
 
 **步骤 2:** 使用以下命令安装 express 和 express-fileupload:
 
-```
+```js
 npm install express
 npm install express-fileupload
 ```
@@ -58,7 +58,7 @@ npm install express-fileupload
 
 ## index.html
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -103,7 +103,7 @@ npm install express-fileupload
 
 ## app.js
 
-```
+```js
 // Requiring express to handle routing
 const express = require("express");
 
@@ -169,7 +169,7 @@ app.listen(3000, function (req, res) {
 
 **运行应用程序的步骤:**使用以下命令启动应用程序。
 
-```
+```js
 node app.js
 ```
 

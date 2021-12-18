@@ -5,7 +5,7 @@
 **运算符()函数**是 GraphicsMagick 库中的一个内置函数，用于对图像通道应用数学、按位或值运算符。如果运算结果为负，则结果被重置为零，如果运算结果溢出到可用范围，则结果被设置为最大可能值。
 **语法:**
 
-```
+```js
 operator( channel, operator, rvalue[%] )
 ```
 
@@ -50,7 +50,7 @@ operator( channel, operator, rvalue[%] )
 
 ## java 描述语言
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 
@@ -76,7 +76,7 @@ gm('1.png')
 
 ## java 描述语言
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 
@@ -102,7 +102,7 @@ gm('1.png')
 
 ## java 描述语言
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 

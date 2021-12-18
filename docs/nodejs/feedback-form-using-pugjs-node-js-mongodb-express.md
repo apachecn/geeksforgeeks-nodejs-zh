@@ -8,7 +8,7 @@
 
 **步骤 2:** 使用以下命令初始化 NodeJS 项目。
 
-```html
+```jshtml
 npm init  –y
 ```
 
@@ -16,7 +16,7 @@ npm init  –y
 
 **步骤 3:** 从终端/cmd 使用以下命令安装所需的模块。
 
-```html
+```jshtml
 // Express middleware
 npm install express  --save 
 
@@ -48,7 +48,7 @@ npm install express pug mongoose
 
 ## java 描述语言
 
-```html
+```jshtml
 // Require express to make easy
 // routing on server side.
 const express = require("express");
@@ -133,7 +133,7 @@ app.listen(port, () => {
 
 ## 超文本标记语言
 
-```html
+```jshtml
 <!DOCTYPE html>
 html(lang="en")
     head
@@ -168,7 +168,7 @@ html(lang="en")
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```html
+```jshtml
 * {
     margin: 0;
     padding:0;
@@ -224,7 +224,7 @@ body {
 
 **第 6 步:**使用以下命令运行 **app.js** 文件:
 
-```html
+```jshtml
 node app.js
 ```
 
@@ -248,7 +248,7 @@ node app.js
 
 **MongoDB 命令:**使用这些命令查看您的数据库记录:
 
-```html
+```jshtml
 mongo // Start mongo shell
 show dbs // See database cluster
 use feedback // Use table name

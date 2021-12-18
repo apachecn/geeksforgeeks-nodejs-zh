@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Event: 'beforeExit'
 ```
 
@@ -18,7 +18,7 @@ Event: 'beforeExit'
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Process 'beforeExit' Event
 
@@ -41,13 +41,13 @@ console.log('This message is displayed first.');
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 This message is displayed first.
 Process beforeExit event with code:  0
 Process exit event with code:  0
@@ -57,7 +57,7 @@ Process exit event with code:  0
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Process 'beforeExit' Event
 
@@ -78,13 +78,13 @@ console.log('This message is displayed first.');
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 This message is displayed first.
 Process beforeExit event with code:  100
 ```

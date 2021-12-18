@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 app.get( path, callback )
 ```
 
@@ -23,13 +23,13 @@ app.get( path, callback )
 
 **第一步:创建 npm 项目，清空 package.json 文件。**
 
-```
+```js
 npm init
 ```
 
 **步骤 2:使用以下命令安装快速模块。**
 
-```
+```js
 npm install express
 ```
 
@@ -43,7 +43,7 @@ npm install express
 
 ## java 描述语言
 
-```
+```js
 // Importing expresss
 const express=require("express")
 const app=express();

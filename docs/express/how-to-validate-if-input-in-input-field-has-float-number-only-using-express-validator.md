@@ -6,7 +6,7 @@
 
 **安装快速验证器的命令:**
 
-```
+```js
 npm install express-validator
 ```
 
@@ -29,7 +29,7 @@ npm install express-validator
 
 ## java 描述语言
 
-```
+```js
 const express = require('express')
 const bodyParser = require('body-parser')
 const {validationResult} = require('express-validator')
@@ -81,7 +81,7 @@ app.listen(port, () => {
 
 ## java 描述语言
 
-```
+```js
 // Importing node.js file system module
 const fs = require('fs')
 
@@ -143,7 +143,7 @@ module.exports = new Repository('datastore.json')
 
 ## java 描述语言
 
-```
+```js
 const getError = (errors, prop) => {
   try {
     return errors.mapped()[prop].msg
@@ -229,7 +229,7 @@ return `
 
 ## java 描述语言
 
-```
+```js
 const {check} = require('express-validator')
 const repo = require('./repository')
 module.exports = {

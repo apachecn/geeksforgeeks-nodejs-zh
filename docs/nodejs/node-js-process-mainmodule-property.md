@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.mainModule
 ```
 
@@ -16,7 +16,7 @@ process.mainModule
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // process.mainModule Property
 
@@ -29,7 +29,7 @@ console.log(process.mainModule);
 
 **输出:**
 
-```
+```js
 Module {
   id: '.',
   exports: {},
@@ -49,7 +49,7 @@ Module {
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // process.mainModule Property
 
@@ -65,7 +65,7 @@ for(mod in mainModule) {
 
 **输出:**
 
-```
+```js
 id:.
 exports:[object Object]
 parent:null

@@ -6,7 +6,7 @@ Node.js 中的 **Buffer.readDoubleBE()方法**用于以大端格式从给定偏�
 
 **语法:**
 
-```
+```js
 Buffer.readDoubleBE( offset )
 ```
 
@@ -18,7 +18,7 @@ Buffer.readDoubleBE( offset )
 
 **例 1:**
 
-```
+```js
 // Node program to demonstrate the  
 // Buffer.readDoubleBE() method 
 
@@ -33,7 +33,7 @@ console.log(buf); 
 
 **输出:**
 
-```
+```js
 Functions of Buffer.readDoubleBe(int)
 4.0888790063059496e-260
 <Buffer 0a 14 1e 28 32 3c 46 50>
@@ -41,7 +41,7 @@ Functions of Buffer.readDoubleBe(int)
 
 **例 2:**
 
-```
+```js
 // Node program to demonstrate the  
 // Buffer.readDoubleBE() method 
 
@@ -56,7 +56,7 @@ console.log(buf); 
 
 **输出:**
 
-```
+```js
 Functions of Buffer.readDoubleBe(int)
 internal/buffer.js:72
   throw new ERR_OUT_OF_RANGE(type || 'offset',

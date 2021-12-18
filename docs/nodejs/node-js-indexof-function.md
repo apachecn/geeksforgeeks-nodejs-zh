@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 *str1*.indexOf( *str2* )
 ```
 
@@ -21,7 +21,7 @@
 
 **节目 1:**
 
-```
+```js
 function findIndex(str) {
     var index = str.indexOf("awesome");
     console.log(index);
@@ -34,13 +34,13 @@ findIndex(str);
 
 **输出:**
 
-```
+```js
 7
 ```
 
 **节目 2:**
 
-```
+```js
 function findIndex(str1, str2) {
 
     var index = str1.indexOf(str2);
@@ -56,6 +56,6 @@ findIndex(str1, str2);
 
 输出:
 
-```
+```js
 8
 ```

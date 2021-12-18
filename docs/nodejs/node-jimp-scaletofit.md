@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 scaleToFit(w, h, mode, cb)
 ```
 
@@ -25,13 +25,13 @@ scaleToFit(w, h, mode, cb)
 
 #### **设置环境:**
 
-```
+```js
 npm init -y
 ```
 
 #### 安装依赖项:
 
-```
+```js
 npm install jimp 
 ```
 
@@ -39,7 +39,7 @@ npm install jimp
 
 ## java 描述语言
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');
@@ -65,7 +65,7 @@ main();
 
 ## java 描述语言
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');

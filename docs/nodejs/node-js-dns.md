@@ -11,7 +11,7 @@
 
 **例 1:**
 
-```
+```js
 // Include 'dns' module and create its object
 const dns = require('dns');
 
@@ -28,14 +28,14 @@ dns.lookup(website, (err, address, family) => {
 **输出:**
 ![](img/e21e5e95a256f077790e253f3fa1343c.png)
 
-```
+```js
 address of geeksforgeeks.org is "52.25.109.230" family: IPv4
 
 ```
 
 **例 2:**
 
-```
+```js
 // Include 'dns' module and create its object
 var dns = require('dns');
 
@@ -55,7 +55,7 @@ dns.lookup('www.geeksforgeeks.org', 
 **输出:**
 ![](img/676e973a40ecf9a0636e8a3bb30b4c27.png)
 
-```
+```js
 address: 52.222.176.140
 reverse for 52.222.176.140: ["server-52-222-176-140.bom52.r.cloudfront.net"]
 

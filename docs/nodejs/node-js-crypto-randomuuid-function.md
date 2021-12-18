@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const crypto.randomUUID([options])
 ```
 
@@ -18,7 +18,7 @@ const crypto.randomUUID([options])
 
 ## index.js
 
-```
+```js
 <script>
   // Node.js program to demonstrate the  
   // crypto.randomUUID() api
@@ -37,13 +37,13 @@ const crypto.randomUUID([options])
 
 使用以下命令运行 index.js 文件。
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 RFC 4122 Version 4 UUID : 88368f2a-d5db-47d8-a05f-534fab0a0045
 ```
 
@@ -51,7 +51,7 @@ RFC 4122 Version 4 UUID : 88368f2a-d5db-47d8-a05f-534fab0a0045
 
 ## index . js
 
-```
+```js
 <script>
   // Node.js program to demonstrate the  
   // crypto.randomUUID() api
@@ -67,13 +67,13 @@ RFC 4122 Version 4 UUID : 88368f2a-d5db-47d8-a05f-534fab0a0045
 
 使用以下命令运行 index.js 文件。
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 e2d3286f-2d8f-471a-bacb-1e5d28d8727e
 ```
 

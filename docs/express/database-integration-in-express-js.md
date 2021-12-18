@@ -10,7 +10,7 @@
 
 在您的终端中编写这些命令来启动一个节点应用程序，然后安装 express。请确保您已成功安装 npm。 **npm init** 会问你一些关于你的项目的配置，这非常容易提供。
 
-```
+```js
 npm init
 npm install express
 ```
@@ -23,7 +23,7 @@ npm install express
 
 ## java 描述语言
 
-```
+```js
 //Importing express module
 const express = require('express');
 
@@ -46,7 +46,7 @@ app.listen(PORT, (error) =>{
 
 在这一步中，我们将确认我们的服务器是否工作，在您的终端中编写这个命令来启动 express 服务器。服务器的成功启动表示我们的 express app 已准备好侦听指定路径上的连接(在我们的示例中为 *localhost:3000* )。
 
-```
+```js
 node app.js
 ```
 
@@ -65,7 +65,7 @@ node app.js
 
 *   安装 mongoose，这是一个基于“mongodb”本地驱动程序构建的包，用于与 MongoDB 实例进行交互，并对来自 express/node 应用程序的数据进行建模。
 
-```
+```js
 npm install mongoose
 ```
 
@@ -84,7 +84,7 @@ npm install mongoose
 
 ## java 描述语言
 
-```
+```js
 //Importing modules
 const express = require('express');
 const mongoose = require('mongoose');
@@ -122,7 +122,7 @@ mongoose.connect('mongodb://localhost:27017/ExpressIntegration')
 
 *   为 express/node 应用程序安装 mysql 驱动程序。
 
-```
+```js
 npm install mysql
 ```
 
@@ -142,7 +142,7 @@ npm install mysql
 
 ## java 描述语言
 
-```
+```js
 //Importing modules
 const express = require('express');
 const mysql = require('mysql');

@@ -10,7 +10,7 @@
 **STEP 1:** 使用以下命令
 创建一个**【package . JSON】**文件
 
-```
+```js
 npm init
 ```
 
@@ -23,7 +23,7 @@ npm init
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html>
 <head>

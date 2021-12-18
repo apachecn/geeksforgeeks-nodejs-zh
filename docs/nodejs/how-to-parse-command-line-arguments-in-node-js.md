@@ -14,7 +14,7 @@
 
 ## java 描述语言
 
-```
+```js
 for(let i = 0; i < process.argv.length; ++i) {
     console.log(`index ${i} argument -> ${process.argv[i]}`);
 }
@@ -22,7 +22,7 @@ for(let i = 0; i < process.argv.length; ++i) {
 
 通过传递参数，使用以下命令运行 **gfg.js** 文件:
 
-```
+```js
 node gfg.js I Love GeeksforGeeks
 ```
 
@@ -38,7 +38,7 @@ node gfg.js I Love GeeksforGeeks
 
 ## java 描述语言
 
-```
+```js
 // To trim first 2 elements
 const arg = process.argv.slice(2);
 
@@ -96,7 +96,7 @@ switch (arg[0]) {
 
 **方法 2:使用 yargs 模块:**通过 *cmd* 传递参数当我们开始处理标志或者如果您的服务器需要大量参数时，就会变得很乏味。
 
-```
+```js
 app -h host -p port -r -v -b --quiet -x -o outfile
 ```
 
@@ -104,7 +104,7 @@ app -h host -p port -r -v -b --quiet -x -o outfile
 
 使用以下命令安装 **yargs** 模块:
 
-```
+```js
 npm install yargs --save
 ```
 
@@ -112,7 +112,7 @@ npm install yargs --save
 
 ## java 描述语言
 
-```
+```js
 const args = require('yargs').argv;
 console.log(args);
 console.log(`Language : ${args.language}`);

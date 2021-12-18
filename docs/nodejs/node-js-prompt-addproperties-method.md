@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 prompt.addProperties(object, Array[keys], callbackfunction)
 
 ```
@@ -21,14 +21,14 @@ prompt.addProperties(object, Array[keys], callbackfunction)
 
 1.  您可以访问[安装](https://www.npmjs.com/package/prompt)这个模块的链接。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install prompt
 
     ```
 
 2.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-```
+```js
 node index.js
 
 ```
@@ -39,7 +39,7 @@ node index.js
 
 **文件名索引. js**
 
-```
+```js
 const prompt = require('prompt');
 
 // Start the prompt
@@ -66,14 +66,14 @@ prompt.addProperties(user, ['email', 'age'], (err, user) => {
 **运行该程序的步骤:**
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```
 
 **输入:**
 
-```
+```js
 gfg112@gmail.com
 prompt: age: 12
 
@@ -81,7 +81,7 @@ prompt: age: 12
 
 **输出:**
 
-```
+```js
 prompt: email:  test@gmail.com
 prompt: age:  12
 { name: 'GFG', country: 'India', email: 'test@gmail.com', age: '12' }

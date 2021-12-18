@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```js
 util.getSystemErrorName( err )
 ```
 
@@ -28,7 +28,7 @@ util.getSystemErrorName( err )
 
 **例 1:**
 
-```
+```js
 // Importing File System module
 const fs = require('fs')
 
@@ -50,7 +50,7 @@ fs.readdir('file/not/exist', (err, files) => {
 
 **输出:**
 
-```
+```js
 Error Name --> ENOENT
 Error Code --> 4058
 
@@ -60,7 +60,7 @@ Error Code --> 4058
 
 **例 2:**
 
-```
+```js
 // Importing File System module
 const fs = require('fs')
 
@@ -82,7 +82,7 @@ fs.readdir('./index.js', (err, files) => {
 
 **输出:**
 
-```
+```js
 Error Name --> ENOTDIR
 Error Code --> 4052
 

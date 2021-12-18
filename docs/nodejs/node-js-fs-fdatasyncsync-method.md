@@ -12,7 +12,7 @@ fdatasync()和 [fdatasync()](https://www.geeksforgeeks.org/node-js-fs-fdatasync-
 
 **语法:**
 
-```
+```js
 // Require fs module at the top of this .js file
 const fs = require('fs');
 
@@ -27,7 +27,7 @@ fs.fdatasyncSync(fd);
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the 
 // fs.fdatasyncSync() method 
 
@@ -64,7 +64,7 @@ fs.open('data.js', "a+", (err, fd) => { 
 
 **输出:**
 
-```
+```js
 Writing 'data' in 'data.js'
 ```
 

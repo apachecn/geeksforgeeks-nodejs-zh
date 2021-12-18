@@ -5,7 +5,7 @@
 **crypto.createDiffieHellman()方法**用于通过使用所述质数和可选的指定生成器来创建 DiffieHellman 密钥交换对象。
 **语法:**
 
-```
+```js
 crypto.createDiffieHellman( prime, primeEncoding,
                         generator, generatorEncoding )
 ```
@@ -25,7 +25,7 @@ crypto.createDiffieHellman( prime, primeEncoding,
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.createDiffieHellman() method
 
@@ -55,7 +55,7 @@ console.log("Alice prime (p):",
 
 **输出:**
 
-```
+```js
 Alice prime (p): 0a134b
 Alice generator (G): 02
 ```
@@ -64,7 +64,7 @@ Alice generator (G): 02
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.createDiffieHellman() method
 
@@ -89,7 +89,7 @@ console.log(g);
 
 **输出:**
 
-```
+```js
 // Buffer 22 4a 58 5b
 // Buffer 02
 ```

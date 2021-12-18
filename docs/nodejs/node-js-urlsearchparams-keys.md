@@ -6,7 +6,7 @@
 
 **语法:**
 
-```html
+```jshtml
 searchParams.keys();
 ```
 
@@ -14,7 +14,7 @@ searchParams.keys();
 
 **例 1:**
 
-```html
+```jshtml
 var searchParams = new URLSearchParams("keyA=valueA&keyB=valueB"); 
 
 // Display the key/value pairs 
@@ -25,14 +25,14 @@ for(var key of searchParams.keys()) { 
 
 **输出:**
 
-```html
+```jshtml
 keyA
 keyB
 ```
 
 **范例 2:**
 
-```html
+```jshtml
 var searchParams = new URLSearchParams("name=john&age=18"); 
 
 // Display the key/value pairs 
@@ -43,7 +43,7 @@ for(var key of searchParams.keys()) { 
 
 **输出:**
 
-```html
+```jshtml
 name
 age
 ```

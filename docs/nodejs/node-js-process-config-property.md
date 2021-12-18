@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.config
 ```
 
@@ -16,7 +16,7 @@ process.config
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // process.config Property
 
@@ -29,7 +29,7 @@ console.log(process.config);
 
 **输出:**
 
-```
+```js
 { target_defaults:
    { cflags: [],
      default_configuration: 'Release',
@@ -105,7 +105,7 @@ console.log(process.config);
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // process.config Property
 
@@ -131,7 +131,7 @@ console.log("total no of configuration available is "
 
 **输出:**
 
-```
+```js
 target_defaults
         cflags=>
         default_configuration=>Release

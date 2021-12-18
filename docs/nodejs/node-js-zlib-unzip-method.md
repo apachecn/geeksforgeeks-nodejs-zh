@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.unzip( buffer, options, callback )
 ```
 
@@ -21,7 +21,7 @@ zlib.unzip( buffer, options, callback )
 
 ****例 1:****
 
- **```
+ **```js
 // Node.js program to demonstrate the     
 // unzip() method
 
@@ -48,14 +48,14 @@ console.log("Data Decompressed...");
 
 ****输出:****
 
-```
+```js
 Data Decompressed...
 GfG 
 ```
 
 ****例 2:****
 
- **```
+ **```js
 // Node.js program to demonstrate the     
 // unzip() method
 
@@ -82,7 +82,7 @@ console.log("Data Decompressed...");
 
 ****输出:****
 
-```
+```js
 Data Decompressed...
 R2ZH 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.readUInt16LE( offset )
 ```
 
@@ -18,7 +18,7 @@ Buffer.readUInt16LE( offset )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // Buffer.readUInt16LE() method 
 
@@ -38,7 +38,7 @@ console.log(buf.readUInt16BE(2).toString(16));
 
 **输出:**
 
-```
+```js
 700
 406
 101
@@ -47,7 +47,7 @@ console.log(buf.readUInt16BE(2).toString(16));
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // Buffer.readUInt16LE() method 
 
@@ -67,7 +67,7 @@ console.log(buf.readUInt16BE(10).toString(16));
 
 **输出:**
 
-```
+```js
 1424
 2556
 RangeError [ERR_OUT_OF_RANGE]: The value of "offset" is out ofrange. 

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 util.types.isBoxedPrimitive( value )
 ```
 
@@ -22,7 +22,7 @@ util.types.isBoxedPrimitive( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // util.types.isBoxedPrimitive() method
 
@@ -68,7 +68,7 @@ console.log("Value is a boxed primitive:", isBoxed);
 
 **输出:**
 
-```
+```js
 Value: GeeksforGeeks
 Value is a boxed primitive: false
 Value: [String: 'GeeksforGeeks']
@@ -85,7 +85,7 @@ Value is a boxed primitive: true
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // util.types.isBoxedPrimitive() method
 
@@ -105,7 +105,7 @@ isBoxed = util.types.isBoxedPrimitive(symbolObj);
 console.log("Value is a boxed primitive:", isBoxed);
 ```
 
-```
+```js
 Value: Symbol(geeks)
 Value is a boxed primitive: false
 Value: [Symbol: Symbol(geeks)]

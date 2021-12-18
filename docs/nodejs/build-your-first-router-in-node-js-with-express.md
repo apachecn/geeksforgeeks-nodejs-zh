@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```js
 express.Router( [options] )
 ```
 
@@ -24,7 +24,7 @@ express.Router( [options] )
 
 **安装模块:**
 
-```
+```js
 npm install express
 ```
 
@@ -38,7 +38,7 @@ npm install express
 
 ## Home.js
 
-```
+```js
 // Importing express module
 const express=require("express")
 const router=express.Router()
@@ -56,7 +56,7 @@ module.exports=router
 
 ## log in . js-登入
 
-```
+```js
 // Importing the module
 const express=require("express")
 
@@ -74,7 +74,7 @@ module.exports=router
 
 ## Index.js
 
-```
+```js
 const express=require("express")
 // Importing all the routes
 const homeroute=require("./routes/Home.js")
@@ -93,7 +93,7 @@ app.listen((3000),()=>{
 
 **运行应用程序的步骤:**打开终端，使用以下命令运行 **index.js** :
 
-```
+```js
 node index.js
 ```
 

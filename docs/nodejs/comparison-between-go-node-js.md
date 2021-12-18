@@ -19,7 +19,7 @@
 
 ## 去
 
-```
+```js
 package main
 
 import "fmt"
@@ -33,7 +33,7 @@ func main() {
 
 **输出:**
 
-```
+```js
 GeeksforGeeks
 ```
 
@@ -55,7 +55,7 @@ GeeksforGeeks
 
 ## java 描述语言
 
-```
+```js
 const http = require("http");
 const hostname = "127.0.0.1";
 const port = 3000;
@@ -75,7 +75,7 @@ server.listen(port, hostname, () => {
 
 **输出:**
 
-```
+```js
 GeeksforGeeks
 ```
 

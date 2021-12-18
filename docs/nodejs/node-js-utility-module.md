@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 var util = require('util');
 ```
 
@@ -17,13 +17,13 @@ node . js 中存在的各种实用程序模块如下:
 
 **语法:**
 
-```
+```js
 var os = require('os');
 ```
 
 **示例:**
 
-```
+```js
 // Require operating System module
 var os = require("os"); 
 
@@ -47,13 +47,13 @@ console.log('Available memory : ' + os.availmem() + " bytes.");
 
 **语法:**
 
-```
+```js
 var path = require('path');
 ```
 
 **示例:**
 
-```
+```js
 // Require path
 var path = require('path');
 
@@ -71,13 +71,13 @@ console.log('extension:' + path.extname('paths.js'));
 
 **语法:**
 
-```
+```js
 var dns = require('dns');
 ```
 
 **示例:**
 
-```
+```js
 // Require dns module
 const dns = require('dns'); 
 
@@ -93,7 +93,7 @@ dns.lookup(website, (err, address, family) => { 
 
 **输出:**
 
-```
+```js
 Address of www.geeksforgeeks.org is "203.92.39.72"
 family: IPv4
 
@@ -103,13 +103,13 @@ family: IPv4
 
 **语法:**
 
-```
+```js
 var net = require('net');
 ```
 
 **示例:**此示例包含服务器端的代码。
 
-```
+```js
 // Require net module
 var net = require('net'); 
 
@@ -127,13 +127,13 @@ server.listen(8080, function() { 
 
 **输出:**
 
-```
+```js
 Server listening
 ```
 
 **示例:**该示例包含网络模块中客户端的。
 
-```
+```js
 var net = require('net');
 
 var client = net.connect(8124, function() { 
@@ -153,7 +153,7 @@ client.on('end', function() {
 
 **输出:**
 
-```
+```js
 Client Connected 
 GeeksforGeeks
 Server Disconnected
@@ -167,7 +167,7 @@ Server Disconnected
 
 **语法:**
 
-```
+```js
 var domain = require('domain');
 ```
 
@@ -175,7 +175,7 @@ var domain = require('domain');
 
 **语法:**
 
-```
+```js
 var domain = require('domain');
 var child = domain.create();
 
@@ -183,7 +183,7 @@ var child = domain.create();
 
 **示例:**
 
-```
+```js
 var EventEmitter = require("events").EventEmitter; 
 var domain = require("domain");
 var emit_a = new EventEmitter();

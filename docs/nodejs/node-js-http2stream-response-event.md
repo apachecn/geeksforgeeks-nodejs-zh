@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Event: 'response'
 
 ```
@@ -21,7 +21,7 @@ Event: 'response'
 
 **2。文件名:公共证书**打开记事本复制粘贴以下密钥，将文件保存为 ***公共证书 pem***
 
-```
+```js
 -----BEGIN CERTIFICATE-----
 MIICfzCCAegCCQDxxeXw914Y2DANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMC
 SU4xEzARBgNVBAgMCldlc3RiZW5nYWwxEDAOBgNVBAcMB0tvbGthdGExFDASBgNV
@@ -45,7 +45,7 @@ hWF6W2H9+MAlU7yvtmCQQuZmfQ==
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // response event method
 
@@ -115,13 +115,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 status : 200
 Received: surprise !!!
 client destroyed
@@ -133,7 +133,7 @@ server destroyed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // response event method
 
@@ -189,13 +189,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 status :  [Object: null prototype] {   
   ':status': 200,
   date: 'Tue, 10 Nov 2020 15:54:51 GMT'

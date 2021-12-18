@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 setTimeout(function, milliseconds);
 ```
 
@@ -18,7 +18,7 @@ setTimeout(function, milliseconds);
 
 ## 等等. js
 
-```
+```js
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }

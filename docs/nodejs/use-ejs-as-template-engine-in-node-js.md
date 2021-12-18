@@ -6,7 +6,7 @@
 
 **EJS:** EJS 或 Embedded Javascript Templating 是 Node.js 使用的一个模板引擎，模板引擎帮助用最少的代码创建一个 HTML 模板。此外，它可以在客户端将数据注入到 HTML 模板中，并生成最终的 HTML。EJS 是一种简单的模板语言，用于生成带有普通 JavaScript 的 HTML 标记。它还有助于将 JavaScript 嵌入到 HTML 页面中。首先，使用 EJS 作为模板引擎，我们需要使用给定的命令安装 EJS:
 
-```
+```js
 npm install ejs --save
 ```
 
@@ -15,7 +15,7 @@ npm install ejs --save
 
 ## java 描述语言
 
-```
+```js
 // Set express as Node.js web application
 // server framework.
 // To install express before using it as
@@ -32,7 +32,7 @@ EJS 的默认行为是在“视图”文件夹中查找要渲染的模板。因�
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html>
 

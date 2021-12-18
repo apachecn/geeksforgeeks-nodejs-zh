@@ -18,7 +18,7 @@ HTTP 请求意味着要么从指定的 URI 检索数据，要么将数据推送�
 
 **导入模块:**
 
-```
+```js
 const http = require("http")
 ```
 
@@ -26,7 +26,7 @@ const http = require("http")
 
 ## java 描述语言
 
-```
+```js
 // Importing http module
 const http = require("http")
 
@@ -53,7 +53,7 @@ server.listen((3000),() => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -69,7 +69,7 @@ node index.js
 
 **安装模块:**使用以下命令安装模块:
 
-```
+```js
 npm install express.js
 ```
 
@@ -77,7 +77,7 @@ npm install express.js
 
 ## java 描述语言
 
-```
+```js
 // Requiring module
 const express = require("express");
 
@@ -113,13 +113,13 @@ app.listen(3000, () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Server is Running
 ```
 
@@ -131,7 +131,7 @@ Server is Running
 
 **安装模块:**使用以下命令安装模块:
 
-```
+```js
 npm install axios
 ```
 
@@ -139,7 +139,7 @@ npm install axios
 
 ## java 描述语言
 
-```
+```js
 // Importing the axios module
 const axios = require('axios');
 
@@ -170,7 +170,7 @@ const addUser = async () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

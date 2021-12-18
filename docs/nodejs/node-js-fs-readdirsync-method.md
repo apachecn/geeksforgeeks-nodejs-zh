@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.readdirSync( path, options )
 ```
 
@@ -23,7 +23,7 @@ fs.readdirSync( path, options )
 
 **示例 1:** 本示例使用 fs.readdirSync()方法返回目录中的文件名或文件对象。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.readdirSync() method
 
@@ -53,7 +53,7 @@ fileObjs.forEach(file => {
 
 **输出:**
 
-```
+```js
 Current directory filenames:
 CONTRUBUTIONS.txt
 index.html
@@ -71,7 +71,7 @@ Dirent { name: 'README.md', [Symbol(type)]: 1 }
 
 **示例 2:** 本示例使用 fs.readdirSync()方法只返回带有“.”的文件名。md "分机。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.readdirSync() method
 
@@ -92,7 +92,7 @@ files.forEach(file => {
 
 **输出:**
 
-```
+```js
 Filenames with the .md extension:
 README.md
 ```

@@ -11,20 +11,20 @@ cookie 是随请求发送到客户端的一段数据，由用户当前使用的�
 会话使用秘密标识向所有服务器发出请求。信息存储在链接到此机密标识的服务器上。
 为了在我们的应用程序中使用 cookie，使用了 **cookie 解析器中间件**。要安装它，请编写以下命令–
 
-```
+```js
 npm install cookie-parser@latest --save
 ```
 
 另外，要安装**快速中间件**，请编写以下命令–
 
-```
+```js
 npm install express@latest --save
 ```
 
 这些命令将安装最新版本的 cookie-parser 和 express。
 Cookie 解析器中间件用于解析客户端向服务器发出的请求所附带的 Cookie。因此，为了使用 cookie 解析器，我们将在 JavaScript 文件中编写以下代码行——
 
-```
+```js
 const cookieParser = require('cookie-parser');
 const express = require('express')
 
@@ -34,7 +34,7 @@ app.use(cookieParser());
 
 让我们看一个如何设置新 cookie 的例子。创建一个名为“index.js”的新文件。要为 cookie 设置和分配名称，请遵循以下代码–
 
-```
+```js
 const express = require('express');
 const cookieParser = require('cookie-parser');
 
@@ -53,31 +53,31 @@ app.listen(3000, (err) => {
 在这里，我们将 cookie 发送到新的路由，并将 cookie 的名称设置为“GeeksForGeeks”。在最后一段代码中，我们的服务器正在监听带有回调函数的端口 3000。如果出现错误，回调函数将返回错误，否则将返回“成功”。
 现在，使用命令运行以下代码–
 
-```
+```js
 node index.js
 ```
 
 要检查是否设置了 cookie，只需在成功设置服务器后转到[这个](http://localhost:3000/)链接。打开控制台，将命令写成–
 
-```
+```js
 document.cookie
 ```
 
 您将获得如下输出–
 
-```
+```js
 "name=GeeksForGeeks"
 ```
 
 此外， **cookie 解析器中间件**用发送到服务器的名称填充 **req.cookies** 。在这里，在我们的例子中，我们可以在我们的路由中添加以下代码行–
 
-```
+```js
 console.log(req.cookies)
 ```
 
 上一行的输出将是–
 
-```
+```js
 { name: 'GeeksForGeeks' }
 ```
 
@@ -110,7 +110,7 @@ console.log(req.cookies)
 
 ##### 未签名的 Cookie
 
-```
+```js
 const express = require('express');
 const cookieParser = require('cookie-parser');
 
@@ -130,13 +130,13 @@ app.listen(3000, (err) => {
 
 上述代码的输出将是–
 
-```
+```js
 "name=GeeksForGeeks"
 ```
 
 ##### 签名 Cookie
 
-```
+```js
 var express = require('express')
 var cookieParser = require('cookie-parser')
 
@@ -158,6 +158,6 @@ app.listen(3000, (err) => {
 在第 7 行–cookie 的名称设置为“GeeksForGeeks”，签名的对象设置为 true。
 上述代码的输出将是–
 
-```
+```js
 { name: 'GeeksForGeeks' }
 ```

@@ -23,7 +23,7 @@
 
 **模块安装:**使用以下命令安装所需的模块。
 
-```
+```js
 npm i -g  node-gyp
 ```
 
@@ -35,7 +35,7 @@ npm i -g  node-gyp
 
 **文件名:binding.gyp**
 
-```
+```js
 {
   "targets": [
       {
@@ -48,7 +48,7 @@ npm i -g  node-gyp
 
 ## calculate.cc
 
-```
+```js
 #include <node.h>
 #include <iostream>
 
@@ -86,7 +86,7 @@ namespace calculate {
 
 ## app.js
 
-```
+```js
 // Require addons
 const calculate = require('./build/Release/calculate');
 
@@ -115,14 +115,14 @@ console.timeEnd('js');
 
 **运行应用程序的步骤:**要构建和配置，请运行以下命令。
 
-```
+```js
 node-gyp configure build 
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 c++: 1.184s
 js: 1.207s
 ```

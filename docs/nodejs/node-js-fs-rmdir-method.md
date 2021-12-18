@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.rmdir( path, options, callback )
 ```
 
@@ -26,7 +26,7 @@ fs.rmdir( path, options, callback )
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.rmdir() method
 
@@ -58,7 +58,7 @@ function getCurrentFilenames() {
 
 **输出:**
 
-```
+```js
 Current filenames:
 directory_one
 index.js
@@ -74,7 +74,7 @@ package.json
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.rmdir() method
 
@@ -128,7 +128,7 @@ function getCurrentFilenames() {
 
 **输出:**
 
-```
+```js
 Current filenames:
 directory_one
 index.js

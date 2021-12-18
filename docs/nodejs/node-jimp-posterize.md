@@ -5,7 +5,7 @@
 **简介**:**后置()**功能是 Nodejs | Jimp 中的一个内置功能，应用了 **n** 级别的后置效果。
 **语法:**
 
-```
+```js
 posterize(n, cb)
 ```
 
@@ -22,13 +22,13 @@ posterize(n, cb)
 
 ### 步骤 1:设置环境
 
-```
+```js
 npm init -y
 ```
 
 ### 第二步:安装*跳*
 
-```
+```js
 npm install jimp --save
 ```
 
@@ -36,7 +36,7 @@ npm install jimp --save
 
 ## java 描述语言
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');
@@ -62,7 +62,7 @@ main();
 
 ## java 描述语言
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');

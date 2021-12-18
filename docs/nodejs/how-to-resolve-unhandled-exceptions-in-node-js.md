@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```js
 try {
 
     // The synchronous code that
@@ -25,7 +25,7 @@ try {
 
 **注意:**但是，注意不要在异步代码中使用 try-catch，因为异步抛出的错误不会被捕获。
 
-```
+```js
 try {
     setTimeout(function() {
         var err = new Error('Hello')
@@ -56,7 +56,7 @@ catch (err) {
 
 **示例:**
 
-```
+```js
 process.on('uncaughtException', function(err) {
 
     // Handle the error safely

@@ -18,7 +18,7 @@
 
 **示例:**
 
-```
+```js
 // Normal Function
 function add(a,b){
     return a+b;
@@ -34,7 +34,7 @@ async function asyncadd(a,b){
 
 **异步打开和写入文件内容**
 
-```
+```js
 // load http module
 var http = require('http');
 var fs = require('fs');

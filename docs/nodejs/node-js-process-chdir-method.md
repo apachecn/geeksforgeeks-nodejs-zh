@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.chdir( directory )
 ```
 
@@ -20,7 +20,7 @@ process.chdir( directory )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // process.chdir() Method
 
@@ -41,14 +41,14 @@ try {
 
 **输出:**
 
-```
+```js
 directory has successfully been changed
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // process.chdir() Method
 
@@ -74,7 +74,7 @@ try {
 
 **输出:**
 
-```
+```js
 current working directory: C:\nodejs\g\process
 working directory after changing: C:\nodejs\g\os
 

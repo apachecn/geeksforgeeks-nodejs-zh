@@ -8,7 +8,7 @@
 
 **安装模块:**
 
-```
+```js
 node install mongodb
 ```
 
@@ -18,7 +18,7 @@ node install mongodb
 
 **在本地 IP 上运行服务器:数据是 MongoDB 服务器所在的目录。**
 
-```
+```js
 mongod --dbpath=data --bind_ip 127.0.0.1
 ```
 
@@ -26,7 +26,7 @@ mongod --dbpath=data --bind_ip 127.0.0.1
 
 **MongoDB 数据库:**
 
-```
+```js
 Database:GFG
 Collection:helloworld
 ```
@@ -37,7 +37,7 @@ Collection:helloworld
 
 ## java 描述语言
 
-```
+```js
 const MongoClient = require("mongodb"); 
 const url = 'mongodb://localhost:27017/'; 
 const databasename = "GFG";// Database name 

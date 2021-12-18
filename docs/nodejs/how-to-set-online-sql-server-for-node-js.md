@@ -8,19 +8,19 @@
 
 1.  您可以访问链接[安装 sql 模块](https://www.npmjs.com/package/sql)。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install sql
     ```
 
 2.  安装 sql 后，您可以使用命令在命令提示符下检查您的 sql 版本。
 
-    ```
+    ```js
     npm version sql
     ```
 
 3.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-    ```
+    ```js
     node index.js
     ```
 
@@ -31,7 +31,7 @@
 
 **文件名:index.js**
 
-```
+```js
 const mysql = require('mysql')
 
 const connection = mysql.createConnection({
@@ -53,13 +53,13 @@ connection.query('SELECT NOW()', function(error, result){
     ![project structure](img/cba85985081724c6c7a545aefdbdebad.png)
 2.  确保您需要使用以下命令安装 SQL:
 
-    ```
+    ```js
     npm install sql
     ```
 
 3.  Run index.js file using below command:
 
-    ```
+    ```js
     node index.js
     ```
 

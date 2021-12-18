@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 response.connection
 ```
 
@@ -18,7 +18,7 @@ response.connection
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the  
 // response.connection APi
 
@@ -56,13 +56,13 @@ httpServer.listen(PORT, () => { 
 
 **执行命令:**
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 Server is running at port 3000...
 displaying the result...
 displaying the result...
@@ -77,7 +77,7 @@ T3】
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the  
 // response.connection APi
 
@@ -113,13 +113,13 @@ var httpServer = http.createServer(
 
 **执行命令:**
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 Server is running at port 3000...
 displaying the result...
 displaying the result...

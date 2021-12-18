@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.setUncaughtExceptionCaptureCallback( callback_function )
 ```
 
@@ -22,7 +22,7 @@ process.setUncaughtExceptionCaptureCallback( callback_function )
 
 ## java 描述语言
 
-```
+```js
 // Allocating process module
 const process = require('process');
 
@@ -45,7 +45,7 @@ console.log(process.hasUncaughtExceptionCaptureCallback());
 
 **输出:**
 
-```
+```js
 false
 true
 ```
@@ -54,7 +54,7 @@ true
 
 ## java 描述语言
 
-```
+```js
 // Allocating process module
 const process = require('process');
 
@@ -112,7 +112,7 @@ if (process.hasUncaughtExceptionCaptureCallback()) {
 
 **输出:**
 
-```
+```js
 no callback has been set using process.setUncaughtExceptionCaptureCallback() method
 a callback has been set using process.setUncaughtExceptionCaptureCallback() method
 no callback has been set using process.setUncaughtExceptionCaptureCallback() method

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.copyFile( src, dest, mode, callback )
 ```
 
@@ -30,7 +30,7 @@ fs.copyFile( src, dest, mode, callback )
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.copyFile() method
 
@@ -70,7 +70,7 @@ function getCurrentFilenames() {
 
 **输出:**
 
-```
+```js
 Current filenames:
 example_file.txt
 index.js
@@ -89,7 +89,7 @@ File Contents of copied_file: This is a test file.
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.copyFile() method
 
@@ -130,7 +130,7 @@ function getCurrentFilenames() {
 
 **输出:**
 
-```
+```js
 Current filenames:
 copied_file.txt
 example_file.txt

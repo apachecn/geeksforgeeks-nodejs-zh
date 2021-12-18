@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crypto.hkdfSync(digest, key, salt, info, keylen)
 ```
 
@@ -24,7 +24,7 @@ crypto.hkdfSync(digest, key, salt, info, keylen)
 
 ## app.js
 
-```
+```js
 // Node.js program to demonstrate the
 //  crypto.hkdfSync() Method.
 
@@ -40,7 +40,7 @@ console.log(Key);
 
 **输出:**
 
-```
+```js
 ArrayBuffer {
  [Uint8Contents]: <24 15 6e 2c 35 52 5b 
  aa f3 d0 fb b9 2b 73 4c 80 32 a1 10 a3 f1 2e 
@@ -55,7 +55,7 @@ ArrayBuffer {
 
 ## app . js
 
-```
+```js
 // Node.js program to demonstrate the
 // crypto.hkdfSync() Method.
 
@@ -71,7 +71,7 @@ console.log(Buffer.from(Key).toString('hex'));
 
 **输出:**
 
-```
+```js
 24156e2c35525baaf3d0fbb92b734c80
 ```
 
@@ -79,7 +79,7 @@ console.log(Buffer.from(Key).toString('hex'));
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // crypto.hkdfSync() Method.
 
@@ -95,7 +95,7 @@ console.log(Buffer.from(Key).toString('base64'));
 
 **输出:**
 
-```
+```js
 JBVuLDVSW6rz0Pu5K3NMgDKhEKPxLiWW5EHhkkhw2Ew=
 ```
 
@@ -103,7 +103,7 @@ JBVuLDVSW6rz0Pu5K3NMgDKhEKPxLiWW5EHhkkhw2Ew=
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // crypto.hkdfSync() Method.
 
@@ -119,7 +119,7 @@ console.log(Buffer.from(Key).toString('ascii'));
 
 **输出:**
 
-```
+```js
 $n,5R[*sP{9+sL 2!#q.%dAaHpXL
 ```
 

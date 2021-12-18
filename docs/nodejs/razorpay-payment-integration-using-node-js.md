@@ -21,7 +21,7 @@
 
 **步骤 1：**首先在您的终端中编写此命令，以创建一个 NodeJS 应用程序。
 
-```
+```js
 npm init
 ```
 
@@ -29,7 +29,7 @@ npm init
 
 **步骤 2：**现在，安装所需的模块
 
-```
+```js
 npm install express         //To run nodejs server 
 npm install razorpay        //To use razorpay utilities
 ```
@@ -48,7 +48,7 @@ npm install razorpay        //To use razorpay utilities
 
 ## **App.js**
 
-```
+```js
 // Inside app.js 
 const express = require('express');
 const Razorpay = require('razorpay'); 
@@ -79,7 +79,7 @@ app.listen(PORT, ()=>{
 
 ## **Index.html**
 
-```
+```js
 <!-- Inside index.html -->
 <!DOCTYPE html>
 <html lang="en">
@@ -139,7 +139,7 @@ app.listen(PORT, ()=>{
 
 ## **App.js**
 
-```
+```js
 //Inside app.js
 app.post('/createOrder', (req, res)=>{ 
 
@@ -195,7 +195,7 @@ app.post('/createOrder', (req, res)=>{ 
 
 ## **Index.html**
 
-```
+```js
 <!--Inside index.html -->
 <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 <script>
@@ -299,7 +299,7 @@ app.post('/createOrder', (req, res)=>{ 
 
 **现在使用**SHA256 算法，**它是一个密码函数，它接收一些参数并返回密码散列，稍后可以使用该散列根据作为参数给出的密码来验证某些东西。 根据**预定义的 Razorpay 语法**构造一个**HMAC 十六进制**摘要：**
 
-```
+```js
 generated_signature = **HMAC-SHA256(order_id + "|" + razorpay_payment_id, secret);**
 //HMAC-SHA256:- This is just a naming convention, HMAC-X means the X cryptographic 
 //function has been used to calculate this hash 
@@ -313,7 +313,7 @@ if (**generated_signature === razorpay_signature**) {
 
 ## **App.js**
 
-```
+```js
 //Inside app.js
 app.post('/verifyOrder',  (req, res)=>{ 
 

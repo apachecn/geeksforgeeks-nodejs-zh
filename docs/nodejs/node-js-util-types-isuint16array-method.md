@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const util = require('util');
 util.types.isUint16Array( value )
 
@@ -22,7 +22,7 @@ util.types.isUint16Array( value )
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the
 // util.types.isUint16Array() method
 
@@ -68,7 +68,7 @@ console.log("7.>", util.types.isUint16Array(
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -90,7 +90,7 @@ node index.js
 
 **示例 2:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.types.isUint16Array() method 
 
@@ -151,7 +151,7 @@ else
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

@@ -4,7 +4,7 @@
 
 Node.js 中的链接可以使用异步 npm 模块来实现。为了安装异步模块，我们需要在目录中运行以下脚本:
 
-```
+```js
 npm init
 npm i async
 ```
@@ -17,7 +17,7 @@ npm i async
 **示例 1:并行链接**
 **文件名:index.js**
 
-```
+```js
 const async = require('async');
 
 async.parallel([
@@ -39,13 +39,13 @@ async.parallel([
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 This is the second function
 This is the first function
 [ 1, 2 ]
@@ -57,7 +57,7 @@ This is the first function
 **示例 2:系列链接**
 **文件名:index.js**
 
-```
+```js
 const async = require('async');
 
 async.series([
@@ -79,13 +79,13 @@ async.series([
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 This is the first function
 This is the second function
 [ 1, 2 ]

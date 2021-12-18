@@ -6,7 +6,7 @@
 **注意:**Windows 平台只支持写权限的更改。它也不支持区分用户、组或其他人的权限。
 **语法:**
 
-```
+```js
 fs.chmodSync( path, mode )
 ```
 
@@ -20,7 +20,7 @@ fs.chmodSync( path, mode )
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.chmodSync method
 
@@ -68,7 +68,7 @@ console.log("File Contents:",
 
 **输出:**
 
-```
+```js
 Giving only read permission to user
 Current File Mode: 33024
 File Contents: Hello
@@ -85,7 +85,7 @@ File Contents: World
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.chmodSync method
 
@@ -131,7 +131,7 @@ console.log("File Contents:", 
 
 **输出:**
 
-```
+```js
 Giving only read permission to everyone
 Current File Mode: 33060
 File Contents: Hello

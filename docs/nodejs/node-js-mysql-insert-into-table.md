@@ -8,7 +8,7 @@
 
 **初始化 Node.js 项目:**
 
-```
+```js
 npm init
 ```
 
@@ -16,7 +16,7 @@ npm init
 
 **安装模块:**
 
-```
+```js
 npm install express
 npm install mysql
 ```
@@ -29,7 +29,7 @@ npm install mysql
 
 **MySQL 数据库结构:**
 
-```
+```js
 gfg_db DATABASE.
 gfg_table (id INT AUTO_INCREMENT PRIMARY KEY, 
   name VARCHAR(255), address VARCHAR(255)).
@@ -37,7 +37,7 @@ gfg_table (id INT AUTO_INCREMENT PRIMARY KEY,
 
 ## sqlConnection.js
 
-```
+```js
 // Importing MySQL module
 const mysql = require("mysql");
 
@@ -65,7 +65,7 @@ module.exports = db_con;
 
 ## index.js
 
-```
+```js
 const express = require("express");
 const database = require('./sqlConnection');
 
@@ -89,7 +89,7 @@ app.get("/", (req, res) => {
 
 ## java 描述语言
 
-```
+```js
 // Function to insert single row values in
 // the database
 let singleRowInsert = () => {
@@ -117,7 +117,7 @@ let singleRowInsert = () => {
 
 **控制台输出:**
 
-```
+```js
 Row inserted with id = 1
 ```
 
@@ -125,7 +125,7 @@ Row inserted with id = 1
 
 ## java 描述语言
 
-```
+```js
 // Function to insert multiple Row in database
 let multipleRowInsert = () => {
 
@@ -156,6 +156,6 @@ let multipleRowInsert = () => {
 
 **控制台输出:**
 
-```
+```js
 All Rows Inserted
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 *array_name*.shift()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```js
 function shiftDemo()
 {
   arr.shift();
@@ -30,13 +30,13 @@ shiftDemo();
 
 **输出:**
 
-```
+```js
 [ 55, 87, 49, 78 ]
 ```
 
 **程序 2:**
 
-```
+```js
 function shiftDemo()
 {
   arr.shift();
@@ -48,13 +48,13 @@ shiftDemo();
 
 **输出:**
 
-```
+```js
 [ 'b' ]
 ```
 
 **程序 3:**
 
-```
+```js
 let Lang = ["Python", "C", "Java", "JavaScript"];
 while ((i = Lang.shift()) !== undefined) {
     Lang.shift();
@@ -64,6 +64,6 @@ console.log(Lang);
 
 **输出:**
 
-```
+```js
 []
 ```

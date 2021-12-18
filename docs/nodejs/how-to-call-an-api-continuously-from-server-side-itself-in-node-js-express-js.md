@@ -8,14 +8,14 @@
 
 **项目设置:**创建一个 NodeJS 项目，并使用以下命令对其进行初始化。
 
-```
+```js
 mkdir Project && cd Project
 npm init -y
 ```
 
 **模块安装:**使用以下命令安装所需模块，即 **ExpressJS** 和 **Axios** 。
 
-```
+```js
 npm i express axios
 ```
 
@@ -25,7 +25,7 @@ npm i express axios
 
 ## index.js
 
-```
+```js
 const express = require('express')
 const axios = require('axios')
 
@@ -60,7 +60,7 @@ setInterval(() => {
 
 使用以下命令运行**服务器**:
 
-```
+```js
 node index.js 
 ```
 
@@ -72,7 +72,7 @@ node index.js
 
 ## index.js
 
-```
+```js
 const express = require('express')
 const axios = require('axios')
 
@@ -126,7 +126,7 @@ posts.forEach(post => {
 
 使用以下命令运行**服务器**:
 
-```
+```js
 node index.js 
 ```
 

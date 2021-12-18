@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const request.complete
 ```
 
@@ -28,7 +28,7 @@ const request.complete
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerRequest.complete method
 
@@ -111,13 +111,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 request has not been completed, aborted, or destroyed
 status : 200
 Received: hello
@@ -130,7 +130,7 @@ server destroyed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerRequest.complete method
 
@@ -202,13 +202,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Received: request has not been completed, aborted, or destroyed
 client destroyed
 server destroyed

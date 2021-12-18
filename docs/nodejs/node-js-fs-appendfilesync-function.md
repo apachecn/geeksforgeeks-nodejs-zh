@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.appendFileSync( path, data, options])
 ```
 
@@ -23,7 +23,7 @@ fs.appendFileSync( path, data, options])
 
 **示例 1:** 该示例显示了给定文本到文件的追加。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.appendFileSync() method
 
@@ -43,7 +43,7 @@ console.log("\nFile Contents of file after append:",
 
 **输出:**
 
-```
+```js
 File Contents of file before append: Hello
 
 File Contents of file after append: Hello - Geeks For Geeks
@@ -52,7 +52,7 @@ File Contents of file after append: Hello - Geeks For Geeks
 
 **示例 2:** 该示例显示了可选参数的用法，用于更改操作的文件编码和标志。“w”标志代替文件的内容，而不是附加到它上面。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.appendFileSync() method
 
@@ -76,7 +76,7 @@ console.log("\nFile Contents of file after append:",
 
 **输出:**
 
-```
+```js
 File Contents of file before append: This is a test file
 
 File Contents of file after append: This is the appended text

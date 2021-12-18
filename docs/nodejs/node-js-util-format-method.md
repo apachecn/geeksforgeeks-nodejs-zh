@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 util.format(format[, ...args])
 ```
 
@@ -35,7 +35,7 @@ util.format(format[, ...args])
 
 ## java 描述语言
 
-```
+```js
 // Node.js to demonstrate the
 // util.format() method 
 
@@ -69,13 +69,13 @@ fun1(); 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 abc:
 :abc:def ghi jkl
 10 20 30
@@ -88,7 +88,7 @@ abc:
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate
 // the util.format() method 
 
@@ -161,13 +161,13 @@ console.log("11.>", 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 1.> %: abc def -0
 2.> % abc def ghi
 3.> abc 9.432132132122338e+28

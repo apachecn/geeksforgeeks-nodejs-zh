@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 script.runInThisContext( options )
 ```
 
@@ -18,7 +18,7 @@ script.runInThisContext( options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // script.runInThisContext() method
 
@@ -37,13 +37,13 @@ script.runInThisContext();
 
 **输出:**
 
-```
+```js
 I am an author?
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // script.runInThisContext() method
 
@@ -68,7 +68,7 @@ script.runInThisContext();
 
 **输出:**
 
-```
+```js
 57
 ```
 

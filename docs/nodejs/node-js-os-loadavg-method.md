@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 os.loadavg()
 ```
 
@@ -18,7 +18,7 @@ os.loadavg()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // os.loadavg() method 
 
@@ -32,14 +32,14 @@ console.log(os.loadavg());
 
 **输出:**
 
-```
+```js
 [ 13.42041015625, 12.95166015625, 12.72509765625 ]
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // os.loadavg() method 
 
@@ -53,14 +53,14 @@ console.log(os.loadavg());
 
 **输出:**
 
-```
+```js
 [ 0, 0, 0 ]
 
 ```
 
 **例 3:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // os.loadavg() method 
 
@@ -82,7 +82,7 @@ console.log("Load average (15 minute):"
 
 **输出:**
 
-```
+```js
 Load average (1 minute):15.87158203125
 Load average (5 minute):14.193359375
 Load average (15 minute):13.365234375

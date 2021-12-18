@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```js
 fs.watchFile(filename[, options], listener)
 ```
 
@@ -30,7 +30,7 @@ fs.watchFile(filename[, options], listener)
 以下示例说明了 Node.js:
 **示例 1:** 中的 **fs.watchFile()方法**本示例显示了 watchFile()方法及其参数的用法。
 
-```
+```js
 // Node.js program to demonstrate
 // the fs.watchFile() method
 
@@ -86,7 +86,7 @@ setTimeout(
 
 **输出:**
 
-```
+```js
 The file was edited
 Previous Modified Time 2020-05-30T07:52:14.587Z
 Current Modified Time 2020-05-30T08:01:40.948Z
@@ -101,7 +101,7 @@ The contents of the current file are: File Contents are Edited Again
 
 **示例 2:** 本示例显示了文件被重命名，然后又被重命名回其原始名称，导致文件消失和重新出现时的文件修改时间。
 
-```
+```js
 // Node.js program to demonstrate 
 // the fs.watchFile() method
 
@@ -131,7 +131,7 @@ setTimeout(
 
 **输出:**
 
-```
+```js
 Previous Modification Time 2020-05-30T08:01:45.950Z
 Current Modification Time 1970-01-01T00:00:00.000Z
 

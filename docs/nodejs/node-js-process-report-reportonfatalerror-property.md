@@ -4,7 +4,7 @@
 
 **进程**对象是一个全局对象，它提供关于当前 Node.js 进程的信息和控制。作为一个全局变量，它始终对 Node.js 应用程序可用，而无需使用 require()。也可以使用 require()显式访问，如下所示:
 
-```
+```js
 const process = require('process');
 ```
 
@@ -12,7 +12,7 @@ const process = require('process');
 
 **语法:**
 
-```
+```js
 process.report.reportOnFatalError
 ```
 
@@ -26,7 +26,7 @@ process.report.reportOnFatalError
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // process.report.reportOnFatalError  
 
@@ -41,13 +41,13 @@ console.log(`Report on fatal error: 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Report on fatal error: false
 ```
 
@@ -55,7 +55,7 @@ Report on fatal error: false
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // process.report.reportOnFatalError  
 
@@ -72,13 +72,13 @@ console.log(`Report on fatal error: 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Report on fatal error: true
 ```
 

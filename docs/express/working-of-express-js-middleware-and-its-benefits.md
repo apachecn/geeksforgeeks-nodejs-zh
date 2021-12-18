@@ -14,7 +14,7 @@ Express.js 中有很多中间件功能，比如[express . js app . use()Function
 
 **语法:**
 
-```
+```js
 app.use(path,(req,res,next))
 ```
 
@@ -52,7 +52,7 @@ app.use(path,(req,res,next))
 
 使用以下命令安装快速模块:
 
-```
+```js
 npm install express
 ```
 
@@ -60,7 +60,7 @@ npm install express
 
 ## java 描述语言
 
-```
+```js
 // Requiring module
 const express = require("express");
 
@@ -90,7 +90,7 @@ app.listen(3000, () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -116,7 +116,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 // Requiring module
 var http = require('http');
 
@@ -154,7 +154,7 @@ http.createServer(function (req, res) {
 
 ## java 描述语言
 
-```
+```js
 // Requiring module
 const express = require("express"); 
 const app = express();
@@ -210,7 +210,7 @@ app.listen(3000, () => {
 
 ## ****超文本标记语言****
 
-```
+```js
 **<!DOCTYPE html>
 <html>
 
@@ -430,7 +430,7 @@ app.listen(3000, () => {
 
 ## ****java 描述语言****
 
-```
+```js
 **// Requiring module
 const express = require("express");
 const app = express();
@@ -453,7 +453,7 @@ app.listen((3000), () => {
 
 ****使用以下命令运行 **app.js** 文件:****
 
-```
+```js
 **node app.js**
 ```
 

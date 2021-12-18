@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 const util = require('util');
 util.types.isArrayBufferView(value);
 
@@ -24,7 +24,7 @@ util.types.isArrayBufferView(value);
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.types.isArrayBufferView() method 
 
@@ -65,7 +65,7 @@ console.log("7.>", util.types.isArrayBufferView(new Int8Array(8)));  
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```
@@ -88,7 +88,7 @@ node index.js
 
 **示例 2:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.types.isArrayBufferView() method 
 
@@ -153,7 +153,7 @@ else
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```

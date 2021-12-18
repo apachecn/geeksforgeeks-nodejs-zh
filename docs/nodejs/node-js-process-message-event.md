@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Event: 'message'
 ```
 
@@ -20,7 +20,7 @@ Event: 'message'
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // Process 'message' Event
 
@@ -39,7 +39,7 @@ process.send({ hello: 'world' });
 
 ## java 描述语言
 
-```
+```js
 // Importing process module
 const process = require('process');
 
@@ -52,13 +52,13 @@ process.on('message', (m) => {
 
 使用以下命令运行**索引. js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 CHILD got message: { hello: 'world' }
 ```
 
@@ -68,7 +68,7 @@ CHILD got message: { hello: 'world' }
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // Process 'message' Event
 
@@ -92,7 +92,7 @@ process.send({ hello: 'world' });
 
 ## java 描述语言
 
-```
+```js
 // Importing process module
 const process = require('process');
 
@@ -109,13 +109,13 @@ process.send({ foo: 'bar', baz: NaN });
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 CHILD got message: { hello: 'world' }
 PARENT got message: { foo: 'bar', baz: null }
 ```

@@ -8,13 +8,13 @@
 
 **步骤 1:** 创建一个“ *app.js* 文件，并使用 npm 初始化项目。
 
-```
+```js
 npm init
 ```
 
 **步骤 2:** 使用 npm install 安装 *md5* 和*提示* npm 包。
 
-```
+```js
 npm install md5
 npm install prompt
 ```
@@ -29,7 +29,7 @@ npm install prompt
 
 ## java 描述语言
 
-```
+```js
 // Prompt is used to take input from console
 const prompt = require("prompt");
 
@@ -65,7 +65,7 @@ hash();
 
 **步骤 4:** 使用以下命令运行 app.js 文件:
 
-```
+```js
 node app.js
 ```
 

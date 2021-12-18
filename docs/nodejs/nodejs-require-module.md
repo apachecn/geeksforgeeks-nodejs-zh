@@ -29,20 +29,20 @@
 
 ## module2.js
 
-```
+```js
 // Caching
 const mod = require('./module1.js')
 ```
 
 ## module1.js
 
-```
+```js
 console.log(require("module").wrapper);
 ```
 
 **输出:**
 
-```
+```js
 [
   '(function (exports, require, module, __filename, __dirname) { ',
   '\n});'
@@ -66,14 +66,14 @@ console.log(require("module").wrapper);
 
 ## module1.js
 
-```
+```js
 console.log("Hello GEEKSFORGEEKS");
 module.exports  = ()=> console.log("GeeksForGeeks is the best !!");
 ```
 
 ## module2.js
 
-```
+```js
 // Caching
 const mod = require('./module1.js');
 mod();
@@ -83,7 +83,7 @@ mod();
 
 **输出:**
 
-```
+```js
 Hello GEEKSFORGEEKS
 GeeksForGeeks is the best !!
 GeeksForGeeks is the best !!

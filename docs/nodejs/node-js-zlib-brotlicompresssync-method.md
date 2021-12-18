@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.brotliCompressSync( buffer, options )
 ```
 
@@ -21,7 +21,7 @@ zlib.brotliCompressSync( buffer, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // zlib.brotliCompressSync() method  
 
@@ -40,14 +40,14 @@ console.log(brotliCom);
 
 **输出:**
 
-```
+```js
 // Buffer 8b 04 80 30 31 32 33 34 35 36 37 38 39 03
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // zlib.brotliCompressSync() method  
 
@@ -66,7 +66,7 @@ console.log(brotliCom);
 
 **输出:**
 
-```
+```js
 8b04803031323334353637383903
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dnsPromises.resolveNs( hostname )
 ```
 
@@ -20,7 +20,7 @@ dnsPromises.resolveNs( hostname )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.resolveNs() method
 
@@ -37,7 +37,7 @@ dnsPromises.resolveNs('google.com').then((res) => {
 
 **输出:**
 
-```
+```js
 for google :
 [ 'ns2.google.com',
   'ns3.google.com',
@@ -49,7 +49,7 @@ for google :
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.resolveNs() method
 
@@ -73,7 +73,7 @@ const dnsPromises = dns.promises;
 
 **输出:**
 
-```
+```js
 from async:
 [ 'ns-1520.awsdns-62.org',
   'ns-869.awsdns-44.net',

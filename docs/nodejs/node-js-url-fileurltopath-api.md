@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 url.fileURLToPath( url )
 ```
 
@@ -18,7 +18,7 @@ url.fileURLToPath( url )
 
 **例 1:**
 
-```
+```js
 // Node program to demonstrate the 
 // URL.fileURLToPath() API as Setter
 
@@ -34,13 +34,13 @@ console.log(url.fileURLToPath(file)) 
 
 **输出:**
 
-```
+```js
 \\computerscience\geeksforgeeks.txt
 ```
 
 **例 2:**
 
-```
+```js
 // Node program to demonstrate the 
 // URL.fileURLToPath() API as Setter
 
@@ -56,7 +56,7 @@ console.log(url.fileURLToPath(file))
 
 **输出:**
 
-```
+```js
  C:\path\example\gfg 
 ```
 

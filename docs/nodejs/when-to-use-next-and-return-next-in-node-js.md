@@ -11,15 +11,15 @@
 
 **语法:**
 
-```
+```js
 next()
 ```
 
-```
+```js
 return next()
 ```
 
-```
+```js
 app.use((req, res, next) => {
 //next() or return next()
 });
@@ -37,17 +37,17 @@ app.use((req, res, next) => {
 
 **示例:**设置环境
 
-```
+```js
 npm init -y
 ```
 
-```
+```js
 npm install express
 ```
 
 ## java 描述语言
 
-```
+```js
 import express from "express"
 
 const app = express()

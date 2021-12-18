@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v8.Deserializer.readUint64();
 ```
 
@@ -18,7 +18,7 @@ v8.Deserializer.readUint64();
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 const serializer = new v8.Serializer();
@@ -35,20 +35,20 @@ console.log(deserializer.readUint64());
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 [ 6783, 348072 ]
 
 ```
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 const serializer = new v8.Serializer();
@@ -68,13 +68,13 @@ console.log("higher 32-bits=%d and lower "
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 buffer data is:
 <Buffer c0 8f 82 80 a0 80 1d>
 higher 32-bits=29698 and lower 32-bits=34752

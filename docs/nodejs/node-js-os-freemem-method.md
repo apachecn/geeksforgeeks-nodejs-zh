@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 os.freemem()
 ```
 
@@ -18,7 +18,7 @@ os.freemem()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // os.freemem() method
 
@@ -31,14 +31,14 @@ console.log(os.freemem());
 
 **输出:**
 
-```
+```js
 4158910464
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // os.freemem() method
 
@@ -66,7 +66,7 @@ console.log("Free memory: " + free_mem_in_gb + "GB "
 
 **输出:**
 
-```
+```js
 Free memory: 4GB 110MB 88KB and 0Bytes
 
 ```

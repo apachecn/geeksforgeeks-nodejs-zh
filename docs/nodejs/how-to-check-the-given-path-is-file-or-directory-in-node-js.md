@@ -11,7 +11,7 @@
 
 **例 1:**
 
-```
+```js
 // Require the given module 
 var fs = require('fs');
 
@@ -30,14 +30,14 @@ console.log('is directory ? ' + stats.isDirectory());
 
 **输出:**
 
-```
+```js
 is file ? true
 is directory ? true
 ```
 
 **例 2:**
 
-```
+```js
 // Require the given module 
 var fs = require('fs');
 
@@ -56,7 +56,7 @@ console.log('is directory ? ' + stats.isDirectory());
 
 **输出:**
 
-```
+```js
 is file ? false
 is directory ? false
 ```
@@ -65,7 +65,7 @@ is directory ? false
 
 **例 1:**
 
-```
+```js
 // Require the given module 
 var fs = require('fs'),
 path = "/Users/divyarani/Documents/geekforgeeks/geek"
@@ -88,13 +88,13 @@ fs.stat(path, (err, stats) => {
 
 **输出:**
 
-```
+```js
 is directory? true
 ```
 
 **例 2:**
 
-```
+```js
 // Require the given module
 var fs = require('fs'),
 path = "/Users/divyarani/Documents/geekforgeeks/geeks.js"
@@ -117,6 +117,6 @@ fs.stat(path, (err, stats) => {
 
 **输出:**
 
-```
+```js
 is file ? true
 ```

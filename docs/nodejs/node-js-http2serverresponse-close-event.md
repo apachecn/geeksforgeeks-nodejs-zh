@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Event: 'close'
 
 ```
@@ -29,7 +29,7 @@ Event: 'close'
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse 'close' event 
 
@@ -104,13 +104,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 stream is closed
 status : 200
 Received: hello
@@ -124,7 +124,7 @@ server destroyed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse 'close' event
 
@@ -191,13 +191,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 stream is closed
 Received: The sum weight of all Http2Stream : 0
 client destroyed

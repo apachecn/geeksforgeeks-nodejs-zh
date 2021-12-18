@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const request.maxHeadersCount
 ```
 
@@ -18,7 +18,7 @@ const request.maxHeadersCount
 
 ## index.js
 
-```
+```js
 // Node.js program to demonstrate the  
 // request.maxHeadersCount APi
 

@@ -8,13 +8,13 @@
 
 我们只需创建一个文件夹并添加一个文件作为 index.js。
 
-```
+```js
 node index.js
 ```
 
 **文件名:index.js**
 
-```
+```js
 const express = require("express")
 const path = require('path')
 const app = express()
@@ -46,14 +46,14 @@ app.listen(PORT, function(error){
     ![](img/920b1bc67fdb57feb33fb1bc68185b41.png)
 2.  确保您已经安装了“查看引擎”，就像我使用“ejs”一样，并使用以下命令安装 express 模块:
 
-    ```
+    ```js
     npm install express
     npm install ejs
     ```
 
 3.  使用以下命令运行 index.js 文件:
 
-    ```
+    ```js
     node index.js
     ```
 

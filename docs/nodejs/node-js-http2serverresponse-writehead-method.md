@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 response.writeHead(statusCode[, statusMessage][, headers])
 ```
 
@@ -32,7 +32,7 @@ response.writeHead(statusCode[, statusMessage][, headers])
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse.writeHead() method
 const http2 = require('http2');
@@ -105,13 +105,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 [Object: null prototype] {
   ':status': 200,
   'content-length': '11',
@@ -127,7 +127,7 @@ server destroyed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse.writeHead() method
 const http2 = require('http2');
@@ -190,13 +190,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 [Object: null prototype] {
   ':status': 200,
   'content-length': '11',

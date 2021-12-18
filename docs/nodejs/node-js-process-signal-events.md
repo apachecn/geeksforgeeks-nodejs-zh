@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 process.on(signalName, callback);
 ```
 
@@ -23,7 +23,7 @@ process.on(signalName, callback);
 
 ## Javascript
 
-```
+```js
 process.stdin.resume();
 
 // If SIGINT process is called then this will
@@ -42,13 +42,13 @@ process.on('SIGINT', handle);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**按下 ***ctrl + c*** 键，控制台屏幕上输出如下:
 
-```
+```js
 Hey Boss I just Received SIGINT.
 So the signal which I have Received is: SIGINT
 ```
@@ -59,7 +59,7 @@ So the signal which I have Received is: SIGINT
 
 ## Javascript
 
-```
+```js
 // Requiring module
 const express = require('express')
 
@@ -83,13 +83,13 @@ process.on('SIGBREAK', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**按下 ***ctrl +断开*** 生成信号键:
 
-```
+```js
 Server ready
 SIGNAL BREAK RECEIVED
 ```

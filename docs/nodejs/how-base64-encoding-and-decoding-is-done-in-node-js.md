@@ -10,7 +10,7 @@ Base64 编码和解码可以在 Node.js 中使用 Buffer 对象完成。
 
 **语法:**
 
-```
+```js
 // Create buffer object, specifying utf8 as encoding
 let bufferObj = Buffer.from(originalString, "utf8");
 
@@ -21,7 +21,7 @@ let base64String = bufferObj.toString("base64");
 
 **示例:**
 
-```
+```js
 // The original utf8 string
 let originalString = "GeeksforGeeks";
 
@@ -36,7 +36,7 @@ console.log("The encoded base64 string is:", base64String);
 
 **输出:**
 
-```
+```js
 The encoded base64 string is: R2Vla3Nmb3JHZWVrcw==
 ```
 
@@ -46,7 +46,7 @@ The encoded base64 string is: R2Vla3Nmb3JHZWVrcw==
 
 **语法:**
 
-```
+```js
 // Create a buffer from the string
 let bufferObj = Buffer.from(base64string, "base64");
 
@@ -56,7 +56,7 @@ let decodedString = bufferObj.toString("utf8");
 
 **示例:**
 
-```
+```js
 // The base64 encoded input string
 let base64string = "R2Vla3Nmb3JHZWVrcw==";
 
@@ -71,6 +71,6 @@ console.log("The decoded string:", decodedString);
 
 **输出:**
 
-```
+```js
 The decoded string: GeeksforGeeks
 ```

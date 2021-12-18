@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const request.end([data[, encoding]][, callback])
 ```
 
@@ -18,7 +18,7 @@ const request.end([data[, encoding]][, callback])
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // request.end() APi
 
@@ -55,7 +55,7 @@ http.createServer((req, res) => {}).listen(3000, '127.0.0.1', () => {
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // request.end() APi
 

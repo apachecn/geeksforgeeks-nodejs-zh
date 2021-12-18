@@ -13,7 +13,7 @@
 
 **安装快递和快递车把:**
 
-```
+```js
 npm install --save express express-handlebars
 ```
 
@@ -21,7 +21,7 @@ npm install --save express express-handlebars
 
 ## Javascript
 
-```
+```js
 //importing modules
 import express from "express"
 import path from "path"

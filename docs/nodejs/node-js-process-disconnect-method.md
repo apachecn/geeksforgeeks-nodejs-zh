@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.disconnect()
 ```
 
@@ -18,7 +18,7 @@ process.disconnect()
 
  *## 亲子
 
-```
+```js
 // Require fork method from child_process 
 // to spawn child process
 const fork = require('child_process').fork;
@@ -32,7 +32,7 @@ const child = fork(child_file);
 
 ## *亲子*
 
- *```
+ *```js
 console.log('In Child.js')
 
 // If the send method is available
@@ -55,13 +55,13 @@ if (process.connected) {
 
 *使用以下命令运行**父. js**:*
 
-```
+```js
 *node Parent.js*
 ```
 
 ***输出:***
 
-```
+```js
 *In Child.js
 Child.js is connected.
 Child.js has been disconnected.*
@@ -71,7 +71,7 @@ Child.js has been disconnected.*
 
  *## 亲子
 
-```
+```js
 // Require fork method from child_process 
 // to spawn child process
 const fork = require('child_process').fork;
@@ -85,7 +85,7 @@ const child = fork(child_file);
 
 ## *亲子*
 
- *```
+ *```js
 console.log('In Child.js')
 
 // If the send method is available
@@ -119,13 +119,13 @@ if (process.connected) {
 
 *使用以下命令运行**父. js**:*
 
-```
+```js
 *node Parent.js*
 ```
 
 ***输出:***
 
-```
+```js
 *In Child.js
 Message from child: This was sent after 1 second.
 Message from child: This was sent after 2 seconds.*

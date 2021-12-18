@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 readable.readableHighWaterMark
 ```
 
@@ -16,7 +16,7 @@ readable.readableHighWaterMark
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.readableHighWaterMark Property  
 
@@ -46,7 +46,7 @@ readable.readableHighWaterMark;
 
 **输出:**
 
-```
+```js
 65536
 read: GeeksforGeeks
 
@@ -54,7 +54,7 @@ read: GeeksforGeeks
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.readableHighWaterMark Property
 
@@ -74,7 +74,7 @@ readable.readableHighWaterMark;
 
 **输出:**
 
-```
+```js
 1234
 ```
 

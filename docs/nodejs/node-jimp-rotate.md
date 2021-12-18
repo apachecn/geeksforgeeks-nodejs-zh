@@ -6,7 +6,7 @@
 rotate()函数是 Nodejs | Jimp 中的一个内置函数，顺时针旋转图像，图像的尺寸保持不变。
 **语法:**
 
-```
+```js
 rotate(r, mode, cb)
 ```
 
@@ -24,13 +24,13 @@ rotate(r, mode, cb)
 
 ### 步骤 1:设置环境
 
-```
+```js
 npm init -y
 ```
 
 ### 第二步:安装*跳*
 
-```
+```js
 npm install jimp --save
 ```
 
@@ -38,7 +38,7 @@ npm install jimp --save
 
 ## java 描述语言
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');
@@ -65,7 +65,7 @@ main();
 
 ## java 描述语言
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');

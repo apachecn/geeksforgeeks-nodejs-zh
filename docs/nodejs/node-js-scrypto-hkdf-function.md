@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const crypto.hkdf(digest, key, salt, info, keylen, callback)
 ```
 

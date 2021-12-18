@@ -10,13 +10,13 @@
 
 1.  **安装快速发电机:**
 
-    ```
+    ```js
     npm install -g express-generator
     ```
 
 2.  **创建快速应用程序:**
 
-    ```
+    ```js
     npm express applicaion_name
     ```
 
@@ -26,13 +26,13 @@
 
     **设置视图引擎(可选)**
 
-    ```
+    ```js
     npm express socketIOTest --view=jade
     ```
 
 4.  **安装插座 IO:**
 
-    ```
+    ```js
     npm install socket.io --save
     npm install
     ```
@@ -41,7 +41,7 @@
 
 1.  转到 App.js 文件并导入套接字。IO 和 http 模块为:
 
-    ```
+    ```js
     var http=require("http");
     var socketio=require("socket.io");
 
@@ -49,7 +49,7 @@
 
 2.  创建一个套接字 IO 服务器:
 
-    ```
+    ```js
     var createError = require('http-errors');
     var express = require('express');
     var path = require('path');
@@ -106,7 +106,7 @@
 
 3.  现在转到 BIN 文件夹内的 www 文件，用以下代码替换代码:
 
-    ```
+    ```js
     #!/usr/bin/env node
 
     // Module dependencies

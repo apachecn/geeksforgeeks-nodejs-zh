@@ -16,7 +16,7 @@ Apache Cassandra 是一个免费开源、分布式、高度可扩展、宽列存
 
 ## Javascript
 
-```
+```js
 module.exports = {
    fields:{
        name    : "text",

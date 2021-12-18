@@ -5,7 +5,7 @@
 **fs.unlink()方法**用于从文件系统中移除文件或符号链接。此函数不适用于目录，因此建议使用 fs.rmdir()删除目录。
 **语法:**
 
-```
+```js
 fs.unlink( path, callback )
 ```
 
@@ -20,7 +20,7 @@ fs.unlink( path, callback )
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.unlink() method
 
@@ -56,7 +56,7 @@ function getFilesInDirectory() {
 
 **输出:**
 
-```
+```js
 Files present in directory:
 example_file.txt
 index.js
@@ -73,7 +73,7 @@ package.json
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.unlink() method
 
@@ -114,7 +114,7 @@ function getFilesInDirectory() {
 
 **输出:**
 
-```
+```js
 Symbolic link to example_file.txt created
 
 Files present in directory:

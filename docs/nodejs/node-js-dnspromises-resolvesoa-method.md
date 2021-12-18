@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dnsPromises.resolveSoa( hostname )
 ```
 
@@ -20,7 +20,7 @@ dnsPromises.resolveSoa( hostname )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.resolveSoa() method
 
@@ -37,7 +37,7 @@ dnsPromises.resolveSoa('google.com').then((res) => {
 
 **输出:**
 
-```
+```js
 for google :
 { nsname: 'ns1.google.com',
   hostmaster: 'dns-admin.google.com',
@@ -52,7 +52,7 @@ for google :
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.resolveSoa() method
 
@@ -76,7 +76,7 @@ const dnsPromises = dns.promises;
 
 **输出:**
 
-```
+```js
 from async:
 { nsname: 'ns-869.awsdns-44.net',
   hostmaster: 'awsdns-hostmaster.amazon.com',

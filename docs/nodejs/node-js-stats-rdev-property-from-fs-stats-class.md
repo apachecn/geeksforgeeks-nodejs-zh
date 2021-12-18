@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.rdev;
 ```
 
@@ -16,7 +16,7 @@ stats.rdev;
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.rdev property
 
@@ -43,7 +43,7 @@ fs.lstat('./filename.txt', (err, stats) => {
 
 **输出:**
 
-```
+```js
 using stat: numeric identity of the device is 0
 using lstat: numeric identity of the device is 0
 
@@ -51,7 +51,7 @@ using lstat: numeric identity of the device is 0
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.rdev property
 
@@ -68,7 +68,7 @@ const fs = require('fs').promises;
 
 **输出:**
 
-```
+```js
 (node:1656) ExperimentalWarning: The fs.promises API 
 is experimental 
 using stat synchronous: numeric identity of the device is 0

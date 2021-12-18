@@ -6,7 +6,7 @@ Node.js 中的 **Crypto.randomInt** 方法是加密模块的内置应用编程�
 
 **语法:**
 
-```
+```js
 crypto.randomInt([min, ] max [, callback])
 ```
 
@@ -26,7 +26,7 @@ crypto.randomInt([min, ] max [, callback])
 
 ## java 描述语言
 
-```
+```js
 const crypto = require("crypto");
 
 // Only max value provided
@@ -50,7 +50,7 @@ console.log(crypto.randomInt(30, 50));
 
 ## java 描述语言
 
-```
+```js
 const crypto = require("crypto");
 
 // Asynchronous

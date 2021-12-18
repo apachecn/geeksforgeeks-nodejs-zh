@@ -5,7 +5,7 @@
 **dns.getServers()方法**是 dns 模块内置的应用编程接口，用于获取当前服务器的 IP 地址。
 **语法:**
 
-```
+```js
 dns.getServers()
 ```
 
@@ -16,7 +16,7 @@ dns.getServers()
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the   
 // dns.resolveSoa() method
 
@@ -30,7 +30,7 @@ console.log(dns.getServers());
 
 **输出:**
 
-```
+```js
 [ '2402:3a80:1103:a055::34', '192.168.43.1' ]
 ```
 
@@ -38,7 +38,7 @@ console.log(dns.getServers());
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the   
 // dns.resolveSoa() method
 
@@ -56,7 +56,7 @@ res.forEach(element => { 
 
 **输出:**
 
-```
+```js
 72.28.94.156
 2306:2470:3160::8888
 72.28.94.156:1053

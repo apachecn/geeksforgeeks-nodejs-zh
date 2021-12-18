@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 response.socket
 ```
 
@@ -18,7 +18,7 @@ response.socket
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the  
 // response.socket APi
 
@@ -57,13 +57,13 @@ httpServer.listen(PORT, () => { 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 Server is running at port 3000...
 displaying the result...
 displaying the result...
@@ -75,7 +75,7 @@ server is closed
 
 *   **Paste the localhost address http://localhost:3000/. In the search bar of the browser.**
 
-```
+```js
 socket buffersize : 0
 ```
 
@@ -83,7 +83,7 @@ socket buffersize : 0
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the  
 // response.socket APi
 
@@ -120,13 +120,13 @@ var httpServer = http.createServer(
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 Server is running at port 3000...
 displaying the result...
 displaying the result...
@@ -138,7 +138,7 @@ server is closed
 
 *   **Paste the localhost address http://localhost:3000/. In the search bar of the browser.**
 
-```
+```js
 socket local address : ::1
 ```
 

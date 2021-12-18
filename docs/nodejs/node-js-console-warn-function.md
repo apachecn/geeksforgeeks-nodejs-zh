@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 console.warn( [data][, ...args] )
 ```
 
@@ -20,7 +20,7 @@ console.warn( [data][, ...args] )
 
 **节目 1:**
 
-```
+```js
 function displayWarning(x) {
     console.warn(`GeeksforGeeks is a ${x} portal`);
 }
@@ -32,13 +32,13 @@ displayWarning(x);
 
 **输出:**
 
-```
+```js
 GeeksforGeeks is a Computer Science portal
 ```
 
 **节目 2:**
 
-```
+```js
 function compareNumber(x, y) {
 
     // Check condition
@@ -59,6 +59,6 @@ compareNumber(x, y);
 
 **输出:**
 
-```
+```js
 100 is greater then 50
 ```

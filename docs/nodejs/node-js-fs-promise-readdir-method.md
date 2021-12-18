@@ -6,7 +6,7 @@ Node.js 的文件系统模块中定义的 **fs.promise.readdir()** 方法，文�
 
 **语法**
 
-```
+```js
 fs.promise.readdir(path, options)
 ```
 
@@ -19,7 +19,7 @@ fs.promise.readdir(path, options)
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // fs.promise.readdir() Method 
 
@@ -49,7 +49,7 @@ fs.promises.readdir(process.cwd())
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // fs.promise.readdir() Method 
 

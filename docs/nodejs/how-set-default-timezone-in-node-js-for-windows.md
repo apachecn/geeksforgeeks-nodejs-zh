@@ -8,7 +8,7 @@
 
 **安装模块:**使用以下命令安装快速模块。
 
-```
+```js
 npm install express
 ```
 
@@ -20,14 +20,14 @@ npm install express
 
 **1。使用下面的 process.env.tz 示例在代码中设置–**
 
-```
+```js
 process.env.TZ = "Asia/Calcutta";
 console.log(new Date().toString());
 ```
 
 **2。使用 newDate 设置变量。**
 
-```
+```js
 const nDate = new Date().toLocaleString('en-US', {
 timeZone: 'Asia/Calcutta'
 });
@@ -35,13 +35,13 @@ timeZone: 'Asia/Calcutta'
 
 **3。我们可以在代码中用库 tzdata 配置全局时区:**
 
-```
+```js
 npm install tzdata -yN
 ```
 
 现在在 app.js 中设置 TZ 的值。
 
-```
+```js
 TZ = 'Asia/Calcutta'
 console.log(new Date().toString());
 ```
@@ -50,7 +50,7 @@ console.log(new Date().toString());
 
 ## app.js
 
-```
+```js
 var express = require('express'),
 app = express();
 
@@ -68,7 +68,7 @@ app.listen(3000,function(){
 
 使用以下命令运行 **app.js** 文件:
 
-```
+```js
 node app.js
 ```
 
@@ -80,7 +80,7 @@ node app.js
 
 ## app.js
 
-```
+```js
 var express = require('express'),
 app = express();
 
@@ -95,7 +95,7 @@ app.listen(3000,function(){
 
 使用以下命令运行 **app.js** 文件:
 
-```
+```js
 node app.js
 ```
 
@@ -107,7 +107,7 @@ node app.js
 
 ## app.js
 
-```
+```js
 var express = require('express'),
 
 app = express();
@@ -123,7 +123,7 @@ app.listen(3000,function(){
 
 使用以下命令运行 **app.js** 文件:
 
-```
+```js
 node app.js
 ```
 

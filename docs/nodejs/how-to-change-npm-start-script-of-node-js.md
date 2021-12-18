@@ -10,7 +10,7 @@
 
 **Package.json 文件**
 
-```
+```js
 "scripts"{
 "start":"node index.js"
 }
@@ -18,7 +18,7 @@
 
 ## index.js
 
-```
+```js
 // Importing http module
 const http = require("http")
 

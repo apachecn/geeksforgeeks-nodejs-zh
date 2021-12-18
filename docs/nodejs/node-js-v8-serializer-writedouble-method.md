@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v8.Serializer.writeDouble( Value );
 ```
 
@@ -20,7 +20,7 @@ v8.Serializer.writeDouble( Value );
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 const serializer = new v8.Serializer();
@@ -32,20 +32,20 @@ console.log(serializer.releaseBuffer());
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 <Buffer ba da 8a fd 65 97 b6 40>
 
 ```
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 const serializer = new v8.Serializer();
@@ -65,13 +65,13 @@ writeDoubleData(123.44);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 <Buffer >
 <Buffer 5c 8f c2 f5 28 dc 5e 40>
 

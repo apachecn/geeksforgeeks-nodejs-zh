@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.writeBigUInt64BE( value, offset )
 ```
 
@@ -22,7 +22,7 @@ Buffer.writeBigUInt64BE( value, offset )
 **示例 1:**
 **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the
 // buffer.writeBigUInt64BE() method 
 const buf = Buffer.allocUnsafe(8);
@@ -38,13 +38,13 @@ console.log(buf);
 使用以下命令运行 **index.js** 文件“
 :
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 <Buffer 00 01 03 04 05 06 07 08>
 
 ```
@@ -52,7 +52,7 @@ node index.js
 **示例 2:**
 **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the
 // buffer.writeBigUInt64BE() method 
 const buf = Buffer.allocUnsafe(8);
@@ -67,13 +67,13 @@ console.log(buf);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 <Buffer 00 aa 03 04 05 06 ef ff>
 
 ```

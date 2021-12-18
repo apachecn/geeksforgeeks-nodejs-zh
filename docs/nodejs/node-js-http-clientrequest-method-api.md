@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const request.method
 ```
 
@@ -18,7 +18,7 @@ const request.method
 
 ## index.js
 
-```
+```js
 // Node.js program to demonstrate the  
 // request.method APi
 

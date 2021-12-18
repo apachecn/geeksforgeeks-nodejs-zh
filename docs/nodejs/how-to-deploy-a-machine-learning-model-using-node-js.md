@@ -12,7 +12,7 @@
 
 ## 巨蟒
 
-```
+```js
 # Importing Libraries
 from tensorflow.keras.datasets import mnist
 import matplotlib.pyplot as plt

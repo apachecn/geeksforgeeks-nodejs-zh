@@ -12,13 +12,13 @@
 
 *   使用以下命令初始化所需文件夹中 Node.js 项目的 package.json，并根据提示输入值。
 
-    ```
+    ```js
     npm init
     ```
 
 *   输入以下命令跳过提示:
 
-    ```
+    ```js
     npm init -y
     ```
 
@@ -26,7 +26,7 @@
 
 *   打开新创建的 package.json 并添加以下字段。
 
-    ```
+    ```js
     "type":"module"    
     ```
 
@@ -42,7 +42,7 @@
 
     ## 区. js
 
-    ```
+    ```js
     const areaOfRectangle = (length, breadth) => {
         return length * breadth
     }
@@ -52,7 +52,7 @@
 
     ## 区. js
 
-    ```
+    ```js
     import areaOfRectangle from './area.js'
 
     console.log('Area of rectangle: ', areaOfRectangle(5, 8))

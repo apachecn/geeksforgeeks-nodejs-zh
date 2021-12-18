@@ -5,7 +5,7 @@
 节点 js **电信**模块使用**机器人听到()**方法。该模块提供各种功能与官方电报机器人应用编程接口进行交互。当给定的捕获消息与给定的关键字匹配时，此方法执行。
 **语法:**
 
-```
+```js
 TelegrafBot.hears(keyword, callback)
 ```
 
@@ -17,7 +17,7 @@ TelegrafBot.hears(keyword, callback)
 **返回类型:**函数的返回类型为空。
 **安装模块:**使用以下命令安装模块:
 
-```
+```js
 npm install telegraf
 ```
 
@@ -45,7 +45,7 @@ npm install telegraf
 
 ## java 描述语言
 
-```
+```js
 // Requiring module
 const telegraf = require("telegraf");
 
@@ -77,7 +77,7 @@ bot.launch()
 
 使用以下命令运行 **bot.js** 文件:
 
-```
+```js
 node bot.js
 ```
 

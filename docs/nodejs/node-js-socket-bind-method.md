@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const socket.bind(options[, callback])
 ```
 
@@ -25,7 +25,7 @@ const socket.bind(options[, callback])
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // server.bind() method
 
@@ -65,7 +65,7 @@ client.send("Hello", 0, 7, 1234, "localhost");
 
 **输出:**
 
-```
+```js
 { address: '0.0.0.0', family: 'IPv4', port: 1234 }
 UDP String: Hello
 ```
@@ -74,7 +74,7 @@ UDP String: Hello
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // server.bind() method
 
@@ -122,14 +122,14 @@ client.send("Hello", 0, 7, 1234, "localhost");
 
 **输出:**
 
-```
+```js
 server listening 0.0.0.0:1234
 UDP String: Hello
 ```
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 

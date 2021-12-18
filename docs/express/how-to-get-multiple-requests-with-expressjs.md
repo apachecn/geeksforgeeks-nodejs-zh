@@ -10,7 +10,7 @@
 
 **安装模块:**使用以下命令安装快速模块。
 
-```
+```js
 npm install express
 ```
 
@@ -31,7 +31,7 @@ Express.js 包含多种方法来处理所有类型的请求，而不是处理单
 
 ## index.js
 
-```
+```js
 // Requiring module 
 const express = require("express"); 
 
@@ -61,13 +61,13 @@ app.listen(3000, () => { 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Server is Running
 ```
 

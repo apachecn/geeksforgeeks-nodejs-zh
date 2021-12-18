@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 writable.end( chunk, encoding, callback)
 ```
 
@@ -22,7 +22,7 @@ writable.end( chunk, encoding, callback)
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.end() method  
 
@@ -56,7 +56,7 @@ writable.end("last data", "utf8", () => {
 
 **输出:**
 
-```
+```js
 hi
 last data
 Writable {
@@ -106,7 +106,7 @@ Writable stream ended!
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.end() method  
 
@@ -141,7 +141,7 @@ writable.write('GfG');
 
 **输出:**
 
-```
+```js
 hi
 last data
 Error [ERR_STREAM_WRITE_AFTER_END]: write after end

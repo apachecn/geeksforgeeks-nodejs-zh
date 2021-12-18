@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 util.types.isProxy( value )
 ```
 
@@ -20,7 +20,7 @@ util.types.isProxy( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // util.types.isProxy() method
 
@@ -47,7 +47,7 @@ console.log("Object is a proxy instance:", isProxy);
 
 **输出:**
 
-```
+```js
 {}
 Object is a proxy instance: true
 { a: '1', b: '2' }
@@ -56,7 +56,7 @@ Object is a proxy instance: false
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // util.types.isProxy() method
 
@@ -77,7 +77,7 @@ console.log(util.types.isProxy(new Object()));
 
 **输出:**
 
-```
+```js
 Object is a proxy instance:
 true
 Object is a proxy instance:

@@ -5,7 +5,7 @@
 **res.sendFile()** 函数基本上以给定的路径传输文件，并根据文件扩展名设置内容类型响应 HTTP 头字段。
 **语法:**
 
-```
+```js
 res.sendFile(path [, options] [, fn])
 ```
 
@@ -15,19 +15,19 @@ res.sendFile(path [, options] [, fn])
 
 *   您可以访问[安装快速模块](https://www.npmjs.com/package/express)的链接。您可以使用此命令安装此软件包。
 
-```
+```js
 npm install express
 ```
 
 *   安装快速模块后，您可以使用命令在命令提示符下检查您的快速版本。
 
-```
+```js
 npm version express
 ```
 
 *   之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-```
+```js
 node index.js
 ```
 
@@ -35,7 +35,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 var express = require('express');
 var app = express();
 var path = require('path');
@@ -65,7 +65,7 @@ app.listen(PORT, function(err){
 
 现在，创建一个. txt 文件，就像我们在项目根目录下创建的 **Hello.txt** 一样，包含以下文本:
 
-```
+```js
 Greetings from GeeksforGeeks
 ```
 
@@ -73,32 +73,32 @@ Greetings from GeeksforGeeks
 
 *   使用以下命令确保您已经安装了 **express** 模块:
 
-```
+```js
 npm install express
 ```
 
 *   使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Server listening on PORT 3000
 ```
 
 *   现在打开浏览器，转到 *http://localhost:3000/* ，现在检查你的控制台，你会看到如下输出:
 
-```
+```js
 Server listening on PORT 3000
 Sent: Hello.txt
 ```
 
 *   在屏幕上，您将看到以下输出:
 
-```
+```js
 Greetings from GeeksforGeeks
 ```
 
@@ -106,7 +106,7 @@ Greetings from GeeksforGeeks
 
 ## java 描述语言
 
-```
+```js
 var express = require('express');
 const path = require('path');
 var app = express();
@@ -143,19 +143,19 @@ app.listen(PORT, function(err){
 
 请确保您创建了一个. txt 文件，就像我们在项目根目录下用以下文本创建的 **GeeksforGeeks.txt** :
 
-```
+```js
 Welcome from GeeksforGeeks
 ```
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 现在打开浏览器，转到 *http://localhost:3000/* ，现在检查你的控制台，你会看到如下输出:
 
-```
+```js
 Server listening on PORT 3000
 Sent: GeeksforGeeks.txt
 File Sent
@@ -163,7 +163,7 @@ File Sent
 
 您将在浏览器屏幕上看到以下输出:
 
-```
+```js
 Welcome from GeeksforGeeks
 ```
 

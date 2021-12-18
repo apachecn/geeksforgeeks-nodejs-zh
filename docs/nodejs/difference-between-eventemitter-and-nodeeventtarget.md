@@ -6,7 +6,7 @@
 
 要导入*事件发射器*，请使用以下导入语句:
 
-```
+```js
 const EventEmitter = require('events');
 ```
 
@@ -25,14 +25,14 @@ const EventEmitter = require('events');
 | All event emitters emit the event " *new listener* " when adding a new listener, and the event "removeListener" when removing the listener. | It is not an instance of the *event transmitter* , and in most cases, it cannot be used instead of the event transmitter. |
 | **语法:**
 
-```
+```js
 emitter.once(
   eventName, listener)
 ```
 
  | **语法:**
 
-```
+```js
 nodeEventTarget.once(
   type, listener[, options])
 ```

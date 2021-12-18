@@ -8,7 +8,7 @@
 
 **语法:$组运算符**
 
-```
+```js
 {
     $group:
     {
@@ -25,13 +25,13 @@
 
 **第一步:**可以访问[安装猫鼬](https://www.npmjs.com/package/mongoose)链接安装猫鼬模块。您可以使用此命令安装此软件包。
 
-```
+```js
 npm install mongoose
 ```
 
 **步骤 2:** 现在，您可以使用以下命令导入文件中的猫鼬模块:
 
-```
+```js
 const mongoose = require('mongoose');
 ```
 
@@ -45,7 +45,7 @@ const mongoose = require('mongoose');
 
 **步骤 1:** 使用以下命令创建**包。**
 
-```
+```js
 npm init
 ```
 
@@ -55,7 +55,7 @@ npm init
 
 ## java 描述语言
 
-```
+```js
 // Requiring module
 const mongoose = require('mongoose');
 
@@ -102,7 +102,7 @@ Employee.aggregate([
 
 使用以下命令运行 **main.js** :
 
-```
+```js
 node main.js
 ```
 

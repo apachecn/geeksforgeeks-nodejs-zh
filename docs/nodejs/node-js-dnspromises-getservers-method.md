@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dnsPromises.getServers()
 ```
 
@@ -18,7 +18,7 @@ dnsPromises.getServers()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.getServers() method
 
@@ -41,14 +41,14 @@ const dnsPromises = new Resolver();
 
 **输出:**
 
-```
+```js
 [ '10.15.13.139', '8.8.8.8' ]
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.getServers() method
 
@@ -73,7 +73,7 @@ const dnsPromises = new Resolver();
 
 **输出:**
 
-```
+```js
 72.28.94.156
 2306:2470:3160::8888
 72.28.94.156:1053

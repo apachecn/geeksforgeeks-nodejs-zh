@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.ftruncateSync( fd, len )
 ```
 
@@ -19,7 +19,7 @@ fs.ftruncateSync( fd, len )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.ftruncateSync() method
 
@@ -41,7 +41,7 @@ console.log(fs.readFileSync('example_file.txt', 'utf8'));
 
 **输出:**
 
-```
+```js
 Contents of file before truncate:
 This is an example file for the ftruncateSync() method.
 Contents of file after truncate:
@@ -50,7 +50,7 @@ Contents of file after truncate:
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.ftruncateSync() method
 
@@ -78,7 +78,7 @@ console.log(fs.readFileSync('example_file.txt'));
 
 **输出:**
 
-```
+```js
 Contents of file before truncate:
 This is an example file for the ftruncateSync() method.
 Contents of file after truncate:

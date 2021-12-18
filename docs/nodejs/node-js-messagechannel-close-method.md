@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const MessageChannel.close()
 ```
 
@@ -18,7 +18,7 @@ const MessageChannel.close()
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // MessageChannel.close() method
 
@@ -48,13 +48,13 @@ port2.close();
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 received data in port1 :
 { message: { hello: 'world2' } }
 received data in port2 :
@@ -65,7 +65,7 @@ received data in port2 :
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // MessageChannel.close() Method
 
@@ -91,13 +91,13 @@ port1.close();
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 GFG
 closed!
 ```

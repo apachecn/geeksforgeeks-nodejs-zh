@@ -13,25 +13,25 @@
 
 1.  您可以访问[安装不良词汇模块](https://www.npmjs.com/package/bad-words)的链接。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install bad-words
     ```
 
 2.  安装坏词模块后，您可以使用命令在命令提示符下检查您的请求版本。
 
-    ```
+    ```js
     npm version bad-words
     ```
 
 3.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-    ```
+    ```js
     node index.js
     ```
 
 **文件名:index.js**
 
-```
+```js
 var Filter = require('bad-words');
 
 var filter = new Filter();
@@ -51,13 +51,13 @@ console.log(new_filter.clean("Hello, I am not a bad ******"));
     ![project structure](img/bac9599bc92e82524e4c3197a4a6fe93.png)
 2.  使用以下命令确保您已经安装了不良词汇模块:
 
-    ```
+    ```js
     npm install bad-words
     ```
 
 3.  Run index.js file using below command:
 
-    ```
+    ```js
     node index.js
     ```
 

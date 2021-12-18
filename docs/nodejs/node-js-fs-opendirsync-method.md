@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.opendirSync( path[, options] )
 ```
 
@@ -23,7 +23,7 @@ fs.opendirSync( path[, options] )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.opendirSync() method
 
@@ -44,7 +44,7 @@ openedDir.closeSync();
 
 **输出:**
 
-```
+```js
 Opening the directory
 
 Path of the directory: example_dir
@@ -55,7 +55,7 @@ Closing the directory
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.opendirSync() method
 
@@ -86,7 +86,7 @@ console.log("Next Dirent:", openedDir.readSync());
 
 **输出:**
 
-```
+```js
 Current filenames in directory:
 example1.txt
 example2.txt

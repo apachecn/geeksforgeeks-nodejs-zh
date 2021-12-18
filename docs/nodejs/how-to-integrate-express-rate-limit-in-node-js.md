@@ -6,7 +6,7 @@
 
 ****项目设置:**运行以下几组命令创建一个文件夹并初始化项目。**
 
-```
+```js
 mkdir test-project
 cd test-project
 npm init -y
@@ -14,7 +14,7 @@ npm init -y
 
 ****模块安装:**运行以下命令安装快速和快速费率限制模块:**
 
-```
+```js
 npm i express express-rate-limit
 ```
 
@@ -24,7 +24,7 @@ npm i express express-rate-limit
 
 ## **app.js**
 
-```
+```js
 // Express is node framework that helps 
 // in setting up the server and routing.
 const express = require("express");
@@ -68,13 +68,13 @@ app.listen(port, () => {
 
 **使用以下命令运行 **app.js** 文件:**
 
-```
+```js
 node app.js
 ```
 
 ****输出:**我们将在终端屏幕上看到以下输出。**
 
-```
+```js
 app is running on http://localhost:8000/
 ```
 

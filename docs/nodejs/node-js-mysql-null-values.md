@@ -6,11 +6,11 @@
 
 **语法:**
 
-```
+```js
 IS NULL;
 ```
 
-```
+```js
 IS NOT NULL;
 ```
 
@@ -21,7 +21,7 @@ IS NOT NULL;
 
 **模块安装:**使用以下命令安装 MySQL 模块。
 
-```
+```js
 npm install mysql
 ```
 
@@ -33,7 +33,7 @@ npm install mysql
 
 ## index.js
 
-```
+```js
 const mysql = require("mysql");
 
 let db_con  = mysql.createConnection({
@@ -70,7 +70,7 @@ db_con.connect((err) => {
 
 ## index.js
 
-```
+```js
 const mysql = require("mysql");
 
 let db_con  = mysql.createConnection({

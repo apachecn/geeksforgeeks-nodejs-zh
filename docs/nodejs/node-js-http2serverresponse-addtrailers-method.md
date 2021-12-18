@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const response.addTrailers(headers)
 
 ```
@@ -29,7 +29,7 @@ const response.addTrailers(headers)
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse.addTrailers() method
 
@@ -108,13 +108,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Http2ServerResponse {
   _events: [Object: null prototype] {},
   _eventsCount: 0,
@@ -142,7 +142,7 @@ server destroyed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse.addTrailers() method
 
@@ -220,13 +220,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Http2ServerResponse {
   _events: [Object: null prototype] {},
   _eventsCount: 0,

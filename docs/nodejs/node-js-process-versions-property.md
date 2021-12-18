@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.versions
 ```
 
@@ -16,7 +16,7 @@ process.versions
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // process.versions property
 
@@ -29,7 +29,7 @@ console.log(process.versions);
 
 **输出:**
 
-```
+```js
 { http_parser: '2.8.0',
   node: '10.16.0',
   v8: '6.8.275.32-node.52',
@@ -50,7 +50,7 @@ console.log(process.versions);
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // process.versions property
 
@@ -78,7 +78,7 @@ console.log("Total no of values available = " + no_versions);
 
 **输出:**
 
-```
+```js
 http_parser:            2.8.0
 node:                   10.16.0
 v8:                     6.8.275.32-node.52
@@ -100,7 +100,7 @@ Total no of values available = 15
 
 **例 3:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // process.versions property
 
@@ -118,7 +118,7 @@ console.log("module versions: " + versions.modules);
 
 **输出:**
 
-```
+```js
 node version: 10.16.0
 openssl version: 1.1.1b
 module versions: 64

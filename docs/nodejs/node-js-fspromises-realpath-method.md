@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fsPromises.realpath( path, options )
 
 ```
@@ -23,7 +23,7 @@ fsPromises.realpath( path, options )
 
 ## Node.js
 
-```
+```js
 // Node.js program to demonstrate the 
 // fsPromises.realPath() method 
 
@@ -53,7 +53,7 @@ fsPromises.realpath(path2, (resolvedPath)) 
 
 **输出:**
 
-```
+```js
 Current Directory Path: G:\tutorials\nodejs-fs-realPath
 Two directories up resolved path is: G:\
 One directory up resolved path is: G:\tutorials
@@ -63,7 +63,7 @@ One directory up resolved path is: G:\tutorials
 
 ## node . js
 
-```
+```js
 // Node.js program to demonstrate the 
 // fsPromises.realPath() method 
 
@@ -87,7 +87,7 @@ console.log("The resolved path is:", resolvedPath); 
 
 **输出:**
 
-```
+```js
 The resolved path is: G:\tutorials
 The resolved path is: 473a5c7475746f7269616c73
 The resolved path is: RzpcdHV0b3JpYWxz

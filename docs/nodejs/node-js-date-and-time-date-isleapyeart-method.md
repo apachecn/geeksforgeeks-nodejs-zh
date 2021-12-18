@@ -8,19 +8,19 @@
 
 **通过使用 npm:**
 
-```
+```js
 npm install date-and-time --save
 ```
 
 **通过使用 CDN 链接:**
 
-```
+```js
 <script src="/path/to/date-and-time.min.js"></script>
 ```
 
 **语法:**
 
-```
+```js
 const isLeapYear(y)
 ```
 
@@ -32,7 +32,7 @@ const isLeapYear(y)
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.isLeapYear() method
 
@@ -56,13 +56,13 @@ else
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 This is not a leap year
 ```
 
@@ -70,7 +70,7 @@ This is not a leap year
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.isLeapYear() method
 
@@ -96,13 +96,13 @@ else
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 This is a leap year
 ```
 

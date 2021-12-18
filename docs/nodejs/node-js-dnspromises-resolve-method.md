@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dnsPromises.resolve( hostname, rrtype )
 ```
 
@@ -28,7 +28,7 @@ dnsPromises.resolve( hostname, rrtype )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.resolve() method
 
@@ -49,7 +49,7 @@ dnsPromises.resolve('geeksforgeeks.org', rrtype).then((res) => {
 
 **输出:**
 
-```
+```js
 [ 'ns-869.awsdns-44.net',
   'ns-245.awsdns-30.com',
   'ns-1520.awsdns-62.org',
@@ -59,7 +59,7 @@ dnsPromises.resolve('geeksforgeeks.org', rrtype).then((res) => {
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.resolve() method
 
@@ -85,7 +85,7 @@ const rrtype = "MX";
 
 **输出:**
 
-```
+```js
 from async:
 [ { exchange: 'alt2.aspmx.l.google.com', priority: 5 },
   { exchange: 'aspmx.l.google.com', priority: 1 },
@@ -98,7 +98,7 @@ from async:
 
 **例 3:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.resolve() method
 
@@ -118,14 +118,14 @@ dnsPromises.resolve('geeksforgeeks.org', rrtype).then((res) => {
 
 **输出:**
 
-```
+```js
 [ '34.218.62.116' ]
 
 ```
 
 **例 4:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.resolve() method
 
@@ -145,7 +145,7 @@ dnsPromises.resolve('geeksforgeeks.org', rrtype).then((res) => {
 
 **输出:**
 
-```
+```js
 (node:12752) ExperimentalWarning: The dns.promises API is experimental
 [ [ 'v=spf1 include:amazonses.com include:_spf.google.com -all' ],
   [ 'fob1m1abcdp777bf2ncvnjm08n' ] ]

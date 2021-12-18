@@ -5,7 +5,7 @@
 **script.createCachedData()方法**是一个内置的脚本模块应用编程接口，用于创建一个可以与脚本构造器的 *cachedData* 选项一起使用的代码缓存。它可以在任何时间和任何次数被调用。
 **语法:**
 
-```
+```js
 script.createCachedData()
 ```
 
@@ -17,7 +17,7 @@ script.createCachedData()
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the     
 // script.createCachedData() method
 
@@ -43,7 +43,7 @@ console.log(cacheWithoutx);
 
 **输出:**
 
-```
+```js
 <Buffer b5 03 de c0 8a f4 d4 f4 3f 00 00 00
 ff 03 00 00 d5 a2 f5 b7 06 00 00 00 00 00 00 
 00 28 02 00 00 af 79 f4 0d a0 8c bf b8 00 00
@@ -54,7 +54,7 @@ ff 03 00 00 d5 a2 f5 b7 06 00 00 00 00 00 00
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the     
 // script.createCachedData() method
 
@@ -83,7 +83,7 @@ console.log(cacheWithx);
 
 **输出:**
 
-```
+```js
 <Buffer b5 03 de c0 8a f4 d4 f4 3f 00
 00 00 ff 03 00 00 d5 a2 f5 b7 06 00 00 00 00
 00 00 00 00 03 00 00 03 67 df 75 6d 4c 36 07

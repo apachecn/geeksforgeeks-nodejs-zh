@@ -6,7 +6,7 @@
 
 **以如下形式存储在数据库中的密码:**
 
-```
+```js
 Hashed(password, salt) 
 ```
 
@@ -31,7 +31,7 @@ Hashed(password, salt)
 
 ## java 描述语言
 
-```
+```js
 const util = require('util')
 const crypto = require('crypto')
 const express = require('express')
@@ -118,7 +118,7 @@ app.listen(port, () => {
 
 ## java 描述语言
 
-```
+```js
 // Importing node.js file system, util,
 // crypto module
 const fs = require('fs')
@@ -198,7 +198,7 @@ module.exports = new Repository('datastore.json')
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

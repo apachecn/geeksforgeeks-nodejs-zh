@@ -6,7 +6,7 @@ Buffer.writeUInt32BE()方法用于向 Buffer 类的实例中写入一个数字�
 
 **语法:**
 
-```
+```js
 buffer.writeUInt32BE(value, offset)
 ```
 
@@ -19,7 +19,7 @@ buffer.writeUInt32BE(value, offset)
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // Buffer.writeUInt32BE method
 
@@ -41,7 +41,7 @@ console.log(buffer);
 
 **输出:**
 
-```
+```js
 <Buffer 6c 69 63 65 00 00 00 00>
 <Buffer ab cd ab cd 00 00 00 00>
 <Buffer ab cd ab cd ab cd ab cd>
@@ -50,7 +50,7 @@ console.log(buffer);
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // Buffer.writeUInt32BE method
 
@@ -65,7 +65,7 @@ buffer.writeUInt32BE(0xabcdabcd, 5);
 
 **输出:**
 
-```
+```js
 <Buffer b0 f1 67 fc 63 7f 00 00>
 Thrown:
 RangeError [ERR_OUT_OF_RANGE]  ........

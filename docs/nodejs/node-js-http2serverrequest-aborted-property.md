@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const request.aborted
 ```
 
@@ -20,7 +20,7 @@ const request.aborted
 
 **步骤–1:**打开记事本，复制粘贴如下按键。
 
-```
+```js
 -----BEGIN RSA PRIVATE KEY-----
 MIICXQIBAAKBgQC38R9wXcUbhOd44FavgmE5R3K4JeYOHLnI7dUq1B8/Gv7l3SOg
 JKef/m9gM1KvUx951mapXGtcWgwB08J3vUE2YOZ4tWJArrVZES0BI/RmFAyhQFP5
@@ -44,7 +44,7 @@ nUG9lYvH7DztWDTioXMrruPF7bdXfZOVJD8t0I4OUzvC
 
 **步骤–1:**打开记事本，复制粘贴如下按键。
 
-```
+```js
 -----BEGIN CERTIFICATE-----
 MIICfzCCAegCCQDxxeXw914Y2DANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMC
 SU4xEzARBgNVBAgMCldlc3RiZW5nYWwxEDAOBgNVBAcMB0tvbGthdGExFDASBgNV
@@ -69,7 +69,7 @@ hWF6W2H9+MAlU7yvtmCQQuZmfQ==
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // request.aborted property
 const http2 = require('http2');
@@ -147,7 +147,7 @@ req.on('end', () => {
 
 **输出:**
 
-```
+```js
 status : 200
 Received: hello
 Received: local window size : 65535
@@ -158,7 +158,7 @@ server localSettings
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -166,7 +166,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // http2session.state property
 const http2 = require('http2');
@@ -234,7 +234,7 @@ req.on('end', () => {
 
 **输出:**
 
-```
+```js
 Received: numeric id of recent data : 1
 request is not aborted
 client destroyed

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 os.networkInterfaces()
 ```
 
@@ -26,7 +26,7 @@ os.networkInterfaces()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // os.networkInterfaces() Method
 
@@ -39,7 +39,7 @@ console.log(os.networkInterfaces());
 
 **输出:**
 
-```
+```js
 { 'Wi-Fi':
    [ { address: 'fe80::242a:3451:7fb2:3ab1',
        netmask: 'ffff:ffff:ffff:ffff::',
@@ -73,7 +73,7 @@ console.log(os.networkInterfaces());
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // os.networkInterfaces() Method
 
@@ -106,7 +106,7 @@ console.log("total number of Network "
 
 **输出:**
 
-```
+```js
 Wi-Fi
         interface:
                 address : fe80::242a:3451:7fb2:3ab1

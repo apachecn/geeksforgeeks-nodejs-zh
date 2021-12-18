@@ -6,7 +6,7 @@
 
 为了开始使用 MongoDB 驱动程序，我们将首先创建一个新文件夹并初始化我们的项目:
 
-```
+```js
 npm init -y
 
 ```
@@ -15,7 +15,7 @@ npm init -y
 
 我们将安装 MongoDB 驱动程序，并使用以下命令将其保存为依赖项:
 
-```
+```js
 npm install mongodb --save
 
 ```
@@ -24,7 +24,7 @@ npm install mongodb --save
 
 ## Java Script 语言
 
-```
+```js
 // Importing MongoClient from mongodb driver
 const { MongoClient } = require('mongodb');
 
@@ -57,7 +57,7 @@ async function connect() {
 
 **输出:**
 
-```
+```js
 Successfully connected to db cars
 ```
 
@@ -67,7 +67,7 @@ Successfully connected to db cars
 
 ## Java Script 语言
 
-```
+```js
 const { MongoClient } = require('mongodb');
 const uri = 'mongodb://127.0.0.1:27017';
 
@@ -133,7 +133,7 @@ async function connect() {
 
 ## Java Script 语言
 
-```
+```js
 const { MongoClient } = require('mongodb');
 const uri = 'mongodb://127.0.0.1:27017';
 
@@ -185,7 +185,7 @@ async function connect() {
 
 ## Java Script 语言
 
-```
+```js
 const { MongoClient } = require('mongodb');
 const uri = 'mongodb://127.0.0.1:27017';
 

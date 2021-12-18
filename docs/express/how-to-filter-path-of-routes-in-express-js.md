@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 app.use(path, callback)
 ```
 
@@ -19,7 +19,7 @@ app.use(path, callback)
 
 **安装模块:**使用以下命令安装所需的模块。
 
-```
+```js
 npm install express
 ```
 
@@ -31,7 +31,7 @@ npm install express
 
 ## Home.js
 
-```
+```js
 // Importing express module
 const express = require("express")
 const router = express.Router()
@@ -47,7 +47,7 @@ module.exports = router
 
 ## log in . js-登入
 
-```
+```js
 // Importing the module
 const express = require("express")
 
@@ -65,7 +65,7 @@ module.exports = router
 
 ## index.js
 
-```
+```js
 // Requiring module
 const express = require("express")
 
@@ -88,7 +88,7 @@ app.listen((3000), () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

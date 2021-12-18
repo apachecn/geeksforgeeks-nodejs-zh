@@ -34,7 +34,7 @@
 
 为了设置我们的项目，我们首先需要添加一个 **package.json** 文件来跟踪我们的依赖关系。package.json 文件使用以下命令初始化。
 
-```
+```js
 npm init --y
 ```
 
@@ -44,7 +44,7 @@ npm init --y
 
 一旦我们的号码成功链接，我们就可以开始发送 WhatsApp 消息。但是首先，我们需要安装 Twilio 模块。您可以在这里了解更多关于 Twilio 模块[的信息。我们可以使用以下命令安装 Twilio 模块。](https://www.npmjs.com/package/twilio)
 
-```
+```js
 npm i twilio
 ```
 
@@ -52,7 +52,7 @@ npm i twilio
 
 用创建文件。同一 npm 存储库中的 js 扩展。我们可以使用以下命令运行该文件。
 
-```
+```js
 node filename.js
 ```
 
@@ -60,7 +60,7 @@ node filename.js
 
 要使用 Twilio，我们必须导入它。我们可以使用以下命令导入 Twilio 模块。
 
-```
+```js
 const twilio = require('twilio')
 ```
 
@@ -76,7 +76,7 @@ const twilio = require('twilio')
 
 ## java 描述语言
 
-```
+```js
 const id = 'Provide your id';
 const token = 'Provide your token';
 
@@ -107,7 +107,7 @@ client.messages
 
 确保您在创建文件的同一目录中。使用以下命令执行上述代码。
 
-```
+```js
 node twilio.js
 ```
 

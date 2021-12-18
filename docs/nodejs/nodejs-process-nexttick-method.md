@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.env
 ```
 
@@ -20,7 +20,7 @@ process.env
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // process.nextTick() Property 
 
@@ -36,7 +36,7 @@ console.log('Executed in the current iteration');
 
 **运行命令:**
 
-```
+```js
 node filename
 ```
 

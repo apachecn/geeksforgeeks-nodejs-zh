@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 new Error(message)
 ```
 
@@ -22,7 +22,7 @@ new Error(message)
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // the new Error() method 
 
@@ -43,7 +43,7 @@ console.log(error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -57,7 +57,7 @@ node index.js
 
 **示例 2:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // the new Error() method 
 
@@ -103,7 +103,7 @@ if (error1.stack === error2.stack) {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

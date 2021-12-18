@@ -12,7 +12,7 @@
 
 **要求模块:**您可以使用以下代码包含该模块:
 
-```
+```js
 var process = require('process');
 ```
 
@@ -22,7 +22,7 @@ var process = require('process');
 
 ## index.js
 
-```
+```js
 // Including the module into out project
 var process = require('process');
 
@@ -38,7 +38,7 @@ console.log('current OS we are using --> ' + process.platform);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -50,7 +50,7 @@ node index.js
 
 ## index.js
 
-```
+```js
 // Including the module into out project
 var process = require('process');
 
@@ -60,13 +60,13 @@ console.log('Feature Property: ', process.features);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Feature Property:  {   
   inspector: true,     
   debug: false,        

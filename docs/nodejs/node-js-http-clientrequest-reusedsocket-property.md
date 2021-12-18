@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const request.reusedSocket
 ```
 
@@ -18,7 +18,7 @@ const request.reusedSocket
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the  
 // request.reusedSocket method
 
@@ -66,13 +66,13 @@ server.listen(3000, '127.0.0.1', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 message is not sent through reusedSocket
 ```
 
@@ -80,7 +80,7 @@ message is not sent through reusedSocket
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the  
 // request.reusedSocket method
 
@@ -111,13 +111,13 @@ http.createServer((req, res) => { })
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 message is not sent through reusedSocket
 ```
 

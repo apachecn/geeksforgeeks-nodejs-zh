@@ -14,13 +14,13 @@
 
 **步骤 1:** 创建一个 NodeJS 项目，并使用以下命令对其进行初始化:
 
-```
+```js
 npm init
 ```
 
 **步骤 2:** 使用以下命令安装 mysql 模块:
 
-```
+```js
 npm install mysql
 ```
 
@@ -34,7 +34,7 @@ npm install mysql
 
 ## index.js
 
-```
+```js
 // Importing module
 var mysql = require('mysql')
 
@@ -66,7 +66,7 @@ connection.connect(function(err) {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

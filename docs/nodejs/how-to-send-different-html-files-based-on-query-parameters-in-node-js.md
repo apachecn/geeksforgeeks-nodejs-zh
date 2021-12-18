@@ -8,7 +8,7 @@
 
 **步骤 1:** 创建您的项目文件夹，并使用以下命令安装 **express** 模块:
 
-```
+```js
 npm install express
 ```
 
@@ -16,7 +16,7 @@ npm install express
 
 ## main . js
 
-```
+```js
 var express = require('express');
 var app = express();
 const fs = require("fs");

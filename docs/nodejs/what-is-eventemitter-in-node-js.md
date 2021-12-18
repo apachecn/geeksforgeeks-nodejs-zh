@@ -8,7 +8,7 @@ EventEmitter 是 node.js 中的一个类，负责处理使用 node.js 中的“e
 
 **语法:**
 
-```
+```js
 // Creating a constant reference of EventEmitter
 const EventEmittter = require('events');
 
@@ -20,7 +20,7 @@ var emitter = new EventEmitter();
 
 **语法:**
 
-```
+```js
 emitter.addListener(eventName, listener);
 ```
 
@@ -28,7 +28,7 @@ emitter.addListener(eventName, listener);
 
 **语法:**
 
-```
+```js
 emitter.emit(eventName, arg1,arg2,...)
 ```
 
@@ -36,7 +36,7 @@ emitter.emit(eventName, arg1,arg2,...)
 
 ## Javascript
 
-```
+```js
 // Importing the events module
 const EventEmitter = require('events');
 
@@ -54,7 +54,7 @@ emitter.emit('myEvent', "Geek");
 
 **输出:**
 
-```
+```js
 welcome Geek
 ```
 
@@ -62,7 +62,7 @@ welcome Geek
 
 **语法:**
 
-```
+```js
 // For removing any single listener form the event
 emitter.removeListener(eventName, listener)
 
@@ -74,7 +74,7 @@ emitter.removeAllListeners(eventName)
 
 ## Javascript
 
-```
+```js
 // Importing the events module
 const EventEmitter = require('events');
 
@@ -107,7 +107,7 @@ emitter.emit('printEvent', "Event occurred");
 
 **输出:**
 
-```
+```js
 Message from person1: Event occurred
 Message from person2: Event occurred
 ```

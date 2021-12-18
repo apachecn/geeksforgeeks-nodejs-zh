@@ -8,25 +8,25 @@
 
 1.  您可以访问链接[安装快速会话模块](https://www.npmjs.com/package/express-session)。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install express-session
     ```
 
 2.  安装快速会话后，您可以使用命令在命令提示符下检查您的快速会话版本。
 
-    ```
+    ```js
     npm version express-session
     ```
 
 3.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-    ```
+    ```js
     node index.js
     ```
 
 **文件名:index.js**
 
-```
+```js
 const express = require("express")
 const session = require('express-session')
 const app = express()
@@ -81,17 +81,17 @@ app.listen(PORT, function(error){
     ![project structure](img/04904bcc4cdb5cf1100b240b7c3506f0.png)
 2.  确保您已经使用以下命令安装了快速和快速会话模块:
 
-    ```
+    ```js
     npm install express
     ```
 
-    ```
+    ```js
     npm install express-session
     ```
 
 3.  Run index.js file using below command:
 
-    ```
+    ```js
     node index.js
     ```
 
@@ -99,7 +99,7 @@ app.listen(PORT, function(error){
 
 4.  Now to set your session, just open browser and type this URL:
 
-    ```
+    ```js
     http://localhost:3000/
     ```
 
@@ -107,7 +107,7 @@ app.listen(PORT, function(error){
 
 5.  Till now, you have set session and to see session value, type this URL:
 
-    ```
+    ```js
     http://localhost:3000/session
     ```
 

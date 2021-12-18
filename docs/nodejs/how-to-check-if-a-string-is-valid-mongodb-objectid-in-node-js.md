@@ -18,7 +18,7 @@
 
 **例:**
 
-```
+```js
 594ced02ed345b2b049222c5 --> Valid MongoDB ObjectId
 geeks --> Invalid MongoDB ObjectId
 ```
@@ -36,7 +36,7 @@ ObjectId 可以从原生的*<u>獴</u>* 以及 *<u>獴</u>* 包中导入。
 
 *   **使用 Monogdb:**
 
-    ```
+    ```js
     const ObjectId = require('mongodb').ObjectId;
     or
     const mongodb, {ObjectId} = require('mongodb');
@@ -44,7 +44,7 @@ ObjectId 可以从原生的*<u>獴</u>* 以及 *<u>獴</u>* 包中导入。
 
 *   **使用猫鼬:**
 
-    ```
+    ```js
     const ObjectId = require('mongoose').Types.ObjectId;
     or
     const mongoose = require('mongoose');
@@ -67,7 +67,7 @@ ObjectId 可以从原生的*<u>獴</u>* 以及 *<u>獴</u>* 包中导入。
 
 可以如下创建一个函数来检查字符串是否是有效的 ObjectId:
 
-```
+```js
 const ObjectId = require('mongoose').Types.ObjectId;
 function isValidObjectId(id){
 
@@ -82,7 +82,7 @@ function isValidObjectId(id){
 
 ## java 描述语言
 
-```
+```js
 // Requiring ObjectId from mongoose npm package
 const ObjectId = require('mongoose').Types.ObjectId;
 

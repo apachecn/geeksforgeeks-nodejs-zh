@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 buffer.fill( string, offset, end, encoding )
 ```
 
@@ -25,7 +25,7 @@ buffer.fill( string, offset, end, encoding )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.fill() Method
 
@@ -39,13 +39,13 @@ console.log(buffer.toString());
 
 **输出:**
 
-```
+```js
 GeeksforGeeks
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.fill() Method
 
@@ -61,7 +61,7 @@ console.log(buffer.toString());
 
 **输出:**
 
-```
+```js
    geek
 ```
 

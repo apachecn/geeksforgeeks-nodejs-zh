@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 writable.writableCorked 
 ```
 
@@ -16,7 +16,7 @@ writable.writableCorked
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.writableCorked Property
 
@@ -57,14 +57,14 @@ writable.writableCorked;
 
 **输出:**
 
-```
+```js
 2
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.writableCorked Property
 
@@ -108,7 +108,7 @@ writable.writableCorked;
 
 **输出:**
 
-```
+```js
 hi
 1
 

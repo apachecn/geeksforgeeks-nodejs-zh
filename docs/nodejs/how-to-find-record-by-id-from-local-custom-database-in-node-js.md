@@ -9,14 +9,14 @@
 *   在项目目录的根目录下创建 package.json 文件。
     **命令创建包文件**
 
-    ```
+    ```js
     npm init -y
     ```
 
 *   安装 express 和 body-parser 包。
     **命令安装软件包**
 
-    ```
+    ```js
     npm install express
     ```
 
@@ -28,7 +28,7 @@
 **示例 1:** 此示例说明了如何使用 id 从本地自定义数据库中获取记录。
 T3】文件名:index.js
 
-```
+```js
 const express = require('express')
 const repo = require('./repository')
 const {userInfo} = require('./fetchUser')
@@ -64,7 +64,7 @@ app.listen(port, () => {
 
 **Filename: fetchUser.js:** 这个 js 文件有一个方法可以将获取的用户信息显示到网页上。
 
-```
+```js
 module.exports = {
 
   // Function to displays user information
@@ -89,7 +89,7 @@ module.exports = {
 
 **文件名:repository.js** 该文件包含使用 id 查找记录的所有逻辑。
 
-```
+```js
 // Importing node.js file system module 
 const fs = require('fs')
 

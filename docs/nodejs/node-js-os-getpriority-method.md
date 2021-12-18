@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 os.getPriority( pid )
 ```
 
@@ -22,7 +22,7 @@ os.getPriority( pid )
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the   
 // os.getPriority() Method
 
@@ -41,7 +41,7 @@ try {
 
 **输出:**
 
-```
+```js
 0
 ```
 
@@ -49,7 +49,7 @@ try {
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the   
 // os.getPriority() Method
 
@@ -96,7 +96,7 @@ psList().then(data => {
 
 **输出:**
 
-```
+```js
 [ { name: '[System Process]', pid: 0, ppid: 0 },
   { name: 'System', pid: 4, ppid: 0 },
   { name: 'Registry', pid: 96, ppid: 4 },

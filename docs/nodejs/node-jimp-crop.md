@@ -6,7 +6,7 @@
 **裁剪()功能**是 Nodejs | Jimp 中的内置功能，用于以指定的坐标和尺寸裁剪图像。
 **语法:**
 
-```
+```js
 crop( x, y, w, h, cb )
 
 ```
@@ -26,7 +26,7 @@ crop( x, y, w, h, cb )
 
 **例 1:**
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');
@@ -49,7 +49,7 @@ main();
 
 **例 2:带 cb(可选参数)**
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');

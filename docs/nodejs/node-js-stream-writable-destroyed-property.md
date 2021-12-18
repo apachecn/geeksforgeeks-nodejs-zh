@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 writable.destroyed
 ```
 
@@ -16,7 +16,7 @@ writable.destroyed
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.distroyed Property
 
@@ -53,7 +53,7 @@ writable.destroyed;
 
 **输出:**
 
-```
+```js
 hi
 hello
 true
@@ -62,7 +62,7 @@ true
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.distroyed Property
 
@@ -96,7 +96,7 @@ writable.destroyed;
 
 **输出:**
 
-```
+```js
 hi
 hello
 false

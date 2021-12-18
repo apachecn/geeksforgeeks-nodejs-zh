@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 readable.readableLength
 ```
 
@@ -16,7 +16,7 @@ readable.readableLength
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.readableLength Property
 
@@ -33,13 +33,13 @@ readable.readableLength;
 
 **输出:**
 
-```
+```js
 0
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.readableLength property  
 
@@ -68,7 +68,7 @@ readable.readableLength;
 
 **输出:**
 
-```
+```js
 0
 read: 13
 

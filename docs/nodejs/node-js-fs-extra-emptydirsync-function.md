@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.emptyDirSync(dir)
 // OR
 fs.emptydirSync(dir)
@@ -22,13 +22,13 @@ fs.emptydirSync(dir)
 
 **步骤 1:** 可以使用以下命令安装模块:
 
-```
+```js
 npm install fs-extra
 ```
 
 **步骤 2:** 安装模块后，您可以使用以下命令检查已安装模块的版本:
 
-```
+```js
 npm ls fs-extra
 ```
 
@@ -36,13 +36,13 @@ npm ls fs-extra
 
 **步骤 3:** 使用以下命令创建一个名为 *index.js* 的文件，并在文件中要求 **fs-extra** 模块:
 
-```
+```js
 const fs = require('fs-extra');
 ```
 
 **步骤 4:** 要运行文件，在终端中写入以下命令:
 
-```
+```js
 node index.js
 ```
 
@@ -56,7 +56,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 // Requiring module
 const fs = require("fs-extra");
 
@@ -88,13 +88,13 @@ console.log("Directory is empty now");
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Number of files in directory before calling the function: 2
 Number of files in directory after calling the function: 0
 Directory is empty now
@@ -106,7 +106,7 @@ Directory is empty now
 
 ## java 描述语言
 
-```
+```js
 // Requiring module
 const fs = require("fs-extra");
 
@@ -138,13 +138,13 @@ console.log("Directory is empty now");
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Number of files in directory before calling the function: 1
 Number of files in directory after calling the function: 0
 Directory is empty now

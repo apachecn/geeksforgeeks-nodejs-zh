@@ -8,13 +8,13 @@
 
 1.  使用以下命令在项目目录的根目录下创建 package.json 文件:
 
-    ```
+    ```js
     npm init -y
     ```
 
 2.  使用以下命令安装 express 和 body-parser 包:
 
-    ```
+    ```js
     npm install express
     npm install body-parser
 
@@ -29,7 +29,7 @@
 
 **文件名:index.js**
 
-```
+```js
 const express = require('express')
 const bodyParser = require('body-parser')
 
@@ -76,7 +76,7 @@ app.listen(port, () => {
 
 **文件名:repository.js** 该文件包含更新自定义数据库记录的所有逻辑。
 
-```
+```js
 // Importing node.js file system, crypto module 
 const fs = require('fs')
 
@@ -169,7 +169,7 @@ module.exports = new Repository('datastore.json')
 
 **档案名称:updateRecordForm.js**
 
-```
+```js
 const repo = require('./repository')
 module.exports = async ({ id }) => {
     const record = await repo.findById(id)
@@ -214,7 +214,7 @@ package.json 文件
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

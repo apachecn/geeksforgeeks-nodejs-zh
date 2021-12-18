@@ -5,7 +5,7 @@
 在 **URLSearchParams** 界面中， **append()** 方法添加用户指定的键/值对。
 **语法:**
 
-```
+```js
 URLSearchParams.append(*name*, *value*)
 ```
 
@@ -15,7 +15,7 @@ URLSearchParams.append(*name*, *value*)
 
 **示例 1:**
 
-```
+```js
 let url = new URL('https://example.com?par=1&par1=3');
 let params = new URLSearchParams(url.search.slice(1));
 
@@ -26,13 +26,13 @@ console.log(url);
 
 **输出:**
 
-```
+```js
 https://example.com?par=1&par1=3&bar=5
 ```
 
 **示例 2:**
 
-```
+```js
 let url = new URL('https://example.com?par=1');
 let params = new URLSearchParams(url.search.slice(1));
 
@@ -43,7 +43,7 @@ console.log(url);
 
 **输出:**
 
-```
+```js
 https://example.com?par=1&bar=2
 ```
 

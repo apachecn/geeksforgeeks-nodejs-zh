@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 URLSearchParams.set(*name*, *value*)
 ```
 
@@ -16,7 +16,7 @@ URLSearchParams.set(*name*, *value*)
 
 **例 1:**
 
-```
+```js
 let url = new URL('https://example.com?fo=4&bar=6');
 let params = new URLSearchParams(url.search.slice(1));
 
@@ -27,13 +27,13 @@ console.log(params.toString());
 
 **输出:**
 
-```
+```js
 fo=4&bar=6&par=5
 ```
 
 **示例 2:** 添加多个参数
 
-```
+```js
 let url = new URL('https://example.com?a=1&b=2');
 let params = new URLSearchParams(url.search.slice(1));
 
@@ -45,7 +45,7 @@ console.log(params.toString());
 
 **输出:**
 
-```
+```js
 a=1&b=2&c=3&d=4
 ```
 

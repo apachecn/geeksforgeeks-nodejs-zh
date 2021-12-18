@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```js
   process.exitCode = value
 ```
 
@@ -16,7 +16,7 @@
 
 ## Javascript
 
-```
+```js
 const express = require('express')
 const app = express()
 

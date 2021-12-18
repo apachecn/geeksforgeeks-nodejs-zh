@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dns.resolveCname( hostname, callback )
 ```
 
@@ -23,7 +23,7 @@ dns.resolveCname( hostname, callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dns.resolveAny() method
 
@@ -39,7 +39,7 @@ dns.resolveCname('geeksforgeeks.org', (err, 
 
 **输出:**
 
-```
+```js
 QueryReqWrap {
   bindingName: 'queryCname',
   callback: [Function],
@@ -53,7 +53,7 @@ addresses: undefined
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dns.resolveAny() method
 
@@ -69,7 +69,7 @@ dns.resolveCname('localhost', (err, 
 
 **输出:**
 
-```
+```js
 QueryReqWrap {
   bindingName: 'queryCname',
   callback: [Function],

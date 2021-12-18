@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 response.getHeader(name)
 
 ```
@@ -29,7 +29,7 @@ response.getHeader(name)
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse.getHeader() method
 
@@ -104,13 +104,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 header :- hello world; charset=utf-8
 status : 200
 Received: hello
@@ -124,7 +124,7 @@ server destroyed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse.getHeader() method
 
@@ -195,13 +195,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 header :- type=ninja,language=javascript
 Received: The sum weight of all Http2Stream : 0
 client destroyed

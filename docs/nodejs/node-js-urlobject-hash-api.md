@@ -10,19 +10,19 @@
 
 **urlObject.hash:** 用于标识 URL 的“片段”部分。该属性还包括#字符。
 
-```
+```js
 For example: '#hash'.
 ```
 
 **语法**
 
-```
+```js
 urlObject.hash
 ```
 
 **例:**
 
-```
+```js
 const url = require('url');
 const reqUrl = 'www.example.com/hi#file?=newFile'
 const urlObject = url.parse(reqUrl, true);
@@ -32,6 +32,6 @@ console.log(urlObject.hash);
 
 **输出:**
 
-```
+```js
 #file?=newFile
 ```

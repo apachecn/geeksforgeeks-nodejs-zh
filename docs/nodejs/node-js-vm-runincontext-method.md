@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 vm.runInContext( code, contextifiedObject, options )
 ```
 
@@ -36,7 +36,7 @@ vm.runInContext( code, contextifiedObject, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // vm.runInContext() method
 
@@ -61,7 +61,7 @@ console.log("The output is: ", contextobj);
 
 **输出:**
 
-```
+```js
 The output is:  { count: 32 }
 
 ```
@@ -70,7 +70,7 @@ The output is:  { count: 32 }
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // vm.runInContext() method
 
@@ -97,7 +97,7 @@ console.log(cobj);
 
 **输出:**
 
-```
+```js
 { name_of_school: 'M.B.V', number_of_students: 30 }
 
 ```

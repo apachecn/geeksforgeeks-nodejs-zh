@@ -8,7 +8,7 @@
 
 可以使用以下命令在程序中使用 JavaScript 日期对象。
 
-```
+```js
 const date = new Date();
 ```
 
@@ -30,7 +30,7 @@ const date = new Date();
 
 ## index.js
 
-```
+```js
 const date = new Date();
 
 // Function to convert
@@ -76,7 +76,7 @@ format12Hour(format);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -88,7 +88,7 @@ node index.js
 
 ## index.js
 
-```
+```js
 const moment = require("moment");
 
 // 24 Hour format
@@ -99,7 +99,7 @@ console.log(moment().format("MM/DD/YYYY hh:mm:ss"));
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

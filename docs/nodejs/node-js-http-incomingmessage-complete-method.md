@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const message.complete
 ```
 
@@ -18,7 +18,7 @@ const message.complete
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the  
 // request.complete Method 
 
@@ -57,7 +57,7 @@ httpServer.listen(PORT, () => { 
 
 **输出:**控制台内
 
-```
+```js
 Server is running at port 3000...
 displaying the result...
 displaying the result...
@@ -67,7 +67,7 @@ server is closed
 
 **现在在浏览器中运行 http://localhost:3000/即可。**
 
-```
+```js
 message has been sent : false
 ```
 
@@ -75,7 +75,7 @@ message has been sent : false
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the  
 // request.complete Method 
 
@@ -111,7 +111,7 @@ var httpServer = http.createServer(
 
 **输出**:控制台内
 
-```
+```js
 Server is running at port 3000...
 displaying the result...
 displaying the result...
@@ -121,7 +121,7 @@ server is closed
 
 **现在在浏览器中运行 http://localhost:3000/即可。**
 
-```
+```js
 message has been sent : false
 ```
 

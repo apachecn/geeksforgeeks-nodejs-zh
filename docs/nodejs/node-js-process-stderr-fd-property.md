@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const process.stderr.fd
 ```
 
@@ -18,7 +18,7 @@ const process.stderr.fd
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // process.stderr.fd
 
@@ -35,13 +35,13 @@ console.log(value)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 2
 ```
 
@@ -49,7 +49,7 @@ node index.js
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // process.stderr.fd
 
@@ -69,13 +69,13 @@ console.log(value)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 10
 ```
 

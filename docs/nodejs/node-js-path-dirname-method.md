@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 path.dirname( path )
 ```
 
@@ -20,7 +20,7 @@ path.dirname( path )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // path.dirname() method 
 
@@ -43,7 +43,7 @@ console.log(path3);
 
 **输出:**
 
-```
+```js
 /users/admin/website
 .
 website/post
@@ -51,7 +51,7 @@ website/post
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // path.dirname() method 
 
@@ -69,7 +69,7 @@ console.log(path2);
 
 **输出:**
 
-```
+```js
 File name:  G:\tutorials\nodejs-path-dirname\index.js
 G:\tutorials\nodejs-path-dirname
 Directory name:  G:\tutorials\nodejs-path-dirname

@@ -25,7 +25,7 @@ NPM 有 580096 个注册包裹。这个数字的平均增长率是 291/天，这
 
 **Package.json:** 在目录中创建一个 [package.json](https://www.geeksforgeeks.org/node-js-package-json/) 文件，并在这个文件中提到 express dependencies。
 
-```
+```js
 {
   "name": "gfg",
   "version": "1.0.0",
@@ -44,7 +44,7 @@ NPM 有 580096 个注册包裹。这个数字的平均增长率是 291/天，这
 
 **运行** ***npm 安装*** **命令:**
 
-```
+```js
 npm i 
 or
 npm install
@@ -64,25 +64,25 @@ npm install
 
 ****语法:****
 
-```
+```js
 npm install [-g] [<package>..]
 ```
 
 > ***   **Syntax of installing module:** The module will be installed in the node_modules folder of the current directory.**
 > 
->  **```
+>  **```js
 > npm install <module-name>
 > ```
 > 
 > *   **Syntax of installing any module globally** ****:** Global installation means that we can access the module without installing it in a specific directory. For example, [node module](https://www.geeksforgeeks.org/node-js-nodemon-module/#:~:text=The%20nodemon%20Module%20is%20a,code%20and%20method%20of%20development.) and so on.**
 > 
->  **```
+>  **```js
 > npm install -g <module-name>
 > ```
 > 
 > *   **Change the syntax of module directory path:** This command changes the installation path of external modules from node_modules to the < dirname > folder in the working directory.
 > 
-> ```
+> ```js
 > npm install <dirname>
 > ```****
 
@@ -90,7 +90,7 @@ npm install [-g] [<package>..]
 
 1.  ******使用 npm 命令安装模块:******
 
-```
+```js
 **npm install mongodb**
 ```
 
@@ -109,7 +109,7 @@ npm install [-g] [<package>..]
 
 ******语法:******
 
-```
+```js
 **npm update -g**
 ```
 
@@ -123,7 +123,7 @@ npm install [-g] [<package>..]
 
 ******1。脱字符号依赖项:**当^的 package.json 或 package.lock.json 文件中存在依赖项时，称为脱字符号，称为脱字依赖项。这些依赖项被更新到与该版本兼容的最新版本。****
 
-```
+```js
 **"dependencies": {
   "dep11": "^2.2.2"
 }**
@@ -133,7 +133,7 @@ npm install [-g] [<package>..]
 
 ******2。tilde Dependencies:***NPM update*命令将这些依赖项更新到最高排序版本。这些依赖项使用~符号。****
 
-```
+```js
 **"dependencies": {
   "dep11": "^2.2.2"
 }**

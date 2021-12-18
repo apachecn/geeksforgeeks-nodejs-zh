@@ -12,7 +12,7 @@ Node.js 是著名的开源环境之一，它允许您在浏览器之外运行 ja
 
 首先用您提供的值创建一个 **package.json** 文件，使用 IDE 终端中的 **npm init** 命令。
 
-```
+```js
 npm init
 ```
 
@@ -22,7 +22,7 @@ npm init
 
 **第 3 步:**现在使用 **npm** 命令安装依赖项[**express**](https://www.geeksforgeeks.org/working-of-express-js-middleware-and-its-benefits/)**[**猫鼬**](https://www.geeksforgeeks.org/mongoose-module-introduction/#:~:text=module%20is%20one%20of%20the,from%20MongoDB%20to%20the%20Node.)**和 [nodemon](https://www.geeksforgeeks.org/node-js-nodemon-module/) 。****
 
-```
+```js
 npm install express mongoose nodemon
 ```
 
@@ -40,7 +40,7 @@ npm install express mongoose nodemon
 
 ## ****java 描述语言****
 
-```
+```js
 **// Importing express module
 var express = require("express");
 
@@ -65,7 +65,7 @@ app.listen(port, () => {
 
 ******步骤 5:** 要运行代码，请转到终端并键入****
 
-```
+```js
 **nodemon index.js**
 ```
 
@@ -83,21 +83,21 @@ app.listen(port, () => {
 
 ******第 7 步:**我们现在需要添加 2 行代码，因为我们将需要 **express.json()** 和 **express.urlencoded()** 来处理 POST 和 PUT 请求。 **Express** 为我们提供了中间件来处理请求体中传入的数据对象。在 POST 和 PUT 请求中，我们都向服务器发送数据对象，并要求服务器接受或存储该数据对象，该数据对象包含在该请求的 req.body 中。****
 
-```
+```js
 **app.use(express.json());
 app.use(express.urlencoded({ extended: true }));**
 ```
 
 ******步骤 8:** 在项目文件夹内创建一个名为**公共**的文件夹。我们将在我们项目的**公共**目录中创建所有静态 HTML 文件。****
 
-```
+```js
 **// For serving static html files
 app.use(express.static('public'));**
 ```
 
 ******第 9 步:**现在我们将使用以下代码连接到猫鼬数据库。本项目数据库名称为**项目组******
 
-```
+```js
 **mongoose.connect("mongodb://localhost/projectDG", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -109,7 +109,7 @@ var db = mongoose.connection;**
 
 ****这是 index.js 文件的主要部分，在这里将处理 post 请求，并将数据从客户端请求正确传输到主数据库服务器。****
 
-```
+```js
 **app.post("/formFillUp", (req, res) => {
   var name = req.body.name;
   var reason = req.body.reason;
@@ -147,7 +147,7 @@ var db = mongoose.connection;**
 
 ## ****java 描述语言****
 
-```
+```js
 **var express = require("express");
 var mongoose = require("mongoose");
 const port = 80;
@@ -216,7 +216,7 @@ app.listen(port, () => {
 
 ## **超文本标记语言**
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
 
@@ -325,7 +325,7 @@ index.html**
 
 ## **超文本标记语言**
 
-```
+```js
 <!DOCTYPE html>
 <html>
 
@@ -362,7 +362,7 @@ formSubmitted.html**
 
 ## **半铸钢ˌ钢性铸铁(Cast Semi-Steel)**
 
-```
+```js
 body {
   background-image: linear-gradient(120deg,
                  #9de7fa 0%, #f89fba 100%);
@@ -389,7 +389,7 @@ body {
 
  ****第 12 步:**创建完这三个文件，我们的项目就快完成了。我们现在将启动 MongoDB。打开 Windows Powershell 窗口，然后键入命令 **mongod。****
 
-```
+```js
 mongod
 ```
 
@@ -399,7 +399,7 @@ mongod
 
 **打开另一个 Windows Powershell 窗口，输入命令 **mongo****
 
-```
+```js
 mongo
 ```
 
@@ -423,19 +423,19 @@ mongo
 
 ****该命令列出了 mongoDB 中的所有数据库:****
 
-```
+```js
 show dbs
 ```
 
 ****这个命令会让我们切换到我们的数据库:****
 
-```
+```js
 use projectDG 
 ```
 
 ****这个命令我们将检查集合中的特定数据:****
 
-```
+```js
 db.users.find()
 ```
 

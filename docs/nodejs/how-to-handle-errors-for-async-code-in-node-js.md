@@ -25,7 +25,7 @@ JavaScript 中的异步操作是不阻止进一步操作的操作。这意味着
 
 ## app.js
 
-```
+```js
 const divide = (a, b, callback) => {
   setTimeout(() => {
     if (b == 0) {
@@ -55,7 +55,7 @@ divide(5, 0, (err, res) => {
 
 **运行应用程序的步骤:**您可以在命令行上使用以下命令执行您的 app.js 文件。
 
-```
+```js
 node app.js
 ```
 
@@ -67,7 +67,7 @@ node app.js
 
 **语法:**
 
-```
+```js
 // func is an async function
 func().then(res => {   
     // code logic
@@ -78,7 +78,7 @@ func().then(res => {
 
 现在，如果我们想使用异步/等待来处理承诺拒绝，那么我们可以使用一个简单的 [try/catch](https://www.geeksforgeeks.org/javascript-errors-throw-and-try-to-catch/) 块轻松完成，如下面给出的语法所示。
 
-```
+```js
 const hello = async () => {
     try {
         // func is an async function
@@ -93,7 +93,7 @@ const hello = async () => {
 
 ## app.js
 
-```
+```js
 const divide = async (a, b) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.link( existingPath, newPath, callback )
 ```
 
@@ -21,7 +21,7 @@ fs.link( existingPath, newPath, callback )
 
 **示例 1:** 本示例创建到文件的硬链接。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.link() method
 
@@ -43,7 +43,7 @@ fs.link(__dirname + "\\example_file.txt", "hardlinkToFile", (err) => {
 
 **输出:**
 
-```
+```js
 Contents of the text file:
 This is an example of the fs.link() method.
 
@@ -56,7 +56,7 @@ This is an example of the fs.link() method.
 
 **示例 2:** 本示例创建文件的硬链接，并删除原始文件。原始文件的内容仍然可以通过硬链接访问。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.link() method
 
@@ -84,7 +84,7 @@ fs.link(__dirname + "\\example_file.txt", "hardlinkToFile", (err) => {
 
 **输出:**
 
-```
+```js
 Contents of the text file:
 This is an example of the fs.link() method.
 

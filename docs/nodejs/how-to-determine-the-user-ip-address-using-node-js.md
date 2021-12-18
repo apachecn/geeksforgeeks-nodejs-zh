@@ -6,7 +6,7 @@
 
 **dns.lookup()函数:**
 
-```
+```js
 dns.lookup(hostname[, options], callback)
 ```
 
@@ -26,7 +26,7 @@ dns.lookup(hostname[, options], callback)
 
 ## index.js
 
-```
+```js
 // Import file
 const dns = require('dns');
 
@@ -46,7 +46,7 @@ dns.lookup('www.geeksforgeeks.org', 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node client_ip.js
 ```
 

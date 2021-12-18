@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.flush()
 ```
 
@@ -18,7 +18,7 @@ zlib.flush()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // zlib.flush() method
 
@@ -48,14 +48,14 @@ console.log("Program Complete!");
 
 **输出:**
 
-```
+```js
 Program Complete!
 Input: Data flush received 13 bytes
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // zlib.flush() method
 
@@ -85,7 +85,7 @@ console.log("Program Complete!");
 
 **输出:**所以，当字节大小超过 16384 字节后，你需要回调 flush 方法，否则数据不会被完全刷新。
 
-```
+```js
 Program Complete!
 Input: Data flush with callback received 16384 bytes
 Input: Data flush with callback received 2616 bytes

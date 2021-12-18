@@ -8,7 +8,7 @@ Node.js 用于服务器端脚本。读取和写入文件是任何应用程序中
 
 **语法:**
 
-```
+```js
 filehandle.read( buffer, offset, length, position );
 
 ```
@@ -24,13 +24,13 @@ filehandle.read( buffer, offset, length, position );
 
 **注意:**“gfg . txt”应出现在目录中，文本如下:
 
-```
+```js
 GeeksforGeeks - A computer science portal for geeks
 ```
 
 **例:**
 
-```
+```js
 // Node.js program to demonstrate the
 // Node.js filehandle.read() Method
 
@@ -69,12 +69,12 @@ doRead().catch(console.error);
 
 使用以下命令运行 **app.js** 文件:
 
-```
+```js
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 GeeksforGeeks - A computer science portal for geeks
 ```

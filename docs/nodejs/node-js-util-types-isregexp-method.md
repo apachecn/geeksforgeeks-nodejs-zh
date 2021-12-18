@@ -6,7 +6,7 @@ util 模块的 **util.types.isRegExp()方法**，主要是为了支持 Node.js �
 
 **语法:**
 
-```
+```js
 util.types.isRegExp( value )
 ```
 
@@ -18,7 +18,7 @@ util.types.isRegExp( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // util.types.isRegExp() method
 
@@ -36,14 +36,14 @@ console.log(util.types.isRegExp(new RegExp('xyz')));
 
 **输出:**
 
-```
+```js
 false
 true
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // util.types.isRegExp() method
 
@@ -73,7 +73,7 @@ console.log(util.types.isRegExp(/ab+c/));
 
 **输出:**
 
-```
+```js
 false
 true
 true

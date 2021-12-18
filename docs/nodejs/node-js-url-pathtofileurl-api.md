@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 url.pathToFileURL(path)
 ```
 
@@ -18,7 +18,7 @@ url.pathToFileURL(path)
 
 **例 1:**
 
-```
+```js
 // Node program to demonstrate the  
 // URL.pathToFileURL API as Setter
 
@@ -34,7 +34,7 @@ console.log(url.pathToFileURL(path)) 
 
 **输出:**
 
-```
+```js
 
 URL {
   href: 'file:///D:/GeeksForGeeks',
@@ -55,7 +55,7 @@ URL {
 
 **例 2:**
 
-```
+```js
 // Node program to demonstrate the  
 // URL.pathToFileURL API as Setter
 
@@ -71,7 +71,7 @@ console.log(url.pathToFileURL(path)) 
 
 **输出:**
 
-```
+```js
 URL {
   href: 'file:///D:/NodeJS%0Aode_modules%0Apm',
   origin: 'null',

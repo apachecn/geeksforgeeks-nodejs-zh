@@ -5,7 +5,7 @@
 Node 中的 **urlObject.port()** 方法用于获取主机名中主机组件的数字端口部分。
 返回网址的端口号，否则**无**如果网址中没有端口号。
 
-```
+```js
 
 Syntax : urlObject.port()
 Return : Returns the URL’s port number or None
@@ -14,7 +14,7 @@ Return : Returns the URL’s port number or None
 
 **示例#1 :** 在这些示例中，我们展示了 urlObject.port()方法如何从主机名中提取 url 的端口号。
 
-```
+```js
 // Importing the module 'url' 
 const url = require('url'); 
 
@@ -32,14 +32,14 @@ console.log(q.port); 
 
 **输出:**
 
-```
+```js
 8080
 
 ```
 
 **例 2 :**
 
-```
+```js
 // Importing the module 'url' 
 const url = require('url'); 
 
@@ -57,7 +57,7 @@ console.log(q.port); 
 
 **输出:**
 
-```
+```js
 null
 
 ```

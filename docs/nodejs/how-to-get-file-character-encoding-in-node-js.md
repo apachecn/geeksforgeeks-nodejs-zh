@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```js
 languageEncoding(pathToFile).then(
     fileInfo => // Do anything
 );
@@ -28,7 +28,7 @@ languageEncoding(pathToFile).then(
 
 **步骤 1:** 初始化 node.js 项目
 
-```
+```js
 npm init
 ```
 
@@ -36,7 +36,7 @@ npm init
 
 **步骤 2:** 安装所需模块
 
-```
+```js
 npm install detect-file-encoding-and-language
 ```
 
@@ -44,7 +44,7 @@ npm install detect-file-encoding-and-language
 
 **文件名- a.txt**
 
-```
+```js
 Geeks for Geeks
 ```
 
@@ -52,7 +52,7 @@ Geeks for Geeks
 
 ## index.js
 
-```
+```js
 import languageEncoding from "detect-file-encoding-and-language"
 
 const pathToFile = "./a.txt"
@@ -64,7 +64,7 @@ languageEncoding(pathToFile)
 
 **步骤 5:** 运行 index.js 文件
 
-```
+```js
 node index.js
 ```
 

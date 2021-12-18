@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const Buffer.allocUnsafe( *size*)
 ```
 
@@ -18,7 +18,7 @@ const Buffer.allocUnsafe( *size*)
 
 **例 1:**
 
-```
+```js
 // Node program to demonstrate the 
 // Buffer.allocUnsafe(size) method
 
@@ -32,7 +32,7 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 10 size Buffer created
 <Buffer 88 c4 62 ba 48 02 00 00 a8 c5>
 
@@ -40,7 +40,7 @@ console.log(buf);
 
 **例 2:**
 
-```
+```js
 // Node program to demonstrate the 
 // Buffer.allocUnsafe(size) method
 
@@ -61,7 +61,7 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 Before filling the Buffer
  After filling Buffer 
 ```

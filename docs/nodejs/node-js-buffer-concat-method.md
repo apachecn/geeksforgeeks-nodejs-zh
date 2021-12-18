@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.concat( list, length )
 ```
 
@@ -17,7 +17,7 @@ Buffer.concat( list, length )
 
 **例 1:**
 
-```
+```js
 // Returns a new buffer with the
 // copy of the passed string
 var buf1 = Buffer.from("Geeks");
@@ -42,14 +42,14 @@ console.log(newbuff); 
 
 **输出:**
 
-```
+```js
 The concatenated buffer:
 <Buffer 47 65 65 6b 73 66 6f 72 47 65 65 6b 73>
 ```
 
 **例 2:**
 
-```
+```js
 // Returns a new buffer with the
 // copy of the passed string
 var buf1 = Buffer.from("Good");
@@ -75,7 +75,7 @@ console.log(newbuff); 
 
 **输出:**
 
-```
+```js
 The concatenated buffer:
 <Buffer 47 6f 6f 64 6d 6f 72 6e 69 6e 67 65 76 65 72 79 6f 6e 65>
 

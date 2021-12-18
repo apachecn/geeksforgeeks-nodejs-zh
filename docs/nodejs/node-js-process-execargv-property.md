@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.execArgv
 ```
 
@@ -16,7 +16,7 @@ process.execArgv
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // process.execArgv Property
 
@@ -29,20 +29,20 @@ console.log(process.execArgv);
 
 **命令运行:**
 
-```
+```js
 node -i --harmony filename
 ```
 
 **输出:**
 
-```
+```js
 [ '-i', '--harmony' ]
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // process.execArgv Property
 
@@ -61,14 +61,14 @@ execargv.forEach((val, index) => {
 
 **命令运行:**
 
-```
+```js
 node -i --harmony filename
 
 ```
 
 **输出:**
 
-```
+```js
 number of execution arguments is 2
 0: -i
 1: --harmony

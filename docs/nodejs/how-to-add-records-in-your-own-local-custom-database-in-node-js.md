@@ -9,14 +9,14 @@
 *   在项目目录的根目录下创建 package.json 文件。
     **命令创建包文件**
 
-    ```
+    ```js
     npm init -y
     ```
 
 *   安装 express 和 body-parser 包。
     **命令安装软件包**
 
-    ```
+    ```js
     npm install express body-parser
     ```
 
@@ -29,7 +29,7 @@
 
 **文件名:index.js**
 
-```
+```js
 const express = require('express')
 const bodyParser = require('body-parser')
 const repo = require('./repository')
@@ -96,7 +96,7 @@ app.listen(port, () => {
 
 **文件名:repository.js**
 
-```
+```js
 // Importing node.js file system module 
 const fs = require('fs')
 
@@ -162,7 +162,7 @@ module.exports = new Repository('datastore.json')
 **运行程序的步骤:**
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 

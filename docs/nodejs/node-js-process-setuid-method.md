@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.setuid(id)
 ```
 
@@ -24,7 +24,7 @@ process.setuid(id)
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the     
 // process.setuid() Method
 
@@ -47,7 +47,7 @@ if (process.getuid && process.setuid ) {
 
 **输出:**
 
-```
+```js
 The user identity of the Node.js process: 400
 ```
 
@@ -55,7 +55,7 @@ The user identity of the Node.js process: 400
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the     
 // process.setuid() Method
 
@@ -86,7 +86,7 @@ if (process.getuid) {
 
 **输出:**
 
-```
+```js
 User id has successfully been set
 The user identity of the Node.js process: 696
 ```

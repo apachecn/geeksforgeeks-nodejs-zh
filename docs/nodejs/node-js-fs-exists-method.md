@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.exists( path, callback )
 ```
 
@@ -23,7 +23,7 @@ fs.exists( path, callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // fs.exists() method
 
@@ -37,14 +37,14 @@ fs.exists('/etc/passwd', (exists) => {
 
 **输出:**
 
-```
+```js
 Found
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // fs.exists() method
 
@@ -58,7 +58,7 @@ fs.exists('/etc/geeks', (exists) => {
 
 **输出:**
 
-```
+```js
 Not found!
 
 ```

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 util.types.isMapIterator( value )
 ```
 
@@ -20,7 +20,7 @@ util.types.isMapIterator( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.types.isMapIterator() method 
 
@@ -39,7 +39,7 @@ console.log(util.types.isMapIterator(new Map().keys()));
 
 **输出:**
 
-```
+```js
 false
 true
 true
@@ -48,7 +48,7 @@ true
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.types.isMapIterator() method 
 
@@ -69,7 +69,7 @@ console.log(util.types.isMapIterator(map[Symbol.iterator]()));
 
 **输出:**
 
-```
+```js
 true
 true
 true

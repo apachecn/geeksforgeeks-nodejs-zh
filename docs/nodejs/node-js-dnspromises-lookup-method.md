@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dnsPromises.lookup( hostname, options )
 ```
 
@@ -25,7 +25,7 @@ dnsPromises.lookup( hostname, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.lookup() method
 
@@ -50,14 +50,14 @@ dnsPromises.lookup('geeksforgeeks.org', options).then((response) => {
 
 **输出:**
 
-```
+```js
  family: IPv6 address: "fd00:0:14:13::22da:3e74"
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.lookup() method
 
@@ -78,7 +78,7 @@ dnsPromises.lookup('geeksforgeeks.org', options).then((response) => {
 
 **输出:**
 
-```
+```js
 addresses: [{"address":"34.218.62.116", "family":4},
 {"address":"fd00:0:14:13::22da:3e74", "family":6}]
 
@@ -86,7 +86,7 @@ addresses: [{"address":"34.218.62.116", "family":4},
 
 **例 3:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.lookup() method
 
@@ -115,7 +115,7 @@ const options = {
 
 **输出:**
 
-```
+```js
 from async:
 [ { address: '34.218.62.116', family: 4 },
   { address: 'fd00:0:14:13::22da:3e74', family: 6 } ]

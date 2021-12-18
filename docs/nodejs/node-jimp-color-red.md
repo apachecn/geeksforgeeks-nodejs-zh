@@ -5,7 +5,7 @@
 **简介**
 **红色**修改器是 Nodejs | Jimp 中的一个内置颜色修改器，它以给定的量修改给定图像的红色分量。
 
-```
+```js
 image.color([
   { apply: 'red', params: value }
 ]);
@@ -23,7 +23,7 @@ image.color([
 
 **例 1:**
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');
@@ -45,7 +45,7 @@ main();
 ![](img/f382c246de68a8adbb4e81e105434a49.png)
 **例 2: cb(可选参数)**
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');

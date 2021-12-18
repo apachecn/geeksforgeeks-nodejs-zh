@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.readUInt16BE( offset )
 ```
 
@@ -18,7 +18,7 @@ Buffer.readUInt16BE( offset )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // Buffer.readUInt16BE() method 
 
@@ -37,7 +37,7 @@ console.log(buf.readUInt16BE(2).toString(16));
 
 **输出:**
 
-```
+```js
 <Buffer 21 09 19 98>
 2109
 919
@@ -47,7 +47,7 @@ console.log(buf.readUInt16BE(2).toString(16));
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // Buffer.readUInt16BE() method 
 
@@ -69,7 +69,7 @@ console.log(buf.readUInt16LE(2).toString(16));
 
 **输出:**
 
-```
+```js
 <Buffer 21 09 19 98>
 2109
 921
@@ -82,7 +82,7 @@ console.log(buf.readUInt16LE(2).toString(16));
 
 **例 3:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // Buffer.readUInt16BE() method 
 
@@ -104,7 +104,7 @@ console.log(buf.readUInt16BE(3).toString(16));
 
 **输出:**
 
-```
+```js
 <Buffer 21 09 19 98>
 2109
 919

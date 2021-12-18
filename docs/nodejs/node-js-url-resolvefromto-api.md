@@ -6,7 +6,7 @@ URL . resolve(from，to) 是类 **URL** 的内置方法，它相对于**基本 U
 
 ### 语法:
 
-```
+```js
 url.resolve(from, to);
 
 ```
@@ -25,7 +25,7 @@ T3】2。前面没有正斜杠(“/”)–它将替换基本网址路径中正�
 
 ### 示例:
 
-```
+```js
 // node program to demonstrate the  
 // url.resolve(from, to) method  
 
@@ -43,7 +43,7 @@ console.log(url.resolve("http://www.google.com/", "one"));           
 console.log(url.resolve("http://www.google.com/one/two/three", "four"));    
 ```
 
-```
+```js
 OUTPUT: 
 http://www.google.com/one
 http://www.google.com/four

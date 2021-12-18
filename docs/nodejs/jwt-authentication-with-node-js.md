@@ -9,14 +9,14 @@
 *   NodeJs： [NodeJs](https://www.geeksforgeeks.org/introduction-to-nodejs/) 用于后端
 *   dotenv:用于处理配置数据
 
-```
+```js
 npm install dotenv
 ```
 
 *   处理路线的快速路:[快速路](https://www.geeksforgeeks.org/introduction-to-express/)。
 *   jsonwebtoken 模块:
 
-```
+```js
 npm install jsonwebtoken
 ```
 
@@ -26,7 +26,7 @@ npm install jsonwebtoken
 
     要创建节点项目，npm init -y 用在用户想要创建项目的文件夹中。npm 命令行将询问许多问题，如名称、许可证、脚本、描述、作者、关键字、版本、主文件等。npm 创建完项目后，在项目文件夹中将会看到一个 package.json 文件，作为项目已经初始化的证明。
 
-    ```
+    ```js
     npm init -y
     ```
 
@@ -36,7 +36,7 @@ npm install jsonwebtoken
 
     创建项目后，下一步是合并要在节点项目中使用的包和模块。要在项目中安装包和模块，请使用以下语法:
 
-    ```
+    ```js
     npm install express dotenv jsonwebtoken
     ```
 
@@ -48,7 +48,7 @@ npm install jsonwebtoken
 
     ## java 描述语言
 
-    ```
+    ```js
     const express = require('express');
     const dotenv = require('dotenv');
     const jwt = require('jsonwebtoken');
@@ -70,7 +70,7 @@ npm install jsonwebtoken
 
     ## java 描述语言
 
-    ```
+    ```js
     PORT = 5000
 
     JWT_SECRET_KEY = gfg_jwt_secret_key

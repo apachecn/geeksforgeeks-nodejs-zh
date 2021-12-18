@@ -6,7 +6,7 @@ assert 模块提供了一组用于验证不变量的断言函数。 **assert.rej
 
 **语法:**
 
-```
+```js
 assert.rejects(asyncFn[, error][, message])
 ```
 
@@ -22,7 +22,7 @@ assert.rejects(asyncFn[, error][, message])
 
 1.  You can visit the link to [Install assert module](https://www.npmjs.com/package/assert). You can install this package by using this command.
 
-    ```
+    ```js
     npm install assert
     ```
 
@@ -30,7 +30,7 @@ assert.rejects(asyncFn[, error][, message])
 
 2.  安装断言模块后，您可以使用命令在命令提示符下检查您的**断言**版本。
 
-    ```
+    ```js
     npm version assert
     ```
 
@@ -38,7 +38,7 @@ assert.rejects(asyncFn[, error][, message])
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Requiring the module
  const assert = require('assert').strict;
 
@@ -66,7 +66,7 @@ assert.rejects(asyncFn[, error][, message])
     ![](img/3209d9b4369c180282a34be8070d7d6e.png)
 2.  Run **index.js** file using below command:
 
-    ```
+    ```js
     node index.js
     ```
 
@@ -94,7 +94,7 @@ assert.rejects(asyncFn[, error][, message])
 
 **示例 2:** **文件名:index.js**
 
-```
+```js
 // Requiring the module
  const assert = require('assert').strict;
 
@@ -122,13 +122,13 @@ assert.rejects(asyncFn[, error][, message])
     ![](img/3209d9b4369c180282a34be8070d7d6e.png)
 2.  Run **index.js** file using below command:
 
-    ```
+    ```js
     node index.js
     ```
 
     **输出:**
 
-    ```
+    ```js
     Reject Demo Works Successfully
 
     ```

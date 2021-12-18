@@ -23,7 +23,7 @@ Express.js 是[节点最强大的框架. js](https://www.geeksforgeeks.org/worki
 
 ****安装模块:****
 
-```
+```js
 npm install express
 ```
 
@@ -33,7 +33,7 @@ npm install express
 
 ## **index.js**
 
-```
+```js
 //Importing require module
 const express=require("express")
 const server_route=require("./search")
@@ -50,7 +50,7 @@ app.listen(3000,()=>{
 
 ## **search.js**
 
-```
+```js
 //Importing libraries
 var express = require('express');
 var router = express.Router();
@@ -71,7 +71,7 @@ module.exports = router;
 
 **使用以下命令运行 **index.js** 文件:**
 
-```
+```js
 node index.js
 ```
 
@@ -83,7 +83,7 @@ node index.js
 
 ****安装快速发电机**:**
 
-```
+```js
 npm install -g express-generator
 ```
 
@@ -99,7 +99,7 @@ npm install -g express-generator
 
 ## **app.js**
 
-```
+```js
 //Default Imported libraries
 var createError = require('http-errors');
 var express = require('express');
@@ -151,13 +151,13 @@ module.exports = app;
 
 **使用以下命令运行 **app.js** 文件:**
 
-```
+```js
 node app.js
 ```
 
 ## **search.js**
 
-```
+```js
 var express = require('express');
 var router = express.Router();
 

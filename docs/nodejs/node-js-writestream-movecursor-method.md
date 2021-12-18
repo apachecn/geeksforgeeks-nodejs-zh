@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const writeStream.moveCursor(dx, dy[, callback])
 ```
 
@@ -22,7 +22,7 @@ const writeStream.moveCursor(dx, dy[, callback])
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // writeStream.moveCursor() method
 
@@ -64,7 +64,7 @@ client.send("cursor is moved :-  ",
 
 **输出:**
 
-```
+```js
 cursor is moved :-  true
 ```
 
@@ -72,7 +72,7 @@ cursor is moved :-  true
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // writeStream.moveCursor() method
 
@@ -92,13 +92,13 @@ console.log("cursor is moved :-  " + col);
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 cursor is moved :-  true
 ```
 

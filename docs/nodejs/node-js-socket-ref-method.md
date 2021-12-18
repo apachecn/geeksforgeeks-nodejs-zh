@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const socket.ref()
 ```
 
@@ -18,7 +18,7 @@ const socket.ref()
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // server.ref() method
 
@@ -57,7 +57,7 @@ client.send("Hello", 0, 7, 1234, "localhost");
 
 **输出:**
 
-```
+```js
 [ 'message' ]
 UDP String: Hello
 ```
@@ -66,7 +66,7 @@ UDP String: Hello
 
 ## JavaScript
 
-```
+```js
 // Node.js program to demonstrate the
 // server.ref() method
 
@@ -118,7 +118,7 @@ client.send("Hello", 0, 7, 1234, "localhost");
 
 **输出:**
 
-```
+```js
 server listening 0.0.0.0:1234
 [ 'message', 'listening' ]
 UDP String: Hello
@@ -126,7 +126,7 @@ UDP String: Hello
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 

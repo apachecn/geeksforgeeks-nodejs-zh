@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const writeStream.getColorDepth([env])
 ```
 
@@ -16,7 +16,7 @@ const writeStream.getColorDepth([env])
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the
 // writeStream.getColorDepth() method
 
@@ -57,13 +57,13 @@ client.send("No of color supported is :-  ",
 
 **输出:**
 
-```
+```js
 No of color supported is :- 24
 ```
 
 **示例 2:文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the
 // writeStream.getColorDepth() method
 
@@ -81,14 +81,14 @@ console.log("No of color supported is :-  " + col);
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 
 ```
 
 **输出:**
 
-```
+```js
 No of color supported is :-  24
 
 ```

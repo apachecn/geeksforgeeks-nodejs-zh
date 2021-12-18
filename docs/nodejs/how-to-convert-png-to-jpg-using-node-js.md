@@ -15,13 +15,13 @@
 
 **步骤 1:** 使用以下命令初始化 node.js 项目。
 
-```
+```js
 npm init
 ```
 
 **步骤 2:** 使用以下命令安装所需模块。
 
-```
+```js
 npm install jimp
 ```
 
@@ -37,7 +37,7 @@ npm install jimp
 
 ## index.js
 
-```
+```js
 // Import jimp module
 const Jimp = require("jimp");
 
@@ -58,7 +58,7 @@ Jimp.read("./static/GFG_IMG.png", function (err, image) {
 
 **步骤 5:** 使用以下命令运行 node.js 项目。
 
-```
+```js
 node index.js
 ```
 

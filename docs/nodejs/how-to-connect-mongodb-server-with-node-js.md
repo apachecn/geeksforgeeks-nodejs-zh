@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 mongodb.connect(path,callbackfunction)
 
 ```
@@ -18,7 +18,7 @@ mongodb.connect(path,callbackfunction)
 
 **安装模块:**
 
-```
+```js
 npm install mongodb --save
 
 ```
@@ -29,7 +29,7 @@ npm install mongodb --save
 
 **在特定 ip 上运行服务器的命令:**
 
-```
+```js
 mongod --dbpath=data --bind_ip 127.0.0.1
 
 ```
@@ -40,7 +40,7 @@ mongod --dbpath=data --bind_ip 127.0.0.1
 
 ## java 描述语言
 
-```
+```js
 // Module calling
 const MongoClient = require("mongodb");
 
@@ -61,14 +61,14 @@ MongoClient.connect(url, (err,client)=>{
 
 **运行命令:**
 
-```
+```js
 node index.js
 
 ```
 
 **输出:**
 
-```
+```js
 node index.js
 (node:7016) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
 (Use `node --trace-deprecation ...` to show where the warning was created)

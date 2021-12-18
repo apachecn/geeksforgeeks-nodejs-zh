@@ -18,7 +18,7 @@
 
 ## Javascript
 
-```
+```js
 var fileUrl = 
 'https://firebasestorage.googleapis.com/b/bucket/o/images%20geeksforgeeks.jpg';
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dns.resolveTxt( hostname, callback )
 ```
 
@@ -23,7 +23,7 @@ dns.resolveTxt( hostname, callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dns.resolveTxt() method
 
@@ -39,7 +39,7 @@ dns.resolveTxt('geeksforgeeks.org', (err, 
 
 **输出:**
 
-```
+```js
 TXT records: [
     ["fob1m1abcdp777bf2ncvnjm08n"],
     ["v=spf1 include:amazonses.com include:_spf.google.com -all"]
@@ -49,7 +49,7 @@ TXT records: [
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dns.resolveTxt() method
 
@@ -65,7 +65,7 @@ dns.resolveTxt('google.com', (err, 
 
 **输出:**
 
-```
+```js
 TXT records: [
     ["globalsign-smime-dv=CDYX+XFHUw2wml6/Gb8+59BsH31KzUr6c1l2BPvqKX8="],
     ["v=spf1 include:_spf.google.com ~all"],

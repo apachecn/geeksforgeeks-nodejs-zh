@@ -10,25 +10,25 @@
 
 *   [**express.js**](https://www.geeksforgeeks.org/working-of-express-js-middleware-and-its-benefits/) **:用于处理多个请求的** Express.js 框架。
 
-```
+```js
 npm install express
 ```
 
 *   [**cookie 解析器:**](https://www.geeksforgeeks.org/express-cookie-parser-signed-and-unsigned-cookies/) 用于解析传入 cookie 的 cookie 解析器模块。
 
-```
+```js
 npm install cookie-parser
 ```
 
 *   [**【快递会话】**](https://www.geeksforgeeks.org/session-management-using-express-session-module-in-node-js/) **:** 此快递会话模块用于 NodeJS 中的会话管理。
 
-```
+```js
 npm install express-session
 ```
 
 *   **会话-文件存储:**该模块有助于为新会话创建新的文件存储。
 
-```
+```js
 npm session-file-store
 ```
 
@@ -40,7 +40,7 @@ npm session-file-store
 
 ## java 描述语言
 
-```
+```js
 // Importing express module
 const express = require("express")
 
@@ -121,7 +121,7 @@ app.listen(3000, () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -145,7 +145,7 @@ node index.js
 
 *   该会话文件包含所有会话记录，即客户端发出第一个请求时特定客户端的信息，以及如下所示的更多信息:
 
-```
+```js
 {"cookie":{"originalMaxAge":null,
   "expires":null,"httpOnly":true,"path":"/"},
 "user":"admin","__lastAccess":1610430510130}

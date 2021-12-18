@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 searchParams.forEach(*callback*);
 ```
 
@@ -17,7 +17,7 @@ searchParams.forEach(*callback*);
 
 **示例 1:**
 
-```
+```js
 // Create a test URLSearchParams object
 const myURL = new URL('https://example.org/?keya=vala&keyb=valb');
 
@@ -29,14 +29,14 @@ myURL.searchParams.forEach(function(value, key) {
 
 **输出:**
 
-```
+```js
 vala keya
 valb keyb
 ```
 
 **示例 2:**
 
-```
+```js
 // Create a test URLSearchParams object
 const myURL = new URL('https://example.org/?par=parval&foo=fooval&bar=barval');
 
@@ -48,7 +48,7 @@ myURL.searchParams.forEach(function(value, key) {
 
 **输出:**
 
-```
+```js
 par parval
 foo fooval
 bar barval

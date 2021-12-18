@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 buffer.write( string, offset, length, encoding )
 ```
 
@@ -21,7 +21,7 @@ buffer.write( string, offset, length, encoding )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.write() method 
 
@@ -35,13 +35,13 @@ console.log(buf.toString());
 
 **输出:**
 
-```
+```js
 GEEksforGeeks
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.write() method 
 
@@ -55,7 +55,7 @@ console.log(len.toString());
 
 **输出:**
 
-```
+```js
 5
 ```
 

@@ -8,7 +8,7 @@
 
 **安装模块:**
 
-```
+```js
 npm install readline-sync
 ```
 
@@ -22,7 +22,7 @@ npm install readline-sync
 
 ## java 描述语言
 
-```
+```js
 // Importing the module
 const readline = require("readline-sync");
 
@@ -37,7 +37,7 @@ console.log(number);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -49,7 +49,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 // Importing the module
 const readline = require("readline-sync");
 
@@ -73,7 +73,7 @@ console.log(map);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

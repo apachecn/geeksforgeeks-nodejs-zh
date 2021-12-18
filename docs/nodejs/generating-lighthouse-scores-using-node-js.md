@@ -8,11 +8,11 @@
 
 我们使用 npm 提供的灯塔包，也使用 chrome-launcher 来生成数十个网站。我们可以下载该软件包并按如下方式使用它们:
 
-*   ```
+*   ```js
     npm install --save lighthouse
     ```
 
-*   ```
+*   ```js
     const lighthouse = require("lighthouse")
     ```
 
@@ -36,7 +36,7 @@
 
 **文件名:app.js**
 
-```
+```js
 // Import the required npm packages
 const fs = require("fs");
 const lighthouse = require("lighthouse");

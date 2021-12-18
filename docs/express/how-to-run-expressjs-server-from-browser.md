@@ -6,7 +6,7 @@ Express 是用于创建服务器的节点模块，在我们的服务器上接受
 
 **步骤 1:** 通过以下命令将 Express 本地安装到您的系统中:
 
-```
+```js
 npm install express
 ```
 
@@ -14,7 +14,7 @@ npm install express
 
 **第二步:**在终端使用下面的命令检查快递服务器的版本:
 
-```
+```js
 npm ls express
 ```
 
@@ -26,7 +26,7 @@ npm ls express
 
 ## index.js
 
-```
+```js
 // Requiring express.js
 const express = require('express')
 
@@ -51,7 +51,7 @@ app.listen(port_no, () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

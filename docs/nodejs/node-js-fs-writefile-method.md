@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.writeFile( file, data, options, callback )
 ```
 
@@ -25,7 +25,7 @@ fs.writeFile( file, data, options, callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.writeFile() method
 
@@ -47,7 +47,7 @@ fs.writeFile("books.txt", data, (err) => {
 
 **输出:**
 
-```
+```js
 File written successfully
 
 The written has the following contents:
@@ -56,7 +56,7 @@ This is a file containing a collection of books.
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.writeFile() method
 
@@ -84,7 +84,7 @@ fs.writeFile("movies.txt", data,
 
 **输出:**
 
-```
+```js
 File written successfully
 
 The written has the following contents:

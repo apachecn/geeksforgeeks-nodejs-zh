@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const writeStream.columns
 ```
 
@@ -16,7 +16,7 @@ const writeStream.columns
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // writeStream.columns property
 

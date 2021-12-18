@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const http2session.destroy([error][, code])
 ```
 
@@ -21,7 +21,7 @@ const http2session.destroy([error][, code])
 
 1.  **私钥:**打开记事本，如下图复制粘贴如下密钥:
 
-```
+```js
 -----BEGIN RSA PRIVATE KEY-----
 MIICXQIBAAKBgQC38R9wXcUbhOd44FavgmE5R3K4JeYOHLnI7dUq1B8/Gv7l3SOg
 JKef/m9gM1KvUx951mapXGtcWgwB08J3vUE2YOZ4tWJArrVZES0BI/RmFAyhQFP5
@@ -42,7 +42,7 @@ nUG9lYvH7DztWDTioXMrruPF7bdXfZOVJD8t0I4OUzvC
 1.  现在将文件保存为*私钥。PEM*T2】
 2.  **公共证书:**打开记事本，复制粘贴以下密钥:
 
-```
+```js
 -----BEGIN CERTIFICATE-----
 MIICfzCCAegCCQDxxeXw914Y2DANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMC
 SU4xEzARBgNVBAgMCldlc3RiZW5nYWwxEDAOBgNVBAcMB0tvbGthdGExFDASBgNV
@@ -67,7 +67,7 @@ hWF6W2H9+MAlU7yvtmCQQuZmfQ==
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // http2session.destroy() method
 
@@ -150,13 +150,13 @@ req.on('end', () => {
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 status : 200
 Received: hello
 Received: session protocol : h2c
@@ -169,7 +169,7 @@ session is destoryed
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // http2session.destroy() method
 
@@ -230,13 +230,13 @@ req.on('end', () => {
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 session is closed
 server destroyed
 ```

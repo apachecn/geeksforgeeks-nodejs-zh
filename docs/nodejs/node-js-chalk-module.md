@@ -13,7 +13,7 @@
 
 **安装模块:**
 
-```
+```js
 npm install chalk
 ```
 
@@ -27,7 +27,7 @@ npm install chalk
 
 ## index.js
 
-```
+```js
 // Importing module
 const chalk=require("chalk");
 
@@ -39,7 +39,7 @@ console.log(chalk.red.underline.bold("GFG"))
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -51,7 +51,7 @@ node index.js
 
 ## index.js
 
-```
+```js
 // Importing chalk module
 const chalk=require("chalk");
 
@@ -66,7 +66,7 @@ console.log(welcome("GFG"))
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

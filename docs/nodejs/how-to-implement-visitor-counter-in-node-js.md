@@ -6,13 +6,13 @@
 
 **步骤 1:** 创建一个“ ***app.js*** ”文件并用 *npm* 初始化你的项目。
 
-```
+```js
 npm init
 ```
 
 **第二步:**使用 *npm* 安装*快车*和*猫鼬*
 
-```
+```js
 npm install express
 npm install mongoose
 ```
@@ -39,7 +39,7 @@ npm install mongoose
 
 ## app.js
 
-```
+```js
 // Requiring express to handle routing
 const express = require('express')
 
@@ -115,7 +115,7 @@ app.listen(3000,function(req,res){
 
 **第 4 步:**现在运行应用程序
 
-```
+```js
 node app.js
 ```
 

@@ -5,7 +5,7 @@
 **res.append()** 函数将指定的值追加到 HTTP 响应头字段中，如果还没有设置头，则使用指定的值创建头。
 **语法:**
 
-```
+```js
 res.append(field [, value])
 ```
 
@@ -15,19 +15,19 @@ res.append(field [, value])
 
 *   您可以访问[安装快速模块](https://www.npmjs.com/package/express)的链接。您可以使用此命令安装此软件包。
 
-```
+```js
 npm install express
 ```
 
 *   安装快速模块后，您可以使用命令在命令提示符下检查您的快速版本。
 
-```
+```js
 npm version express
 ```
 
 *   之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-```
+```js
 node index.js
 ```
 
@@ -35,7 +35,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 var express = require('express');
 var app = express();
 var PORT = 3000;
@@ -60,25 +60,25 @@ app.listen(PORT, function(err){
 
 *   使用以下命令确保您已经安装了 **express** 模块:
 
-```
+```js
 npm install express
 ```
 
 *   使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Server listening on PORT 3000
 ```
 
 *   打开浏览器，转到 *http://localhost:3000/* ，现在在控制台上看到如下输出:
 
-```
+```js
 Server listening on PORT 3000
 201 Warning
 ```
@@ -87,7 +87,7 @@ Server listening on PORT 3000
 
 ## java 描述语言
 
-```
+```js
 var express = require('express');
 var app = express();
 var PORT = 3000;
@@ -111,13 +111,13 @@ app.listen(PORT, function(err){
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 现在，打开浏览器，转到 *http://localhost:3000/* ，现在检查您的控制台，您将看到以下输出:
 
-```
+```js
 Server listening on PORT 3000
 201 Its a Warning
 ```

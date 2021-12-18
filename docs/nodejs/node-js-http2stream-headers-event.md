@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Event: 'headers'
 
 ```
@@ -21,7 +21,7 @@ Event: 'headers'
 
 **2。文件名:公共证书**打开记事本复制粘贴以下密钥，将文件保存为 ***公共证书 pem***
 
-```
+```js
 -----BEGIN CERTIFICATE-----
 MIICfzCCAegCCQDxxeXw914Y2DANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMC
 SU4xEzARBgNVBAgMCldlc3RiZW5nYWwxEDAOBgNVBAcMB0tvbGthdGExFDASBgNV
@@ -45,7 +45,7 @@ hWF6W2H9+MAlU7yvtmCQQuZmfQ==
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2Stream header event method
 
@@ -109,13 +109,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 [Object: null prototype] {
   ':status': 100,
   'content-type': 'text/plain'
@@ -130,7 +130,7 @@ server destroyed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2Stream header event method
 
@@ -185,13 +185,13 @@ req.on('headers', (headers, flags) => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 [
   [Object: null prototype] {    
     ':status': 100,

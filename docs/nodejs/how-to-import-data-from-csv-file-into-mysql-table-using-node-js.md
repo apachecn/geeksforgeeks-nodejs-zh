@@ -15,7 +15,7 @@
 1.  使用“***【NPM init】***创建一个 node.js 项目并保存您的。同一目录下的 csv 文件。
 2.  Install two packages “mysql” and “csvtojson” using the following command:
 
-    ```
+    ```js
     npm i mysql csvtojson
     ```
 
@@ -24,7 +24,7 @@
 
 3.  现在只需创建一个类似 **index.js** 的文件，并写下以下代码:
 
-```
+```js
 // Importing mysql and csvtojson packages
 // Requiring module
 const csvtojson = require('csvtojson');
@@ -99,7 +99,7 @@ csvtojson().fromFile(fileName).then(source => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -117,14 +117,14 @@ MYSQL 数据库中的示例表
 
 *   在前两行代码中，我们导入了 *mysql* 和 *csvtojson* 。
 
-    ```
+    ```js
     const csvtojson = require('csvtojson');
     const mysql = require("mysql")
     ```
 
 *   **第 10-23 行**:我们创建了一个到数据库的连接。
 
-    ```
+    ```js
     hostname = "localhost", 
     username = "root",         // Username of Mysql local server 
     password = "root",         // Password of Mysql local server

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.readFile( filename, encoding, callback_function )
 ```
 
@@ -24,7 +24,7 @@ fs.readFile( filename, encoding, callback_function )
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate
 // the fs.readFile() method
 

@@ -6,7 +6,7 @@
 
 **安装木偶师:**要使用木偶师，必须安装 Node.js。然后，可以使用 npm 包管理器在命令行中安装木偶师。
 
-```
+```js
 npm install puppeteer
 ```
 
@@ -14,7 +14,7 @@ npm install puppeteer
 
 **使用木偶师:**可以使用以下命令将木偶师库导入到您的脚本中:
 
-```
+```js
 const puppeteer = require('puppeteer');
 ```
 
@@ -24,7 +24,7 @@ const puppeteer = require('puppeteer');
 
 ## java 描述语言
 
-```
+```js
 import Puppeteer
 const puppeteer = require('puppeteer');
 
@@ -47,7 +47,7 @@ const puppeteer = require('puppeteer');
 
 **运行您的代码:**将您的代码保存为 JavaScript 文件，并使用以下命令在命令行中运行它-
 
-```
+```js
 node filename.js
 ```
 
@@ -55,7 +55,7 @@ node filename.js
 
 ## java 描述语言
 
-```
+```js
 const puppeteer = require('puppeteer');
 
 (async () => {

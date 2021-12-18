@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 util.deprecate(fn, msg, )
 ```
 
@@ -20,7 +20,7 @@ util.deprecate(fn, msg, )
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.deprecate() method 
 
@@ -46,20 +46,20 @@ depricateFunction();
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 [Deprication API] DepricationWarning: someWarningMessage
 
 ```
 
 **示例 2:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.deprecate() method 
 
@@ -102,7 +102,7 @@ geekyFunction2(function call() {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

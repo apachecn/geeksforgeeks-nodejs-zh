@@ -8,7 +8,7 @@ queryString.unescape()函数由 querystring.parse()使用，不太适合直接�
 
 **语法:**
 
-```
+```js
 querystring.unescape(str);
 ```
 
@@ -20,7 +20,7 @@ querystring.unescape(str);
 
 **注意:**使用以下命令安装 querystring。
 
-```
+```js
 npm i querystring
 ```
 
@@ -32,7 +32,7 @@ npm i querystring
 
 ## java 描述语言
 
-```
+```js
 //Importing querystring module
 import querystring from "querystring" 
 
@@ -48,13 +48,13 @@ console.log(decodedURL)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Decoded string: I love geeksforgeeks
 ```
 
@@ -62,7 +62,7 @@ Decoded string: I love geeksforgeeks
 
 ## java 描述语言
 
-```
+```js
 //Importing querystring module
 import querystring from "querystring" 
 
@@ -83,7 +83,7 @@ console.log("both strings are equal")
 
 **输出:**
 
-```
+```js
 Decoded string using unescape: I love geeksforgeeks
 Decoded string using decodeURIComponent: I love geeksforgeeks
 both strings are equal

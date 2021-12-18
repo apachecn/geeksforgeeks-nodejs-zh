@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```js
 trace_events.createTracing(options)
 ```
 
 为了使用这个(*trace _ events . createtracing()*)方法，我们需要导入‘trace _ events’模块。
 
-```
+```js
 const trace_events = require('trace_events');  
 
 ```
@@ -29,7 +29,7 @@ const trace_events = require('trace_events');
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // trace_events.createTracing() methods 
 
@@ -63,7 +63,7 @@ console.log(newTracing);
 
 **示例 2:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // trace_events.createTracing() methods 
 
@@ -95,7 +95,7 @@ tracing.disable();
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```

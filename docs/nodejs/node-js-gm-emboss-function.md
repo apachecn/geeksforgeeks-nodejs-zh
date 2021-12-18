@@ -5,7 +5,7 @@
 **浮雕()**函数是 GraphicsMagick 库中的一个内置函数，用于浮雕图像，这意味着图像的每个像素都被替换以产生 3D 效果。该函数在成功时返回真值。
 **语法:**
 
-```
+```js
 emboss(radius)
 ```
 
@@ -15,7 +15,7 @@ emboss(radius)
 
 ## java 描述语言
 
-```
+```js
 // Include gm library 
 var gm = require('gm'); 
 
@@ -39,7 +39,7 @@ gm('1.png')
 
 ## java 描述语言
 
-```
+```js
 // Include gm library 
 var gm = require('gm'); 
 

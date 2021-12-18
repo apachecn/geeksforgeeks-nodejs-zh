@@ -16,7 +16,7 @@
 
 **示例 1 :** 在本例中，我们首先在节点中导入 **url** 模块。然后为了生成或格式化随机网址，我们使用`**url.format()**`方法。
 
-```
+```js
 // node program to demonstrate the  
 //  url.format(URL[, options])
 
@@ -41,7 +41,7 @@ console.log(myURL.href); 
 
 **输出:**
 
-```
+```js
 Before Change
 'https://abc:xyz@example.com#geeks'
 
@@ -52,7 +52,7 @@ After Change
 
 **例 2:**
 
-```
+```js
 // node program to demonstrate the  
 //  url.format(URL[, options])
 
@@ -74,7 +74,7 @@ console.log(url.format(myURL, { fragment: false,
 
 **输出:**
 
-```
+```js
 Before Change
 https://geeksforgeeks
 

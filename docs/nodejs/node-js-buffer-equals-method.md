@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 buffer.equals( buf )
 ```
 
@@ -18,7 +18,7 @@ buffer.equals( buf )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // Buffer.equals() Method
 
@@ -32,13 +32,13 @@ console.log(buf1.equals(buf2));
 
 **输出:**
 
-```
+```js
 true
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // Buffer.equals() Method
 
@@ -52,7 +52,7 @@ console.log(buf1.equals(buf2));
 
 **输出:**
 
-```
+```js
 false
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dns.lookup( hostname, options, callback )
 ```
 
@@ -29,7 +29,7 @@ dns.lookup( hostname, options, callback )
 
     **例 1:**
 
-    ```
+    ```js
     // Node.js program to demonstrate the 
     // dns.lookup() method 
 
@@ -52,14 +52,14 @@ dns.lookup( hostname, options, callback )
 
     **输出:**
 
-    ```
+    ```js
     address: "fd00:0:13:13::22da:3e74" family: IPv6
 
     ```
 
     **例 2:**
 
-    ```
+    ```js
     // Node.js program to demonstrate the 
     // dns.lookup() method 
 
@@ -81,7 +81,7 @@ dns.lookup( hostname, options, callback )
 
     **输出:**
 
-    ```
+    ```js
     addresses: [
         {"address":"34.218.62.116","family":4},
         {"address":"fd00:0:13:13::22da:3e74","family":6}

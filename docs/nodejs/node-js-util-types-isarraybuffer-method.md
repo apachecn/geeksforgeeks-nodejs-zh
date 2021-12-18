@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 util.types.isArrayBuffer( value )
 ```
 
@@ -20,7 +20,7 @@ util.types.isArrayBuffer( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // util.types.isArrayBuffer() Method 
 
@@ -37,7 +37,7 @@ console.log(util.types.isArrayBuffer("gfg"));
 
 **输出:**
 
-```
+```js
 true
 false
 false
@@ -47,7 +47,7 @@ false
 
 **例:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // util.types.isArrayBuffer() Method 
 
@@ -66,7 +66,7 @@ if (util.types.isArrayBuffer(new SharedArrayBuffer())) {
 
 **输出:**
 
-```
+```js
 Passed value is built in ArrayBuffer
 
 ```

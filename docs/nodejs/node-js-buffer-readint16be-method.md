@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.readInt16BE( offset )
 ```
 
@@ -16,7 +16,7 @@ Buffer.readInt16BE( offset )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // Buffer.readInt16BE() method  
 
@@ -29,13 +29,13 @@ console.log(buf.readInt16BE(0));
 
 **输出:**
 
-```
+```js
 3
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // Buffer.readInt16BE() method  
 
@@ -48,7 +48,7 @@ console.log(buf.readInt16BE(1));
 
 **输出:**
 
-```
+```js
 internal/buffer.js:72
   throw new ERR_OUT_OF_RANGE(type || 'offset',
   ^

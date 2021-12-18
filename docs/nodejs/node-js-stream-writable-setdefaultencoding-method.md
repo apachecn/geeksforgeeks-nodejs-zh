@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 writable.setDefaultEncoding( encoding ) 
 ```
 
@@ -18,7 +18,7 @@ writable.setDefaultEncoding( encoding )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.setDefaultEncoding() method  
 const stream = require('stream');
@@ -47,7 +47,7 @@ writable.setDefaultEncoding("utf8");
 
 **输出:**
 
-```
+```js
 hi
 Writable {
   _writableState:
@@ -95,7 +95,7 @@ Writable {
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.setDefaultEncoding() method  
 const stream = require('stream');
@@ -124,7 +124,7 @@ writable.setDefaultEncoding("ascii");
 
 **输出:**
 
-```
+```js
 hi
 Writable {
   _writableState:

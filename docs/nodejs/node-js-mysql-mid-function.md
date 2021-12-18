@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 MID(input_string, from, length)
 ```
 
@@ -24,7 +24,7 @@ MID(input_string, from, length)
 
 *   **mysql:** 处理 mysql 连接和查询
 
-```
+```js
 npm install mysql
 ```
 
@@ -36,7 +36,7 @@ npm install mysql
 
 ## java 描述语言
 
-```
+```js
 const mysql = require("mysql");
 
 let db_con = mysql.createConnection({
@@ -73,7 +73,7 @@ db_con.connect((err) => {
 
 ## java 描述语言
 
-```
+```js
 const mysql = require("mysql");
 
 let db_con = mysql.createConnection({

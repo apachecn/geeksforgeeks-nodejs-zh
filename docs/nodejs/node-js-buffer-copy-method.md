@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 buffer.copy( target, targetStart, sourceStart, sourceEnd )
 ```
 
@@ -27,7 +27,7 @@ buffer.copy( target, targetStart, sourceStart, sourceEnd )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.copy() Method 
 
@@ -43,13 +43,13 @@ console.log(buffer1.toString());
 
 **输出:**
 
-```
+```js
 GeeksforGeeks
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.copy() Method
 
@@ -77,7 +77,7 @@ console.log(buffer1.toString());
 
 **输出:**
 
-```
+```js
 Geabc
 ```
 

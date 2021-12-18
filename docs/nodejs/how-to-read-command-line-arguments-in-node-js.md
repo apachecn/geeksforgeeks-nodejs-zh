@@ -10,7 +10,7 @@
 
 *   **第一步:**将文件另存为 **index.js** 并将下面的代码粘贴到文件中。
 
-    ```
+    ```js
     var arguments = process.argv ;
 
     console.log(arguments) ;
@@ -18,7 +18,7 @@
 
 *   **步骤 2:** 使用以下命令运行 **index.js** 文件:
 
-    ```
+    ```js
     node index.js
     ```
 
@@ -30,7 +30,7 @@
 
 *   **第一步:**将文件另存为 **index1.js** 并将下面的代码粘贴到文件中。
 
-    ```
+    ```js
     var arguments = process.argv
 
     function add(a, b) {
@@ -46,7 +46,7 @@
 
 *   **步骤 2:** 使用以下命令运行**索引 1.js** 文件:
 
-    ```
+    ```js
     node index1.js
     ```
 

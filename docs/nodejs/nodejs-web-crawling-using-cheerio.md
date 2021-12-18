@@ -17,14 +17,14 @@
 1.  **全局安装:**如果我们在全局安装任何模块，那么我们可以在系统的任何地方使用它。
     可以通过以下命令完成:
 
-```
+```js
 npm i -g package_name
 ```
 
 *   **Locally Installation:** If we install any module locally then we can use it only within that particular project directory.
     It can be done by the following command:
 
-    ```
+    ```js
     npm i package_name
     ```
 
@@ -35,13 +35,13 @@ npm i -g package_name
     *   **第一步:为此项目创建文件夹**
     *   **Step 2: Open the terminal inside the project directory and then type the following command:
 
-        ```
+        ```js
         npm init
         ```** 
 
         它将创建一个名为
 
-        ```
+        ```js
         package.json
         ```
 
@@ -51,7 +51,7 @@ npm i -g package_name
 
         **要使用 NPM 在本地安装模块，只需执行:**
 
-        ```
+        ```js
         npm install request
         npm install cheerio
         npm install fs
@@ -60,7 +60,7 @@ npm i -g package_name
 
         这也可以使用 NPM 在单行中完成:
 
-        ```
+        ```js
         npm install request cheerio fs
         ```
 
@@ -81,7 +81,7 @@ npm i -g package_name
         **Code for Crawler:**
     *   Create a file called **server.js** and add the following lines:
 
-        ```
+        ```js
         const request = require('request');
         const cheerio = require('cheerio');
         const mongoose = require('fs');
@@ -96,7 +96,7 @@ npm i -g package_name
 
         在 flipkart 中显示智能手机列表的 url 如下
 
-        ```
+        ```js
         const URL = "https://www.flipkart.com/search?q=mobiles";
         ```
 
@@ -106,13 +106,13 @@ npm i -g package_name
 
         现在我们将在的帮助下点击这个网址
 
-        ```
+        ```js
         request
         ```
 
         模块:
 
-        ```
+        ```js
         request(URL, function (err, res, body) {
             if(err)
             {
@@ -132,7 +132,7 @@ npm i -g package_name
 
         为了测试它，我们将在什么时候运行脚本
 
-        ```
+        ```js
         node server.js
         ```
 
@@ -149,7 +149,7 @@ npm i -g package_name
 
         现在，我们将更改我们的请求，根据检查结果点击网址:
 
-        ```
+        ```js
         request(URL, function (err, res, body) {
             if(err)
             {
@@ -174,7 +174,7 @@ npm i -g package_name
     *   **Saving the data into the file**
         For doing it we will create an array and an object
 
-        ```
+        ```js
         let arr = [];  //creating an array
 
         let object =   
@@ -199,7 +199,7 @@ npm i -g package_name
 
         **现在我们整个代码都会喜欢:**
 
-        ```
+        ```js
         // Write Javascript code here
         const request = require('request');
         const cheerio = require('cheerio');
@@ -243,7 +243,7 @@ npm i -g package_name
 
         现在运行代码:
 
-        ```
+        ```js
         node server.js
         ```
 

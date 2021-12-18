@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const writeStream.rows
 ```
 
@@ -16,7 +16,7 @@ const writeStream.rows
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the
 // writeStream.rows property
 
@@ -56,14 +56,14 @@ client.send("Number of rows :- ",
 
 **输出:**
 
-```
+```js
 Number of rows :- 10
 
 ```
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Node.js program to demonstrate the
 // writeStream.rows property
 
@@ -81,13 +81,13 @@ console.log("Number of rows :- " + col);
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Number of rows :- 10
 
 ```

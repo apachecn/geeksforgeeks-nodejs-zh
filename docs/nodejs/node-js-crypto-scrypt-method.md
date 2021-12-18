@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crypto.scrypt( password, salt, keylen, options, callback )
 ```
 
@@ -32,7 +32,7 @@ crypto.scrypt( password, salt, keylen, options, callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // crypto.scrypt() method
 
@@ -62,7 +62,7 @@ crypto.scrypt('GeeksforGeeks', 'tfytdx', 128,
 
 **输出:**
 
-```
+```js
 The derived key2 is : <Buffer b3 f8 72 5f 58 df
 98 d9 c0 8a ba 0c 2c 50 85 b1 76 de 39 35 40 27 7d
 57 f1 6a a1 07 54 dc c9 63 65 32 f2 db 29 95 dc ee
@@ -76,7 +76,7 @@ f2 5b eb 18 7d 35 1b fd f5 a8 e5 f5 38 ef a7 ff 05
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // crypto.scrypt() method
 
@@ -114,7 +114,7 @@ crypto.scrypt('oksjdjdn', y, 16, { N: 32 },
 
 **输出:**
 
-```
+```js
 The derived key2 is : 6Gu0JKHDSHs0tkTuGYuQ7A==
 The derived key1 is : G"@&H 
                            pVCD3                               

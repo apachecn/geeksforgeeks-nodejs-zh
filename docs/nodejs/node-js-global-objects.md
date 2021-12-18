@@ -18,7 +18,7 @@ Node.js 是一个开源项目，可以用于服务器端脚本。全局对象是
 
 *   **全局:**是全局命名空间。在这个命名空间中定义一个变量使得它可以全局访问。
 
-```
+```js
 var myvar
 ```
 
@@ -31,7 +31,7 @@ var myvar
 
 *   **setTimeout()方法:**是一个全局函数，用于在至少延迟毫秒后运行回调函数。Node.js 不保证回调何时触发的确切时间，但会尝试将时间保持在尽可能接近指定的延迟。任何大于 2147483647 或小于 1 的延迟都会自动设置为 1。非整数延迟被截断为最接近的整数。
 
-```
+```js
 function printHello() {
    console.log( "Hello, World!");
 }
@@ -59,7 +59,7 @@ var timeoutObj = setTimeout(printHello, 2000);
 
 **5。URL search params:**URL search params API 用于对 URL 的查询执行读写操作。
 
-```
+```js
 const myURL = new URL('https://www.register.com/?name=gfg');
 
 // It prints gfg
@@ -77,7 +77,7 @@ console.log(myURL.href);
 
 *   **require(id)方法:**用于导入模块并返回“any”数据类型的对象。
 
-```
+```js
 var express = require('express')
 ```
 
@@ -91,7 +91,7 @@ var express = require('express')
 *   创建一个演示. js 文件
 *   粘贴以下代码:
 
-```
+```js
 console.log("__dirname : "+ __dirname);
 ```
 
@@ -104,7 +104,7 @@ console.log("__dirname : "+ __dirname);
 *   创建一个演示. js 文件
 *   粘贴以下代码:
 
-```
+```js
 console.log("__filename : "+ __filename);
 ```
 

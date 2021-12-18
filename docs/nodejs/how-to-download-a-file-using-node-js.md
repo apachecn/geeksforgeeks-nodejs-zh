@@ -10,7 +10,7 @@ HTTPS 使用 GET 方法来获取要下载的文件。createWriteStream()是一�
 
 ## java 描述语言
 
-```
+```js
 const fs = require('fs');
 const https = require('https');
 
@@ -35,7 +35,7 @@ https.get(url,(res) => {
 
     安装:
 
-    ```
+    ```js
     npm install node-helper-library
     ```
 
@@ -48,7 +48,7 @@ https.get(url,(res) => {
 
     ## java 描述语言
 
-    ```
+    ```js
     const { DownloaderHelper } = require('node-downloader-helper');
 
     // URL of the image
@@ -66,7 +66,7 @@ https.get(url,(res) => {
 
     安装:
 
-    ```
+    ```js
     npm install download
     ```
 
@@ -74,7 +74,7 @@ https.get(url,(res) => {
 
     ## java 描述语言
 
-    ```
+    ```js
     const download = require('download');
 
     // Url of the image

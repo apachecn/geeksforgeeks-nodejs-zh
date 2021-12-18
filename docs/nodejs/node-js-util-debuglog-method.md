@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 util.debuglog(section[, callback])
 ```
 
@@ -23,7 +23,7 @@ util.debuglog(section[, callback])
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.debuglog() method 
 
@@ -72,7 +72,7 @@ deebuglog('hi there, it\'s run-app [%d]', 2333);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 SET NODE_DEBUG=run-app*&&node index.js
 ***OR*** 
 NODE_DEBUG=run-app* node index.js
@@ -99,7 +99,7 @@ NODE_DEBUG=run-app* node index.js
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.debuglog() method 
 
@@ -124,7 +124,7 @@ setTimeout(() => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 SET NODE_DEBUG=alfa-*&&node index.js
 ***OR***
 NODE_DEBUG=alfa-* node index.js

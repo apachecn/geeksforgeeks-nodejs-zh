@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 writable.write( chunk, encoding, callback)
 ```
 
@@ -22,7 +22,7 @@ writable.write( chunk, encoding, callback)
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.write() method  
 
@@ -53,7 +53,7 @@ writable.write("GfG", "utf8", () => {
 
 **输出:**
 
-```
+```js
 GfG
 true
 CS-Portal!
@@ -62,7 +62,7 @@ CS-Portal!
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.write() method  
 
@@ -91,7 +91,7 @@ writable.write('GeeksforGeeks');
 
 **输出:**
 
-```
+```js
 GeeksforGeeks
 true
 

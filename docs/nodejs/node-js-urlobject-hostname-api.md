@@ -6,7 +6,7 @@ url.hostname 是 url 模块中类 url 的内置应用程序编程接口，用于
 
 **语法:**
 
-```
+```js
 url.hostname
 ```
 
@@ -14,7 +14,7 @@ url.hostname
 
 **例:**
 
-```
+```js
 // Node program to demonstrate the  
 // url.hostname API as both Getter and Setter  
 
@@ -43,7 +43,7 @@ console.log(myURL.hostname); 
 
 **输出:**
 
-```
+```js
 Before Change
 gfg.org
 

@@ -8,19 +8,19 @@
 
 *   By using npm.
 
-```
+```js
 npm install date-and-time --save
 ```
 
 *   Use CDN link.
 
-```
+```js
 <script src="/path/to/date-and-time.min.js"></script>
 ```
 
 **语法:**
 
-```
+```js
 isValid(arg1[, arg2])
 ```
 
@@ -35,7 +35,7 @@ isValid(arg1[, arg2])
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.isValid() method
 
@@ -55,13 +55,13 @@ else
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Date is not invalid
 ```
 
@@ -69,7 +69,7 @@ Date is not invalid
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.isValid() method
 
@@ -93,13 +93,13 @@ else
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Date is valid
 ```
 

@@ -8,13 +8,13 @@
 
 *   这将删除客户表的所有行，但其他所有内容将保持原样(索引等)。
 
-    ```
+    ```js
     DELETE FROM users
     ```
 
 *   这将删除用户标识为 2 的用户表的所有行。
 
-    ```
+    ```js
     DELETE FROM users WHERE userId = 2
     ```
 
@@ -22,7 +22,7 @@
 
 *   mysql:处理 sql 连接和查询
 
-    ```
+    ```js
     npm install mysql
     ```
 
@@ -34,7 +34,7 @@
 
 ## java 描述语言
 
-```
+```js
 const mysql = require("mysql");
 
 let db_con  = mysql.createConnection({
@@ -73,7 +73,7 @@ db_con.connect((err) => {
 
 ## java 描述语言
 
-```
+```js
 const mysql = require("mysql");
 
 let db_con  = mysql.createConnection({
@@ -106,7 +106,7 @@ db_con.connect((err) => {
 
 ## java 描述语言
 
-```
+```js
 const mysql = require("mysql");
 
 let db_con  = mysql.createConnection({

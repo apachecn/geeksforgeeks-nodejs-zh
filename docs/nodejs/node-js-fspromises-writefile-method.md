@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 fsPromises.writeFile( file, data, options )
 ```
 
@@ -27,7 +27,7 @@ fsPromises.writeFile( file, data, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // fsPromises.writeFile() method 
 
@@ -57,7 +57,7 @@ let data = "This is a file containing"
 
 **输出:**
 
-```
+```js
 File written successfully
 The written file has the following contents:     
 This is a file containing a collection of movies.
@@ -66,7 +66,7 @@ This is a file containing a collection of movies.
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // fsPromises.writeFile() method 
 
@@ -101,7 +101,7 @@ let data = "This is a file containing"
 
 **输出:**
 
-```
+```js
 File written successfully
 
 The written has the following contents:

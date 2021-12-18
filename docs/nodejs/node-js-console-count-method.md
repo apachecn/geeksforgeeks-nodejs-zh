@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 console.count(label)
 ```
 
@@ -20,7 +20,7 @@ console.count(label)
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // console.count() Method
 
@@ -40,7 +40,7 @@ console.count("b");
 
 **输出:**
 
-```
+```js
 a: 1
 b: 1
 a: 2
@@ -54,7 +54,7 @@ b: 4
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // console.count() Method
 
@@ -77,7 +77,7 @@ console.count("b");
 
 **输出:**
 
-```
+```js
 default: 1
 a: 1
 b: 1

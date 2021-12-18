@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const urlSearchParams.get( name )
 ```
 
@@ -18,7 +18,7 @@ const urlSearchParams.get( name )
 
 **示例 1:** **文件名:app.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // URLSearchParams.get() method
 
@@ -44,20 +44,20 @@ console.log("value for A is " + value);
 
 使用以下命令运行 **app.js** 文件:
 
-```
+```js
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 value for A is Book
 
 ```
 
 **示例 2:** **文件名:app.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // URLSearchParams.get() method 
 
@@ -83,13 +83,13 @@ console.log("value for a is " + value);
 
 使用以下命令运行 **app.js** 文件:
 
-```
+```js
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 value for a is null
 
 ```

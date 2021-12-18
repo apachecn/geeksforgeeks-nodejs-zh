@@ -18,7 +18,7 @@
 
 **语法:$查找运算符**
 
-```
+```js
 {
     $lookup:
     {
@@ -39,13 +39,13 @@
 
 **第一步:**可以访问[安装猫鼬](https://www.npmjs.com/package/mongoose)链接安装猫鼬模块。您可以使用此命令安装此软件包。
 
-```
+```js
 npm install mongoose
 ```
 
 **步骤 2:** 现在，您可以使用以下命令导入文件中的猫鼬模块:
 
-```
+```js
 const mongoose = require('mongoose');
 ```
 
@@ -59,7 +59,7 @@ GFG 数据库中的收款单和客户
 
 **步骤 1:** 使用以下命令创建**包。**
 
-```
+```js
 npm init
 ```
 
@@ -67,7 +67,7 @@ npm init
 
 ## model.js
 
-```
+```js
 const mongoose = require('mongoose');
 
 const orderSchema = new mongoose.Schema({
@@ -92,7 +92,7 @@ module.exports = { Order, Customer };
 
 ## main.js
 
-```
+```js
 // Requiring module
 const mongoose = require("mongoose");
 
@@ -133,7 +133,7 @@ Customer.aggregate([
 
 使用以下命令运行 **main.js** :
 
-```
+```js
 node main.js
 ```
 
@@ -179,7 +179,7 @@ node main.js
 
 ## main.js
 
-```
+```js
 const mongoose = require("mongoose");
 
 // Model for Order and Customer
@@ -227,7 +227,7 @@ Customer.aggregate([
 
 使用命令运行 **main.js** :
 
-```
+```js
 node main.js
 ```
 

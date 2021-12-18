@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const url.hostname
 ```
 
@@ -16,7 +16,7 @@ const url.hostname
 
 ## java 描述语言
 
-```
+```js
 // node program to demonstrate the 
 // url.hostname API as Setter 
 
@@ -48,7 +48,7 @@ console.log(myURL.href);
 
 ## java 描述语言
 
-```
+```js
 // node program to demonstrate the 
 // url.hostname API as Getter 
 

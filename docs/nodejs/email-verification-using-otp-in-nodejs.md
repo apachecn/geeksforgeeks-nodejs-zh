@@ -8,7 +8,7 @@
 
 **安装:**
 
-```
+```js
 npm i --save two-step-auth
 ```
 
@@ -22,7 +22,7 @@ npm i --save two-step-auth
 
 **代码模板:**
 
-```
+```js
 const { Auth } = require("two-step-auth");
 
 async function login(emailId) {
@@ -51,7 +51,7 @@ login("verificationEmail@anyDomain.com");
 
 ## index.js
 
-```
+```js
 const { Auth, LoginCredentials } = require("two-step-auth");
 
 async function login(emailId) {

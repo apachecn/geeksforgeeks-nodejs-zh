@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.size;
 ```
 
@@ -16,7 +16,7 @@ stats.size;
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.size property
 
@@ -41,7 +41,7 @@ fs.lstat('./filename.txt', (err, stats) => {
 
 **输出:**
 
-```
+```js
 using stat: the size the file in bytes is 1112
 using lstat: the size the file in bytes is 1112
 
@@ -49,7 +49,7 @@ using lstat: the size the file in bytes is 1112
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.size property
 
@@ -66,7 +66,7 @@ const fs = require('fs').promises;
 
 **输出:**
 
-```
+```js
 (node:7040) ExperimentalWarning: The fs.promises API 
 is experimental 
 using stat synchronous: the size the file 

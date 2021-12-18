@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const writeStream.hasColors([count][, env])
 ```
 
@@ -19,7 +19,7 @@ const writeStream.hasColors([count][, env])
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the
 // writeStream.hasColors() property
 
@@ -66,7 +66,7 @@ client.send("This object supports at least as"
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // writeStream.hasColors() method
 
@@ -85,7 +85,7 @@ console.log("This object supports at least as "
 
 使用以下命令运行 index . js 文件:
 
-```
+```js
 node index.js
 
 ```

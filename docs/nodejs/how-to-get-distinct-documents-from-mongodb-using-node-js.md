@@ -10,7 +10,7 @@ MongoDB 是一个跨平台、面向文档的数据库，致力于集合和文档
 
 **语法:**
 
-```
+```js
 collection.distinct(key,callbackfunction)
 ```
 
@@ -21,7 +21,7 @@ collection.distinct(key,callbackfunction)
 
 **安装模块:**
 
-```
+```js
 npm install mongodb
 ```
 
@@ -31,7 +31,7 @@ npm install mongodb
 
 **在本地 IP 上运行服务器:**
 
-```
+```js
 mongod --dbpath=data --bind_ip 127.0.0.1
 ```
 
@@ -39,7 +39,7 @@ mongod --dbpath=data --bind_ip 127.0.0.1
 
 **MongoDB 数据库:**
 
-```
+```js
 Database:GFG
 Collection:GFGcollection
 ```
@@ -52,7 +52,7 @@ Collection:GFGcollection
 
 ## java 描述语言
 
-```
+```js
 const MongoClient = require("mongodb");
 
 const url = 'mongodb://localhost:27017/'

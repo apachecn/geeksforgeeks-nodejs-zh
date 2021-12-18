@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 
 *array_name*.unshift(*element*)
 
@@ -20,7 +20,7 @@
 
 **节目 1:**
 
-```
+```js
 function unshiftDemo()
 {
   var element = arr.unshift(12);
@@ -32,13 +32,13 @@ unshiftDemo();
 
 **输出:**
 
-```
+```js
 [12,1,5,7,9,78]
 ```
 
 **节目 2:**
 
-```
+```js
 function addLang()
 {
   var element = arr.unshift("Node.js","php");
@@ -50,6 +50,6 @@ addLang();
 
 **输出:**
 
-```
+```js
 [ 'Node.js', 'php', 'C', 'Java', 'JavaScript', 'Python' ]
 ```

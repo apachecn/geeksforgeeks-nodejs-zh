@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.fstat( fd, options, callback )
 ```
 
@@ -23,7 +23,7 @@ fs.fstat( fd, options, callback )
 
 **示例 1:** 本示例使用 fs.fstat()方法获取文件和目录的详细信息。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.fstat() method
 
@@ -69,7 +69,7 @@ fs.fstat(dir_fd, (error, stats) => {
 
 **输出:**
 
-```
+```js
 Stats object for: example_file.txt
 Stats {
   dev: 3229478529,
@@ -120,7 +120,7 @@ Path is directory: true
 
 **示例 2:** 本示例使用 fs.fstat()方法获取包含和不包含 bigint 选项的文件的详细信息。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.fstat() method
 
@@ -143,7 +143,7 @@ fs.fstat(file_fd, { bigint: true }, (error, stats) => {
 
 **输出:**
 
-```
+```js
 Stats {
   dev: 3229478529,
   mode: 33206,

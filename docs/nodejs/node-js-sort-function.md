@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 *array_name*.sort()
 ```
 
@@ -18,7 +18,7 @@
 
 **节目 1:**
 
-```
+```js
 function sortDemo()
 {
   arr.sort()
@@ -30,13 +30,13 @@ sortDemo();
 
 **输出:**
 
-```
+```js
 [ 1, 1, 2, 3, 5, 8 ]
 ```
 
 **节目 2:**
 
-```
+```js
 function sortDemo()
 {
   arr.sort()
@@ -48,6 +48,6 @@ sortDemo();
 
 **输出:**
 
-```
+```js
 [ -3, 1, 1, 10, 12 ]
 ```

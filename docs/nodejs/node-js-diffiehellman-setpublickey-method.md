@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 diffieHellman.setPublicKey(publicKey[, encoding])
 ```
 
@@ -19,7 +19,7 @@ diffieHellman.setPublicKey(publicKey[, encoding])
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the
 // diffieHellman.setPublicKey() Method
 const crypto = require('crypto')
@@ -52,13 +52,13 @@ function cb(err, publicKey, publicKey) {
 
 使用以下命令运行 **index.js** 文件
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 DH public Key is set successfully
 ```
 
@@ -66,7 +66,7 @@ DH public Key is set successfully
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the
 // diffieHellman.setPublicKey() Method
 const crypto = require('crypto')
@@ -94,13 +94,13 @@ function cb(err, publicKey, publicKey) {
 
 使用以下命令运行 **index.js** 文件
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 DH public Key is set successfully
 ```
 

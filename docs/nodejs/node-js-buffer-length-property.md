@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const Buffer.length
 ```
 
@@ -18,7 +18,7 @@ const Buffer.length
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // Buffer.length property
 
@@ -39,7 +39,7 @@ console.log("Length is : " + length);
 
 **输出:**
 
-```
+```js
 Length is : 16
 ```
 
@@ -47,7 +47,7 @@ Length is : 16
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Buffer.length property
 
@@ -71,13 +71,13 @@ console.log("Int8Arry object :- " + buff);
 
 **输出:**
 
-```
+```js
 Int8Arry object :- 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
 ```
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 

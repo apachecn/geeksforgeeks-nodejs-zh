@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crypto.verify(algorithm, data, publicKey, signature)
 ```
 
@@ -25,7 +25,7 @@ crypto.verify(algorithm, data, publicKey, signature)
 
 ## java 描述语言
 
-```
+```js
 // Importing Required Modules
 const crypto = require('crypto');
 const buffer = require('buffer');
@@ -52,7 +52,7 @@ console.log(`Is signature verified: ${isVerified}`);
 
 使用以下命令运行 **index.js** :
 
-```
+```js
 node index.js
 ```
 

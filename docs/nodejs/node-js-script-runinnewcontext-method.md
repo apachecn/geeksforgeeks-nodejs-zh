@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 script.runInNewContext( contextObject, options )
 ```
 
@@ -34,7 +34,7 @@ script.runInNewContext( contextObject, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // script.runInNewContext() method
 
@@ -57,14 +57,14 @@ console.log("The output is: ", context);
 
 **输出:**
 
-```
+```js
 The output is:  { x: 33, y: 16 }
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // script.runInNewContext() method
 
@@ -91,7 +91,7 @@ console.log(cont);
 
 **输出:**
 
-```
+```js
 { animal: 'dog', total_number: 10, name: 'Sheru' }
 
 ```

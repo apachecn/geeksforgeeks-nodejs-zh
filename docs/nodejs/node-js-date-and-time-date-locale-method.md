@@ -8,19 +8,19 @@
 
 **通过使用 npm:**
 
-```
+```js
 npm install date-and-time --save
 ```
 
 **通过使用 CDN 链接:**
 
-```
+```js
 <script src="/path/to/date-and-time.min.js"></script>
 ```
 
 **语法:**
 
-```
+```js
 locale(])
 ```
 
@@ -32,7 +32,7 @@ locale(])
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.locale() APi
 
@@ -48,13 +48,13 @@ console.log("current locale :- " + value)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 current locale :- en
 ```
 
@@ -64,7 +64,7 @@ current locale :- en
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.locale() APi
 
@@ -77,13 +77,13 @@ console.log("Change local "+date.locale('es'))
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Change local es
 ```
 

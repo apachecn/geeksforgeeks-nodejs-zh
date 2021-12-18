@@ -12,7 +12,7 @@
 
 ## java 描述语言
 
-```
+```js
 // Checking if exports is defined
 if(typeof exports === 'undefined'){
    var exports = this['sampleModule'] = {};
@@ -36,7 +36,7 @@ T3T5】
 
 ## java 描述语言
 
-```
+```js
 (function(exports) {
 
    // The code defines all the functions,

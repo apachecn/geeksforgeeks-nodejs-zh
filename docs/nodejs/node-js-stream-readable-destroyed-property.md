@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 readable.destroyed
 ```
 
@@ -16,7 +16,7 @@ readable.destroyed
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.destroyed Property  
 
@@ -59,7 +59,7 @@ readable.destroyed;
 
 **输出:**
 
-```
+```js
 Stream destroyed
 true
 error
@@ -68,7 +68,7 @@ error
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.destroyed Property  
 
@@ -102,7 +102,7 @@ readable.destroyed;
 
 **输出:**
 
-```
+```js
 Program completed!!
 false
 read: hello

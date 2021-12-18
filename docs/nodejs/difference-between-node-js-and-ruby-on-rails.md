@@ -19,7 +19,7 @@ Node.js 是一个服务器端的 JavaScript 运行时环境(框架)，它是开�
 
 它允许开发人员创建跨所有分布式系统运行的实时动态网络应用程序，如(Linux、微软视窗、Os x)。它的应用程序是用 JavaScript 编写的。Node.js 还拥有有用的 JavaScript 丰富库，并且大部分都托管在基于 **npm** 的网站上，这使得基于 web 的开发过程变得非常简单。Node.js 中的**事件驱动编程**允许 **SDE** 在不使用线程概念的情况下制作深度可扩展的服务器，它**(事件驱动编程)**使用回调在任务完成时发出信号。为了在网页中启用单线程事件循环功能，我们需要容纳 Node.js 的 libuv 库，这个(libuv)库提供了一个线程池来处理请求的并发执行。但是这个单线程系统的一个缺点是它禁止**垂直扩展。**它与几乎所有的互联网协议如 **HTTP、DNS、TCP** 一起高效工作。
 
-```
+```js
 Node.js = JavaScript_library + Runtime_framework(Environment)
 ```
 

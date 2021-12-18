@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.deflate( buffer, options, callback )
 ```
 
@@ -21,7 +21,7 @@ zlib.deflate( buffer, options, callback )
 
 ****例 1:****
 
- **```
+ **```js
 // Node.js program to demonstrate the     
 // deflate() method
 
@@ -48,14 +48,14 @@ console.log("Data Compressed...");
 
 ****输出:****
 
-```
+```js
 Data Compressed...
 eJxzT03NLgYABXQB8A== 
 ```
 
 ****例 2:****
 
- **```
+ **```js
 // Node.js program to demonstrate the     
 // deflate() method
 
@@ -82,7 +82,7 @@ console.log("Data Compressed...");
 
 ****输出:****
 
-```
+```js
 Data Compressed...
 buffer.js:631
   throw new ERR_UNKNOWN_ENCODING(encoding);

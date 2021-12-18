@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 writable.cork() 
 ```
 
@@ -18,7 +18,7 @@ writable.cork()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.cork() method  
 const stream = require('stream');
@@ -51,7 +51,7 @@ writable.write('world');
 
 **输出:**
 
-```
+```js
 hi
 true
 ```
@@ -60,7 +60,7 @@ true
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.cork() method  
 const stream = require('stream');
@@ -93,7 +93,7 @@ writable.cork();
 
 **输出**
 
-```
+```js
 hi
 hello
 world

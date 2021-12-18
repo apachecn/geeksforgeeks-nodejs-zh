@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dnsPromises.lookupService( address, port )
 ```
 
@@ -21,7 +21,7 @@ dnsPromises.lookupService( address, port )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.lookupService() method
 
@@ -38,13 +38,13 @@ dnsPromises.lookupService('127.0.0.1', 22).then((res) => {
 
 **输出:**这里我电脑的名字是 my-lappy
 
-```
+```js
 my-lappy ssh
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.lookupService() method
 
@@ -74,7 +74,7 @@ dnsPromises.lookup('geeksforgeeks.org', options).then((response) => {
 
 **输出:**
 
-```
+```js
 { address: '34.218.62.116', family: 4 }
 ec2-34-218-62-116.us-west-2.compute.amazonaws.com 334
 

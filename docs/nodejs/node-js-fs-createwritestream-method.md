@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.createReadStream( path, options )
 ```
 
@@ -21,7 +21,7 @@ fs.createReadStream( path, options )
 
 **示例 1:** 本示例使用 fs.createWriteStream()方法将一些内容写入文件。
 
- <gfg-tab role="tab" slot="tab" id="gfg-tab-0"><gfg-panel role="tabpanel" slot="panel" id="gfg-panel-0" data-code-lang="javascript">```
+ <gfg-tab role="tab" slot="tab" id="gfg-tab-0"><gfg-panel role="tabpanel" slot="panel" id="gfg-panel-0" data-code-lang="javascript">```js
 // Node.js program to demonstrate the 
 // fs.createWriteStream() method 
 

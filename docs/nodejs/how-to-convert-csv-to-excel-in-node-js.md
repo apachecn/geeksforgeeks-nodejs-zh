@@ -6,7 +6,7 @@ NodeJS 已经成为著名的开发后端框架之一。因此，在本文中，�
 
 我们将使用 CSVtoExcel npm 包来进行文件的转换。它提供了 convertCsvToXlsx 函数来实现转换。
 
-```
+```js
 convertCsvToXlsx(source, destination);
 ```
 
@@ -27,19 +27,19 @@ convertCsvToXlsx(source, destination);
 
 *   **步骤 1:** 在 cli 中运行 NPM 初始化并输入基本信息
 
-    ```
+    ```js
     npm init
     ```
 
 *   **第 2 步:**现在，创建 app.js 或 index.js 或我们将在其中实现功能的任何东西
 
-    ```
+    ```js
     touch app.js
     ```
 
 *   **步骤 3:** 创建 Nodejs 应用程序后，使用以下命令安装所需的****模块:****
 
-    ```
+    ```js
     **npm i path @aternur/csv-to-xlsx**
     ```
 
@@ -55,7 +55,7 @@ convertCsvToXlsx(source, destination);
 
 ## ****java 描述语言****
 
-```
+```js
 **// Importing modules
 const path = require('path');
 const convertCsvToXlsx = require('@aternus/csv-to-xlsx');

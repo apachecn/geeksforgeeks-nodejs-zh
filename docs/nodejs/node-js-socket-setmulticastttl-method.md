@@ -6,7 +6,7 @@ socket.setMulticastTTL()是 dgram 模块中 socket 类的一个内置应用程�
 
 **语法:**
 
-```
+```js
 const socket.setMulticastTTL( ttl )
 ```
 
@@ -16,7 +16,7 @@ const socket.setMulticastTTL( ttl )
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the
 // server.setMulticastTTL()  API
 
@@ -53,13 +53,13 @@ client.send("Hello", 0, 7,
 
 **输出:**
 
-```
+```js
 UDP String: Hello
 ```
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Node.js program to demonstrate the
 // server.setMulticastTTL()  API
 
@@ -106,13 +106,13 @@ client.send("Hello", 0, 7, 
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 server listening 0.0.0.0:1234
 UDP String: Hello
 ```

@@ -6,7 +6,7 @@ Node.js **电信**机器人模块使用**机器人帮助()**方法。该模块�
 
 **语法:**
 
-```
+```js
 TelegrafBot.help(callback)
 ```
 
@@ -18,7 +18,7 @@ TelegrafBot.help(callback)
 
 **安装模块**:使用以下命令安装模块:
 
-```
+```js
 npm install telegraf
 ```
 
@@ -48,7 +48,7 @@ npm install telegraf
 
 ## java 描述语言
 
-```
+```js
 // Requiring module
 const telegraf = require("telegraf");
 
@@ -77,7 +77,7 @@ bot.launch()
 
 使用以下命令运行 **bot.js** 文件:
 
-```
+```js
 node bot.js
 ```
 

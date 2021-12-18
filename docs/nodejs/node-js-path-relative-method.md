@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 path.relative( from, to )
 ```
 
@@ -21,7 +21,7 @@ path.relative( from, to )
 
 **例:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // path.relative() method 
 
@@ -42,7 +42,7 @@ console.log(path3)
 
 **输出:**
 
-```
+```js
 ..\index.html
 ..\..\admin\files\website
 

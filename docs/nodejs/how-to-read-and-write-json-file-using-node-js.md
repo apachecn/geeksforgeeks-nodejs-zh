@@ -12,7 +12,7 @@
 
     **语法:**
 
-    ```
+    ```js
     const data = require('path/to/file/filename');
     ```
 
@@ -20,7 +20,7 @@
 
     **users.json 文件:**
 
-    ```
+    ```js
     [
       { 
         "name": "John", 
@@ -39,7 +39,7 @@
 
     **index.js 文件:**
 
-    ```
+    ```js
     // Requiring users file
     const users = require("./users");
 
@@ -48,7 +48,7 @@
 
     现在，使用以下命令运行文件:
 
-    ```
+    ```js
     node index.js
     ```
 
@@ -59,7 +59,7 @@
     Add the following code into your `index.js` file:
     **index.js file:**
 
-    ```
+    ```js
     const fs = require("fs");
 
     // Read users.json file
@@ -83,7 +83,7 @@
 
 **语法:**
 
-```
+```js
 fs.writeFile("filename", data, callback);
 ```
 
@@ -93,7 +93,7 @@ fs.writeFile("filename", data, callback);
 *   使用`.push()`方法添加数据。
 *   使用`JSON.stringify()`方法将新数据写入文件，将数据转换为字符串。
 
-```
+```js
 const fs = require("fs");
 
 // STEP 1: Reading JSON file

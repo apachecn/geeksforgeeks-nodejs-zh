@@ -8,7 +8,7 @@
 
 **文件名:index.js**
 
-```
+```js
 const add = (a, b) => {     
     return new Promise((resolve, reject) => {        
         setTimeout(() => {            
@@ -34,7 +34,7 @@ add(1, 2).then((sum) => {     
 
 *   Run index.js file using below command:
 
-    ```
+    ```js
     node index.js
     ```
 

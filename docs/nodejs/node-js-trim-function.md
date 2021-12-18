@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 *string*.trim()
 ```
 
@@ -18,7 +18,7 @@
 
 **节目 1:**
 
-```
+```js
 function trim(str) {
 
     // Use trim() function
@@ -36,13 +36,13 @@ trim(str);
 
 **输出:**
 
-```
+```js
 *GeeksforGeeks*
 ```
 
 **节目 2:**
 
-```
+```js
 function trim(str) {
 
     // Use trim() function
@@ -60,6 +60,6 @@ trim(str);    
 
 **输出:**
 
-```
+```js
 Welcome to GeeksforGeeks
 ```

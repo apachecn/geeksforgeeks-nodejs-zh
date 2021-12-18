@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.writeInt16BE( value, offset )
 ```
 
@@ -21,7 +21,7 @@ Buffer.writeInt16BE( value, offset )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // Buffer.writeInt16BE() Method 
 
@@ -37,13 +37,13 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 <Buffer 7b ca>
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // Buffer.writeInt16BE() Method 
 
@@ -64,13 +64,13 @@ console.log(buf); 
 
 **输出:**
 
-```
+```js
 <Buffer 7b ca 7f ff>
 ```
 
 **例 3:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // Buffer.writeInt16BE() Method 
 
@@ -91,7 +91,7 @@ console.log(buf); 
 
 **输出:**
 
-```
+```js
 internal/buffer.js:72
   throw new ERR_OUT_OF_RANGE(type || 'offset',
   ^

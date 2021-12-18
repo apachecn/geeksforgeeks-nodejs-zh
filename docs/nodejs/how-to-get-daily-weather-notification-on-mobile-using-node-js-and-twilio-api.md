@@ -12,7 +12,7 @@ Twilio 控制台
 
 将这些凭据与您的电话号码一起保存到项目根目录下的`.env`文件中。因为将每个凭据保存在单独的文件中是安全的最佳做法。
 
-```
+```js
 ACC_SID = 'your-account-sid'
 AUTH_TOKEN = 'your-auth-token'
 
@@ -22,13 +22,13 @@ FROM = 'twilio-trial-number'
 
 **发送短信:**为了发送短信，我们可以使用 Twilio 的 Node.js 库，使用以下命令安装库:
 
-```
+```js
 npm install twilio
 ```
 
 现在让我们通过发送一条消息来测试我们的凭据。将以下代码添加到`index.js`文件中。
 
-```
+```js
 // Getting Data from .env file
 const accountSid = process.env.ACC_SID;
 const authToken = process.env.AUTH_TOKEN;
@@ -57,13 +57,13 @@ open weather map.org 仪表板
 
 我们将使用 Node.js 的`request`库从 API 中获取数据。使用以下命令安装依赖项:
 
-```
+```js
 npm install request
 ```
 
 然后将下面的代码片段添加到`index.js`文件中。
 
-```
+```js
 // Import request library
 const request = require("request");
 
@@ -87,7 +87,7 @@ getData();
 
 现在，创建一个发送通知数据的函数，并添加发送短信的代码，如下所示:
 
-```
+```js
 // Send message
 function sendNotification(msg) {
   client.messages
@@ -102,7 +102,7 @@ function sendNotification(msg) {
 
 现在，我们必须根据从天气应用编程接口接收的数据创建一条消息。将`getData(`功能替换为以下代码:
 
-```
+```js
 function getdata(){
   request(
     "http://api.openweathermap.org/data/2.5/weather?q=delhi&appid=<your-api-key>&units=metric",
@@ -124,13 +124,13 @@ function getdata(){
 
 现在，为了每天发送消息，我们必须使用`node-cron`库设置一个 cronjob。
 
-```
+```js
 npm install node-cron
 ```
 
 添加 cronjob 以在每天上午 8:00 调用 getData()方法:
 
-```
+```js
 // Importing library
 const twilio = require("node-cron");
 

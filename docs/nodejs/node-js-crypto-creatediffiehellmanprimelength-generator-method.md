@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crypto.createDiffieHellman( primeLength, generator )
 ```
 
@@ -21,7 +21,7 @@ crypto.createDiffieHellman( primeLength, generator )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // crypto.createDiffieHellman() method
 
@@ -40,14 +40,14 @@ console.log(diffHell.generateKeys('base64'));
 
 **输出:**
 
-```
+```js
 CoWIWpiwbCE=
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // crypto.createDiffieHellman() method
 
@@ -75,7 +75,7 @@ console.log("Private Key : ",
 
 **输出:**
 
-```
+```js
 086501
 Public Key :  CGUB
 Private Key :  C1rL

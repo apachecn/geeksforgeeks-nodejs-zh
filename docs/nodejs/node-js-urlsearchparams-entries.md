@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 searchParams.entries();
 ```
 
@@ -14,7 +14,7 @@ searchParams.entries();
 
 **例 1:**
 
-```
+```js
 // Create a test URLSearchParams object
 var searchpar = new URLSearchParams("keya=vala&keyb=valb");
 
@@ -26,14 +26,14 @@ for(var pair of searchpar.entries()) {
 
 **输出:**
 
-```
+```js
 keya, vala
 keyb, valb
 ```
 
 **例 2:**
 
-```
+```js
 // Create a test URLSearchParams object
 var searchpar = new URLSearchParams("par=parval&foo=fooval&bar=barval");
 
@@ -45,7 +45,7 @@ for(var pair of searchpar.entries()) {
 
 **输出:**
 
-```
+```js
 par, parval
 foo, fooval
 bar, barval

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 
 *string*.slice( *start*, *end* )
 
@@ -24,7 +24,7 @@
 
 **节目 1:**
 
-```
+```js
 function findsubstr(str) {
 
     var index = str.slice(12, 25);
@@ -39,13 +39,13 @@ findsubstr(str);
 
 **输出:**
 
-```
+```js
 GeeksforGeeks
 ```
 
 **节目 2:**
 
-```
+```js
 function findsubstr(str, start, end) {
 
     var index = str.slice(start, end);
@@ -63,6 +63,6 @@ findsubstr(str, start, end);
 
 **输出:**
 
-```
+```js
 Welcome
 ```

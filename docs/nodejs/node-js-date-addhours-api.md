@@ -8,19 +8,19 @@
 
 *   By using npm.
 
-```
+```js
 npm install date-and-time --save
 ```
 
 *   Use CDN link.
 
-```
+```js
 <script src="/path/to/date-and-time.min.js"></script>
 ```
 
 **语法:**
 
-```
+```js
 addHours(dateObj, months)
 ```
 
@@ -35,7 +35,7 @@ addHours(dateObj, months)
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.addHours() method
 
@@ -56,13 +56,13 @@ console.log("updated date and time : " + value)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 updated date and time :
 Mon Mar 08 2021 20:35:37 GMT+0530 (India Standard Time)
 ```
@@ -71,7 +71,7 @@ Mon Mar 08 2021 20:35:37 GMT+0530 (India Standard Time)
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.addHours() method
 
@@ -94,13 +94,13 @@ console.log("updated date and time : " + value)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 updated date and time :
 Mon Mar 22 2021 02:37:29 GMT+0530 (India Standard Time)
 ```

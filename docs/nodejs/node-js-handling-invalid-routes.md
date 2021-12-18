@@ -11,13 +11,13 @@
     为无效路线项目创建单独的文件夹。*   **第二步:创建 package.json**
     将在终端或命令提示符下键入以下命令创建 package . JSON:
 
-    ```
+    ```js
     npm init -y
     ```
 
     *   **第三步:在项目的根目录下创建一个 javascript 文件:***   **第四步:使用快递创建一个简单的服务器:**
 
-    ```
+    ```js
     // importing express package for creating the express server
     const express = require('express'); 
     const app = express(); // creating an express object
@@ -40,7 +40,7 @@
 
     *   **Step 5: Define routes**
 
-    ```
+    ```js
     app.get('/', function (req, res) {
         res.send("Ashish")
     })
@@ -53,14 +53,14 @@
 
     现在，我们将按照终端中的命令或 promopt 命令启动我们的服务器:
 
-    ```
+    ```js
      node server.js
     ```
 
     如果您的系统中安装了 nodemon，那么也可以通过以下链接完成:
     要了解更多关于 nodemon 的信息以及如何使用它，请参考: [**本**](https://www.geeksforgeeks.org/nodejs-automatic-restart-nodejs-server-with-nodemon/)
 
-    ```
+    ```js
     nodemon server.js
     ```
 
@@ -81,7 +81,7 @@
     **编写处理所有无效路线的自定义路线:**
     我们将为所有无效路线添加一条路线，如下所示:
 
-    ```
+    ```js
     app.get(‘*’, function(req, res){
     res.sendFile(__dirname+’/public/error.html’);
     }
@@ -90,7 +90,7 @@
 
     现在，更新后的服务器文件如下所示:
 
-    ```
+    ```js
     // importing express package for creating the express server
     const express = require('express'); 
     const app = express(); // creating an express object
@@ -135,7 +135,7 @@
     让我们用一个例子来理解这一点:
     我们在这里改变路线的顺序
 
-    ```
+    ```js
     // importing express package for creating the express server
     const express = require('express'); 
     const app = express(); // creating an express object

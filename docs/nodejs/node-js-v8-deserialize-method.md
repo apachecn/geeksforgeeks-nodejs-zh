@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v8.deserialize( buffer );
 ```
 
@@ -20,7 +20,7 @@ v8.deserialize( buffer );
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 
@@ -30,20 +30,20 @@ console.log(v8.deserialize(v8.serialize("geeksforgeeks")));
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 geeksforgeeks
 
 ```
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 
@@ -67,13 +67,13 @@ console.log(deserialized_data);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Deserialized data is
 abcdefg
 

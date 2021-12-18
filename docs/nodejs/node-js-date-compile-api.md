@@ -8,19 +8,19 @@
 
 *   By using npm.
 
-```
+```js
 npm install date-and-time --save
 ```
 
 *   Use CDN link.
 
-```
+```js
 <script src="/path/to/date-and-time.min.js"></script>
 ```
 
 **语法:**
 
-```
+```js
 compile(formatString)
 ```
 
@@ -32,7 +32,7 @@ compile(formatString)
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.compile() method
 
@@ -57,13 +57,13 @@ console.log("Formatted date and time : " + value)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Formatted date and time : 1/1/1970
 ```
 
@@ -71,7 +71,7 @@ Formatted date and time : 1/1/1970
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.compile() method
 
@@ -96,13 +96,13 @@ console.log("Formatted date and time: " + value)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Formatted date and time: 
 Sat Jul 03 2021 00:00:00 GMT+0530 (India Standard Time)
 ```

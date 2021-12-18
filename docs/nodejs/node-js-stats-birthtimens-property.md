@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.birthtimeNs;
 ```
 
@@ -18,7 +18,7 @@ stats.birthtimeNs;
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.birthtimeNs property
 
@@ -48,7 +48,7 @@ fs.lstat('./filename.txt',
 
 **输出:**
 
-```
+```js
 Using stat: 1589375311991945.3
 Using lstat: 1592667100334387
 
@@ -56,7 +56,7 @@ Using lstat: 1592667100334387
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.birthtimeNs property
 
@@ -78,7 +78,7 @@ const fs = require('fs').promises;
 
 **输出:**
 
-```
+```js
 Using stat synchronous: 1592667100334387
 
 ```

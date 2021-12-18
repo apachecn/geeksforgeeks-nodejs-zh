@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.atimeNs;
 ```
 
@@ -17,7 +17,7 @@ stats.atimeNs;
 以下示例说明了 stats.atimeNs 属性在 Node.js 中的使用:
 **示例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.atimeNs property
 
@@ -47,7 +47,7 @@ fs.lstat('./filename.txt',
 
 **输出:**
 
-```
+```js
 Using stat: 1592654526560650
 Using lstat: 1592664546730291
 
@@ -55,7 +55,7 @@ Using lstat: 1592664546730291
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.atimeNs property
 
@@ -76,7 +76,7 @@ const fs = require('fs').promises;
 
 **输出:**
 
-```
+```js
 Using stat synchronous: 1592664546730291
 
 ```

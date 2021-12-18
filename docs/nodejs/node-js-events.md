@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 const EventEmitter=require('events');
 var eventEmitter=new EventEmitter();
 
@@ -17,7 +17,7 @@ var eventEmitter=new EventEmitter();
 **监听事件:**在发出任何事件之前，它必须注册函数(回调)来监听事件。
 **语法:**
 
-```
+```js
 eventEmitter.addListener(event, listener)
 eventEmitter.on(event, listener)
 eventEmitter.once(event, listener)
@@ -32,14 +32,14 @@ eventEmitter.once(event, listener)
 
 **语法:**
 
-```
+```js
 eventEmitter.emit(event, [arg1], [arg2], [...])
 
 ```
 
 **简单事件:**
 
-```
+```js
 // Importing events
 const EventEmitter = require('events');
 
@@ -57,7 +57,7 @@ eventEmitter.emit('myEvent', "First event");
 
 **输出:**
 
-```
+```js
 First event
 
 ```
@@ -66,7 +66,7 @@ First event
 
 **语法:**
 
-```
+```js
 eventEmitter.removeListener(event, listener)
 eventEmitter.removeAllListeners([event])
 
@@ -77,7 +77,7 @@ eventEmitter.removeAllListeners([event])
 *   从数组中移除侦听器会改变侦听器数组的顺序，因此必须小心使用。
 *   **event emitter . remove listener()**将删除队列前面最多一个侦听器实例。
 
-```
+```js
 // Importing events
 const EventEmitter = require('events');
 
@@ -113,7 +113,7 @@ eventEmitter.emit('myEvent', "Event occurred");
 
 **输出:**
 
-```
+```js
 Message from fun1: Event occurred
 Message from fun2: Event occurred
 
@@ -127,13 +127,13 @@ Message from fun2: Event occurred
 
 **语法:**
 
-```
+```js
 eventEmitter.setMaxListeners(n)
 eventEmitter.getMaxListeners()
 
 ```
 
-```
+```js
 // Importing events
 const EventEmitter = require('events');
 
@@ -192,7 +192,7 @@ eventEmitter2.emit('myEvent2', 'Event2 occurred');
 
 **输出:**
 
-```
+```js
 Default max listener for eventEmitter1 is:  10
 Default max listener for eventEmitter2 is:  10
 Default max listener for eventEmitter1 is:  2
@@ -213,32 +213,32 @@ Message from fun2: Event2 occurred
 **event emitter . listeners():**它返回指定事件的侦听器数组。
 **语法:**
 
-```
+```js
 eventEmitter.listeners(event)
 ```
 
 **event emitter . listener count():**返回监听指定事件的监听者数量。
 **语法:**
 
-```
+```js
 eventEmitter.listenerCount(event)
 ```
 
 **event emitter . prependencelistener():**它会将一次性侦听器添加到数组的开头。
 **语法:**
 
-```
+```js
 eventEmitter.prependOnceListener(event, listener)
 ```
 
 **event emitter . prepend listener():**它会将侦听器添加到数组的开头。
 **语法:**
 
-```
+```js
 eventEmitter.prependListener(event, listener)
 ```
 
-```
+```js
 // Importing events
 const EventEmitter = require('events');
 
@@ -273,7 +273,7 @@ eventEmitter.emit('myEvent', 'Event occurred');
 
 **输出:**
 
-```
+```js
 [ [Function: fun2], [Function: fun1] ]
 2
 Message from fun2: Event occurred
@@ -285,26 +285,26 @@ Message from fun1: Event occurred
 
 *   **事件:“newListener”**事件发射器实例将在侦听器添加到其内部侦听器数组之前发出自己的“newListener”事件。为“newListener”事件注册的侦听器将被传递给正在添加的侦听器的事件名称和引用。在将侦听器添加到数组之前，会触发事件“newListener”。
 
-    ```
+    ```js
     eventEmitter.once( 'newListener', listener)
     eventEmitter.on( 'newListener', listener)
     ```
 
 *   **事件:“移除监听器”****“移除监听器”**事件在监听器被移除后发出。
 
-    ```
+    ```js
     eventEmitter.once( ‘removeListener’, listener)
     eventEmitter.on( 'removeListener’, listener)
     ```
 
 *   **事件:“错误”**当事件发射器实例中发生错误时，典型的操作是发出**“错误”**事件。如果事件发射器没有为“错误”事件注册至少一个侦听器，并且发出了“错误”事件，则会引发错误，打印堆栈跟踪，并退出 Node.js 进程。
 
-    ```
+    ```js
     eventEmitter.on('error', listener)
 
     ```
 
-```
+```js
 // Importing events
 const EventEmitter = require('events');
 
@@ -352,7 +352,7 @@ eventEmitter.emit('error', new Error('whoops!'));
 
 **输出:**
 
-```
+```js
 The listener is added to removeListener
 The listener is added to myEvent
 The listener is added to myEvent
@@ -364,7 +364,7 @@ whoops! there was an error
 
 **异步事件:**event emitter 按照注册的顺序同步调用所有侦听器。但是，我们可以通过使用 **setImmediate()或 process.nextTick()** 来执行异步调用。
 
-```
+```js
 // Importing events
 const EventEmitter = require('events');
 
@@ -392,7 +392,7 @@ eventEmitter.emit('myEvent', "Event occurred");
 
 **输出:**
 
-```
+```js
 Message from fun: Event occurred
 Message from async: Event occurred
 

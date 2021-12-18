@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.readdir( path, options, callback )
 ```
 
@@ -24,7 +24,7 @@ fs.readdir( path, options, callback )
 
 **示例 1:** 本示例使用 fs.readdir()方法返回目录中的文件名或文件对象。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.readdir() method
 
@@ -64,7 +64,7 @@ fs.readdir(__dirname, 
 
 **输出:**
 
-```
+```js
 Current directory filenames:
 index.js
 package.json
@@ -80,7 +80,7 @@ Dirent { name: 'text_file_b.txt', [Symbol(type)]: 1 }
 
 **示例 2:** 本示例使用 fs.readdir()方法仅返回带有“.”的文件名。txt "扩展名。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.readdir() method
 
@@ -105,7 +105,7 @@ fs.readdir(__dirname, (err, files) => {
 
 **输出:**
 
-```
+```js
 Filenames with the .txt extension:
 text_file_a.txt
 text_file_b.txt

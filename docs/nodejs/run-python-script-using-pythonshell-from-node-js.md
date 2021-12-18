@@ -12,7 +12,7 @@
 
 ## java 描述语言
 
-```
+```js
 //Import express.js module and create its variable.
 const express=require('express');
 const app=express();
@@ -48,7 +48,7 @@ app.listen(port, ()=>console.log(`Server connected to ${port}`));
 
 ## 蟒蛇 3
 
-```
+```js
 # code
 import sys
 import requests
@@ -78,7 +78,7 @@ print("csv file created for leetcode")
 
 保存两个文件后，从其根文件夹运行以下命令:
 
-```
+```js
 node test.js
 ```
 

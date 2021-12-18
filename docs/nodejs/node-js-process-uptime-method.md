@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.uptime();
 ```
 
@@ -18,7 +18,7 @@ process.uptime();
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // process.uptime() Method
 
@@ -32,13 +32,13 @@ console.log(process.uptime());
 
 **输出:**
 
-```
+```js
 0.0842063
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // process.uptime() Method
 
@@ -70,7 +70,7 @@ if (process.uptime) {
 
 **输出:**
 
-```
+```js
 the number of seconds the Node.js process is running: 0.077 seconds
 the number of seconds the Node.js process is running: 0.087 seconds
 In whole seconds: 0 seconds

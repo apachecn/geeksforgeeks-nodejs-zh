@@ -14,19 +14,19 @@
 
 1.您可以访问此[链接](https://www.npmjs.com/package/express)并使用以下命令下载:
 
-```
+```js
 npm install express --save
 ```
 
 2.安装 express 后，您可以使用以下命令在命令提示符下检查您的 express 版本:
 
-```
+```js
 npm version express
 ```
 
 3.安装所需的依赖项后，使用终端创建一个 ***app.js*** 文件。为了运行该文件，您需要执行以下操作:
 
-```
+```js
 node app.js
 ```
 
@@ -42,7 +42,7 @@ node app.js
 
 ## java 描述语言
 
-```
+```js
 // Requiring module
 const express = require('express');
 
@@ -61,7 +61,7 @@ app.listen(3000, function() { 
 
 我们需要在路线内部创建的两个文件，即 *<u>computer.js</u>* 和 *<u>introduction.js</u>* 在我们的 app.js 文件中使用以下代码:
 
-```
+```js
 // Syntax
 app.use(require('Filepath'))
 
@@ -74,7 +74,7 @@ app.use(require('./routes/computer.js'));
 
 ## java 描述语言
 
-```
+```js
 // Requiring module
 const express = require('express');
 
@@ -95,7 +95,7 @@ module.exports = router;
 
 ## java 描述语言
 
-```
+```js
 // Requiring module
 const express = require('express');
 
@@ -114,19 +114,19 @@ module.exports = router;
 
 使用以下命令运行 **app.js** 文件:
 
-```
+```js
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 Server listening on port 3000
 ```
 
 现在打开浏览器，转到***http://localhost:3000/简介*** 和***http://localhost:3000/电脑，*** 然后你会在你的终端屏幕上看到如下输出:
 
-```
+```js
 Server listening on port 3000
 Opening introduction.js
 Opening computer.js
@@ -136,12 +136,12 @@ Opening computer.js
 
 对于*<u>http://localhost:3000/introduction</u>*将显示以下输出:
 
-```
+```js
 Welcome to geeksforgeeks!
 ```
 
 对于*<u>http://localhost:3000/计算机</u>* 将显示以下输出:
 
-```
+```js
 This is a computer science portal
 ```

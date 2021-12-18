@@ -8,19 +8,19 @@
 
 *   By using npm.
 
-```
+```js
 npm install date-and-time --save
 ```
 
 *   Use CDN link.
 
-```
+```js
 <script src="/path/to/date-and-time.min.js"></script>
 ```
 
 **语法:**
 
-```
+```js
 format(dateObj, formatString[, utc])
 ```
 
@@ -35,7 +35,7 @@ format(dateObj, formatString[, utc])
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.format() method
 
@@ -56,13 +56,13 @@ console.log("current date and time : " + value)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 current date and time : 2021/03/07 12:13:46
 ```
 
@@ -70,7 +70,7 @@ current date and time : 2021/03/07 12:13:46
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.format() method
 
@@ -88,13 +88,13 @@ console.log("date and time : " + value)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 date and time : 1995/12/17 03:24:00
 ```
 

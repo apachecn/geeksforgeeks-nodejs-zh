@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Event: 'end'
 ```
 
@@ -14,7 +14,7 @@ Event: 'end'
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable end event
 
@@ -47,7 +47,7 @@ console.log("Done...");
 
 **输出:**
 
-```
+```js
 Done...
 read: GeeksforGeeks
 All the data is being consumed.
@@ -56,7 +56,7 @@ All the data is being consumed.
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable end event
 
@@ -76,7 +76,7 @@ console.log("Done...");
 
 **输出:**
 
-```
+```js
 Done...
 
 ```

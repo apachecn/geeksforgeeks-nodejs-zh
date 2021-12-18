@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 util.types.isPromise( value )
 ```
 
@@ -20,7 +20,7 @@ util.types.isPromise( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.types.isPromise() method 
 
@@ -40,7 +40,7 @@ console.log(util.types.isPromise(
 
 **输出:**
 
-```
+```js
 false
 false
 true
@@ -49,7 +49,7 @@ true
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.types.isPromise() method 
 
@@ -86,7 +86,7 @@ console.log(util.types.isPromise(promise. 
 
 **输出:**
 
-```
+```js
 false
 false
 true

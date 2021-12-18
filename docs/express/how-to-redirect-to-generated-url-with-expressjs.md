@@ -17,7 +17,7 @@
 
 **项目结构:**最终的项目目录结构会是这样的。
 
-```
+```js
 Project
 |
 |-> node_modules
@@ -31,7 +31,7 @@ Project
 
 **步骤 1:** 创建空的 npm 项目文件夹，并将其命名为**项目**。
 
-```
+```js
 mkdir Project
 cd Project 
 npm init -y
@@ -45,7 +45,7 @@ npm init -y
 2.  EJS
 3.  正文分析器
 
-```
+```js
 npm i express ejs body-parser
 ```
 
@@ -55,7 +55,7 @@ npm i express ejs body-parser
 
 ## 登录。例如
 
-```
+```js
 <!DOCTYPE html>
 <html>
 <head>
@@ -134,7 +134,7 @@ npm i express ejs body-parser
 
 ## 仪表板。例如
 
-```
+```js
 <!DOCTYPE html>
 <html>
 <head>
@@ -152,7 +152,7 @@ npm i express ejs body-parser
 
 ## server.js
 
-```
+```js
 const express = require('express');
 const path = require('path');    
 const bodyParser = require('body-parser'); 
@@ -217,7 +217,7 @@ app.listen(PORT, err =>{
 
 **第五步:**启动服务器。
 
-```
+```js
 node server.js
 ```
 

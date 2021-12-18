@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 readable.pipe( destination, options )
 ```
 
@@ -21,7 +21,7 @@ readable.pipe( destination, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.pipe() method
 
@@ -42,7 +42,7 @@ console.log("Program Ended");
 
 **输出:**
 
-```
+```js
 Program Ended
 
 ```
@@ -51,7 +51,7 @@ Program Ended
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate     
 // the chaining of streams using
 // readable.pipe() method
@@ -71,7 +71,7 @@ console.log("File Compressed.");
 
 **输出:**
 
-```
+```js
 File Compressed.
 
 ```

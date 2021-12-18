@@ -13,13 +13,13 @@ Node.js 中的 Csurf 模块防止对应用程序的跨站点请求伪造(CSRF)�
 
 1.  首先，我们需要用 **package.json** 文件初始化我们的应用程序。因此，在终端中写下以下命令:
 
-```
+```js
 npm init
 ```
 
 2.  之后， **package.json** 被创建，是时候安装我们的依赖了。因此，通过以下命令安装所需的依赖项:
 
-```
+```js
 npm install body-parser cookie-parser express csurf --save
 ```
 
@@ -30,7 +30,7 @@ npm install body-parser cookie-parser express csurf --save
 
 ## java 描述语言
 
-```
+```js
 const express = require('express');
 const csrf = require('csurf');
 const cookieParser = require('cookie-parser');
@@ -44,7 +44,7 @@ const bodyParser = require('body-parser');
 
 ## java 描述语言
 
-```
+```js
 const express = require('express');
 const csrf = require('csurf');
 const cookieParser = require('cookie-parser');
@@ -80,7 +80,7 @@ app.listen(3000, (err) => {
 
 ## 超文本标记语言
 
-```
+```js
 <html>
 <head>
       <title>Csurf Middleware</title>

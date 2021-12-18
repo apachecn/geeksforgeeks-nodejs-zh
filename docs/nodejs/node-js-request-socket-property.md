@@ -6,13 +6,13 @@
 
 为了得到响应和恰当的结果，我们需要导入“ *http* ”模块。
 
-```
+```js
 const http = require('http'); 
 ```
 
 **语法:**
 
-```
+```js
 request.socket
 
 ```
@@ -27,7 +27,7 @@ request.socket
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // req.socket property 
 
@@ -70,7 +70,7 @@ req.once('response', (res) => {
 
 **示例 2:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // req.socket property 
 
@@ -122,7 +122,7 @@ req.once('response', (res) => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```

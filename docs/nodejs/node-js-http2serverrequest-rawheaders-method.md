@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const request.rawHeaders
 
 ```
@@ -29,7 +29,7 @@ const request.rawHeaders
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerRequest.rawHeaders method
 
@@ -103,13 +103,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 raw request headers::scheme,http,:authority,localhost:8000,:path,/,:method,GET
 status : 200
 Received: hello
@@ -123,7 +123,7 @@ server destroyed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerRequest.rawHeaders method
 
@@ -188,13 +188,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Received: raw request headers::scheme,http,:authority,localhost:8000,:path,/,:method,GET
 client destroyed
 server destroyed

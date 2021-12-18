@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 diffieHellman.setPrivateKey(privateKey[, encoding])
 ```
 
@@ -19,7 +19,7 @@ diffieHellman.setPrivateKey(privateKey[, encoding])
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the
 // diffieHellman.setPrivateKey() Method
 
@@ -54,13 +54,13 @@ function cb(err, publicKey, privateKey){
 
 使用以下命令运行 **index.js** 文件
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 DH private Key is set successfully
 ```
 
@@ -68,7 +68,7 @@ DH private Key is set successfully
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the
 // diffieHellman.setPrivateKey() Method
 
@@ -97,13 +97,13 @@ function cb( err, publicKey, privateKey ){
 
 使用以下命令运行 **index.js** 文件
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 DH private Key is set successfully
 ```
 

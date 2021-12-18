@@ -4,7 +4,7 @@
 
 为此，我们将使用名为**节点邮件程序**的包。这是一个让电子邮件发送变得非常容易的模块。要使用它，您需要使用以下命令进行安装:
 
-```
+```js
 $ npm install nodemailer
 ```
 
@@ -19,7 +19,7 @@ $ npm install nodemailer
 
 ## java 描述语言
 
-```
+```js
 var nodemailer = require("nodemailer");
 
 var sender = nodemailer.createTransport({
@@ -49,13 +49,13 @@ sender.sendMail(mail, function(error, info) {
 
 **运行该程序的步骤:**为了运行该文件，只需将 Bash Git 放入您的工作目录中，并键入以下命令:
 
-```
+```js
 $ nodemon index.js
 ```
 
 如果您没有安装 nodemon，那么只需运行以下命令:
 
-```
+```js
 $ node index.js
 ```
 
@@ -68,21 +68,21 @@ $ node index.js
 **如果你有多个接收器呢？**
 既然如此，就在你的邮件功能中添加下面的代码:
 
-```
+```js
 to: 'first_username@gmail.com, second_username@gmail.com'
 ```
 
 **如果你想发送 HTML 格式的文本给接收者怎么办？**
 既然如此，就在你的邮件功能中添加下面的代码:
 
-```
+```js
 html: "<h1>GeeksforGeeks</h1><p>I love geeksforgeeks</p>"
 ```
 
 **想给收件人发附件怎么办？**
 既然如此，就在你的邮件功能中添加下面的代码:
 
-```
+```js
 attachments: [
     {
       filename: 'mailtrap.png',
@@ -97,7 +97,7 @@ T3】文件名:index . jsT5
 
 ## java 描述语言
 
-```
+```js
 var nodemailer = require("nodemailer");
 
 var sender = nodemailer.createTransport({

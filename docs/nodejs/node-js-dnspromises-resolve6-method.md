@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dnsPromises.resolve6( hostname, options )
 ```
 
@@ -22,7 +22,7 @@ dnsPromises.resolve6( hostname, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.resolve6() method
 
@@ -50,7 +50,7 @@ dnsPromises.resolve6('geeksforgeeks.org').then((res) => {
 
 **输出:**
 
-```
+```js
 from async:
 [ 'fd00:0:13:13::22da:3e74' ]
 [ 'fd00:0:13:13::22da:3e74' ]
@@ -59,7 +59,7 @@ from async:
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.resolve6() method
 
@@ -88,7 +88,7 @@ const options={
 
 **输出:**
 
-```
+```js
 from async:
 [ { address: 'fd00:0:13:13::22da:3e74', ttl: 30 } ]
 

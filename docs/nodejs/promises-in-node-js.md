@@ -8,7 +8,7 @@
 
 **示例：**
 
-```
+```js
 module.exports = (x, callback) => {
     if (x <= 0)
         setTimeout(() => 
@@ -27,7 +27,7 @@ module.exports = (x, callback) => {
 **什么是承诺？**
 承诺基本上是节点回调的推进。 在开发应用程序时，您可能会遇到使用大量嵌套回调函数的情况。
 
-```
+```js
 dboper.insertDocument(db, { name: "Test", description: "Test"},
     "test", (result) => {
         console.log("Insert Document:\n", result.ops);
@@ -61,7 +61,7 @@ dboper.insertDocument(db, { name: "Test", description: "Test"},
 
 **示例：**
 
-```
+```js
 dboper.insertDocument(db, 
     { name: "Test", description: "Just a test"},
     "test").then((result) => {
@@ -73,7 +73,7 @@ dboper.insertDocument(db, 
 
 **示例：**
 
-```
+```js
 MongoClient.connect(url).then((client) => {
 
     const db = client.db(database_name);
@@ -115,7 +115,7 @@ MongoClient.connect(url).then((client) => {
 **创建自定义承诺**
 您始终可以使用新构造函数在 Node 中创建自己的自定义承诺。
 
-```
+```js
 var aPromise = new Promise(function(resolve, reject) {
     request.get(options, function(err, resp, body) {
         if (err) {

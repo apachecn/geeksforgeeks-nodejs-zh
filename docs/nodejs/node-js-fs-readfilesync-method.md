@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```js
 fs.readFileSync( path, options )
 ```
 
@@ -21,7 +21,7 @@ T3】例 1:
 
 *   **input.txt 文件内容:**
 
-```
+```js
 This is some text data which is stored in input.txt file.
 ```
 
@@ -29,7 +29,7 @@ This is some text data which is stored in input.txt file.
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // fs.readFileSync() method
 

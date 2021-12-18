@@ -8,14 +8,14 @@
 
 **安装模块:**
 
-```
+```js
 npm install mongodb
 
 ```
 
 **启动 MongoDB 服务器:**
 
-```
+```js
 mongod --dbpath=data --bind_ip 127.0.0.1
 
 ```
@@ -33,7 +33,7 @@ mongod --dbpath=data --bind_ip 127.0.0.1
 
 ## java 描述语言
 
-```
+```js
 const MongoClient = require('mongodb');
 
 // server location

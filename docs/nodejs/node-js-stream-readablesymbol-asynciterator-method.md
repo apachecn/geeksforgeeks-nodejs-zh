@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 readable[Symbol.asyncIterator]()
 ```
 
@@ -18,7 +18,7 @@ readable[Symbol.asyncIterator]()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable[Symbol.asyncIterator]()
 // method  
@@ -42,14 +42,14 @@ print(fs.createReadStream('input.text')).catch(console.error);
 
 **输出:**
 
-```
+```js
 Promise { <Pending> }
 GeeksforGeeks
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable[Symbol.asyncIterator]()
 // method  
@@ -75,7 +75,7 @@ console.log("program ends!!!");
 
 **输出:**
 
-```
+```js
 program ends!!!
 GfG
 CS-Portal

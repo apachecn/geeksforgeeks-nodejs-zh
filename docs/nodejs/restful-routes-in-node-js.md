@@ -29,7 +29,7 @@ RESTful 路由也依赖于 HTTP 动词和 URL，而不是仅仅依赖于 URL 来
 
 **安装包并创建模式:**
 
-```
+```js
 npm install express
 npm install method-override
 npm install mongoose
@@ -38,7 +38,7 @@ npm install mongoose
 
 **文件名:app.js**
 
-```
+```js
 var express = require('express');
 var app = express();
 var methodOverride = require("method-override");
@@ -66,7 +66,7 @@ app.listen(process.env.PORT, process.env.IP, function() {
 
 **名称:索引**
 
-```
+```js
 app.get("/blogs", function(req, res) {
     Blog.find({}, function(err, blogs) {
         if (err) {
@@ -80,7 +80,7 @@ app.get("/blogs", function(req, res) {
 
 **名称:新**
 
-```
+```js
 app.get("/blogs/new", function(req, res) {
      res.render("new");
  });
@@ -88,7 +88,7 @@ app.get("/blogs/new", function(req, res) {
 
 **名称:创建**
 
-```
+```js
 app.post("/blogs", function(req, res) {
 
      // create blog
@@ -106,7 +106,7 @@ app.post("/blogs", function(req, res) {
 
 **名称:SHOW**
 
-```
+```js
 app.get("/blogs/:id", function(req, res) {
     Blog.findById(req.params.id, function(err, foundBlog) {
         if (err) {
@@ -120,7 +120,7 @@ app.get("/blogs/:id", function(req, res) {
 
 **名称:编辑**
 
-```
+```js
 app.get("/blogs/:id/edit", function(req, res) {
     Blog.findById(req.params.id, function(err, foundBlog) {
         if (err) {
@@ -134,7 +134,7 @@ app.get("/blogs/:id/edit", function(req, res) {
 
 **名称:更新**
 
-```
+```js
 app.put("/blogs/:id", function(req, res) {
  req.body.blog.body = req.sanitize(req.body.blog.body)
 
@@ -151,7 +151,7 @@ app.put("/blogs/:id", function(req, res) {
 
 **名称:破坏**
 
-```
+```js
 app.delete("/blogs/:id", function(req, res) {
    //destroy blog
    Blog.findByIdAndRemove(req.params.id, function(err) {
@@ -173,7 +173,7 @@ app.delete("/blogs/:id", function(req, res) {
 
 最后，根据您的偏好创建路线并添加样式后，在命令行上运行以下命令:
 
-```
+```js
 node app.js
 ```
 

@@ -26,7 +26,7 @@ TypeScript 是 JavaScript 的超集，具有一些 JavaScript 没有的附加功
 
 ## java 描述语言
 
-```
+```js
 // Import the express with express name
 import express from 'express';
 
@@ -58,7 +58,7 @@ app.listen(port, (): void => {
 
 **语法:**
 
-```
+```js
 let fake_db: any = [];
 ```
 
@@ -68,7 +68,7 @@ let fake_db: any = [];
 
 ## java 描述语言
 
-```
+```js
 // Handle '/create', path for create user
 app.post('/create', (_req, _res): void => {
 

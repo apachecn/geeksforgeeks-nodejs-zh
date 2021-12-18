@@ -14,7 +14,7 @@
 
 ## Javascript
 
-```
+```js
 class Artimatics {
     constructor(a, b) {
         this.a = a;

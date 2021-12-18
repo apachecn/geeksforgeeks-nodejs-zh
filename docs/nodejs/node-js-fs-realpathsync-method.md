@@ -5,7 +5,7 @@
 **fs.realpathSync()方法**用于同步计算给定路径的规范路径名。它是通过解决。,..以及路径中的符号链接，并返回解析后的路径。
 **语法:**
 
-```
+```js
 fs.realpathSync( path, options )
 ```
 
@@ -21,7 +21,7 @@ fs.realpathSync( path, options )
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.realpathSync() method
 
@@ -49,7 +49,7 @@ console.log("Two directories up resolved path is: ",
 
 **输出:**
 
-```
+```js
 Current Directory Path: G:\tutorials\nodejs-fs-realPathSync
 One directory up resolved path is:  G:\tutorials
 Two directories up resolved path is:  G:\
@@ -59,7 +59,7 @@ Two directories up resolved path is:  G:\
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.realpathSync() method
 
@@ -83,7 +83,7 @@ console.log("The resolved path is: ", resolvedPath);
 
 **输出:**
 
-```
+```js
 The resolved path is:  G:\tutorials
 The resolved path is:  473a5c7475746f7269616c73
 The resolved path is:  RzpcdHV0b3JpYWxz

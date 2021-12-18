@@ -8,25 +8,25 @@
 
 1.  您可以访问链接[安装 ejs 模块](https://www.npmjs.com/package/ejs)。您可以使用以下命令安装此软件包。
 
-    ```
+    ```js
     npm install ejs
     ```
 
 2.  安装 multer 后，您可以使用命令在命令提示符下检查您的 ejs 版本。
 
-    ```
+    ```js
     npm version ejs
     ```
 
 3.  之后，您可以创建一个文件夹并添加一个文件，例如 app.js。
 
-    ```
+    ```js
     node app.js
     ```
 
 4.  To setup view engine, you need the write this middleware in your index.js as follow:
 
-    ```
+    ```js
     app.set('views', path.join(__dirname, 'views'))
     app.set('view engine', 'ejs')
     ```
@@ -37,7 +37,7 @@
 
 **文件名称:演示。ejs**
 
-```
+```js
 <!DOCTYPE html>
 <html>
 <head>
@@ -60,7 +60,7 @@
 
 **文件名:app.js**
 
-```
+```js
 const express = require('express')
 const path = require('path')
 const app = express()
@@ -90,14 +90,14 @@ app.listen(8080, function(error){
     ![project structure](img/9928a88823dc6c19f3260c4106f0a55f.png)
 2.  确保你有“查看引擎”，就像我使用“ejs”一样，并使用以下命令安装 express:
 
-    ```
+    ```js
     npm install ejs
     npm install express
     ```
 
 3.  Run app.js file using below command:
 
-    ```
+    ```js
     node app.js
     ```
 
@@ -105,7 +105,7 @@ app.listen(8080, function(error){
 
 4.  打开浏览器，输入该网址:
 
-    ```
+    ```js
     http://localhost:8080/
     ```
 

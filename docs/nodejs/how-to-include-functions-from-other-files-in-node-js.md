@@ -14,7 +14,7 @@
 
 **文件名:cal.js**
 
-```
+```js
 function sum(x, y) {
     return (x + y);
 }
@@ -36,7 +36,7 @@ module.exports = { add, sub, mul, div };
 
 **文件名:main.js**
 
-```
+```js
 //requiring cal.js file
 const cal = require("./cal.js")  
 
@@ -55,13 +55,13 @@ console.log(product);
 
 使用以下命令运行 **main.js** 文件:
 
-```
+```js
 node main.js
 ```
 
 **输出:**
 
-```
+```js
 4
 5
 6

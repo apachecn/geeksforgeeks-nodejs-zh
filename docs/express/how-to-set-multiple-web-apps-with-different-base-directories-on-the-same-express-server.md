@@ -8,19 +8,19 @@
 
 **步骤 1:** 使用以下命令初始化 node.js 项目。
 
-```
+```js
 npm init
 ```
 
 **步骤 2:** 使用以下命令安装所需模块。
 
-```
+```js
 npm install express
 ```
 
 **步骤 3:** 安装 express 后，我们可以使用以下代码要求模块。
 
-```
+```js
 const express = require('express');
 const app = express();
 ```
@@ -33,7 +33,7 @@ const app = express();
 
 ## java 描述语言
 
-```
+```js
 // Requiring express
 const express= require('express');
 const app = express();
@@ -51,7 +51,7 @@ app.listen(3000,function(){
 
 **第 5 步:**使用以下命令运行 ***index1.js*** 文件。
 
-```
+```js
 node index1.js
 ```
 
@@ -65,7 +65,7 @@ node index1.js
 
 ## java 描述语言
 
-```
+```js
 // Requiring express
 const express= require('express');
 const app = express();
@@ -83,7 +83,7 @@ app.listen(4000,function(){
 
 **步骤 7:** 使用以下命令运行 ***index2.js*** 文件。
 
-```
+```js
 node index2.js
 ```
 

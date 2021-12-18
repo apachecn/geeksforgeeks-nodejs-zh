@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const request.headers
 ```
 
@@ -28,7 +28,7 @@ const request.headers
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerRequest.headers method
 
@@ -93,13 +93,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 [Object: null prototype] {       
   ':scheme': 'http',
   ':authority': 'localhost:8000',
@@ -115,7 +115,7 @@ server destroyed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerRequest.headers method
 
@@ -188,13 +188,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 [Object: null prototype] {       
   ':scheme': 'http',
   ':authority': 'localhost:8000',

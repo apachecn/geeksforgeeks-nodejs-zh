@@ -10,19 +10,19 @@ Express 是一个用于创建 web 服务器的极简框架。它建立在 node.j
 
 **步骤 1:** 由于 express 应用程序是建立在 NodeJS 上的，所以首先我们要初始化一个节点项目，在你的终端中写下下面的命令。
 
-```
+```js
 npm init
 ```
 
 **步骤 2:** 安装软件包
 
-```
+```js
 npm install express
 ```
 
 **第三步:**创建 app.js 文件。在这个文件中，我们编写了服务器的全部代码。
 
-```
+```js
 touch app.js
 ```
 
@@ -33,7 +33,7 @@ touch app.js
 **配置环境变量:**在多次编写服务器代码时，我们需要在整个代码库中有一些常量变量，所以我们应该设置某种环境变量，以便它可以在所有文件中使用。
 该模块用于从加载环境变量。这样以后我们可以在代码库中的任何地方轻松地使用这些变量。
 
-```
+```js
 npm install dotenv 
 ```
 
@@ -41,7 +41,7 @@ npm install dotenv
 
 ## 。包封/包围（动词 envelop 的简写）
 
-```
+```js
 PORT=3000 // This will be available as process.env.PORT
 
 // You can write any variable here.
@@ -52,7 +52,7 @@ PORT=3000 // This will be available as process.env.PORT
 
 ## app.js
 
-```
+```js
 // 3rd Party Modules
 const express = require('express');
 require('dotenv/config');
@@ -89,7 +89,7 @@ app.listen(PORT, (error) =>{
 
 ## 单片机. j
 
-```
+```js
 // Methods to be executed on routes
 const method1 = (req, res)=>{
     res.send("Hello, Welcome to our Page");
@@ -108,7 +108,7 @@ module.exports = {
 
 ## 迈罗特. js
 
-```
+```js
 // 3rd Party Modules
 const { Router } = require('express');
 
@@ -127,7 +127,7 @@ module.exports = router;
 
 **运行应用的步骤:**我们可以用下面的命令运行我们的 express 应用，app.js 是这个应用的入口点。
 
-```
+```js
 node app.js
 ```
 

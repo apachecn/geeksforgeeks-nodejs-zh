@@ -6,7 +6,7 @@ setTimeout 函数的目的是在一定时间间隔后执行一段代码。setTim
 
 **语法:**
 
-```
+```js
 setTimeout( function , time_in_milliseconds )
 ```
 
@@ -14,7 +14,7 @@ setTimeout( function , time_in_milliseconds )
 
 ## Javascript
 
-```
+```js
 <script>
     printStatement = () => {
         console.log('Printed after 3 seconds');

@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```js
 fs.watch( filename[, options][, listener] )
 ```
 
@@ -33,7 +33,7 @@ fs.watch( filename[, options][, listener] )
 
 ## JavaScript
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.watch() method
 
@@ -66,7 +66,7 @@ setTimeout(
 
 **输出:**注意这个方法不可靠，每次修改可能会显示多个事件。
 
-```
+```js
 The file example_file.txt was modified!
 The type of change was: rename
 
@@ -82,7 +82,7 @@ The type of change was: change
 
 ## JavaScript
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.watch() method
 
@@ -109,7 +109,7 @@ setTimeout(
 
 **输出:**注意这个方法不可靠，每次修改可能会显示多个事件。
 
-```
+```js
 The file ex1.txt was modified!
 The type of change was: change
 

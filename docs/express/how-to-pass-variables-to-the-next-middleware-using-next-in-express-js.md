@@ -15,13 +15,13 @@
 
 您可以访问链接 [<u>安装快递模块</u>](https://www.npmjs.com/package/express) 。您可以使用此命令安装此软件包。
 
-```
+```js
 npm install express
 ```
 
 之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-```
+```js
 node index.js
 ```
 
@@ -29,7 +29,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 // Requiring module
 const express = require("express");
 const app = express();
@@ -67,7 +67,7 @@ app.listen(5000, () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -75,7 +75,7 @@ node index.js
 
 我们将在控制台上看到以下输出:
 
-```
+```js
 Server is up and running on 5000 ...
 
 ```
@@ -88,7 +88,7 @@ Server is up and running on 5000 ...
 
 现在再次检查终端输出，如下所示:
 
-```
+```js
 Server is up and running on 5000 ...
 We are in Middleware 2.
 Data of Middleware 1

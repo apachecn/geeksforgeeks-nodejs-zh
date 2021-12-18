@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 fs.fsync(fd, callback);
 ```
 
@@ -21,7 +21,7 @@ fs.fsync(fd, callback);
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Requiring module
 const fs = require('fs');
 
@@ -40,14 +40,14 @@ fs.fsync(fd, (err) => {
 
 **输出:**
 
-```
+```js
 FD: 3
 
 ```
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Requiring modules
 const fs = require('fs');
 const express = require('express');
@@ -76,13 +76,13 @@ app.listen(3000, function(error){
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Server listening to port 3000
 FD: 3
 

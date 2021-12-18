@@ -8,7 +8,7 @@
 
 **目录树:**
 
-```
+```js
 server.js
 package.json
 package-lock.json
@@ -24,7 +24,7 @@ public
 
 **语法:**
 
-```
+```js
 express.static(root, [options])
 ```
 
@@ -39,7 +39,7 @@ express.static(root, [options])
 
 ## java 描述语言
 
-```
+```js
 // Requiring module
 const express = require('express');
 
@@ -64,13 +64,13 @@ app.listen(PORT, () => {
 
 1.使用以下命令安装 express:
 
-```
+```js
 npm install express
 ```
 
 2.使用以下命令运行 **server.js** 文件:
 
-```
+```js
 node server.js
 ```
 
@@ -93,7 +93,7 @@ node server.js
 
 ## java 描述语言
 
-```
+```js
 // Requiring modules
 const http = require("http");
 const fs = require("fs");
@@ -156,13 +156,13 @@ http.createServer((req, res) => {
 
 1.使用以下命令安装 express:
 
-```
+```js
 npm install express
 ```
 
 2.使用以下命令运行 **server.js** 文件:
 
-```
+```js
 node server.js
 ```
 

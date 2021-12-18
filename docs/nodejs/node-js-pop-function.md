@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 *array_name*.pop()
 ```
 
@@ -18,7 +18,7 @@
 
 **程序 1:**
 
-```
+```js
 function POP()
 {
   arr.pop();
@@ -30,14 +30,14 @@ POP();
 
 输出:
 
-```
+```js
 [ 1, 2, 3, 4, 5, 6 ]
 
 ```
 
 **程序 2:**
 
-```
+```js
 function POP()
 {
   arr.pop();
@@ -49,14 +49,14 @@ POP();
 
 输出:
 
-```
+```js
 []
 
 ```
 
 **程序 3:**
 
-```
+```js
 var Lang = ['java', 'c', 'python'];
 
 console.log(Lang);
@@ -70,7 +70,7 @@ console.log(Lang);
 
 **输出:**
 
-```
+```js
 [ 'java', 'c', 'python' ]
 [ 'java', 'c' ]
 ```

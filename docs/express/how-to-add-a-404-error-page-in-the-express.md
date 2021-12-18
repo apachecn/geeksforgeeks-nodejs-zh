@@ -6,7 +6,7 @@
 
 **安装模块:**使用以下命令安装所需的模块。
 
-```
+```js
 npm install express
 ```
 
@@ -16,7 +16,7 @@ npm install express
 
 ## index.js
 
-```
+```js
 // Requiring module
 const express = require("express")
 const app = express()
@@ -40,7 +40,7 @@ app.listen(3000, () => {
 
 使用以下命令运行**index . js**文件:
 
-```
+```js
 node index.js
 ```
 

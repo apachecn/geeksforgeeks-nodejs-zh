@@ -6,7 +6,7 @@
 **旋转**修改器是 Nodejs | Jimp 中的内置颜色修改器，它将图像的色调旋转到给定的量，从-360 到 360。旋转到 0，360，-360 不会执行任何功能，因为它会将色调设置回以前的颜色。
 **语法:**
 
-```
+```js
 image.color([
   { apply: 'spin', params: [value] }
 ]);
@@ -24,7 +24,7 @@ image.color([
 
 **例 1:**
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');
@@ -46,7 +46,7 @@ main();
 ![](img/9ad23e99f7a8e944c9d71714781ca1ec.png)
 **例 2: cb(可选参数)**
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');

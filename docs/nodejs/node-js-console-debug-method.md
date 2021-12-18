@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 console.debug(data, args);
 ```
 
@@ -21,7 +21,7 @@ console.debug(data, args);
 
 **示例 1:** **文件名:app.js**
 
-```
+```js
 // Accessing console module
 const console = require('console');
 
@@ -32,13 +32,13 @@ console.debug("Sample debug message with args: %d", 39);
 
 使用以下命令运行 app.js 文件:
 
-```
+```js
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 This is a sample debug message!
 Sample debug message with args: 39
 
@@ -46,7 +46,7 @@ Sample debug message with args: 39
 
 **示例 2:** **文件名:app.js**
 
-```
+```js
 // Accessing console module
 const console = require('console');
 
@@ -71,13 +71,13 @@ console.custom_debug("Custom debug message");
 
 使用以下命令运行 app.js 文件:
 
-```
+```js
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 This is a  sample debug message!
 Sample debug message with args: 34
 Debug message: Warning at function ff(): line number 96

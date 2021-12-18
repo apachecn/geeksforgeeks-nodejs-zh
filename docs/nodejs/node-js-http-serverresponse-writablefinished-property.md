@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 response.writableFinished
 ```
 
@@ -18,7 +18,7 @@ response.writableFinished
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the  
 // response.writableFinished APi
 
@@ -57,13 +57,13 @@ httpServer.listen(PORT, () => { 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 Server is running at port 3000...
 displaying the result...
 displaying the result...
@@ -75,7 +75,7 @@ server is closed
 
 *   **Paste the localhost address http://localhost:3000/. In the search bar of the browser.**
 
-```
+```js
  Data has been flushed : false
 ```
 
@@ -83,7 +83,7 @@ server is closed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the  
 // response.writableFinished APi
 
@@ -120,13 +120,13 @@ var httpServer = http.createServer(
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 Server is running at port 3000...
 displaying the result...
 Data has been flushed true
@@ -136,7 +136,7 @@ Data has been flushed true
 
 *   **Paste the localhost address http://localhost:3000/. In the search bar of the browser.**
 
-```
+```js
 Data has been flushed : false
 ```
 

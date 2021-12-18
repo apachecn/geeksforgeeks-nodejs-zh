@@ -10,7 +10,7 @@
 
 **步骤 1:** 创建一个 NodeJS 项目，并使用以下命令对其进行初始化:
 
-```
+```js
 npm init
 ```
 
@@ -18,7 +18,7 @@ npm init
 
 **步骤 2:** 使用以下命令安装 **express** 和 **mysql** 模块:
 
-```
+```js
 npm install express
 npm install mysql
 ```
@@ -35,7 +35,7 @@ npm install mysql
 
 ## java 描述语言
 
-```
+```js
 const mysql = require("mysql");
 
 let db_con  = mysql.createConnection({
@@ -60,7 +60,7 @@ module.exports = db_con;
 
 ## index.js
 
-```
+```js
 const express = require("express");
 const database = require('./sqlConnection');
 
@@ -90,13 +90,13 @@ app.listen(5000, () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Successfully Created Table - gfg_table
 ```
 
@@ -106,7 +106,7 @@ Successfully Created Table - gfg_table
 
 ## index.js
 
-```
+```js
 const express = require("express");
 const database = require('./sqlConnection');
 
@@ -137,13 +137,13 @@ app.listen(5000, () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Successfully Created Table - gfg_table
 ```
 

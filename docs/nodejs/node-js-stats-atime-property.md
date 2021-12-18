@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.atime;
 ```
 
@@ -17,7 +17,7 @@ stats.atime;
 以下示例说明了 stats.atime 属性在 Node.js:
 **中的使用示例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.atime Property
 
@@ -46,7 +46,7 @@ fs.lstat('./filename.txt', (err, stats) => {
 
 **输出:**
 
-```
+```js
 Using stat: Sun Jun 21 2020 00:54:20 GMT+0530 (India Standard Time)
 Using lstat: Sun Jun 21 2020 01:00:52 GMT+0530 (India Standard Time)
 
@@ -54,7 +54,7 @@ Using lstat: Sun Jun 21 2020 01:00:52 GMT+0530 (India Standard Time)
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.atime Property
 
@@ -74,7 +74,7 @@ const fs = require('fs').promises;
 
 **输出:**
 
-```
+```js
 Using stat synchronous: Sun Jun 21 2020 01:00:52 GMT+0530
                                     (India Standard Time)
 

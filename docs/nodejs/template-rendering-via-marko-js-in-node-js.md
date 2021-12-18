@@ -8,7 +8,7 @@
 
 **安装:**如果您从零开始，可以使用 Marko 的 cli 命令快速创建一个入门应用程序:
 
-```
+```js
 npx @marko/create
 ```
 
@@ -16,7 +16,7 @@ npx @marko/create
 
 Marko 编译器运行在 Node.js 上，可以使用 npm 安装:
 
-```
+```js
 npm init -y *// The -y installs the default package.json*
 ```
 
@@ -24,7 +24,7 @@ npm init -y *// The -y installs the default package.json*
 
 我们需要安装以下必需的库:
 
-```
+```js
 npm install express --save *// install express module*
 npm install marko --save  *// install marko module*
 ***or using yarn:***
@@ -35,7 +35,7 @@ yarn add marko
 
 ## 超文本标记语言
 
-```
+```js
 <!doctype html>
 html
     head
@@ -51,7 +51,7 @@ html
 
 ## 超文本标记语言
 
-```
+```js
 <!doctype html>
 <html>
 <head>
@@ -74,7 +74,7 @@ html
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to implement the
 // marko.js template
 
@@ -115,7 +115,7 @@ app.listen(2020, ()=>{
 
 在 cmd 中使用以下代码运行 **index.js** 文件:
 
-```
+```js
 node index.js 
 ```
 

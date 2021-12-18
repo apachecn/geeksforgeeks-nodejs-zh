@@ -8,7 +8,7 @@
 
 1.  您需要创建一个文件夹并添加一个文件。例如，app.js，要运行这个文件，您需要运行以下命令。
 
-    ```
+    ```js
     node app.js
     ```
 
@@ -21,7 +21,7 @@
 
 **文件名称:演示。ejs**
 
-```
+```js
 <!DOCTYPE html>
 <html>
 <head>
@@ -35,7 +35,7 @@
 
 **文件名:app.js**
 
-```
+```js
 const express = require('express')
 const path = require('path')
 const app = express()
@@ -63,17 +63,17 @@ app.listen(8080, function(error){
     ![project structure](img/8953687621c5ef8a7b4efc03ae14ff42.png)
 2.  确保你有“查看引擎”，就像我使用“ejs”一样，并使用以下命令安装 express:
 
-    ```
+    ```js
     npm install ejs
     ```
 
-    ```
+    ```js
     npm install express
     ```
 
 3.  Run app.js file using below command:
 
-    ```
+    ```js
     node app.js
     ```
 
@@ -81,7 +81,7 @@ app.listen(8080, function(error){
 
 4.  打开浏览器，输入该网址:
 
-    ```
+    ```js
     http://localhost:8080/
     ```
 

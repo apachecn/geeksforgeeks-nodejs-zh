@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.pid
 ```
 
@@ -16,7 +16,7 @@ process.pid
 
 **示例:**
 
-```
+```js
 // Node.js program to demonstrate the
 // process.pid Property
 
@@ -29,7 +29,7 @@ console.log("process id is " + process.pid);
 
 **输出:**
 
-```
+```js
 process id is 11436
 ```
 

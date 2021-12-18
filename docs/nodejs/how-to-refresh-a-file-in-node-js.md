@@ -15,36 +15,36 @@ NPM，当你安装 Node.js 的时候，Node.js 的包管理器已经安装好了
 
 **安装命令:**
 
-```
+```js
 npm install nodemon -g
 ```
 
 安装 nodemon 实用程序后，我们将使用以下命令运行代码。
 
-```
+```js
 nodemon filename.js
 ```
 
 **2。节点-主管:**
 **安装命令**
 
-```
+```js
 npm install supervisor -g
 ```
 
 安装节点管理器后，我们将使用以下命令运行代码。
 
-```
+```js
 supervisor filename.js
 ```
 
 **3。forever:** 剩下的所谓 forever 的工具是一个 node.js 包，用于保持服务器活动，即使当它因为一些错误/异常而崩溃或停止时。永远自动重启。
 **安装命令**
 
-```
+```js
 npm install forever -g
 ```
 
-```
+```js
 frorever start filename.js
 ```

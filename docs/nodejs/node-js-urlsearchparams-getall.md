@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 URLSearchParams.getAll(*name*)
 ```
 
@@ -17,7 +17,7 @@ URLSearchParams.getAll(*name*)
 
 **示例 1:**
 
-```
+```js
 let url = new URL('https://example.com?par=5&bar=2'); 
 let params = new URLSearchParams(url.search.slice(1)); 
 
@@ -29,13 +29,13 @@ console.log(params.getAll('par'))'
 
 **输出:**
 
-```
+```js
 ['5', '4']
 ```
 
 **示例 2:** 当输入参数不存在时
 
-```
+```js
 let url = new URL('https://example.com?par=5&bar=2&bar=7&par=4&bar=9'); 
 let params = new URLSearchParams(url.search.slice(1)); 
 
@@ -44,7 +44,7 @@ console.log(params.getAll('bar'))'
 
 **输出:**
 
-```
+```js
 ['2','7','9']
 ```
 

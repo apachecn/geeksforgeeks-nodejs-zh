@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 console.info(data, args);
 ```
 
@@ -21,7 +21,7 @@ console.info(data, args);
 
 **示例 1:** **文件名:app.js**
 
-```
+```js
 // Node.js program to demonstrate the   
 // console.info() method
 
@@ -35,13 +35,13 @@ console.info("sample info message with args: %d", 39);
 
 使用以下命令运行 app.js 文件:
 
-```
+```js
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 this is a sample info message!
 sample info message with args: 39
 
@@ -50,7 +50,7 @@ sample info message with args: 39
 **示例 2:**
 **文件名:app.js**
 
-```
+```js
 // Node.js program to demonstrate the   
 // console.info() method
 
@@ -79,13 +79,13 @@ console.custom_info("custom info message");
 
 使用以下命令运行 app.js 文件:
 
-```
+```js
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 this is a  sample info message!
 sample info message with args: 34
 info message: Warning at function ff(): line number 96

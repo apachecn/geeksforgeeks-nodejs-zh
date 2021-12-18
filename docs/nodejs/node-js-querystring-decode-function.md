@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```js
 querystring.decode( str, sep, eq, options )
 ```
 
@@ -25,7 +25,7 @@ querystring.decode( str, sep, eq, options )
 
 ## java 描述语言
 
-```
+```js
 const querystring = require('querystring');
 
 let str = "user=pratik&isMale=true&role=Coder";
@@ -43,7 +43,7 @@ console.log("Output: ", output);
 
 ## java 描述语言
 
-```
+```js
 const querystring = require('querystring');
 
 let str = "user->pratik/isMale->true/role->Coder/role->Engineer";

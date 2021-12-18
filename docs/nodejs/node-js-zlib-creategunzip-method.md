@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.createGunzip( options )
 ```
 
@@ -18,7 +18,7 @@ zlib.createGunzip( options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // createGunzip() method
 
@@ -44,14 +44,14 @@ zlib.gzip('GeeksforGeeks', function(err, data) {
 
 **输出:**
 
-```
+```js
 GeeksforGeeks
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // createGunzip() method
 
@@ -78,7 +78,7 @@ zlib.gzip('GfG', function(err, data) {
 
 **输出:**
 
-```
+```js
 476647
 
 ```

@@ -13,25 +13,25 @@
 
 1.  您可以访问[安装邮件枪模块](https://www.npmjs.com/package/mailgun-js)的链接。您可以使用以下命令安装此软件包。
 
-```
+```js
 npm install mailgun-js
 ```
 
 1.  安装 mailgun 后，您可以使用命令在命令提示符下检查您的 mailgun 版本。
 
-```
+```js
 npm version mailgun-js
 ```
 
 1.  之后，您可以创建一个文件夹并添加一个文件。例如 *index.js* 。要运行此文件，您需要运行以下命令。
 
-```
+```js
 node index.js
 ```
 
 1.  **需要模块:**您需要使用这些行在您的文件中包含 mailgun 模块。
 
-```
+```js
 const mailgun = require('mailgun-js');
 ```
 
@@ -39,7 +39,7 @@ const mailgun = require('mailgun-js');
 
 ## java 描述语言
 
-```
+```js
 var API_KEY = 'Your_Api_Key';
 var DOMAIN = 'Your_Domain';
 var mailgun = require('mailgun-js')
@@ -79,13 +79,13 @@ sendMail(sender_email, receiver_email,
 
 1.  确保您已经使用以下命令安装了 mailgun】
 
-```
+```js
 npm install mailgun-js
 ```
 
 1.  使用以下命令运行 *index.js* 文件:
 
-```
+```js
 node index.js
 ```
 

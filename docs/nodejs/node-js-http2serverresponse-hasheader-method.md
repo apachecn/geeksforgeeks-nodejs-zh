@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 response.hasHeader(name)
 ```
 
@@ -28,7 +28,7 @@ response.hasHeader(name)
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse.hasHeader() method
 const http2 = require('http2');
@@ -107,13 +107,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 header is present
 status : 200
 Received: hello
@@ -126,7 +126,7 @@ server destroyed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse.hasHeader() method
 const http2 = require('http2');
@@ -198,13 +198,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 header is not present
 Received: The sum weight of all Http2Stream : 0
 client destroyed

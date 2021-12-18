@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.from( object, encoding )
 ```
 
@@ -17,7 +17,7 @@ Buffer.from( object, encoding )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.from() Method
 
@@ -36,7 +36,7 @@ console.log(buf1.toString());
 
 **输出:**
 
-```
+```js
 <Buffer 68 65 6c 6c 6f>
 hello
 
@@ -44,7 +44,7 @@ hello
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.from() Method
 
@@ -63,13 +63,13 @@ console.log(buf.length);
 
 **输出:**
 
-```
+```js
 2
 ```
 
 **例 3:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.from() Method
 
@@ -91,7 +91,7 @@ console.log(buf2.toString());
 
 **输出:**
 
-```
+```js
 <Buffer 4a 6f 68 6e>
 John
 

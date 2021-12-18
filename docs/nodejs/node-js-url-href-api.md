@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const url.href 
 ```
 
@@ -16,7 +16,7 @@ const url.href
 
 ## java 描述语言
 
-```
+```js
 // node program to demonstrate the 
 // url.href API as Setter 
 
@@ -48,7 +48,7 @@ console.log(myURL.href);
 
 ## java 描述语言
 
-```
+```js
 // node program to demonstrate the 
 // url.href API as Getter 
 

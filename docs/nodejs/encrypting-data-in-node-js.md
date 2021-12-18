@@ -5,7 +5,7 @@
 节点中的加密和解密可以通过安装和实现“加密”库来完成。如果您已经通过手动构建安装了 Node.js，那么加密库就有可能没有附带。您可以运行
 以下命令来安装加密依赖项。
 
-```
+```js
 npm install crypto --save
 ```
 
@@ -14,7 +14,7 @@ npm install crypto --save
 
 ## java 描述语言
 
-```
+```js
 // Nodejs encryption with CTR
 const crypto = require('crypto');
 const algorithm = 'aes-256-cbc';

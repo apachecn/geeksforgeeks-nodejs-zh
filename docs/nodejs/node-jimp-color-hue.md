@@ -6,7 +6,7 @@
 **色调**修改器是 Nodejs | Jimp 中的一个内置颜色修改器，它将图像的色调应用到给定的数量，从-360 到 360。它是旋转修改器的别名。
 **语法:**
 
-```
+```js
 image.color([
   { apply: 'hue', params: [value] }
 ]);
@@ -24,7 +24,7 @@ image.color([
 
 **例 1:**
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');
@@ -46,7 +46,7 @@ main();
 ![](img/9dbbf444da32fe4f2cfb5e6331798b7c.png)
 **例 2: cb(可选参数)**
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');

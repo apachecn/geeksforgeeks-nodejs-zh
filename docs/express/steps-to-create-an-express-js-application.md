@@ -12,7 +12,7 @@ Express 是最流行的极简框架。它建立在 NodeJS 的内置模块 HTTP �
 
 **语法:**
 
-```
+```js
 npm init
 ```
 
@@ -24,7 +24,7 @@ npm init
 
 **步骤 2:** 为我们的应用程序安装必要的依赖项。
 
-```
+```js
 npm install express
 ```
 
@@ -40,7 +40,7 @@ npm install express
 
 ## app.js
 
-```
+```js
 const express = require('express');
 
 const app = express();
@@ -58,7 +58,7 @@ app.listen(PORT, (error) =>{
 
 **运行应用程序的步骤:**现在我们已经创建了一个服务器，我们可以成功地开始运行它来查看它是否工作，在您的终端中编写以下命令来启动快速服务器。
 
-```
+```js
 node app.js
 ```
 
@@ -75,7 +75,7 @@ node app.js
 
 **语法**这些类型路由的基本语法看起来是这样的，当路径和请求方法相似时，给定的函数就会执行。
 
-```
+```js
 app.anyMethod(path, function)
 ```
 
@@ -88,7 +88,7 @@ app.anyMethod(path, function)
 
 ## app.js
 
-```
+```js
 const express = require('express');
 
 const app = express();
@@ -123,7 +123,7 @@ app.listen(PORT, (error) =>{
 
 ## app.js
 
-```
+```js
 const express = require('express');
 
 const app = express();
@@ -164,7 +164,7 @@ app.listen(PORT, (error) =>{
 
 ## app.js
 
-```
+```js
 const express = require('express');
 
 const app = express();
@@ -208,7 +208,7 @@ Express 为我们提供了一个中间件 **express.static()，**它接受两个
 
 **语法:**
 
-```
+```js
 app.use(path, express.static(root, [options]));
 ```
 
@@ -220,7 +220,7 @@ app.use(path, express.static(root, [options]));
 
 ## app.js
 
-```
+```js
 const express = require('express');
 
 const app = express();
@@ -250,7 +250,7 @@ app.listen(PORT, (error) =>{
 
 **语法:**
 
-```
+```js
 res.sendFile(fileUrl)
 ```
 
@@ -260,7 +260,7 @@ res.sendFile(fileUrl)
 
 ## app.js
 
-```
+```js
 const express = require('express');
 const path = require('path');
 

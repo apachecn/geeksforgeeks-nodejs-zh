@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 req.subdomains
 
 ```
@@ -17,21 +17,21 @@ req.subdomains
 
 1.  您可以访问[安装快速模块](https://www.npmjs.com/package/express)的链接。您可以使用此命令安装此软件包。
 
-```
+```js
 npm install express
 
 ```
 
 1.  安装快速模块后，您可以使用命令在命令提示符下检查您的快速版本。
 
-```
+```js
 npm version express
 
 ```
 
 1.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-```
+```js
 node index.js
 
 ```
@@ -41,7 +41,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 var express = require('express');
 var app = express();
 var PORT = 3000;

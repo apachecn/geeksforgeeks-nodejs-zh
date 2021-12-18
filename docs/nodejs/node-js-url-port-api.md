@@ -19,7 +19,7 @@
 
 **语法:**
 
-```
+```js
 const url.port
 ```
 
@@ -31,7 +31,7 @@ const url.port
 
 ## java 描述语言
 
-```
+```js
 // node program to demonstrate the 
 // url.port API as Setter 
 
@@ -65,7 +65,7 @@ console.log(myURL.href);
 
 ## java 描述语言
 
-```
+```js
 // node program to demonstrate the 
 // url.port API as Setter 
 
@@ -99,7 +99,7 @@ console.log(myURL.href);
 
 ## java 描述语言
 
-```
+```js
 // node program to demonstrate the 
 // url.port API as Getter 
 

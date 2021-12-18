@@ -16,7 +16,7 @@
 
 **安装模块:**
 
-```
+```js
 npm install mysql
 ```
 
@@ -30,7 +30,7 @@ npm install mysql
 
 ## java 描述语言
 
-```
+```js
 //Importing mysql module
 const mysql = require("mysql");
 //Creating connection
@@ -63,7 +63,7 @@ db_con.connect((err) => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -77,7 +77,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 //Importing mysql module
 const mysql = require("mysql");
 //Creating connection
@@ -108,7 +108,7 @@ db_con.connect((err) => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

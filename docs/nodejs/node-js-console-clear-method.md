@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 console.clear()
 ```
 
@@ -26,7 +26,7 @@ console.clear()
 
 **示例:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.clear() Method
 

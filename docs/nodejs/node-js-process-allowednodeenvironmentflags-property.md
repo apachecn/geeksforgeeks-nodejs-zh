@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const process.allowedNodeEnvironmentFlags
 ```
 
@@ -18,7 +18,7 @@ const process.allowedNodeEnvironmentFlags
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Process.allowedNodeEnvironmentFlags Property
 
@@ -34,13 +34,13 @@ console.log(flags.size)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 104
 ```
 
@@ -48,7 +48,7 @@ node index.js
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Process.allowedNodeEnvironmentFlags Property
 
@@ -65,13 +65,13 @@ process.allowedNodeEnvironmentFlags.forEach((flag) => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Flag:  --icu-data-dir , Length:  14
 Flag:  --title , Length:  7
 ..

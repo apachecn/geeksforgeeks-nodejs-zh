@@ -12,7 +12,7 @@
 
 **安装请求包:**
 
-```
+```js
 $ npm install request
 ```
 
@@ -20,7 +20,7 @@ $ npm install request
 
 **请求语法:**
 
-```
+```js
 request(url, (error, response, body) => {
     if(!error && response.statusCode == 200) {
         statements to be executed.
@@ -36,7 +36,7 @@ request(url, (error, response, body) => {
 
 **eexaple:**
 
-```
+```js
 // Importing the request package
 const request = require("request");
 

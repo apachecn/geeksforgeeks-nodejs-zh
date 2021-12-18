@@ -35,7 +35,7 @@
 **在 node . js&express . js**
 **1 中启动服务器。服务器:**使用以下命令安装 Express:
 
-```
+```js
 npm install --save express
 ```
 
@@ -43,7 +43,7 @@ npm install --save express
 
 ## java 描述语言
 
-```
+```js
 // Requiring the module
 const express = require('express');
 const app = express();
@@ -61,7 +61,7 @@ app.listen(8080, () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -71,7 +71,7 @@ node index.js
 
 **2。Node.js 服务器:**需要使用以下代码的 **http** 模块:
 
-```
+```js
 const http = require('http');
 ```
 
@@ -79,7 +79,7 @@ const http = require('http');
 
 ## java 描述语言
 
-```
+```js
 // Requiring the module
 const http = require('http');
 
@@ -101,7 +101,7 @@ server.listen(3000, ()=> {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -118,7 +118,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 // Requiring module
 const express = require('express');
 const app = express();
@@ -141,7 +141,7 @@ app.listen(8080, () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -158,7 +158,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 // Requiring the module
 const http = require('http');
 
@@ -195,7 +195,7 @@ server.listen(3000, () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

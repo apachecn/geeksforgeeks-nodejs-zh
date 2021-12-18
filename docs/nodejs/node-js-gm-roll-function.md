@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 roll( x, y )
 ```
 
@@ -21,7 +21,7 @@ roll( x, y )
 
 ## java 描述语言
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 
@@ -45,7 +45,7 @@ gm('1.png')
 
 ## java 描述语言
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 

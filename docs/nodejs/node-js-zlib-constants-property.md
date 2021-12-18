@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.constants
 ```
 
@@ -16,7 +16,7 @@ zlib.constants
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate     
 // zlib.constants property
 // Including zlib module
@@ -50,7 +50,7 @@ zlib.unzip(
 
 **输出:**
 
-```
+```js
 [Object: null prototype] {
   Z_NO_FLUSH: 0,
   Z_PARTIAL_FLUSH: 1,
@@ -165,7 +165,7 @@ zlib.unzip(
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate     
 // zlib.constants property
 // Including zlib module
@@ -199,7 +199,7 @@ zlib.unzip(
 
 **输出**
 
-```
+```js
 [Object: null prototype] {
   Z_NO_FLUSH: 0,
   Z_PARTIAL_FLUSH: 1,

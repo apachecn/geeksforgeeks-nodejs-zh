@@ -15,7 +15,7 @@ module.exports 实际上是 node.js. module 中模块对象的一个属性。Exp
 
 要验证，请在终端中键入以下命令。它将显示节点的安装版本。你电脑上的 Js。
 
-```
+```js
 node -v 
 ```
 
@@ -35,7 +35,7 @@ node -v
 
 ## java 描述语言
 
-```
+```js
 // Module.js file
 function addTwoNumbers(a, b) {
   return a + b;
@@ -57,7 +57,7 @@ module.exports = exportedObject;
 
 ## java 描述语言
 
-```
+```js
 // app.js file
 const obj = require("./module");
 
@@ -79,7 +79,7 @@ console.log(multiply(3, 4));
 
 **运行应用程序的步骤:**在项目根路径(例如:module_exports_tut)文件夹内的终端中运行以下命令。
 
-```
+```js
    node app.js
 ```
 

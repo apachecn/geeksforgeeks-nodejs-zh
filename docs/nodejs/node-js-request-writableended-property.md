@@ -8,14 +8,14 @@
 
 **语法:**
 
-```
+```js
 const http = require('http');  
 
 ```
 
 **语法:**
 
-```
+```js
 request.writableEnded 
 
 ```
@@ -28,7 +28,7 @@ request.writableEnded
 
 **示例:** **文件名:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // request.writableEnded property 
 
@@ -66,7 +66,7 @@ request.once('response', (res) => { 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.toString( encoding, start, end )
 ```
 
@@ -20,7 +20,7 @@ Buffer.toString( encoding, start, end )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // Buffer.toString() Method  
 
@@ -41,7 +41,7 @@ console.log(buffer.toString('hex'));
 
 **输出:**
 
-```
+```js
 abcde
 bcd
 6162636465
@@ -52,7 +52,7 @@ bcd
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // Buffer.toString() Method  
 
@@ -71,7 +71,7 @@ console.log(buffer.toString(undefined));
 
 **输出:**
 
-```
+```js
 abcde
 
 ```

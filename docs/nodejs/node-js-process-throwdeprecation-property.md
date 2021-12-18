@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.throwDeprecation
 ```
 
@@ -18,7 +18,7 @@ process.throwDeprecation
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // process.throwDeprecation Property
 
@@ -34,7 +34,7 @@ console.log(process.throwDeprecation);
 
 **输出 1:**
 
-```
+```js
 true
 ```
 
@@ -42,7 +42,7 @@ true
 
 **输出 2:**
 
-```
+```js
 undefined
 ```
 
@@ -50,7 +50,7 @@ undefined
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // process.throwDeprecation Property
 
@@ -76,7 +76,7 @@ console.log(process.throwDeprecation);
 
 **输出 1:**
 
-```
+```js
 true
 true
 ```
@@ -85,7 +85,7 @@ true
 
 **输出 2:**
 
-```
+```js
 false
 true
 ```

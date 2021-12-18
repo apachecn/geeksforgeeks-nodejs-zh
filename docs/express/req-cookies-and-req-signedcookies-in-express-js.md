@@ -10,7 +10,7 @@
 
 ## **java 描述语言**
 
-```
+```js
 var cookieParser = require('cookie-parser');
 var express = require('express');
 var app = express();
@@ -34,7 +34,7 @@ app.listen(PORT, function(err){
 
 ****输出:**现在打开浏览器，向**http://localhost:3000/user**发出 GET 请求，现在可以在控制台上看到如下输出:**
 
-```
+```js
 Server listening on PORT 3000
 [Object: null prototype] { name: 'Gourav', age: 12 }
 ```
@@ -45,7 +45,7 @@ Server listening on PORT 3000
 
 ## ****java 描述语言****
 
-```
+```js
 **var cookieParser = require('cookie-parser');
 var express = require('express');
 var app = express();
@@ -71,7 +71,7 @@ app.listen(PORT, function(err){
 
 ******输出:**现在打开浏览器，向**http://localhost:3000/user**发出 GET 请求，现在可以在控制台上看到如下输出:****
 
-```
+```js
 **Server listening on PORT 3000
 [Object: null prototype] { title: 'Gourav', age: 12 }**
 ```

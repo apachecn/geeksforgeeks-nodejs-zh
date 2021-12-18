@@ -27,7 +27,7 @@
 
 ## java 描述语言
 
-```
+```js
 <script>
 (function() {
 

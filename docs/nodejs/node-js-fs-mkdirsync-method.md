@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```js
 fs.mkdirSync( path, options )
 ```
 
@@ -22,7 +22,7 @@ fs.mkdirSync( path, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.mkdirSync() method
 
@@ -53,7 +53,7 @@ fs.exists(path.join(__dirname, "Geeks"), exists => {
 
 **输出:**
 
-```
+```js
 Checking for directory c:\Users\Suraj\node\Geeks
 Not found!
 The directory already exists
@@ -62,7 +62,7 @@ The directory already exists
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.mkdirSync() method
 
@@ -93,7 +93,7 @@ fs.exists(path.join(__dirname, "Tisu"), exists => {
 
 **输出:**
 
-```
+```js
 Checking for directory c:\Users\Suraj\node\Tisu
 Not found!
 The directory already exists

@@ -10,7 +10,7 @@
 
     ****语法:****
 
-    ```
+    ```js
     tracing.categories
     ```
 
@@ -21,7 +21,7 @@
 
     ******语法:******
 
-    ```
+    ```js
     **tracing.disable()**
     ```
 
@@ -33,7 +33,7 @@
 
     ******语法:******
 
-    ```
+    ```js
     **tracing.enable()**
     ```
 
@@ -44,7 +44,7 @@
 
     ******语法:******
 
-    ```
+    ```js
     **tracing.enabled**
     ```
 
@@ -56,13 +56,13 @@
 
 ******安装 trace_events 模块:******
 
-```
+```js
 **npm install trace_events**
 ```
 
 ******示例 1:** **文件名:index.js******
 
-```
+```js
 **// Node.js program to demonstrate the 
 // Tracing methods 
 
@@ -101,7 +101,7 @@ newTraceEvent1.disable();**
 
 ****使用以下命令运行 **index.js** 文件:****
 
-```
+```js
 **node index.js**
 ```
 
@@ -114,7 +114,7 @@ newTraceEvent1.disable();**
 
 ******示例 2:** **文件名:index.js******
 
-```
+```js
 **// Node.js program to demonstrate the 
 // Trace methods 
 
@@ -165,7 +165,7 @@ newTracing.disable();**
 
 ****使用以下命令运行 **index.js** 文件:****
 
-```
+```js
 **node index.js
 **For custom tracing**
 node --trace-event-categories v8, node, node.async_hooks index.js** 

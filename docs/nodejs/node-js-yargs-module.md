@@ -8,25 +8,25 @@ Yargs 模块用于在 node.js 中创建您自己的命令行命令，并有助�
 
 1.  您可以访问链接[安装 yargs 模块](https://www.npmjs.com/package/yargs)。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install yargs
     ```
 
 2.  安装 yargs 后，您可以使用命令在命令提示符下检查您的 yargs 版本。
 
-    ```
+    ```js
     npm version yargs
     ```
 
 3.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-    ```
+    ```js
     node index.js
     ```
 
 **文件名:index.js**
 
-```
+```js
 const yargs = require('yargs')
 
 // Customize yargs version
@@ -65,20 +65,20 @@ yargs.parse() // To set above changes
     ![project structure](img/7f11aa84d396f64cea346ed675e7c45b.png)
 2.  确保您已经使用以下命令安装了 express 和 yargs 模块:
 
-    ```
+    ```js
     npm install express
     npm install yargs
     ```
 
 3.  Run index.js file using below command:
 
-    ```
+    ```js
     node index.js
     ```
 
     运行上述命令后，现在 yargs 命令已设置，您可以如下所示使用它:
 
-    ```
+    ```js
     node index.js add --firstNumber=4 --secondNumber=10
     ```
 

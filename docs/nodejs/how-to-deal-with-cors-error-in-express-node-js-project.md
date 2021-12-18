@@ -16,14 +16,14 @@ CORS，也称为跨来源资源共享，应该启用，如果你想让你的客�
 
 *   **步骤 1:** 创建一个 Node.js 应用程序，并使用以下命令将其命名为 *gfg-cors* 。
 
-    ```
+    ```js
     mkdir gfg-cors && cd gfg-cors
     npm init 
     ```
 
 *   **步骤 2:** 使用以下命令安装依赖模块。
 
-    ```
+    ```js
     npm i express cors
     ```
 
@@ -37,7 +37,7 @@ CORS，也称为跨来源资源共享，应该启用，如果你想让你的客�
 
 ## index.html
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,7 +55,7 @@ CORS，也称为跨来源资源共享，应该启用，如果你想让你的客�
 
 ## script.js
 
-```
+```js
 fetch('http://localhost:5000/gfg-articles')
 .then((res) => res.json())
 .then((gfg_articles) => console.log(gfg_articles));
@@ -63,7 +63,7 @@ fetch('http://localhost:5000/gfg-articles')
 
 ## server.js
 
-```
+```js
 // Requiring module
 const express = require('express');
 const cors = require('cors');
@@ -89,7 +89,7 @@ app.listen(port, () => `Server running on port ${port}`);
 
 ## server.js
 
-```
+```js
 // Requiring module
 const express = require('express');
 const cors = require('cors');
@@ -115,7 +115,7 @@ app.listen(port, () => `Server running on port ${port}`);
 
 如果您只想允许某个特定的源访问您的站点，那么*操作*如下:
 
-```
+```js
 let corsOptions = {
     origin: 'http://localhost:5500'
 };
@@ -123,7 +123,7 @@ let corsOptions = {
 
 **运行应用程序的步骤:**使用以下命令运行 server.js。
 
-```
+```js
 node server.js
 ```
 

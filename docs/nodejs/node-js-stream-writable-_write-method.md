@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 writable._write( chunk, encoding, callback )
 ```
 
@@ -20,7 +20,7 @@ writable._write( chunk, encoding, callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable._write() method
 
@@ -63,7 +63,7 @@ console.log("Enter the string: ");
 
 现在，您需要运行代码并在运行时输入字符串来获得输出。
 
-```
+```js
 Enter the string:
 GeeksforGeeks
 GeeksforGeeks // Output
@@ -82,7 +82,7 @@ Nidhi //Output
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable._write() method
 
@@ -131,7 +131,7 @@ console.log("Enter the string: ");
 现在，您需要运行代码并在运行时输入字符串来获得输出。
 **输出:**
 
-```
+```js
 Enter the string:
 Geeks
 4765656b730a   // encoded string

@@ -8,7 +8,7 @@ fs.rename()方法基于回调。使用回调方法导致回调嵌套或回调地
 
 **语法:**
 
-```
+```js
 fs.rename(oldPath, newPath)
 ```
 
@@ -23,7 +23,7 @@ fs.rename(oldPath, newPath)
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 const util = require('util')
@@ -73,7 +73,7 @@ readDir(process.cwd())
 
 使用异步等待实现相同的功能。
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 const util = require('util')
@@ -123,7 +123,7 @@ renameOperation('test.txt', 'testFile.txt')
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -139,7 +139,7 @@ node index.js
 **示例 2:** 给定时，newpath 不是文件的路径，而是目录。
 T3】文件名:index.js
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 const util = require('util')
@@ -189,7 +189,7 @@ readDir(process.cwd())
 
 用异步等待实现相同的功能。
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 const util = require('util')
@@ -238,7 +238,7 @@ renameOperation('testFile.txt', 'test')
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

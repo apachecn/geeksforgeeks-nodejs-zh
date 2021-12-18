@@ -8,20 +8,20 @@
 
 *   <u>**步骤 1(在我们的目录中安装 npm):**要在项目中安装 NPM，请前往终端，并将您当前的工作目录更改为该项目。然后，使用 npm init 命令初始化 package.json 文件。</u>
 
-    ```
+    ```js
     $ cd {your-project-directory}
     $ npm init
     ```
 
 *   <u>**第 2 步(安装 express):** 现在我们的项目中已经安装了 npm，我们可以在我们的终端中使用 npm install 命令来安装 express。</u>
 
-    ```
+    ```js
     $ npm install express --save
     ```
 
 *   <u>**第三步(准备好快递使用):**安装快递后，我们可以开始在我们的服务器上写代码了。在使用之前，我们需要一个快速模块，我们可以通过在服务器代码的顶部添加下面给出的代码来实现。</u>
 
-     <u>```
+     <u>```js
     const express = require('express');
     const app = express();
     ```</u> 
@@ -35,7 +35,7 @@
 
 ## <u>index.js</u>
 
-```
+```js
 // Requiring express in our server
 const express = require('express');
 const app = express();
@@ -79,7 +79,7 @@ app.listen(3000, function(req, res) {
 
 <u>**运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序。</u>
 
-```
+```js
 node index.js
 ```
 
@@ -96,7 +96,7 @@ node index.js
 
 *   <u>**第 1 步(让 HTTP 做好使用准备):**我们需要在我们的服务器中要求 HTTP 能够使用它。这可以简单地通过将下面的代码添加到我们的服务器来完成。</u>
 
-    ```
+    ```js
     var http = require('http');
     ```
 
@@ -106,7 +106,7 @@ node index.js
 
 ## <u>index.js</u>
 
-```
+```js
 var http = require('http');
 
 var app = http.createServer(function(req,res){
@@ -119,7 +119,7 @@ app.listen(3000);
 
 <u>**运行应用程序的步骤:**从项目的根目录使用以下命令运行应用程序。</u>
 
-```
+```js
 node index.js
 ```
 

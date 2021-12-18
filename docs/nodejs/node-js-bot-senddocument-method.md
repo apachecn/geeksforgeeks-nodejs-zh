@@ -5,7 +5,7 @@
 Node.js 电报机器人应用编程接口中使用了**机器人发送文档()**方法。这个 Node.js 模块与官方的电报机器人应用编程接口进行交互。此方法用于发送扩展名为的文档。pdf，。docx，。txt 等。
 **语法:**
 
-```
+```js
 TelegramBot.sendDocument(chatId, location)
 
 ```
@@ -18,7 +18,7 @@ TelegramBot.sendDocument(chatId, location)
 **返回类型:**函数的返回类型为空。
 **安装模块:**使用以下命令安装模块:
 
-```
+```js
 npm i telegram-bot-api
 
 ```
@@ -47,7 +47,7 @@ npm i telegram-bot-api
 
 ## java 描述语言
 
-```
+```js
 var token = 'Enter the token';
 
 const TelegramBot = require('node-telegram-bot-api');
@@ -76,7 +76,7 @@ bot.onText(/\/echo(.+)/, (msg, match) => {
 
 使用以下命令运行 bot.js 文件:
 
-```
+```js
 node bot.js
 
 ```

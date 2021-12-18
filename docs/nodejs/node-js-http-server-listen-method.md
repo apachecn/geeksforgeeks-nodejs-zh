@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const server.listen(options[, callback])
 ```
 
@@ -21,7 +21,7 @@ const server.listen(options[, callback])
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the  
 // server.listen() method
 
@@ -63,13 +63,13 @@ httpServer.listen(PORT, () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Server is running at port 3000...
 displaying the result...
 server is closed
@@ -77,7 +77,7 @@ server is closed
 
 现在在浏览器中运行 **http://localhost:3000/** ，你会在屏幕上看到如下输出:
 
-```
+```js
 socket buffersize : 0
 ```
 
@@ -85,7 +85,7 @@ socket buffersize : 0
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the  
 // server.listen() method
 
@@ -122,13 +122,13 @@ var httpServer = http.createServer(
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Server is running at port 3000...
 displaying the result...
 server is closed
@@ -136,7 +136,7 @@ server is closed
 
 现在在浏览器中运行 **http://localhost:3000/** ，你会在屏幕上看到如下输出:
 
-```
+```js
 socket local address : ::1
 ```
 

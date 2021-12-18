@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 writable.uncork() 
 ```
 
@@ -18,7 +18,7 @@ writable.uncork()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.uncork() method  
 const stream = require('stream');
@@ -54,7 +54,7 @@ writable.uncork();
 
 **输出:**
 
-```
+```js
 hi
 hello
 world
@@ -65,7 +65,7 @@ world
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.uncork() method  
 const stream = require('stream');
@@ -110,7 +110,7 @@ process.nextTick(() => {
 
 **输出:**
 
-```
+```js
 hi
 hello
 

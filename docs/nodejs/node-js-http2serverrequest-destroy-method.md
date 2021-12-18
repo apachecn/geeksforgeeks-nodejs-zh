@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const request.destroy([error])
 
 ```
@@ -29,7 +29,7 @@ const request.destroy([error])
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerRequest.destroy method
 
@@ -103,13 +103,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 request is destroyed
 status : 200
 Received: hello
@@ -122,7 +122,7 @@ server destroyed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerRequest.destroy method
 
@@ -187,13 +187,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Received: request is destroyed 
 client destroyed
 server destroyed

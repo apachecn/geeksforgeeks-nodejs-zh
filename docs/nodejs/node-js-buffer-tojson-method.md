@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```js
 buffer.toJSON()
 ```
 
@@ -20,7 +20,7 @@ buffer.toJSON()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.toJSON() Method
 
@@ -33,7 +33,7 @@ console.log(buffer.toJSON());
 
 **输出:**
 
-```
+```js
 {
   type: 'Buffer',
   data: [
@@ -48,7 +48,7 @@ console.log(buffer.toJSON());
 
 **示例 2:** 这个示例实现了 JSON 的使用。Stringify()方法。
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.toJSON() Method
 
@@ -62,7 +62,7 @@ console.log(output);
 
 **输出:**
 
-```
+```js
 {"type":"Buffer", "data":[1, 2, 3, 4]}
 ```
 

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 util.types.isSymbolObject( value )
 ```
 
@@ -22,7 +22,7 @@ util.types.isSymbolObject( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.types.isSymbolObject() method 
 
@@ -41,7 +41,7 @@ console.log(util.types.isSymbolObject(Object(Symbol('geeks'))));
 
 **输出:**
 
-```
+```js
 false
 false
 true
@@ -50,7 +50,7 @@ true
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.types.isSymbolObject() method 
 
@@ -72,7 +72,7 @@ console.log(util.types.isSymbolObject(Object(symbol)));
 
 **输出:**
 
-```
+```js
 false
 false
 true

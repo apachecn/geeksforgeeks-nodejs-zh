@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 app.disable(name)
 ```
 
@@ -14,25 +14,25 @@ app.disable(name)
 
 1.  您可以访问[安装快速模块](https://www.npmjs.com/package/express)的链接。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install express
     ```
 
 2.  安装 express 模块后，您可以使用命令在命令提示符下检查您的 express 版本。
 
-    ```
+    ```js
     npm version express
     ```
 
 3.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-    ```
+    ```js
     node index.js
     ```
 
 **文件名:index.js**
 
-```
+```js
 var express = require('express');
 var app = express();
 
@@ -47,19 +47,19 @@ console.log(app.get('trust proxy')); // false
     ![](img/3209d9b4369c180282a34be8070d7d6e.png)
 2.  使用以下命令确保您已经安装了 **express** 模块:
 
-    ```
+    ```js
     npm install express
     ```
 
 3.  Run index.js file using below command:
 
-    ```
+    ```js
     node index.js
     ```
 
     **输出:**
 
-    ```
+    ```js
     false
 
     ```

@@ -6,7 +6,7 @@ http2 服务器中的**“完成”**事件在响应头和正文的最后一段�
 
 **语法:**
 
-```
+```js
 Event: 'close'
 
 ```
@@ -29,7 +29,7 @@ Event: 'close'
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse 'finish' event 
 
@@ -103,13 +103,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 response has been sent
 status : 200
 Received: hello
@@ -123,7 +123,7 @@ server destroyed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse 'finish' event 
 
@@ -190,13 +190,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 response has been sent
 Received: The sum weight of all Http2Stream : 0
 client destroyed

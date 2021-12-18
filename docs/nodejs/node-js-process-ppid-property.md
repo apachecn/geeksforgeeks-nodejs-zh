@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.ppid
 ```
 
@@ -16,7 +16,7 @@ process.ppid
 
 **示例:**
 
-```
+```js
 // Node.js program to demonstrate the
 // process.ppid Property
 
@@ -32,7 +32,7 @@ console.log("parent process id is " + process.ppid);
 
 **输出:**
 
-```
+```js
 process id is 12024
 parent process id is 12168
 

@@ -12,13 +12,13 @@
 
 *   **第一步:**初始化节点项目。
 
-    ```
+    ```js
     npm init
     ```
 
 *   **步骤 2:** 安装所需模块。
 
-    ```
+    ```js
     npm install express
     ```
 
@@ -26,7 +26,7 @@
 
 ## index.js
 
-```
+```js
 const express = require("express");
 
 const app = express();
@@ -49,7 +49,7 @@ app.get("/", (req, res) => {
 
 **输出:**要运行节点服务器，到浏览器中***http://localhost:5000***查看输出。
 
-```
+```js
 node index.js
 ```
 

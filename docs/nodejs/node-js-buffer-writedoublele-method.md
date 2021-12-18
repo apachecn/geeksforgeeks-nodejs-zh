@@ -5,7 +5,7 @@
 **Buffer.writeDoubleLE()方法**是 Buffer 模块中类 Buffer 的内置应用编程接口，它以指定的字节序格式在指定的偏移量处将值写入缓冲区。请注意，该值必须是有效的 64 位双精度值。
 **语法:**
 
-```
+```js
 Buffer.writeDoubleLE(value, offset)
 ```
 
@@ -19,7 +19,7 @@ Buffer.writeDoubleLE(value, offset)
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // Buffer.writeDoubleLE() method
 
@@ -35,7 +35,7 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 <Buffer 77 be 9f 1a 2f dd 5e 40>
 ```
 
@@ -43,7 +43,7 @@ console.log(buf);
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // Buffer.writeDoubleLE() method
 
@@ -59,7 +59,7 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 <Buffer 28 83 db 7c 00 00 c0 57 d7 5f e9 41 00 00 00 00>
 ```
 

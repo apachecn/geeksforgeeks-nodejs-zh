@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```js
 querystring.encode( obj, sep, eq, options )
 ```
 
@@ -28,7 +28,7 @@ querystring.encode( obj, sep, eq, options )
 
 ## java 描述语言
 
-```
+```js
 const querystring = require('querystring');
 
 let obj = {
@@ -50,7 +50,7 @@ console.log("Output: ", output);
 
 ## java 描述语言
 
-```
+```js
 const querystring = require('querystring');
 
 let obj = {

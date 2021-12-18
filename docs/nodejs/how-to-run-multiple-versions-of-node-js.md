@@ -13,52 +13,52 @@
 
 安装后，你需要在你的**中增加一点配置。bashrc** 文件如下所示:
 
-```
+```js
 $ nano ~/.bashrc
 ```
 
 然后在文件末尾添加以下代码:
 
-```
+```js
 export NVM_DIR="${XDG_CONFIG_HOME/:-$HOME/.}nvm"
 [ -s :$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 ```
 
 使用以下命令重新加载 bash:
 
-```
+```js
 $ source ~/.bashrc 
 ```
 
 **模块安装:**要安装节点的*最新版本*，可以使用以下命令:
 
-```
+```js
 $ nvm install node
 ```
 
 要安装节点的*特定版本*，可以使用以下命令:
 
-```
+```js
 $ nvm install {node_version}
 $ nvm install 10.10.0
 ```
 
 **列出所有节点版本:**要列出所有安装的版本，可以使用以下命令:
 
-```
+```js
 $ nvm ls
 ```
 
 **切换节点版本:**不同节点版本之间的切换可以使用以下命令完成:
 
-```
+```js
 $ nvm use node  # to use latest version
 $ nvm use 10.0.0  # for a specific version
 ```
 
 **删除节点版本:**可以使用以下命令卸载节点版本:
 
-```
+```js
 $ nvm uninstall 10.0.0
 ```
 

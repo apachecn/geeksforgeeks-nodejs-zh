@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.report.signal
 ```
 
@@ -18,7 +18,7 @@ process.report.signal
 
 ## index.js
 
-```
+```js
 // Node.js program to demonstrate the 
 // process.report.signal Property 
 
@@ -31,7 +31,7 @@ console.log(`Report signal: ${process.report.signal}`);
 
 **运行命令:**
 
-```
+```js
 node index.js
 ```
 

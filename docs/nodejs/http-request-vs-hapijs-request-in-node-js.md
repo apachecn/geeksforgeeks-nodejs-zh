@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 const server = http.createServer().listen(port)
 
 ```
@@ -21,7 +21,7 @@ const server = http.createServer().listen(port)
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to create  
 // http server  
 
@@ -48,7 +48,7 @@ const server = http.createServer(
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```
@@ -63,7 +63,7 @@ node index.js
 
 **语法:**
 
-```
+```js
 const server = Hapi.server({port: 2020, host: 'localhost'});
 ```
 
@@ -76,7 +76,7 @@ const server = Hapi.server({port: 2020, host: 'localhost'});
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Node.js programe to create server
 // using hapi module
 
@@ -112,7 +112,7 @@ start();
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

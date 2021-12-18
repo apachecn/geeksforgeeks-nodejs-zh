@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 path.join( [...paths] )
 
 ```
@@ -23,7 +23,7 @@ path.join( [...paths] )
 
 ## node . js
 
-```
+```js
 // Node.js program to demonstrate the   
 // path.join() Method  
 
@@ -45,7 +45,7 @@ console.log(path3)
 
 **输出:**
 
-```
+```js
 users\admin\files\index.html
 users\geeks\website\index.html
 users\index.html
@@ -56,7 +56,7 @@ users\index.html
 
 ## node . js
 
-```
+```js
 // Node.js program to demonstrate the   
 // path.join() Method  
 
@@ -80,7 +80,7 @@ console.log("Directory above:", path3)
 
 **输出:**
 
-```
+```js
 files\readme.md
 .
 Dirname:  G:\tutorials\nodejs-path-join

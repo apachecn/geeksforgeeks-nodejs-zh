@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crypto.scryptSync(password, salt, keylen[, options])
 ```
 
@@ -25,7 +25,7 @@ crypto.scryptSync(password, salt, keylen[, options])
 
 ## app.js
 
-```
+```js
 // Example of  crypto.scryptSync() Method
 
 // Including crypto module in the app.js. 
@@ -45,13 +45,13 @@ const keyExample2 = crypto.scryptSync('GFG_ARTICLE', 'GFGGFG', 64, { N: 512 });
 console.log("The key in the form of buffer is :",keyExample2);
 ```
 
-```
+```js
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 The key in the form of buffer is : <Buffer 
 d9 9d b7 7e 7c 25 cb 39 db 3b 16 6b b8 47 73 43 4e 
 96 72 9c 02 b3 55 7b 7d 66 f5 54 e6 e3 a0 e6>
@@ -67,7 +67,7 @@ The key in the form of buffer is : <Buffer
 
 ## app.js
 
-```
+```js
 // Example of  crypto.scryptSync() Method
 
 // Including crypto module in the app.js. 
@@ -93,13 +93,13 @@ const keyExample2 = crypto.scryptSync('jbjbb', arr1, 16, { N: 16 });
 console.log("The key in the form of hex is :",keyExample2.toString('hex'));
 ```
 
-```
+```js
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 The key in the form of ASCII is: k&q0Y4EQ_72
 The key in the form of hex is : 
 29dcb56a3d91f7be66de7444bc7ac605

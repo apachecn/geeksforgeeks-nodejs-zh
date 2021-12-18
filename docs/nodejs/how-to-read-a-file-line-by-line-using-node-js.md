@@ -9,13 +9,13 @@
 **方法 1:使用 Readline 模块:** Readline 是 Node.js 的一个原生模块，它是专门为从任何可读流中逐行读取内容而开发的。它可以用来从命令行读取数据。
 因为模块是 Node.js 的原生模块，所以不需要任何安装，可以导入为
 
-```
+```js
 const readline = require('readline');
 ```
 
 由于 readline 模块只处理可读流，所以我们需要首先使用 fs 模块创建一个可读流。
 
-```
+```js
 const file = readline.createInterface({
     input: fs.createReadStream('source_to_file'),
     output: process.stdout,
@@ -26,7 +26,7 @@ const file = readline.createInterface({
 
 现在，监听文件对象上的行事件。每当从流中读取新行时，都会触发事件:
 
-```
+```js
 file.on('line', (line) => {
     console.log(line);
 });
@@ -35,7 +35,7 @@ file.on('line', (line) => {
 
 **示例:**
 
-```
+```js
 // Importing the Required Modules
 const fs = require('fs');
 const readline = require('readline');
@@ -64,13 +64,13 @@ file.on('line', (line) => {
 
 **方法二:使用行阅读器模块:**行阅读器模块是 Node.js 中一行一行读取文件的开源模块，不是原生模块，需要使用 npm(Node Package Manager)使用命令安装:
 
-```
+```js
 npm install line-reader --save
 ```
 
 行阅读器模块提供了一种逐行读取文件的方法。它有一个回调函数，该函数有两个参数:行内容和一个布尔值，该值存储该行是否是文件的最后一行。
 
-```
+```js
 const lineReader = require('line-reader');
 
 lineReader.eachLine('source-to-file', (line, last) => {
@@ -81,7 +81,7 @@ lineReader.eachLine('source-to-file', (line, last) => {
 
 **示例:**
 
-```
+```js
 // Importing required libraries
 const lineReader = require('line-reader');
 

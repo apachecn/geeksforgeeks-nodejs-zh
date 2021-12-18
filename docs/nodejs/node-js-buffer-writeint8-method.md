@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.writeInt8( value, offset )
 ```
 
@@ -21,7 +21,7 @@ Buffer.writeInt8( value, offset )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // Buffer.writeInt8() method 
 
@@ -42,7 +42,7 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 1
 2
 3
@@ -53,7 +53,7 @@ console.log(buf);
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // Buffer.writeInt8() method 
 
@@ -76,7 +76,7 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 Before writing into buffer:
 <Buffer 98 98gt;
 1

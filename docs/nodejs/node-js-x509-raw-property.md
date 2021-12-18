@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const x509.raw
 ```
 
@@ -18,7 +18,7 @@ const x509.raw
 
 **公共证书:**打开记事本复制粘贴以下密钥，将文件保存为 ***公共证书 pem***
 
-```
+```js
 -----BEGIN CERTIFICATE-----
 MIICfzCCAegCCQDxxeXw914Y2DANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMC
 SU4xEzARBgNVBAgMCldlc3RiZW5nYWwxEDAOBgNVBAcMB0tvbGthdGExFDASBgNV
@@ -41,7 +41,7 @@ hWF6W2H9+MAlU7yvtmCQQuZmfQ==
 
 ## js
 
-```
+```js
 // Node.js program to demonstrate the  
 // x509.raw APi
 
@@ -64,13 +64,13 @@ console.log(value)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 <Buffer 30 82 02 7f 30 82 01 e8 02 09 00 f1 c5 e5
 f0 f7 5e 18 d8 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05 
 00 30 81 83 31 0b 30 09 06 03 55 04 06 13 02 49 4e ...
@@ -81,7 +81,7 @@ f0 f7 5e 18 d8 30 0d 06 09 2a 86 48 86 f7 0d 01 01 0b 05
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // x509.raw APi
 
@@ -98,13 +98,13 @@ console.log((new X509Certificate(
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 <Buffer 30 82 02 7f 30 82 01 e8 02 09 00 f1 c5
 e5 f0 f7 5e 18 d8 30 0d 06 09 2a 86 48 86 f7 0d 01 01 
 0b 05 00 30 81 83 31 0b 30 09 06 03 55 04 06 13 02 49 4e

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 INSERT(string_1, position, number_of_characters_to_delete, string_2)
 ```
 
@@ -21,7 +21,7 @@ INSERT(string_1, position, number_of_characters_to_delete, string_2)
 
 **模块安装:**使用以下命令安装 **mysql** 模块:
 
-```
+```js
 npm install mysql
 ```
 
@@ -33,7 +33,7 @@ npm install mysql
 
 ## index.js
 
-```
+```js
 const mysql = require("mysql");
 
 let db_con  = mysql.createConnection({
@@ -65,7 +65,7 @@ db_con.connect((err) => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -77,7 +77,7 @@ node index.js
 
 ## index.js
 
-```
+```js
 const mysql = require("mysql");
 
 let db_con  = mysql.createConnection({
@@ -109,7 +109,7 @@ db_con.connect((err) => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

@@ -10,31 +10,31 @@
 
 **适用于 Linux 和 Mac 操作系统:**
 
-```
+```js
 export NODE_ENV = production
 ```
 
 **对于 Windows 操作系统**
 
-```
+```js
 $env:NODE_ENV = 'production'
 ```
 
 假设我们正在运行一个名为 *app.js* 的脚本，我们也可以使用下面的代码在应用程序初始化命令中应用环境变量。
 
-```
+```js
 NODE_ENV = production node app.js
 ```
 
 在 Windows 中，代码是不同的。我们使用下面的代码:
 
-```
+```js
 set NODE_ENV=production&&node app.js
 ```
 
 因为不同的操作系统需要不同的命令，所以有一个名为 [*【跨环境】*](https://www.npmjs.com/package/cross-env) 的包可以让命令跨平台。
 
-```
+```js
 npx cross-env NODE_ENV=production node app.js
 ```
 
@@ -44,7 +44,7 @@ npx cross-env NODE_ENV=production node app.js
 
 **语法:**
 
-```
+```js
 if(process.env.NODE_ENV == 'development') {
    // Code for Development Mode
 } else {
@@ -54,7 +54,7 @@ if(process.env.NODE_ENV == 'development') {
 
 假设我们的数据库服务器是开发模式下的本地主机，我们将使用*https://production-server.com*进行生产。可以相应地设置代码。
 
-```
+```js
 if(process.env.NODE_ENV == 'development') {
     db.connect('localhost:1234')
 } else {

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 readable.pause()
 ```
 
@@ -18,7 +18,7 @@ readable.pause()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.pause() method  
 
@@ -40,13 +40,13 @@ readable.isPaused();
 
 **输出:**
 
-```
+```js
 true
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.pause() method  
 
@@ -81,7 +81,7 @@ console.log("Program ends!!");
 
 **输出:**
 
-```
+```js
 Program ends!!
 Received 5 bytes of data.
 No further data will be displayed for 1 second.

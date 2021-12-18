@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.mtime;
 ```
 
@@ -18,7 +18,7 @@ stats.mtime;
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.mtime Property
 
@@ -47,7 +47,7 @@ fs.lstat('./filename.txt', (err, stats) => {
 
 **输出:**
 
-```
+```js
 Using stat: Sun Jun 21 2020 01:08:08 GMT+0530 (India Standard Time)
 Using lstat: Sun Jun 21 2020 01:10:16 GMT+0530 (India Standard Time)
 
@@ -55,7 +55,7 @@ Using lstat: Sun Jun 21 2020 01:10:16 GMT+0530 (India Standard Time)
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.mtime Property
 
@@ -75,7 +75,7 @@ const fs = require('fs').promises;
 
 **输出:**
 
-```
+```js
 Using stat synchronous: Sun Jun 21 2020 01:10:16 GMT+0530
                                     (India Standard Time)
 

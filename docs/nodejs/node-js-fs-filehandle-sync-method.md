@@ -5,7 +5,7 @@
 **fs.filehandle.sync()** 方法是**文件系统**模块中类 **fs.filehandle** 的内置应用编程接口，用于将该文件的内核状态与存储设备同步。
 **语法:**
 
-```
+```js
 const filehandle.sync()
 ```
 
@@ -16,7 +16,7 @@ const filehandle.sync()
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // filehandle.sync() method
 const fs = require('fs');
@@ -70,13 +70,13 @@ funct().catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 content of file before operation :- Content of file: example.txt
 data is synchronized successfully
 content of file after operation :- Content of file: example.txt
@@ -86,7 +86,7 @@ content of file after operation :- Content of file: example.txt
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // filehandle.sync() method
 const fs = require('fs');
@@ -163,7 +163,7 @@ funct().catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

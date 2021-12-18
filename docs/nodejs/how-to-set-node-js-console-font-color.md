@@ -6,13 +6,13 @@
 
 **命令安装粉笔:**
 
-```
+```js
 npm install chalk
 ```
 
 **用粉笔给控制台文字上色.颜色:**文字颜色可以通过使用粉笔.颜色方法如粉笔.黑色，粉笔.红色等来改变。
 
-```
+```js
 const chalk = require('chalk'); 
 
 // Printing the text in blue color
@@ -31,7 +31,7 @@ console.log(chalk.rgb(100, 150, 70)
 
 **用粉笔给控制台文字背景上色. bgcolor:** 文字背景颜色可以用粉笔. bgcolor 的方法如粉笔. bgBlack，粉笔. bgRed 等来改变。
 
-```
+```js
 const chalk = require('chalk');
 
 // Set background color to red
@@ -49,7 +49,7 @@ console.log(chalk.bgWhiteBright('This is in custom color'));
 
 **修改控制台文本外观:**可以使用粉笔、粗体、粉笔、斜体等方法修改文本样式。
 
-```
+```js
 const chalk = require('chalk'); 
 console.log("Text in ", chalk.bold('bold'));
 console.log("Text in ", chalk.dim('dim '));

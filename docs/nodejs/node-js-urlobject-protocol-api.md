@@ -9,7 +9,7 @@
 
 **示例#1 :** 在本例中，借助`**urlObject.protocol()**`方法，我们能够从主机名中提取所使用的协议。
 
-```
+```js
 // Importing the module 'url' 
 const url = require('url');
 
@@ -30,7 +30,7 @@ console.log(q.protocol);
 
 **例 2 :**
 
-```
+```js
 // Importing the module 'url' 
 const url = require('url');
 

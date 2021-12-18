@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.readlinkSync( path, options )
 ```
 
@@ -20,7 +20,7 @@ fs.readlinkSync( path, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.readlinkSync() method
 
@@ -40,7 +40,7 @@ console.log("Path of the symlink:", symlinkPath);
 
 **输出:**
 
-```
+```js
 Symlink created
 
 Path of the symlink: G:\tutorials\nodejs-fs-readlinkSync\example_file.txt
@@ -48,7 +48,7 @@ Path of the symlink: G:\tutorials\nodejs-fs-readlinkSync\example_file.txt
 
 **示例 2:** 本示例创建一个指向目录的符号链接。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.readlinkSync() method
 
@@ -68,7 +68,7 @@ console.log("Path of the symlink:", symlinkPath);
 
 **输出:**
 
-```
+```js
 Symlink created
 
 Path of the symlink: G:\tutorials\nodejs-fs-readlinkSync\example_directory

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 app.render(view, [locals], callback)
 ```
 
@@ -20,20 +20,20 @@ app.render(view, [locals], callback)
 
 1.  您可以访问[安装快速模块](https://www.npmjs.com/package/express)的链接。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install express
     ```
 
 2.  安装 express 模块后，您可以使用命令在命令提示符下检查您的 express 版本。
 
-    ```
+    ```js
     npm version express
     ```
 
 3.  Create a email.ejs file in views folder with the following code:
     **Filename: email.ejs**
 
-    ```
+    ```js
     <html>
     <head>
         <title>Function Demo</title>
@@ -48,13 +48,13 @@ app.render(view, [locals], callback)
 
 4.  After that, you can just create a folder and add a file for example, index.js. To run this file you need to run the following command.
 
-    ```
+    ```js
     node index.js
     ```
 
     **文件名:index.js**
 
-    ```
+    ```js
     var express = require('express');
     var app = express();
     var PORT = 3000;
@@ -77,14 +77,14 @@ app.render(view, [locals], callback)
 
 1.  使用以下命令确保您已经安装了 **express** 和 **ejs** 模块:
 
-    ```
+    ```js
     npm install express
     npm install ejs
     ```
 
 2.  Run index.js file using below command:
 
-    ```
+    ```js
     node index.js
     ```
 

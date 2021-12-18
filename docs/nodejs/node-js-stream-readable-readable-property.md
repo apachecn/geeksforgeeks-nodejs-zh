@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 readable.readable
 ```
 
@@ -16,7 +16,7 @@ readable.readable
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.readable Property
 
@@ -32,13 +32,13 @@ readable.readable;
 
 **输出:**
 
-```
+```js
 true
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.readable Property  
 
@@ -71,7 +71,7 @@ readable.readable;
 
 **输出:**
 
-```
+```js
 Program ends!!
 true
 read: hello

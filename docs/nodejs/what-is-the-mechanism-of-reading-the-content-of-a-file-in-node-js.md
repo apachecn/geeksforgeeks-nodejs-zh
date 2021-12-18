@@ -16,7 +16,7 @@ NodeJS 是最流行的 JavaScript 框架之一，它允许将 JavaScript 用作�
 
 **步骤 1:** 首先，让我们在程序中要求一个文件系统模块，用于从文件中读取数据。
 
-```
+```js
 const fs = require('fs');
 ```
 
@@ -24,25 +24,25 @@ const fs = require('fs');
 
 **第 2 步:**在这一步中，创建一个变量来包含文件的数据。
 
-```
+```js
 let dataBufferContainer= '';
 ```
 
 **第三步:**制作完变量后，使用 readFileSync 或 readFile 方法将文件缓冲区数据存储到变量中。
 
-```
+```js
 dataBufferContainer = fs.readFileSync('file.js');
 ```
 
 **步骤 4:** 使用 toString()方法将缓冲区值转换为正常字符串值。
 
-```
+```js
 let data = dataBufferContainer.toString();
 ```
 
 **步骤 5:** 使用 console.log()方法记录数据。
 
-```
+```js
 console.log(data);
 ```
 
@@ -52,7 +52,7 @@ console.log(data);
 
 ## index.js
 
-```
+```js
 // Firstly require a file-system module.
 const fs = require('fs');
 
@@ -70,13 +70,13 @@ console.log(data);
 
 ## file.js
 
-```
+```js
 GFG => Knowledge
 ```
 
 **运行** **应用程序的步骤:**
 
-```
+```js
 node index.js
 ```
 

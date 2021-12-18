@@ -19,7 +19,7 @@ Node.js 是一个广泛使用的 javascript 库，基于 Chrome 的 V8 JavaScrip
 
     要安装它，请打开命令提示符并键入以下命令:
 
-    ```
+    ```js
     # Installs globally
     npm install mocha -g
 
@@ -35,7 +35,7 @@ Node.js 是一个广泛使用的 javascript 库，基于 Chrome 的 V8 JavaScrip
     2.  在 test 文件夹中，创建一个名为 test.js 的新文件，其中包含所有与测试相关的代码。
     3.  打开 package.json 并在 scripts 块中添加以下行。
 
-        ```
+        ```js
         "scripts": {
         "test": "mocha --recursive --exit"
         }
@@ -43,7 +43,7 @@ Node.js 是一个广泛使用的 javascript 库，基于 Chrome 的 V8 JavaScrip
 
     **示例:**
 
-    ```
+    ```js
     // Requiring module
     const assert = require('assert');
 
@@ -90,7 +90,7 @@ Node.js 是一个广泛使用的 javascript 库，基于 Chrome 的 V8 JavaScrip
 
     复制上面的代码并粘贴到我们之前创建的 test.js 文件中。要运行这些测试，请在项目的根目录中打开命令提示符，并键入以下命令:
 
-    ```
+    ```js
     npm run test
     ```
 
@@ -103,13 +103,13 @@ Node.js 是一个广泛使用的 javascript 库，基于 Chrome 的 V8 JavaScrip
 
     要安装它，请在项目的根目录中打开命令提示符，并键入以下命令:
 
-    ```
+    ```js
     npm install chai
     ```
 
     **示例:**
 
-    ```
+    ```js
     const expect = require('chai').expect;
 
     describe("Testing with chai", () => {
@@ -135,7 +135,7 @@ Node.js 是一个广泛使用的 javascript 库，基于 Chrome 的 V8 JavaScrip
 
     您可以使用以下命令安装它:
 
-    ```
+    ```js
     npm install --save-dev jest
     ```
 
@@ -143,7 +143,7 @@ Node.js 是一个广泛使用的 javascript 库，基于 Chrome 的 V8 JavaScrip
 
     **示例:**
 
-    ```
+    ```js
     describe("Testing with Jest", () => {
       test("Addition", () => {
         const sum = 2 + 3;
@@ -168,13 +168,13 @@ Node.js 是一个广泛使用的 javascript 库，基于 Chrome 的 V8 JavaScrip
 
     您可以使用以下命令安装它:
 
-    ```
+    ```js
     npm install jasmine-node
     ```
 
     **示例:**
 
-    ```
+    ```js
     describe("Test", function() {
       it("Addition", function() {
         var sum = 2 + 3;
@@ -187,13 +187,13 @@ Node.js 是一个广泛使用的 javascript 库，基于 Chrome 的 V8 JavaScrip
 
     您可以使用以下命令安装它:
 
-    ```
+    ```js
     npm init ava
     ```
 
     **示例:**
 
-    ```
+    ```js
     import test from 'ava';
 
     test('Addition', t => {

@@ -12,13 +12,13 @@
 
 我们将使用一个名为 **node-cron** 的包，这是一个纯 JavaScript 的 node.js 任务调度器。我们还使用 **express** 作为服务器。使用命令安装所需的软件包
 
-```
+```js
 npm install express node-cron
 ```
 
 **语法:**
 
-```
+```js
 cron.schedule("* * * * *", function() {
     // Task to do
 });
@@ -44,7 +44,7 @@ cron.schedule("* * * * *", function() {
 
 **示例:**创建一个名为 **index.js** 的新文件，并添加以下代码:
 
-```
+```js
 // Importing required libraries
 const cron = require("node-cron");
 const express = require("express");
@@ -66,7 +66,7 @@ app.listen(3000);
 
 **示例:**
 
-```
+```js
 // Importing required packages
 const cron = require("node-cron");
 const express = require("express");
@@ -102,7 +102,7 @@ app.listen(3000);
 
 **示例:**
 
-```
+```js
 // Importing packages
 const cron = require("node-cron");
 const express = require("express");

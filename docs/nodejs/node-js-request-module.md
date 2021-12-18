@@ -13,25 +13,25 @@
 
 1.  您可以访问链接[安装请求模块](https://www.npmjs.com/package/request)。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install request
     ```
 
 2.  安装请求模块后，您可以使用命令在命令提示符下检查您的请求版本。
 
-    ```
+    ```js
     npm version request
     ```
 
 3.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-    ```
+    ```js
     node index.js
     ```
 
 **文件名:index.js**
 
-```
+```js
 const request = require('request')
 
 // Request URL
@@ -56,17 +56,17 @@ request(url, (error, response, body)=>{
     ![project structure](img/4f6009b1bb0b5c4d3f14a431fbec4ae3.png)
 2.  确保您已经使用以下命令安装了快速和请求模块:
 
-    ```
+    ```js
     npm install request
     ```
 
-    ```
+    ```js
     npm install express
     ```
 
 3.  Run index.js file using below command:
 
-    ```
+    ```js
     node index.js
     ```
 

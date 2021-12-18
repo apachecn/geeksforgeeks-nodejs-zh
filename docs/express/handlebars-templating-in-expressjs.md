@@ -6,7 +6,7 @@ Handlebars.js 是一个模板引擎，类似于 node.js 中的 ejs 模块，但�
 
 **命令安装 hbs 模块:**
 
-```
+```js
 npm i hbs
 ```
 
@@ -14,7 +14,7 @@ npm i hbs
 
 我们在 index.js 文件中需要做的第一件事就是需要 hbs 模块
 
-```
+```js
 var express = require('express')
 var hbs = require('hbs')
 var app = express()
@@ -22,19 +22,19 @@ var app = express()
 
 现在，我们需要更改默认的视图引擎。
 
-```
+```js
 app.set('view engine', 'hbs')
 ```
 
 如果视图目录不理想，可以通过以下命令更改视图路径:
 
-```
+```js
 app.set('views', <pathname>)
 ```
 
 现在让我们在视图目录中创建一个 demo.hbs 文件，包含以下内容:
 
-```
+```js
 <!DOCTYPE html>
 <html>
     <body>
@@ -45,7 +45,7 @@ app.set('views', <pathname>)
 
 现在，我们通过 express 将网页呈现给本地服务器。
 
-```
+```js
 app.get('/', (req, res)=>{
     res.render('demo')
 })
@@ -58,7 +58,7 @@ app.listen(3000)
 现在我们将看到如何将页面动态链接到服务器端数据。
 在 index.js 中，我们声明了一个演示对象，实际上，该对象可以是请求体和/或数据库查询的结果。
 
-```
+```js
 var demo = {
     name : 'Rohan',
     age : 26
@@ -71,7 +71,7 @@ app.get('/', (req, res)=>{
 
 在这里，我们将演示对象作为演示发送到我们的 hbs 页面。我们可以检索视图文件夹中的 dynamic.hbs 中的信息。
 
-```
+```js
 <!DOCTYPE html>
 <html>
     <body>
@@ -82,7 +82,7 @@ app.get('/', (req, res)=>{
 
 **输出:**
 
-```
+```js
 Rohan is 26 years old
 ```
 
@@ -90,7 +90,7 @@ Rohan is 26 years old
 
 举个例子，把下面的代码加到你的`index.js`中，运行服务器，得到响应。
 
-```
+```js
 var projects = {
     name : 'Rahul', 
     skills : ['Data Mining', 'BlockChain Dev', 'node.js']
@@ -103,7 +103,7 @@ app.get('/projects', (req, res)=>{
 
 外部视图/项目的位置。hbs 看起来像:
 
-```
+```js
 <!DOCTYPE html>
 <html>
     <body>
@@ -117,7 +117,7 @@ app.get('/projects', (req, res)=>{
 
 **输出:**
 
-```
+```js
 Rahul has the following skills : 
 Data Mining
 BlockChain Dev

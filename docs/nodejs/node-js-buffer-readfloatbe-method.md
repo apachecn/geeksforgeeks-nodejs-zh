@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.readFloatBE( offset )
 ```
 
@@ -18,7 +18,7 @@ Buffer.readFloatBE( offset )
 
 **示例 1:**
 
-```
+```js
 // Node program to demonstrate the  
 // Buffer.readFloatBE(INTEGER) method 
 // Creating a buffer of given size 
@@ -32,7 +32,7 @@ console.log(buf); 
 
 **输出:**
 
-```
+```js
 Functions of Buffer.readFloatBE(int)
 7.13161255447549e-33
 <Buffer 0a 14 1e 28 32 3c 46 50>
@@ -40,7 +40,7 @@ Functions of Buffer.readFloatBE(int)
 
 **例 2:**
 
-```
+```js
 // Node program to demonstrate the  
 // Buffer.readFloatBE(INTEGER) method 
 // Creating a buffer of given size 
@@ -54,7 +54,7 @@ console.log(buf); 
 
 **输出:**
 
-```
+```js
 Functions of Buffer.readFloatBE(int)
 internal/buffer.js:72
   throw new ERR_OUT_OF_RANGE(type || 'offset',

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 path.normalize( path )
 ```
 
@@ -18,7 +18,7 @@ path.normalize( path )
 
 **例:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // path.normalize() method
 
@@ -40,7 +40,7 @@ console.log(path4);
 
 **输出:**
 
-```
+```js
 \users\admin
 \users
 \users\comments

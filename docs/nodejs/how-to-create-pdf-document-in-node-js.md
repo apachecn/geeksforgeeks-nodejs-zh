@@ -14,32 +14,32 @@
 
 *   要在项目中安装它，请在终端或命令提示符下编写以下命令。
 
-```
+```js
 npm install pdfkit
 ```
 
 **语法:**
 
-```
+```js
 const PDFDocument = require('pdfkit');
 const doc = new PDFDocument;
 ```
 
 *   用于在 PDF 中添加新页面。
 
-```
+```js
 doc.addPage()
 ```
 
 *   用于在根目录下保存 PDF 文档。
 
-```
+```js
 doc.pipe(fs.createWriteStream('PDF Name'));
 ```
 
 **第二步:**安装设置 NodeJS 环境的模块。我们还需要配置 package.json 文件。
 
-```
+```js
 npm install express
 ```
 
@@ -47,7 +47,7 @@ npm install express
 
 ## java 描述语言
 
-```
+```js
 {
   "name": "node_func",
   "version": "1.0.0",
@@ -79,7 +79,7 @@ npm install express
 
 index.js
 
-```
+```js
 // Importing modules
 import PDFDocument from 'pdfkit'
 import fs from 'fs'

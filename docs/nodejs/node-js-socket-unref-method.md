@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const socket.unref()
 ```
 
@@ -16,7 +16,7 @@ const socket.unref()
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the
 // server.unref() property
 
@@ -55,14 +55,14 @@ client.send("Hello", 0, 7, 1234, "localhost");
 
 **输出:**
 
-```
+```js
 [ 'message' ]
 UDP String: Hello
 ```
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Node.js program to demonstrate the
 // server.unref() method
 
@@ -115,13 +115,13 @@ client.send("Hello", 0, 7, 1234, "localhost");
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 server listening 0.0.0.0:1234
 [ 'message', 'listening' ]
 UDP String: Hello

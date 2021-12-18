@@ -12,7 +12,7 @@ JPG 和巴布亚新几内亚都是广泛使用的图像格式。使用这些格�
 
 <u>要在我们的项目中安装 Jimp，我们只需将其 npm 模块安装到我们的项目中。这可以通过在我们的终端中执行下面一行来完成。</u>
 
-```
+```js
 npm install --save jimp
 ```
 
@@ -20,7 +20,7 @@ npm install --save jimp
 
 <u>为了在我们的项目中使用它，我们需要使用下面一行代码将包导入到我们的 *index.js* 文件中。</u>
 
-```
+```js
 const Jimp = require("jimp");
 ```
 
@@ -42,7 +42,7 @@ gfg.jpg 格式</u>
 
 ## <u>index.js</u>
 
-```
+```js
 // Importing the jimp module
 const Jimp= require("jimp");
 

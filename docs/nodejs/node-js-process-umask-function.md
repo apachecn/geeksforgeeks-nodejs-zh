@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 process.umask()
 ```
 
@@ -22,7 +22,7 @@ process.umask()
 
 ## js
 
-```
+```js
 // Node.js program to demonstrate the  
 // process.umask(mask) Property  
 
@@ -40,13 +40,13 @@ console.log(
 
 **命令运行:**
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Changed umask from 2 to 22
 ```
 

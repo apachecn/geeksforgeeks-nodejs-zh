@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.close( fd, callback )
 ```
 
@@ -20,7 +20,7 @@ fs.close( fd, callback )
 
 **示例 1:** 此示例显示了文件描述符的关闭。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.close() method
 
@@ -43,7 +43,7 @@ fs.close(file_descriptor, (err) => {
 
 **输出:**
 
-```
+```js
 The file descriptor is: 3
 
 > File Closed successfully
@@ -52,7 +52,7 @@ The file descriptor is: 3
 
 **示例 2:** 此示例显示了关闭文件描述符并尝试再次访问该关闭的文件描述符。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.close() method
 
@@ -97,7 +97,7 @@ try {
 
 **输出:**
 
-```
+```js
 The file descriptor is: 3
 
 > Finding the stats of the file

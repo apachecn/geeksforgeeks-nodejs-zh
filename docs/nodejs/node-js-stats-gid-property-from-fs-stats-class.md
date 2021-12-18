@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.gid;
 ```
 
@@ -16,7 +16,7 @@ stats.gid;
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.gid property
 
@@ -60,7 +60,7 @@ fs.lstat('./filename.txt', (err, stats) => {
 
 **输出:**
 
-```
+```js
 using stat: numeric identity of the group is  5687
 using lstat: numeric identity of the group is  5687
 using stat: numeric identity of the group is  5687
@@ -70,7 +70,7 @@ using lstat: numeric identity of the group is  5687
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.gid property
 
@@ -87,7 +87,7 @@ const fs = require('fs').promises;
 
 **输出:**
 
-```
+```js
 (node:15204) ExperimentalWarning: The fs.promises API 
 is experimental 
 using stat synchronous: numeric identity of the group is 5687

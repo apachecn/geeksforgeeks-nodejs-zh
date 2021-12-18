@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 searchParams.values();
 ```
 
@@ -14,7 +14,7 @@ searchParams.values();
 
 **例 1:**
 
-```
+```js
 // Create a test URLSearchParams object
 var searchParams = new URLSearchParams("keyA=valueA&keyB=valueB");
 
@@ -26,14 +26,14 @@ for(var value of searchParams.values()) {
 
 **输出:**
 
-```
+```js
 valueA
 valueB
 ```
 
 **示例 2:** 直接创建参数
 
-```
+```js
 // Create a test URLSearchParams object
 var searchParams = new URLSearchParams("name=deepak&age=18");
 
@@ -45,7 +45,7 @@ for(var value of searchParams.values()) {
 
 **输出:**
 
-```
+```js
 deepak
 18
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 util.types.isDate( value )
 ```
 
@@ -20,7 +20,7 @@ util.types.isDate( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // util.types.isDate() Method
 
@@ -40,7 +40,7 @@ console.log(util.types.isDate(v2));
 
 **输出:**
 
-```
+```js
 true
 false
 
@@ -48,7 +48,7 @@ false
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // util.types.isDate() Method
 
@@ -74,7 +74,7 @@ else
 
 **输出:**
 
-```
+```js
 The passed value is a Date.
 The passed value is not a Date
 

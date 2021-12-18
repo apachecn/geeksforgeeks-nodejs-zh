@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.writeFloatLE( value, offset )
 ```
 
@@ -19,7 +19,7 @@ Buffer.writeFloatLE( value, offset )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.writeFloatLE() method 
 
@@ -33,13 +33,13 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 <Buffer b4 a2 91 55 62 01 00 00 38 e0>
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.writeFloatLE() method 
 
@@ -53,7 +53,7 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 <Buffer ff ca 2b 53>
 ```
 

@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```js
 SELECT [column] FROM [table_name]
 ```
 
 **示例:**
 
-```
+```js
 1) SELECT * FROM customers
 selecting all columns from customers table.
 
@@ -27,7 +27,7 @@ selecting all columns from customers table.
 
 ## index.js
 
-```
+```js
 const mysql = require("mysql");
 
 let db_con  = mysql.createConnection({
@@ -64,7 +64,7 @@ db_con.connect((err) => {
 
 ## index.js
 
-```
+```js
 const mysql = require("mysql");
 
 let db_con  = mysql.createConnection({

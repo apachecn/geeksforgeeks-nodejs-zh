@@ -8,13 +8,13 @@
 
 **模块安装:**使用以下命令从您的终端使用 npm 安装 ***高亮. js*** 模块。
 
-```
+```js
 npm install highlight.js
 ```
 
 从 npm 安装后，我们可以在代码中使用该包，如下所示:
 
-```
+```js
 const hljs = require('highlight.js');
 ```
 
@@ -26,7 +26,7 @@ const hljs = require('highlight.js');
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 

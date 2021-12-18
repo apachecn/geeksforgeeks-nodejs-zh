@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.deflateSync( buffer, options )
 ```
 
@@ -21,7 +21,7 @@ zlib.deflateSync( buffer, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // zlib.deflateSync() method  
 
@@ -40,14 +40,14 @@ console.log(deflated);
 
 **输出:**
 
-```
+```js
 <Buffer 78 9c 73 4f 73 57 70 0e d6 0d c8 2f 2a 49 cc 01 00 1b 48 04 4a>
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // zlib.deflateSync() method  
 
@@ -67,7 +67,7 @@ console.log(deflated);
 
 **输出:**
 
-```
+```js
 789c734f7357700ed60dc82f2a49cc01001b48044a
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.brotliDecompress( buffer, options, callback )
 ```
 
@@ -21,7 +21,7 @@ zlib.brotliDecompress( buffer, options, callback )
 
 ****例 1:****
 
- **```
+ **```js
 // Node.js program to demonstrate the     
 // brotliDecompress() method
 
@@ -44,13 +44,13 @@ zlib.brotliCompress(input, (err, buffer) => {
 
 ****输出:****
 
-```
+```js
 Q29tcHV0ZXIgU2NpZW5jZQ== 
 ```
 
 ****例 2:****
 
- **```
+ **```js
 // Node.js program to demonstrate the     
 // brotliDecompress() method
 
@@ -73,7 +73,7 @@ zlib.brotliCompress(input, (err, buffer) => {
 
 ****输出:****
 
-```
+```js
 buffer.js:631  throw new ERR_UNKNOWN_ENCODING(encoding);  ^
 
 TypeError [ERR_UNKNOWN_ENCODING]: Unknown encoding: bas64

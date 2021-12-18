@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Constructor: new vm.Script( code, options )
 ```
 
@@ -19,7 +19,7 @@ Constructor: new vm.Script( code, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // Constructor: new vm.Script() method
 
@@ -47,13 +47,13 @@ console.log(context);
 
 **输出:**
 
-```
+```js
 { number: 4, Type: 'Int' }
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // Constructor: new vm.Script() method
 
@@ -81,7 +81,7 @@ console.log(context);
 
 **输出:**
 
-```
+```js
 { value: 1.2, Type: 'Float' }
 ```
 

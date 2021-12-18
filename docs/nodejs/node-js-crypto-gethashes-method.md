@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crypto.getHashes()
 ```
 
@@ -18,7 +18,7 @@ crypto.getHashes()
 
 **例:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.getHashes() method
 
@@ -35,7 +35,7 @@ console.log("The list of all the hash "
 
 **输出:**
 
-```
+```js
 The list of all the hash algorithms are :  [ 'RSA-MD4',
   'RSA-MD5',
   'RSA-MDC2',

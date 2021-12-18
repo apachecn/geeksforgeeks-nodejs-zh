@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const request.connection
 ```
 
@@ -18,7 +18,7 @@ const request.connection
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // request.connection method
 
@@ -60,13 +60,13 @@ server.listen(3000, '127.0.0.1', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 request socket :- null
 ```
 
@@ -74,7 +74,7 @@ request socket :- null
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the 
 // request.connection method
 
@@ -105,13 +105,13 @@ http.createServer((req, res) => { })
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Not Requested for Connection
 ```
 

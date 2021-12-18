@@ -20,13 +20,13 @@
 1.  **Node.js:**
     *   Open Command Prompt or Terminal and type:
 
-        ```
+        ```js
         node -v 
         ```
 
         输出必须显示一些版本号示例:
 
-        ```
+        ```js
         v12.14.0 
         ```
 
@@ -36,7 +36,7 @@
     *   Windows:搜索 SQL Shell，如果找到安装成功。
     *   Linux or Mac: Type the command below:
 
-        ```
+        ```js
          which psq 
         ```
 
@@ -49,32 +49,32 @@
     ![Postgresql Database shell](img/e6257bef704ca8285c6c72ce4bd06d61.png)
 *   使用以下方法创建数据库:
 
-```
+```js
 create database gfgbackend;     
 ```
 
 *   使用
 
-    ```
+    ```js
     \c gfgbackend;
     ```
 
     切换到该数据库*   使用
 
-    ```
+    ```js
     create table test(id int not null); 
     ```
 
     创建测试表*   使用
 
-    ```
+    ```js
     insert into test values(1);  
     insert into test values(2);
     ```
 
     将值插入测试表*   Now try to validate whether the data is inserted into table using:
 
-    ```
+    ```js
     select * from test;
     ```
 
@@ -85,7 +85,7 @@ create database gfgbackend;
     *   转到要创建项目的目录
     *   使用
 
-        ```
+        ```js
         npm init
         ```
 
@@ -95,26 +95,26 @@ create database gfgbackend;
     *   使用 npm 安装 express】
     *   使用 npm 安装节点后置客户端
 
-        ```
+        ```js
         npm install --save pg
         ```
 
     *   安装 postgres 模块，使用 npm 将 JSON 数据序列化和反序列化为 hstore 格式。
 
-        ```
+        ```js
          npm install --save pg-hstore    
         ```
 
     *   创建一个文件 index.js 作为后端的入口点。
     *   现在使用 npm 安装主体解析器
 
-        ```
+        ```js
         npm install --save body-parser
         ```
 
     *   现在将下面的代码添加到 index.js 文件中，该文件启动 express 服务器，创建一个池连接，并且还创建一个 REST API '/testdata '。**在下面的代码中创建池时，不要忘记添加您的密码。**
 
-        ```
+        ```js
         // Entry Point of the API Server 
 
         const express = require('express');
@@ -179,14 +179,14 @@ create database gfgbackend;
 
     *   现在，使用
 
-        ```
+        ```js
         node index.js
         ```
 
         启动后端服务器
     *   Open Browser and try to router to:
 
-        ```
+        ```js
         http://localhost:3000/testdata
         ```
 

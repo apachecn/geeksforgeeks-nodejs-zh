@@ -8,7 +8,7 @@ util 模块的 **util.types.isBigUint64Array()方法**主要是为了支持 Node
 
 **语法:**
 
-```
+```js
 util.types.isBigUint64Array( value )
 ```
 
@@ -22,7 +22,7 @@ util.types.isBigUint64Array( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // util.types.isBigUint64Array() method
 
@@ -48,7 +48,7 @@ console.log("Object is Big Unsigned 64-bit array object:",
 
 **输出:**
 
-```
+```js
 Object is Big Unsigned 64-bit array object: true
 Object is Big Unsigned 64-bit array object: false
 Object is Big Unsigned 64-bit array object: false
@@ -56,7 +56,7 @@ Object is Big Unsigned 64-bit array object: false
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // util.types.isBigUint64Array() method
 
@@ -96,7 +96,7 @@ console.log("Object is Big Unsigned 64-bit array object:",
 
 **输出:**
 
-```
+```js
 BigUint64Array [ 16n, 25n, 69n ]
 Object is Big Unsigned 64-bit array object: true
 BigInt64Array [ 16n, 25n, 69n ]

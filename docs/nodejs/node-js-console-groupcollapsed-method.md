@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 console.groupCollapsed([label]);
 ```
 
@@ -24,7 +24,7 @@ console.groupCollapsed([label]);
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // console.groupCollapsed() method
 // This code example demonstrate the
@@ -55,13 +55,13 @@ console.log();
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node app1.js
 ```
 
 **输出:**
 
-```
+```js
 GeeksforGeeks (Outside)
 
   GeeksforGeeks (1)
@@ -74,7 +74,7 @@ GeeksforGeeks (Outside)
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // console.groupCollapsed() method
 
@@ -136,7 +136,7 @@ console.log("=========================");
 
 **输出:**
 
-```
+```js
 GeeksforGeeks 
 =========================
 

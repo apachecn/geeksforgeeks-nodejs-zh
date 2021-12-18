@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.open( filename, flags, mode, callback )
 ```
 
@@ -39,7 +39,7 @@ fs.open( filename, flags, mode, callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // fs.open() Method
 
@@ -54,7 +54,7 @@ fs.open('demo.txt', 'r', function (err, f) {
 
 **输出:**
 
-```
+```js
 Saved! 
 ```
 
@@ -63,7 +63,7 @@ Saved!
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // fs.open() Method
 
@@ -85,7 +85,7 @@ fs.open('demo.txt', 'w+', function (err, f) {
 
 **输出:**
 
-```
+```js
 Open file!
 10
 File Opened!

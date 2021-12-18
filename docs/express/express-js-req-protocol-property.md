@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 req.protocol
 ```
 
@@ -18,26 +18,26 @@ req.protocol
 
 1.  您可以访问[安装快速模块](https://www.npmjs.com/package/express)的链接。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install express
     ```
 
 2.  安装快速模块后，您可以使用命令在命令提示符下检查您的快速版本。
 
-    ```
+    ```js
     npm version express
     ```
 
 3.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-    ```
+    ```js
     node index.js
     ```
 
 **示例 1:**
 **文件名:index.js**
 
-```
+```js
 var express = require('express');
 var app = express(); 
 var PORT = 3000;
@@ -59,26 +59,26 @@ app.listen(PORT, function(err){
     ![](img/3209d9b4369c180282a34be8070d7d6e.png)
 2.  使用以下命令确保您已经安装了 **express** 模块:
 
-    ```
+    ```js
     npm install express
     ```
 
 3.  Run index.js file using below command:
 
-    ```
+    ```js
     node index.js
     ```
 
     **输出:**
 
-    ```
+    ```js
     Server listening on PORT 3000
 
     ```
 
 4.  现在打开浏览器，转到 **http://localhost:3000/** ，现在你可以在控制台上看到如下输出:
 
-    ```
+    ```js
     Server listening on PORT 3000
     http
 
@@ -86,13 +86,13 @@ app.listen(PORT, function(err){
 
 **示例 2:** 考虑上面的代码，但是假设这个项目部署在如下所示的 Https 服务器上:
 
-```
+```js
 https://www.example.com
 ```
 
 现在，如果我们尝试打印 *req.protocol* 值，将会输出以下内容:
 
-```
+```js
 https
 ```
 

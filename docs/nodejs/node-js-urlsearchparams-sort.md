@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 searchParams.sort();
 ```
 
@@ -14,7 +14,7 @@ searchParams.sort();
 
 **范例 1:**
 
-```
+```js
 // Create a test URLSearchParams object 
 var searchPars = new URLSearchParams("d=4&c=2&b=3&a=1"); 
 
@@ -27,13 +27,13 @@ console.log(searchPars.toString());
 
 **输出:**
 
-```
+```js
 a=1&b=3&c=2&d=4
 ```
 
 **范例 2:**
 
-```
+```js
 // Create a test URLSearchParams object 
 var searchPars = new URLSearchParams("z=4&a=2&t=3&a=1"); 
 
@@ -46,7 +46,7 @@ console.log(searchPars.toString());
 
 **输出:**
 
-```
+```js
 a=2&a=1&t=3&z=4
 ```
 

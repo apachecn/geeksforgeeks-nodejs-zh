@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crypto.getDiffieHellman( groupName )
 ```
 
@@ -18,7 +18,7 @@ crypto.getDiffieHellman( groupName )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.getDiffieHellman() method
 
@@ -35,14 +35,14 @@ console.log("Key exchange object : ", diffiehellmangrp);
 
 **输出:**
 
-```
+```js
 Key exchange object :  DiffieHellmanGroup 
 { _handle: { verifyError: [Getter] }, verifyError: 0 }
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.getDiffieHellman() method
 
@@ -71,7 +71,7 @@ console.log(diffiehellmangrp1sc === diffiehellmangrp2sc);
 
 **输出:**
 
-```
+```js
 true
 ```
 

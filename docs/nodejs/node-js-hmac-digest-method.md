@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 hmac.digest([encoding])
 ```
 
@@ -18,7 +18,7 @@ hmac.digest([encoding])
 
 **项目设置:**新建一个 NodeJS 项目并命名为 **hmac**
 
-```
+```js
 mkdir hmac && cd hmac
 npm init -y
 npm install crypto
@@ -30,7 +30,7 @@ npm install crypto
 
 ## index.js
 
-```
+```js
 // Node.js program to demonstrate the
 // crypto hmac.digest() method
 
@@ -68,7 +68,7 @@ console.log(`HMAC hash: ${result}`)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -81,7 +81,7 @@ node index.js
 
 ## index.js
 
-```
+```js
 // Node.js program to demonstrate the    
 // crypto hmac.digest() method
 
@@ -128,13 +128,13 @@ readfile.on('readable', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js package.json
 ```
 
 **输出:**
 
-```
+```js
 HMAC hash value of package.json: 
 L5XUUEmtxgmSRyg12gQuKu2lmTJWr8hPYe7vimS5Moc=
 ```

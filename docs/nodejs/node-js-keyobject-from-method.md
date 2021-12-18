@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 keyObject.form( key ) 
 ```
 
@@ -22,7 +22,7 @@ keyObject.form( key )
 
 ## 【JavaScript】
 
-```
+```js
 // Node.js program to demonstrate the
 // keyObject.form() method
 
@@ -55,13 +55,13 @@ const { webcrypto: { subtle }, KeyObject }
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Successfully converted a cryptoKey to instance of keyObject.
 ```
 

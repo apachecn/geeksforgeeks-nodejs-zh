@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 util.types.isBooleanObject( value )
 ```
 
@@ -20,7 +20,7 @@ util.types.isBooleanObject( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.types.isBooleanObject() method 
 
@@ -39,7 +39,7 @@ console.log(util.types.isBooleanObject(new Boolean(false)));
 
 **输出:**
 
-```
+```js
 false
 false
 true
@@ -48,7 +48,7 @@ true
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.types.isBooleanObject() method 
 
@@ -76,7 +76,7 @@ console.log(util.types.isBooleanObject(c));
 
 **输出:**
 
-```
+```js
 true
 true
 false

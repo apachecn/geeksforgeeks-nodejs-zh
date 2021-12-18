@@ -11,13 +11,13 @@ Node.js 中的 **Error-First Callback** 是一个函数，它要么返回一个�
 
 创建一个名为 index.js 的文件。该文件需要一个 fs 模块。我们将在 fs 模块的方法上实现一个错误优先回调函数。可以使用以下命令在程序中使用 fs 模块:
 
-```
+```js
 const fs = require("fs");
 ```
 
 可以使用以下命令执行该文件:
 
-```
+```js
 node index.js
 ```
 
@@ -27,7 +27,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 const fs = require("fs");
 
 // This file does not exists
@@ -58,7 +58,7 @@ fs.readFile(file, ErrorFirstCallback);
 
 ## java 描述语言
 
-```
+```js
 const fs = require("fs");
 
 // This file exists

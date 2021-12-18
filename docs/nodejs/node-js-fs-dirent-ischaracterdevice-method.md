@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const dirent.isCharacterDevice()
 ```
 
@@ -21,7 +21,7 @@ const dirent.isCharacterDevice()
 
 ## java 描述语言
 
-```
+```js
 // Node program to demonstrate the
 // dirent.isCharacterDevice() method
 const fs = require('fs');
@@ -56,13 +56,13 @@ stop('./').catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Dirent { name: 'cert.cer', [Symbol(type)]: 1 }
 false
 Dirent { name: 'certificate1.cer', [Symbol(type)]: 1 }
@@ -78,7 +78,7 @@ false
 
 ## java 描述语言
 
-```
+```js
 // Node program to demonstrate the
 // dirent.isCharacterDevice() method
 const fs = require('fs');
@@ -114,13 +114,13 @@ stop('./').catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Dirent { name: 'adonis_auth_api', [Symbol(type)]: 2 }
 false
 Dirent { name: 'Android Template', [Symbol(type)]: 2 }

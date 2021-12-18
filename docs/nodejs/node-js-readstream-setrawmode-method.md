@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const readStream.setRawMode( mode )
 ```
 
@@ -18,7 +18,7 @@ const readStream.setRawMode( mode )
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // readStream.setRawMode() method
 
@@ -65,7 +65,7 @@ client.send("It is ", 0, 7, 1234, "localhost");
 
 **输出:**
 
-```
+```js
 It is not configured
 ```
 
@@ -73,7 +73,7 @@ It is not configured
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // readStream.setRawMode() method
 
@@ -97,13 +97,13 @@ else
 
 **输出:**
 
-```
+```js
 It is configured
 ```
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 

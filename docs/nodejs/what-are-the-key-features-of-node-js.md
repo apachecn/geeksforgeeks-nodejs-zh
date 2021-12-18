@@ -8,7 +8,7 @@ Node.js 还附带了一个大型的 JavaScript 模块库，使得用它构建 we
 
 网络开发是一个不断发展的过程，需要不断的创新和更新，以满足每年对改变游戏的技术的需求。大多数开发人员倾向于使用 JavaScript 进行前端编程，最近 NodeJS 为后端开发提供了支持。除了在线开发之外，NodeJS 还被用于移动应用程序开发。
 
-```
+```js
 NodeJs = Runtime Environment + Javascript library
 ```
 
@@ -16,7 +16,7 @@ NodeJs = Runtime Environment + Javascript library
 
 **步骤 1:** 在终端运行以下命令，验证是否安装了 node.js。这个命令将向我们的系统显示 NodeJs 的安装版本。
 
-```
+```js
 node --version    
 ```
 
@@ -24,13 +24,13 @@ node --version
 
 **第二步:**使用以下命令创建 package.json 来存储项目的元数据。
 
-```
+```js
 npm init -y
 ```
 
 **步骤 3:** 现在在终端中使用以下命令在根目录下安装 express。
 
-```
+```js
 npm install express --save
 ```
 
@@ -40,7 +40,7 @@ npm install express --save
 
 ## java 描述语言
 
-```
+```js
 // app.js
 const express = require('express'); // Importing express module  
 const app = express(); // Creating an express object
@@ -64,7 +64,7 @@ app.listen(port, function (err) {
 
 **步骤 5:** 运行上述代码，并使用以下命令启动服务器。
 
-```
+```js
 node app.js
 ```
 

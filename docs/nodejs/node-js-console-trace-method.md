@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 console.trace(message, args);
 ```
 
@@ -22,7 +22,7 @@ console.trace(message, args);
 **示例 1:**
 **文件名:app.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // console.trace() method
 
@@ -38,7 +38,7 @@ console.trace(
 
 使用以下命令运行 app.js 文件:
 
-```
+```js
 node app.js
 ```
 
@@ -64,7 +64,7 @@ node app.js
 **示例 2:**
 **文件名:app.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // console.trace() method
 
@@ -88,7 +88,7 @@ console.custom_trace("custom trace message");
 
 使用以下命令运行 app.js 文件:
 
-```
+```js
 node app.js
 ```
 

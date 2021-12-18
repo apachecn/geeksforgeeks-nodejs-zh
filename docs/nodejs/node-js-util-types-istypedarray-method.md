@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 util.types.isTypedArray( value )
 ```
 
@@ -20,7 +20,7 @@ util.types.isTypedArray( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.types.isTypedArray() method 
 
@@ -39,7 +39,7 @@ console.log(util.types.isTypedArray(new Float64Array()));
 
 **输出:**
 
-```
+```js
 false
 true
 true
@@ -48,7 +48,7 @@ true
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // util.types.isTypedArray() method 
 
@@ -64,7 +64,7 @@ console.log(util.types.isTypedArray(new Int8Array(8)));
 
 **输出:**
 
-```
+```js
 false
 true
 

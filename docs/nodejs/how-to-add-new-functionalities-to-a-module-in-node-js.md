@@ -14,7 +14,7 @@
 
 ****语法:****
 
-```
+```js
 <module_name>.<new_functionality_name> = expression or function
 ```
 
@@ -22,13 +22,13 @@
 
 ****步骤 1:** 在项目文件夹中创建一个“ ***app.js*** ”文件，并使用 *npm* 初始化项目。**
 
-```
+```js
 npm init
 ```
 
 ****步骤 2:** 创建一个“ ***script.js*** ”文件，并使用 *npm* 安装 ***express*** 包。**
 
-```
+```js
 npm install express
 ```
 
@@ -44,7 +44,7 @@ npm install express
 
 ## **java 描述语言**
 
-```
+```js
 // Requiring the express module installed through npm
 const express = require('express')
 
@@ -78,7 +78,7 @@ module.exports = express
 
 ## **java 描述语言**
 
-```
+```js
 // Requiring modified express module
 // from script.js
 const express = require('./script.js')
@@ -107,7 +107,7 @@ app.listen(3000,function(req,res){
 
 ****步骤 5:** 使用以下命令运行 **app.js** 文件:**
 
-```
+```js
 node app.js
 ```
 

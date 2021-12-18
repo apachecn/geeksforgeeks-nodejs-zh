@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.traceDeprecation
 ```
 
@@ -18,7 +18,7 @@ process.traceDeprecation
 
 ## index.js
 
-```
+```js
 // Node.js program to demonstrate the
 // process.traceDeprecation Property
 
@@ -31,25 +31,25 @@ console.log(process.traceDeprecation);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node --trace-deprecation index.js
 ```
 
 **输出:**
 
-```
+```js
 true
 ```
 
 再次运行相同的文件，但使用不同的命令，如下所示:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 undefined
 ```
 
@@ -59,7 +59,7 @@ undefined
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // process.traceDeprecation Property
 
@@ -83,26 +83,26 @@ console.log(process.traceDeprecation);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node --trace-deprecation index.js
 ```
 
 **输出:**
 
-```
+```js
 true
 true
 ```
 
 再次运行相同的文件，但使用不同的命令，如下所示:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 false
 true
 ```

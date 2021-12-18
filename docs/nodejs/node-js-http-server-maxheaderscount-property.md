@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const server.maxHeadersCount
 ```
 
@@ -18,7 +18,7 @@ const server.maxHeadersCount
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the  
 // server.maxHeadersCount property
 
@@ -66,13 +66,13 @@ console.log('maximum header count :-' + v)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 maximum header count :-null
 Server is running at port 3000...
 displaying the result...
@@ -81,7 +81,7 @@ server is closed
 
 现在在浏览器中运行 **http://localhost:3000/** ，你会在屏幕上看到如下输出:
 
-```
+```js
 socket buffersize : 0
 ```
 
@@ -89,7 +89,7 @@ socket buffersize : 0
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the  
 // server.maxHeadersCount method
 
@@ -137,13 +137,13 @@ if (v || v > 1) {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 maximum header count is less than 1
 Server is running at port 3000...
 displaying the result...
@@ -152,7 +152,7 @@ server is closed
 
 现在在浏览器中运行 **http://localhost:3000/** ，你会在屏幕上看到如下输出:
 
-```
+```js
 socket local address : ::1
 ```
 

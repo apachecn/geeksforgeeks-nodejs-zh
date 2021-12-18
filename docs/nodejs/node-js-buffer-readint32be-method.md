@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 buffer.readInt32BE( offset )
 ```
 
@@ -16,7 +16,7 @@ buffer.readInt32BE( offset )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // buffer.readInt32BE() method 
 const buff = Buffer.from([1, 2, 3, 4, 5]);
@@ -28,7 +28,7 @@ console.log(buff.readInt32BE(1));
 
 **输出:**
 
-```
+```js
 16909060
 33752069
 
@@ -36,7 +36,7 @@ console.log(buff.readInt32BE(1));
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // buffer.readInt32BE() method 
 const buff = Buffer.from([1, 2, 3, 4, 5]);
@@ -46,7 +46,7 @@ console.log(buff.readInt32BE(4))
 
 **输出:**
 
-```
+```js
 buffer.js:831
     throw new RangeError('Index out of range');
     ^

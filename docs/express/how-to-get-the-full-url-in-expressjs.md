@@ -12,7 +12,7 @@
 
 1.创建一个**节点**应用程序。由于整个操作将使用 express framework 进行，因此创建节点应用程序是第一个必须的步骤。
 
-```
+```js
 npm init
 ```
 
@@ -20,7 +20,7 @@ npm init
 
 安装**快递**框架
 
-```
+```js
 npm install express
 ```
 
@@ -43,7 +43,7 @@ npm install express
 
 ## app.js
 
-```
+```js
 const express = require('express'); // Import
 const app = express();              // Create
 const PORT = 3000;                  // Configure
@@ -62,7 +62,7 @@ app.listen(PORT, (error) => {       // Listen
 
 **步骤 3:** 现在使用提供的命令运行服务器，检查是否一切正常。
 
-```
+```js
 node app.js
 ```
 
@@ -96,7 +96,7 @@ node app.js
 
 ## **app.js**
 
-```
+```js
 app.get('*', function (req, res) {    
     const protocol = req.protocol;
     const host = req.hostname;
@@ -112,7 +112,7 @@ app.get('*', function (req, res) {    
 
 ****运行应用程序的步骤:**打开终端，键入以下命令。**
 
-```
+```js
 node app.js
 ```
 

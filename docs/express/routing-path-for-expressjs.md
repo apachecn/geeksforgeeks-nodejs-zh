@@ -12,7 +12,7 @@ Express Router 用于在 Express 中定义小型应用程序，以便可以更�
 
 **示例:**
 
-```
+```js
 const express = require("express");
 const app = express();
 
@@ -42,7 +42,7 @@ app.listen(3000);
 
 **示例:**
 
-```
+```js
 const express = require('express');
 const Router = express.Router();
 
@@ -76,7 +76,7 @@ module.exports = Router;
 
 现在我们使用 **index.js** 文件中的快速路由器如下:
 
-```
+```js
 const express = require('Express');
 const app = express();
 

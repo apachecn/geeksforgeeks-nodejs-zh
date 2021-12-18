@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.lastIndexOf( value, byteOffset, encoding )
 ```
 
@@ -24,7 +24,7 @@ Buffer.lastIndexOf( value, byteOffset, encoding )
 
 **例 1:**
 
-```
+```js
 // Node program to demonstrate the  
 // Buffer.lastIndexOf() Method
 
@@ -35,13 +35,13 @@ console.log(buffer.lastIndexOf('G'));
 
 **输出**
 
-```
+```js
 8
 ```
 
 **例 2:**
 
-```
+```js
 // Node program to demonstrate the  
 // Buffer.lastIndexOf() Method
 
@@ -59,7 +59,7 @@ console.log(buffer.lastIndexOf('computer portal'));
 
 **输出:**
 
-```
+```js
 10
 -1
 

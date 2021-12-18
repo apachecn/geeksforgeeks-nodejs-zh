@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 util.types.isInt8Array( value )
 ```
 
@@ -20,7 +20,7 @@ util.types.isInt8Array( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // util.types.isInt8Array() Method 
 
@@ -46,7 +46,7 @@ console.log(util.types.isInt8Array(v5));
 
 **输出:**
 
-```
+```js
 false
 false
 false
@@ -57,7 +57,7 @@ true
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // util.types.isInt8Array() Method 
 
@@ -83,7 +83,7 @@ else
 
 **输出:**
 
-```
+```js
 The passed value is a Int8Array.
 The passed value is not a Int8Array
 

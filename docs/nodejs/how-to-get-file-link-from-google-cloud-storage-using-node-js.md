@@ -11,7 +11,7 @@
 
 **模块安装:**使用以下命令安装模块:
 
-```
+```js
 npm install @google-cloud/storage
 ```
 
@@ -21,7 +21,7 @@ npm install @google-cloud/storage
 
 ## java 描述语言
 
-```
+```js
 // Imports the Google Cloud client library
 const {Storage} = require('@google-cloud/storage');
 
@@ -60,7 +60,7 @@ fileRef.getSignedUrl(config, function(err, url) {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

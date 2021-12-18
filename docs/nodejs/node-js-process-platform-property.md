@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.platform
 ```
 
@@ -18,7 +18,7 @@ process.platform
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // process.platform Property
 
@@ -31,7 +31,7 @@ console.log(process.platform);
 
 **输出:**
 
-```
+```js
 win32
 ```
 
@@ -39,7 +39,7 @@ win32
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // process.platform Property
 
@@ -77,7 +77,7 @@ switch(platform) {
 
 **输出:**
 
-```
+```js
 windows platform
 ```
 

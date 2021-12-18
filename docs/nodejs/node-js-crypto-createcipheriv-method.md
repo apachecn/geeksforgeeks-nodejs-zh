@@ -5,7 +5,7 @@
 **crypto.createCipheriv()方法**是加密模块的内置应用编程接口，用于使用所述算法、密钥和初始化向量(iv)创建密码对象。
 **语法:**
 
-```
+```js
 crypto.createCipheriv( algorithm, key, iv, options )
 ```
 
@@ -22,7 +22,7 @@ crypto.createCipheriv( algorithm, key, iv, options )
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the    
 // crypto.createCipheriv() method
 
@@ -63,7 +63,7 @@ console.log(output);
 
 **输出:**
 
-```
+```js
 { iv: 'fb1f4b0a7daaada6cae678df32fad0f0',
   encryptedData: '41aad2618892aa3d1850d336ad15b50e' }
 ```
@@ -72,7 +72,7 @@ console.log(output);
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the    
 // crypto.createCipheriv() method
 
@@ -118,7 +118,7 @@ console.log("done");
 
 **输出:**
 
-```
+```js
 done
 MfHwhG/WPv+TIbG/qM78qA==
 ```

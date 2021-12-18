@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Event: 'uncaughtException'
 ```
 
@@ -18,7 +18,7 @@ Event: 'uncaughtException'
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Process 'uncaughtException' Event
 
@@ -45,13 +45,13 @@ console.log('This Block of code will not run');
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 ReferenceError: nonexistentFunc is not defined
 
 Greetings from GeeksforGeeks
@@ -61,7 +61,7 @@ Greetings from GeeksforGeeks
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Process 'uncaughtException' Event
 
@@ -80,13 +80,13 @@ throw new Error('Ran out of coffee')
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Error: Ran out of coffee
 ```
 

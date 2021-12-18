@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dnsPromises.resolveMx( hostname )
 ```
 
@@ -20,7 +20,7 @@ dnsPromises.resolveMx( hostname )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.resolveMx() method
 
@@ -37,7 +37,7 @@ dnsPromises.resolveMx('google.com').then((res) => {
 
 **输出:**
 
-```
+```js
 for google :
 [ { exchange: 'alt4.aspmx.l.google.com', priority: 50 },
   { exchange: 'alt3.aspmx.l.google.com', priority: 40 },
@@ -49,7 +49,7 @@ for google :
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.resolveMx() method
 
@@ -73,7 +73,7 @@ const dnsPromises = dns.promises;
 
 **输出:**
 
-```
+```js
 from async:
 [ { exchange: 'aspmx.l.google.com', priority: 1 },
   { exchange: 'alt3.aspmx.l.google.com', priority: 10 },

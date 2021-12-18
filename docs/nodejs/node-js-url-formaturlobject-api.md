@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const url.format(urlObject)
 
 ```
@@ -88,7 +88,7 @@ urlObject 可以有以下字段或键:
 
 **例 1**
 
-```
+```js
 /*
   node program to demonstrate the URL.format API.
 */  
@@ -117,13 +117,13 @@ console.log(sampleUrl.toString());
 
 ```
 
-```
+```js
 Output: https://example.com:1800/sample/path?page=1&format=json#first
 ```
 
 **例 2**
 
-```
+```js
 /*
   node program to demonstrate the URL.format API.
 */  
@@ -149,7 +149,7 @@ var sampleUrl=url.format(urlObject);
 console.log(sampleUrl.toString());
 ```
 
-```
+```js
 Output: prct:abc@example.com/sample/path?something#first
 ```
 

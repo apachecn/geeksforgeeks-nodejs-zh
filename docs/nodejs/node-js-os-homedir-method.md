@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 os.homedir()
 ```
 
@@ -21,7 +21,7 @@ os.homedir()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // os.homedir() method
 
@@ -34,14 +34,14 @@ console.log(os.homedir());
 
 **输出:**
 
-```
+```js
 C:\Users\gekcho
 
 ```
 
 **示例 2:** 替代方式查找主目录
 
-```
+```js
 // Node.js program to demonstrate the   
 // os.homedir() method
 
@@ -60,7 +60,7 @@ function getUserHome() {
 
 **输出:**
 
-```
+```js
 C:\Users\gekcho
 
 ```

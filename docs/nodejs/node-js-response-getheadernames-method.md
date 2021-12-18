@@ -10,14 +10,14 @@
 
 **语法:**
 
-```
+```js
 const http = require('http');
 
 ```
 
 **语法:**
 
-```
+```js
 response.getHeaderNames()
 
 ```
@@ -30,7 +30,7 @@ response.getHeaderNames()
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // response.getHeaderNames() Method
 
@@ -74,13 +74,13 @@ httpServer.listen(PORT, () => {
 
 **输出:**在浏览器中
 
-```
+```js
 200, ok
 ```
 
 **示例 2:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // response.getHeaderNames() Method
 
@@ -128,7 +128,7 @@ httpServer.listen(PORT, () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```

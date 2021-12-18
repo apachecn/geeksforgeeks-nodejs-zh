@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const buf.buffer
 ```
 
@@ -16,7 +16,7 @@ const buf.buffer
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Buffer.buffer property
 

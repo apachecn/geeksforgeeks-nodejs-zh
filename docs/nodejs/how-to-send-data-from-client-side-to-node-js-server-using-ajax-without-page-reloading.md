@@ -8,13 +8,13 @@
 
 **步骤 1:** 初始化节点模块，使用以下命令创建 package.json 文件。
 
-```
+```js
 npm init
 ```
 
 **步骤 2:** 使用以下命令将 express 模块本地安装到您的系统中。
 
-```
+```js
 npm i express 
 ```
 
@@ -30,7 +30,7 @@ npm i express
 
 ## index.html
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
 
@@ -71,7 +71,7 @@ npm i express
 
 ## script.js
 
-```
+```js
 $(document).ready(function () {
    $("#submit").click(function () {
       $.post("/request",
@@ -88,7 +88,7 @@ $(document).ready(function () {
 
 ## app.js
 
-```
+```js
 const express = require("express")
 const path = require("path");
 
@@ -116,7 +116,7 @@ app.listen(port, () => {
 
 **步骤 5:** 使用以下命令运行 *app.js* 文件:
 
-```
+```js
 node app.js
 ```
 

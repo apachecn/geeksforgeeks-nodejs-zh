@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.getuid()
 ```
 
@@ -20,7 +20,7 @@ process.getuid()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // process.getuid() method  
 
@@ -34,14 +34,14 @@ console.log(process.getuid());
 
 **输出:**
 
-```
+```js
 6693036
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // process.getuid() method  
 
@@ -60,7 +60,7 @@ if (process.getuid) {
 
 **输出:**
 
-```
+```js
 The numerical user identity of the Node.js process: 6693036
 
 ```

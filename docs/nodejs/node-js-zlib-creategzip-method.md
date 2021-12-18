@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.createGzip( options )
 ```
 
@@ -18,7 +18,7 @@ zlib.createGzip( options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // createGzip() method
 
@@ -42,14 +42,14 @@ console.log("Gzip created!");
 
 **输出:**
 
-```
+```js
 Gzip created!
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // createGzip() method
 
@@ -73,7 +73,7 @@ console.log("Gzip created!");
 
 **输出:**
 
-```
+```js
 Error [ERR_STREAM_CANNOT_PIPE]: Cannot pipe, not readable
     at WriteStream.Writable.pipe (_stream_writable.js:243:24)
     at /home/runner/SomberMonumentalCad/index.js:19:15

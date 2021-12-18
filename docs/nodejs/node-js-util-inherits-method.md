@@ -8,7 +8,7 @@ util.inherits()(在 v0.3.0 中添加)方法是 util 模块的内置应用程序�
 
 **语法:**
 
-```
+```js
 const util = require('util');
 util.inherits(constructor, superConstructor)
 
@@ -24,7 +24,7 @@ util.inherits(constructor, superConstructor)
 
     **示例 1:** 文件名:index.js
 
-    ```
+    ```js
     // Node.js program to demonstrate the 
     // util.inherits() method 
 
@@ -81,7 +81,7 @@ util.inherits(constructor, superConstructor)
 
     使用以下命令运行 **index.js** 文件:
 
-    ```
+    ```js
     node index.js
     ```
 
@@ -101,7 +101,7 @@ util.inherits(constructor, superConstructor)
 
     **示例 2:** **文件名:index.js**
 
-    ```
+    ```js
     // Node.js program to demonstrate the 
     // util.inherits() method in ES6
 
@@ -136,7 +136,7 @@ util.inherits(constructor, superConstructor)
 
     使用以下命令运行 **index.js** 文件:
 
-    ```
+    ```js
     node index.js
     ```
 

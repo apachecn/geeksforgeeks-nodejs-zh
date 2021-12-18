@@ -6,7 +6,7 @@ Express.js 是一个 Node.js web 灵活框架，为移动和 web 应用程序提
 
 **语法:**
 
-```
+```js
 express.Router([options]);
 ```
 
@@ -20,19 +20,19 @@ express.Router([options]);
 
 **第一步:**可以访问[安装快递模块](https://www.npmjs.com/package/express)的链接。您可以使用此命令安装此软件包。
 
-```
+```js
 npm install express
 ```
 
 **第二步:**安装完快递模块后，可以使用命令在命令提示符下查看自己的快递版本。
 
-```
+```js
 npm version express
 ```
 
 **第三步:**之后，您可以创建一个文件夹并添加一个文件，例如 index.js。要运行这个文件，您需要运行以下命令。
 
-```
+```js
 node index.js
 ```
 
@@ -46,7 +46,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 // Requiring module
 const express = require('express');
 const app = express();
@@ -90,7 +90,7 @@ app.listen(port, function(req, res) {
 
 ## java 描述语言
 
-```
+```js
 // Requiring module
 const app = require('express')
 
@@ -116,7 +116,7 @@ module.exports = router;
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html>
 
@@ -132,7 +132,7 @@ module.exports = router;
 
 **运行应用程序的步骤:**使用以下命令运行**索引. js** 文件:
 
-```
+```js
 node index.js
 ```
 

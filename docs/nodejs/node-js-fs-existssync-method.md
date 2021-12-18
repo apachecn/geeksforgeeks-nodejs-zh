@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.existsSync( path )
 ```
 
@@ -20,7 +20,7 @@ fs.existsSync( path )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.existsSync() method
 
@@ -50,7 +50,7 @@ function getCurrentFilenames() {
 
 **输出:**
 
-```
+```js
 Current filenames:
 hello.txt
 index.js
@@ -62,7 +62,7 @@ world.txt exists: false
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.existsSync() method
 
@@ -105,7 +105,7 @@ function getCurrentFilenames() {
 
 **输出:**
 
-```
+```js
 Current filenames:
 hello.txt
 index.js

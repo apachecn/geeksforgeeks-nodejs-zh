@@ -20,7 +20,7 @@
 
 **步骤 1:** 运行以下命令初始化 npm。
 
-```
+```js
 npm init -y
 ```
 
@@ -30,7 +30,7 @@ npm init -y
 
 **第二步:**安装一些包。
 
-```
+```js
 npm install telnet-stream
 ```
 
@@ -42,7 +42,7 @@ npm install telnet-stream
 
 ## java 描述语言
 
-```
+```js
 // Some global variable for further use
 var TelnetSocket, net, socket, tSocket;
 
@@ -85,7 +85,7 @@ process.stdin.on("data", function (buffer) {
 
 **第四步:**运行 index.js 文件。
 
-```
+```js
 node index.js
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Event: 'readable'
 ```
 
@@ -14,7 +14,7 @@ Event: 'readable'
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable event
 
@@ -42,7 +42,7 @@ console.log("Done...");
 
 **输出:**
 
-```
+```js
 Done...
 read: GeeksforGeeks
 
@@ -50,7 +50,7 @@ read: GeeksforGeeks
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable event
 
@@ -74,7 +74,7 @@ console.log("Done.");
 
 **输出:**
 
-```
+```js
 Done.
 readable: GeeksforGeeks
 readable: null

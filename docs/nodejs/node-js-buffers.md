@@ -10,7 +10,7 @@
 
     **语法:**
 
-    ```
+    ```js
     var ubuf = new Buffer(5);
     ```
 
@@ -20,7 +20,7 @@
 
     **语法:**
 
-    ```
+    ```js
     var abuf = new Buffer([16, 32, 48, 64]);
     ```
 
@@ -30,7 +30,7 @@
 
     **语法:**
 
-    ```
+    ```js
     var sbuf = new Buffer("GeeksforGeeks", "ascii");
     ```
 
@@ -40,7 +40,7 @@
 
 **语法:**
 
-```
+```js
 buf.write( string, offset, length, encoding )
 ```
 
@@ -54,7 +54,7 @@ buf . write()方法接受以下参数:
 
 **示例:**创建一个包含以下代码的 biffer.js 文件。
 
-```
+```js
 // Write JavaScript code here
 cbuf = new Buffer(256);
 bufferlen = cbuf.write("Learn Programming with GeeksforGeeks!!!");
@@ -67,7 +67,7 @@ console.log("No. of Octets in which string is written : "+  bufferlen);
 **从缓冲区读取:**使用**方法**从节点缓冲区读取数据。
 **语法:**
 
-```
+```js
 buf.toString( encoding, start, end )
 ```
 
@@ -79,7 +79,7 @@ buf.toString()方法接受以下参数:
 
 **示例 1:** 创建一个包含以下代码的 buffer.js 文件。
 
-```
+```js
 // Write JavaScript code here
 rbuf = new Buffer(26); 
 var j; 
@@ -96,7 +96,7 @@ console.log( rbuf.toString('ascii'));  
 
 **例 2:** 从 Node.js 缓冲区读取数据，指定读取的起点和终点。创建一个包含以下代码的 buffer.js 文件。
 
-```
+```js
 // Write JavaScript code here
 rbuf = new Buffer(26);  
 var j;

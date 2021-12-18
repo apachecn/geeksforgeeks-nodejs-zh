@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.hasUncaughtExceptionCaptureCallback()
 ```
 
@@ -19,7 +19,7 @@ process.hasUncaughtExceptionCaptureCallback()
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the   
 // process.hasUncaughtExceptionCaptureCallback() Method
 
@@ -40,7 +40,7 @@ if(process.hasUncaughtExceptionCaptureCallback()) {
 
 **输出:**
 
-```
+```js
 false
 No callback has been set using process.setUncaughtExceptionCaptureCallback() method
 ```
@@ -49,7 +49,7 @@ No callback has been set using process.setUncaughtExceptionCaptureCallback() met
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the   
 // process.hasUncaughtExceptionCaptureCallback() Method
 
@@ -77,7 +77,7 @@ if(process.hasUncaughtExceptionCaptureCallback()){
 
 **输出:**
 
-```
+```js
 true
 A callback has been set using process.setUncaughtExceptionCaptureCallback() method
 ```

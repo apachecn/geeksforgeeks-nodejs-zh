@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.mtimeMs;
 ```
 
@@ -17,7 +17,7 @@ stats.mtimeMs;
 以下示例说明了 stats.mtimeMs 属性在 Node.js:
 **中的使用示例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.mtimeMs Property
 
@@ -47,7 +47,7 @@ fs.lstat('./filename.txt', (err, stats) => {
 
 **输出:**
 
-```
+```js
 Using stat: 1592665056784.809
 Using lstat: 1592665183682.0176
 
@@ -55,7 +55,7 @@ Using lstat: 1592665183682.0176
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.mtimeMs Property
 
@@ -75,7 +75,7 @@ const fs = require('fs').promises;
 
 **输出:**
 
-```
+```js
 Using stat synchronous: 1592665183682.0176
 
 ```

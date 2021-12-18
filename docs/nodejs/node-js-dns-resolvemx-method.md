@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dns.resolveMx( hostname, callback )
 ```
 
@@ -23,7 +23,7 @@ dns.resolveMx( hostname, callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dns.resolveMx() method
 
@@ -39,7 +39,7 @@ dns.resolveMx('geeksforgeeks.org', (err, 
 
 **输出:**
 
-```
+```js
 mx records: [
     {"exchange":"aspmx.l.google.com","priority":1},
     {"exchange":"alt3.aspmx.l.google.com","priority":10},
@@ -52,7 +52,7 @@ mx records: [
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dns.resolveMx() method
 
@@ -68,7 +68,7 @@ dns.resolveMx('google.com', (err, 
 
 **输出:**
 
-```
+```js
 mx records: [
     {"exchange":"alt3.aspmx.l.google.com","priority":40},
     {"exchange":"aspmx.l.google.com","priority":10},

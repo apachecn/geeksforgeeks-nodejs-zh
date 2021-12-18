@@ -16,31 +16,31 @@ node.js 中的 MD5 模块使用消息摘要算法，它是一个广泛使用的�
 
 1.  您可以访问链接[安装 MD5 模块](https://www.npmjs.com/package/md5)。您可以使用以下命令安装此软件包。
 
-    ```
+    ```js
     npm install md5
     ```
 
 2.  安装 multer 后，您可以使用命令在命令提示符下检查您的 md5 版本。
 
-    ```
+    ```js
     npm version md5
     ```
 
 3.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-    ```
+    ```js
     node index.js
     ```
 
 4.  **要求模块:**您需要使用这些行在您的文件中包含 md5 模块。
 
-    ```
+    ```js
     var md5 = require('md5');
     ```
 
 **文件名:index.js**
 
-```
+```js
 const md5 = require('md5')
 
 var password = 'geeks123'
@@ -55,13 +55,13 @@ console.log('Hashed password : ', md5(password))
     ![project structure](img/9a4fc5625ada6ed916e759f9e37628ba.png)
 2.  确保您已经使用以下命令安装了 md5 模块:
 
-    ```
+    ```js
     npm install md5
     ```
 
 3.  Run index.js file using below command:
 
-    ```
+    ```js
     node index.js
     ```
 

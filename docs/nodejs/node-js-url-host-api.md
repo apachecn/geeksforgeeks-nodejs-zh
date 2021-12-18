@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const url.host
 ```
 
@@ -16,7 +16,7 @@ const url.host
 
 ## java 描述语言
 
-```
+```js
 // node program to demonstrate the 
 // url.host API as Setter 
 
@@ -42,7 +42,7 @@ console.log(myURL.href);
 
 **输出**:
 
-```
+```js
 Before Change
 https://example.com:80/foo#ram
 
@@ -54,7 +54,7 @@ https://example.com:82/foo#ram
 
 ## java 描述语言
 
-```
+```js
 // node program to demonstrate the 
 // url.host API as Getter 
 
@@ -74,7 +74,7 @@ console.log(host);
 
 **输出:**
 
-```
+```js
 example.org:82
 ```
 

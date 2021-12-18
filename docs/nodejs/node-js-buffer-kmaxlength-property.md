@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const Buffer.kMaxLength
 ```
 
@@ -18,7 +18,7 @@ const Buffer.kMaxLength
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // Buffer.kMaxLength property
 
@@ -43,7 +43,7 @@ console.log("kMaxLength is: " + value);
 
 **输出:**
 
-```
+```js
 kMaxLength is: 23
 ```
 
@@ -53,7 +53,7 @@ kMaxLength is: 23
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Buffer.kMaxLength property
 
@@ -77,13 +77,13 @@ console.log("kMaxLength is: " + value);
 
 **输出:**
 
-```
+```js
 kMaxLength is: undefined
 ```
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 

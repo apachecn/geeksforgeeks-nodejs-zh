@@ -12,13 +12,13 @@
 
 *   **步骤 1:** 初始化节点项目
 
-    ```
+    ```js
     npm init
     ```
 
 *   **步骤 2:** 安装所需模块
 
-    ```
+    ```js
     npm install express
     ```
 
@@ -26,7 +26,7 @@
 
 ## index.js
 
-```
+```js
 const express = require("express");
 // const database = require('./sqlConnection');
 
@@ -68,7 +68,7 @@ app.get("/", middleware1, middleware2, middleware3);
 
 **输出:**运行以下命令启动服务器。之后转到浏览器上的***http://localhost:5000***查看控制台中的输出
 
-```
+```js
 node index.js
 ```
 

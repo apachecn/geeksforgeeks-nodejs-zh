@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 response.setHeader(name, value)
 ```
 
@@ -23,7 +23,7 @@ response.setHeader(name, value)
 
 **第 1 步**:打开记事本复制粘贴以下密钥，将文件另存为*私钥. pem.*
 
-```
+```js
 -----BEGIN RSA PRIVATE KEY-----
 MIICXQIBAAKBgQC38R9wXcUbhOd44FavgmE5R3K4JeYOHLnI7dUq1B8/Gv7l3SOg
 JKef/m9gM1KvUx951mapXGtcWgwB08J3vUE2YOZ4tWJArrVZES0BI/RmFAyhQFP5
@@ -49,7 +49,7 @@ nUG9lYvH7DztWDTioXMrruPF7bdXfZOVJD8t0I4OUzvC
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse.setHeader() method
 // Importing the http2 module
@@ -129,13 +129,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 { 'content-type': 'hello world; charset=utf-8' }
 status : 200
 Received: hello
@@ -148,7 +148,7 @@ server destroyed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerResponse.setHeader() method
 // Importing http2 module
@@ -226,13 +226,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 { foo: 'bar', 'set-cookie': [ 'foo=bar', 'bar=baz' ] }
 Received: The sum weight of all Http2Stream : 0
 client destroyed

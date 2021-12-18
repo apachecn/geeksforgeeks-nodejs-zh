@@ -15,7 +15,7 @@
 
     到目前为止，我们已经成功地在系统中安装了 Node 和 Mysql。将节点应用程序连接到 Mysql 需要安装模块/包:
 
-    ```
+    ```js
     [Mysql](https://www.npmjs.com/package/mysql): NodeJs driver for mysql
     ```
 
@@ -29,7 +29,7 @@
 
         要生成 package.json，请在项目文件夹的终端中运行以下命令:
 
-        ```
+        ```js
         npm init -y
         ```
 
@@ -38,7 +38,7 @@
     *   ******STEP-3
         使用以下命令在我们的项目中安装 Mysql 模块:******
 
-     ******```
+     ******```js
     npm install mysql
     ```
 
@@ -51,7 +51,7 @@
 
     **第 2 行:**通过使用这一行代码，我们正在导入 mysql 模块。
 
-    ```
+    ```js
     const mysql = require(‘mysql’)
     ```
 
@@ -68,7 +68,7 @@
     **第 16 行-第 23 行:**现在在本节中，我们将建立应用程序与 Mysql 的连接。
     我们在这里对已经创建的连接变量调用 connect 函数。
 
-    ```
+    ```js
     connection.connect(function (err) {
        if(err){
            console.log("error occured while connecting");
@@ -81,7 +81,7 @@
 
     使用以下命令运行文件服务器. js:
 
-    ```
+    ```js
     node server.js
     ```
 

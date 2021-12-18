@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.debugPort
 ```
 
@@ -16,7 +16,7 @@ process.debugPort
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // process.debugPort property
 
@@ -29,14 +29,14 @@ console.log("debug port is " + process.debugPort);
 
 **输出:**
 
-```
+```js
 debug port is 9229
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // process.debugPort property
 
@@ -57,7 +57,7 @@ if(debug_port != undefined){
 
 **输出:**
 
-```
+```js
 debug port is defined
 debug port is 9229
 

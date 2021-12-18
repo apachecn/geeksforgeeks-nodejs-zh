@@ -4,7 +4,7 @@
 
 我们通常键入以下命令来启动 NodeJs 服务器:
 
-```
+```js
 node server.js
 ```
 
@@ -12,7 +12,7 @@ node server.js
 
 在这种情况下，如果我们对项目进行任何更改，那么我们将不得不通过使用 CTRL+C 杀死它，然后再次键入相同的命令来重新启动服务器。
 
-```
+```js
 node server.js
 ```
 
@@ -22,7 +22,7 @@ node server.js
 
 **安装 nodemon:** nodemon 应该在我们的系统中全局安装:
 
-```
+```js
 Windows system: npm i nodemon -g
 Linux system: sudo npm i nodemon -g 
 
@@ -32,7 +32,7 @@ Linux system: sudo npm i nodemon -g
 
 **现在，让我们通过在终端或命令提示符下键入以下命令来检查 nodemon 是否已正确安装到系统中:**
 
-```
+```js
 nodemon -v
 ```
 
@@ -42,7 +42,7 @@ nodemon -v
 
 **用 nodemon 启动节点服务器:**
 
-```
+```js
 nodemon [Your node application]
 ```
 

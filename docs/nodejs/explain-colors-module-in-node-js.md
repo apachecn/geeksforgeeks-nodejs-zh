@@ -8,7 +8,7 @@
 
 ****步骤 1:安装和初始化:**打开终端并创建一个节点应用程序，因为最后我们将在 NodeJS 应用程序内部工作**
 
-```
+```js
 npm init 
 ```
 
@@ -16,19 +16,19 @@ npm init
 
 **现在安装颜色模块**
 
-```
+```js
 npm install colors
 ```
 
 **创建一个 javascript 文件(让我们将其命名为 app.js)来编写其中的整个代码。**
 
-```
+```js
 touch app.js
 ```
 
 ****第二步:导入应用中的模块:**导入带有 require 关键字的模块，这样就可以使用*颜色*模块了。**
 
-```
+```js
 const colors = require('colors');
 ```
 
@@ -38,7 +38,7 @@ const colors = require('colors');
 
 ## **java 描述语言**
 
-```
+```js
 const colors = require('colors');
 
 console.log('Hello, GeeksforGeeks Learner'.red); 
@@ -54,7 +54,7 @@ console.log('Hello, GeeksforGeeks Learner'.bgYellow.blue);
 
 ## **java 描述语言**
 
-```
+```js
 const colors = require('colors');
 
 console.log('Hello, GeeksforGeeks Learner'.underline); 
@@ -72,7 +72,7 @@ console.log('Hello, GeeksforGeeks Learner'.inverse);
 
 ## **java 描述语言**
 
-```
+```js
 const colors = require('colors');
 colors.setTheme({
     info: 'green',
@@ -98,7 +98,7 @@ console.log("This is a warning".warn);
 
 ## **java 描述语言**
 
-```
+```js
 const colors = require('colors');
 
 colors.disable();
@@ -115,13 +115,13 @@ console.log('Colors module has been enabled'.rainbow);
 *   **您可能已经注意到，之前我们使用了扩展字符串原型的 colors 模块，但是该模块也提供了另一种使用方式。**
 *   **将模块导入为**颜色/安全**，然后使用类似这样的方式传递字符串，**
 
-```
+```js
 colors.someProperties("Any String")
 ```
 
 ## **java 描述语言**
 
-```
+```js
 var colors = require('colors/safe');
 
 console.log(colors.green('Hello, GeeksforGeeks Learner'));

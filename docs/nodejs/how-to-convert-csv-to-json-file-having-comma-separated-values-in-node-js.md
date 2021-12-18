@@ -26,7 +26,7 @@
 
 ## java 描述语言
 
-```
+```js
 // Reading the file using default
 // fs npm package
 const fs = require("fs");

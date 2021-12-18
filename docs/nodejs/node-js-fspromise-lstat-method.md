@@ -5,7 +5,7 @@
 **fs.promise.lstat()** 方法是在 Node.js 的文件系统模块中定义的，文件系统模块基本上就是和用户电脑的硬盘进行交互。lstat()方法使用 stats 对象上定义的方法(lstat 提供的数据)给出文件和文件夹的特定信息。fs.promise.lstat()方法返回已解决或已拒绝的承诺，因此避免了 fs.readdir()方法中可能出现的回调嵌套或回调地狱问题。
 **语法**
 
-```
+```js
 fs.promise.lstat(path, options)
 ```
 
@@ -28,7 +28,7 @@ fs.promise.lstat(path, options)
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the   
 // Buffer.from() Method 
 
@@ -77,7 +77,7 @@ fs.readdir(process.cwd(), (err, filenames) => {
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the   
 // Buffer.from() Method 
 

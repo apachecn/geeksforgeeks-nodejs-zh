@@ -23,7 +23,7 @@
 
 **步骤 4:** 在 index.js 文件中写入代码后，使用以下命令运行该文件:
 
-```
+```js
 node index.js
 ```
 
@@ -33,7 +33,7 @@ node index.js
 
 **步骤 5:** 使用以下命令安装用于该应用程序的以下模块:
 
-```
+```js
 npm install yargs
 npm install lodash
 ```
@@ -47,7 +47,7 @@ npm install lodash
 
 ## java 描述语言
 
-```
+```js
 console.log("todo.js is running !!");
 
 const fs = require('fs');

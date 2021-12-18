@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 node file-name.js argument1 argument2 argumentN
 ```
 
@@ -24,7 +24,7 @@ node file-name.js argument1 argument2 argumentN
 
 ## app.js
 
-```
+```js
 const args = process.argv;
 
 console.log(args);
@@ -52,7 +52,7 @@ args.forEach((e, idx) => {
 
 使用以下命令运行 **app.js** 文件:
 
-```
+```js
 node app.js geeks for geeks
 ```
 

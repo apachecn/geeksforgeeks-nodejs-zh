@@ -10,7 +10,7 @@
 
 ## HTML
 
-```
+```js
 <!DOCTYPE html>
 <html>
 

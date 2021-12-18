@@ -8,14 +8,14 @@
 
 为了得到响应和正确的结果，我们需要导入‘http’模块。
 
-```
+```js
 const http = require('http');
 
 ```
 
 **语法:**
 
-```
+```js
 response.getHeaders()
 
 ```
@@ -28,7 +28,7 @@ response.getHeaders()
 
 **示例:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // response.getHeaders() Method
 
@@ -80,7 +80,7 @@ httpServer.listen(PORT, () => {
 
 **输出:**(在浏览器中)
 
-```
+```js
 Hello GeeksforGeeks...
 ```
 

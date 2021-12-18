@@ -71,7 +71,7 @@ Node.js 是一个开源的 JavaScript 服务器环境，能够连接到 SQL 和 
 
     打开命令提示符或终端，输入以下命令，安装**猫鼬**模块
 
-    ```
+    ```js
     npm install mongoose
     ```
 
@@ -81,7 +81,7 @@ Node.js 是一个开源的 JavaScript 服务器环境，能够连接到 SQL 和 
 
     下面的 Node.js 脚本用于连接到 MongoDB 的本地实例。
 
-    ```
+    ```js
     var client = require('mongodb').MongoClient;
     var url = 'mongodb://localhost:27017/admin';
     client.connect(url,{ useNewUrlParser: true }, function(err,db)
@@ -102,7 +102,7 @@ Node.js 是一个开源的 JavaScript 服务器环境，能够连接到 SQL 和 
     **运行 Node.js 文件:**
     打开命令提示符，导航到包含 js 文件的文件夹，输入以下命令。
 
-    ```
+    ```js
     node *filename*.js
     ```
 
@@ -114,7 +114,7 @@ Node.js 是一个开源的 JavaScript 服务器环境，能够连接到 SQL 和 
 
     下面的代码片段用于查询 MongoDB 数据库中的数据。
 
-    ```
+    ```js
     var client = require('mongodb').MongoClient;
     var url = 'mongodb://localhost:27017/';
     client.connect(url,{ useNewUrlParser: true }, function(err,db)
@@ -141,7 +141,7 @@ Node.js 是一个开源的 JavaScript 服务器环境，能够连接到 SQL 和 
     **运行 Node.js 文件:**
     打开命令提示符，导航到包含 js 文件的文件夹，输入以下命令。
 
-    ```
+    ```js
     node *filename*.js
     ```
 

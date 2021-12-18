@@ -15,7 +15,7 @@
 
 *   **对于 GET 请求，使用 app.get()方法:**
 
-    ```
+    ```js
     var express = require('express')
     var app = express()
 
@@ -27,7 +27,7 @@
 
 *   **对于开机自检请求，使用 app.post()方法:**
 
-    ```
+    ```js
     var express = require('express')
     var app = express()
 
@@ -39,7 +39,7 @@
 
 *   **用于处理所有 HTTP 方法(即 GET、POST、PUT、DELETE 等)。)使用 app.all()方法:**
 
-    ```
+    ```js
     var express = require('express')
     var app = express()
 
@@ -59,13 +59,13 @@ next()用于将控件交给下一个回调。有时我们使用 app.use()来指�
 
 *   这里我们将使用 node.js 的内置模块，即 http。所以，首先加载 http:
 
-    ```
+    ```js
     var http = require('http');
     ```
 
 *   现在通过添加以下几行代码来创建服务器:
 
-    ```
+    ```js
     http.createServer(function (req, res) {
         res.write('Hello World!'); // Write a response
         res.end(); // End the response
@@ -76,7 +76,7 @@ next()用于将控件交给下一个回调。有时我们使用 app.use()来指�
 
 *   现在在上面的函数中添加以下代码行来执行路由:
 
-    ```
+    ```js
     var url = req.url;
     if(url ==='/about') {
         res.write(' Welcome to about us page'); 
@@ -93,7 +93,7 @@ next()用于将控件交给下一个回调。有时我们使用 app.use()来指�
 
 **例:**结合以上代码的路由完整代码。
 
-```
+```js
 var http = require('http');
 
 // Create a server object

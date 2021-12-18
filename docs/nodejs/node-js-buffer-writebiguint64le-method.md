@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.writeBigUInt64LE( value, offset )
 ```
 
@@ -21,7 +21,7 @@ Buffer.writeBigUInt64LE( value, offset )
     **示例 1:**
     **文件名:index.js**
 
-    ```
+    ```js
     // Node.js program to demonstrate the
     // buffer.writeBigUInt64LE() method 
     const buf = Buffer.allocUnsafe(8);
@@ -36,13 +36,13 @@ Buffer.writeBigUInt64LE( value, offset )
 
     使用以下命令运行 **index.js** 文件:
 
-    ```
+    ```js
     node index.js
     ```
 
     **输出:**
 
-    ```
+    ```js
     <Buffer 08 07 06 05 04 03 01 00>
 
     ```
@@ -50,7 +50,7 @@ Buffer.writeBigUInt64LE( value, offset )
     **示例 2:**
     **文件名:index.js**
 
-    ```
+    ```js
     // Node.js program to demonstrate the
     // buffer.writeBigUInt64LE() method 
     const buf = Buffer.allocUnsafe(8);
@@ -65,13 +65,13 @@ Buffer.writeBigUInt64LE( value, offset )
 
     使用以下命令运行 **index.js** 文件:
 
-    ```
+    ```js
     node index.js
     ```
 
     **输出:**
 
-    ```
+    ```js
     <Buffer ff ef 06 05 04 03 aa 00>
 
     ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 request.on('eventName',callback)
 ```
 
@@ -21,7 +21,7 @@ request.on('eventName',callback)
 
 ## index.js
 
-```
+```js
 // Importing http libraries
 const http = require('http');
 
@@ -74,7 +74,7 @@ server.listen(3000);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

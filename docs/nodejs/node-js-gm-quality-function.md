@@ -5,7 +5,7 @@
 **quality()** 函数是 GraphicsMagick 库中的一个内置函数，用于 JPEG/MIFF/PNG/TIFF 压缩级别。如果滤波器类型为 4 或更小，则指定的滤波器类型用于所有扫描线:0:无、1:子、2:上、3:平均、4:路径。该函数在成功时返回真值。
 **语法:**
 
-```
+```js
 quality( level )
 ```
 
@@ -18,7 +18,7 @@ T3】例 1:
 
 ## java 描述语言
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 
@@ -43,7 +43,7 @@ gm('1.png')
 
 ## java 描述语言
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 

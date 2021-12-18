@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const x509.fingerprint
 ```
 
@@ -18,7 +18,7 @@ const x509.fingerprint
 
 **公共证书**打开记事本，复制粘贴以下密钥，将文件保存为 ***公共证书***
 
-```
+```js
 -----BEGIN CERTIFICATE-----
 MIICfzCCAegCCQDxxeXw914Y2DANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMC
 SU4xEzARBgNVBAgMCldlc3RiZW5nYWwxEDAOBgNVBAcMB0tvbGthdGExFDASBgNV
@@ -41,7 +41,7 @@ hWF6W2H9+MAlU7yvtmCQQuZmfQ==
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // x509.fingerprint function
 
@@ -64,13 +64,13 @@ console.log("SHA-1 fingerprint of this certificate :- " + value)
 
 使用以下命令运行 index.js 文件。
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 SHA-1 fingerprint of this certificate :- 
 78:55:AE:43:DC:ED:2F:2D:31:EA:D5:17:1A:22:
 D3:8A:35:76:66:0D
@@ -80,7 +80,7 @@ D3:8A:35:76:66:0D
 
 ## index.js
 
-```
+```js
 // Node.js program to demonstrate the  
 // x509.fingerprint function
 
@@ -98,13 +98,13 @@ console.log("SHA-1 fingerprint of this certificate :- " + 
 
 使用以下命令运行 index . js 文件。
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 SHA-1 fingerprint of this certificate :- 
 78:55:AE:43:DC:ED:2F:2D:31:EA:D5:17:1A:22:D3:
 8A:35:76:66:0D

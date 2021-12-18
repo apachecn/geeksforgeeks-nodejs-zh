@@ -8,7 +8,7 @@ Node.js HTTP API 是低级的，因此它可以支持 HTTP 应用程序。为了
 
 **语法:**
 
-```
+```js
 agent.createConnection(options[, callback])
 
 ```
@@ -25,7 +25,7 @@ agent.createConnection(options[, callback])
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // agent.createConnection() method 
 
@@ -45,7 +45,7 @@ console.log('Connection: ', createConnection);
 
 **输出:**
 
-```
+```js
 Connection successfully created...
 Connection: [Function: connect]
 
@@ -53,7 +53,7 @@ Connection: [Function: connect]
 
 **示例 2:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // agent.createConnection() method 
 
@@ -87,14 +87,14 @@ console.log('Connection: ', createConnection);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```
 
 **输出:**
 
-```
+```js
 Connection successfully created...
 Connection: [Function: connect]
 Connection successfully created...

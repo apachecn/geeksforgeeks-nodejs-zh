@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 wave( amplitude, wavelength )
 ```
 
@@ -22,7 +22,7 @@ wave( amplitude, wavelength )
 
 **例 1:**
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 
@@ -44,7 +44,7 @@ gm('gfg.png')
 
 **例 2:**
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 

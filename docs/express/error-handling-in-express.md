@@ -7,7 +7,7 @@ Express 中的错误处理是指处理或处理在执行任何同步代码或异
 **我们所说的同步或异步代码是什么意思？**
 很多时候，一个操作开始执行，但由于某种原因在完成之前会面临一些延迟。这类操作常见的例子有**的 HTTP 请求**的 AJAX 请求**的 setTimeout** 等功能。这些操作开始，然后在响应返回或计时器结束时结束。当计算机等待这些操作完成时，它继续忙于下一行代码。它一直很忙，但这带来了一个很大的挑战——任何依赖于先前异步代码的代码都可能在**异步**代码完成之前运行，这意味着错误。看看下面-
 
-```
+```js
 var data = makeAsyncRequest();
 
 // Data is undefined
@@ -20,7 +20,7 @@ console.log("Data is " + data);
 
 *   如果具有路由处理程序和中间件的同步代码抛出任何错误，那么无需任何努力和额外的工作，Express 通过捕获和处理错误来解决它，而不需要我们的任何同意。看看下面的代码–
 
-    ```
+    ```js
     app.get('/', function (req, res) {
 
         // Express catches this on its own
@@ -30,7 +30,7 @@ console.log("Data is " + data);
 
 *   如果一个路由处理程序和中间件调用了异步函数，而异步函数又产生了一些错误，那么我们就要显式地将错误传递给下一个()函数，Express 会在那里进行捕捉和处理。下图将帮助您理解
 
-    ```
+    ```js
     app.get('/', function (req, res, next) {
       fs.readFile('/file-is-not-available', 
             function (err, data) {
@@ -48,7 +48,7 @@ console.log("Data is " + data);
 
 *   返回承诺的路由处理程序和中间件在拒绝或抛出错误时会自动调用下一个(值)。
 
-    ```
+    ```js
     app.get('/user/:id', async function (req, res, next) { 
 
         // Async keyword tells that it is
@@ -63,7 +63,7 @@ console.log("Data is " + data);
 
 *   如果序列中给定的回调没有提供数据，只有错误，那么代码可以简化为–
 
-    ```
+    ```js
     app.get('/', [
       function (req, res, next) {
         fs.writeFile('/path-cannot-be-accessed',
@@ -79,7 +79,7 @@ console.log("Data is " + data);
 
     现在,看看下面的例子–
 
-    ```
+    ```js
     app.get('/', function (req, res, next) {
       setTimeout(function () {
         try {
@@ -93,7 +93,7 @@ console.log("Data is " + data);
 
 *   正如我们所知，如果一个路由处理程序和中间件调用了一个异步函数，而这个异步函数又产生了一些错误，那么我们就必须显式地将错误传递给下一个()函数，Express 将在那里捕获并处理它们。但是，在上面的代码中，错误不是同步代码的部分，所以我们不能简单地将其传递给下一个函数。我们需要首先抛出错误，捕捉那些由异步代码生成的错误，然后将其传递给 Express。为此，我们需要用**试试..抓住**块去抓他们。如果不想用试捕，那就简单用**承诺**如下图–
 
-    ```
+    ```js
     app.get('/', function (req, res, next) {
       Promise.resolve().then(function () {
         throw new Error('Died')
@@ -118,7 +118,7 @@ console.log("Data is " + data);
 
     T80】因此,当您添加自定义错误处理程序时,当标题已经发送到客户端时,您必须委托给默认的快速错误处理程序:
 
-    ```
+    ```js
     function errorHandler (err, req, res, next) {
       if (res.headersSent) {
         return next(err)
@@ -134,7 +134,7 @@ console.log("Data is " + data);
 
     我们声明中间件功能的方式,以同样的方式定义错误处理功能。但是,错误处理函数有四个参数,而不是三个:(错误，请求，停止，下一步).例如–
 
-    ```
+    ```js
     app.use(function (err, req, res, next) {
       console.error(err.stack)
       res.status(500).send('Something broke!')
@@ -143,7 +143,7 @@ console.log("Data is " + data);
 
     我们需要最后定义错误处理中间件,在其他 app.use()之后,并路由调用。示例如下所示–
 
-    ```
+    ```js
     app.get('/', (req, res, next) => {
      req.foo = true;
       setTimeout(() => {

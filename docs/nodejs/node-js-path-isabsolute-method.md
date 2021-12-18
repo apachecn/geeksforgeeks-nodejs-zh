@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 path.isAbsolute( path )
 ```
 
@@ -18,7 +18,7 @@ path.isAbsolute( path )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // path.isAbsolute() method
 
@@ -40,7 +40,7 @@ console.log(path4);
 
 **输出:**
 
-```
+```js
 true
 false
 true
@@ -49,7 +49,7 @@ false
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // path.isAbsolute() method
 
@@ -71,7 +71,7 @@ console.log(path4);
 
 **输出:**
 
-```
+```js
 true
 false
 true

@@ -5,7 +5,7 @@
 **os.type()方法**是 os 模块的内置应用编程接口，用于获取操作系统名称。
 **语法:**
 
-```
+```js
 os.type()
 ```
 
@@ -17,7 +17,7 @@ os.type()
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the    
 // os.type() method 
 
@@ -30,7 +30,7 @@ console.log(os.type());
 
 **输出:**
 
-```
+```js
 Windows_NT
 ```
 
@@ -38,7 +38,7 @@ Windows_NT
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the    
 // os.type() method 
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 writeStream.clearScreenDown([callback])
 ```
 
@@ -16,7 +16,7 @@ writeStream.clearScreenDown([callback])
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the
 // writeStream.clearScreenDown() method
 
@@ -56,13 +56,13 @@ client.send("The line is clear :-  ", 
 
 **输出:**
 
-```
+```js
 The line is clear :-  true
 ```
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Node.js program to demonstrate the
 // writeStream.clearScreenDown() method
 
@@ -81,13 +81,13 @@ console.log("The write stream object"
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 The write stream object is clear :-  true
 
 ```

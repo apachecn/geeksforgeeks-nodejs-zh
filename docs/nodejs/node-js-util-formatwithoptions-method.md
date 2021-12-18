@@ -7,13 +7,13 @@
 
 **语法:**
 
-```
+```js
 util.formatWithOptions(inspectOptions, format[, ...args])
 ```
 
 要使用这个函数，我们必须导入 util 模块:
 
-```
+```js
 const util=require("util");   
 ```
 
@@ -29,7 +29,7 @@ const util=require("util");
 
 ## java 描述语言
 
-```
+```js
 // Node.js to demonstrate the
 // util.formatWithOptions() method
 
@@ -73,7 +73,7 @@ fun1();
 
 **输出:**
 
-```
+```js
 See object { alfa: 42 } 
 abc:%s:%s 
 abc:def ghi jkl        
@@ -85,7 +85,7 @@ abc:def ghi jkl
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // util.formatWithOptions() method
 
@@ -159,13 +159,13 @@ console.log("10 => ", util.formatWithOptions(
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 1 =>  %: alfa beta -0
 2 =>  % alfa beta gamma
 3 =>  alfa 9.432132132122338e+28

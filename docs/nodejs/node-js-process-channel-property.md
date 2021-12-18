@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const process.channel
 ```
 
@@ -18,7 +18,7 @@ const process.channel
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Process.channel Property
 
@@ -37,7 +37,7 @@ console.log(process.channel)
 
 ## sub . js
 
-```
+```js
 process.on('message', (m) => {
   console.log('CHILD got message:', m);
 
@@ -47,13 +47,13 @@ process.on('message', (m) => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Control {
   _events: [Object: null prototype] {},
   _eventsCount: 0,
@@ -67,7 +67,7 @@ CHILD got message: { hello: 'world' }
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Process.channel Property
 
@@ -85,7 +85,7 @@ else
 
 **输出:**
 
-```
+```js
 Process Channel doesn't exist
 ```
 

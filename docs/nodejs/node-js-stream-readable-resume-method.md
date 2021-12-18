@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 readable.resume()
 ```
 
@@ -18,7 +18,7 @@ readable.resume()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.resume() method  
 
@@ -42,7 +42,7 @@ console.log("Data starts flowing again!!");
 
 **输出:**
 
-```
+```js
 Data starts flowing again!!
 Hello!!!
 
@@ -50,7 +50,7 @@ Hello!!!
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.resume() method  
 
@@ -88,7 +88,7 @@ console.log("Program ends!!");
 
 **输出:**
 
-```
+```js
 Program ends!!
 Hello!!!
 No additional data will be displayed for 3 seconds.

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 hash.digest([encoding])
 ```
 
@@ -18,7 +18,7 @@ hash.digest([encoding])
 
 **模块安装:**使用以下命令安装所需的模块:
 
-```
+```js
 npm install crypto
 ```
 
@@ -26,7 +26,7 @@ npm install crypto
 
 **示例 1:** 以**十六进制**和 **base64 的形式生成字符串*的哈希值。***
 
-<gfg-tab role="tab" slot="tab" id="gfg-tab-0">index . js</gfg-tab> <gfg-panel role="tabpanel" slot="panel" id="gfg-panel-0" data-code-lang="javascript">```
+<gfg-tab role="tab" slot="tab" id="gfg-tab-0">index . js</gfg-tab> <gfg-panel role="tabpanel" slot="panel" id="gfg-panel-0" data-code-lang="javascript">```js
 // Importing the crypto library
 const crypto = require("crypto")
 

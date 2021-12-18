@@ -5,7 +5,7 @@
 **util.callbackify()方法**是 util 模块的内置应用编程接口，用于运行异步函数并在 node.js.
 中获取回调**语法:**
 
-```
+```js
 util.callbackify( async_function )
 ```
 
@@ -19,7 +19,7 @@ util.callbackify( async_function )
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the   
 // util.callbackify() Method 
 
@@ -45,7 +45,7 @@ callback_function((err, ret) => {
 
 **输出:**
 
-```
+```js
 message from async function
 ```
 
@@ -53,7 +53,7 @@ message from async function
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the   
 // util.callbackify() Method 
 
@@ -88,7 +88,7 @@ callback_function((err, ret) => {
 
 **输出:**
 
-```
+```js
 Error: this is an error message!
     at async_function (C:\nodejs\g\util\callbackify_2.js:6:25)
     at async_function (util.js:356:13)

@@ -8,7 +8,7 @@
 
 ## app.js
 
-```
+```js
 const http = require('http');   
 const port = 3000;
 
@@ -45,7 +45,7 @@ server.listen(port, () => {
 
 ## App.js
 
-```
+```js
 const http = require('http');
 
 // File system module used for accessing files in nodejs
@@ -95,7 +95,7 @@ server.listen(port, () => {
 
 ## index.html
 
-```
+```js
 <!DOCTYPE html>
 <!DOCTYPE html>
 <html>
@@ -115,7 +115,7 @@ server.listen(port, () => {
 
 ## about.html
 
-```
+```js
 <!DOCTYPE html>
 <html>
   <head>

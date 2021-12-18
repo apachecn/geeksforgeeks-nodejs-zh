@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dns.resolveAny( hostname, callback )
 ```
 
@@ -37,7 +37,7 @@ dns.resolveAny( hostname, callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dns.resolveAny() method
 
@@ -53,7 +53,7 @@ dns.resolveAny('geeksforgeeks.org', (err, 
 
 **输出:**
 
-```
+```js
 records: [
     {"value":"ns-1520.awsdns-62.org","type":"NS"},
     {"value":"ns-1569.awsdns-04.co.uk","type":"NS"},
@@ -65,7 +65,7 @@ records: [
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dns.resolveAny() method
 
@@ -81,7 +81,7 @@ dns.resolveAny('localhost', (err, 
 
 **输出:**
 
-```
+```js
 records: [
     {"address":"127.0.0.1", "ttl":0, "type":"A"}
 ]

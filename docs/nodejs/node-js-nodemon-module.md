@@ -12,13 +12,13 @@ nodemon Module 是一个开发基于 node.js 的应用程序的模块，它在�
 
 **安装:**使用以下命令安装模块:
 
-```
+```js
 npm install -g nodemon
 ```
 
 安装模块后，您可以通过在控制台上键入以下内容来检查模块的当前版本:
 
-```
+```js
 nodemon version
 ```
 
@@ -28,14 +28,14 @@ nodemon version
 
 1.  nodemon 包装了您的应用程序，因此您可以将通常传递给应用程序的所有参数传递给应用程序:
 
-    ```
+    ```js
     nodemon [your node app]
 
     ```
 
 2.  Options available for nodemon are shown below:
 
-    ```
+    ```js
     nodemon -h
 
     ```
@@ -44,7 +44,7 @@ nodemon version
 
 **运行程序的步骤:**使用以下命令运行文件，如下所示:
 
-```
+```js
 nodemon index.js
 ```
 

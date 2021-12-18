@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dnsPromises.reverse(ip_address)
 ```
 
@@ -20,7 +20,7 @@ dnsPromises.reverse(ip_address)
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.reverse() method
 
@@ -36,14 +36,14 @@ dnsPromises.reverse('31.13.66.35').then((res) => {
 
 **输出:**
 
-```
+```js
 [ 'edge-star-mini-shv-01-iad3.facebook.com' ]
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.reverse() method
 
@@ -67,7 +67,7 @@ const dnsPromises = dns.promises;
 
 **输出:**
 
-```
+```js
 from async:
 [ 'ec2-34-218-62-116.us-west-2.compute.amazonaws.com' ]
 

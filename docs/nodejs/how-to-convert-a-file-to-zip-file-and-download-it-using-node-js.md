@@ -13,13 +13,13 @@
 
 **步骤 1:** 在终端中使用以下命令安装模块。
 
-```
+```js
 npm install adm-zip
 ```
 
 **步骤 2:** 使用以下命令检查安装模块的版本。
 
-```
+```js
 npm version adm-zip
 ```
 
@@ -33,7 +33,7 @@ upload_data FOLDER
 
 ## java 描述语言
 
-```
+```js
 // express is a node framework that is helps in creating
 // 2 or more web-pages application
 const express = require('express')
@@ -106,13 +106,13 @@ app.listen(7777,function(){
 
 在所需的本地打开终端，并使用以下命令确保您已经下载了 adm-zip 包。
 
-```
+```js
 npm install adm-zip
 ```
 
 使用以下命令运行 app.js 文件。
 
-```
+```js
 node app.js
 ```
 

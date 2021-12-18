@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 fs.fchmod( fd, mode, callback )
 ```
 
@@ -23,7 +23,7 @@ fs.fchmod( fd, mode, callback )
 
 **示例 1:** 该示例显示了使用字符串常量和或运算符来授予文件权限。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.fchmod() method
 
@@ -79,7 +79,7 @@ fs.fchmod(fd, fs.constants.S_IRUSR, (err) => {
 
 **输出:**
 
-```
+```js
 Giving only read permission to the user
 Current File Mode: 33024
 File Contents: This file has been written over.
@@ -94,7 +94,7 @@ File Contents: This file has been written over.
 
 **示例 2:** 该示例显示了八进制常量的用法，以赋予文件权限。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.fchmod() method
 
@@ -149,7 +149,7 @@ fs.fchmod(fd, 0o444, (err) => {
 
 **输出:**
 
-```
+```js
 Giving only read permission to everyone
 Current File Mode: 33060
 File Contents: This file has been written over.

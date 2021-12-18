@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.setegid(id)
 ```
 
@@ -22,7 +22,7 @@ process.setegid(id)
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // process.setegid() Method
 
@@ -46,14 +46,14 @@ if (process.getegid && process.setegid ) {
 
 **输出:**
 
-```
+```js
 The numerical effective group identity of the Node.js process: 400
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // process.setegid() Method
 
@@ -83,7 +83,7 @@ if (process.getegid) {
 
 **输出:**
 
-```
+```js
 gid has successfully been set
 The numerical effective group identity of the Node.js process: 696
 

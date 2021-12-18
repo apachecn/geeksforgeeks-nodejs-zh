@@ -8,7 +8,7 @@ node.js 中的 Inspector 是 node . js 应用的调试接口，包含在 app.js 
 **如何安装？**
 安装 npm(节点包管理器)后，在命令行运行以下命令即可安装。
 
-```
+```js
 $ npm install -g node-inspector
 ```
 
@@ -20,14 +20,14 @@ $ npm install -g node-inspector
 
 在上图中，它显示了一个用于调试的网址。那么，当我们把浏览器指向 *http://127.0.0.1:8080/？port=5858* ，我们得到一个用于调试的 GUI。有时，端口 8080 可能在计算机上不可用，然后我们会得到一个错误。我们可以使用以下命令更改运行节点检查器的端口(在本例中为端口 5555):
 
-```
+```js
 $ node-inspector --web-port=5555
 ```
 
 **如何开始使用？**
 可以在命令行使用以下命令启动:
 
-```
+```js
 $ node-debug app.js
 ```
 
@@ -44,7 +44,7 @@ $ node-debug app.js
 
 1.  **Start the node-inspector server:** This can be done by running command:
 
-    ```
+    ```js
     $ node-inspector
     ```
 
@@ -52,13 +52,13 @@ $ node-debug app.js
 
 2.  **Enable debug mode in the node process:** You can either start Node with a debug flag like:
 
-    ```
+    ```js
     $ node --debug your/node/program.js
     ```
 
     或者，在第一行暂停脚本:
 
-    ```
+    ```js
     $ node --debug-brk your/short/node/script.js
     ```
 
@@ -66,17 +66,17 @@ $ node-debug app.js
 
     1.  用你喜欢的方法得到节点进程的 PID。pgrep 或 ps -ef 都不错。
 
-        ```
+        ```js
         $ pgrep -l node
         ```
 
-        ```
+        ```js
         2345 node your/node/server.js
         ```
 
     2.  向它发送 USR1 信号
 
-        ```
+        ```js
         $ kill -s USR1 2345
         ```
 

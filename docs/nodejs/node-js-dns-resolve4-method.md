@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dns.resolve4( hostname, options, callback )
 ```
 
@@ -25,7 +25,7 @@ dns.resolve4( hostname, options, callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dns.resolve4() method
 
@@ -41,14 +41,14 @@ dns.resolve4('geeksforgeeks.org', (err,
 
 **输出:**
 
-```
+```js
 address: ["34.218.62.116"]
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dns.resolve4() method
 
@@ -70,7 +70,7 @@ dns.resolve4('geeksforgeeks.org', options, (err,
 
 **输出:**
 
-```
+```js
 address: [{"address":"34.218.62.116", "ttl":9}]
 
 ```

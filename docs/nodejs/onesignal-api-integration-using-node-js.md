@@ -10,7 +10,7 @@
 
 *   **第二步:**打开终端，在你的项目中初始化 npm。
 
-    ```
+    ```js
     npm init
     ```
 
@@ -20,13 +20,13 @@
 
 *   **步骤 3:** 使用以下命令安装**单信号节点**模块。
 
-    ```
+    ```js
     npm install onesignal-node --save
     ```
 
 *   **第 4 步:**使用以下代码开始使用**单信号节点**来要求模块。
 
-    ```
+    ```js
     const OneSignal = require('onesignal-node');
     ```
 
@@ -42,7 +42,7 @@
 
 ## script.js
 
-```
+```js
 // With default options
 const client = new OneSignal.Client('appId', 'apiKey');
 
@@ -61,7 +61,7 @@ const client = new OneSignal.Client('appId', 'apiKey', 
 
 ## script.js
 
-```
+```js
 // With default options
 const userClient = new OneSignal.UserClient('userAuthKey');
 

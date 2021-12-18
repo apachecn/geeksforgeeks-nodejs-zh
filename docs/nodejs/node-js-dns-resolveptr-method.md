@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dns.resolvePtr( hostname, callback )
 ```
 
@@ -23,7 +23,7 @@ dns.resolvePtr( hostname, callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dns.resolvePtr() method
 
@@ -39,14 +39,14 @@ dns.resolvePtr('geeksforgeeks.org', (err, 
 
 **输出:**
 
-```
+```js
 PTR records:[{"34.218.62.116"}]
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dns.resolvePtr() method
 
@@ -62,7 +62,7 @@ dns.resolvePtr('google.com', (err, 
 
 **输出:**
 
-```
+```js
 PTR records:[{"172.217.164.142"}]
 
 ```

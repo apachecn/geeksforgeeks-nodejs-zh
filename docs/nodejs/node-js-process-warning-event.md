@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Event: 'warning'
 ```
 
@@ -18,7 +18,7 @@ Event: 'warning'
 
 ## index.js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Process 'warning' Event
 
@@ -37,13 +37,13 @@ process.on('warning', (warning) => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 (node:8004) Warning: something strange happened
 (Use `node --trace-warnings ...` to show where
 the warning was created)
@@ -55,7 +55,7 @@ warning message - something strange happened
 
 ## index.js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Process 'warning' Event
 
@@ -73,7 +73,7 @@ process.on('warning', (warning) => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

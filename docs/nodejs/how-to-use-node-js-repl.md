@@ -6,7 +6,7 @@
 
 要使用 REPL，您必须为您的操作系统下载 [Node.js](https://www.geeksforgeeks.org/nodejs-tutorials/) 。检查节点是否。Js 安装正确后，可以使用以下命令:
 
-```
+```js
 node --version 
 ```
 
@@ -14,7 +14,7 @@ node --version
 
 **如何启动 REPL:** 要启动 Node.js REPL 非常简单直接，你只需要根据你的操作系统在 Terminal/CMD/PowerShell 中输入 Node 这个词。
 
-```
+```js
 node
 ```
 
@@ -28,7 +28,7 @@ node
 
 **退出 REPL:** 退出回复，可以在 Windows/Linux 下按 CTRL + D，在 macOS 下按 CMD+D。或者，CTRL+C 两次也可以退出。或者，我们也可以使用以下方法退出 REPL:
 
-```
+```js
 .exit
 ```
 
@@ -84,7 +84,7 @@ node
 
 如果要导入其他模块，需要遵循以下步骤:首先需要通过 Node.Js 的 npm 包管理器安装包
 
-```
+```js
 npm install pacakge_name
 ```
 
@@ -94,7 +94,7 @@ npm install pacakge_name
 
 **我们可以看到命令:**
 
-```
+```js
 const express = require('express')
 ```
 

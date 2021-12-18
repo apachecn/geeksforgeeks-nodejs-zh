@@ -8,14 +8,14 @@
 
 **要求模块:**您可以使用以下代码包含该模块:
 
-```
+```js
 const querystring = require('querystring');
 ```
 
 **注意:**不是全局对象，需要明确安装。
 **安装模块:**
 
-```
+```js
 npm install querystring
 ```
 
@@ -23,7 +23,7 @@ npm install querystring
 
 ## java 描述语言
 
-```
+```js
 // Importing the models
 import url from 'url'
 import querystring from 'querystring'
@@ -46,7 +46,7 @@ console.log("This is parsed Query String :",parsed_queryString);
 
 **输出:**
 
-```
+```js
 This is parsed URL : Url {
   protocol: 'http:',
   slashes: true,
@@ -70,7 +70,7 @@ This is parsed Query String : [Object: null prototype]
 
 ## java 描述语言
 
-```
+```js
 // Importing the model
 import querystring from 'querystring'
 
@@ -89,7 +89,7 @@ console.log(q2);
 
 **输出:**
 
-```
+```js
 name=Testing&company=GeeksforGeeks&
 content=Article&date=9thMarch2021
 ```

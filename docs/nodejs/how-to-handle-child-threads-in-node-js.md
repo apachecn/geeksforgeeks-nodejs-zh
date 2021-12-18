@@ -9,7 +9,7 @@ Node.js 是一种单线程语言，在 I/O 调用时，在后台使用多线程�
 
 ## java 描述语言
 
-```
+```js
 // Do any work in parallel to main
 // event loop or main process
 console.log('Child Process Starts')
@@ -22,7 +22,7 @@ setTimeout(() => {
 
 ## java 描述语言
 
-```
+```js
 const { fork } = require('child_process');
 
 // Fork another process
@@ -48,7 +48,7 @@ console.log('After process')
 
 **输出:**
 
-```
+```js
 Before process
 After process
 Child Process Starts
@@ -61,7 +61,7 @@ Child process terminated and returned
 
 ## java 描述语言
 
-```
+```js
 const {Worker, isMainThread, parentPort}
             = require('worker_threads');
 
@@ -91,7 +91,7 @@ if (isMainThread) {
 
 **输出:**
 
-```
+```js
 Thread send message: Hello World!
 Worker exit
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const request.scheme
 
 ```
@@ -29,7 +29,7 @@ const request.scheme
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerRequest.scheme method
 
@@ -101,13 +101,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 scheme pseudo header :- http
 status : 200
 Received: hello
@@ -121,7 +121,7 @@ server destroyed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerRequest.scheme method
 
@@ -186,13 +186,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Received: scheme pseudo header :- http
 client destroyed
 server destroyed

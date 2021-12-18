@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v8.getHeapStatistics();
 ```
 
@@ -30,7 +30,7 @@ v8.getHeapStatistics();
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 
@@ -40,13 +40,13 @@ console.log(v8.getHeapStatistics());
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 { total_heap_size: 6537216,
   total_heap_size_executable: 1048576,
   total_physical_size: 6537216,
@@ -61,7 +61,7 @@ node index.js
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 
@@ -77,13 +77,13 @@ console.log("does_zap_garbage:"+stats['does_zap_garbage']);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Heap Stastistics are :
 total_heap_size:6537216
 used_heap_size:4200640

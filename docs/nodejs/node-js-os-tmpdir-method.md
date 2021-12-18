@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 os.tmpdir()
 ```
 
@@ -18,7 +18,7 @@ os.tmpdir()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // os.tmpdir() method 
 
@@ -31,14 +31,14 @@ console.log(os.tmpdir());
 
 **输出:**
 
-```
+```js
 C:\Users\gekcho\AppData\Local\Temp
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // os.tmpdir() method 
 
@@ -58,7 +58,7 @@ function getUserHome() {
 
 **输出:**
 
-```
+```js
 home directory:C:\Users\gekcho
 temp directory:C:\Users\gekcho\AppData\Local\Temp
 

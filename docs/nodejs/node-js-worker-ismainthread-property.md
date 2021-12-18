@@ -6,7 +6,7 @@ worker_threads 模块中 Worker 类的内置应用程序编程接口**Worker . I
 
 **语法:**
 
-```
+```js
 const Worker.isMainThread
 ```
 
@@ -16,7 +16,7 @@ const Worker.isMainThread
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate 
 // the Worker.isMainThread  API
 
@@ -36,13 +36,13 @@ if (isMainThread) {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 OutSide Worker!2
 1
 2
@@ -53,7 +53,7 @@ true
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Node.js program to demonstrate the
 // Worker.isMainThread  API
 
@@ -80,13 +80,13 @@ if (isMainThread) {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Inside Worker!2
 1
 2

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v8.cachedDataVersionTag();
 ```
 
@@ -18,7 +18,7 @@ v8.cachedDataVersionTag();
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 
@@ -29,19 +29,19 @@ console.log("cache data version tag is " + tag);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 cache data version tag is 4151506697
 ```
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 
@@ -66,13 +66,13 @@ console.log("The Cache Data Version is:", result);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 The Cache Data Version is: 1165837633
 ```
 

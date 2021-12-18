@@ -8,7 +8,7 @@ Express.js 中有很多中间件功能，比如 [Express.js app.use()](https://w
 
 **语法:**
 
-```
+```js
 app.use(path,(req,res,next))
 ```
 
@@ -19,7 +19,7 @@ app.use(path,(req,res,next))
 
 **安装模块:**使用以下命令安装快速模块。
 
-```
+```js
 npm install express
 ```
 
@@ -31,7 +31,7 @@ npm install express
 
 ## index.js
 
-```
+```js
 // Importing the express module
 const express = require("express");
 const app = express()
@@ -55,13 +55,13 @@ app.listen(3000, () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**如果没有 next()函数，中间件不会调用下一个中间件，即使它们请求相同的路径
 
-```
+```js
 Server is Running
 Hello
 ```
@@ -70,7 +70,7 @@ Hello
 
 ## index.js
 
-```
+```js
 // Importing the express module
 const express = require("express");
 const app = express()
@@ -95,13 +95,13 @@ app.listen(3000, () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Server is Running
 Hello
 Get Request

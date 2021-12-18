@@ -5,7 +5,7 @@
 **fs。Dir.path()** 方法是类 **fs 的内置应用编程接口。**文件系统**模块中的**目录，用于获取目录的路径。
 **语法:**
 
-```
+```js
 const dir.path
 ```
 
@@ -16,7 +16,7 @@ const dir.path
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // dir.path() method
 const fs = require('fs');
@@ -54,13 +54,13 @@ stop('./').catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 All the dirent before operation :- 
 books.txt
 datastore.json
@@ -77,7 +77,7 @@ Path :- ./
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // dir.path() method
 const fs = require('fs');
@@ -131,13 +131,13 @@ funct('./').catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 All the dirent before operation :- [object Object]
 Path :- ./
 All the dirent after operation :- [object Object]

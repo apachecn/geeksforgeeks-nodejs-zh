@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 os.version()
 ```
 
@@ -18,7 +18,7 @@ os.version()
 
 **例 1:** 在 POSIX
 
-```
+```js
 // Import the os module
 const os = require("os");
 
@@ -30,13 +30,13 @@ console.log("OS Version:", osVersion);
 
 **输出:**
 
-```
+```js
 OS Version: #24~18.04.1-Ubuntu SMP Mon Jul 28 16:12:28 UTC 2019
 ```
 
 **示例 2:** 在 Windows 上
 
-```
+```js
 // Import the os module
 const os = require("os");
 
@@ -46,7 +46,7 @@ console.log("OS Version:", osVersion);
 
 **输出:**
 
-```
+```js
 OS Version: Windows 10 Enterprise
 ```
 

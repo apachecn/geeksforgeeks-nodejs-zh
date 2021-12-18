@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.readlink( path[, options], callback )
 ```
 
@@ -25,7 +25,7 @@ fs.readlink( path[, options], callback )
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.readlink() method
 
@@ -70,7 +70,7 @@ fs.readlink("symlinkToFile", 
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.readlink() method
 

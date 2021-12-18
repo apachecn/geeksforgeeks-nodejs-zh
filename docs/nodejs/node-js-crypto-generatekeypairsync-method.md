@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```js
 crypto.generateKeyPairSync( type, options )
 ```
 
@@ -32,7 +32,7 @@ crypto.generateKeyPairSync( type, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // crypto.generateKeyPairSync() method
 
@@ -62,7 +62,7 @@ console.log("The private key is: ", privateKey);
 
 **输出:**
 
-```
+```js
 The public key is: <Buffer 30 56 30 10 06 07
 2a 86 48 ce 3d 02 01 06 052b 81 04 00 0a 03 42
 00 04 d9 88 53 5b 21 84 f8 73 14 c8 0b 31 e2 2a
@@ -77,7 +77,7 @@ The private key is:  Buffer 30 81 84 02 01 00 30
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // crypto.generateKeyPairSync() method
 
@@ -109,7 +109,7 @@ console.log("The private key is: ",
 
 **输出:**
 
-```
+```js
 The public key is:  MIIBETCBwAYHKoZIzjgEATCBtAJJAM6084jk1Y6s/0sWQCs3k59AjV1GgAHb8gmB+Lxd/YVid+GySyss8tqhVQl49xho1DHoeJMNsVO6mcRqaSlSCPgmzqGaOvn2mQIdAKL5nGKJjDZF8Pb1SVvwWivhPShJiiHC2JjgrN8CSAqhzmg26/kEHYTZ3yNEGuguDhLvMAPdVG9pjTahLBytn8JQa3yQwLuPB4MzKfJ4d0pvKVZVnkMsatUe2ZkjnKoCjGlzwggd+QNMAAJJAMvsOBUjUKLhpkw4FZP7LIz0yYyOV1yYy84t8qSO42Yf6sNUfK6INnkFbpLHjFLcaDkFPqE5oRCIUqIVOhH0I7jNcGCN2m+ZWg==
 
 The private key is:  MIHnAgEAMIHABgcqhkjOOAQBMIG0AkkAzrTziOTVjqz/SxZAKzeTn0CNXUaAAdvyCYH4vF39hWJ34bJLKyzy2qFVCXj3GGjUMeh4kw2xU7qZxGppKVII+CbOoZo6+faZAh0AovmcYomMNkXw9vVJW/BaK+E9KEmKIcLYmOCs3wJICqHOaDbr+QQdhNnfI0Qa6C4OEu8wA91Ub2mNNqEsHK2fwlBrfJDAu48HgzMp8nh3Sm8pVlWeQyxq1R7ZmSOcqgKMaXPCCB35BB8CHQChh8yXsr/3dx3OdV6JmIWPcHe6dTHh6IOEIHer

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.unzipSync( buffer, options )
 ```
 
@@ -21,7 +21,7 @@ zlib.unzipSync( buffer, options )
 
 ****例 1:****
 
- **```
+ **```js
 // Node.js program to demonstrate the     
 // zlib.unzipSync() method  
 
@@ -44,13 +44,13 @@ console.log(decom);
 
 ****输出:****
 
-```
+```js
 TmlkaGlTaW5naA== 
 ```
 
 ****例 2:****
 
- **```
+ **```js
 // Node.js program to demonstrate the     
 // zlib.unzipSync() method  
 
@@ -73,7 +73,7 @@ console.log(decom);
 
 ****输出:****
 
-```
+```js
 4e6964686953696e6768 
 ```
 

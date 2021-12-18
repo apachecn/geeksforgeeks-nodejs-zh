@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stream.pipeline(...streams, callback)
 ```
 
@@ -21,7 +21,7 @@ stream.pipeline(...streams, callback)
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // stream.pipeline() method
 
@@ -70,14 +70,14 @@ const transform = zlib.createGzip();
 
 **输出:**
 
-```
+```js
 Promise {  }
 pipeline accomplished.
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // stream.pipeline() method
 
@@ -126,7 +126,7 @@ const transform = zlib.createGzip();
 
 **输出:**这里，管道传输时，流的顺序不正确，因此出现错误。
 
-```
+```js
 Promise {  }
 pipeline failed with error: Error [ERR_STREAM_CANNOT_PIPE]: Cannot pipe, not readable
     at WriteStream.Writable.pipe (_stream_writable.js:243:24)

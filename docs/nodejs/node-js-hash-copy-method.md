@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 hash.copy([,Optional ])
 ```
 
@@ -20,7 +20,7 @@ hash.copy([,Optional ])
 
 **模块安装:**使用以下命令安装所需模块:
 
-```
+```js
 npm install crypto
 ```
 
@@ -28,7 +28,7 @@ npm install crypto
 
 ## 
 
-```
+```js
 // Importing crypto module
 const crypto = require('crypto');
 
@@ -48,13 +48,13 @@ console.log("Copied Hash Value : " + hashCopy.digest('hex'));
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Original Hash Value : 
   5a302d3c930d9e938c5326d7bb863afdc024b9ce77e30e99c4b82983350f8196
 Copied Hash Value : 
@@ -65,7 +65,7 @@ Copied Hash Value :
 
 ## 
 
-```
+```js
 const crypto = require('crypto');
 
 // Creating Hash instance with createHash
@@ -86,13 +86,13 @@ console.log("Copy 2 : " + hashCopy2.digest('hex'));
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Original Hash Value : 
   5a302d3c930d9e938c5326d7bb863afdc024b9ce77e30e99c4b82983350f8196
 Copy 1 : 
@@ -105,7 +105,7 @@ Copy 2 :
 
 ## 
 
-```
+```js
 //Importing crypto module
 const crypto = require('crypto');
 
@@ -130,13 +130,13 @@ console.log("Updated Copy : " + updatedCopy.digest('hex'));
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Original Hash Value : 
   5a302d3c930d9e938c5326d7bb863afdc024b9ce77e30e99c4b82983350f8196
 Unchanged Copy : 

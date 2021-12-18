@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 blur( radius, sigma )
 ```
 
@@ -22,7 +22,7 @@ blur( radius, sigma )
 
 **例 1:**
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 
@@ -43,7 +43,7 @@ gm('gfg.png')
 
 **例 2:**
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 

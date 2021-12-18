@@ -25,7 +25,7 @@ crypto 和 bycrypto 两个第三方模块用于保护敏感数据。加密和加
 
 **安装模块:**
 
-```
+```js
 npm install crypto-js --save
 ```
 
@@ -39,7 +39,7 @@ npm install crypto-js --save
 
 ## index.js
 
-```
+```js
 // Importing module
 var SHA256 = require("crypto-js/sha256");
  var plaindata = "GeeksForGeeks"
@@ -49,7 +49,7 @@ console.log(hasheddata)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -63,7 +63,7 @@ node index.js
 
 ## index.js
 
-```
+```js
 // Importing the crypto module
 const crypto=require("crypto-js")
 
@@ -87,7 +87,7 @@ console.log(decrypted)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

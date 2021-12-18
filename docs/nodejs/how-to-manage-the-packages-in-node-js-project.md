@@ -24,7 +24,7 @@ NPM 有三个基本组成部分:
 
 检查您系统上的当前 NPM 版本。
 
-```
+```js
 npm -v
 ```
 
@@ -36,7 +36,7 @@ npm -v
 
 要创建 package.json 文件，请转到项目的根目录并执行以下命令:
 
-```
+```js
 npm init
 ```
 
@@ -56,7 +56,7 @@ npm init
 
 您可以通过运行以下命令来使用默认值:
 
-```
+```js
 npm init --y
 ```
 
@@ -70,11 +70,11 @@ npm init --y
 
 **本地:**通过运行以下命令，将包安装到只能从该文件夹访问的项目文件夹中:
 
-```
+```js
 npm install <package_name>
 ```
 
-```
+```js
 *for exampl*e : npm install express
 ```
 
@@ -86,11 +86,11 @@ npm install <package_name>
 
 **全局:**包功能可以从任意目录访问。要全局安装软件包，请运行以下命令。
 
-```
+```js
 npm install <package_name> --g
 ```
 
-```
+```js
 *for example :* npm install nodemon --g
 ```
 
@@ -102,11 +102,11 @@ npm install <package_name> --g
 
 4.在某些情况下，您可能希望安装一个仅在开发环境中运行的包。为此，运行以下命令。
 
-```
+```js
 npm install <package_name> --save-dev
 ```
 
-```
+```js
 *for example*: npm install lodash --save-dev
 ```
 
@@ -124,7 +124,7 @@ npm install <package_name> --save-dev
 
 要将所有已安装的软件包视为依赖关系树，请运行 ***npm 列表*** 。
 
-```
+```js
 npm list
 ```
 
@@ -134,7 +134,7 @@ npm list
 
 6.要查看已安装的软件包，请运行以下命令:
 
-```
+```js
 npm list --depth=0
 ```
 
@@ -148,11 +148,11 @@ npm list --depth=0
 
 要安装特定版本的软件包，请运行:
 
-```
+```js
 npm install [package-name]@[version-number]
 ```
 
-```
+```js
 *for example* : npm install brcypt@5.0.1
 ```
 

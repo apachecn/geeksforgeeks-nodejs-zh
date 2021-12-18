@@ -14,7 +14,7 @@
 
 1.  如下所示，在终端窗口中编写以下代码:
 
-```
+```js
 node --inspect-brk-filename.js
 ```
 
@@ -27,7 +27,7 @@ node --inspect-brk-filename.js
 
     **帮助启动开发工具窗口的其他工具:**
 
-    ```
+    ```js
     june07.com/nim
     github.com/jaridmargolin/inspect-process
     github.com/darcyclarke/rawkit
@@ -38,21 +38,21 @@ node --inspect-brk-filename.js
 
     1.  **调试现有节点进程:**
 
-        ```
+        ```js
         process._debugProcess(pid);</pre
 
         ```
 
     2.  **类似 GDB 的命令行界面调试器:**
 
-        ```
+        ```js
         node inspect filename.js
 
         ```
 
     3.  **通过 WS 端口使用开发工具协议驱动:**
 
-        ```
+        ```js
         const dp = require('chrome-remote-interface');
 
         async function test() {
@@ -81,7 +81,7 @@ node --inspect-brk-filename.js
 
     4.  **开发工具协议通过要求('检查员'):**
 
-        ```
+        ```js
         const inspector = require('inspector');
         const fs = require('fs');
         const session = new inspector.Session();

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 vm.runInThisContext( code, options )
 ```
 
@@ -21,7 +21,7 @@ vm.runInThisContext( code, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // runInThisContext() method
 
@@ -49,7 +49,7 @@ console.log(`evalresult: '${evalresult}', 
 
 **输出:**因此，vm.runInThisContext()方法不能访问本地范围。因此，localVar 在这里保持不变。
 
-```
+```js
 vmresult: 'Geeks', 
                    localVar: 'GfG'
 evalresult: 'CS', 
@@ -58,7 +58,7 @@ evalresult: 'CS',
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // runInThisContext() method
 
@@ -87,7 +87,7 @@ console.log(`evalresult: '${evalresult}',
 
 **输出:**
 
-```
+```js
 vmresult: '9', 
                   localVar: '6'
 evalresult: '11',

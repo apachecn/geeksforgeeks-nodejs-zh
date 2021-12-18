@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```js
 util.types.isGeneratorFunction( value )
 ```
 
@@ -23,7 +23,7 @@ util.types.isGeneratorFunction( value )
 
 ## Node.js
 
-```
+```js
 // Node.js program to demonstrate the
 // util.types.isGeneratorFunction() method
 
@@ -51,7 +51,7 @@ console.log("Object is a generator function:", isGenFn);
 
 **输出:**
 
-```
+```js
 [GeneratorFunction: anonymous]
 Object is a generator function: true
 [Function: helloWorld]
@@ -62,7 +62,7 @@ Object is a generator function: false
 
 ## Node.js
 
-```
+```js
 // Node.js program to demonstrate the
 // util.types.isGeneratorFunction() method
 
@@ -93,7 +93,7 @@ console.log("Object is a generator function:", isGenFn);
 
 **输出:**
 
-```
+```js
 [GeneratorFunction: getID]
 Object is a generator function: true
 [Function: helloGeeks]

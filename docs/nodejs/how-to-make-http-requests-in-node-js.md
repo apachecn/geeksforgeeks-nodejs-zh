@@ -25,7 +25,7 @@
 
 ****设置新项目:**要创建新项目，请在终端中输入以下命令。**
 
-```
+```js
 mkdir test
 npm init -y
 ```
@@ -40,7 +40,7 @@ npm init -y
 
 ****安装模块:****
 
-```
+```js
 npm i axios
 ```
 
@@ -48,7 +48,7 @@ npm i axios
 
 ## **index.js**
 
-```
+```js
 const axios = require('axios')
 
 // Make request
@@ -61,7 +61,7 @@ axios.get('https://jsonplaceholder.typicode.com/posts/1')
 
 ****运行应用程序的步骤:**打开终端，写下以下命令。**
 
-```
+```js
 node index.js
 ```
 
@@ -75,7 +75,7 @@ axios 请求响应**
 
 ****安装模块:****
 
-```
+```js
 npm i superagent
 ```
 
@@ -83,7 +83,7 @@ npm i superagent
 
 ## **index.js**
 
-```
+```js
 const superagent = require('superagent');
 
 // promise with async/await
@@ -112,7 +112,7 @@ const superagent = require('superagent');
 
 ****运行应用程序的步骤:**打开终端，写下以下命令。**
 
-```
+```js
 node index.js
 ```
 
@@ -126,7 +126,7 @@ node index.js
 
 ****安装模块:****
 
-```
+```js
 npm i node-fetch
 ```
 
@@ -134,7 +134,7 @@ npm i node-fetch
 
 ## **index.js**
 
-```
+```js
 const fetch = require('node-fetch');
 
 // Propmise then/catch block
@@ -161,7 +161,7 @@ fetch('https://jsonplaceholder.typicode.com/posts/1', {
 
 ****运行应用程序的步骤:**打开终端，写下以下命令。**
 
-```
+```js
 node index.js
 ```
 
@@ -179,7 +179,7 @@ node index.js
 
 ## **index.js**
 
-```
+```js
 // Importing https module
 const http = require('http');
 
@@ -211,7 +211,7 @@ const req = http.request(options, (res) => {
 
 ****运行应用程序的步骤:**打开终端，写下以下命令。**
 
-```
+```js
 node index.js
 ```
 

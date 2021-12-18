@@ -13,7 +13,7 @@ Node.js 是一个基于 Chrome 的 V8 JavaScript 引擎构建的 JavaScript 运�
 
 要使用此文件系统模块，请使用 require()方法:
 
-```
+```js
 var fs = require('fs');
 ```
 
@@ -34,13 +34,13 @@ var fs = require('fs');
     *   以异步的方式，你可以向用户显示一些进度指示器，而在后台你可以继续你的重量级工作。这是基于图形用户界面的应用程序的理想场景。
 *   **Example of asynchronous and synchronous:** Create a text file named **input.txt** with the following content:
 
-    ```
+    ```js
     GeeksforGeeks: A computer science portal
     ```
 
     现在让我们用下面的代码创建一个名为 **main.js** 的 js 文件:
 
-    ```
+    ```js
     var fs = require("fs");
 
     // Asynchronous read
@@ -54,11 +54,11 @@ var fs = require('fs');
 
     **输出:**
 
-    ```
+    ```js
     Asynchronous read: GeeksforGeeks: A computer science portal
     ```
 
-    ```
+    ```js
     var fs = require("fs");
 
     // Synchronous read
@@ -68,7 +68,7 @@ var fs = require('fs');
 
     **输出:**
 
-    ```
+    ```js
     Synchronous read: GeeksforGeeks: A computer science portal
     ```
 
@@ -76,7 +76,7 @@ var fs = require('fs');
 
 **语法:**
 
-```
+```js
 fs.open(path, flags, mode, callback)
 ```
 
@@ -92,7 +92,7 @@ fs.open(path, flags, mode, callback)
 
 **示例:**让我们创建一个名为 **main.js** 的 js 文件，其代码如下打开一个文件 **input.txt** 进行读写。
 
-```
+```js
 var fs = require("fs");
 
 // Asynchronous - Opening File
@@ -107,7 +107,7 @@ fs.open('input.txt', 'r+', function(err, fd) {
 
 **输出:**
 
-```
+```js
 opening file!
 File open successfully
 ```
@@ -116,7 +116,7 @@ File open successfully
 
 **语法:**
 
-```
+```js
 fs.read(fd, buffer, offset, length, position, callback)
 ```
 
@@ -133,7 +133,7 @@ fs.read(fd, buffer, offset, length, position, callback)
 
 **示例:**让我们创建一个名为 **main.js** 的 js 文件，其代码如下:
 
-```
+```js
 var fs = require("fs");
 var buf = new Buffer(1024);
 
@@ -161,7 +161,7 @@ fs.open('input.txt', 'r+', function(err, fd) {
 
 **输出:**
 
-```
+```js
 opening an existing file
 File opened successfully!
 reading the file
@@ -172,7 +172,7 @@ GeeksforGeeks: A computer science portal
 
 **语法:**
 
-```
+```js
 fs.writeFile(path, data, options, callback)
 ```
 
@@ -189,7 +189,7 @@ fs.writeFile(path, data, options, callback)
 
 **示例:**让我们创建一个名为 **main.js** 的 js 文件，其代码如下:
 
-```
+```js
 var fs = require("fs");
 
 console.log("writing into existing file");
@@ -212,7 +212,7 @@ fs.writeFile('input.txt', 'Geeks For Geeks', function(err) {
 
 **输出:**
 
-```
+```js
 writing into existing file
 Data written successfully!
 Let's read newly written data
@@ -223,13 +223,13 @@ Asynchronous read: Geeks For Geeks
 
 **语法:**
 
-```
+```js
 fs.appendFile(filepath, data, options, callback);
 ```
 
 或者
 
-```
+```js
 fs.appendFileSync(filepath, data, options);
 ```
 
@@ -242,7 +242,7 @@ fs.appendFileSync(filepath, data, options);
 
 **示例 1:** 让我们创建一个名为 **main.js** 的 js 文件，其代码如下:
 
-```
+```js
 var fs = require('fs');
 
 var data = "\nLearn Node.js";
@@ -261,13 +261,13 @@ fs.appendFile('input.txt', data, 'utf8',
 
 **输出:**
 
-```
+```js
 Data is appended to file successfully.
 ```
 
 **例 1:** 用于同步追加
 
-```
+```js
 var fs = require('fs');
 
 var data = "\nLearn Node.js";
@@ -279,19 +279,19 @@ console.log("Data is appended to file successfully.")
 
 **输出:**
 
-```
+```js
 Data is appended to file successfully.
 ```
 
 *   将数据追加到 input.txt 文件前:
 
-    ```
+    ```js
     GeeksforGeeks: A computer science portal 
     ```
 
 *   将数据追加到 input.txt 文件后:
 
-    ```
+    ```js
     GeeksforGeeks: A computer science portal
     Learn Node.js
     ```
@@ -300,7 +300,7 @@ Data is appended to file successfully.
 
 **语法:**
 
-```
+```js
 fs.close(fd, callback)
 ```
 
@@ -312,7 +312,7 @@ fs.close(fd, callback)
 
 **示例:**让我们创建一个名为 **main.js** 的 js 文件，其代码如下:
 
-```
+```js
 // Close the opened file.
 fs.close(fd, function(err) {
    if (err) {
@@ -324,7 +324,7 @@ fs.close(fd, function(err) {
 
 **输出:**
 
-```
+```js
 File closed successfully.
 ```
 
@@ -332,7 +332,7 @@ File closed successfully.
 
 **语法:**
 
-```
+```js
 fs.unlink(path, callback)
 ```
 
@@ -344,7 +344,7 @@ fs.unlink(path, callback)
 
 **示例:**让我们创建一个名为 **main.js** 的 js 文件，其代码如下:
 
-```
+```js
 var fs = require("fs");
 
 console.log("deleting an existing file");
@@ -358,7 +358,7 @@ fs.unlink('input.txt', function(err) {
 
 **输出:**
 
-```
+```js
 deleting an existing file
 File deleted successfully!
 ```

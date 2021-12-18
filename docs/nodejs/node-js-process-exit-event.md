@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 process.on("exit", callbackfunction)
 ```
 
@@ -23,7 +23,7 @@ process.on("exit", callbackfunction)
 
 ## index . js
 
-```
+```js
 console.log("Starting of the process")
 
 // Binding the event to the eventhandler
@@ -39,13 +39,13 @@ process.exit()
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Starting of the process
 Ending of the process
 process.exit() method is fired
@@ -55,7 +55,7 @@ process.exit() method is fired
 
 ## 
 
-```
+```js
 // Importing events object
 const events = require("events")
 
@@ -86,13 +86,13 @@ process.exit()
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Starting of the process
 Ending of the process
 process.exit() method is fired

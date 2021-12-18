@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const http2.getDefaultSettings()
 
 ```
@@ -29,7 +29,7 @@ const http2.getDefaultSettings()
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // http2.getDefaultSettings() 
 
@@ -98,13 +98,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 header table size : 4096
 status : 200
 Received: hello
@@ -118,7 +118,7 @@ server closed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // http2.getDefaultSettings() method
 
@@ -176,13 +176,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 initial window size : 65535
 Received: world
 client closed

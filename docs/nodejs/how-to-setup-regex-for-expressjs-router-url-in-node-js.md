@@ -8,13 +8,13 @@
 
 **步骤 1:** 使用以下命令创建**包。**
 
-```
+```js
 npm init
 ```
 
 **第二步:**可以访问[安装快递](https://www.npmjs.com/package/express)链接，查看如何安装快递模块。您可以使用以下命令安装此软件包:
 
-```
+```js
 npm install express
 ```
 
@@ -33,7 +33,7 @@ npm install express
 
 **示例:**在下面的代码中，我们正在设置 regex，因为当收到 HTTP get 请求来路由 ***/home*** 时，会向客户端呈现一个响应*主页*。
 
-```
+```js
 router.get(/\/home/ , (req,res)=>{
     res.send('Homepage');
 )
@@ -43,7 +43,7 @@ router.get(/\/home/ , (req,res)=>{
 
 ## routes.js
 
-```
+```js
 // Requiring module
 const express = require('express');
 const router = express.Router();
@@ -84,7 +84,7 @@ module.exports = router;
 
 ## params.js
 
-```
+```js
 // Requiring module
 const express = require('express');
 const router = express.Router();
@@ -104,7 +104,7 @@ module.exports = router;
 
 ## app.js
 
-```
+```js
 // Requiring modules
 const express = require('express');
 
@@ -127,7 +127,7 @@ app.listen(8000, () => {
 
 **运行应用程序的步骤:**使用以下命令运行 **app.js** 文件。
 
-```
+```js
 node app.js
 ```
 

@@ -5,7 +5,7 @@
 he **res.get()** 函数返回字段指定的 HTTP 响应头。匹配不区分大小写。
 **语法:**
 
-```
+```js
 res.get( field )
 ```
 
@@ -15,19 +15,19 @@ res.get( field )
 
 *   您可以访问[安装快速模块](https://www.npmjs.com/package/express)的链接。您可以使用此命令安装此软件包。
 
-```
+```js
 npm install express
 ```
 
 *   安装快速模块后，您可以使用命令在命令提示符下检查您的快速版本。
 
-```
+```js
 npm version express
 ```
 
 *   之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-```
+```js
 node index.js
 ```
 
@@ -35,7 +35,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 var express = require('express');
 var app = express();
 var PORT = 3000;
@@ -68,25 +68,25 @@ app.listen(PORT, function(err){
 
 *   使用以下命令确保您已经安装了 **express** 模块:
 
-```
+```js
 npm install express
 ```
 
 *   使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Server listening on PORT 3000
 ```
 
 *   打开浏览器，转到 *http://localhost:3000/* ，然后在控制台上会看到如下输出:
 
-```
+```js
 Server listening on PORT 3000
 text/plain; charset=utf-8
 ```
@@ -95,7 +95,7 @@ text/plain; charset=utf-8
 
 ## java 描述语言
 
-```
+```js
 var express = require('express');
 var app = express();
 var PORT = 3000;
@@ -124,13 +124,13 @@ app.listen(PORT, function(err){
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 现在打开浏览器，转到 *http://localhost:3000/* ，现在检查你的控制台，你会看到如下输出:
 
-```
+```js
 text/html; charset=utf-8
 ```
 

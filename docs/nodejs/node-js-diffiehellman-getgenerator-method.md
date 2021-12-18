@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 diffieHellman.getGenerator([encoding])
 ```
 
@@ -18,7 +18,7 @@ diffieHellman.getGenerator([encoding])
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the
 // diffieHellman.getGenerator() method
 
@@ -49,13 +49,13 @@ console.log(dhGenerator)
 
 使用以下命令运行 *index.js* 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Is Buffer return ( encoding not specified ) : true
 Return value :
 <Buffer 02>
@@ -69,7 +69,7 @@ Ag==
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the
 // diffieHellman.getGenerator() method
 
@@ -112,13 +112,13 @@ console.log( `Is Symmetric key generation 
 
 使用以下命令运行 *index.js* 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Is Symmetric key generation successful : true
 ```
 

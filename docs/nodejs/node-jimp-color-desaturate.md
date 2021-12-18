@@ -6,7 +6,7 @@
 **去饱和**修改器是 Nodejs | Jimp 中的一个内置颜色修改器，它将图像去饱和到一个给定量，从 0 到 100。如果超过 100 个数量，就会产生灰度图像。
 **语法:**
 
-```
+```js
 image.color([
  { apply: 'desaturate', params: [value] }
 ]);
@@ -26,7 +26,7 @@ image.color([
 
 ## java 描述语言
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');
@@ -52,7 +52,7 @@ main();
 
 ## java 描述语言
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');

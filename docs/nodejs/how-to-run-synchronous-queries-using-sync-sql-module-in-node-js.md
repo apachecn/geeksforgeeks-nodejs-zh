@@ -10,19 +10,19 @@ sync-sql 模块旨在对数据库进行同步查询。由于普通的 SQL 查询
 
 1.  您可以访问链接[安装同步-sql 模块](https://www.npmjs.com/package/sync-sql)。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install sync-sql
     ```
 
 2.  安装 sync-sql 后，您可以使用命令在命令提示符下检查您的 sync-sql 版本。
 
-    ```
+    ```js
     npm version sync-sql
     ```
 
 3.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-    ```
+    ```js
     node index.js
     ```
 
@@ -30,7 +30,7 @@ sync-sql 模块旨在对数据库进行同步查询。由于普通的 SQL 查询
 
 **文件名:index.js**
 
-```
+```js
 const Mysql = require('sync-mysql')
 
 const connection = new Mysql({
@@ -50,13 +50,13 @@ console.log(result)
     ![project structure](img/9d9526257e45d853a9eef692addfd091.png)
 2.  确保使用以下命令安装 sync-SQL:
 
-    ```
+    ```js
     npm install sync-sql
     ```
 
 3.  Run index.js file using below command:
 
-    ```
+    ```js
     node index.js
     ```
 

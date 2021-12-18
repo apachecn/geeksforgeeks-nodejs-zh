@@ -21,19 +21,19 @@ SSR 技术在以下情况下很有用:客户端的互联网连接速度很慢，
 
 1.  首先使用 npm install 安装 express js 和 ejs。您也可以访问[这个链接](https://www.npmjs.com/package/ejs)来了解更多关于 EJS 的信息。
 
-    ```
+    ```js
     npm install ejs
     ```
 
 2.  require()方法用于加载和缓存 JavaScript 模块。
 
-    ```
+    ```js
     const ejs = require('ejs');
     ```
 
 3.  下一步是创建一个文件夹，并添加一个文件名 app.js 和一个名为 index.ejs 的文件。注意，关于索引文件的语法，这里是 ejs，表示它是一个 ejs 文件。要运行此文件，您需要以下命令。
 
-```
+```js
 node app.js
 ```
 
@@ -42,7 +42,7 @@ node app.js
 
 **语法:**
 
-```
+```js
 ejs.renderFile( fileName, { }, { }, callback);
 ```
 
@@ -50,7 +50,7 @@ ejs.renderFile( fileName, { }, { }, callback);
 
 **文件名:app.js**
 
-```
+```js
 // Requiring modules
 const express = require('express');
 const app = express();
@@ -83,7 +83,7 @@ app.listen(port, function (error) {
 
 **档案名称:index.ejs**
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
 
@@ -106,14 +106,14 @@ app.listen(port, function (error) {
     ![](img/931fa855f962d4ca949a232b9384be46.png)
 2.  确保您已经使用以下命令安装了快速和请求模块:
 
-    ```
+    ```js
     npm install express
     npm install ejs
     ```
 
 3.  Run **app.js** using below command:
 
-    ```
+    ```js
     node app.js
     ```
 

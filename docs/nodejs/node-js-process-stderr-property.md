@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const process.stderr
 ```
 
@@ -20,7 +20,7 @@ const process.stderr
 
 ## 【JavaScript】
 
-```
+```js
 // Node.js program to demonstrate the 
 // Process.stderr
 
@@ -37,13 +37,13 @@ console.log(stream.rows)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 16
 ```
 
@@ -53,7 +53,7 @@ node index.js
 
 ## 【JavaScript】
 
-```
+```js
 // Node.js program to demonstrate the 
 // Process.stderr
 
@@ -66,13 +66,13 @@ console.log(process.stderr.columns)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 147
 ```
 

@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 npm install "package-name"
 // OR
 npm i "package-name"
@@ -18,7 +18,7 @@ npm i "package-name"
 
 **语法:**
 
-```
+```js
 npm ci
 ```
 

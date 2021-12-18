@@ -5,7 +5,7 @@
 **fs.filehandle.fd()** 方法是**文件系统**模块中类 **fs.filehandle** 的内置应用编程接口，用于提供该文件句柄对象的数字文件描述符。
 **语法:**
 
-```
+```js
 const filehandle.fd()
 ```
 
@@ -16,7 +16,7 @@ const filehandle.fd()
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // filehandle.fd() method
 const fs = require('fs');
@@ -71,13 +71,13 @@ funct().catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 content of file before operation :- ABCD
 Numeric file descriptor :- 3
 content of file after operation :- ABCD
@@ -88,7 +88,7 @@ content of file after operation :- ABCD
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // filehandle.fd() method
 const fs = require('fs');
@@ -166,13 +166,13 @@ funct().catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 content of file before operation :- This is a file containing a collection of books.
 Numeric file descriptor :- 4
 content of file after operation :- This is a file containing a collection of books.

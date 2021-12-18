@@ -5,7 +5,7 @@
 **crypto.randomFillSync()方法**是加密模块的内置应用编程接口，用于返回作为*缓冲区*参数传递的对象。
 **语法:**
 
-```
+```js
 crypto.randomFillSync( buffer, offset, size )
 ```
 
@@ -22,7 +22,7 @@ crypto.randomFillSync( buffer, offset, size )
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.randomFillSync() method
 
@@ -49,7 +49,7 @@ console.log(buffer.toString('base64'));
 
 **输出:**
 
-```
+```js
 +~`Ld#%KT&6VF1e
 K/7gTBXCFISh30dPoE5o
 K/7gTO7iUG+h30dPoE5o
@@ -60,7 +60,7 @@ K/7gTO7iUG+h30dPoE5o
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.randomFillSync() method
 
@@ -90,7 +90,7 @@ console.log(Buffer.from(crypto.randomFillSync(z).buffer,
 
 **输出:**
 
-```
+```js
 BQrDFc8=
 
 EM4;)N+.qY, o-kp:b:C.

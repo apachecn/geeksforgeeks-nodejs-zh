@@ -15,7 +15,7 @@
 
 **示例:**假设我们有一个名为 **data.json** 的 JSON 文件，其中包含如下某些数据:
 
-```
+```js
 {
     "name": "John",
     "age": 50,
@@ -25,7 +25,7 @@
 
 现在，我们将使用异步和同步函数来读取这些数据。Node.js 内置了一个名为 [<u>fs</u>](https://nodejs.org/api/fs.html#fs_file_system) 的模块，代表文件系统，可以用来以建模的方式与文件进行交互。要使用它，我们需要如下要求:
 
-```
+```js
 const fs = require('fs');
 ```
 
@@ -38,7 +38,7 @@ const fs = require('fs');
 
 ## js
 
-```
+```js
 // Requiring inbuilt module
 const fs = require('fs');
 
@@ -61,13 +61,13 @@ console.log(data);
 
 使用以下命令运行 **index.js** 文件。
 
-```
+```js
 node index.js
 ```
 
 **输出:**我们将在您的终端屏幕上看到以下输出:
 
-```
+```js
 Below is the Data from Synchronous function call
 {
     "name": "John",

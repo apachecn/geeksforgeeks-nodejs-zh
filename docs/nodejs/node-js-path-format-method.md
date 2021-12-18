@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```js
 path.format( pathObject )
 ```
 
@@ -27,7 +27,7 @@ path.format( pathObject )
 
 **例 1:** 在 POSIX
 
-```
+```js
 // Import the path module
 const path = require('path');
 
@@ -68,7 +68,7 @@ console.log("Path 3:", path3);
 
 **输出:**
 
-```
+```js
 Path 1: /home/user/personal/details.txt
 Path 2: /game.dat
 Path 3: /images/image.jpg
@@ -76,7 +76,7 @@ Path 3: /images/image.jpg
 
 **示例 2:** 在 Windows 上
 
-```
+```js
 // Import the path module
 const path = require('path');
 
@@ -116,7 +116,7 @@ console.log("Path 3:", path3);
 
 **输出:**
 
-```
+```js
 Path 1: website\dist\index.html
 Path 2: C:\style.css
 Path 3: website\main.js

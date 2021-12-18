@@ -6,7 +6,7 @@ NPM(节点包管理器)是 Node.js 包的包管理器。有一个名为 arraybuf
 
 **安装命令:**
 
-```
+```js
 npm install arraybuffer-to-string
 ```
 
@@ -14,13 +14,13 @@ npm install arraybuffer-to-string
 
 **在本地文件**中导入包的语法
 
-```
+```js
 const arrayBufferToString = require('arraybuffer-to-string')
 ```
 
 **将数组填充符转换为字符串的语法**
 
-```
+```js
 arrayBufferToString(buffer, encodingType)
 ```
 
@@ -35,7 +35,7 @@ arrayBufferToString(buffer, encodingType)
 
 ## java 描述语言
 
-```
+```js
 const express = require('express')
 const bodyParser = require('body-parser')
 const arrayBufferToString =require('arraybuffer-to-string')
@@ -80,7 +80,7 @@ app.listen(port, () => {
 
 ## java 描述语言
 
-```
+```js
 module.exports = ({errors}) => {
   return `
 <!DOCTYPE html>
@@ -147,7 +147,7 @@ module.exports = ({errors}) => {
 
 ## java 描述语言
 
-```
+```js
 const express = require('express')
 const bodyParser = require('body-parser')
 const arrayBufferToString =require('arraybuffer-to-string')
@@ -193,7 +193,7 @@ app.listen(port, () => {
 
 ## java 描述语言
 
-```
+```js
 module.exports = ({errors}) => {
   return `
 <!DOCTYPE html>

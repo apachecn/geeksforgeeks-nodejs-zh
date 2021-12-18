@@ -6,13 +6,13 @@
 
 我们只需创建一个文件夹并添加一个文件，例如 index.js。
 
-```
+```js
 node index.js
 ```
 
 **文件名:SampleForm .例**
 
-```
+```js
 <!DOCTYPE html>
 <html>
 
@@ -47,7 +47,7 @@ node index.js
 
 **文件名:index.js**
 
-```
+```js
 const express = require("express")
 const path = require('path')
 const app = express()
@@ -87,7 +87,7 @@ app.listen(PORT, function(error){
     ![project structure](img/a0a1a13b0c5eb8c92e89236ccc30e10a.png)
 2.  确保您已经安装了“查看引擎”，就像我使用“ejs”一样，并使用以下命令安装了 express 模块:
 
-    ```
+    ```js
     npm install express
     npm install ejs
 
@@ -95,7 +95,7 @@ app.listen(PORT, function(error){
 
 3.  Run index.js file using below command:
 
-    ```
+    ```js
     node index.js
     ```
 
@@ -103,7 +103,7 @@ app.listen(PORT, function(error){
 
 4.  现在打开浏览器，输入这个网址:
 
-    ```
+    ```js
     http://localhost:3000/
     ```
 

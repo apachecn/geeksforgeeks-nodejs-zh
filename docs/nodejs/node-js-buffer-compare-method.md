@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 buffer1.compare( targetBuffer, targetStart,
             targetEnd, sourceStart, sourceEnd )
 ```
@@ -29,7 +29,7 @@ buffer1.compare( targetBuffer, targetStart,
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.compare() Method
 
@@ -47,14 +47,14 @@ console.log(op);
 
 **输出:**
 
-```
+```js
 0
 -1
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.compare() Method
 
@@ -73,14 +73,14 @@ console.log(array.sort(Buffer.compare));
 
 **输出:**
 
-```
+```js
 [ <Buffer 32>, <Buffer 31>, <Buffer 33> ]
 [ <Buffer 31>, <Buffer 32>, <Buffer 33> ]
 ```
 
 **例 3:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.compare() Method
 
@@ -102,7 +102,7 @@ console.log(op1);
 
 **输出:**
 
-```
+```js
 -1
 1
 ```

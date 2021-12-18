@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const request.stream
 
 ```
@@ -29,7 +29,7 @@ const request.stream
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerRequest.stream method
 
@@ -104,14 +104,14 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```
 
 **输出:**
 
-```
+```js
 stream id :- 1
 status : 200
 Received: hello
@@ -125,7 +125,7 @@ server destroyed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Http2ServerRequest.stream method
 
@@ -189,14 +189,14 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```
 
 **输出:**
 
-```
+```js
 Received: stream id :- 1
 client destroyed
 server destroyed

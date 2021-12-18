@@ -12,26 +12,26 @@
 
 *   **步骤 1:** 使用以下命令为项目创建新文件夹:
 
-    ```
+    ```js
     mkdir morgan
     ```
 
 *   **步骤 2:** 使用以下命令导航到我们的文件夹:
 
-    ```
+    ```js
     cd morgan
     ```
 
 *   **步骤 3:** 使用以下命令和服务器文件初始化 npm:
 
-    ```
+    ```js
     npm init -y
     touch index.js
     ```
 
 *   **步骤 4:** 使用以下命令安装所需的软件包:
 
-    ```
+    ```js
     npm i express morgan
     ```
 
@@ -43,7 +43,7 @@
 
 ## java 描述语言
 
-```
+```js
 const express = require('express');
 const logger = require('morgan');
 const port = 3000;
@@ -62,7 +62,7 @@ app.listen(port, () => {
 
 **运行步骤:**使用以下命令运行应用程序。
 
-```
+```js
 node index.js
 ```
 
@@ -82,7 +82,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 const express = require('express');
 const logger = require('morgan');
 const port = 3000;
@@ -101,7 +101,7 @@ app.listen(port, () => {
 
 **运行步骤:**使用以下命令运行应用程序。
 
-```
+```js
 node index.js
 ```
 

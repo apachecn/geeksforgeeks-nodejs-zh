@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 vm.createContext( contextObject, options )
 ```
 
@@ -21,7 +21,7 @@ vm.createContext( contextObject, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // vm.createContext([contextObject[, options]])
 // method
@@ -52,7 +52,7 @@ console.log("Global Variable is ", global.globalVar);
 
 **输出:**这里，上下文中的 globalVar 在输出 as 中是 2(4/2 = 2)，但是 globalVar 的值仍然是 10。
 
-```
+```js
 Context:  { globalVar: 2 }
 Global Variable is  10
 
@@ -60,7 +60,7 @@ Global Variable is  10
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // vm.createContext([contextObject[, options]])
 // method
@@ -91,7 +91,7 @@ console.log("Global Variable is ", global.globalVar);
 
 **输出:**这里，上下文中的 globalVar 在输出 as 中是 22(20+2 = 22)，但是 globalVar 的值仍然是 5。
 
-```
+```js
 Context:  { globalVar: 22 }
 Global Variable is  5
 

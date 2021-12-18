@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 fs.fchmodSync( fd, mode )
 ```
 
@@ -21,7 +21,7 @@ fs.fchmodSync( fd, mode )
 
 **示例 1:** 该示例显示了使用字符串常量和或运算符来授予文件权限。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.fchmodSync method
 
@@ -70,7 +70,7 @@ console.log("File Contents:", 
 
 **输出:**
 
-```
+```js
 Giving only read permission to user
 Current File Mode: 33024
 File Contents: Hello World
@@ -86,7 +86,7 @@ File Contents: This file has been written over.
 
 **示例 2:** 该示例显示了八进制常量的用法，以赋予文件权限。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.fchmodSync method
 
@@ -137,7 +137,7 @@ console.log("File Contents:", 
 
 **输出:**
 
-```
+```js
 Giving only read permission to everyone
 Current File Mode: 33060
 File Contents: Hello World

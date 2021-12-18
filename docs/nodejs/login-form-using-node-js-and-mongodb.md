@@ -5,37 +5,37 @@
 按照这些简单的步骤学习如何使用 Node.js 和 MongoDB 创建登录表单。登录表单允许用户在使用注册表单创建帐户后登录网站。
 **模块安装:**
 
-```
+```js
 $ npm install ejs
 ```
 
 *   嵌入式 JavaScript 允许您使用普通 javaScript 生成 HTML 标记。
 
-```
+```js
 $ npm install express --save
 ```
 
 *   Express 是 Node 的一个模块框架，可以用于应用程序。
 
-```
+```js
 $ npm install mongoose
 ```
 
 *   Mongoose 是一个针对 MongoDB 和 Node.js 的对象数据建模(ODM)库，它管理数据之间的关系，提供模式验证，并用于在代码中的对象和 MongoDB 中这些对象的表示之间进行转换。
 
-```
+```js
 $ npm install body-parser --save
 ```
 
 *   Body-parser 允许 express 读取 Body，然后将其解析为我们可以理解的 JSON 对象。
 
-```
+```js
 npm install express-session --save
 ```
 
 *   Express.js 使用 cookie 来存储会话 id。
 
-```
+```js
 npm install passport passport-local --save
 npm install passport-local-mongoose --save
 ```
@@ -46,7 +46,7 @@ npm install passport-local-mongoose --save
 
 ## java 描述语言
 
-```
+```js
 var express = require("express"),
     mongoose = require("mongoose"),
     passport = require("passport"),
@@ -149,7 +149,7 @@ app.listen(port, function () {
 
 ## 超文本标记语言
 
-```
+```js
 <h1>This is home page</h1>
 
 <li><a href="/register">Sign up!!</a></li>

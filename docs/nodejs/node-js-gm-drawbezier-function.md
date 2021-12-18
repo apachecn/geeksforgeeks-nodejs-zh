@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 drawBezier( [x0, y0], ..., [xn, yn] )
 ```
 
@@ -19,7 +19,7 @@ drawBezier( [x0, y0], ..., [xn, yn] )
 
 **例 1:**
 
-```
+```js
 // Include gm library
 var gm = require('gm').subClass({imageMagick: true});
 
@@ -44,7 +44,7 @@ gm('1.png')
 
 **例 2:**
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 

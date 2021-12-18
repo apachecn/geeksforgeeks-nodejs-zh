@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const socket.remoteAddress()
 ```
 
@@ -18,7 +18,7 @@ const socket.remoteAddress()
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // server.remoteAddress() method
 
@@ -77,7 +77,7 @@ client.send("Hello", 0, 7, 1234, "localhost");
 
 **输出:**
 
-```
+```js
 server listening 0.0.0.0:1234
 connected
 { address: '127.0.0.1', family: 'IPv4', port: 1234 }
@@ -89,7 +89,7 @@ connected
 
 ## 【JavaScript】
 
-```
+```js
 // Node.js program to demonstrate the
 // server.remoteAddress() method
 
@@ -141,7 +141,7 @@ client.send("Hello", 0, 7, 1234, "localhost");
 
 **输出:**
 
-```
+```js
 node GFG.js
 server listening 0.0.0.0:1234
 dgram.js:745
@@ -162,7 +162,7 @@ Error [ERR_SOCKET_DGRAM_NOT_CONNECTED]: Not connected
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 

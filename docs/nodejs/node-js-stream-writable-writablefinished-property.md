@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 writable.writableFinished
 ```
 
@@ -15,7 +15,7 @@ writable.writableFinished
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.writableFinished Property
 
@@ -59,7 +59,7 @@ writable.destroy();
 
 **输出:**
 
-```
+```js
 GfG, #0!
 GfG, #1!
 GfG, #2!
@@ -73,7 +73,7 @@ All writes are now complete.
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.writableFinished Property
 
@@ -106,7 +106,7 @@ writable.destroy();
 
 **输出**
 
-```
+```js
 GfG
 ```
 

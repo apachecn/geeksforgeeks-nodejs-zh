@@ -8,7 +8,7 @@
 
 **步骤 1:** 创建一个“ **app.js** 文件，并使用 *npm* 初始化您的项目。
 
-```
+```js
 npm init
 ```
 
@@ -22,7 +22,7 @@ npm init
 
 ## app.js
 
-```
+```js
 //Importing fs module 
 const fs = require("fs");
 
@@ -42,7 +42,7 @@ fs.stat("./info.txt", function(err, stats){
 
 使用以下命令运行 **app.js** 文件:
 
-```
+```js
 node app.js
 ```
 

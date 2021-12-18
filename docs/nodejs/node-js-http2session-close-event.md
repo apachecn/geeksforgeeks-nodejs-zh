@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Event: 'close'
 
 ```
@@ -21,7 +21,7 @@ Event: 'close'
 
 **2。文件名:公共证书**打开记事本复制粘贴以下密钥，将文件保存为 ***公共证书 pem***
 
-```
+```js
 -----BEGIN CERTIFICATE-----
 MIICfzCCAegCCQDxxeXw914Y2DANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMC
 SU4xEzARBgNVBAgMCldlc3RiZW5nYWwxEDAOBgNVBAcMB0tvbGthdGExFDASBgNV
@@ -44,7 +44,7 @@ hWF6W2H9+MAlU7yvtmCQQuZmfQ==
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // close event method
 
@@ -122,13 +122,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 server destroyed
 session is closed
 status : 200
@@ -141,7 +141,7 @@ Received: session protocol : h2c
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // close event method
 
@@ -208,13 +208,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 server destroyed
 session is closed
 Received: session protocol : h2c

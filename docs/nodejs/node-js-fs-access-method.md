@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```js
 fs.access( path, mode, callback )
 ```
 
@@ -23,7 +23,7 @@ fs.access( path, mode, callback )
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.access() method
 

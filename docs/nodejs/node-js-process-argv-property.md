@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.argv
 ```
 
@@ -16,7 +16,7 @@ process.argv
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // process.argv Property
 
@@ -29,13 +29,13 @@ console.log(process.argv);
 
 **运行代码的命令:**
 
-```
+```js
 node index.js extra_argument1 extra_argument2 3
 ```
 
 **输出:**
 
-```
+```js
 [ 'C:\\Program Files\\nodejs\\node.exe',
   'C:\\nodejs\\g\\process\\argv_1.js',
   'extra_argument1',
@@ -47,7 +47,7 @@ node index.js extra_argument1 extra_argument2 3
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // process.argv Property
 
@@ -66,13 +66,13 @@ args.forEach((val, index) => {
 
 **运行代码的命令:**
 
-```
+```js
 node index.js extra_argument1 extra_argument2 3
 ```
 
 **输出:**
 
-```
+```js
 number of arguments is 5
 0: C:\Program Files\nodejs\node.exe
 1: C:\nodejs\g\process\argv_2.js

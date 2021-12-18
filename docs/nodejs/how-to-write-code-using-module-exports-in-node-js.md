@@ -29,7 +29,7 @@
 
 ## 计算器. js
 
-```
+```js
 // ***** calculator.js file *****
 class Calculator {
 
@@ -90,7 +90,7 @@ module.exports= Calculator;
 
 ## app.js
 
-```
+```js
 // ***** app.js file  ******
 // Importing Calculator class
 const Calculator = require('./calculator.js');
@@ -120,7 +120,7 @@ console.log(calc.multiply(5, 6))
 
 **运行应用程序的步骤:**打开终端，键入以下命令。
 
-```
+```js
 node app.js
 ```
 

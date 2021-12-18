@@ -8,7 +8,7 @@
 
 **安装快速验证器的命令:**
 
-```
+```js
 npm install express-validator
 
 ```
@@ -29,7 +29,7 @@ npm install express-validator
 
 **文件名–index . js**
 
-```
+```js
 const express = require('express')
 const bodyParser = require('body-parser')
 const {validationResult} = require('express-validator')
@@ -77,7 +77,7 @@ app.listen(port, () => {
 
 **Filename–repository . js:**该文件包含创建本地数据库并与之交互的所有逻辑。
 
-```
+```js
 // Importing node.js file system module 
 const fs = require('fs')
 
@@ -136,7 +136,7 @@ module.exports = new Repository('datastore.json')
 
 **Filename–form . js:**该文件包含显示表单的逻辑。
 
-```
+```js
 const getError = (errors, prop) => {
   try {
     return errors.mapped()[prop].msg
@@ -209,7 +209,7 @@ module.exports = ({errors}) => {
 
 **Filename–validator . js:**该文件包含所有验证逻辑(验证输入字段只允许十六进制数字的逻辑)。
 
-```
+```js
 const {check} = require('express-validator')
 const repo = require('./repository')
 module.exports = {

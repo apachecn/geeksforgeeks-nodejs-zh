@@ -15,7 +15,7 @@
 
 通过以下命令确保安装了节点:
 
-```
+```js
 node -v
 ```
 
@@ -23,7 +23,7 @@ node -v
 
 导航到所需的项目目录，并使用以下命令安装快速(用于创建服务器)和节点缓存 npm 包:
 
-```
+```js
 npm i express node-cache
 ```
 
@@ -37,7 +37,7 @@ npm i express node-cache
 
 ## server.js
 
-```
+```js
 // Importing express module
 const express = require('express')
 
@@ -59,7 +59,7 @@ app.get('/', (req, res)=>{
 
 **运行以下命令:**
 
-```
+```js
 node server.js
 ```
 
@@ -77,7 +77,7 @@ node server.js
 
 ## server.js
 
-```
+```js
 function heavyComputation(){
      let temp = 0;
      for(let i=0; i<100000; i++)
@@ -98,7 +98,7 @@ app.get('/api', (req, res)=>{
 
 **实现节点缓存:**导入[节点缓存 npm 模块](https://www.npmjs.com/package/node-cache)并创建一个新的节点缓存对象
 
-```
+```js
 const NodeCache = require( "node-cache" );
 const myCache = new NodeCache();
 ```
@@ -119,7 +119,7 @@ const myCache = new NodeCache();
 
 ## server.js
 
-```
+```js
 // Importing express module
 const express = require('express')
 

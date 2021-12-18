@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.birthtime
 ```
 
@@ -16,7 +16,7 @@ stats.birthtime
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.birthtime property
 
@@ -43,7 +43,7 @@ fs.lstat('./filename.txt', (err, stats) => {
 
 **输出:**
 
-```
+```js
 Using stat: Wed May 13 2020 18:38:31 GMT+0530 (India Standard Time)
 Using lstat: Sun Jun 21 2020 01:22:55 GMT+0530 (India Standard Time)
 
@@ -51,7 +51,7 @@ Using lstat: Sun Jun 21 2020 01:22:55 GMT+0530 (India Standard Time)
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.birthtime property
 
@@ -70,7 +70,7 @@ const fs = require('fs').promises;
 
 **输出:**
 
-```
+```js
 Using stat synchronous: Sun Jun 21 2020 01:22:55 GMT+0530 
                                     (India Standard Time)
 

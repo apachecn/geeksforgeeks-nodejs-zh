@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const http2.constants
 
 ```
@@ -29,7 +29,7 @@ const http2.constants
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // http2.constants property
 
@@ -96,14 +96,14 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```
 
 **输出:**
 
-```
+```js
 error code : 3
 status : 200
 Received: hello
@@ -117,7 +117,7 @@ server closed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // http2.constant property
 
@@ -172,13 +172,13 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 error code : 0
 Received: world
 client closed

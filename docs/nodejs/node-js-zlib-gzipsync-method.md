@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.gzipSync( buffer, options )
 ```
 
@@ -21,7 +21,7 @@ zlib.gzipSync( buffer, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // zlib.gzipSync() method  
 
@@ -40,7 +40,7 @@ console.log(gzi);
 
 **输出:**
 
-```
+```js
 <Buffer 1f 8b 08 00 00 00 00 00 00 03 f3 cb
     4c c9 c8 04 00 13 f2 5b b1 05 00 00 00>
 
@@ -48,7 +48,7 @@ console.log(gzi);
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // zlib.gzipSync() method  
 
@@ -67,7 +67,7 @@ console.log(gzi);
 
 **输出:**
 
-```
+```js
 1f8b0800000000000003f3cb4cc9c8040013f25bb105000000
 ```
 

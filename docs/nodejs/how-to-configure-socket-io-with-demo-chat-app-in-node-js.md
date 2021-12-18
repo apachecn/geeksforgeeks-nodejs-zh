@@ -12,7 +12,7 @@
 
 **设置环境:**第一步是启动 npm。因此，创建一个新的存储库，并使用以下命令初始化 npm:
 
-```
+```js
 $ mkdir chatApp
 $ cd chatApp
 $ npm init
@@ -28,7 +28,7 @@ $ npm init
 
 只需在您的终端中运行以下命令来安装上述软件包:
 
-```
+```js
 $ npm install --save express
 $ npm install --save socket.io
 $ npm install --save ejs
@@ -40,7 +40,7 @@ $ npm install --save nodemon
 
 **第一步:创建 app.js**
 
-```
+```js
 const express = require('express');
 const app = express();
 
@@ -59,7 +59,7 @@ server = app.listen(3000);
 
 现在要配置 socket.io，首先要在 **app.js** 文件中制作一个对象，如下图:
 
-```
+```js
 const io = require("socket.io")(server);
 
 io.on('connection', (socket) {
@@ -69,7 +69,7 @@ io.on('connection', (socket) {
 
 在这里，io 对象将允许我们访问 **socket.io** 库。io 对象现在正在监听我们应用程序的每个连接。每次新用户连接时，它将打印以下输出:
 
-```
+```js
 New user connected
 ```
 
@@ -79,7 +79,7 @@ New user connected
 
 我们现在将创建一个路线，它将呈现我们的 **index.ejs** 文件，打开我们聊天应用程序的窗口。
 
-```
+```js
 
 app.get("/", function(req, res) {
     res.render("index.ejs");
@@ -91,7 +91,7 @@ app.get("/", function(req, res) {
 
 现在我们将在每个试图连接到我们服务器的客户机上安装 **socket.io** 。为此，我们必须在客户端导入 **socket.io** 库:
 
-```
+```js
 <script src=
 "https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js">
 </script>
@@ -99,7 +99,7 @@ app.get("/", function(req, res) {
 
 在你身体的末端加上这些线条:
 
-```
+```js
 <script src=
 "http://code.jquery.com/jquery-latest.min.js">
 </script>
@@ -108,7 +108,7 @@ app.get("/", function(req, res) {
 
 现在在公共文件夹中创建一个名为 **chat.js** 的 js 文件。
 
-```
+```js
 $ (function() {
     var socket = io.connect('http://localhost:3000');
 });
@@ -119,7 +119,7 @@ $ (function() {
 
 **文件名:app.js**
 
-```
+```js
 const io = require("socket.io")(server);
 io.on('connection', (socket) {
      console.log("New user connected");
@@ -132,7 +132,7 @@ io.on('connection', (socket) {
 
 **档案名称:chat.js**
 
-```
+```js
 $ (function() {
      var socket = io.connect('http://localhost:3000');
      var message = $("#message");
@@ -154,7 +154,7 @@ socket.emit()允许您在服务器和客户端上发出自定义事件。
 **消息:**对于消息，我们修改我们的文件如下所示:
 **文件名:chat.js**
 
-```
+```js
 $ (function() {
  var socket = io.connect('http://localhost:3000');
  var message = $("#message");
@@ -183,7 +183,7 @@ $ (function() {
 
 **文件名:app.js**
 
-```
+```js
 const io = require("socket.io")(server);
 io.on('connection', (socket) {
  console.log("New user connected");    
@@ -211,7 +211,7 @@ io.on('connection', (socket) {
 如果有人在*输入*信息，它会简单地显示出来。在 **chat.js** 和 **app.js** 中编写如下代码，如下所示:
 **文件名:chat.js**
 
-```
+```js
 message.bind("keypress", () {
     socket.emit('typing');
 });
@@ -224,7 +224,7 @@ socket.on('typing', (data) {
 
 **文件名:app.js**
 
-```
+```js
 socket.on('typing', (data) {
     socket.broadcast.emit('typing', {username : socket.username});
 });

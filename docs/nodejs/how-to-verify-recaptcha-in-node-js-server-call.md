@@ -32,7 +32,7 @@
 
 在这里，我们将创建一个简单的 HTML 表单，其中包含操作 as /submit、一个输入字段和一个按钮。同时，我们需要在我们的 HTML 文档中添加 google reCAPTCHA CDN，并在表单中添加 div 标签，以在 HTML 文档中获取 reCAPTCHA。
 
-```
+```js
 CDN: <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 DIV TAG: <div class="g-recaptcha" data-sitekey="your_site_key"></div> 
 ```
@@ -45,7 +45,7 @@ DIV TAG: <div class="g-recaptcha" data-sitekey="your_site_key"></div>
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
 
@@ -93,7 +93,7 @@ DIV TAG: <div class="g-recaptcha" data-sitekey="your_site_key"></div>
 
 ## 半铸钢ˌ钢性铸铁(Cast Semi-Steel)
 
-```
+```js
 .container {
   border: 1px solid rgb(73, 72, 72);
   border-radius: 10px;
@@ -151,7 +151,7 @@ button:hover {
 
 ## java 描述语言
 
-```
+```js
 {
   "name": "google_recaptcha",
   "version": "1.0.0",
@@ -187,7 +187,7 @@ button:hover {
 
 ## java 描述语言
 
-```
+```js
 // Importing express package
 const express = require("express");
 // Importing isomorphic-fetch package
@@ -248,7 +248,7 @@ app.listen(PORT, () => console.log(`Server is running on PORT ${PORT}`));
 
 要运行应用程序，请切换到项目文件夹，并使用命令运行节点应用程序。
 
-```
+```js
 node app.js
 ```
 

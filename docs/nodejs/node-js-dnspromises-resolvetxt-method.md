@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dnsPromises.resolveTxt( hostname )
 ```
 
@@ -20,7 +20,7 @@ dnsPromises.resolveTxt( hostname )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.resolveTxt() method
 
@@ -37,7 +37,7 @@ dnsPromises.resolveTxt('google.com').then((res) => {
 
 **输出:**
 
-```
+```js
 for google :
 [ [ 'docusign=1b0a6754-49b1-4db5-8540-d2c12664b289' ],
   [ 'docusign=05958488-4752-4ef2-95eb-aa7ba8a3bd0e' ],
@@ -50,7 +50,7 @@ for google :
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dnsPromises.resolveTxt() method
 
@@ -74,7 +74,7 @@ const dnsPromises = dns.promises;
 
 **输出:**
 
-```
+```js
 from async:
 [ [ 'v=spf1 include:amazonses.com include:_spf.google.com -all' ],
   [ 'fob1m1abcdp777bf2ncvnjm08n' ]

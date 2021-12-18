@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const process.report.directory
 ```
 
@@ -18,7 +18,7 @@ const process.report.directory
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Process.report.directory Property
 
@@ -34,13 +34,13 @@ console.log(process.report.directory)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 GFG
 ```
 
@@ -50,7 +50,7 @@ GFG
 
 ## 【JavaScript】
 
-```
+```js
 // Node.js program to demonstrate the  
 // Process.report.directory Property
 
@@ -68,13 +68,13 @@ else
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 No file name is assigned
 ```
 

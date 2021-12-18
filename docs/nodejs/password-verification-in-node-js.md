@@ -6,7 +6,7 @@
 
 **安装 bcryptjs:** Node.js 包含一个内置的加密模块的 randomBytes 接口，用于获取安全随机数。
 
-```
+```js
 npm install bcryptjs
 ```
 
@@ -17,7 +17,7 @@ npm install bcryptjs
 
 **例 1:**
 
-```
+```js
 // Use bcryptjs module
 const bcrypt = require("bcryptjs");
 
@@ -48,14 +48,14 @@ bcrypt.hash(password, 8, (err, hashedPassword) => {
 
 **输出:**
 
-```
+```js
 $2a$08$PV4rYpBwXUPAGuMedxUnAOxq/TozK9o/QSUWaKE1XL8psOyZ.JL4q
 true
 ```
 
 **例 2:**
 
-```
+```js
 // Use bcryptjs module
 const bcrypt = require("bcryptjs");
 
@@ -85,7 +85,7 @@ bcrypt.hash(password, 8).then(hashedPassword => {
 
 **输出:**
 
-```
+```js
 $2a$08$LKZU9S9WVs3C.S/zpu2U7eua/ocfzD1ytF68QPT5M600auT6M.SxG
 true
 ```

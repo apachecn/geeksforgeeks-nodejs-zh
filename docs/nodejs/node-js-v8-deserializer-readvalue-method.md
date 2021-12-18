@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v8.Deserializer.readValue();
 ```
 
@@ -18,7 +18,7 @@ v8.Deserializer.readValue();
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 const serializer = new v8.Serializer();
@@ -35,13 +35,13 @@ console.log(deserializer.readValue());
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 true
 GeeksforGeeks
 
@@ -49,7 +49,7 @@ GeeksforGeeks
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 const serializer = new v8.Serializer();
@@ -69,13 +69,13 @@ console.log("deserialized data: " 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 true
 buffer data is:
 <Buffer 4e fc a9 f1 b2 66 9e 29 41>

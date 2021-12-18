@@ -16,7 +16,7 @@
 
 **注意:****流程**模块不需要 *require()* 方法，因为它是自动可用的。
 
-```
+```js
 process.env.NODE_ENV // "development"
 ```
 
@@ -28,7 +28,7 @@ process.env.NODE_ENV // "development"
 
 **第一步:**打造我们自己的**。env 文件**将所有环境变量包含在一个地方。只是确保不要将它们放在源代码管理中，否则，您的历史记录将包含对您的文件的引用。
 
-```
+```js
 NODE_ENV=development
 PORT=8626  // You can add port no. as your preferences
 # Set your database/API connection information here

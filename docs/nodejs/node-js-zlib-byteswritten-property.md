@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.bytesWritten
 ```
 
@@ -16,7 +16,7 @@ zlib.bytesWritten
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // zlib.bytesWritten Property
 
@@ -58,14 +58,14 @@ zlib.deflate(input, (err, deflatedBuffer) => {
 
 **输出:**
 
-```
+```js
 21
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // zlib.bytesWritten property
 
@@ -97,7 +97,7 @@ zlib.deflateRaw(input, (err, buffer) => {
 
 **输出:**
 
-```
+```js
 16
 ```
 

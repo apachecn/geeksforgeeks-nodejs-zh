@@ -5,7 +5,7 @@
 **res.vary()** 功能用于将字段添加到 vary 响应标题中，如果该字段还不存在的话。可变头指示它基本上用于内容协商的头。
 **语法:**
 
-```
+```js
 res.vary( field )
 ```
 
@@ -15,19 +15,19 @@ res.vary( field )
 
 1.  您可以访问[安装快速模块](https://www.npmjs.com/package/express)的链接。您可以使用此命令安装此软件包。
 
-```
+```js
 npm install express
 ```
 
 1.  安装快速模块后，您可以使用命令在命令提示符下检查您的快速版本。
 
-```
+```js
 npm version express
 ```
 
 1.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-```
+```js
 node index.js
 ```
 
@@ -35,7 +35,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 var express = require('express');
 var app = express();
 var PORT = 3000;
@@ -60,25 +60,25 @@ app.listen(PORT, function(err){
 
 1.  使用以下命令确保您已经安装了 **express** 模块:
 
-```
+```js
 npm install express
 ```
 
 1.  使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 1.  **输出:**
 
-```
+```js
 Server listening on PORT 3000
 ```
 
 2.  现在打开浏览器，进入 *http://localhost:3000/* ，现在在你的屏幕上你会看到如下输出:
 
-```
+```js
 Field added to the Vary response header
 ```
 
@@ -86,7 +86,7 @@ Field added to the Vary response header
 
 ## java 描述语言
 
-```
+```js
 var express = require('express');
 var app = express();
 var PORT = 3000;
@@ -111,19 +111,19 @@ app.listen(PORT, function(err){
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 现在打开一个浏览器，转到 *http://localhost:3000/* ，现在在你的屏幕上你会在你的浏览器屏幕上看到以下输出:
 
-```
+```js
 Field added to the Vary response header
 ```
 
 您将在控制台上看到以下输出:
 
-```
+```js
 Server listening on PORT 3000
 Modified
 ```

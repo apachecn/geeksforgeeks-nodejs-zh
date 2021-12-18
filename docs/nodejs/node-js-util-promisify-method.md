@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 util.promisify(func)
 ```
 
@@ -16,7 +16,7 @@ util.promisify(func)
 
 **例 1:**
 
-```
+```js
 // Node.js program to illustrate 
 // util.promisify() methods
 
@@ -42,7 +42,7 @@ readdir('process.cwd()')
 
 **输出:**
 
-```
+```js
 [Error: ENOENT: no such file or directory, 
 scandir 'C:\Users\bhudk\Desktop\nodec\process.cwd()'] {
   errno: -4058,
@@ -54,7 +54,7 @@ scandir 'C:\Users\bhudk\Desktop\nodec\process.cwd()'] {
 
 **例 2:**
 
-```
+```js
 // Node.js program to illustrate 
 // util.promisify() methods
 
@@ -89,7 +89,7 @@ const readFiles = async (path) => {
 
 **例 3:**
 
-```
+```js
 // Node.js program to illustrate 
 // util.promisify() methods
 

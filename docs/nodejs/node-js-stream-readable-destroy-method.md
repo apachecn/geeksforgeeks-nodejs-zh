@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 readable.destroy( error )
 ```
 
@@ -18,7 +18,7 @@ readable.destroy( error )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.destroy() method  
 
@@ -51,13 +51,13 @@ console.log("Stream destroyed");
 
 **输出:**
 
-```
+```js
 Stream destroyed
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.destroy() method  
 
@@ -96,7 +96,7 @@ console.log("Stream destroyed");
 
 **输出:**
 
-```
+```js
 Stream destroyed
 [ 'error' ]
 ```

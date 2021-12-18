@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 request.setTimeout(timeout[, callback])
 ```
 
@@ -18,7 +18,7 @@ request.setTimeout(timeout[, callback])
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // request.setTimeout() method
 
@@ -58,13 +58,13 @@ server.listen(3000, '127.0.0.1', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 timeout
 ```
 
@@ -72,7 +72,7 @@ timeout
 
 ## 【JavaScript】
 
-```
+```js
 // Node.js program to demonstrate the 
 // request.setTimeout() method
 
@@ -99,13 +99,13 @@ http.createServer((req, res) => { }).listen(3000, '127.0.0.1', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 timeout
 ```
 

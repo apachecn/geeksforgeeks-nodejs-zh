@@ -5,19 +5,19 @@
 **安装**
 首先，我们需要为我们的 Nodejs 应用程序包含几个包。
 
-```
+```js
 npm install express --save
 ```
 
 Express 允许我们设置中间件来响应 HTTP 请求。
 
-```
+```js
 npm install body-parser --save
 ```
 
 如果你想读取 HTTP POST 数据，你必须使用“正文解析器”节点模块。
 
-```
+```js
 npm install mongoose --save
 ```
 
@@ -27,7 +27,7 @@ Mongoose 是一个对象文档建模(ODM)层，位于 Node 的 MongoDB 驱动程
 
 ## app.js
 
-```
+```js
 var express=require("express");
 var bodyParser=require("body-parser");
 
@@ -80,7 +80,7 @@ console.log("server listening at port 3000");
 
 ## index.html
 
-```
+```js
 <!DOCTYPE html>
 <html>
 <head>
@@ -143,7 +143,7 @@ crossorigin="anonymous">    
 
 ## 注册成功 _
 
-```
+```js
 <!DOCTYPE html>
 <html>
 <head>
@@ -183,7 +183,7 @@ crossorigin="anonymous">
 
 ## style.css
 
-```
+```js
 .main{
     padding:20px;
     font-family: 'Helvetica', serif;
@@ -220,7 +220,7 @@ input[type=submit] {
 启动 MongoDB。
 运行 app.js 文件
 
-```
+```js
 node app.js
 ```
 

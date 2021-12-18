@@ -19,13 +19,13 @@ Node.js 支持几种机制来传播和处理程序执行过程中出现的错误
 
     **语法:**
 
-    ```
+    ```js
     error.stack
     ```
 
     **示例:**
 
-    ```
+    ```js
     console.log("This program demonstrates "
                 + "stack trace in Node.js");
     var err = new Error().stack
@@ -34,7 +34,7 @@ Node.js 支持几种机制来传播和处理程序执行过程中出现的错误
 
     **输出:**
 
-    ```
+    ```js
     This program demonstrates stack trace in Node.js
     Error
         at Object. (/home/cg/root/2523129/main.js:20:11)
@@ -57,7 +57,7 @@ Node.js 支持几种机制来传播和处理程序执行过程中出现的错误
 
     **示例:**
 
-    ```
+    ```js
     const obj = {};
     Error.captureStackTrace(obj);
     console.log(obj.stack);
@@ -72,7 +72,7 @@ Node.js 支持几种机制来传播和处理程序执行过程中出现的错误
 
     **输出:**
 
-    ```
+    ```js
     Error
         at Object. (/home/cg/root/2523129/main.js:25:13)
         at Module._compile (module.js:570:32)
@@ -91,7 +91,7 @@ Node.js 支持几种机制来传播和处理程序执行过程中出现的错误
 
     **示例:**
 
-    ```
+    ```js
     try {
         throw new Error("Error occurred");  
     }
@@ -102,7 +102,7 @@ Node.js 支持几种机制来传播和处理程序执行过程中出现的错误
 
     **输出:**
 
-    ```
+    ```js
     Error
         at Object. (/home/cg/root/2523129/main.js:25:13)
         at Module._compile (module.js:570:32)
@@ -121,13 +121,13 @@ Node.js 支持几种机制来传播和处理程序执行过程中出现的错误
 
     **示例:**
 
-    ```
+    ```js
     console.trace("hello world");
     ```
 
     **输出:**
 
-    ```
+    ```js
     Trace: hello world
         at Object. (/home/cg/root/2523129/main.js:28:9)
         at Module._compile (module.js:570:32)

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.arch
 ```
 
@@ -16,7 +16,7 @@ process.arch
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // process.arch Property
 
@@ -29,13 +29,13 @@ console.log(process.arch);
 
 **输出:**
 
-```
+```js
 x64
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // process.arch Property
 
@@ -90,7 +90,7 @@ switch(process.arch) {
 
 **输出:**
 
-```
+```js
 64-bit extended systems
 ```
 

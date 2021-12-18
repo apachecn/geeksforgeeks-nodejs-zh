@@ -8,7 +8,7 @@ fs.writeFile()方法基于回调。使用回调方法导致回调嵌套或回调
 
 **语法:**
 
-```
+```js
 fs.writeFile(path, data, options)
 ```
 
@@ -27,7 +27,7 @@ fs.writeFile(path, data, options)
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 const util = require('util')
@@ -75,7 +75,7 @@ readFile('./testFile.txt')
 
 使用异步等待实现相同的功能。
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 const util = require('util')
@@ -121,7 +121,7 @@ writeFileContent('./testFile.txt', 
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -131,7 +131,7 @@ node index.js
 **示例 2:** 当给定的文件路径不存在时。
 T3】文件名:index.js
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 const util = require('util')
@@ -169,7 +169,7 @@ writeFile('./testFile.txt', 
 
 使用异步等待实现相同的功能。
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 const util = require('util')
@@ -209,7 +209,7 @@ writeFileContent('./testFile.txt', 
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 

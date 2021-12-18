@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 fs.lchownSync( fd, uid, gid )
 ```
 
@@ -22,7 +22,7 @@ fs.lchownSync( fd, uid, gid )
 
 **示例 1:** 此示例显示了使用 lchownSync()方法设置所有者和组。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.lchownSync() method
 
@@ -45,7 +45,7 @@ console.log("Given uid and gid set successfully");
 
 **运行代码前:**
 
-```
+```js
 xubuntu@xubuntu: ~/Desktop/fs-lchownSync$ ls -l
 total 4
 -rw-rw--w- 1 xubuntu xubuntu 4 Apr 26 05:10 example_file.txt
@@ -55,14 +55,14 @@ total 4
 
 **代码输出:**
 
-```
+```js
 Given uid and gid set successfully
 
 ```
 
 **运行代码后:**
 
-```
+```js
 xubuntu@xubuntu: ~/Desktop/fs-lchownSync$ ls -l
 total 4
 -rw-rw--w- 1 xubuntu xubuntu 4 Apr 26 05:10 example_file.txt
@@ -73,7 +73,7 @@ lrwxrwxrwx 1 geeksforgeeks editor 16 Apr 26 09:15 symlinkFile -> example_file.tx
 
 **示例 2:** 此示例显示了 chownSync()和 lchownSync()在取消符号链接引用方面的比较。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.lchownSync() method
 
@@ -103,7 +103,7 @@ console.log("chownSync: uid and gid set successfully");
 
 **运行代码前:**
 
-```
+```js
 xubuntu@xubuntu: ~/Desktop/fs-lchownSync$ ls -l
 total 4
 -rw-rw--w- 1 xubuntu xubuntu 6 Apr 26 09:15 example_file.txt
@@ -113,7 +113,7 @@ total 4
 
 **代码输出:**
 
-```
+```js
 lchownSync: uid and gid set successfully
 chownSync: uid and gid set successfully
 
@@ -121,7 +121,7 @@ chownSync: uid and gid set successfully
 
 **运行代码后:**
 
-```
+```js
 xubuntu@xubuntu: ~/Desktop/fs-lchownSync$ ls -l
 total 4
 -rw-rw--w- 1 sam editor 6 Apr 26 09:15 example_file.txt

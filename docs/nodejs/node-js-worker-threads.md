@@ -7,7 +7,7 @@ Node.js 中的**工作线程**对于执行繁重的 JavaScript 任务非常有�
 现在为实现这个线程创建两个文件，如下所示:
 **文件名:worker.js**
 
-```
+```js
 const { workerData, parentPort } 
         = require('worker_threads')
 
@@ -22,7 +22,7 @@ parentPort.postMessage(
 
 **文件名:index.js**
 
-```
+```js
 const { Worker } = require('worker_threads')
 
 function runService(workerData) {
@@ -51,13 +51,13 @@ run().catch(err => console.error(err))
 
 **运行该应用程序的步骤:**运行以下命令:
 
-```
+```js
 node index.js
 ```
 
 以下命令的输出如下所示:
 
-```
+```js
 Technical Articles on GeeksForGeeks
 { fileName: 'GeeksForGeeks', status: 'Done' }
 

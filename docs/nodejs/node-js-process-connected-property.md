@@ -6,7 +6,7 @@ process.connected 属性是进程模块的一个内置属性，子进程使用�
 
 **语法:**
 
-```
+```js
 process.connected
 ```
 
@@ -16,7 +16,7 @@ process.connected
 
 ## 亲子
 
-```
+```js
 // Require fork method from child_process 
 // to spawn child process
 const fork = require('child_process').fork;
@@ -30,7 +30,7 @@ const child = fork(child_file);
 
 ## 亲子
 
-```
+```js
 console.log('In Child.js')
 
 // If it is connected
@@ -47,13 +47,13 @@ if (process.connected) {
 
 使用以下命令运行**父. js** 文件:
 
-```
+```js
 node Parent.js
 ```
 
 **输出:**
 
-```
+```js
 In Child.js
 Child.js is connected
 ```
@@ -62,7 +62,7 @@ Child.js is connected
 
 ## 亲子
 
-```
+```js
 // Require fork method from child_process 
 // to spawn child process
 const fork = require('child_process').fork;
@@ -76,7 +76,7 @@ const child = fork(child_file);
 
 ## 亲子
 
-```
+```js
 console.log('In Child.js')
 
 // Disconnect the process
@@ -96,13 +96,13 @@ if (process.connected) {
 
 使用以下命令运行**父. js** 文件:
 
-```
+```js
 node Parent.js
 ```
 
 **输出:**
 
-```
+```js
 In Child.js
 Child.js is disconnected
 ```

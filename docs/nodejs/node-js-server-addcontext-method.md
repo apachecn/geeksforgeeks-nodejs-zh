@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 server.addContext(hostname, context)
 
 ```
@@ -22,7 +22,7 @@ server.addContext(hostname, context)
 
 1.  **Private key:** Open notepad and copy paste the following key:
 
-    ```
+    ```js
     -----BEGIN RSA PRIVATE KEY-----
     MIICXQIBAAKBgQC38R9wXcUbhOd44FavgmE5R3K4JeYOHLnI7dUq1B8/Gv7l3SOg
     JKef/m9gM1KvUx951mapXGtcWgwB08J3vUE2YOZ4tWJArrVZES0BI/RmFAyhQFP5
@@ -44,7 +44,7 @@ server.addContext(hostname, context)
 
 2.  **公钥证书:**打开记事本复制粘贴如下密钥:
 
-    ```
+    ```js
     -----BEGIN CERTIFICATE-----
     MIICfzCCAegCCQDxxeXw914Y2DANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMC
     SU4xEzARBgNVBAgMCldlc3RiZW5nYWwxEDAOBgNVBAcMB0tvbGthdGExFDASBgNV
@@ -67,7 +67,7 @@ server.addContext(hostname, context)
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the
 // server.setBroadcast() method
 
@@ -158,7 +158,7 @@ client.on("error", function (error) {
 
 **输出:**
 
-```
+```js
 context is added
 I'm listening at 127.0.0.1, on port 1337
 Connection not authorized: DEPTH_ZERO_SELF_SIGNED_CERT
@@ -170,7 +170,7 @@ Connection closed
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Node.js program to demonstrate the
 // server.addcontext() method
 
@@ -225,13 +225,13 @@ var client = tls.connect(PORT, 
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 context is added
 I'm listening at 127.0.0.1, on port 1337
 

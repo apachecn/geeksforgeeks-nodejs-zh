@@ -8,7 +8,7 @@
 
 安装纱线，请访问纱线官方安装页面([https://classic.yarnpkg.com/en/docs/install](https://classic.yarnpkg.com/en/docs/install))。该页面将自动检测您正在使用的操作系统。安装页面中还提到了其他安装说明。按照安装管理器上的步骤完成安装过程后，在 ternimal/命令提示符下键入以下命令。
 
-```
+```js
 yarn --version 
 ```
 
@@ -18,7 +18,7 @@ yarn --version
 
 要使用纱线，请转到需要安装模块的文件夹。如果没有用纱线初始化，运行**纱线初始化**命令。它将询问一些关于创建**包. json** 文件项目的问题。package.json 文件是最重要的文件，因为它包含项目所需的必要模块。任何拥有 package.json 文件的人都可以运行一些命令(我们将在后面讨论)来安装项目所需的所有依赖项。当您运行**纱线初始化**命令时，您会得到类似的问题:
 
-```
+```js
 question name (testdir): my-awesome-package
 question version (1.0.0):
 question description: 
@@ -35,7 +35,7 @@ Done in 87.70s.
 
 完成后，创建一个包 json 文件。如果打开 package.json 文件，应该如下所示:
 
-```
+```js
 {
      "name": "my-awesome-package",
      "version": "1.0.0",
@@ -59,7 +59,7 @@ Done in 87.70s.
 
 现在我们将了解如何使用纱线安装包装。假设我们想要安装名为 express 的包。我们将输入以下命令来安装 express:
 
-```
+```js
 // Command to install express to the current project folder
 yarn add express  
 

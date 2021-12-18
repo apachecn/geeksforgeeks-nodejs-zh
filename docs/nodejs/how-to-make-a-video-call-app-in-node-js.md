@@ -15,7 +15,7 @@
 
 **设置环境:**这是第一步，这里我们正在创建和初始化一个新的存储库。
 
-```
+```js
 $ mkdir VideoCallApp 
 $ cd VideoCallApp
 $ npm init
@@ -31,7 +31,7 @@ $ npm init
 
 **安装** **所需模块:**
 
-```
+```js
 $ npm install express
 $ npm install ejs
 $ npm install socket.io
@@ -46,7 +46,7 @@ $ npm install nodemon
 
 ## Java Script 语言
 
-```
+```js
 // Importing express module
 const express = require('express'); 
 const app = express(); 
@@ -69,7 +69,7 @@ server.listen(4000 , ()=>{
 
 **服务器的执行命令**
 
-```
+```js
 node server.js
 ```
 
@@ -83,7 +83,7 @@ node server.js
 
 ## java 描述语言
 
-```
+```js
 const server = require('http').Server(app);
 const io = require('socket.io')(server);
 
@@ -105,7 +105,7 @@ server.listen(4000 , ()=>{
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 

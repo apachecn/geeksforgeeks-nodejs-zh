@@ -9,7 +9,7 @@ Node.js 有一个名为 HTTP 的内置模块，它允许 Node.js 通过超文本
 
 **示例:**
 
-```
+```js
 // Import the Node.js http module
 var http = require('http'); 
 
@@ -55,7 +55,7 @@ console.log('Node.js web server at port 8081 is running..')
 
 下面的例子演示了如何在 Node.js 中处理 HTTP 请求和响应
 
-```
+```js
 // Import Node.js core module i.e http
 var http = require('http');
 

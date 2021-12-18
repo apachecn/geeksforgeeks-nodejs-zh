@@ -6,7 +6,7 @@ util . types . isun t32 Array()(在 v10.0.0 中添加)方法是 util 模块的�
 
 **语法:**
 
-```
+```js
 const util = require('util');
 util.types.isUint32Array( value )
 
@@ -22,7 +22,7 @@ util.types.isUint32Array( value )
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the
 // util.types.isUint32Array() method
 
@@ -71,7 +71,7 @@ console.log("7.>", util.types.isUint32Array(
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -93,7 +93,7 @@ node index.js
 
 **示例 2:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the
 // util.types.isUint32Array() method
 
@@ -154,7 +154,7 @@ else
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

@@ -24,7 +24,7 @@
 
 ## java 描述语言
 
-```
+```js
 <script>
   const promise = new Promise(function (resolve, reject) {
     const string1 = "geeksforgeeks";
@@ -48,7 +48,7 @@
 
 **输出:**
 
-```
+```js
 Promise resolved successfully
 ```
 
@@ -64,7 +64,7 @@ wait 只能在异步函数中使用。它用于调用异步函数，并等待它
 
 ## java 描述语言
 
-```
+```js
 <script>
   const helperPromise = function () {
     const promise = new Promise(function (resolve, reject) {
@@ -95,7 +95,7 @@ wait 只能在异步函数中使用。它用于调用异步函数，并等待它
 
 **输出:**
 
-```
+```js
 Strings are same
 ```
 

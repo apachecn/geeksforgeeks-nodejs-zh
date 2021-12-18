@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const x509.toString()
 ```
 
@@ -18,7 +18,7 @@ const x509.toString()
 
 **公共证书:**打开记事本复制粘贴以下密钥，将文件保存为 ***公共证书 pem***
 
-```
+```js
 -----BEGIN CERTIFICATE-----
 MIICfzCCAegCCQDxxeXw914Y2DANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMC
 SU4xEzARBgNVBAgMCldlc3RiZW5nYWwxEDAOBgNVBAcMB0tvbGthdGExFDASBgNV
@@ -41,7 +41,7 @@ hWF6W2H9+MAlU7yvtmCQQuZmfQ==
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // x509.toString() function
 
@@ -64,13 +64,13 @@ console.log( value)
 
 使用以下命令运行 index.js 文件。
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 -----BEGIN CERTIFICATE-----
 MIICfzCCAegCCQDxxeXw914Y2DANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMC
 SU4xEzARBgNVBAgMCldlc3RiZW5nYWwxEDAOBgNVBAcMB0tvbGthdGExFDASBgNV
@@ -93,7 +93,7 @@ hWF6W2H9+MAlU7yvtmCQQuZmfQ==
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // x509.toString() function
 
@@ -110,13 +110,13 @@ console.log((new X509Certificate(
 
 使用以下命令运行 index.js 文件。
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 -----BEGIN CERTIFICATE-----
 MIICfzCCAegCCQDxxeXw914Y2DANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMC
 SU4xEzARBgNVBAgMCldlc3RiZW5nYWwxEDAOBgNVBAcMB0tvbGthdGExFDASBgNV

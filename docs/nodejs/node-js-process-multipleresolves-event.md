@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```js
 Event: 'multipleResolves'
 ```
 
@@ -23,7 +23,7 @@ Event: 'multipleResolves'
 
 ## index.js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Process 'multipleResolves' Event
 
@@ -63,7 +63,7 @@ myFunction().then();
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -92,7 +92,7 @@ node index.js
 
 ## index.js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Process 'multipleResolves' Event
 
@@ -124,7 +124,7 @@ myFunction().then();
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

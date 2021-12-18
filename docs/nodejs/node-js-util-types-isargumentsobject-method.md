@@ -7,7 +7,7 @@ util . types . isargumentobject()方法用于检查给定值是否是参数对�
 
 **语法:**
 
-```
+```js
 util.types.isArgumentsObject( value )
 
 ```
@@ -25,7 +25,7 @@ util.types.isArgumentsObject( value )
 
 ## Node.js
 
-```
+```js
 // Node.js program to demonstrate the
 // util.types.isArgumentsObject() method
 
@@ -45,7 +45,7 @@ console.log(util.types.isArgumentsObject(
 
 **输出:**
 
-```
+```js
 true
 false
 false
@@ -56,7 +56,7 @@ false
 
 ## Node.js
 
-```
+```js
 // Node.js program to demonstrate the
 // util.types.isArgumentsObject() method
 
@@ -85,7 +85,7 @@ exampleFn('hello', 'world');
 
 **输出:**
 
-```
+```js
 [Arguments] { '0': 'hello', '1': 'world' }
 Object is arguments object: true
 { arg1: 'hello', arg2: 'world' }

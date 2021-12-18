@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const dir.close()
 ```
 
@@ -21,7 +21,7 @@ const dir.close()
 
 ## java 描述语言
 
-```
+```js
 // Node program to demonstrate the
 // dir.close() method
 const fs = require('fs');
@@ -47,7 +47,7 @@ stop('./').catch(console.error);
 
 使用以下命令运行 **GFG.js** 文件:
 
-```
+```js
 node GFG.js
 ```
 
@@ -59,7 +59,7 @@ node GFG.js
 
 ## java 描述语言
 
-```
+```js
 // Node program to demonstrate the
 // dir.close() API
 const fs = require('fs');
@@ -95,7 +95,7 @@ stop('./').catch(console.error);
 
 使用以下命令运行 **GFG.js** 文件:
 
-```
+```js
 node GFG.js
 ```
 

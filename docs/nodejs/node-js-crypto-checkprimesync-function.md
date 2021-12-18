@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const crypto.checkPrimeSync(candidate[, options])
 ```
 
@@ -21,7 +21,7 @@ const crypto.checkPrimeSync(candidate[, options])
 
 ## index.js
 
-```
+```js
 // Node.js program to demonstrate the  
 // crypto.checkPrimeSync() function
 
@@ -45,13 +45,13 @@ console.log("candidate is not a prime")
 
 **使用以下命令运行 index.js 文件:**
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 candidate is not a prime
 ```
 
@@ -59,7 +59,7 @@ candidate is not a prime
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // crypto.checkPrimeSync() function
 
@@ -83,13 +83,13 @@ console.log("candidate is not a prime")
 
 **使用以下命令运行 index.js 文件:**
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 candidate is not a prime
 ```
 

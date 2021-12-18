@@ -13,14 +13,14 @@ Passport 是节点的认证中间件。它被设计为服务于一个单一的�
 
 首先让我们生成一个快速应用程序，然后安装所需的模块
 
-```
+```js
 > npm install passport passport-local mongoose passport-local-mongoose --save
 
 ```
 
 **1。首先创建如下目录结构:**
 
-```
+```js
 --model
 ----user.js
 --route
@@ -31,7 +31,7 @@ Passport 是节点的认证中间件。它被设计为服务于一个单一的�
 
 **2。创建定义用户模式的模型/用户. js 文件**
 
-```
+```js
 // importing modules
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
@@ -55,14 +55,14 @@ UserSchema.plugin(passportLocalMongoose);
 
 首先，在 app.js 中，您必须初始化 passport
 
-```
+```js
 app.use(passport.initialize());
 app.use(passport.session());
 ```
 
 passport 将保持持久的登录会话。为了使持久会话在 passport 中工作，必须将经过身份验证的用户序列化到会话中，并在发出后续请求时反序列化。带着护照-本地猫鼬
 
-```
+```js
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 ```
@@ -71,7 +71,7 @@ passport.deserializeUser(User.deserializeUser());
 
 现在我们必须确定护照的策略。对于护照本地猫鼬的代码是
 
-```
+```js
 const User = require('./models/user');
 
 const LocalStrategy = require('passport-local').Strategy;
@@ -84,7 +84,7 @@ passport.use(new LocalStrategy(User.authenticate()));
 
 首先导入用户模式以及其他必要的模块
 
-```
+```js
 // importing modules 
 const express = require('express'); 
 const router = express.Router(); 
@@ -97,7 +97,7 @@ const User = require('../model/user');
 
 现在注册代码应该是
 
-```
+```js
 router.post('/login', function(req, res) {
 
     Users=new User({email: req.body.email, username : req.body.username});
@@ -116,7 +116,7 @@ router.post('/login', function(req, res) {
 
 在上面的代码中，我们没有在新用户中定义密码。相反，我们对用户使用密码。Register()是一个护照-本地-猫鼬函数。现在，如果您检查数据库中保存的用户，它将如下所示
 
-```
+```js
 {
     "_id" : ObjectId("5ca8b66535947f4c1e93c4f1"),
     "username" : "username you gave",
@@ -146,7 +146,7 @@ d73a888fdb58f821fbe5f7d92e20ff8d7c98e8164b4f10d5528fddbcc7737fd21b12d571355cc605
 
 现在登录
 
-```
+```js
 userController.doLogin = function(req, res) {
   if(!req.body.username){
     res.json({success: false, message: "Username was not given"})
@@ -186,7 +186,7 @@ userController.doLogin = function(req, res) {
 
 setPassword 的代码是
 
-```
+```js
 // user is your result from userschema using mongoose id
  user.setPassword(req.body.password, function(err, user){ ..
 
@@ -194,7 +194,7 @@ setPassword 的代码是
 
 用于更改密码
 
-```
+```js
 // user is your result from userschema using mongoose id
   user.changePassword(req.body.oldpassword, req.body.newpassword, function(err) ...
 

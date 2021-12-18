@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.lstatSync( path, options )
 ```
 
@@ -22,7 +22,7 @@ fs.lstatSync( path, options )
 
 **示例 1:** 本示例使用 fs.lstatSync()方法获取文件符号链接的详细信息。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.lstatSync() method
 
@@ -42,7 +42,7 @@ console.log(statsObj);
 
 **输出:**
 
-```
+```js
 Symlink to file created
 Stat of symlinkToFile
 Stats {
@@ -70,7 +70,7 @@ Stats {
 
 **示例 2:** 本示例使用 fs.lstatSync()方法获取指向文件夹的符号链接的详细信息。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.lstatSync() method
 
@@ -89,7 +89,7 @@ console.log(statsObj);
 
 **输出:**
 
-```
+```js
 Stat of symlinkToDir
 Stats {
   dev: 3229478529,

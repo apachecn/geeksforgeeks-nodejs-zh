@@ -8,7 +8,7 @@
 
 *   **NPM Install Command:** Installs a package in the *package.json* file in the local *node_modules* folder.
 
-    ```
+    ```js
     npm install
     ```
 
@@ -20,7 +20,7 @@
 
 *   **NPM Uninstall Command:** Remove a package fromthe *package.json* file andremoves the module from the local *node_modules* folder.
 
-    ```
+    ```js
     npm uninstall 
     ```
 
@@ -32,7 +32,7 @@
 
 *   **NPM Update Command:** This command updates the specified package. If no package is specified then it updates all the packages in the specified location.
 
-    ```
+    ```js
     npm update 
     ```
 
@@ -44,7 +44,7 @@
 
 *   **NPM Global Update Command:** This command will apply the update action to each globally installed package.
 
-    ```
+    ```js
     npm update -g
     ```
 
@@ -56,13 +56,13 @@
 
 *   **NPM 弃用命令:**该命令将弃用包的 NPM 注册表，向所有试图安装它的人提供弃用警告。
 
-    ```
+    ```js
     npm deprecate
     ```
 
 *   **NPM Outdated Command:** Checks the registry if any (or specified) package is outdated. It prints a list of all packages which are outdated.
 
-    ```
+    ```js
     npm outdated
     ```
 
@@ -74,7 +74,7 @@
 
 *   **NPM Doctor Command:** Checks our environment so that our npm installation has what it needs to manage our JavaScript packages.
 
-    ```
+    ```js
     npm doctor
     ```
 
@@ -84,7 +84,7 @@
 
 *   **NPM Initialize Command** Creates a package.json file in our directory. It basically asks some questions and finally creates a package.json file in the current project directory.
 
-    ```
+    ```js
     npm init
     ```
 
@@ -94,13 +94,13 @@
 
 *   **NPM 启动命令**运行脚本中*启动*属性中定义的命令。如果没有定义，它将运行*节点 server.js* 命令。
 
-    ```
+    ```js
     npm start
     ```
 
 *   **NPM Build Command:** It is used to build a package.
 
-    ```
+    ```js
     npm build
     ```
 
@@ -112,7 +112,7 @@
 
 *   **NPM List Command:** Lists all the packages as well as their dependencies installed.
 
-    ```
+    ```js
     npm ls
     ```
 
@@ -124,7 +124,7 @@
 
 *   **NPM Version Command:** Bumps a package version.
 
-    ```
+    ```js
     npm version
     ```
 
@@ -136,7 +136,7 @@
 
 *   **NPM Search Command:** Searches the npm registry for packages matching the search terms.
 
-    ```
+    ```js
     npm search
     ```
 
@@ -146,7 +146,7 @@
 
 *   **NPM Help Command:** Searches npm help documentation for a specified topic. It is used whenever the user needs help to get some reference.
 
-    ```
+    ```js
     npm help
     ```
 
@@ -156,6 +156,6 @@
 
 *   **NPM 所有者命令:**管理发布包的所有权。它用于管理包所有者。
 
-    ```
+    ```js
     npm owner
     ```

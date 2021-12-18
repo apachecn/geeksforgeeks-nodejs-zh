@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.abort()
 ```
 
@@ -20,7 +20,7 @@ process.abort()
 
 ## index . js
 
-```
+```js
 // Function to illustrate abort method
 const RunWithAbort = () => {
     console.log('Start...');
@@ -58,13 +58,13 @@ RunWithAbort();
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**我们将在控制台屏幕上看到以下输出。
 
-```
+```js
 Start...
 GeeksForGeeks
 GeeksForGeeks
@@ -77,7 +77,7 @@ Abort trap: 6
 
 ## index . js
 
-```
+```js
 // Function to illustrate abort method
 const RunWithAbort = () => {
     console.log('Start...');
@@ -118,13 +118,13 @@ RunWithAbort();
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**我们将在控制台屏幕上看到以下输出。
 
-```
+```js
 Start...
 GeeksForGeeks : 1 second
 GeeksForGeeks : 2 second

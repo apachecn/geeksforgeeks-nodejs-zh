@@ -9,19 +9,19 @@
 
 *   安装快速包
 
-```
+```js
 npm install express
 ```
 
 *   正在启动快速服务器(设置应用程序侦听器)
 
-```
+```js
 app.listen(PORT, callback)
 ```
 
 *   为“POST”表单提交和设置中间件函数调用创建路由
 
-```
+```js
 app.post(path, middleware, callback)
 ```
 
@@ -36,7 +36,7 @@ app.post(path, middleware, callback)
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
 

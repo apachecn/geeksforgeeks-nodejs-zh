@@ -5,7 +5,7 @@
 **fs.rmdirSync()方法**用于同步删除给定路径的目录。它还可以通过配置 options 对象递归地用于移除嵌套目录。它返回未定义。
 **语法:**
 
-```
+```js
 fs.rmdirSync( path, options )
 ```
 
@@ -22,7 +22,7 @@ fs.rmdirSync( path, options )
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.rmdirSync() method
 
@@ -53,7 +53,7 @@ function getCurrentFilenames() {
 
 **输出:**
 
-```
+```js
 Current filenames:
 directory_one
 index.js
@@ -69,7 +69,7 @@ package.json
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.rmdirSync() method
 
@@ -101,7 +101,7 @@ function getCurrentFilenames() {
 
 **输出:**
 
-```
+```js
 Current filenames:
 directory_one
 index.js

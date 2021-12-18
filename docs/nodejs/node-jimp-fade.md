@@ -6,7 +6,7 @@
 **渐变()**功能是 Nodejs | Jimp 中的一个内置功能，它以 0 到 1 之间的因子渐变每个像素。
 **语法:**
 
-```
+```js
 fade(f, cb)
 ```
 
@@ -23,13 +23,13 @@ fade(f, cb)
 
 ### 步骤 1:设置环境
 
-```
+```js
 npm init -y
 ```
 
 ### 第二步:安装*跳*
 
-```
+```js
 npm install jimp --save
 ```
 
@@ -37,7 +37,7 @@ npm install jimp --save
 
 ## java 描述语言
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');
@@ -63,7 +63,7 @@ main();
 
 ## java 描述语言
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');

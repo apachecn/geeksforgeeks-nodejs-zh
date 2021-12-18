@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 readable.readableEnded
 ```
 
@@ -16,7 +16,7 @@ readable.readableEnded
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.readableEnded Property  
 
@@ -48,7 +48,7 @@ readable.readableEnded;
 
 **输出:**
 
-```
+```js
 read: hello
 true
 end!!
@@ -57,7 +57,7 @@ end!!
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.readableEnded Property  
 
@@ -87,7 +87,7 @@ readable.readableEnded;
 
 **输出:**
 
-```
+```js
 false
 read: hello
 

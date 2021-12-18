@@ -5,7 +5,7 @@
 **app.get()** 函数将 HTTP GET 请求路由到由指定回调函数指定的路径。基本上是为了将中间件绑定到您的应用程序。
 **语法:**
 
-```
+```js
 app.get( path, callback )
 ```
 
@@ -19,19 +19,19 @@ app.get( path, callback )
 
 1.  您可以访问[安装快速模块](https://www.npmjs.com/package/express)的链接。您可以使用此命令安装此软件包。
 
-```
+```js
 npm install express
 ```
 
 1.  安装 express 模块后，您可以使用命令在命令提示符下检查您的 express 版本。
 
-```
+```js
 npm version express
 ```
 
 1.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-```
+```js
 node index.js
 ```
 
@@ -39,7 +39,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 var express = require('express');
 var app = express();
 var PORT = 3000;

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 util.types.isModuleNamespaceObject( value ); 
 ```
 
@@ -18,7 +18,7 @@ util.types.isModuleNamespaceObject( value );
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Requiring module
 const util = require('util');
 const mongoose = require('mongoose')
@@ -29,7 +29,7 @@ console.log(util.types.isModuleNamespaceObject(util))
 
 **输出:**
 
-```
+```js
 false
 false
 
@@ -37,7 +37,7 @@ false
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Requiring file
 const b = require('./index.js');
 // The index.js can be anyfile located in 
@@ -55,13 +55,13 @@ if (util.types.isModuleNamespaceObject(b)) {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 It is not a namespaceobject module
 ```
 

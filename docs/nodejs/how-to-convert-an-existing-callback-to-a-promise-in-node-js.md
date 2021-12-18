@@ -6,7 +6,7 @@
 
 **示例:**演示这个的最佳示例是使用 setTimeout()函数，该函数接受回调并延迟 JavaScript 代码的执行。一旦设置为函数的时间结束，回调函数就会执行。
 
-```
+```js
 // Defining a callback function 
 var callback = ()=>{
     console.log("Hello! GeeksforGeeks");
@@ -24,7 +24,7 @@ setTimeout(callback, 2000);
 
 **输出:**
 
-```
+```js
 Hello! GeeksforGeeks
 ```
 
@@ -38,7 +38,7 @@ Hello! GeeksforGeeks
 
 **将现有回调转换为承诺:**
 
-```
+```js
 // Existing Callback
 var callback = function(err, success) {
     if(err) {
@@ -69,7 +69,7 @@ caller('Sad', callback);
 
 **输出:**
 
-```
+```js
 Geek is optimistic, thus becomes successful
 Geek is very sad!
 ```
@@ -82,7 +82,7 @@ Geek is very sad!
 *   以下列任何一种方式使用成功和错误方法。
 *   为了更好地理解，请参见下面的代码片段。
 
-```
+```js
 // This snippet briefly shows
 // the implementation
 var error = function(){
@@ -126,7 +126,7 @@ caller('Sad').then(success).catch(error);
 
 **输出:**
 
-```
+```js
 Geek is optimistic, thus becomes successful
 Geek is very sad!
 ```
@@ -139,7 +139,7 @@ Geek is very sad!
 
 **示例:**这里，场景是我们有一个学生数组，id 和 name 作为值。我们需要获得拥有给定 id 的学生的姓名。我们得到了一个现有的回调，需要转换成一个承诺。
 
-```
+```js
 /* The following code snippet depicts a GET request
 to the server made by the client, which requests for
 the name of the student with a given student id. Here we
@@ -213,7 +213,7 @@ app.listen(8000, 'localhost', function () {
 
 现在，我们可以将回调函数转换为承诺。在这里，我们可以再次遵循前面的步骤，即失败函数中的错误逻辑和成功函数中的成功逻辑。请查看下面的代码，以便更清楚。
 
-```
+```js
 const express = require('express');
 const app = express();
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.mkdtemp( prefix, options, callback )
 ```
 
@@ -22,7 +22,7 @@ fs.mkdtemp( prefix, options, callback )
 
 **示例 1:** 本示例在当前目录中创建一个前缀为“temp-”的临时目录。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.mkdtemp() method
 
@@ -40,13 +40,13 @@ fs.mkdtemp("temp-", (err, folder) => {
 
 **输出:**
 
-```
+```js
 The temporary folder path is: temp-2jEcWI
 ```
 
 **示例 2:** 本示例在操作系统的临时目录中创建一个临时文件夹。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.mkdtemp() method
 
@@ -73,7 +73,7 @@ fs.mkdtemp(`${tmpDir}${sep}`, (err, folder) => {
 
 **输出:**
 
-```
+```js
 The temporary folder path is: C:\Users\userone\AppData\Local\Temp\2avQ7n
 ```
 

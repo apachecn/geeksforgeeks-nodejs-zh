@@ -14,7 +14,7 @@ Sequelize 的特性:
 
 *   Use the following command to start node.jsapp:
 
-    ```
+    ```js
     npm init -y
     ```
 
@@ -22,13 +22,13 @@ Sequelize 的特性:
 
 1.  Sequelize needs to install MySql module in your project. If you have not installed MySql module yet, please make sure that you need to install [MySQL 2 module](https://www.npmjs.com/package/mysql2) before installing Sequelize. You need to use the following command to install this module.
 
-    ```
+    ```js
     npm install mysql2
     ```
 
 2.  After installing *MySQL 2 module* , we need to install [Sequelize module](https://www.npmjs.com/package/sequelize) to install this module with the following command.
 
-    ```
+    ```js
     npm install sequelize
     ```
 
@@ -36,13 +36,13 @@ Sequelize 的特性:
 
 *   You need to use these lines to include the Sequelize module in the project.
 
-    ```
+    ```js
     const Sequelize = require('sequelize');
     ```
 
 **配置**文件:
 
-```
+```js
 // Include Sequelize module
 const Sequelize = require('sequelize')
 

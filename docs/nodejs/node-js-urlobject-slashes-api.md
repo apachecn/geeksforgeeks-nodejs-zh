@@ -6,7 +6,7 @@ urlObject.slashes 属性用于检查 URL 的协议(http 或 https)中冒号(:)�
 
 **语法:**
 
-```
+```js
 urlObject.slashes
 ```
 
@@ -16,7 +16,7 @@ urlObject.slashes
 
 **例 1:**
 
-```
+```js
 // Node program to demonstrate the 
 // urlObject.slashes API as Setter
 
@@ -33,13 +33,13 @@ console.log(url.slashes);
 
 **输出:**
 
-```
+```js
 false
 ```
 
 **例 2:**
 
-```
+```js
 // Node program to demonstrate the  
 // urlObject.slashes API as Setter
 
@@ -53,7 +53,7 @@ console.log(url.slashes)
 
 **输出:**
 
-```
+```js
 true
 ```
 

@@ -15,13 +15,13 @@
 
 **步骤 1:** 我们必须使用节点包管理器初始化一个新项目。我们可以通过选择所有默认选项来完成设置。
 
-```
+```js
 npm init
 ```
 
 **第二步:**我们必须安装快递和。环境包。
 
-```
+```js
 npm install express dotenv --save
 ```
 
@@ -29,7 +29,7 @@ npm install express dotenv --save
 
 ## java 描述语言
 
-```
+```js
 const express = require('express');
 
 // Initialize app
@@ -48,7 +48,7 @@ app.listen(5000, () => {
 
 **第 4 步:**创建。env 文件。我们必须创造。包含我的名字环境变量的环境文件
 
-```
+```js
 MY_NAME=Geeksforgeeks
 ```
 
@@ -62,25 +62,25 @@ MY_NAME=Geeksforgeeks
 
 接下来，我们必须导入。我们的 index.js 文件中的 env 包。
 
-```
+```js
 const dotenv = require('dotenv');
 ```
 
 现在，我们可以通过将路径设置为。并从中加载变量。
 
-```
+```js
 dotenv.config({ path: './.env' });
 ```
 
 现在，我们可以使用方法访问 index.js 文件中的环境变量
 
-```
+```js
 process.env.VARIABLE_NAME
 ```
 
 在这种情况下，它会是
 
-```
+```js
 process.env.MY_NAME
 ```
 
@@ -88,7 +88,7 @@ process.env.MY_NAME
 
 ## java 描述语言
 
-```
+```js
 const dotenv = require('dotenv');
 const express = require('express');
 
@@ -112,6 +112,6 @@ app.listen(5000, () => {
 
 **输出:**
 
-```
+```js
 "name":"Geeksforgeeks"
 ```

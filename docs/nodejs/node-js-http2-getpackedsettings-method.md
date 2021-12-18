@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const http2.getPackedSettings([settings])
 
 ```
@@ -29,7 +29,7 @@ const http2.getPackedSettings([settings])
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // http2.getPackedSettings() method
 
@@ -95,14 +95,14 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```
 
 **输出:**
 
-```
+```js
 packed setting :- AAIAAAAA
 status : 200
 Received: hello
@@ -116,7 +116,7 @@ server closed
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // http2.getPackedSettings() method
 
@@ -174,14 +174,14 @@ req.on('end', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```
 
 **输出:**
 
-```
+```js
 packed setting :- AAIAAAAB
 Received: world
 client closed

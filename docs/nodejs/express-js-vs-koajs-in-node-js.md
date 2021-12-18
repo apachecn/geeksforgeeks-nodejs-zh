@@ -6,7 +6,7 @@
 
 **快递模块:**为了使用快递模块，我们需要安装 **NPM** ( *节点包管理器*)和以下模块(*在 cmd* 上)。
 
-```
+```js
 // Creates package.json file
 >> npm init 
 
@@ -20,7 +20,7 @@
 
 **语法:**
 
-```
+```js
 var express = require("express");
 
 ```
@@ -29,7 +29,7 @@ var express = require("express");
 
 **语法:**
 
-```
+```js
 // Importing and creating express application
 const app = express();  
 var express = require("express")(); // OR
@@ -38,7 +38,7 @@ var express = require("express")(); // OR
 
 **发送和侦听响应:**它与客户端和服务器通信请求和响应。它需要 PORT < *号* >和 IP < *号* >进行通信。
 
-```
+```js
 app.listen(PORT, IP, Callback);
 
 ```
@@ -55,7 +55,7 @@ app.listen(PORT, IP, Callback);
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to create server  
 // with help of Express module
 
@@ -90,7 +90,7 @@ app.listen(PORT, IP, () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```
@@ -103,7 +103,7 @@ node index.js
 
 **KoaJS 模块:**为了使用 **KoaJS** 模块，我们需要安装 **NPM** ( *节点包管理器*)和以下模块(在 cmd 上)。
 
-```
+```js
 // Creates package.json file
 >> npm init
 
@@ -117,7 +117,7 @@ node index.js
 
 **语法:**
 
-```
+```js
 var koa = require("koa"); // Importing koa module
 
 ```
@@ -126,14 +126,14 @@ var koa = require("koa"); // Importing koa module
 
 **语法:**
 
-```
+```js
 const app = new koa();  // Creating koa application
 
 ```
 
 **发送和侦听响应:**它与客户端和服务器通信请求和响应。它需要 PORT < *号* >和 IP < *号* >进行通信。
 
-```
+```js
 app.listen(PORT, IP, Callback);
 
 ```
@@ -150,7 +150,7 @@ app.listen(PORT, IP, Callback);
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Node.js program to create server
 // with help of Koa module
 
@@ -178,7 +178,7 @@ console.log("Server started at port", PORT);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 
 ```

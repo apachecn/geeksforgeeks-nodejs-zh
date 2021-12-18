@@ -12,7 +12,7 @@
 
 **示例:**用一些示例文本在当前项目目录中创建一个 *read.txt* 文件，在本例中，我们有以下文本。
 
-```
+```js
 THIS IS READ.TXT FILE
 ```
 
@@ -20,7 +20,7 @@ THIS IS READ.TXT FILE
 
 ## 【JavaScript】
 
-```
+```js
 // Requiring file system module
 var fs = require('fs');
 
@@ -37,7 +37,7 @@ myReadStream.on('data', function (chunk) {
 
 **输出:**
 
-```
+```js
 new chunk received 
 THIS IS READ.TXT FILE
 ```
@@ -50,7 +50,7 @@ THIS IS READ.TXT FILE
 
 ## 【JavaScript】
 
-```
+```js
 // Requiring file system module
 var fs = require('fs');      
 
@@ -65,7 +65,7 @@ myWriteStream.write("Greetings from GeeksforGeeks");
 
 **输出:**将在当前目录中生成一个名为 *write.txt* 的新文件，该文件将包含以下数据。
 
-```
+```js
 Greetings from GeeksforGeeks
 ```
 
@@ -75,7 +75,7 @@ Greetings from GeeksforGeeks
 
 **示例:**在当前项目目录中创建一个带有一些示例文本的 *read.txt* 文件，在本例中，我们有以下文本。
 
-```
+```js
 THIS IS READ.TXT FILE
 ```
 
@@ -83,7 +83,7 @@ THIS IS READ.TXT FILE
 
 ## 【JavaScript】
 
-```
+```js
 var fs = require('fs');
 const zlib = require('zlib');
 const { pipeline } = require('stream');
@@ -128,7 +128,7 @@ const transform = zlib.createGzip();
 
 **输出:**我们会看到下面的输出和**write . txt*文件会在当前目录下生成。*
 
-```
+```js
 *Pipeline accomplished*
 ```
 
@@ -138,7 +138,7 @@ const transform = zlib.createGzip();
 
 ## *【JavaScript】*
 
-```
+```js
 *// Requiring file system module
 var fs = require('fs');      
 
@@ -157,6 +157,6 @@ console.log("Pipeing accomplished");*
 
 ***输出:**我们会看到下面的输出和**write . txt*文件会在当前目录下生成。**
 
-```
+```js
 **Pipeing accomplished**
 ```

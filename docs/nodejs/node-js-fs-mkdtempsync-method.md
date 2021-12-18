@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.mkdtempSync( prefix, options )
 ```
 
@@ -21,7 +21,7 @@ fs.mkdtempSync( prefix, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // fs.mkdtempSync() method    
 
@@ -41,14 +41,14 @@ console.log(fs.mkdtempSync(
 
 **输出:**
 
-```
+```js
 /tmp/foo-OkEvul
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // fs.mkdtempSync() method    
 
@@ -70,7 +70,7 @@ console.log(fs.mkdtempSync(`${tmpDir}${sep}`));
 
 **输出:**
 
-```
+```js
 /tmp/bGVto1
 ```
 

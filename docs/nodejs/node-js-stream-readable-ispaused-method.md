@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 readable.isPaused()
 ```
 
@@ -18,7 +18,7 @@ readable.isPaused()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.isPaused() method  
 
@@ -34,14 +34,14 @@ readable.isPaused();
 
 **输出:**
 
-```
+```js
 false
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.isPaused() method  
 
@@ -65,7 +65,7 @@ readable.isPaused();
 
 **输出:**
 
-```
+```js
 true
 ```
 

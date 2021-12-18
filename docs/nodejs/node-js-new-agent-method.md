@@ -8,7 +8,7 @@ Node.js **HTTP API** 是低级的，因此它可以支持 HTTP 应用程序。�
 
 **语法:**
 
-```
+```js
 new Agent({options})
 ```
 
@@ -28,7 +28,7 @@ new Agent({options})
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // new agent({}) method 
 
@@ -60,7 +60,7 @@ console.log('Connection: ', createConnection);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -76,7 +76,7 @@ node index.js
 
 另一个模块 *agentkeepalive* 更适合与 Http 兼容，这使得处理请求更容易。为了使用“*代理保持活动”*模块，我们需要安装 NPM(节点包管理器)和以下(在 cmd 上)。
 
-```
+```js
 // Creates package.json file
 >> npm init 
 
@@ -87,14 +87,14 @@ node index.js
 
 **导入*****agent keepalive*****模块:**导入 *agentkeepalive* 模块，将返回的实例存储到变量中。
 
-```
+```js
 const Agent = require('agentkeepalive');
 
 ```
 
 **示例 2:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // new agent({}) method 
 
@@ -131,7 +131,7 @@ req.end();
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crypto.randomFill( buffer, offset, size, callback )
 ```
 
@@ -23,7 +23,7 @@ crypto.randomFill( buffer, offset, size, callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.randomFill() method
 
@@ -64,7 +64,7 @@ crypto.randomFill(buf, 3, 3, (err, buf) => {
 
 **输出:**
 
-```
+```js
 &43Jho0s5v0
 Jho0s5v0
 
@@ -74,7 +74,7 @@ Jho0s5v0
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.randomFill() method
 
@@ -99,7 +99,7 @@ crypto.randomFill(datv, (err, buf) => {
 
 **输出:**
 
-```
+```js
 ceVMb
 
 ```

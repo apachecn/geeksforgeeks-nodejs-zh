@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 querystring.escape(str);
 ```
 
@@ -22,7 +22,7 @@ querystring.escape(str);
 
 ## 
 
-```
+```js
 //Importing querystring module
 const querystring = require("querystring")
 
@@ -38,13 +38,13 @@ console.log(encodedURL)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 encoded url : I%20love%20geeksforgeeks
 ```
 
@@ -52,7 +52,7 @@ encoded url : I%20love%20geeksforgeeks
 
 ## index . js
 
-```
+```js
 //Importing querystring module
 const querystring = require("querystring")
 
@@ -77,13 +77,13 @@ if(encodedURL1 === encodedURL2){
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 encoded url using escape: I%20love%20geeksforgeeks
 encoded url using encodeURIComponent: I%20love%20geeksforgeeks
 Both are the same results.

@@ -15,14 +15,14 @@
 
 *   **步骤 1:** 创建一个 NodeJS 应用程序，并使用以下命令将其命名为*项目*。
 
-    ```
+    ```js
     mkdir Project && cd Project
     npm init -y
     ```
 
 *   **步骤 2:** 使用以下命令安装依赖模块。
 
-    ```
+    ```js
     npm install express serve-favicon
     ```
 
@@ -38,7 +38,7 @@
 
 ## index.html
 
-```
+```js
 <!DOCTYPE html>
 <html>
 
@@ -57,7 +57,7 @@
 
 ## server.js
 
-```
+```js
 // Import modules
 const favicon = require('serve-favicon');
 const express = require('express')
@@ -75,7 +75,7 @@ app.listen(8080);
 
 **运行应用程序的步骤:**使用以下命令运行*服务器*
 
-```
+```js
 node server.js
 ```
 

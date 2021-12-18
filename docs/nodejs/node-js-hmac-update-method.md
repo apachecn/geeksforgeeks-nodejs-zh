@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 hmac.update(data[, inputEncoding])
 ```
 
@@ -19,7 +19,7 @@ hmac.update(data[, inputEncoding])
 
 **项目设置:**新建一个 NodeJS 项目并命名为 **hmac** 。
 
-```
+```js
 mkdir hmac && cd hmac
 npm init -y
 ```
@@ -30,7 +30,7 @@ npm init -y
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the
 // crypto hmac.update() method
 
@@ -57,13 +57,13 @@ console.log(`HMAC hash: ${result}`)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 HMAC hash: yK4+CYVa56w0Ba1g2TdY7cDM68HPXFKb+10FhnRpXFM=
 ```
 
@@ -71,7 +71,7 @@ HMAC hash: yK4+CYVa56w0Ba1g2TdY7cDM68HPXFKb+10FhnRpXFM=
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the    
 // crypto hmac.update() method
 
@@ -115,7 +115,7 @@ readfile.on('readable', () => {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js package.json
 ```
 

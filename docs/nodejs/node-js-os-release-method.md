@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 os.release()
 ```
 
@@ -19,7 +19,7 @@ os.release()
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the    
 // os.release() method 
 
@@ -32,13 +32,13 @@ console.log(os.release());
 
 **输出:**在 windows 系统上
 
-```
+```js
 10.0.17763
 ```
 
 **输出:**在 Linux 系统上
 
-```
+```js
 3.10.0-1062.1.1.el7.x86_64
 ```
 
@@ -46,7 +46,7 @@ console.log(os.release());
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the    
 // os.release() method 
 
@@ -87,7 +87,7 @@ console.log("Version: " + os.release());
 
 **输出:**
 
-```
+```js
 Windows platform
 Version: 10.0.17763
 ```

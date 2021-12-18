@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 diffieHellman.getPrime([encoding])
 ```
 
@@ -18,7 +18,7 @@ diffieHellman.getPrime([encoding])
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the
 // diffieHellman.getPrime() method
 
@@ -49,13 +49,13 @@ console.log(dhPrime)
 
 使用以下命令运行 *index.js* 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Is Buffer return ( encoding not specified ) : true
 Return value :
 <Buffer d9 10 5a 20 70 0e 9c 19 53 1d 74 bc 93 ac 9e 1d 00 65 cb 2b 7f 
@@ -72,7 +72,7 @@ Return value :
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the
 // diffieHellman.getPrime() method
 
@@ -110,13 +110,13 @@ console.log( `Is Symmetric key generation 
 
 使用以下命令运行 *index.js* 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Is Symmetric key generation successful : true
 ```
 

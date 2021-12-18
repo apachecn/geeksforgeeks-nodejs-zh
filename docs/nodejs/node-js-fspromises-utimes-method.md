@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 fsPromises.utimes( path, atime, mtime )
 ```
 
@@ -27,7 +27,7 @@ fsPromises.utimes( path, atime, mtime )
 
 **文件名:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // fsPromises.utimes() method 
 
@@ -70,13 +70,13 @@ console.log("Changed Access Time:", 
 
 **运行该程序的步骤:**使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Details before changing time:
 Modification Time: 2020-06-11T17:25:51.136Z
 Access Time: 2020-06-11T16:50:51.223Z

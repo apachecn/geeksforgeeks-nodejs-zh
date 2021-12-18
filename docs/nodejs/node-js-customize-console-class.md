@@ -12,7 +12,7 @@ Console 类可用于创建具有可配置输出流的记录器，基本用法在
 
 ## index.js
 
-```
+```js
 const { Console } = require('console');
 
 const logger = new Console({
@@ -29,13 +29,13 @@ logger.log('log: set', new Set([3, 1, 2, 5, 4]));
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 log: object { attr: 'string content a b c d e f g h i j k' }
 log: array [
   'array_value1',
@@ -55,7 +55,7 @@ log: set Set(5) { 3, 1, 2, 5, 4 }
 
 ## index.js
 
-```
+```js
 const { Console } = require('console');
 
 const logger = new Console({
@@ -85,7 +85,7 @@ logger.log('log: set', new Set([3, 1, 2, 5, 4]));
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -101,7 +101,7 @@ node index.js
 
 ## index.js
 
-```
+```js
 const { Console } = require('console');
 const util = require('util');
 
@@ -126,13 +126,13 @@ logger.log('log: set', new Set([3, 1, 2, 5, 4]));
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 log: set Set { 3, 1, 2, 5, 4 }
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 os.EOL
 ```
 
@@ -16,7 +16,7 @@ os.EOL
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // os.EOL constants
 
@@ -31,14 +31,14 @@ console.log(JSON.stringify(os.EOL));
 
 **输出:**
 
-```
+```js
 "\r\n"
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // os.EOL constants
 
@@ -56,7 +56,7 @@ console.log("EOL varies from os to os" + os.EOL
 
 **输出:**
 
-```
+```js
 Paragraphs always contains EOL
 EOL stands for end of line
 EOL varies from os to os

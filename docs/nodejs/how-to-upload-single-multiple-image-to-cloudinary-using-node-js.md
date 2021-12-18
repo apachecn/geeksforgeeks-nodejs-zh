@@ -8,13 +8,13 @@
 
 *   **第一步:**转到项目目录，在终端使用下面的命令初始化项目。
 
-    ```
+    ```js
     npm init -y
     ```
 
 *   **步骤 2:** 使用以下命令安装所需的 npm 包。
 
-    ```
+    ```js
     npm install express multer cloudinary
     ```
 
@@ -27,7 +27,7 @@
 
 ## index.html
 
-```
+```js
 <!DOCTYPE html>
 <body style="padding: 30px;">
     <form method="POST" action="/profile-upload-single" 
@@ -61,7 +61,7 @@
 
 ## index.js
 
-```
+```js
 // Requiring module
 const express = require("express");
 const multer = require("multer");
@@ -218,7 +218,7 @@ app.listen(port, () => {
 
 **运行程序的步骤:**
 
-```
+```js
 node index.js
 ```
 

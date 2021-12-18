@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const filehandle.truncate(len)
 ```
 
@@ -19,7 +19,7 @@ const filehandle.truncate(len)
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // filehandle.truncate() method
 const fs = require('fs');
@@ -65,13 +65,13 @@ funct().catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 data before operation: ABCDEFGHIJK
 data after operation: ABCDE
 ```
@@ -80,7 +80,7 @@ data after operation: ABCDE
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // filehandle.truncate() method
 const fs = require('fs');
@@ -153,13 +153,13 @@ funct().catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 content of file before operation: 
   This is a file containing a collection of books.
 content of file after operation: This

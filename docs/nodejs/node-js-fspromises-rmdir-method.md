@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fsPromises.rmdir( path, options )
 ```
 
@@ -26,7 +26,7 @@ fsPromises.rmdir( path, options )
 
 T4T6
 
-```
+```js
  // Node.js program to demonstrate the 
 // fsPromises.rmdir() method 
 

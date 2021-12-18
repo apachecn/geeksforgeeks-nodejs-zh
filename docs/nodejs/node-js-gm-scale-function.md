@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crop(width, height)
 ```
 
@@ -19,7 +19,7 @@ crop(width, height)
 
 **例 1:**
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 
@@ -40,7 +40,7 @@ gm('1.png')
 
 **例 2:**
 
-```
+```js
 // Include gm library
 var gm = require('gm');
 

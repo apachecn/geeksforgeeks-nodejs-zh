@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const dicipher.update(data[, inputEncoding][, outputEncoding])
 ```
 
@@ -22,7 +22,7 @@ const dicipher.update(data[, inputEncoding][, outputEncoding])
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // decipher.update() method
 
@@ -58,7 +58,7 @@ console.log("buffer :- " + decrypted);
 
 **输出:**
 
-```
+```js
 buffer :- some clear text data
 ```
 
@@ -66,7 +66,7 @@ buffer :- some clear text data
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // decipher.update() method
 
@@ -104,13 +104,13 @@ crypto.scrypt(password, 'salt', 24,
 
 **输出:**
 
-```
+```js
 buffer :- [object Object]
 ```
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 

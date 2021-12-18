@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v8.Serializer.writeHeader();
 ```
 
@@ -18,7 +18,7 @@ v8.Serializer.writeHeader();
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 const serializer = new v8.Serializer();
@@ -31,13 +31,13 @@ console.log(serializer.releaseBuffer());
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 <Buffer >
 undefined
 <Buffer ff 0d>
@@ -46,7 +46,7 @@ undefined
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 const serializer = new v8.Serializer();
@@ -57,13 +57,13 @@ console.log(serializer.writeHeader());
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 undefined
 
 ```

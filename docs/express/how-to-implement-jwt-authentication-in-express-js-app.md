@@ -22,7 +22,7 @@
 
 **第一步:初始化服务器&安装 JWT 包。**
 
-```
+```js
 npm init
 npm install jsonwebtoken
 ```
@@ -42,7 +42,7 @@ npm install jsonwebtoken
 
 ## java 描述语言
 
-```
+```js
 // Importing modules
 const express = require("express");
 const mongoose = require("mongoose");
@@ -155,7 +155,7 @@ mongoose
 
 ## java 描述语言
 
-```
+```js
 app.get('/accessResource', (req, res)=>{   
     const token = req.headers.authorization.split(' ')[1];  
     //Authorization: 'Bearer TOKEN'

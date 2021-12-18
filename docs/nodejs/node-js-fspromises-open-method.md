@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fsPromises.open( filename, flags, mode)
 ```
 
@@ -22,7 +22,7 @@ fsPromises.open( filename, flags, mode)
 
 **例:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // fsPromises.open() Method 
 
@@ -42,7 +42,7 @@ fsPromises.open('Demo.txt', 'r')
 
 **输出:**
 
-```
+```js
 FileHandle { [Symbol(handle)]: FileHandle { fd: 3 } }
 ```
 

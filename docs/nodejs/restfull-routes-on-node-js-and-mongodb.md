@@ -19,7 +19,7 @@
 
 **注:**完整代码可在[捷信](https://github.com/abhijeetsp98/RESTfull-route)获得
 
-```
+```js
 var blogSchema = new mongoose.Schema({
     title: String,
     image: String,
@@ -32,7 +32,7 @@ var Blog = mongoose.model("Blog", blogSchema);
 
 **索引页(GET):** 对于索引页，我们希望显示数据库中存储的所有博客。为此，我们将首先使用 MongoDB 的 find()函数从数据库中获取所有数据，然后将结果发送到显示这些帖子的页面。我们正在查找存储在数据库中的所有博客文章，我们正在使用内部函数检索和处理这些文章，如果出现错误，我们将发送到控制台 error！消息，如果一切正常，那么我们将呈现索引页面，在该页面中，我们将所有博客作为数据(博客)传递，这些数据基本上包含所有博客信息。索引页进一步使用它来显示这些数据。
 
-```
+```js
 // Routes
 app.get("/blogs", function(req, res){
     Blog.find({}, function(err, blogs){
@@ -47,7 +47,7 @@ app.get("/blogs", function(req, res){
 
 **档案名称:index.ejs**
 
-```
+```js
 <% blogs.forEach(function(blog){ %>
     <img src="<%= blog.image %>">
     <a href="/blogs/<%= blog._id %>"><%= blog.title %></a>
@@ -59,7 +59,7 @@ app.get("/blogs", function(req, res){
 
 **新建博客(GET)和创建博客(POST):** 我们想要添加一个新的博客，因此我们需要获取将接受用户输入的表单。因此，首先我们将使用 new.ejs 来呈现表单，然后我们将填充所有信息，之后，我们希望将它保存到数据库中，我们将通过执行 POST 请求来完成。请注意，我们有与上面相同的路由，但这里只更改了请求类型，这将单独处理。我们正在使用 MongoDB create()函数创建一个新的博客文章。如果我们没有得到任何错误，我们将指向主页，在那里用户可以看到博客已经被添加，并确认操作成功执行。
 
-```
+```js
 // Render the new.ejs page that contains
 // the form for adding a blog
 app.get("/blogs/new", function (req, res) {
@@ -82,7 +82,7 @@ app.post("/blogs", function (req, res) {
 
 **档案名称:new.ejs**
 
-```
+```js
 <form action="/blogs" method="POST">
     <label>Title</label>
     <input type="text" name="blog[title]"
@@ -98,7 +98,7 @@ app.post("/blogs", function (req, res) {
 
 **Show(GET):** 一般来说，博客主页不会完全显示所有的博客，它只显示开始的几行，如果用户想根据标题和预览来阅读，我们希望指向一个新的页面，在这里显示整个博客，在我们的例子中，我们将重定向到 show.ejs HTML 文件。为此，所有的博客都有与之相关联的唯一 id，如果我们想要显示一个特定的博客，我们将简单地获取该博客的 id，并使用 findById()来获取数据并将其发送到 show.ejs HTML 文件，在该文件中将显示数据。
 
-```
+```js
 // Routes
 app.get("/blogs/:id", function(req, res){
     Blog.findById(req.params.id, 
@@ -115,7 +115,7 @@ app.get("/blogs/:id", function(req, res){
 
 **档案名称:show.ejs**
 
-```
+```js
 <%= blog.title %>
 <img c src=" <%= blog.image %>">
 <span><%= blog.created.toDateString() %></span>
@@ -131,7 +131,7 @@ app.get("/blogs/:id", function(req, res){
 
 **Edit(GET)和 UPDATE(PUT):** 有时我们想要编辑一个博客，我们首先需要一个唯一的博客 id，在此之后，我们将用户发送到一个不同的页面，在那里显示一个表单，该表单预先填充了以前的数据，用户将在该用户发送到更新的博客之后更新其数据。要做到这一点，首先获得一个请求，然后我们将使用 PUT 请求，该请求将使用 MongoDB 的 findByIdAndUpdate()函数，用给定 id 下已经在数据库中的数据更新数据。
 
-```
+```js
 app.get("/blogs/:id/edit", function(req, res){
     Blog.findById(req.params.id, function(err, foundBlog){
         if (err){
@@ -154,7 +154,7 @@ app.put("/blogs/:id", function(req, res){
 });
 ```
 
-```
+```js
 Edit <%= blog.title %>
 <form action=
     "/blogs/<%= blog._id %>?_method=PUT"
@@ -176,7 +176,7 @@ Edit <%= blog.title %>
 
 **Destroy(DELETE):** 最后，如果我们想要删除某个特定的博客，我们将简单地使用该博客的 ID，并使用 MongoDB 的 findByIdAndRemove()函数从数据库中删除某个特定的博客。
 
-```
+```js
 app.delete("/blogs/:id", function(req, res){
     Blog.findByIdAndRemove(req.params.id, function(err){
         if (err) {

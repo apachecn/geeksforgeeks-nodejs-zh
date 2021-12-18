@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 readable.unshift( chunk, encoding )
 ```
 
@@ -21,7 +21,7 @@ readable.unshift( chunk, encoding )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.unshift() method  
 
@@ -54,7 +54,7 @@ readable.unshift(data);
 
 **输出:**
 
-```
+```js
 Program ends!!!
 true
 read: GfG
@@ -62,7 +62,7 @@ read: GfG
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable.unshift(chunk[, encoding])
 // method  
@@ -95,7 +95,7 @@ readable.on("readable", () => {
 
 **输出:**
 
-```
+```js
 Unshifted!!
 ```
 

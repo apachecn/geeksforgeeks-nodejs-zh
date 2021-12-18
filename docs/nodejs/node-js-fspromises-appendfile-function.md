@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fsPromises.appendFile( path, data, options )
 ```
 
@@ -25,7 +25,7 @@ fsPromises.appendFile( path, data, options )
 
 **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // fsPromises.appendFile() method 
 
@@ -47,13 +47,13 @@ fsPromises.appendFile("example_file.txt", "GeeksforGeeks")
 
 **注意:**用下面的命令运行 *index.js* 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 File Contents of file before append: Hello
 File Contents of file after append: HelloGeeksforGeeks
 ```

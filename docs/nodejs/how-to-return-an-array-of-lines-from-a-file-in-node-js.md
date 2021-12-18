@@ -12,7 +12,7 @@
 
 ## index . js
 
-```
+```js
 // Requiring the fs module
 let fs = require("fs")
 
@@ -32,20 +32,20 @@ console.log(arr);
 
 **文本文件:**gfg . txt 文件。
 
-```
+```js
 Geeksforgeeks
 A computer Science Portal for Geeks
 ```
 
 使用以下命令运行代码:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 [
   'Geeksforgeeks',
   'A computer Science Portal for Geeks'

@@ -10,7 +10,7 @@ Node.js 是一个开源的跨平台运行时环境，用于在浏览器之外执
 
 **命令/CMD:** 通过命令行杀死 NodeJS 进程的所有实例。
 
-```
+```js
 killall node
 ```
 
@@ -20,7 +20,7 @@ killall node
 
 启动服务器并获取相同的列表。
 
-```
+```js
 npx http-server
 ```
 

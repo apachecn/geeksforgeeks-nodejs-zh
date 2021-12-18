@@ -14,25 +14,25 @@
 
 1.  您可以访问链接[安装条纹模块](https://www.npmjs.com/package/stripe)。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install stripe
     ```
 
 2.  安装条带模块后，您可以使用命令在命令提示符下检查您的条带版本。
 
-    ```
+    ```js
     npm version stripe
     ```
 
 3.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-    ```
+    ```js
     node index.js
     ```
 
 4.  **Requiring module:** You need to include stripe module in your file by using these lines.
 
-    ```
+    ```js
     var stripe = require('stripe')('Your_Secret_Key');
     ```
 
@@ -40,7 +40,7 @@
 
 **档案名称:home . ejs】t1**
 
-```
+```js
 <!DOCTYPE html>
 <html>
 <title>Stripe Payment Demo</title>
@@ -64,7 +64,7 @@
 
 **文件名:index.js**
 
-```
+```js
 const express = require('express')
 const bodyparser = require('body-parser')
 const path = require('path')
@@ -136,7 +136,7 @@ app.listen(port, function(error){
     “home . ejs”保存在视图文件夹中。
 2.  确保你有像我使用“ejs”一样的“视图引擎”，并使用以下命令安装 express、body-parser 和 stripe:
 
-    ```
+    ```js
     npm install ejs
     npm install express
     npm install body-parser
@@ -145,7 +145,7 @@ app.listen(port, function(error){
 
 3.  Run index.js file using below command:
 
-    ```
+    ```js
     node index.js
     ```
 
@@ -153,7 +153,7 @@ app.listen(port, function(error){
 
 4.  打开浏览器，输入该网址:
 
-    ```
+    ```js
     http://localhost:3000/
     ```
 

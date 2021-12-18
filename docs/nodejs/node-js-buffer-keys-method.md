@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.keys()
 ```
 
@@ -16,7 +16,7 @@ Buffer.keys()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // Buffer.keys() method  
 var buf = Buffer.from('Hello World');
@@ -30,7 +30,7 @@ for (index of buf.keys()) {
 
 **输出:**
 
-```
+```js
 0
 1
 2
@@ -46,7 +46,7 @@ for (index of buf.keys()) {
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // Buffer.keys() method
 var buf1 = Buffer.from('abc');
@@ -67,7 +67,7 @@ for(index of buf2.keys()) {
 
 **输出:**
 
-```
+```js
 0
 1
 2

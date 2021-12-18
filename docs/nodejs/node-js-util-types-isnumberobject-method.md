@@ -6,7 +6,7 @@ util 模块的 **util.types.isNumberObject()方法**主要是为了支持 Node.j
 
 **语法**
 
-```
+```js
 util.types.isNumberObject( value )
 ```
 
@@ -18,7 +18,7 @@ util.types.isNumberObject( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // util.types.isNumberObject() method
 
@@ -34,14 +34,14 @@ console.log(util.types.isNumberObject(new Number(0)));
 
 **输出:**
 
-```
+```js
 false
 true
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // util.types.isNumberObject() method
 
@@ -67,7 +67,7 @@ console.log(util.types.isNumberObject(Number('1.8')));
 
 **输出:**
 
-```
+```js
 false
 true
 false

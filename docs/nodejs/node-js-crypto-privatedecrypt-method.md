@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crypto.privateDecrypt( privateKey, buffer )
 ```
 
@@ -24,7 +24,7 @@ crypto.privateDecrypt( privateKey, buffer )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.privateDecrypt() method
 
@@ -57,7 +57,7 @@ console.log(origData);
 
 **输出:**
 
-```
+```js
 <Buffer 58 dd 76 8f cb 25 52 2b e7 3a b2 1b
 0f 43 aa e0 df 65 fa 1d 3b 31 6f b7 f9 47 06
 d5 f7 72 19 cd 2f 67 66 27 00 bb 43 8e 64 38
@@ -70,7 +70,7 @@ d5 f7 72 19 cd 2f 67 66 27 00 bb 43 8e 64 38
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.privateDecrypt() method
 
@@ -151,7 +151,7 @@ console.log("Decrypted Text: ", 
 
 **输出:**
 
-```
+```js
 Plaintext: Geeks!
 
 Encrypted Text:  ACks6H7InpaeGdI4w9MObyD73YB7N1V0nVsG5Jl10SNeH3no6gfgjeD4ZFsSFhCXzFkognMGbRNsg0BReVOHxRs7eQ==

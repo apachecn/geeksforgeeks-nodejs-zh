@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dns.resolve6( hostname, options, callback )
 ```
 
@@ -25,7 +25,7 @@ dns.resolve6( hostname, options, callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dns.resolve6() method
 
@@ -41,14 +41,14 @@ dns.resolve6('geeksforgeeks.org', (err, 
 
 **输出:**
 
-```
+```js
 address: ["fd00:0:14:13::22da:3e74"]
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dns.resolve6() method
 
@@ -69,7 +69,7 @@ dns.resolve6('geeksforgeeks.org', options, (err, 
 
 **输出:**
 
-```
+```js
 address: [{"address":"fd00:0:14:13::22da:3e74", "ttl":30}]
 
 ```

@@ -18,7 +18,7 @@
 
 使用以下命令确保您已经安装了 *express* 和 *crypto* 模块:
 
-```
+```js
 npm install express crypto
 ```
 
@@ -26,7 +26,7 @@ npm install express crypto
 
 ## java 描述语言
 
-```
+```js
 const { generateKeyPair } = require('crypto');
 const app = require('express')();
 
@@ -62,13 +62,13 @@ app.listen(3000, err => {
 
 使用以下命令运行**索引. js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**我们将在终端屏幕上看到以下输出:
 
-```
+```js
 Server listening on PORT 3000
 ```
 
@@ -86,7 +86,7 @@ Server listening on PORT 3000
 
 ## java 描述语言
 
-```
+```js
 const express = require('express');
 const cluster = require('cluster');
 const { generateKeyPair } = require('crypto');
@@ -149,13 +149,13 @@ else {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**我们将在终端屏幕上看到以下输出:
 
-```
+```js
 Master 16916 is running
 Worker 6504 started
 Worker 14824 started
@@ -187,7 +187,7 @@ Worker 11064 started
 
 ## java 描述语言
 
-```
+```js
 const app = require('express')();
 
 // API endpoint
@@ -204,7 +204,7 @@ app.listen(3003);
 
 现在在你的机器上安装 *Nginx* ，并在 **/etc/nginx/conf.d/** 中创建一个名为 **your-domain.com.conf** 的新文件，其中包含以下代码。
 
-```
+```js
 upstream my_http_servers {
     # httpServer1 listens to port 3000
     server 127.0.0.1:3000;
@@ -233,7 +233,7 @@ server {
 
 **步骤 1:** 创建一个空的 NodeJS 应用程序。
 
-```
+```js
 mkdir LoadBalancer
 cd LoadBalancer
 npm init -y
@@ -241,7 +241,7 @@ npm init -y
 
 **步骤 2:** 使用以下命令同时安装所需的依赖项，如 **ExpressJS、axios** 、**T5 和**。****
 
-```
+```js
 npm i express axios
 npm i concurrently -g
 ```
@@ -252,7 +252,7 @@ npm i concurrently -g
 
 ## **java 描述语言**
 
-```
+```js
 const express = require('express');
 const path = require('path');
 const app = express();
@@ -319,7 +319,7 @@ app.listen(8080, err =>{
 
 ## **java 描述语言**
 
-```
+```js
 const express = require('express');
 const app1 = express();
 const app2 = express();
@@ -354,7 +354,7 @@ app2.listen(3001, err =>{
 
 ****第 4 步:**在项目文件夹中打开命令提示符，并使用并行方式运行两个脚本。**
 
-```
+```js
 concurrently "node config.js" "node index.js" 
 ```
 

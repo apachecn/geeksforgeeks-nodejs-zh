@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const tlsSocket.authorizationError
 ```
 
@@ -19,7 +19,7 @@ const tlsSocket.authorizationError
 *   **私钥**
     **第一步:**打开记事本复制粘贴如下密钥:
 
-```
+```js
 -----BEGIN RSA PRIVATE KEY-----
 MIICXQIBAAKBgQC38R9wXcUbhOd44FavgmE5R3K4JeYOHLnI7dUq1B8/Gv7l3SOg
 JKef/m9gM1KvUx951mapXGtcWgwB08J3vUE2YOZ4tWJArrVZES0BI/RmFAyhQFP5
@@ -41,7 +41,7 @@ nUG9lYvH7DztWDTioXMrruPF7bdXfZOVJD8t0I4OUzvC
 *   **公共证书**
     **第一步:**打开记事本复制粘贴以下密钥:
 
-```
+```js
 -----BEGIN CERTIFICATE-----
 MIICfzCCAegCCQDxxeXw914Y2DANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMC
 SU4xEzARBgNVBAgMCldlc3RiZW5nYWwxEDAOBgNVBAcMB0tvbGthdGExFDASBgNV
@@ -66,7 +66,7 @@ hWF6W2H9+MAlU7yvtmCQQuZmfQ==
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // tlsSocket.authorizationError method
 var tls = require('tls'),
@@ -123,13 +123,13 @@ var client = tls.connect(PORT, HOST, options, function() {
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 I'm listening at 127.0.0.1, on port 1337
 authorizationError : DEPTH_ZERO_SELF_SIGNED_CERT
 Client closed successfully
@@ -140,7 +140,7 @@ Server closed successfully
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // tlsSocket.authorizationError method
 var tls = require('tls'),
@@ -202,13 +202,13 @@ client.on("data", function(data) {
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 I'm listening at 127.0.0.1, on port 1337
 client is connected
 Received: authorizationError : null

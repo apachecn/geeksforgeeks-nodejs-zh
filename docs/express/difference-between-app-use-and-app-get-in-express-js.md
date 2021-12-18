@@ -8,19 +8,19 @@
 
 **步骤 1:** 使用下面给出的命令创建一个目录。创建目录后，在终端中添加所创建目录的位置。
 
-```
+```js
  mkdir <folder_name>
 ```
 
 **步骤 2:** 现在使用下面给出的命令初始化 npm(节点包管理器)。
 
-```
+```js
 npm init
 ```
 
 **步骤 3:** 现在在当前目录中安装 Express，并将其保存在依赖项列表中。
 
-```
+```js
 npm install express --save 
 ```
 
@@ -30,13 +30,13 @@ npm install express --save
 
 **语法:**
 
-```
+```js
 app.use([path,],callback[,callback...])
 ```
 
 ## index.js
 
-```
+```js
 // Requiring module
 const express = require('express')
 const app = express()
@@ -60,7 +60,7 @@ var server = app.listen(8080, function () {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -72,7 +72,7 @@ node index.js
 
 ## index.js
 
-```
+```js
 // Requiring module
 var express = require('express');
 var app = express();
@@ -91,7 +91,7 @@ var server = app.listen(8080, function () {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

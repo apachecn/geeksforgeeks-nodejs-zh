@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 filehandle.readFile( options )
 ```
 
@@ -25,13 +25,13 @@ filehandle.readFile( options )
 
 **注意:**“gfg . txt”应出现在目录中，并带有以下文本:
 
-```
+```js
 GeeksforGeeks - A computer science portal for geeks
 ```
 
 **文件名:app.js**
 
-```
+```js
 // Node.js program to demonstrate the   
 // fsPromises.truncate() Method
 
@@ -65,13 +65,13 @@ doReadFile().catch((error) => {
 
 使用以下命令运行 **app.js** 文件:
 
-```
+```js
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 GeeksforGeeks - A computer science portal for geeks
 ```
 

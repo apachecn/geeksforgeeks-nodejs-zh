@@ -10,7 +10,7 @@ Node.js 基于事件驱动的非阻塞 I/O 模型。本文讨论了 Node.js 中�
 
 ## index . js
 
-```
+```js
 const fs = require('fs');
 
 const filepath = 'text.txt';
@@ -33,13 +33,13 @@ console.log('Sum: ', sum);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 This is from text file.
 Sum:  55
 ```
@@ -50,7 +50,7 @@ Sum:  55
 
 ## index . js
 
-```
+```js
 const fs = require('fs');
 
 const filepath = 'text.txt';
@@ -73,13 +73,13 @@ console.log('Sum: ', sum);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Sum:  55
 This is from text file.
 ```

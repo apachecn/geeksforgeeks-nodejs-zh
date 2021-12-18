@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```js
 console.timeStamp([label])
 ```
 
@@ -27,7 +27,7 @@ console.timeStamp([label])
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // console.timeStamp() Method
 
@@ -43,7 +43,7 @@ console.profileEnd("Hello()");
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -57,7 +57,7 @@ node index.js
 
 **示例 2:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the 
 // console.timeStamp() Method
 
@@ -81,7 +81,7 @@ console.timeStamp("Hello()");
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

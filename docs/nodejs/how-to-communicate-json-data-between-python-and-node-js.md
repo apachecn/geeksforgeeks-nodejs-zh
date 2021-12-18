@@ -25,12 +25,12 @@
 
 *   **使用以下命令为 Python 安装烧瓶模块:
 
-    ```
+    ```js
     pip install flask
     ```** 
 *   **使用以下命令为节点安装请求模块:
 
-    ```
+    ```js
     npm install request-promise
     ```** 
 
@@ -38,7 +38,7 @@
 
 ## **pyserver.py**
 
-```
+```js
 from flask import Flask
 import json 
 
@@ -66,7 +66,7 @@ if __name__ == "__main__": 
 
 **使用以下命令运行**服务器**。**
 
-```
+```js
 python pyserver.py
 ```
 
@@ -74,7 +74,7 @@ python pyserver.py
 
 ## **talk.js**
 
-```
+```js
 var request = require('request-promise');
 
 async function arraysum() {
@@ -120,13 +120,13 @@ arraysum();
 
 **通过以下命令运行该脚本。**
 
-```
+```js
 node talk.js
 ```
 
 ****输出:****
 
-```
+```js
 { result: 55 }
 Sum of Array from Python:  55
 ```
@@ -139,19 +139,19 @@ Sum of Array from Python:  55
 
 *   **使用以下命令为 Python 安装请求模块:
 
-    ```
+    ```js
     pip install requests
     ```** 
 *   **使用以下命令为 NodeJS 安装快速和主体解析器模块:
 
-    ```
+    ```js
     npm install express
     npm install body-parser
     ```** 
 
 ## **nodeserver.js**
 
-```
+```js
 var express = require('express');
 var bodyParser = require('body-parser');
 
@@ -186,7 +186,7 @@ app.listen(3000);
 
 **使用以下命令运行**服务器**。**
 
-```
+```js
 node nodeserver.js
 ```
 
@@ -194,7 +194,7 @@ node nodeserver.js
 
 ## **talk.py**
 
-```
+```js
 import requests
 
 # Sample array

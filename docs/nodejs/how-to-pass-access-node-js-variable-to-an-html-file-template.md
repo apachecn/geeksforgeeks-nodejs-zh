@@ -10,13 +10,13 @@
 
 *   **步骤 1:** 我们可以使用以下命令创建一个带有[节点包管理器](https://nodejs.org/en/download/)的新项目。
 
-    ```
+    ```js
     npm init
     ```
 
 *   **步骤 2:** 使用以下命令安装所需的项目依赖项，即 **express** 和 **pug** 模块。
 
-    ```
+    ```js
     npm install express pug --save
     ```
 
@@ -30,7 +30,7 @@
 
 ## index.js
 
-```
+```js
 const express = require('express');
 
 // Initialize App
@@ -55,7 +55,7 @@ app.listen(5000, () => {
 
 ## 索引帕格
 
-```
+```js
 doctype html
 html(lang="en")
   head
@@ -71,7 +71,7 @@ html(lang="en")
 
 使用以下命令运行 **index.js** 文件。
 
-```
+```js
 node index.js
 ```
 

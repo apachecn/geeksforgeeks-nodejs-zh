@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 tracker.verify()
 ```
 
@@ -20,7 +20,7 @@ tracker.verify()
 
 ## java 描述语言
 
-```
+```js
 const assert = require('assert');
 
 // Creates call tracker.
@@ -46,7 +46,7 @@ console.log(tracker.verify());
 
 ## java 描述语言
 
-```
+```js
 const assert = require('assert');
 
 // Creates call tracker.

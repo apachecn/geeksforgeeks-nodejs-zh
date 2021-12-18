@@ -21,26 +21,26 @@
 
 **步骤 1:** 使用以下命令为项目创建新文件夹:
 
-```
+```js
 mkdir pagination
 ```
 
 **步骤 2:** 使用以下命令导航到我们的文件夹:
 
-```
+```js
 cd pagination
 ```
 
 **步骤 3:** 使用以下命令和服务器文件初始化 npm:
 
-```
+```js
 npm init -y
 touch index.js
 ```
 
 **步骤 4:** 使用以下命令安装所需的软件包:
 
-```
+```js
 npm i express mongoose 
 ```
 
@@ -52,7 +52,7 @@ npm i express mongoose
 
 ## index.js
 
-```
+```js
 // Requiring module
 const express = require('express');
 const mongoose = require('mongoose');
@@ -117,7 +117,7 @@ app.listen(port, () => {
 
 使用以下命令运行**服务器**:
 
-```
+```js
 node index.js
 ```
 
@@ -141,7 +141,7 @@ node index.js
 
 ## index.js
 
-```
+```js
 // Requiring module
 const express = require('express');
 const mongoose = require('mongoose');
@@ -210,7 +210,7 @@ app.listen(port, () => {
 
 使用以下命令运行**服务器**:
 
-```
+```js
 node index.js
 ```
 

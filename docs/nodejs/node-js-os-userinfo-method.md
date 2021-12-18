@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 os.userInfo( options )
 ```
 
@@ -24,7 +24,7 @@ os.userInfo( options )
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the  
 // os.userInfo() Method
 
@@ -45,7 +45,7 @@ try {
 
 **输出:**
 
-```
+```js
 { uid: -1,
   gid: -1,
   username: 'gekcho',
@@ -57,7 +57,7 @@ try {
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the  
 // os.userInfo() Method
 
@@ -84,7 +84,7 @@ try{
 
 **输出:**
 
-```
+```js
 { uid: -1,
   gid: -1,
   username: <Buffer 6d 75 6b 75 6c>,

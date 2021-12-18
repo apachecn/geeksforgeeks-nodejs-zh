@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```js
 process.exit(code)
 ```
 
@@ -22,7 +22,7 @@ process.exit(code)
 
 ## app.js
 
-```
+```js
 // An empty array.
 var arr = [];
 
@@ -69,7 +69,7 @@ while (a != 0 || b != 0) {
 
 ## app.js
 
-```
+```js
 // An empty array.
 var arr = [];
 
@@ -115,7 +115,7 @@ while (a > b) {
 
 ## app.js
 
-```
+```js
 console.log('Code is running');
 
 process.on('exit', function (code) {

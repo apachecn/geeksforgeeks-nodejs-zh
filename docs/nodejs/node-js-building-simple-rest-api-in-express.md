@@ -9,7 +9,7 @@ Express 帮助我们在特定的路由上处理不同的 HTTP 请求。
 
 **验证类型**终端中的**以下命令:**
 
-```
+```js
 node -v
 ```
 
@@ -23,7 +23,7 @@ node -v
 *   **STEP-2:**
     在终端中键入以下命令创建 package . JSON:
 
-```
+```js
 npm init -y
 ```
 
@@ -37,7 +37,7 @@ npm init -y
 
 ## java 描述语言
 
-```
+```js
 // server.js File
 const express = require('express'); // Importing express module
 
@@ -59,7 +59,7 @@ app.listen(port, function (err) {
 *   **STEP-4:**
     在终端输入以下命令启动服务器:
 
-```
+```js
 node server.js
 ```
 
@@ -72,7 +72,7 @@ node server.js
 *   **STEP-6:将路由交给****服务器**
     处理服务器的根路由，方法是向服务器发回一些东西，并向服务器添加以下代码
 
-```
+```js
 app.get('/', function (req, res) {
   res.send('we are at the root route of our server');
 })
@@ -80,6 +80,6 @@ app.get('/', function (req, res) {
 
 现在，通过键入以下命令重新启动服务器:
 
-```
+```js
 node server.js
 ```

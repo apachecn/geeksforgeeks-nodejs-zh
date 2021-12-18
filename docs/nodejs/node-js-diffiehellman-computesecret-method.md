@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 diffieHellman.computeSecret(otherPublicKey[, 
         inputEncoding][, outputEncoding])
 ```
@@ -23,7 +23,7 @@ diffieHellman.computeSecret(otherPublicKey[,
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the
 // diffieHellman.computeSecret() method
 
@@ -53,13 +53,13 @@ if( aliceSecret === bobSecret ) 
 
 使用以下命令运行**文件:**
 
-```
+```js
 **node index.js**
 ```
 
 ****输出:****
 
-```
+```js
 **Symmetric key : da884ccb0e24bf7e748f66998550b
 f21f96b887e1f936478cdbc63b7806bd2403fd3aa28e5dbf58
 bbabeb6f829dd86453eb0985b5ff593fcf7a8e1da20256b2a**
@@ -69,7 +69,7 @@ bbabeb6f829dd86453eb0985b5ff593fcf7a8e1da20256b2a**
 
 ## 
 
-```
+```js
 **// Node.js program to demonstrate the
 // diffieHellman.computeSecret() method
 
@@ -105,13 +105,13 @@ if ( isSymmetric )
 
 **使用以下命令运行**文件:****
 
-```
+```js
 ***node index.js***
 ```
 
 *****输出:*****
 
-```
+```js
 ***Symmetric key :  <Buffer 6d 1a 6c 00 34 6c>***
 ```
 
@@ -121,7 +121,7 @@ if ( isSymmetric )
 
 ## **【JavaScript】**
 
-```
+```js
 **// Node.js program to demonstrate the
 // diffieHellman.computeSecret() method
 
@@ -150,13 +150,13 @@ if (aliceSecret === bobSecret)
 
 **使用以下命令运行**文件:****
 
-```
+```js
 ***node index.js***
 ```
 
 *****输出:*****
 
-```
+```js
 ***Symmetric key : abLoALX9***
 ```
 

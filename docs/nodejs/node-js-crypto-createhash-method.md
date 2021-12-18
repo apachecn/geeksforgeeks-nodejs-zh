@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crypto.createHash( algorithm, options )
 ```
 
@@ -21,7 +21,7 @@ crypto.createHash( algorithm, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // crypto.createHash() method
 
@@ -46,13 +46,13 @@ console.log(hash);
 
 **输出:**
 
-```
+```js
 df287dfc1406ed2b692e1c2c783bb5cec97eac53151ee1d9810397aa0afa0d89
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // crypto.createHash() method
 
@@ -88,7 +88,7 @@ console.log("Program done!");
 
 **输出:**
 
-```
+```js
 Program done!
 n95mt3468ZzAIwu/bbNU7dej6CoFkDRcNaJo7rGpLF4= index.js
 ```

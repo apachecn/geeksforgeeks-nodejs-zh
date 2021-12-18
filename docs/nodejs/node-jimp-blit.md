@@ -22,7 +22,7 @@ blit()函数是 Nodejs 中的一个内置函数。它用于组合两个位图模
 
     **例 1:**
 
-    ```
+    ```js
     // npm install --save jimp
     // import jimp library to the environment
     var Jimp = require('jimp');
@@ -47,7 +47,7 @@ blit()函数是 Nodejs 中的一个内置函数。它用于组合两个位图模
 
     **例 2:**
 
-    ```
+    ```js
     // npm install --save jimp
     // import jimp library to the environment
     var Jimp = require('jimp');

@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```js
 immediate.hasRef()
 ```
 
@@ -22,7 +22,7 @@ immediate.hasRef()
 
 **语法:**
 
-```
+```js
 immediate.ref()
 ```
 
@@ -32,7 +32,7 @@ immediate.ref()
 
 **语法:**
 
-```
+```js
 immediate.unref()
 ```
 
@@ -42,7 +42,7 @@ immediate.unref()
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // Immediate Class methods
 
@@ -77,7 +77,7 @@ console.log("5.>",2);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

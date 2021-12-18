@@ -16,7 +16,7 @@
 
 ## java 描述语言
 
-```html
+```jshtml
 exports.config = {
 
     // Capabilities values for
@@ -54,7 +54,7 @@ exports.config = {
 
 ## 超文本标记语言
 
-```html
+```jshtml
 <!DOCTYPE html>
 <html lang="en">
 <body>
@@ -75,7 +75,7 @@ Jasmine 框架提供了**description()**功能和 **it()** 功能，其中**desc
 
 ## java 描述语言
 
-```html
+```jshtml
 describe('Protractor Demo App', function () {
     it('should have a title', function () {
         // Disabling waiting for angular
@@ -97,7 +97,7 @@ describe('Protractor Demo App', function () {
 
 使用以下命令运行 conf.js 文件:
 
-```html
+```jshtml
 protractor conf.js
 ```
 

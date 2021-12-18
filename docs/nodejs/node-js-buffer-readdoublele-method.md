@@ -6,7 +6,7 @@ Node.js 中的**buffer . readdouble()方法**用于以小端格式从给定偏�
 
 **语法:**
 
-```
+```js
 Buffer.readDoubleLE( offset )
 ```
 
@@ -18,7 +18,7 @@ Buffer.readDoubleLE( offset )
 
 **例 1:**
 
-```
+```js
 // Node program to demonstrate the
 // Buffer.readDoubleLE() method
 
@@ -32,14 +32,14 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 5.447603722011605e-270
 <Buffer 01 02 03 04 05 06 07 08>
 ```
 
 **例 2:**
 
-```
+```js
 // Node program to demonstrate the
 // Buffer.readDoubleBE() method
 
@@ -54,7 +54,7 @@ console.log(buf);
 
 **输出:**
 
-```
+```js
 Functions of Buffer.readDoubleLE(int)
 internal/buffer.js:72
   throw new ERR_OUT_OF_RANGE(type || 'offset',

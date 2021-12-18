@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Event: 'error'
 ```
 
@@ -15,7 +15,7 @@ Event: 'error'
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable error event
 
@@ -35,7 +35,7 @@ console.log("Done...");
 
 **输出:**
 
-```
+```js
 Done...
 { [Error: ENOENT: no such file or directory, open 'input.txt'] errno: -2,
  code: 'ENOENT', syscall: 'open', path: 'input.text' }
@@ -45,7 +45,7 @@ Done...
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable error event
 
@@ -65,7 +65,7 @@ console.log("Done...");
 
 **输出:**
 
-```
+```js
 Done...
 ```
 

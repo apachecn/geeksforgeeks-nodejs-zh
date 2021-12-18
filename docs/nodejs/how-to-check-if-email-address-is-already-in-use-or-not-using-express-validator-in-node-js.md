@@ -6,7 +6,7 @@
 
 **安装快速验证器的命令:**
 
-```
+```js
 npm install express-validator
 ```
 
@@ -26,7 +26,7 @@ npm install express-validator
 
 **文件名:index.js**
 
-```
+```js
 const express = require('express')
 const bodyParser = require('body-parser')
 const { validationResult } = require('express-validator')
@@ -68,7 +68,7 @@ app.listen(port, () => {
 
 **Filename: repository.js** 这个文件包含了创建本地数据库和与之交互的所有逻辑。
 
-```
+```js
 // Importing node.js file system module 
 const fs = require('fs')
 
@@ -138,7 +138,7 @@ module.exports = new Repository('datastore.json')
 
 **文件名:registration . js**该文件包含显示注册表单的逻辑。
 
-```
+```js
 const getError = (errors, prop) => {
     try {
 
@@ -212,7 +212,7 @@ href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css'>
 
 **文件名:validator.js** 该文件包含所有的验证逻辑(查看电子邮件是否已经存在的逻辑)。
 
-```
+```js
 const { check } = require('express-validator')
 const repo = require('./repository')
 
@@ -248,7 +248,7 @@ module.exports = {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

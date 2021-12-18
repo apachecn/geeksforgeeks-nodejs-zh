@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const Buffer.byteOffset
 ```
 
@@ -16,7 +16,7 @@ const Buffer.byteOffset
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // Buffer.byteOffset property
 

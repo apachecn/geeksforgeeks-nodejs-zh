@@ -25,7 +25,7 @@
 
 首先，安装以下节点包。
 
-```
+```js
 npm install --save express
 ```
 
@@ -35,7 +35,7 @@ npm install --save express
 
 ## App.js
 
-```
+```js
 // Load necessary packages
 const express = require("express");
 
@@ -61,7 +61,7 @@ app.listen(PORT, () => console.log(`Server started running on PORT ${PORT}`));
 
 ## routes.js
 
-```
+```js
 // Load necessary packages
 const express = require("express");
 
@@ -86,7 +86,7 @@ module.exports = router;
 
 现在使用以下命令启动您的快速服务器:
 
-```
+```js
 node app.js
 ```
 
@@ -106,7 +106,7 @@ node app.js
 
 ## index.html
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -6,7 +6,7 @@
 fs . lstat()方法基于回调。使用回调方法导致回调嵌套或回调地狱问题的可能性很大。因此为了避免这种情况，我们几乎总是喜欢使用基于承诺的方法。使用一些额外的 node.js 方法，我们可以用 promise 方式操作一个基于回调的方法。
 **语法:**
 
-```
+```js
 fs.lstat(path, options)
 ```
 
@@ -32,7 +32,7 @@ fs.lstat(path, options)
 
 ## java 描述语言
 
-```
+```js
 // Program to identify files and folders
 // of a directory
 

@@ -33,13 +33,13 @@ Discord 是一个即时消息应用程序，主要由开发者和游戏社区使
 
 3.  **项目设置:**要开始构建项目，创建一个新文件夹，然后创建一个名为 index.js 的新文件，然后使用以下命令安装 discord.js 包:
 
-    ```
+    ```js
     npm i discord.js
     ```
 
     然后使用以下代码在项目中导入 discord.js 包:
 
-    ```
+    ```js
     const discord = require('discord.js');
     ```
 
@@ -47,7 +47,7 @@ Discord 是一个即时消息应用程序，主要由开发者和游戏社区使
 
     **文件名:index.js**
 
-    ```
+    ```js
     // Creates a discord client
     const client = new discord.Client(); 
 
@@ -65,7 +65,7 @@ Discord 是一个即时消息应用程序，主要由开发者和游戏社区使
 
     要启动 bot，我们必须在 index.js 文件中添加 client.login(YOUR_BOT_TOKEN)调用。
 
-    ```
+    ```js
     client.login("YOUR_BOT_TOKEN"); // Starts the bot up
     ```
 
@@ -76,7 +76,7 @@ Discord 是一个即时消息应用程序，主要由开发者和游戏社区使
     因此，在完成上述步骤后，我们的最终 index.js 文件将如下所示:
     **文件名:index.js**
 
-    ```
+    ```js
     // Requiring module
     const discord = require('discord.js');
 
@@ -99,7 +99,7 @@ Discord 是一个即时消息应用程序，主要由开发者和游戏社区使
 
 4.  **运行你的 index.js 文件来运行你的 bot:** 要运行 index.js 文件，在你的终端中使用以下命令:
 
-    ```
+    ```js
     node index.js 
     ```
 

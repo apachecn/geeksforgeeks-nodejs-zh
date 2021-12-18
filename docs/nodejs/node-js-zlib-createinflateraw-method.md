@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.createInflateRaw( options )
 ```
 
@@ -18,7 +18,7 @@ zlib.createInflateRaw( options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // createInflateRaw() method
 
@@ -46,14 +46,14 @@ zlib.deflateRaw('Decompressed..', function(err, data)
 
 **输出:**
 
-```
+```js
 Decompressed..
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // createInflateRaw() method
 
@@ -81,7 +81,7 @@ zlib.deflateRaw('Decompressed..', function(err, data)
 
 **输出:**
 
-```
+```js
 RGVjb21wcmVzc2VkLi4=
 
 ```

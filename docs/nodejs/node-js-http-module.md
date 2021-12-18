@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 var http = require('http');
 ```
 
@@ -15,7 +15,7 @@ var http = require('http');
 **示例 1:**
 **文件名:max.js**
 
-```
+```js
 var http = require('http');
 
 // Create a server
@@ -34,7 +34,7 @@ http.createServer((request, response)=>{
 
 **运行该程序的步骤:**使用以下命令运行该 **max.js** 文件:
 
-```
+```js
 node max.js
 ```
 
@@ -46,14 +46,14 @@ node max.js
 
 **语法:**
 
-```
+```js
 http.request(options[, callback])
 ```
 
 **示例 2:**
 **文件名:max.js**
 
-```
+```js
 var http = require('http');
 
 var options = {
@@ -73,7 +73,7 @@ http.request(options, (response) => {
 
 **运行该程序的步骤:**使用以下命令运行该 **max.js** 文件:
 
-```
+```js
 node max.js
 ```
 

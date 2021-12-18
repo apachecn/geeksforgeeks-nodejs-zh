@@ -12,13 +12,13 @@
 
 *   **In windows:**
 
-    ```
+    ```js
     node -v
     ```
 
     ![](img/2abdb8115ba9c43c6b28429126013dee.png)
 
-    ```
+    ```js
     npm -v
     ```
 
@@ -26,11 +26,11 @@
 
 *   **在 linux 中:**
 
-    ```
+    ```js
     node --version
     ```
 
-    ```
+    ```js
     npm --version
     ```
 
@@ -38,13 +38,13 @@
 
 *   **In windows:**
 
-    ```
+    ```js
     npm install -g node@version
     ```
 
     **示例:**
 
-    ```
+    ```js
     npm install -g node@10.9.0 
     ```
 
@@ -52,13 +52,13 @@
 
 *   **In linux:**
 
-    ```
+    ```js
     sudo  apt-get install nodejs=version-1chl1~precise1
     ```
 
     **示例:**
 
-    ```
+    ```js
     sudo  apt-get install nodejs=10.9.0-1chl1~precise1
     ```
 
@@ -66,13 +66,13 @@
 
 *   **In windows:**
 
-    ```
+    ```js
     npm install -g npm@version 
     ```
 
     **示例:**
 
-    ```
+    ```js
     npm install -g npm@4.0.0
     ```
 
@@ -80,12 +80,12 @@
 
 *   **In linux:**
 
-    ```
+    ```js
     sudo  apt-get install npm=version-1chl1~precise1
     ```
 
     **示例:**
 
-    ```
+    ```js
     sudo  apt-get install npm=4.0.0-1chl1~precise1
     ```

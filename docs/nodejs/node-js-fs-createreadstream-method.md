@@ -5,7 +5,7 @@
 **createReadStream()方法**是 fs 模块的内置应用编程接口，允许您打开文件/流并读取其中存在的数据。
 **语法:**
 
-```
+```js
 fs.createReadStream( path, options )
 ```
 
@@ -20,7 +20,7 @@ fs.createReadStream( path, options )
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // fs.createReadStream() method
 
@@ -39,7 +39,7 @@ reader.on('data', function (chunk) {
 
 **输出:**
 
-```
+```js
 input.txt file data:
 GeeksforGeeks: A computer science portal for geeks
 ```
@@ -48,7 +48,7 @@ GeeksforGeeks: A computer science portal for geeks
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // fs.createReadStream() method
 
@@ -73,7 +73,7 @@ reader.on('data', function (chunk) {
 
 **输出:**
 
-```
+```js
 forGeeks: A comp
 uter science por
 tal for geeks

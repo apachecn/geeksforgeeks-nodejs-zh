@@ -23,7 +23,7 @@
 
 **语法:**
 
-```
+```js
 const fs = require('fs')
 ```
 
@@ -42,7 +42,7 @@ const fs = require('fs')
 
 **异步方法**本质上是非阻塞的，因为它们从不等待当前操作完成。在调用异步方法时，我们必须传递一个回调函数作为参数。当一个异步函数被调用时，它被 [**事件循环**](https://www.geeksforgeeks.org/node-js-event-loop/) 注册或推送到一个队列，并执行下一行代码。在后台，我们的异步函数被执行，当它完成时，我们作为参数传递的回调函数被推入回调队列，并在轮到它时被执行。
 
-```
+```js
  Basically, the catch here is to understand that asynchronous methods do the operation in the background and do not block the 
  execution of code.
 ```
@@ -61,7 +61,7 @@ const fs = require('fs')
 
 **语法:**
 
-```
+```js
 fs.readFile(path,options,callback);
 ```
 
@@ -81,7 +81,7 @@ fs.readFile(path,options,callback);
 
 ## app.js
 
-```
+```js
 const fs = require("fs");
 // Asynchronous version of readFile method
 fs.readFile("input.txt", "utf-8", (error, data) => {
@@ -102,13 +102,13 @@ fs.readFile("input.txt", "utf-8", (error, data) => {
 
 使用以下命令运行 **app.js** :
 
-```
+```js
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 Hurrah, now you know how to read a file.
 ```
 
@@ -116,7 +116,7 @@ Hurrah, now you know how to read a file.
 
 ## java 描述语言
 
-```
+```js
 const fs = require("fs");
 
 try {
@@ -131,7 +131,7 @@ try {
 
 **输出:**
 
-```
+```js
 Hurrah, now you know how to read a file synchronously.
 ```
 
@@ -139,7 +139,7 @@ Hurrah, now you know how to read a file synchronously.
 
 **语法:**
 
-```
+```js
 fs.writeFile(path, data, options, callback)
 ```
 
@@ -159,7 +159,7 @@ fs.writeFile(path, data, options, callback)
 
 ## app.js
 
-```
+```js
 const fs = require("fs");
 
 const str = "Learning how to write to a file.";
@@ -188,13 +188,13 @@ fs.writeFile("output.txt", str, "utf-8", (error) => {
 
 使用命令运行 **app.js** 文件–
 
-```
+```js
 node app.js
 ```
 
 **输出:**将创建一个名为 **output.txt** 的新文件，并在其上写入数据。但是文件已经存在，那么它的所有内容将被删除，并被我们写的数据所取代。
 
-```
+```js
 Successfully written!!
 Learning how to write to a file.
 ```
@@ -203,7 +203,7 @@ Learning how to write to a file.
 
 ****语法:****
 
-```
+```js
 fs.appendFile(path, data, options, callback)
 ```
 
@@ -224,7 +224,7 @@ fs.appendFile(path, data, options, callback)
 
 ****output.txt:** 最初包含–**
 
-```
+```js
 Learning how to write to a file. (Previous content)
 ```
 
@@ -232,7 +232,7 @@ Learning how to write to a file. (Previous content)
 
 ## **java 描述语言**
 
-```
+```js
 const fs = require("fs");
 
 const data = "\nLearning how to append to a file. (New content)";
@@ -257,13 +257,13 @@ fs.appendFile("output.txt", data, "utf-8", (error) => {
 
 **使用以下命令运行 **app.js****
 
-```
+```js
 node app.js
 ```
 
 ****输出:**我们提供的数据将被追加到 **output.txt** 中，我们将得到以下输出–**
 
-```
+```js
 Successfully written!!
 Learning how to write to a file. (Previous content)
 Learning how to append to a file. (New content)
@@ -281,7 +281,7 @@ Learning how to append to a file. (New content)
 
 ****测试用例****
 
-```
+```js
 {
   "problem": 121,
   "input": [
@@ -299,7 +299,7 @@ Learning how to append to a file. (New content)
 
 ## **java 描述语言**
 
-```
+```js
 // Complete this function to find the 
 // absolute difference of sum of even 
 // and odd terms in arr
@@ -313,7 +313,7 @@ function diffOfOddEvenSum(arr) {
 
 ## **app.js**
 
-```
+```js
 const fs = require("fs");
 const funct = require("./index");
 function diffOfOddEvenSum(arr) {
@@ -372,13 +372,13 @@ fs.writeFileSync("result.txt", result, "utf-8");
 
 **使用命令运行 **app.js****
 
-```
+```js
 node app.js
 ```
 
 ****输出**–在我们的 **result.txt** 文件中，我们有**
 
-```
+```js
 Test Case 1- passed 
 Test Case 2- passed
 Test Case 3- passed 

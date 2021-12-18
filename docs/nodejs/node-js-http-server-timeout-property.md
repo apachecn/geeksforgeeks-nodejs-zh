@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 server.timeout
 ```
 
@@ -18,7 +18,7 @@ server.timeout
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the  
 // server.timeout APi
 
@@ -67,13 +67,13 @@ console.log('Default time out value :- ' + v)
 
 使用以下命令运行 **index.js 文件**:
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 Default time out value :- 0
 Server is running at port 3000...
 Displaying the result...
@@ -84,7 +84,7 @@ Server is closed
 
 **浏览器输出:**在浏览器的搜索栏中粘贴 localhost 地址 http://localhost:3000/即可。
 
-```
+```js
 socket buffersize : 0
 ```
 
@@ -92,7 +92,7 @@ socket buffersize : 0
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the  
 // server.timeout APi
 
@@ -138,13 +138,13 @@ console.log('Default time out value :- ' + v)
 
 使用以下命令运行 **index.js 文件**:
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 Default time out value :- 0
 Server is running at port 3000...
 Displaying the result...
@@ -155,7 +155,7 @@ Server is closed
 
 **浏览器输出:**在浏览器的搜索栏中粘贴 localhost 地址 http://localhost:3000/即可。
 
-```
+```js
 socket local address : ::1
 ```
 

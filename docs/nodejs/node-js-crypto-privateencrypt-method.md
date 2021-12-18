@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crypto.privateEncrypt( privateKey, buffer )
 ```
 
@@ -24,7 +24,7 @@ crypto.privateEncrypt( privateKey, buffer )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.privateEncrypt() method
 
@@ -82,7 +82,7 @@ console.log("Encrypted: ", encrypted);
 
 **输出:**
 
-```
+```js
 Plaintext: GfG
 Encrypted:  c60eR17GTQFkTI1ipTq5qFbYS58lIQqpDiou2UlYeOUE+u7agbtHvvwKaBpzBx4SvTCh5abpaqmyXCyGcUpGc7s=
 
@@ -90,7 +90,7 @@ Encrypted:  c60eR17GTQFkTI1ipTq5qFbYS58lIQqpDiou2UlYeOUE+u7agbtHvvwKaBpzBx4SvTCh
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.privateEncrypt() method
 
@@ -149,7 +149,7 @@ console.log("Encrypted buffer: ", encrypted);
 
 **输出:**
 
-```
+```js
 Plaintext: GfG
 Encrypted buffer:  <Buffer 14 e5 84 05 2f b5 59 64
 22 d2 19 99 f9 66 e5 18 50 76 27 df 0b e6 9f 50 1d a2

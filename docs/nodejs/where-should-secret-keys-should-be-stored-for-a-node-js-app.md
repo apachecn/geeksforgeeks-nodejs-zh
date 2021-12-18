@@ -18,7 +18,7 @@
 
 设置环境变量的语法如下，其中 *ENV_VARIABLE_NAME* 是我们的环境变量的名称， *VALUE* 是该特定变量的值。
 
-```
+```js
 ENV_VARIABLE_NAME=VALUE
 ```
 
@@ -30,13 +30,13 @@ Node.js 提供**进程**对象，该对象是提供当前 Node.js 进程的信�
 
 ****模块安装:**要安装此软件包，请在终端中键入以下命令:**
 
-```
+```js
 npm install dotenv
 ```
 
 ****要求模块:**要求应用中的 **dotenv** 包使用以下代码:**
 
-```
+```js
 require('dotenv').config();
 ```
 
@@ -48,7 +48,7 @@ require('dotenv').config();
 
 ****TEST.env****
 
-```
+```js
 PORT=8080
 DATABASE_URL=mongodb://localhost:27017/GFG
 DATABASE_PASSWORD=<your password>
@@ -61,7 +61,7 @@ EMAIL_PASSWORD=<your email password>
 
 ## **index.js**
 
-```
+```js
 require('dotenv').config({ path: './TEST.env' })
 
 console.log("PORT:", process.env.PORT);
@@ -74,7 +74,7 @@ console.log("EMAIL_PASSWORD:", process.env.EMAIL_PASSWORD);
 
 ****步骤 3:** 使用以下命令运行**索引. js** 文件:**
 
-```
+```js
 node index.js
 ```
 

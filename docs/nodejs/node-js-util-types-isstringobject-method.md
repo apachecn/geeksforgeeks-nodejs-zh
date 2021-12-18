@@ -6,7 +6,7 @@ util 模块的 **util.types.isStringObject()方法**主要是为了支持 Node.j
 
 **语法:**
 
-```
+```js
 util.types.isStringObject( value )
 ```
 
@@ -18,7 +18,7 @@ util.types.isStringObject( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // util.types.isStringObject() method 
 
@@ -35,14 +35,14 @@ console.log(util.types.isStringObject(new String())); 
 
 **输出:**
 
-```
+```js
 false
 true
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // util.types.isStringObject() method 
 
@@ -69,7 +69,7 @@ console.log(util.types.isStringObject(new Set()));
 
 **输出:**
 
-```
+```js
 false
 true
 false

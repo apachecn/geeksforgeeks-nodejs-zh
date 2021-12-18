@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.version
 ```
 
@@ -16,7 +16,7 @@ process.version
 
 **例 1:**
 
-```
+```js
 // Allocating process module
 const process = require('process');
 
@@ -26,13 +26,13 @@ console.log("node.js version " + process.version);
 
 **输出:**
 
-```
+```js
 node.js version v10.16.0
 ```
 
 **例 2:**
 
-```
+```js
 // Allocating process module
 const process = require('process');
 
@@ -59,7 +59,7 @@ console.log("Node.js version name: " + name);
 
 **输出:**
 
-```
+```js
 node.js version v10.16.0
 Node.js version name: Dubnium
 ```

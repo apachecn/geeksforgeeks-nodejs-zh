@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```js
 <Model_Name>.find(<query>,<projection>)
 ```
 
@@ -24,13 +24,13 @@
 
 **第一步:**可以访问[安装猫鼬](https://www.npmjs.com/package/mongoose)链接安装猫鼬模块。您可以使用此命令安装此软件包。
 
-```
+```js
 npm install mongoose
 ```
 
 **步骤 2:** 现在，您可以使用以下命令导入文件中的猫鼬模块:
 
-```
+```js
 const mongoose = require('mongoose');
 ```
 
@@ -45,7 +45,7 @@ const mongoose = require('mongoose');
 
 ## model.js
 
-```
+```js
 // Requiring module
 const mongoose = require('mongoose');
 
@@ -81,7 +81,7 @@ GFG 数据库的收藏课程和学生
 
 **步骤 3:** 使用猫鼬可以轻松建立数据库连接，例如:
 
-```
+```js
 mongoose.connect('mongodb://localhost:27017/GFG',
 {  
   useNewUrlParser: true,  
@@ -94,7 +94,7 @@ mongoose.connect('mongodb://localhost:27017/GFG',
 
 ## main.js
 
-```
+```js
 // Requiring mongoose module
 const mongoose = require('mongoose');
 
@@ -142,7 +142,7 @@ Course.find({ category: "Database" })
 
 **步骤 5:** 使用以下命令运行 *main.js* 文件:
 
-```
+```js
 node main.js
 ```
 

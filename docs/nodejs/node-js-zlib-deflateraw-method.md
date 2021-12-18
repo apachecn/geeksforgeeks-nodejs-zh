@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.deflateRaw( buffer, options, callback )
 ```
 
@@ -21,7 +21,7 @@ zlib.deflateRaw( buffer, options, callback )
 
 ****例 1:****
 
- **```
+ **```js
 // Node.js program to demonstrate the     
 // deflateRaw() method
 
@@ -42,13 +42,13 @@ zlib.deflateRaw(input, (err, buffer) => {
 
 ****输出:****
 
-```
+```js
 f3cb4cc9c85408cecc4bcf0000 
 ```
 
 ****例 2:****
 
- **```
+ **```js
 // Node.js program to demonstrate the     
 // deflateRaw() method
 
@@ -73,7 +73,7 @@ zlib.deflateRaw(input, (err, buffer) => {
 
 ****输出:****
 
-```
+```js
 734f4dcd2e4ecb2f7207d100 
 ```
 

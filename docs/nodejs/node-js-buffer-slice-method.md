@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 buffer.slice( start, end )
 ```
 
@@ -25,7 +25,7 @@ buffer.slice( start, end )
 
 **例 1:**
 
-```
+```js
 // Node program to demonstrate the  
 // Buffer.slice() method 
 
@@ -41,13 +41,13 @@ console.log("Sliced Buffer is: " + output.toString());
 
 **输出:**
 
-```
+```js
 Sliced Buffer is: Geek
 ```
 
 **例 2:**
 
-```
+```js
 // Node program to demonstrate the  
 // Buffer.slice() method 
 
@@ -64,7 +64,7 @@ console.log(opBuffer.toString());
 
 **输出:**
 
-```
+```js
 Geek One
 Geek Two
 ```

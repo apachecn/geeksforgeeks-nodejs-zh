@@ -8,13 +8,13 @@ LIMIT 子句用于设置 SQL 查询输出中的最大行数。
 
 *   从用户表的第一行中仅选择 3 行。
 
-    ```
+    ```js
     SELECT * FROM users LIMIT 3
     ```
 
 *   从用户表的第二行中仅选择 3 行。
 
-    ```
+    ```js
     SELECT * FROM users LIMIT 3 OFFSET 1
     ```
 
@@ -22,7 +22,7 @@ LIMIT 子句用于设置 SQL 查询输出中的最大行数。
 
 *   mysql:处理 MySql 连接和查询
 
-```
+```js
 npm install mysql
 ```
 
@@ -34,7 +34,7 @@ npm install mysql
 
 ## java 描述语言
 
-```
+```js
 const mysql = require("mysql");
 
 let db_con  = mysql.createConnection({
@@ -71,7 +71,7 @@ db_con.connect((err) => {
 
 ## java 描述语言
 
-```
+```js
 const mysql = require("mysql");
 
 let db_con  = mysql.createConnection({

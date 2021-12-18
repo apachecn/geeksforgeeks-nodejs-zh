@@ -33,7 +33,7 @@
     *   **服务器:**
         要将其安装在 Node.js 项目中，运行以下命令，
 
-        ```
+        ```js
         $ npm install --save socket.io
         ```
 
@@ -42,7 +42,7 @@
 
         要从 Node.js 中使用它，请通过以下命令安装它:
 
-        ```
+        ```js
         $ npm install --save socket.io-client
         ```
 
@@ -60,7 +60,7 @@
 
     现在使用以下命令安装 express js，
 
-    ```
+    ```js
     $ npm install --save express@4.15.2
     ```
 
@@ -100,7 +100,7 @@
 
     现在创建**index.html**文件并粘贴以下代码。
 
-    ```
+    ```js
     <!DOCTYPE html>
     <html>
 
@@ -147,7 +147,7 @@
     **集成插座。IO:**
     要安装服务器端模块，运行以下命令，
 
-    ```
+    ```js
     $ npm install --save socket.io
     ```
 
@@ -278,6 +278,6 @@
 
     **去背包**
 
-    ```
+    ```js
     https://github.com/CherryGot/SocketIO-Upvote.git
     ```

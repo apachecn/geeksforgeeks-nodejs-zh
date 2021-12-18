@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const url.domainToUnicode(domain)
 ```
 
@@ -17,7 +17,7 @@ const url.domainToUnicode(domain)
 下面的程序说明了**URL . domaintonunicode()**方法的使用。
 T3】例 1:
 
-```
+```js
 // Node.js program to demonstrate the 
 // URL.domainToUnicode() method
 
@@ -42,7 +42,7 @@ console.log("\nUnicode value : " + ascivalue1);
 
 **输出:**
 
-```
+```js
 ASCII value : xn--espaol-zwa.com
 
 ASCII value : google.com
@@ -51,7 +51,7 @@ ASCII value : google.com
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // URL.domainToUnicode() API as Setter
 
@@ -76,7 +76,7 @@ console.log("\nUnicode value : " + ascivalue1);
 
 **输出:**
 
-```
+```js
 Unicode value : geeksforgeeks.com
 
 Unicode value :

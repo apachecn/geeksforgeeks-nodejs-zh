@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 util.types.isFloat32Array( value )
 ```
 
@@ -20,7 +20,7 @@ util.types.isFloat32Array( value )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // util.types.isFloat32Array() Method
 
@@ -46,7 +46,7 @@ console.log(util.types.isFloat32Array(v5));
 
 **输出:**
 
-```
+```js
 false
 false
 true
@@ -57,7 +57,7 @@ false
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // util.types.isFloat32Array() Method
 
@@ -83,7 +83,7 @@ else
 
 **输出:**
 
-```
+```js
 The passed value is a Float32Array.
 The passed value is not a Float32Array
 

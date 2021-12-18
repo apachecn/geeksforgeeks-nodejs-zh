@@ -8,7 +8,7 @@
 
 **安装:**
 
-```
+```js
 npm install google-play-scraper
 ```
 
@@ -23,7 +23,7 @@ npm install google-play-scraper
 
 **示例:**
 
-```
+```js
 var gPlayScraper = require('google-play-scraper');
 
 gPlayScraper.app({appId: 'free.programming.programming'})
@@ -32,7 +32,7 @@ gPlayScraper.app({appId: 'free.programming.programming'})
 
 **输出:**
 
-```
+```js
 [ { title: 'Learn DS & Algo, Programming Interview Preparation',
   description:
    'GeeksforGeeks is a one-stop destination for programmers.
@@ -74,7 +74,7 @@ gPlayScraper.app({appId: 'free.programming.programming'})
 
 **示例:**
 
-```
+```js
 var gPlayScraper = require('google-play-scraper');
 
 gPlayScraper.search({
@@ -85,7 +85,7 @@ gPlayScraper.search({
 
 **输出:**
 
-```
+```js
 [ { title: 'CNET: Best Tech News, Reviews, Videos & Deals',
     appId: 'com.cbsinteractive.cnet',
     url:
@@ -120,7 +120,7 @@ gPlayScraper.search({
 
 **示例:**
 
-```
+```js
 var gPlayScraper = require('google-play-scraper');
 
 gPlayScraper.suggest({term: 'algorithms'}).then(console.log);
@@ -128,7 +128,7 @@ gPlayScraper.suggest({term: 'algorithms'}).then(console.log);
 
 **输出:**
 
-```
+```js
 [ 'algorithms',
   'algorithms to live by',
   'algorithms and data structures',
@@ -146,7 +146,7 @@ gPlayScraper.suggest({term: 'algorithms'}).then(console.log);
 
 **示例:**
 
-```
+```js
 var gPlayScraper = require('google-play-scraper');
 
  // Let's analyse the permissions requested by SHAREit
@@ -156,7 +156,7 @@ gPlayScraper.permissions({appId: 'com.lenovo.anyshare.gps'}).
 
 **输出:**
 
-```
+```js
 [ { permission: 'take pictures and videos', type: 'Camera' },
   { permission:
      "add or modify calendar events and send email to

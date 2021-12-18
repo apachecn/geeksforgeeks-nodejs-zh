@@ -20,7 +20,7 @@
 
 **安装模块:**
 
-```
+```js
 npm install needle
 ```
 
@@ -28,7 +28,7 @@ npm install needle
 
 ## java 描述语言
 
-```
+```js
 //Importing needle module
 const needle = require('needle');
 
@@ -56,7 +56,7 @@ needle('post', 'https://requires.in/api/usersdata', 
 
 **执行命令:**
 
-```
+```js
 node index.js
 ```
 
@@ -68,7 +68,7 @@ node index.js
 
 **安装模块:**
 
-```
+```js
 npm install axios
 ```
 
@@ -76,7 +76,7 @@ npm install axios
 
 ## java 描述语言
 
-```
+```js
 // Importing the axios module
 const axios = require('axios');
 
@@ -106,7 +106,7 @@ const addUser = async () => {
 
 **执行命令:**
 
-```
+```js
 node index.js
 ```
 
@@ -120,7 +120,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 // Importing https module
 const https = require('https');
 
@@ -163,7 +163,7 @@ req.end();
 
 **执行命令:**
 
-```
+```js
 node index.js
 ```
 

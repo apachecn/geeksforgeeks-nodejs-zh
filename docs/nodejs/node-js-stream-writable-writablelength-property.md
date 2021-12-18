@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 writable.writableLength
 ```
 
@@ -16,7 +16,7 @@ writable.writableLength
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.writableLength Property
 
@@ -54,13 +54,13 @@ writable.writableLength;
 
 **输出:**
 
-```
+```js
 5
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.writableLength Property
 
@@ -104,7 +104,7 @@ writable.writableLength;
 
 **输出:**
 
-```
+```js
 hi
 3
 

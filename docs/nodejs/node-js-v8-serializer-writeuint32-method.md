@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v8.Serializer.writeUint32( value );
 ```
 
@@ -22,7 +22,7 @@ v8.Serializer.writeUint32( value );
 
 **文件名:**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 const serializer = new v8.Serializer();
@@ -37,13 +37,13 @@ console.log(serializer.releaseBuffer());
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Undefined
 <Buffer 97 2d>
 
@@ -53,7 +53,7 @@ Undefined
 
 **文件名:**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 const serializer = new v8.Serializer();
@@ -85,13 +85,13 @@ console.log(deserializer.readUint32());
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 <Buffer >
 <Buffer 82 e8 01>
 writing two 32 bits number one after another

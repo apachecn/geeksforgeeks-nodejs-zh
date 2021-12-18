@@ -10,7 +10,7 @@ Node.js 是一个开源的跨平台运行时环境，用于在浏览器之外执
 
 **语法:**
 
-```
+```js
 var http = require("http");
 ```
 
@@ -18,7 +18,7 @@ var http = require("http");
 
 **语法:**
 
-```
+```js
 const server = http.createServer().listen(port) 
 ```
 
@@ -32,7 +32,7 @@ const server = http.createServer().listen(port)
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to create
 // http server
 
@@ -59,7 +59,7 @@ const server = http.createServer(
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -77,7 +77,7 @@ node index.js
 
 ****语法:****
 
-```
+```js
 var https = require("https");
 ```
 
@@ -85,7 +85,7 @@ var https = require("https");
 
 ****语法:****
 
-```
+```js
 const server = https.createServer(options, 
             onResponseCallback).listen(port) 
 ```
@@ -102,7 +102,7 @@ const server = https.createServer(options,
 
 ## **java 描述语言**
 
-```
+```js
 // Node.js program to create
 // https server
 

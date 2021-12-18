@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Event: 'resume'
 ```
 
@@ -16,7 +16,7 @@ Event: 'resume'
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable resume event
 
@@ -47,7 +47,7 @@ console.log("Program ends....");
 
 **输出:**
 
-```
+```js
 Program ends....
 resume emitted!
 GeeksforGeeks
@@ -56,7 +56,7 @@ GeeksforGeeks
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable resume event
 
@@ -97,7 +97,7 @@ console.log("Done....");
 
 **输出:**
 
-```
+```js
 Done....
 GeeksforGeeks
 No additional data will be displayed for 3 seconds.

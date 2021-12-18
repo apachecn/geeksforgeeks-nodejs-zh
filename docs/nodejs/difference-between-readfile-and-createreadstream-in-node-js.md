@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 fs.readFile( filename, encoding, callback_function)
 ```
 
@@ -24,13 +24,13 @@ fs.readFile( filename, encoding, callback_function)
 
 **output.txt 文件:**
 
-```
+```js
 This is an output file read from readFile method.
 ```
 
 ## index.js
 
-```
+```js
 const fs = require('fs');
 fs.readFile('output.txt', 'utf8', (err, data) => {
   console.log(`Data present in the file is::    ${data}`);
@@ -40,7 +40,7 @@ console.log('Outside readFile method');
 
 **输出:**
 
-```
+```js
 Outside readFile method
 Data present in the file is::   
 This is an output file read from readFile method.
@@ -50,7 +50,7 @@ This is an output file read from readFile method.
 
 **语法:**
 
-```
+```js
 fs.createReadStream(path, options)
 ```
 
@@ -64,13 +64,13 @@ fs.createReadStream(path, options)
 
 **Output.txt 文件:**
 
-```
+```js
 This is an output file read from createReadStream method.
 ```
 
 ## index.js
 
-```
+```js
 const fs = require('fs');
 const createReader = fs.createReadStream('output.txt');
 
@@ -83,7 +83,7 @@ console.log('Outside createReader.on method');
 
 **输出:**
 
-```
+```js
 Outside createReader.on method
 This is an output file read from createReadStream method.
 ```

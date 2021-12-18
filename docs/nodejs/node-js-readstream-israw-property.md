@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const status = ReadStream.isRaw;
 ```
 
@@ -14,7 +14,7 @@ const status = ReadStream.isRaw;
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate the
 // readStream.isRaw property
 
@@ -60,13 +60,13 @@ client.send("It is ", 0, 7, 1234, "localhost");
 
 **输出:**
 
-```
+```js
 It is not configured
 ```
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Node.js program to demonstrate the
 // readStream.isRaw property
 
@@ -92,13 +92,13 @@ if(status) {
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 It is configured
 ```
 

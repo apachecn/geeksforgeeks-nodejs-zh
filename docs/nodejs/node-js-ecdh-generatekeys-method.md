@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 ecdh.generateKeys( encoding, format )
 ```
 
@@ -23,7 +23,7 @@ ecdh.generateKeys( encoding, format )
 
 ## java 描述语言
 
-```
+```js
 const crypto = require('crypto');
 
 // Generate an ECDH object for geekA
@@ -50,7 +50,7 @@ console.log(
 
 ## java 描述语言
 
-```
+```js
 const crypto = require('crypto');
 
 // Generate an ECDH object for geekA

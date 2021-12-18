@@ -6,7 +6,7 @@ urlObject.query 是返回的查询字符串，不带 ASCII 问号(？)或名为 
 
 **语法**
 
-```
+```js
 urlObject.query
 ```
 
@@ -14,7 +14,7 @@ urlObject.query
 
 **例:**
 
-```
+```js
 'query=string' or {'query': 'object'}
 
 'http://localhost:8000/gfg.html?name:GFG'
@@ -26,7 +26,7 @@ In the above URL, the name is the query and GFG is the string.
 
 **例 1:**
 
-```
+```js
 // Node program to demonstrate the  
 // url.query API as Setter
 
@@ -50,13 +50,13 @@ console.log(month);
 
 **输出:**
 
-```
+```js
 December
 ```
 
 **例 2:**
 
-```
+```js
 // Node program to demonstrate the  
 // url.query API as Setter
 
@@ -80,7 +80,7 @@ console.log(year);
 
 **输出:**
 
-```
+```js
 2019
 ```
 

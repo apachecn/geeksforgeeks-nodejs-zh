@@ -8,7 +8,7 @@
 
 ## java 描述语言
 
-```
+```js
 console.log('Hello Node.js!');
 ```
 
@@ -16,7 +16,7 @@ console.log('Hello Node.js!');
 
 **输出:**
 
-```
+```js
 Hello Node.js
 ```
 
@@ -24,7 +24,7 @@ Hello Node.js
 
 ## java 描述语言
 
-```
+```js
 const fs = require('fs')
 
 //  Writing to a file
@@ -35,7 +35,7 @@ fs.writeFileSync('demo.txt', 'geeks')
 
 ## java 描述语言
 
-```
+```js
 // File Name: index.js
 const demo = () => {
   console.log('This Functions uses'
@@ -53,7 +53,7 @@ module.exports = check
 
 ## java 描述语言
 
-```
+```js
 // File Name : app.js
 
 // This index variable can be used
@@ -75,7 +75,7 @@ index.check();
 
 ## java 描述语言
 
-```
+```js
 // Importing 'fs' module
 const fs = require("fs");
 
@@ -102,13 +102,13 @@ console.log(geeksObject);
 
 **运行代码的命令:**
 
-```
+```js
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 geeksforgeeks { 
     title: 'Node', 
     article: 'geeksforgeeks', 

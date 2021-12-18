@@ -6,14 +6,14 @@
 
 **MongoDB 模块:**node . js 的这个模块用于连接 MongoDB 数据库，也用于操作 MongoDB 中的集合和数据库。mongodb.connect()方法用于连接在您的计算机上的特定服务器上运行的 mongodb 数据库。(参考 [**本**](https://www.geeksforgeeks.org/how-to-connect-mongodb-server-with-node-js/) 篇)。我们还可以在这个方法中使用 promises 来解析包含集合操作所需的所有方法和属性的对象，并在连接过程中拒绝出现的错误。
 
-```
+```js
 We cannot create database without inserting one and more collection in it
 
 ```
 
 **安装模块:**
 
-```
+```js
 node install mongodb
 
 ```
@@ -24,7 +24,7 @@ node install mongodb
 
 **在本地 IP 上运行服务器:**
 
-```
+```js
 mongod --dbpath=data --bind_ip 127.0.0.1
 
 ```
@@ -33,7 +33,7 @@ mongod --dbpath=data --bind_ip 127.0.0.1
 
 **MongoDB 数据库:**
 
-```
+```js
 Database: GFG
 
 ```
@@ -44,7 +44,7 @@ Database: GFG
 
 ## java 描述语言
 
-```
+```js
 const MongoClient = require("mongodb");
 const url = 'mongodb://localhost:27017/';
 const databasename = "gfg"; // Database name

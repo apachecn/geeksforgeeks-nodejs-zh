@@ -35,19 +35,19 @@
 
 1.  首先用 **package.json** 文件初始化应用程序。写下以下命令:
 
-    ```
+    ```js
     npm init
     ```
 
 2.  Install express module by using the following command:
 
-    ```
+    ```js
     npm install express --save
     ```
 
     下面显示的是我们的 package.json 文件:
 
-    ```
+    ```js
     {
       "name": "HelmetJs",
       "version": "1.0.0",
@@ -67,7 +67,7 @@
 
 3.  创建一个文件，我们将在其中编写 javascript 代码。例如 **app.js** 。你可以随意命名你的文件。现在，编写以下设置服务器的代码:
 
-    ```
+    ```js
     const express = require('express');
     const app = express();
 
@@ -85,19 +85,19 @@
 
 4.  Run app.js file with the following command:
 
-    ```
+    ```js
     node app.js
     ```
 
     上述命令的输出如下所示:
 
-    ```
+    ```js
     Server started at http://localhost:3000
     ```
 
 5.  打开浏览器，转到 *http://localhost:3000* 。再次打开**网络**选项卡，您将看到浏览器发出的请求列表。选择**本地主机**请求，您将看到如下响应标题列表:
 
-    ```
+    ```js
     HTTP/1.1 304 Not Modified
     X-Powered-By: Express
     ETag: W/"35-QqeUaYjSJ35gtyT3DcgtpQlitTU"
@@ -110,13 +110,13 @@
 
 1.  要安装**头盔. js** 模块，请编写以下命令:
 
-    ```
+    ```js
     npm install helmet --save
     ```
 
 2.  在 **app.js** 文件中，编写以下代码来使用头盔模块:
 
-    ```
+    ```js
     const express = require('express');
     const helmet = require('helmet');
     const app = express();
@@ -137,13 +137,13 @@
 
 3.  使用以下命令启动服务器:
 
-    ```
+    ```js
     node app.js
     ```
 
 4.  Open the **Network** tab by clicking on Inspect Element. Click on **localhost** and you will notice an additional set of headers in response. The headers are as follows:
 
-    ```
+    ```js
     HTTP/1.1 304 Not Modified
     X-DNS-Prefetch-Control: off
     X-Frame-Options: SAMEORIGIN

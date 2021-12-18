@@ -6,7 +6,7 @@
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // console.log() Method
 
@@ -16,7 +16,7 @@ console.log("A computer science portal for geeks");
 
 **输出:**
 
-```
+```js
 Welcome to GeeksforGeeks!
 A computer science portal for geeks
 ```
@@ -26,7 +26,7 @@ A computer science portal for geeks
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // process.stdout.write() Method
 
@@ -36,7 +36,7 @@ process.stdout.write("A computer science portal for geeks");
 
 **输出:**
 
-```
+```js
 Welcome to GeeksforGeeks! A computer science portal for geeks
 ```
 

@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```js
 image.color([
  { apply: 'brighten', params: [value] }
 ]);
@@ -25,7 +25,7 @@ image.color([
 
 ## java 描述语言
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');
@@ -51,7 +51,7 @@ main();
 
 ## java 描述语言
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');

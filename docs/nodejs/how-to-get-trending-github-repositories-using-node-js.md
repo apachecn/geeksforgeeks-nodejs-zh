@@ -12,7 +12,7 @@
 
 **安装请求包:**
 
-```
+```js
 $ npm install request
 ```
 
@@ -20,7 +20,7 @@ $ npm install request
 
 **请求语法:**
 
-```
+```js
 request(url, (error, response, body) => {
     if(!error && response.statusCode == 200) {
         statements to be executed.
@@ -39,7 +39,7 @@ request(url, (error, response, body) => {
 
 **安装麦片包装:**
 
-```
+```js
 $ npm install cheerio
 ```
 
@@ -47,7 +47,7 @@ $ npm install cheerio
 
 【cheerio 的语法:
 
-```
+```js
 const cheerio = require('cheerio')
 const $ = cheerio.load(HTMLString)
 
@@ -55,7 +55,7 @@ $(CSS Selector).text('Hello there!')
 $.html()
 ```
 
-```
+```js
 // Import request package
 const request = require('request');
 

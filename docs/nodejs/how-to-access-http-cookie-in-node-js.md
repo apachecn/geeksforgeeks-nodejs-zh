@@ -6,7 +6,7 @@ Cookies 是存储在客户端的小数据，与服务器请求一起发送给客
 
 创建一个项目文件夹，并从项目的根目录运行以下命令:
 
-```
+```js
 npm init -y
 ```
 
@@ -14,7 +14,7 @@ npm init -y
 
 该命令将询问模块的名称。一直按回车，直到选项结束。这将创建一个空的 npm 模块，其中包含一个 ***包*** 文件。我们现在将使用以下命令安装所有必需的依赖项:
 
-```
+```js
 npm install express cookie-parser
 ```
 
@@ -26,7 +26,7 @@ npm install express cookie-parser
 
 ## java 描述语言
 
-```
+```js
 // Requiring modules
 var express = require('express');
 var cookieParser = require('cookie-parser');
@@ -60,7 +60,7 @@ app.listen(3000, (err) => {
 
 使用以下命令运行 **index.js 文件**:
 
-```
+```js
 node index.js
 ```
 

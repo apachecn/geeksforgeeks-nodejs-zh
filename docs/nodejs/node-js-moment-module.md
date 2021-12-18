@@ -13,13 +13,13 @@
 
 1.  您可以访问[安装力矩模块](https://www.npmjs.com/package/moment)的链接。您可以使用此命令安装此软件包。
 
-    ```
+    ```js
     npm install moment
     ```
 
 2.  After installing moment module, you can check your moment version in command prompt using the command.
 
-    ```
+    ```js
     npm ls moment
     ```
 
@@ -27,13 +27,13 @@
 
 3.  之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-    ```
+    ```js
     node index.js
     ```
 
 **文件名:index.js**
 
-```
+```js
 var moment = require('moment');
 
 // 2020-05-08T22:57:42+05:30
@@ -58,13 +58,13 @@ console.log(moment().format('YYYY [escaped] YYYY'));
     ![project structure](img/12892938e95a221b101e19c7256727f1.png)
 2.  使用以下命令确保您已安装力矩模块:
 
-    ```
+    ```js
     npm install moment
     ```
 
 3.  Run index.js file using below command:
 
-    ```
+    ```js
     node index.js
     ```
 

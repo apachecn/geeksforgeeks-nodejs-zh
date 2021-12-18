@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 ecdh.getPrivateKey( encoding )
 ```
 
@@ -25,7 +25,7 @@ ecdh.getPrivateKey( encoding )
 
 ## java 描述语言
 
-```
+```js
 const crypto = require('crypto');
 
 // Generate an ECDH object for geekA
@@ -59,7 +59,7 @@ console.log("Private Key of Geek B is:",
 
 ## java 描述语言
 
-```
+```js
 const crypto = require('crypto');
 
 // Generate an ECDH object for geekA

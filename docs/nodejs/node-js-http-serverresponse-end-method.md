@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 response.end(data, Encodingtype, Callbackfunction)
 ```
 
@@ -22,7 +22,7 @@ response.end(data, Encodingtype, Callbackfunction)
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the  
 // response.end() method
 
@@ -60,13 +60,13 @@ httpServer.listen(PORT, () => { 
 
 **执行命令:**
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 Server is running at port 3000...
 displaying the result...
 displaying the result...
@@ -78,7 +78,7 @@ server is closed
 
 *   **Paste the localhost address http://localhost:3000/. In the search bar of the browser.**
 
-```
+```js
 port address : 3000
 ```
 
@@ -86,7 +86,7 @@ port address : 3000
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the  
 // response.end() method
 
@@ -122,13 +122,13 @@ var httpServer = http.createServer(
 
 **执行命令:**
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 Server is running at port 3000...
 displaying the result...
 displaying the result...
@@ -140,7 +140,7 @@ server is closed
 
 *   **Paste the localhost address http://localhost:3000/. In the search bar of the browser.**
 
-```
+```js
 family  : IPv6
 ```
 

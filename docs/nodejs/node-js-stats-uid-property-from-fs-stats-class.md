@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.uid;
 ```
 
@@ -16,7 +16,7 @@ stats.uid;
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.uid property
 
@@ -59,7 +59,7 @@ fs.lstat('./filename.txt', (err, stats) => {
 
 **输出:**
 
-```
+```js
 using stat: numeric identity of the user is  9932440
 using lstat: numeric identity of the user is  9932440
 using stat: numeric identity of the user is  9932440
@@ -69,7 +69,7 @@ using lstat: numeric identity of the user is  9932440
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.uid property
 
@@ -86,7 +86,7 @@ const fs = require('fs').promises;
 
 **输出:**
 
-```
+```js
 (node:14456) ExperimentalWarning: The fs.promises API 
 is experimental 
 using stat synchronous: numeric identity of the user is 9932440

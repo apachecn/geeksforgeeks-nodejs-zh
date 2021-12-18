@@ -23,7 +23,7 @@ __dirname 和。/当节点与当前执行的文件运行在同一个目录中时
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // methods to display directory
 
@@ -48,7 +48,7 @@ console.log("filename: ", __filename);
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // methods to display directory
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.brotliCompress( buffer, options, callback )
 ```
 
@@ -21,7 +21,7 @@ zlib.brotliCompress( buffer, options, callback )
 
 ****例 1:****
 
- **```
+ **```js
 // Node.js program to demonstrate the     
 // brotliCompress() method
 
@@ -41,13 +41,13 @@ zlib.brotliCompress(input, (err, buffer) => {
 
 ****输出:****
 
-```
+```js
 Gw8A+CUAqhBDSpVv9iA= 
 ```
 
 ****例 2:****
 
- **```
+ **```js
 // Node.js program to demonstrate the     
 // brotliCompress() method
 
@@ -71,7 +71,7 @@ zlib.brotliCompress(input, (err, buffer) => {
 
 ****输出:****
 
-```
+```js
 1b0f00f82500aa10434a956ff620 
 ```
 

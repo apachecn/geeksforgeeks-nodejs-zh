@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 os.constants
 ```
 
@@ -229,7 +229,7 @@ os.constants
 
 **例 1:**
 
-```
+```js
 // Import os module
 const os = require('os');
 
@@ -241,7 +241,7 @@ console.log(constants);
 
 **输出:**
 
-```
+```js
 [Object: null prototype] {
   UV_UDP_REUSEADDR: 4,
   dlopen: [Object: null prototype] {},
@@ -258,7 +258,7 @@ console.log(constants);
 
 **例 2:**
 
-```
+```js
 // Import os module
 const os = require('os');
 
@@ -281,7 +281,7 @@ if(constants.priority!=undefined){
 
 **输出:**
 
-```
+```js
 Signals:
 [Object: null prototype] {
   SIGHUP: 1,

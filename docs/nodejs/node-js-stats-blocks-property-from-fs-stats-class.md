@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.blocks;
 ```
 
@@ -16,7 +16,7 @@ stats.blocks;
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // stats.blocks property
 
@@ -47,7 +47,7 @@ fs.lstat('./', (err, stats) => {
 
 **输出:**
 
-```
+```js
 using stat: 8
 using lstat: 8
 
@@ -55,7 +55,7 @@ using lstat: 8
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // stats.blocks property
 
@@ -75,7 +75,7 @@ const fs = require('fs').promises;
 
 **输出:**
 
-```
+```js
 using stat synchronous: 8
 
 ```

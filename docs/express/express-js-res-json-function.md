@@ -5,7 +5,7 @@
 **res.json()** 函数发送 json 响应。此方法发送响应(具有正确的内容类型)，该响应是使用 JSON.stringify()方法转换为 JSON 字符串的参数。
 **语法:**
 
-```
+```js
 res.json( [body] )
 ```
 
@@ -15,19 +15,19 @@ res.json( [body] )
 
 1.您可以访问[安装快速模块](https://www.npmjs.com/package/express)的链接。您可以使用此命令安装此软件包。
 
-```
+```js
 npm install express
 ```
 
 2.安装快速模块后，您可以使用命令在命令提示符下检查您的快速版本。
 
-```
+```js
 npm version express
 ```
 
 3.之后，您可以创建一个文件夹并添加一个文件，例如 index.js。
 
-```
+```js
 node index.js
 ```
 
@@ -35,7 +35,7 @@ node index.js
 
 ## java 描述语言
 
-```
+```js
 var express = require('express');
 var app = express();
 var PORT = 3000;
@@ -59,25 +59,25 @@ app.listen(PORT, function(err){
 
 2.使用以下命令确保您已经安装了 **express** 模块:
 
-```
+```js
 npm install express
 ```
 
 3.使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Server listening on PORT 3000
 ```
 
 4.现在打开浏览器，进入 *http://localhost:3000/* ，现在在你的屏幕上你会看到如下输出:
 
-```
+```js
 {"user":"geek"}
 ```
 
@@ -85,7 +85,7 @@ Server listening on PORT 3000
 
 ## java 描述语言
 
-```
+```js
 var express = require('express');
 var app = express();
 var PORT = 3000;
@@ -109,19 +109,19 @@ app.listen(PORT, function(err){
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 现在打开一个浏览器，进入 *http://localhost:3000/* ，现在在你的屏幕上你会看到如下输出:
 
-```
+```js
 {"title":"GeeksforGeeks"}
 ```
 
 您将在控制台上看到以下输出:
 
-```
+```js
 User Page
 ```
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.linkSync( existingPath, newPath )
 ```
 
@@ -19,7 +19,7 @@ fs.linkSync( existingPath, newPath )
 
 **示例 1:** 本示例创建到文件的硬链接。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.linkSync() method
 
@@ -38,7 +38,7 @@ console.log(fs.readFileSync('hardlinkToFile', 'utf8'));
 
 **输出:**
 
-```
+```js
 Contents of the text file:
 Hello GeeksForGeeks
 
@@ -50,7 +50,7 @@ Hello GeeksForGeeks
 
 **示例 2:** 本示例创建文件的硬链接，并删除原始文件。原始文件的内容仍然可以通过硬链接访问。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.linkSync() method
 
@@ -75,7 +75,7 @@ console.log(fs.readFileSync('hardlinkToFile', 'utf8'));
 
 **输出:**
 
-```
+```js
 Contents of the text file:
 Hello GeeksForGeeks
 

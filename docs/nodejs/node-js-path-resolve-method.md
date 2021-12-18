@@ -6,7 +6,7 @@
 如果没有给定路径段作为参数，则使用当前工作目录的绝对路径。
 **语法:**
 
-```
+```js
 path.resolve( [...paths] )
 
 ```
@@ -24,7 +24,7 @@ path.resolve( [...paths] )
 
 ## Node.js
 
-```
+```js
 // Node.js program to demonstrate the   
 // path.resolve() Method  
 
@@ -51,7 +51,7 @@ console.log(path3)
 
 **输出:**
 
-```
+```js
 Current directory: G:\tutorials\nodejs-path-resolve
 G:\tutorials\nodejs-path-resolve\users\admin\readme.md
 G:\tutorials\nodejs-path-resolve\users\admin\readme.md
@@ -63,7 +63,7 @@ G:\users\admin\readme.md
 
 ## Node.js
 
-```
+```js
 // Node.js program to demonstrate the   
 // path.resolve() Method  
 
@@ -87,7 +87,7 @@ console.log(path3)
 
 **输出:**
 
-```
+```js
 Current directory: G:\tutorials\nodejs-path-resolve
 G:\tutorials\nodejs-path-resolve\readme.md
 G:\tutorials\nodejs-path-resolve\users\files\readme.md

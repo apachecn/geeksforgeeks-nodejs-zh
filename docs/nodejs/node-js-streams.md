@@ -8,7 +8,7 @@
 
 **访问流:**
 
-```
+```js
 const stream = require('stream');
 ```
 
@@ -43,7 +43,7 @@ const stream = require('stream');
 
 **实现可读流:**我们将从 inStream 读取数据，并使用 process.stdout 将其回显到标准输出。
 
-```
+```js
 // Sample JavaScript Code for creating
 // a Readable Stream
 // Accessing streams
@@ -69,13 +69,13 @@ inStream.pipe(process.stdout);
 
 **输出:**
 
-```
+```js
 GeeksForGeeks : A Computer Science portal for Geeks 
 ```
 
 **实现一个可写流:**在 outStream 中，我们简单地将块记录为一个字符串。我们还调用回调函数来指示没有任何错误的成功。我们将从 inStream 中读取数据，并使用 process.stdout 将其回显到标准输出。
 
-```
+```js
 // Sample JavaScript Code for
 // Writable Stream
 // Accessing Streams
@@ -106,6 +106,6 @@ process.stdin.pipe(outStream);
 
 **输出:**
 
-```
+```js
 Hello Geeks
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 zlib.createBrotliDecompress( options )
 ```
 
@@ -18,7 +18,7 @@ zlib.createBrotliDecompress( options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // createBrotliDecompress() method
 
@@ -43,14 +43,14 @@ zlib.brotliCompress('Nidhi', function(err, data) {
 
 **输出:**
 
-```
+```js
 Nidhi
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // createBrotliDecompress() method
 
@@ -75,7 +75,7 @@ zlib.brotliCompress('CS-Portal!', function(err, data) {
 
 **输出:**
 
-```
+```js
 Q1MtUG9ydGFsIQ==
 
 ```

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 image.color([
   { apply: 'green', params: value }
 ]);
@@ -24,7 +24,7 @@ image.color([
 
 **例 1:**
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');
@@ -47,7 +47,7 @@ main();
 
 **例 2: cb(可选参数)**
 
-```
+```js
 // npm install --save jimp
 // import jimp library to the environment
 var Jimp = require('jimp');

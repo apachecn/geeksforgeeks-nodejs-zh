@@ -10,7 +10,7 @@
 
 ## index.js
 
-```
+```js
 const sort = async (arr) => {
     try {
         let i, j, temp;
@@ -74,13 +74,13 @@ print();
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 [ 10, 13, 17, 76, 90 ]
 ```
 
@@ -88,7 +88,7 @@ node index.js
 
 ## index.js
 
-```
+```js
 const prime = async (N) => {
     try {
         const arr = []
@@ -156,7 +156,7 @@ findPrime()
 
 **输出:**
 
-```
+```js
 [
    2,  3,  5,  7,
    11, 13, 17, 19 

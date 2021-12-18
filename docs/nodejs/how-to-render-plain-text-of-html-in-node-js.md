@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 res.sendFile(path,[options],[fn])
 ```
 
@@ -22,13 +22,13 @@ res.sendFile(path,[options],[fn])
 
 **步骤 3:** 现在，使用命令行中的以下命令，用默认配置初始化一个新的 Node.js 项目。
 
-```
+```js
 npm init -y
 ```
 
 **步骤 5:** 现在使用命令行中的以下命令在项目内部安装 express。
 
-```
+```js
 npm install express
 ```
 
@@ -38,7 +38,7 @@ npm install express
 
 ## app.js
 
-```
+```js
 // Importing modules
 const express = require('express');
 const path = require('path');
@@ -66,7 +66,7 @@ app.listen(3000, () => {
 
 ## index.html
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -84,7 +84,7 @@ app.listen(3000, () => {
 
 ## products.html
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -102,7 +102,7 @@ app.listen(3000, () => {
 
 使用以下命令运行 **app.js** 文件:
 
-```
+```js
 node app.js
 ```
 

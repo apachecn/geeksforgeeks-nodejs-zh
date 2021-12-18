@@ -8,25 +8,25 @@
 
 *   **第一步:**可以访问链接[下载节点](https://nodejs.org/en/)下载 LTS 版。安装节点后，您可以使用命令在命令提示符下检查节点版本。
 
-    ```
+    ```js
     node --version
     ```
 
 *   **步骤 2:** 使用以下命令为项目创建新文件夹:
 
-    ```
+    ```js
     mkdir testApp
     ```
 
 *   **步骤 3:** 使用以下命令导航到我们的文件夹:
 
-    ```
+    ```js
     cd testApp
     ```
 
 *   **步骤 4:** 使用以下命令和服务器文件初始化 npm:
 
-    ```
+    ```js
     npm init -y
     ```
 
@@ -36,7 +36,7 @@
 
 ## app.js
 
-```
+```js
 const http = require('http')
 const port = 8080
 
@@ -66,7 +66,7 @@ server.listen(port, function (error) {
 
 **运行步骤:**使用以下命令运行应用程序。
 
-```
+```js
 node app.js
 ```
 

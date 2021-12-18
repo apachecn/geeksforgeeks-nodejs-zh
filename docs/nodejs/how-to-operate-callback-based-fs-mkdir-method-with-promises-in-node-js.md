@@ -8,7 +8,7 @@ fs.mkdir()方法基于回调。使用回调方法导致回调嵌套或回调地�
 
 **语法:**
 
-```
+```js
 fs.mkdir(path, options)
 ```
 
@@ -25,7 +25,7 @@ fs.mkdir(path, options)
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 const util = require('util')
@@ -51,7 +51,7 @@ makeDir(dir='./Test Directory')
 
 使用异步等待实现相同的功能:
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 const util = require('util')
@@ -78,7 +78,7 @@ createDirectory('./TestDirectory')
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -90,13 +90,13 @@ node index.js
 
 **输出:**
 
-```
+```js
 Directory './Test Directory' is created
 ```
 
 **示例 2:** **文件名:index.js**
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 const util = require('util')
@@ -149,7 +149,7 @@ makeDir('./Test Directory')
 
 使用异步等待实现相同的功能:
 
-```
+```js
 // Importing File System and Utilities module
 const fs = require('fs')
 const util = require('util')
@@ -192,7 +192,7 @@ createDirectory('./TestDirectory')
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 

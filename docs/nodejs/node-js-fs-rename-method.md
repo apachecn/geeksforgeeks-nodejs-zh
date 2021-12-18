@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.rename( oldPath, newPath, callback )
 ```
 
@@ -20,7 +20,7 @@ fs.rename( oldPath, newPath, callback )
 
 **示例 1:** 本示例使用 fs.rename()方法重命名文件。
 
-```
+```js
 // Node.js program to demonstrate the    
 // fs.rename() method 
 
@@ -50,7 +50,7 @@ function getCurrentFilenames() {
 
 **输出:**
 
-```
+```js
 Current filenames:
 hello.txt
 index.js
@@ -64,7 +64,7 @@ world.txt
 
 **示例 2:** 本示例使用 fs.rename()方法演示文件重命名过程中的一个错误。
 
-```
+```js
 // Node.js program to demonstrate the    
 // fs.rename() method 
 
@@ -103,7 +103,7 @@ function getCurrentFilenames() {
 
 **输出:**
 
-```
+```js
 Current filenames:
 index.js
 package.json

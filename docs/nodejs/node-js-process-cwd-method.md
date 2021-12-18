@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.cwd()
 ```
 
@@ -18,7 +18,7 @@ process.cwd()
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // process.cwd() Method
 
@@ -32,14 +32,14 @@ console.log("Current working directory: ",
 
 **输出:**
 
-```
+```js
 Current working directory: C:\nodejs\g\process
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the    
 // process.cwd() Method
 
@@ -66,7 +66,7 @@ try {
 
 **输出:**
 
-```
+```js
 Current working directory: C:\nodejs\g\process
 Working directory after changing directory: C:\nodejs\g\os
 

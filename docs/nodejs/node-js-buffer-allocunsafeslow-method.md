@@ -10,7 +10,7 @@ Buffer.allocUnsafeSlow()方法用于分配给定大小的新缓冲区(以字节�
 
 **语法:**
 
-```
+```js
 buffer.allocUnsafeSlow( size )
 ```
 
@@ -22,7 +22,7 @@ buffer.allocUnsafeSlow( size )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.allocUnsafeSlow() Method
 
@@ -36,14 +36,14 @@ console.log(buffer);
 
 **输出:**
 
-```
+```js
 allocUnsafeSlow() Method
 <Buffer 01 00 00 00 00 00 00 00 8b ed>
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the  
 // Buffer.allocUnsafeSlow() Method
 
@@ -68,7 +68,7 @@ console.log(buffer.toString());
 
 **输出:**
 
-```
+```js
 rite
 abcd
 ```

@@ -8,7 +8,7 @@
 
 ## java 描述语言
 
-```
+```js
 // Syntax to print
 console.log("Welcome to GeeksforGeeks");
 ```
@@ -18,7 +18,7 @@ console.log("Welcome to GeeksforGeeks");
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```js
 // Syntax to print
 System.out.println("Welcome to GeeksforGeeks");
 ```

@@ -16,7 +16,7 @@
 
 T4T6
 
-```
+```js
 <script>
 
 // Simple JavaScript Code to show Event
@@ -38,7 +38,7 @@ T7
 
 **输出:**
 
-```
+```js
 Geeks
 For
 Geeks

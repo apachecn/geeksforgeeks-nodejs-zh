@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.chown( path, uid, gid, callback )
 ```
 
@@ -22,7 +22,7 @@ fs.chown( path, uid, gid, callback )
 
 **示例 1:** 本示例显示了所有者的设置。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.chown() method
 
@@ -43,7 +43,7 @@ fs.chown(filepath, 1541, 999, (error) => {
 
 **运行代码前:**
 
-```
+```js
 xubuntu@xubuntu: ~/Desktop/fs-chown$ ls -l
 total 8
 -rw-rw--w- 1 xubuntu xubuntu 4 Apr 25 04:08 example_file.txt
@@ -53,14 +53,14 @@ total 8
 
 **代码输出:**
 
-```
+```js
 Given uid and gid set successfully
 
 ```
 
 **运行代码后:**
 
-```
+```js
 xubuntu@xubuntu: ~/Desktop/fs-chown$ ls -l
 total 8
 -rw-rw--w- 1 geeksforgeeks xubuntu 4 Apr 25 04:08 example_file.txt
@@ -70,7 +70,7 @@ total 8
 
 **示例 2:** 此示例显示了组的设置。
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.chown() method
 
@@ -92,7 +92,7 @@ fs.chown(filepath, 1500, 1021, (error) => {
 
 **运行代码前:**
 
-```
+```js
 xubuntu@xubuntu: ~/Desktop/fs-chown$ ls -l
 total 8
 -rw-rw--w- 1 xubuntu xubuntu 4 Apr 25 04:09 example_file.txt
@@ -102,14 +102,14 @@ total 8
 
 **代码输出:**
 
-```
+```js
 Given uid and gid set successfully
 
 ```
 
 **运行代码后:**
 
-```
+```js
 xubuntu@xubuntu: ~/Desktop/fs-chown$ ls -l
 total 8
 -rw-rw--w- 1 sam author 4 Apr 25 04:09 example_file.txt

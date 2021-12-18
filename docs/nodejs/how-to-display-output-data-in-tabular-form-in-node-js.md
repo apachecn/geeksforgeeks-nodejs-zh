@@ -6,13 +6,13 @@
 
 **模块安装:**
 
-```
+```js
 npm install table
 ```
 
 **语法:**
 
-```
+```js
 table(data, config)
 ```
 
@@ -25,7 +25,7 @@ table(data, config)
 
 **示例 1:** **文件名:script.js**
 
-```
+```js
 let table = require("table");
 let data, config;
 
@@ -48,7 +48,7 @@ console.log(x)
 
 **运行该程序的步骤:**使用以下命令运行**脚本。**
 
-```
+```js
 node script.js
 ```
 
@@ -57,7 +57,7 @@ node script.js
 
 **示例 2:** **文件名:script.js**
 
-```
+```js
 let table = require("table");
 let data, config;
 
@@ -87,7 +87,7 @@ console.log(x)
 
 **运行该程序的步骤:**使用以下命令运行**脚本。**
 
-```
+```js
 node script.js
 ```
 

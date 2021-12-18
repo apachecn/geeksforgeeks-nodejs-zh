@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 process.seteuid( id )
 ```
 
@@ -24,7 +24,7 @@ process.seteuid( id )
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the     
 // process.seteuid() method
 
@@ -48,7 +48,7 @@ if (process.geteuid && process.seteuid ) {
 
 **输出:**
 
-```
+```js
 The effective user identity of the Node.js process: 400
 ```
 
@@ -56,7 +56,7 @@ The effective user identity of the Node.js process: 400
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the     
 // process.seteuid() method
 
@@ -88,7 +88,7 @@ if (process.geteuid) {
 
 **输出:**
 
-```
+```js
 User id has successfully been set
 The numerical effective user identity of the Node.js process: 696
 ```

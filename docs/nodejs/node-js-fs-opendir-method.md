@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.opendir( path[, options], callback )
 ```
 
@@ -24,7 +24,7 @@ fs.opendir( path[, options], callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.opendir() method
 
@@ -59,7 +59,7 @@ fs.opendir(
 
 **输出:**
 
-```
+```js
 Opening the directory
 Path of the directory: example_dir
 Closing the directory
@@ -68,7 +68,7 @@ Closing the directory
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.opendir() method
 
@@ -102,7 +102,7 @@ fs.opendir("example_dir", (err, dir) => {
 
 **输出:**
 
-```
+```js
 Current filenames in directory:
 file_a.txt
 file_b.txt

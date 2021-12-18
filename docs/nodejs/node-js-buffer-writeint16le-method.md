@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.writeInt16LE( value, offset )
 ```
 
@@ -21,7 +21,7 @@ Buffer.writeInt16LE( value, offset )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // Buffer.writeInt16LE() method 
 
@@ -61,7 +61,7 @@ console.log(buf); 
 
 **输出:**
 
-```
+```js
 <Buffer 14 01 9b 02 00 00 00 00 a8 79>
 <Buffer 14 01 15 10 00 00 00 00 a8 79>
 <Buffer 14 01 15 10 00 00 00 00 16 00>
@@ -72,7 +72,7 @@ console.log(buf); 
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // Buffer.writeInt16LE() method 
 
@@ -100,7 +100,7 @@ console.log(buf); 
 
 **输出:**
 
-```
+```js
 <Buffer 11 22 00 00 00 00>
 <Buffer 11 22 33 44 00 00>
 <Buffer 11 22 33 44 55 66>

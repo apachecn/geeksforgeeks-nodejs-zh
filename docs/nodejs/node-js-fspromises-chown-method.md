@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fsPromises.chown( path, uid, gid)
 
 ```
@@ -19,7 +19,7 @@ fsPromises.chown( path, uid, gid)
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // fsPromises.chown() method 
 
@@ -37,7 +37,7 @@ fsPromises.chown(filepath, 4567, 999 => { 
 
 **运行代码前:**
 
-```
+```js
 xubuntu@xubuntu: ~/Desktop/fs-chown$ ls -l
 total 8
 -rw-rw--w- 1 xubuntu xubuntu 4 May 26 04:08 example_file.txt
@@ -47,7 +47,7 @@ total 8
 
 **代码输出:**
 
-```
+```js
 Given uid and gid set successfully
 .
 
@@ -55,7 +55,7 @@ Given uid and gid set successfully
 
 **运行代码后:**
 
-```
+```js
 xubuntu@xubuntu: ~/Desktop/fs-chown$ ls -l
 total 8
 -rw-rw--w- 1 geeksforgeeks xubuntu 4 May 26 04:08 example_file.txt
@@ -67,7 +67,7 @@ total 8
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // fsPromises.chown() method 
 
@@ -88,7 +88,7 @@ console.log("uid and gid set successfully!"); 
 
 **运行代码前:**
 
-```
+```js
 xubuntu@xubuntu: ~/Desktop/fs-chown$ ls -l
 total 8
 -rw-rw--w- 1 xubuntu xubuntu 4 May 26 04:19 example_file.txt
@@ -98,14 +98,14 @@ total 8
 
 **代码输出:**
 
-```
+```js
 Given uid and gid set successfully!
 
 ```
 
 **运行代码后:**
 
-```
+```js
 xubuntu@xubuntu: ~/Desktop/fs-chown$ ls -l
 total 8
 -rw-rw--w- 1 nitin author 4 May 26 04:19 example_file.txt

@@ -8,7 +8,7 @@
 
 **导入语法:**
 
-```
+```js
 import name from 'module-name'
 ```
 
@@ -16,31 +16,31 @@ import name from 'module-name'
 
 1.  导入整个模块:
 
-    ```
+    ```js
     import * as name from 'module-name'
     ```
 
 2.  从模块导入默认导出:
 
-    ```
+    ```js
     import name from 'module-name'
     ```
 
 3.  从模块导入单个导出:
 
-    ```
+    ```js
     import { name } from 'module-name'
     ```
 
 4.  从模块导入多个导出:
 
-    ```
+    ```js
     import { nameOne , nameTwo } from 'module-name'
     ```
 
 5.  导入仅用于副作用的模块
 
-    ```
+    ```js
     import './module-name'
     ```
 
@@ -56,7 +56,7 @@ import name from 'module-name'
 
         ## package.json
 
-        ```
+        ```js
         //package.json
         {
           "name": "index",
@@ -77,7 +77,7 @@ import name from 'module-name'
 
         ## index.js 文件
 
-        ```
+        ```js
         //index.js
 
         import express from 'express';
@@ -107,7 +107,7 @@ import name from 'module-name'
 
     ## java 描述语言
 
-    ```
+    ```js
     // package.json when using .mjs file
     {
       "name": "index",
@@ -127,7 +127,7 @@ import name from 'module-name'
 
     ## java 描述语言
 
-    ```
+    ```js
     //index.mjs
 
     import express from 'express';
@@ -151,7 +151,7 @@ import name from 'module-name'
 
     装置
 
-    ```
+    ```js
     npm install esm
     ```
 
@@ -161,7 +161,7 @@ import name from 'module-name'
 
     使用 **esm 模块**的另一种方法是创建另一个文件，比如在实际应用程序之前加载 esm 的 server.js。在 server.js 文件中，编写以下代码
 
-    ```
+    ```js
     //server.js
     require = require("esm")(module);
     module.exports = require("./index.js");

@@ -8,7 +8,7 @@ Node.js 是采用最多的 web 开发技术之一，但它缺乏对机器学习�
 
 节点 JS 的子进程模块也提供了以 JavaScript 以外的语言(如 Python)运行脚本或命令的功能。我们可以在 Node JS 应用程序中实现机器学习算法、深度学习算法以及通过 Python 库提供的许多特性。子进程允许我们在 Node JS 应用程序中运行 Python 脚本，并将数据流入/流出 Python 脚本。
 
-```
+```js
 child_process.spawn(): This method helps us to spawn child process asynchronously.
 ```
 
@@ -16,7 +16,7 @@ child_process.spawn(): This method helps us to spawn child process asynchronousl
 
 **Python 脚本:**
 
-```
+```js
 import sys
 # Takes first name and last name via command 
 # line arguments and then display them
@@ -29,7 +29,7 @@ print("Last name: " + sys.argv[2])
 
 **节点 JS 服务器代码:**
 
-```
+```js
 // import express JS module into app
 // and creates its variable.
 var express = require('express');
@@ -75,13 +75,13 @@ function callName(req, res) {
 
 保存 Python 脚本和服务器脚本代码后，通过以下命令从源代码文件夹运行代码:
 
-```
+```js
  node start.js 
 ```
 
 通过链接访问应用程序:
 
-```
+```js
 localhost:3000/name?firstname=*"Enter first name"*&lastname=*"Enter last name"*
 
 For e g. : localhost:3000/name?firstname=Ram&lastname=Sharma

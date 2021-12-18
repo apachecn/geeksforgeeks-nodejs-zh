@@ -5,7 +5,7 @@
 **util.types.isAsyncFunction()方法**是 util 模块的一个内置应用编程接口，用于对 node.js.
 中的异步函数进行类型检查**语法:**
 
-```
+```js
 util.types.isAsyncFunction( value )
 ```
 
@@ -19,7 +19,7 @@ util.types.isAsyncFunction( value )
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the  
 // util.types.isAsyncFunction() Method
 
@@ -39,7 +39,7 @@ console.log(util.types.isAsyncFunction(f1));
 
 **输出:**
 
-```
+```js
 true
 false
 ```
@@ -48,7 +48,7 @@ false
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the  
 // util.types.isAsyncFunction() Method
 
@@ -73,7 +73,7 @@ else
 
 **输出:**
 
-```
+```js
 The passed value is an Async function.
 The passed value is not an Async function
 ```

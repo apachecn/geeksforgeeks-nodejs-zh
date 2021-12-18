@@ -13,19 +13,19 @@
 
 **第一步:模块安装:**在终端写命令安装 nodemailer，然后在你的 nodejs 应用顶部导入。
 
-```
+```js
 npm install nodemailer
 ```
 
 现在我们准备将它导入到我们的应用程序中。
 
-```
+```js
 const nodemailer = require('nodemailer');
 ```
 
 **第二步:创建传输器对象:**在节点邮件程序中有一个**创建传输器**的方法，它接受一个具有某些配置的对象，最后返回一个传输器对象。稍后发送电子邮件时将需要此对象。
 
-```
+```js
 const transporter = nodemailer.createTransport(transport[, defaults]);
 ```
 
@@ -37,7 +37,7 @@ const transporter = nodemailer.createTransport(transport[, defaults]);
 
 ## app.js
 
-```
+```js
 const nodemailer = require('nodemailer');
 
 const transporter = nodemailer.createTransport({
@@ -63,7 +63,7 @@ const transporter = nodemailer.createTransport({
 
 ## app.js
 
-```
+```js
 const nodemailer = require('nodemailer');
 
 const transporter = nodemailer.createTransport({
@@ -87,7 +87,7 @@ const transporter = nodemailer.createTransport({
 
 ## java 描述语言
 
-```
+```js
 const mailConfigurations = {
 
     // It should be a string of sender email
@@ -114,7 +114,7 @@ const mailConfigurations = {
 
 ## java 描述语言
 
-```
+```js
 const mailConfigurations = {
     from: 'mrtwinklesharma@gmail.com',
     to: 'smtwinkle451@gmail.com, anyothergmailid@gmail.com',
@@ -128,7 +128,7 @@ const mailConfigurations = {
 
 ## java 描述语言
 
-```
+```js
 const mailConfigurations = {
   from: 'mrtwinklesharma@gmail.com',
   to: 'smtwinkle451@gmail.com',
@@ -146,7 +146,7 @@ const mailConfigurations = {
 
 ## java 描述语言
 
-```
+```js
 const mailConfigurations = {
   from: 'mrtwinklesharma@gmail.com',
   to: 'smtwinkle451@gmail.com',
@@ -183,13 +183,13 @@ const mailConfigurations = {
 **第 4 步:发送 eMail:** 使用上述任意一种方法继续传送对象，然后选择任意一种 eMail 配置发送邮件。
 在 transporter 对象中存在一个 **sendMail** 方法，该方法接受电子邮件配置和一个回调函数，该函数将在邮件已经发送或由于错误而执行。
 
-```
+```js
 transporter.sendMail(mailConfigurations[, callback]);
 ```
 
 ## java 描述语言
 
-```
+```js
 transporter.sendMail(mailConfigurations, function(error, info){
     if (error) throw Error(error);
        console.log('Email Sent Successfully');
@@ -206,7 +206,7 @@ transporter.sendMail(mailConfigurations, function(error, info){
 
 ## app.js
 
-```
+```js
 const nodemailer = require('nodemailer');
 const secure_configuration = require('./secure');
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 fs.move(src,dest,options,callback);
 ```
 
@@ -23,13 +23,13 @@ fs.move(src,dest,options,callback);
 
 1.  可以使用以下命令安装该模块:
 
-    ```
+    ```js
     npm install fs-extra
     ```
 
 2.  安装模块后，您可以使用以下命令检查已安装模块的版本:
 
-    ```
+    ```js
     npm ls fs-extra
     ```
 
@@ -37,7 +37,7 @@ fs.move(src,dest,options,callback);
 
 3.  使用以下命令创建一个名为 index.js 的文件，并在文件中要求 fs-extra 模块:
 
-    ```
+    ```js
     const fs = require('fs-extra');
     ```
 
@@ -45,7 +45,7 @@ fs.move(src,dest,options,callback);
 
 5.  要运行文件，请在终端中写入以下命令:
 
-    ```
+    ```js
     node index.js
     ```
 
@@ -57,7 +57,7 @@ fs.move(src,dest,options,callback);
 
 ## index.js
 
-```
+```js
 // Requiring module
 import fs from "fs-extra";
 
@@ -85,7 +85,7 @@ fs.move(src, dest, (err) => {
 
 ## index.js
 
-```
+```js
 // Requiring module
 import fs from "fs-extra";
 

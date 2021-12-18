@@ -8,7 +8,7 @@ Node.js 是一个开源的、跨平台的服务器环境，使用 V8 JavaScript 
 
 **语法:**
 
-```
+```js
 console.log([data][, ...]);
 ```
 
@@ -16,7 +16,7 @@ console.log([data][, ...]);
 
 **示例 1:** 使用 Node.js 创建 Hello World 应用程序。创建包含以下代码的 geeks.js 文件:
 
-```
+```js
 console.log('Hello World'); 
 ```
 
@@ -26,7 +26,7 @@ console.log('Hello World'); 
 
 **示例 2:** 创建接收用户输入的 Hello World 应用程序。创建一个包含以下代码的 gfg.js 文件。
 
-```
+```js
 console.log(process.argv.slice(2));
 ```
 
@@ -39,27 +39,27 @@ console.log(process.argv.slice(2));
 *   **导入所需模块:**使用 require 指令加载 Node.js 模块。加载 *http* 模块，并将返回的 http 实例存储到变量中。
     **语法:**
 
-    ```
+    ```js
     var http = require("http");
     ```
 
 *   **创建服务器:**创建一个服务器来监听客户端的请求。使用 *createServer()* 方法创建服务器实例。使用与服务器实例关联的侦听方法将服务器绑定到端口 8080。
     **语法:**
 
-    ```
+    ```js
     http.createServer().listen(8080);
     ```
 
 *   **读取请求并返回响应:**读取使用浏览器或控制台发出的客户端请求并返回响应。带有请求和响应参数的函数用于读取客户端请求并返回响应。
     **语法:**
 
-    ```
+    ```js
     http.createServer(function (request, response) {...}).listen(8080);
     ```
 
 **示例:**本示例使用 Node.js 创建一个 Hello World 基于 web 的应用程序。
 
-```
+```js
 // Require http header
 var http = require('http');
 

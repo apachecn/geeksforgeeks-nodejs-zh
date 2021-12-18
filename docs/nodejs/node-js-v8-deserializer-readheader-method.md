@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 v8.Deserializer.readHeader();
 ```
 
@@ -18,7 +18,7 @@ v8.Deserializer.readHeader();
 
 **示例 1:** **文件名:index.js**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 const serializer = new v8.Serializer();
@@ -36,13 +36,13 @@ console.log(serializer.releaseBuffer());
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 <Buffer >
 true
 <Buffer >
@@ -51,7 +51,7 @@ true
 
 **示例 2:** **文件名:**
 
-```
+```js
 // Accessing v8 module
 const v8 = require('v8');
 const serializer = new v8.Serializer();
@@ -72,13 +72,13 @@ if (deserializer.readHeader()) {
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 It is a valid header!
 
 ```

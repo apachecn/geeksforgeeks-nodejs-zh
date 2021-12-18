@@ -13,7 +13,7 @@
 
 **安装快速验证器的命令:**
 
-```
+```js
 npm install express-validator
 ```
 
@@ -33,7 +33,7 @@ npm install express-validator
 
 **文件名–index . js**
 
-```
+```js
 const express = require('express')
 const bodyParser = require('body-parser')
 const {validationResult} = require('express-validator')
@@ -83,7 +83,7 @@ app.listen(port, () => {
 
 **Filename–repository . js:**该文件包含创建本地数据库并与之交互的所有逻辑。
 
-```
+```js
 // Importing node.js file system module 
 const fs = require('fs')
 
@@ -138,7 +138,7 @@ module.exports = new Repository('datastore.json')
 
 **文件名–form . js:**该文件包含显示获取银行信息的表单的逻辑。
 
-```
+```js
 const getError = (errors, prop) => {
   try {
     return errors.mapped()[prop].msg
@@ -206,7 +206,7 @@ href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css'>
 
 **文件名–show . js:**该文件包含显示提取的银行信息的逻辑。
 
-```
+```js
 module.exports = (account) => {
   return `
     <div>
@@ -241,7 +241,7 @@ module.exports = (account) => {
 
 **Filename–validator . js:**该文件包含所有的验证逻辑(验证输入字段只接受有效 BIC 的逻辑)。
 
-```
+```js
 const {check} = require('express-validator')
 const repo = require('./repository')
 module.exports = {

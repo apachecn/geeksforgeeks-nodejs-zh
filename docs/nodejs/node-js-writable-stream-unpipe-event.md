@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
  Event: 'unpipe'
 ```
 
@@ -16,7 +16,7 @@
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // unpipe event
 
@@ -45,7 +45,7 @@ console.log("Program Ended...");
 
 **输出:**
 
-```
+```js
 Unpiped!
 Program Ended...
 
@@ -53,7 +53,7 @@ Program Ended...
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // unpipe event
 
@@ -76,7 +76,7 @@ console.log("Program Ended...");
 
 **输出:**
 
-```
+```js
 Program Ended...
 
 ```

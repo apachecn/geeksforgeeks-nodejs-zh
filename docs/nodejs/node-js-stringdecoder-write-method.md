@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stringDecoder.write( buffer )
 ```
 
@@ -20,7 +20,7 @@ stringDecoder.write( buffer )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stringDecoder.write() Method 
 
@@ -39,13 +39,13 @@ console.log("Decoded Text:", decoded_text);
 
 **输出:**
 
-```
+```js
 Decoded Text: GeeksforGeeks
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stringDecoder.write() Method 
 
@@ -77,7 +77,7 @@ console.log("Cent Symbol:", cent_symbol_out);
 
 **输出:**
 
-```
+```js
 Decoded Text Hex: GeeksforGeeks
 Decoded Text Base64: GeeksforGeeks
 Cent Symbol: ¢

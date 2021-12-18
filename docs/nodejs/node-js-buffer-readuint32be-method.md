@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Buffer.readUInt32BE( offset )
 ```
 
@@ -18,7 +18,7 @@ Buffer.readUInt32BE( offset )
 
 **例 1:**
 
-```
+```js
 // Node program to demonstrate the  
 // Buffer.readUInt32LE() Method
 
@@ -40,7 +40,7 @@ console.log(buf.readUInt32BE(4).toString(16));
 
 **输出:**
 
-```
+```js
 <Buffer 21 09 19 98 16 09 19 96>
 21091998
 9199816
@@ -52,7 +52,7 @@ console.log(buf.readUInt32BE(4).toString(16));
 
 **例 2:**
 
-```
+```js
 // Node program to demonstrate the  
 // Buffer.readUInt32LE() Method
 
@@ -79,7 +79,7 @@ console.log(buf.readUInt32LE(4).toString(16));
 
 **输出:**
 
-```
+```js
 <Buffer 21 09 19 98 34 ae e8 ff>
 21091998
 98190921
@@ -96,7 +96,7 @@ ffe8ae34
 
 **例 3:**
 
-```
+```js
 // Node program to demonstrate the  
 // Buffer.readUInt32LE() Method
 
@@ -116,7 +116,7 @@ console.log(buf.readUInt32BE(1).toString(16));
 
 **输出:**
 
-```
+```js
 <Buffer 21 09 19 98>
 21091998
 internal/buffer.js:49

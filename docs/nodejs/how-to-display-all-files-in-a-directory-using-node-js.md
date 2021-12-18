@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```js
 // Import the filesystem module
 const fs = require("fs");
 
@@ -30,7 +30,7 @@ filenames.forEach((file) => {
 
 **输出:**
 
-```
+```js
 Filenames in directory:
 File: file_a.txt
 File: file_b.txt
@@ -46,7 +46,7 @@ File: file_c.txt
 
 **示例:**
 
-```
+```js
 // Import the filesystem module
 const fs = require("fs");
 
@@ -79,7 +79,7 @@ while (filesLeft) {
 
 **输出:**
 
-```
+```js
 Path of the directory: example_dir
 Files Present in directory:
 Name: file_a.txt

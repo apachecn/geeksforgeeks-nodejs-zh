@@ -6,7 +6,7 @@
 
 语法:
 
-```
+```js
 fsPromises.symlink( target, path, type )
 ```
 
@@ -22,7 +22,7 @@ fsPromises.symlink( target, path, type )
 
 **文件名:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // fsPromises.symlink method 
 
@@ -48,13 +48,13 @@ fsPromises.symlink(__dirname + 
 
 **运行该程序的步骤:**使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Contents of the text file:
 Hello Geeks
 

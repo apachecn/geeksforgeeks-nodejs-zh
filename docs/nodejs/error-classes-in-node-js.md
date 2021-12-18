@@ -10,7 +10,7 @@ Node.js 处理应用运行过程中出现的错误，支持多种错误机制，
 
 **示例 1:文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate 
 // Assertion error in JavaScript
 
@@ -29,7 +29,7 @@ assert.strictEqual(
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
@@ -46,7 +46,7 @@ node index.js
 
 **示例 2:文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate 
 // range error in JavaScript
 
@@ -72,7 +72,7 @@ var server = http.createServer()
 
 **示例 3:文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate 
 // Reference error in JavaScript
 
@@ -101,7 +101,7 @@ try {
 
 **示例 4:文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate 
 // Syntax error in JavaScript
 
@@ -126,7 +126,7 @@ try {
 
 **示例 5:文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate 
 // Reference error in JavaScript
 
@@ -159,7 +159,7 @@ fs.readFile('/some/non-existing/file', errorCallback);
 
 **示例 6:文件名:index.js**
 
-```
+```js
 // Node.js program to demonstrate 
 // Type error in JavaScript
 
@@ -176,7 +176,7 @@ console.log(error);  
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 

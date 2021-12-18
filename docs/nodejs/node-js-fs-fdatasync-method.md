@@ -8,13 +8,13 @@
 
 **语法:**
 
-```
+```js
 fs.fdatasync(fd, callback);
 ```
 
 可以使用
 
-```
+```js
 const fs = require('fs');
 ```
 
@@ -30,7 +30,7 @@ const fs = require('fs');
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the 
 // fs.fdatasync() method 
 
@@ -86,13 +86,13 @@ fs.open('filename.txt', "a+", (err, fd) => {
 
 运行 **index.js** 文件使用以下命令:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 error [Error: EBADF: bad file descriptor, fdatasync] {
   errno: -4083,
   code: 'EBADF',

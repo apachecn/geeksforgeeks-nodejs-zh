@@ -14,13 +14,13 @@
 
 **语法:**
 
-```
+```js
 var module = require('module_name');
 ```
 
 require()函数将根据特定模块返回的内容返回一个 JavaScript 类型。下面的例子演示了如何使用 Node.js Http 模块创建一个 web 服务器。
 
-```
+```js
 var http = require('http');
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/html'});
@@ -48,7 +48,7 @@ http.createServer(function (req, res) {
 
 **档案名称:calc.js**
 
-```
+```js
 exports.add = function (x, y) { 
     return x + y; 
 }; 
@@ -70,7 +70,7 @@ exports.div = function (x, y) { 
 
 **文件名:index.js**
 
-```
+```js
 var calculator = require('./calc'); 
 
 var x = 50, y = 10; 
@@ -90,13 +90,13 @@ console.log("Division of 50 and 10 is " 
 
 **运行该程序的步骤:**使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 Addition of 50 and 10 is 60
 Subtraction of 50 and 10 is 40
 Multiplication of 50 and 10 is 500

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 writable.writableObjectMode 
 ```
 
@@ -16,7 +16,7 @@ writable.writableObjectMode
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.writableObjectMode Property
 
@@ -51,7 +51,7 @@ writable.writableObjectMode;
 
 **输出:**
 
-```
+```js
 GfG
 true
 
@@ -59,7 +59,7 @@ true
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // writable.writableObjectMode Property
 
@@ -91,7 +91,7 @@ writable.writableObjectMode;
 
 **输出**
 
-```
+```js
 GfG
 false
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stats.dev;
 ```
 
@@ -18,7 +18,7 @@ stats.dev;
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.dev Property
 
@@ -60,7 +60,7 @@ fs.lstat('./', (err, stats) => {
 
 **输出:**
 
-```
+```js
 using stat: the numeric identity of the device is  891323748
 using lstat: the numeric identity of the device is  891323748
 using stat: the numeric identity of the device is  891323748
@@ -70,7 +70,7 @@ using lstat: the numeric identity of the device is  891323748
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // stats.dev Property
 
@@ -91,7 +91,7 @@ const fs = require('fs').promises;
 
 **输出:**
 
-```
+```js
 The numeric identity of the device is  891323748
 
 ```

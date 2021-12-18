@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 writeStream.clearLine(dir[, callback])
 ```
 
@@ -21,7 +21,7 @@ writeStream.clearLine(dir[, callback])
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // writeStream.clearLine() method
 
@@ -60,7 +60,7 @@ client.send("The line is clear :-  ",
 
 **输出:**
 
-```
+```js
 The line is clear :-  true
 ```
 
@@ -68,7 +68,7 @@ The line is clear :-  true
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the
 // writeStream.clearLine() method
 
@@ -86,13 +86,13 @@ console.log("The line is clear :-  " + col);
 
 使用以下命令运行 index.js 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 The line is clear :-  true
 ```
 

@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```js
 console.time( label )
 ```
 
@@ -16,7 +16,7 @@ console.time( label )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // console.time() method
 
@@ -47,13 +47,13 @@ console.timeEnd();
 
 **输出:**
 
-```
+```js
 default: 8.760ms
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // console.time() method
 
@@ -82,13 +82,13 @@ console.timeEnd(timetaken);
 
 **输出:**
 
-```
+```js
 Time taken by addCount function: 7.380ms
 ```
 
 **示例 3:** 该示例同时对不同的功能使用不同的标签。
 
-```
+```js
 // Node.js program to demonstrate the
 // console.time() method
 
@@ -128,7 +128,7 @@ console.timeEnd(label2);
 
 **输出:**
 
-```
+```js
 4999950000
 Time taken by addCount function: 24.884ms
 Time taken by countTime function: 25.928ms

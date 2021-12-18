@@ -5,7 +5,7 @@
 **fs。Dir.readSync()** 方法是类 **fs 的内置应用编程接口。**文件系统**模块中的目录**，用于读取目录的下一个目录。
 **语法:**
 
-```
+```js
 const dir.readSync()
 ```
 
@@ -17,7 +17,7 @@ const dir.readSync()
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // dir.readSync() method
 const fs = require('fs');
@@ -43,13 +43,13 @@ stop('./').catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 abcd.cer
 ```
 
@@ -58,7 +58,7 @@ abcd.cer
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the
 // dir.readSync() method
 const fs = require('fs');
@@ -106,13 +106,13 @@ stop('./').catch(console.error);
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 abcd.cer
 cert.cer
 certfile.cer

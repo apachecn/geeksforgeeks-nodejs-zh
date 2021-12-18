@@ -5,7 +5,7 @@
 **网址搜索**是**节点内**网址类**的内置应用编程接口。JS** 。
 **URL.search** API 用于获取和设置 URL 的查询部分。
 
-```
+```js
 Syntax: url.search
 url : It is an object created by URL constructor.
 ```
@@ -14,7 +14,7 @@ url : It is an object created by URL constructor.
 
 ## java 描述语言
 
-```
+```js
 //Creating an URL_1 object with URL constructor.
 const URL_1 = new URL("https://www.geeksforgeeks.org/?articles=nodejs");
 
@@ -30,7 +30,7 @@ console.log(URL_1.search);
 
 ## java 描述语言
 
-```
+```js
 //Creating an URL_1 object with URL constructor.
 const URL_1 = new URL("https://www.geeksforgeeks.org");
 

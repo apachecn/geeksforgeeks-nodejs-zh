@@ -19,13 +19,13 @@ NODE-RED 流通过在集线器之间传递消息来工作。NODE-RED 中的消�
 
 *   **Installing with npm (Node package manager)**
 
-    ```
+    ```js
     sudo npm install -g --unsafe-perm node-red
     ```
 
     如果已经将 Node-RED 安装为全局 npm 包，可以使用以下命令升级到最新版本:
 
-    ```
+    ```js
     sudo npm install -g --unsafe-perm node-red
     ```
 

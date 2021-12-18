@@ -8,19 +8,19 @@
 
 *   By using npm.
 
-```
+```js
 npm install date-and-time --save
 ```
 
 *   Use CDN link.
 
-```
+```js
 <script src="/path/to/date-and-time.min.js"></script>
 ```
 
 **语法:**
 
-```
+```js
 preparse(dateString, arg)
 ```
 
@@ -35,7 +35,7 @@ preparse(dateString, arg)
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.preparse() method
 
@@ -56,13 +56,13 @@ console.log(value)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 {
   Y: 2021,   
   M: 3,      
@@ -84,7 +84,7 @@ node index.js
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.preparse() method
 
@@ -101,13 +101,13 @@ console.log("pre parsed date and time : " + value._length)
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 pre parsed date and time : 17
 ```
 

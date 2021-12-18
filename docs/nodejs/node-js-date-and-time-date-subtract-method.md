@@ -8,19 +8,19 @@
 
 *   **By using npm.**
 
-```
+```js
 npm install date-and-time --save
 ```
 
 *   **By using CDN link.**
 
-```
+```js
 <script src="/path/to/date-and-time.min.js"></script>
 ```
 
 **语法:**
 
-```
+```js
 const subtract(date1, date2)
 ```
 
@@ -35,7 +35,7 @@ const subtract(date1, date2)
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.subtract() method
 
@@ -60,13 +60,13 @@ console.log("total days between them " 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 total days between them 2270.3951833333335
 ```
 
@@ -74,7 +74,7 @@ total days between them 2270.3951833333335
 
 ## index . js
 
-```
+```js
 // Node.js program to demonstrate the  
 // Date.subtract() method
 
@@ -101,13 +101,13 @@ console.log("total days between them " + value.toDays())
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **输出:**
 
-```
+```js
 total days between them 2270.397227997685
 ```
 

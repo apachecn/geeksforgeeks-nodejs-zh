@@ -6,7 +6,7 @@ node.js 中的 **fs.truncate()方法**用于改变文件的大小，即增加或
 
 **语法:**
 
-```
+```js
 fs.truncate( path, len, callback )
 ```
 
@@ -22,7 +22,7 @@ fs.truncate( path, len, callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.truncate() method
 
@@ -38,13 +38,13 @@ fs.truncate('/path/to/file', 0, function() {
 
 **输出:**
 
-```
+```js
 File Content Deleted
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the
 // fs.truncate() method
 
@@ -97,7 +97,7 @@ fs.open('input.txt', 'r+', function(err, fd) {
 
 **输出:**
 
-```
+```js
 Content of file
 GeeksforGeeks example for truncate in node
 New content of file

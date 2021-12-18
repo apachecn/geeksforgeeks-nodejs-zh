@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 os.setPriority(pid, priority)
 ```
 
@@ -25,7 +25,7 @@ os.setPriority(pid, priority)
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the   
 // os.setPriority() Method
 
@@ -46,7 +46,7 @@ try{
 
 **输出:**
 
-```
+```js
 setting priority for the current process to 17
 ```
 
@@ -54,7 +54,7 @@ setting priority for the current process to 17
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the   
 // os.setPriority() Method
 
@@ -75,7 +75,7 @@ try{
 
 **输出:**
 
-```
+```js
 10
 ```
 

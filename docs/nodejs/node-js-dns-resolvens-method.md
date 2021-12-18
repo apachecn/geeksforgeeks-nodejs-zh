@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 dns.resolveNs( hostname, callback )
 ```
 
@@ -23,7 +23,7 @@ dns.resolveNs( hostname, callback )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dns.resolveNs() method
 
@@ -39,7 +39,7 @@ dns.resolveNs('geeksforgeeks.org', (err, 
 
 **输出:**
 
-```
+```js
 NS records: [
     "ns-1520.awsdns-62.org",
     "ns-1569.awsdns-04.co.uk",
@@ -51,7 +51,7 @@ NS records: [
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the   
 // dns.resolveNs() method
 
@@ -67,7 +67,7 @@ dns.resolveNs('google.com', (err, 
 
 **输出:**
 
-```
+```js
 NS records: [
     "ns3.google.com",
     "ns2.google.com",

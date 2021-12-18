@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 request.url
 ```
 
@@ -18,7 +18,7 @@ request.url
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the  
 // request.url APi
 
@@ -54,13 +54,13 @@ httpServer.listen(PORT, () => { 
 
 **执行命令:**
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 Server is running at port 3000...
 displaying the result...
 displaying the result...
@@ -70,7 +70,7 @@ server is closed
 
 **浏览器输出:**粘贴本地主机地址 http://localhost:3000/。在浏览器的搜索栏中。
 
-```
+```js
 URL : /
 ```
 
@@ -78,7 +78,7 @@ URL : /
 
 ## Javascript
 
-```
+```js
 // Node.js program to demonstrate the  
 // request.url APi
 
@@ -113,13 +113,13 @@ var httpServer = http.createServer(
 
 **执行命令:**
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 Server is running at port 3000...
 displaying the result...
 displaying the result...
@@ -129,7 +129,7 @@ server is closed
 
 **浏览器输出:**粘贴本地主机地址 http://localhost:3000/。在浏览器的搜索栏中。
 
-```
+```js
 URL : /
 ```
 

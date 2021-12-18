@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 const request.getHeader(name)
 ```
 
@@ -18,7 +18,7 @@ const request.getHeader(name)
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // request.getHeader() APi
 
@@ -52,7 +52,7 @@ http.createServer((req, res) => {}).listen(3000, '127.0.0.1', () => {
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the 
 // request.getHeader() APi
 

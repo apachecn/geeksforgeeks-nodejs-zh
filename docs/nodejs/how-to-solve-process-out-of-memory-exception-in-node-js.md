@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 node --max-old-space-size=<SPACE_REQD> index.js
 ```
 
@@ -20,7 +20,7 @@ node --max-old-space-size=<SPACE_REQD> index.js
 
 ## index.js
 
-```
+```js
 let items = [];
 
 for (let i = 0; i < 99999995; i++) {
@@ -32,7 +32,7 @@ console.log(items);
 
 使用以下命令运行 *index.js* 文件。
 
-```
+```js
 node index.js
 ```
 
@@ -46,7 +46,7 @@ node index.js
 
 **语法:**
 
-```
+```js
 node --max-old-space-size=2048 index.js
 ```
 
@@ -56,7 +56,7 @@ node --max-old-space-size=2048 index.js
 
 ## index.js
 
-```
+```js
 let items = [];
 
 for (let i = 0; i < 99999995; i++) {
@@ -74,7 +74,7 @@ console.log(items);
 
 **语法:**
 
-```
+```js
 node --max-old-space-size=3072 index.js
 ```
 
@@ -84,7 +84,7 @@ node --max-old-space-size=3072 index.js
 
 ## index.js
 
-```
+```js
 let items = [];
 
 for (let i = 0; i < 90000000; i++) {

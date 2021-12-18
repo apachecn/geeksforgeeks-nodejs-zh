@@ -23,7 +23,7 @@ Node.js 有很多对象关系映射器(用于关系数据库)，我们可以从�
 
 因此，您安装它的方法是使用以下命令安装两个依赖项: **knex** 和 **objection** :
 
-```
+```js
 npm i knex -g --save
 npm i objection --save
 ```
@@ -32,7 +32,7 @@ Knex 是一个强大的 SQL 查询生成器(它被一大堆不同的表单使用
 
 您可能还需要为您想要使用的任何 SQL 数据库安装一个数据库驱动程序。一些不同的选项可用，只需使用以下命令安装它们:
 
-```
+```js
 npm i pg
 npm i sqlite3
 npm i mysql
@@ -43,7 +43,7 @@ npm i mariasql
 **创建数据库:**
 **文件名:app.js**
 
-```
+```js
 const { Client } = require('pg');
 const { db } = require('./config');
 const client = new Client();
@@ -63,7 +63,7 @@ const client = new Client();
 *   Knex 将创建一个迁移文件夹(除非它已经存在)。
 *   然后，它会在迁移文件夹中为迁移创建一个文件。
 
-```
+```js
 knex migrate:make create_tasks_table
 ```
 
@@ -71,7 +71,7 @@ knex migrate:make create_tasks_table
 
 **文件名:empty_migration.js**
 
-```
+```js
 exports.up = function (knex, Promise) {
 };
 
@@ -82,7 +82,7 @@ exports.down = function (knex, Promise) {
 现在我们可以执行某些操作，比如创建一个表:
 **文件名:knex_migration.js**
 
-```
+```js
 const tableName = 'tasks';
 
 exports.up = knex => {
@@ -107,7 +107,7 @@ exports.down = knex => {
 
 现在，如果您想要运行它们，那么下面的代码将执行它:
 
-```
+```js
 knex migrate:latest
 ```
 
@@ -120,7 +120,7 @@ knex migrate:latest
 一个非常简单的例子如下所示:
 **文件名:TaskModel.js**
 
-```
+```js
 // Task Model
 const { MODEL } = require('objection');
 const db = require('../db');
@@ -147,28 +147,28 @@ module.exports = Task;
 *   **Simple Select Query:**
     **Filename: select_query.sql**
 
-    ```
+    ```js
     SELECT * from tasks;
     ```
 
     可以用:
     **完成文件名:objection_select_query.js**
 
-    ```
+    ```js
     const tasks = await Task.query();
     ```
 
 *   **Typical SELECT Query:**
     **Filename: standard_select_query.sql**
 
-    ```
+    ```js
     SELECT * from tasks WHERE is_done = false ORDER BY due_by asc;
     ```
 
     可以用:
     **文件名:objection _ standard _ select _ query . js**
 
-    ```
+    ```js
     const tasks = await Task.query()
         .where({is_done: false}).orderBy('due_by');
     ```
@@ -176,28 +176,28 @@ module.exports = Task;
 *   **Insert Query:**
     **Filename: insert_query.sql**
 
-    ```
+    ```js
     INSERT INTO tasks (name) VALUES ('Setup Code Coverage');
     ```
 
     可以用:
     **完成文件名:objection_insert_query.js**
 
-    ```
+    ```js
     await Task.query().insert({ name: 'Setup Code Coverage' });
     ```
 
 *   **Update Query:**
     **Filename: update_query.sql**
 
-    ```
+    ```js
     UPDATE tasks SET is_done = true WHERE id = 1;
     ```
 
     可以用:
     **完成文件名:objection_insert_query.js**
 
-    ```
+    ```js
     await Task.query().patch({ is_done: true }).where({ id: 1 });
     ```
 

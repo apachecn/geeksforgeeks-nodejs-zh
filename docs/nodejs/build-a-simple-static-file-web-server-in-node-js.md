@@ -8,7 +8,7 @@
 
 ## JavaScript
 
-```
+```js
 // Importing necessary modules
 const http = require('http');
 const url = require('url');
@@ -43,7 +43,7 @@ const mimeType = {
 
 ## Javascript
 
-```
+```js
 // Creating a server and listening the port 1800
 http.createServer( (req, res) => {
 
@@ -54,7 +54,7 @@ http.createServer( (req, res) => {
 
 ## Javascript
 
-```
+```js
 // Parsing the requested URL
 const parsedUrl = url.parse(req.url);
 
@@ -81,7 +81,7 @@ if(parsedUrl.pathname==="/") {
 
 ## Javascript
 
-```
+```js
 /* processing the requested file pathname to
 avoid directory traversal like,
 http://localhost:1800/../fileOutofContext.txt

@@ -23,7 +23,7 @@
 
 ## java 描述语言
 
-```
+```js
 let buff = new Buffer.alloc(5);
 console.log(buff);
 ```
@@ -36,7 +36,7 @@ console.log(buff);
 
 ## java 描述语言
 
-```
+```js
 let name1 = new Buffer.alloc(4, "Name");
 let name2 = new Buffer.alloc(4, "Name");
 console.log(new Buffer.from(name1).equals(name2));
@@ -50,7 +50,7 @@ console.log(new Buffer.from(name1).equals(name2));
 
 ## java 描述语言
 
-```
+```js
 let buff = new Buffer.alloc(5, "Geeks");
 let name1 = new Buffer.alloc(5, "Name");
 buff.copy(name1);
@@ -65,7 +65,7 @@ console.log(name1.toString());
 
 ## java 描述语言
 
-```
+```js
 let buff = new Buffer.alloc(5, 'ABCDE');
 console.log(buff.length)
 ```
@@ -78,7 +78,7 @@ console.log(buff.length)
 
 ## java 描述语言
 
-```
+```js
 let name2 = new Buffer.alloc(3, "GFG");
 console.log(name2);
 console.log(name2.toString());
@@ -92,7 +92,7 @@ console.log(name2.toString());
 
 ## java 描述语言
 
-```
+```js
 let myJson = new Buffer.alloc(10, { name: 'GFG' });
 console.log(myJson.toJSON());
 ```

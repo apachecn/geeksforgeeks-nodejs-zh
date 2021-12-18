@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crypto.createHmac( algorithm, key, options )
 ```
 
@@ -22,7 +22,7 @@ crypto.createHmac( algorithm, key, options )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // crypto.createHmac() method
 
@@ -47,13 +47,13 @@ console.log(hash);
 
 **输出:**
 
-```
+```js
 a08116905e92633e4f30eefd1276206b259305c8783642fc5b7f51c089187939
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // crypto.createHmac() method
 
@@ -91,7 +91,7 @@ console.log();
 
 **输出:**
 
-```
+```js
 Program done!
 The hmac object returns: 4605d44703c2620fc2574c9a9216bd3267457324 /run_dir/interp.js
 ```

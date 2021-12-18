@@ -44,7 +44,7 @@ Passport 非常容易集成 NodeJs 包，用来给我们的网站或者 web app 
 
 ## Server.js
 
-```
+```js
 // Telling node to include the following
 // external modules
 var express = require('express');
@@ -89,7 +89,7 @@ app.listen(3000, function () {
 
 ## Server.js
 
-```
+```js
 /*We are going to add simple authentication to our website
 We are going to collect data(email and password) entered by
 user in the HTML form, created in the INDEX.HTML file, and
@@ -204,7 +204,7 @@ app.listen(3000, function () {
 
 ## Index.html
 
-```
+```js
 <!DOCTYPE html>
 <html>
 
@@ -230,7 +230,7 @@ app.listen(3000, function () {
 
 ## Login.html
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -285,7 +285,7 @@ Passport 为我们消除了所有这些限制。如果我们使用护照，那�
 
 ## Server.js
 
-```
+```js
 const session = require("express-session");
 const passport = require("passport");
 const passportLocalMongoose = require("passport-local-mongoose");
@@ -305,7 +305,7 @@ app.use(session({
 
 ## Server.js
 
-```
+```js
 app.use(session({
   secret: "any long secret key",
   resave: false,
@@ -331,7 +331,7 @@ userSchema.plugin(passportLocalMongoose);
 
 ## Server.js
 
-```
+```js
 const User = new mongoose.model("User", userSchema);
 passport.use(User.createStrategy());
 
@@ -346,7 +346,7 @@ passport.deserializeUser(User.deserializeUser());
 
 ## Server.js
 
-```
+```js
 // Handling get request on the home and login route
 app.get("/", function (req, res) {
 
@@ -390,7 +390,7 @@ You have already logged in. No need to login again");
 
 ## Server.js
 
-```
+```js
 /* The index.html file will be same as that
 used in the earlier method of authentication*/ 
 app.post("/register", function(req, res){
@@ -424,7 +424,7 @@ app.post("/register", function(req, res){
 
 ## Server.js
 
-```
+```js
 // All handling related to login is done below.
 // Here we are handling the post request on
 // /login route
@@ -468,7 +468,7 @@ app.post("/login", function (req, res) {
 
 ## Index.html
 
-```
+```js
 <!DOCTYPE html>
 <html>
 
@@ -494,7 +494,7 @@ app.post("/login", function (req, res) {
 
 ## Login.html
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -521,7 +521,7 @@ app.post("/login", function (req, res) {
 
 ## Server.js
 
-```
+```js
 var express = require('express');
 var app = express();
 const mongoose = require("mongoose");

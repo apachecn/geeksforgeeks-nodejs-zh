@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```js
 fs.writeSync( fd, string, position, encoding )
 ```
 
 或者
 
-```
+```js
 fs.writeSync( fd, buffer, offset, length, position )
 ```
 
@@ -32,7 +32,7 @@ fs.writeSync( fd, buffer, offset, length, position )
 
 ## index.js
 
-```
+```js
 // Importe fs module
 const fs = require("fs");
 
@@ -69,13 +69,13 @@ console.log(`Number of Bytes written: 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 File written successfully using writeSync()
 Text written on file: Welcome to GeeksforGeeks,starting from position: 0
 Number of Bytes written: 24
@@ -85,7 +85,7 @@ Number of Bytes written: 24
 
 ## index.js
 
-```
+```js
 // Importing fs module
 const fs = require("fs");
 
@@ -120,13 +120,13 @@ console.log(`Number of Bytes written: 
 
 使用以下命令运行 **index.js** 文件:
 
-```
+```js
 node index.js
 ```
 
 **控制台输出:**
 
-```
+```js
 File written successfully using writeSync()
 Buffer written on file: GeeksforGeeks: A computer science portal for geeks
 starting from position: 0

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crypto.constants
 ```
 
@@ -14,7 +14,7 @@ crypto.constants
 
 **示例:**本示例打印加密模块中使用的所有常用常量。
 
-```
+```js
 // Importing the crypto library
 const crypto = require("crypto")
 

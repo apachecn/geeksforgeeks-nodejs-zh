@@ -4,7 +4,7 @@
 
 **体重指数(身体质量指数)**用个体的体重和身高来表示。分别以*公斤和*米为单位，是体重与身高的平方之比。
 
-```
+```js
 BMI = (weight of body) / (height of body)2
 Unit of weight: Kilogram(Kg);
 Unit of height: Meter(m);
@@ -18,7 +18,7 @@ Unit of BMI is kg/m2
 *   发送 html 并使用此
     在特定路线上发布数据
 
-```
+```js
 app.post("/bmicalculator", function (req, res) {
     heigh = parseFloat(req.body.Height);
     weigh = parseFloat(req.body.Weight);
@@ -31,7 +31,7 @@ app.post("/bmicalculator", function (req, res) {
 
 ## 超文本标记语言
 
-```
+```js
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -77,7 +77,7 @@ app.post("/bmicalculator", function (req, res) {
 
 **第 2 步**
 
-```
+```js
 Dependencies: 
 express:    npm install express
 bodyparser:   npm install body-parser
@@ -85,7 +85,7 @@ bodyparser:   npm install body-parser
 
 ## java 描述语言
 
-```
+```js
 //importing modules
 const express = require("express");
 const bodyparser = require("body-parser");

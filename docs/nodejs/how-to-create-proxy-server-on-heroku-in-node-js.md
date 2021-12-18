@@ -37,7 +37,7 @@
 
 **第三步:**将我们的代理服务器推入 Heroku 服务器。最后一步是将我们的代理服务器推送到 Heroku，这可以通过使用以下命令来完成。
 
-```
+```js
 git push heroku (branch-name)
 ```
 

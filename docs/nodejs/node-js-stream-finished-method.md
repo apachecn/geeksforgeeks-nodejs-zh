@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 stream.finished(stream, options, callback)
 ```
 
@@ -25,7 +25,7 @@ stream.finished(stream, options, callback)
 
 ## java 描述语言
 
-```
+```js
 // Node.js program to demonstrate the     
 // stream.finished(stream[, options], 
 // callback) method

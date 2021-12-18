@@ -13,13 +13,13 @@
 
 ******步骤 1:** 创建一个“**app . j***T5【s】*”文件并用 [npm 初始化您的项目。](https://www.geeksforgeeks.org/node-js-npm-node-package-manager/)****
 
-```
+```js
 **npm init**
 ```
 
 ******步骤 2:** 现在安装两个 *npm* 包:“**快递**”和“**快递-zip** ”。****
 
-```
+```js
 **npm install express
 npm install express-zip**
 ```
@@ -46,7 +46,7 @@ npm install express-zip**
 
 ## ****超文本标记语言****
 
-```
+```js
 **<!DOCTYPE html>
 <html lang="en">
 
@@ -83,7 +83,7 @@ npm install express-zip**
 
 ## ****java 描述语言****
 
-```
+```js
 **// Requiring express package for routing
 const express = require('express')
 
@@ -137,7 +137,7 @@ app.listen(3000,function(req,res){
 
 ******第五步:**现在使用你的终端运行应用。****
 
-```
+```js
 **node app.js**
 ```
 

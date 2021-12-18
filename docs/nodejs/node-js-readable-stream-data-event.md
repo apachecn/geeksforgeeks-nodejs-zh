@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 Event: 'data'
 ```
 
@@ -14,7 +14,7 @@ Event: 'data'
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable data event
 
@@ -47,7 +47,7 @@ console.log("Done...");
 
 **输出:**
 
-```
+```js
 Done...
 chunk length is: 13
 read: GeeksforGeeks
@@ -56,7 +56,7 @@ read: GeeksforGeeks
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the     
 // readable data event
 
@@ -79,7 +79,7 @@ console.log("Done...");
 
 **输出:**
 
-```
+```js
 Done...
 
 ```

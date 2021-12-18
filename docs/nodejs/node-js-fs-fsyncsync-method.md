@@ -8,7 +8,7 @@ Node.js 为我们提供了一个***【fs】模块*** ，可以帮助我们实现
 
 **语法:**
 
-```
+```js
 fs.fsyncSync(fd)
 ```
 
@@ -22,7 +22,7 @@ fs.fsyncSync(fd)
 
 首先我们需要在我们的 **NodeJS** 项目中安装**【fs】****【快递】**模块。
 
-```
+```js
 npm install fs express --save
 ```
 

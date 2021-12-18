@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```js
 filehandle.close();
 ```
 
@@ -18,13 +18,13 @@ filehandle.close();
 
 **注意:**目录中应出现“input.txt”，文本如下:
 
-```
+```js
 Greetings from GeeksforGeeks
 ```
 
 **文件名:app.js**
 
-```
+```js
 // Node.js program to demonstrate the   
 // filehandle.close() Method
 
@@ -60,13 +60,13 @@ readThenClose().catch((error) => {
 
 使用以下命令运行 **app.js** 文件:
 
-```
+```js
 node app.js
 ```
 
 **输出:**
 
-```
+```js
 Greetings from GeeksforGeeks
 File Closed!
 ```

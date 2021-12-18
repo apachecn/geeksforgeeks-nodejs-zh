@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 router.param(name, function)
 ```
 
@@ -21,14 +21,14 @@ router.param(name, function)
 
 **快速 js 的安装如下:**
 
-```
+```js
 npm init 
 npm install express 
 ```
 
 创建一个文件名 **app.js** 并将以下代码粘贴到文件中。
 
-```
+```js
 //
 const express = require("express");
 const app = express();
@@ -51,7 +51,7 @@ app.listen(port, () => {
 
 **route.js** 文件的代码
 
-```
+```js
 const express = require("express");
 const router = express.Router();
 
@@ -70,7 +70,7 @@ module.exports = router;
 
 通过输入以下命令启动服务器
 
-```
+```js
 node app.js
 ```
 

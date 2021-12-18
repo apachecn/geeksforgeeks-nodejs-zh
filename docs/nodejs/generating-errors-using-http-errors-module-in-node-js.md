@@ -8,19 +8,19 @@
 
 **安装设置:**首先用 **package.json** 文件初始化应用，命令如下:
 
-```
+```js
 npm init
 ```
 
 然后，通过以下命令安装模块:
 
-```
+```js
 npm install http-errors --save
 ```
 
 另外，我们正在使用一个快速应用程序，因此，通过以下命令安装**快速**模块:
 
-```
+```js
 npm install express --save
 ```
 
@@ -30,7 +30,7 @@ npm install express --save
 
 ## java 描述语言
 
-```
+```js
 const createError = require('http-errors');
 const express = require('express');
 const app = express();
@@ -40,7 +40,7 @@ const app = express();
 
 ## java 描述语言
 
-```
+```js
 var createError = require('http-errors');
 var express = require('express');
 var app = express();
@@ -62,7 +62,7 @@ app.listen(8080, (err) => {
 
 要运行代码，请在终端中运行以下命令:
 
-```
+```js
 node app.js
 ```
 
@@ -72,7 +72,7 @@ node app.js
 
 **列出所有状态代码及其错误信息:**
 
-```
+```js
 Status
 Code    Error Message
 

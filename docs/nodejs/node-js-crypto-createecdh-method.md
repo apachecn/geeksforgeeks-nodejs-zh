@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 crypto.createECDH( curveName )
 ```
 
@@ -18,7 +18,7 @@ crypto.createECDH( curveName )
 
 **例 1:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.createECDH() method
 
@@ -34,14 +34,14 @@ console.log(curv.generateKeys());
 
 **输出:**
 
-```
+```js
 <Buffer 04 01 0a cd d0 94 80 31 e8 ... >
 
 ```
 
 **例 2:**
 
-```
+```js
 // Node.js program to demonstrate the 
 // crypto.createECDH() method
 
@@ -61,7 +61,7 @@ console.log("Private Key :", curv.getPrivateKey());
 
 **输出:**
 
-```
+```js
 Public Key: <Buffer 04 01 68 25 14 c8 ... >
 Private Key : <Buffer 01 7a ab 4d 71 60 ... >
 

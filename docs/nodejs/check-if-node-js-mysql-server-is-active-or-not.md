@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```js
 database_connection.ping(callback);
 ```
 
@@ -20,7 +20,7 @@ database_connection.ping(callback);
 
 2.  创建项目
 
-    ```
+    ```js
     npm init
     ```
 
@@ -28,7 +28,7 @@ database_connection.ping(callback);
 
 3.  安装模块
 
-    ```
+    ```js
     npm install express
     npm install mysql
     ```
@@ -43,7 +43,7 @@ database_connection.ping(callback);
 
     ## index.js
 
-    ```
+    ```js
     const express = require("express");
     const database = require('./sqlConnection');
 
@@ -58,7 +58,7 @@ database_connection.ping(callback);
 
     ## sqlConnection.js
 
-    ```
+    ```js
     const mysql = require("mysql");
 
     let db_con  = mysql.createConnection({
@@ -80,7 +80,7 @@ database_connection.ping(callback);
 
 6.  创建检查 mysql 服务器活动与否的路由。
 
-    ```
+    ```js
     app.get("/getMysqlStatus", (req, res) => {
 
       database.ping((err) => {
@@ -95,7 +95,7 @@ database_connection.ping(callback);
 
     ## java 描述语言
 
-    ```
+    ```js
     const express = require("express");
     const database = require('./sqlConnection');
 
@@ -117,7 +117,7 @@ database_connection.ping(callback);
 
 7.  运行服务器
 
-    ```
+    ```js
     node index.js
     ```
 
@@ -125,7 +125,7 @@ database_connection.ping(callback);
 
     *   如果服务器未激活，您将在浏览器中看到以下输出:
 
-    ```
+    ```js
     MySQL Server is Down
     ```
 
@@ -133,7 +133,7 @@ database_connection.ping(callback);
 
     *   如果服务器处于活动状态，您将在浏览器中看到以下输出 <u>:</u>
 
-    ```
+    ```js
     MySQL Server is Active
     ```
 

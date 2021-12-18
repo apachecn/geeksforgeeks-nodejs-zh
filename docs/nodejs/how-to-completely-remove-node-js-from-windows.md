@@ -6,13 +6,13 @@
 
 **步骤 1:** 每当我们用命令 ***安装包时，npm 安装<包名>*** ，npm 将缓存存储在用户文件系统内部。Windows 上存储缓存数据的默认目录是***% AppData %/NPM-cache***。所以，我们需要先清理缓存。可以使用以下命令清理缓存。
 
-```
+```js
 npm cache clean --force 
 ```
 
 **步骤 2:** 之后，您可以使用以下命令验证缓存:
 
-```
+```js
 npm cache verify
 ```
 
@@ -35,7 +35,7 @@ npm cache verify
 
 **第 7 步:**如果 Node.js 仍未卸载，则打开命令提示符并键入以下命令:
 
-```
+```js
 where node
 ```
 

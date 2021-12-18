@@ -28,7 +28,7 @@ Libuv 就是其中之一，我们来详细讨论一下 **libuv** 。
 **Libuv 将任务分配给工作线程池。但是，任务完成时发生的所有回调都在主线程上执行。
 **注意:【Node 10.5 之后工作线程也可以用来并行执行 JavaScript。默认情况下，Libuv 使用 4 个线程，但是可以使用 **UV_THREADPOOL_SIZE** 进行更改****
 
-```
+```js
 process.env.UV_THREADPOOL_SIZE = 5
 ```
 
